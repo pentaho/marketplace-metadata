@@ -19,7 +19,7 @@ XML Plugin Format
 -----------------
 The Marketplace XML is shared between Pentaho's BA Server and Spoon, but at 
 this time there are some feature differences.  Each element below specifies whether it's available in the two marketplaces.
-
+`
 <market_entry>
   <id>MY_ID</id> <!-- The ID is used to uniquely identify this plugin in the system (Both) -->
   <type>Platform</type> <!-- The type of the plugin tells the marketplace how to install the plugin, and where it's applicable. (Both)
@@ -74,7 +74,7 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text> <!-- the license 
   </versions>
         
 </market_entry>  
-
+`
 What is the review process for the plugin?
 ------------------------------------------
 At this time, the review process is informal, and can be done by any of the core 
