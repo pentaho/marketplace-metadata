@@ -11,9 +11,9 @@ http://wiki.pentaho.com/display/EAI/Market
 
 How to register your plugin
 ---------------------------
-Step 1: Clone this repository
-Step 2: Update the marketplace.xml file with your market-entry
-Step 3: Submit a pull request to have your plugin reviewed for inclusion in the marketplace!
+* Step 1: Clone this repository
+* Step 2: Update the marketplace.xml file with your market-entry
+* Step 3: Submit a pull request to have your plugin reviewed for inclusion in the marketplace!
 
 XML Plugin Format
 -----------------
