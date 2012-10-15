@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<market>
+    
+    <!-- ***************** -->
+    <!-- BA Server Plugins -->
+    <!-- ***************** -->
+        
+    <market_entry>
+        <id>marketplace</id>
+        <type>Platform</type>
+        <img>http://www.webdetails.pt/ficheiros/mk.png</img>
+        <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+        <name>Pentaho Marketplace</name>
+        <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+        <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
+        <author>Pentaho</author>
+        <author_url>http://pentaho.com</author_url>
+        <author_logo>http://www.pentaho.com/images/2011/logo.png</author_logo>
+        <versions>
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <name>Trunk</name>
+                <package_url>http://ci.analytical-labs.com/job/Webdetails-Marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
+                <description>Trunk Snapshot. Install at your own risk...</description>
+            </version>
+        </versions>
+    </market_entry>
+  
+    <market_entry>
+    	<id>pentaho-cdf-dd</id>
+        <type>Platform</type>    	
+        <img>http://www.webdetails.pt/ficheiros/cde.png</img>
+        <small_img>http://www.webdetails.pt/ficheiros/cde_plugin.png</small_img>
+        <name>Community Dashboard Editor</name>
+        <documentation_url>http://cde.webdetails.org</documentation_url>
+        <description>The Community Dashboard Editor (CDE) is the outcome of real-world needs: It was born to greatly simplify the creation, edition and rendering of dashboards.
+
+CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deploy dashboards in the Pentaho platform in a fast and effective way.
+        </description>
+        <author>WebDetails</author>
+        <author_url>http://webdetails.pt</author_url>
+        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+                <version>12.02.29</version>
+				<name>Stable</name>
+                <changelog>First Stable Release for CDE. Includes a new location for samples (inside plugin-samples)</changelog>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/271/artifact/server/plugin/dist/pentaho-cdf-dd-12.02.29.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/271/artifact/server/plugin/dist/pentaho-cdf-dd-solution-12.02.29.zip</samples_url>
+                <description>12.02.29 Release</description>
+			</version>    	                    
+			<version>
+				<branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
+				<description>Trunk Snapshot. Install at your own risk....</description>
+                <build_id>180</build_id>
+			</version>    	
+		</versions>
+    </market_entry>
+    
+    <market_entry>
+        <id>cda</id>
+        <type>Platform</type>
+        <img>http://www.webdetails.pt/ficheiros/cda.png</img>
+        <small_img>http://www.webdetails.pt/ficheiros/cda_plugin.png</small_img>
+        <name>Community Data Access</name>
+        <documentation_url>http://cda.webdetails.org</documentation_url>
+        <description>Community Data Access (CDA) is a Pentaho plugin designed for accessing data with great flexibility. Born for overcoming some cons of the older implementation, CDA allows you to access any of the various Pentaho data sources.   </description>
+        <author>WebDetails</author>
+        <author_url>http://webdetails.pt</author_url>
+        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<versions>
+			<version>
+			    <branch>STABLE</branch>
+                <version>12.03.01</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/dist/cda-12.03.01.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/dist/cda-samples-12.03.01.zip</samples_url>
+                <description>12.03.01 Release</description>
+			</version>    	                    
+			<version>
+			    <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
+				<description>Trunk Snapshot. Install at your own risk....</description>
+                <build_id>115</build_id>
+			</version>    	
+		</versions>
+    </market_entry>
+  
+    <market_entry>
+        <id>pentaho-cdf</id>
+        <type>Platform</type>
+        <img>http://www.webdetails.pt/ficheiros/cdf.png</img>
+        <small_img>http://www.webdetails.pt/ficheiros/cdf_plugin.png</small_img>
+        <name>Community Dashboards Framework</name>
+        <documentation_url>http://cdf.webdetails.org</documentation_url>
+        <description>Community Dashboards Framework (CDF) is a Pentaho plugin designed for drawing dashboards.</description>
+        <author>WebDetails</author>
+        <author_url>http://webdetails.pt</author_url>
+        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+        <versions>
+			<version>
+			    <branch>STABLE</branch>
+                <version>12.02.29</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/18/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-12.02.29.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/18/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-12.02.29.zip</samples_url>
+                <description>12.02.29 Release</description>
+			</version>    	                    
+			<version>
+			    <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+				<description>Trunk Snapshot. Install at your own risk....</description>
+                <build_id>267</build_id>
+			</version>    	
+		</versions>
+    </market_entry>
+
+    <market_entry>
+        <id>cgg</id>
+        <type>Platform</type>
+        <img>http://www.webdetails.pt/ficheiros/cgg.png</img>
+        <small_img>http://www.webdetails.pt/ficheiros/cgg_plugin.png</small_img>
+        <name>Community Graphics Generator</name>
+        <documentation_url>http://ctools.webdetails.org</documentation_url>
+        <description>Community Graphics Generator (CGG) is a Pentaho plugin designed for rendering CCC charts serverside, enabling you to embed them into Pentaho Reports.</description>
+        <author>WebDetails</author>
+        <author_url>http://webdetails.pt</author_url>    
+        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+        <installation_notes>Please remember to replace the batik, xml-apis and xmlgraphics jars on WEB-INF/lib with the ones on system/CGG/lib.</installation_notes>
+        <versions>
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Trunk Snapshot. Install at your own risk....</description>
+                <build_id>64</build_id>
+			</version>    	
+		</versions>                       
+    </market_entry>
+    
+    <market_entry>
+        <id>saiku</id>
+        <type>Platform</type>
+        <img>http://www.webdetails.pt/ficheiros/saiku.png</img>
+        <small_img>http://www.webdetails.pt/ficheiros/saiku_plugin.png</small_img>
+        <name>Saiku Analytics</name>
+        <documentation_url>http://analytical-labs.com/</documentation_url>
+        <description>Saiku is a modular open-source analysis suite offering lightweight OLAP which remains easily embeddable, extendable and configurable.
+Our RESTful server connects to existing OLAP systems, which then powers user-friendly, intuitive analytics via our lightweight JQuery based frontend.</description>
+        <author>Analytical Labs</author>
+        <author_url>http://analytical-labs.com</author_url>
+        <author_logo>http://www.webdetails.pt/ficheiros/saiku.png</author_logo>
+        <versions>
+            <version>
+                <branch>TRUNK</branch>
+                <version>Trunk</version>
+                <name>Trunk</name>
+                <package_url>http://ci.analytical-labs.com/job/saiku-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.3-SNAPSHOT.zip</package_url>
+                <description>Trunk Snapshot. Install at your own risk...</description>
+            </version>
+        </versions>
+    </market_entry>
+  
+    <!-- ***************** -->  
+    <!-- Kettle Plugins    -->
+    <!-- ***************** -->
+    
+    <market_entry>
+     <id>DummyPlugin</id>
+     <type>Step</type>
+     <name>Dummy step plugin</name>
+     <description>This is a plugin that is provided as an example on how to create a step plugin for PDI.
+This plugin is intended only to show how a plugin works, it's goal is not to be used in production situations.
+Please consult the documentation referenced below as well as the linked source code.
+</description>
+     <author>Pentaho</author>
+     <documentation_url>http:&#47;&#47;wiki.pentaho.com&#47;display&#47;EAI&#47;The+PDI+SDK</documentation_url>
+     <versions>
+         <version>
+              <version>4.4</version>
+              <package_url>http:&#47;&#47;wiki.pentaho.com&#47;download&#47;attachments&#47;23531011&#47;DummyPlugin.zip</package_url>
+              <source_url>http:&#47;&#47;source.pentaho.org&#47;svnkettleroot&#47;plugins&#47;DummyPlugin&#47;trunk&#47;</source_url>
+         </version>
+     </versions>
+     <forum_url>forums.pentaho.com&#47;forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url>http:&#47;&#47;jira.pentaho.com&#47;browse&#47;PDI</cases_url>
+     <license_name>Apache License 2.0</license_name>
+     <license_text>For more details see:
+http:&#47;&#47;www.apache.org&#47;licenses&#47;LICENSE-2.0.html</license_text>
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+     <support_organization>Pentaho</support_organization>
+     <support_url>http:&#47;&#47;www.pentaho.com&#47;services&#47;support&#47;pdi</support_url>
+   </market_entry>
+
+   <market_entry>
+     <id>ArffOutput</id>
+     <type>Step</type>
+     <name>ARFF Output</name>
+     <description>Saves data to a file in WEKA's ARFF (Attribute Relation File Format).
+</description>
+     <versions>
+         <version>
+             <version>4.x</version>
+             <package_url>http:&#47;&#47;s3.amazonaws.com&#47;kettle&#47;ArffOutput.zip</package_url>
+             <source_url>http:&#47;&#47;source.pentaho.org&#47;svnkettleroot&#47;plugins&#47;ArffOutput&#47;trunk&#47;</source_url>
+         </version>
+     </versions>
+     
+     <author>Pentaho</author>
+     <documentation_url>http://source.pentaho.org/svnkettleroot/plugins/ArffOutput/trunk/docs/ArffOutput.pdf</documentation_url>
+     <forum_url>forums.pentaho.com&#47;forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url>http:&#47;&#47;jira.pentaho.com&#47;browse&#47;PDI</cases_url>
+     <license_name>GNU GPL</license_name>
+     <license_text>For more details about the GNU General Public License v2.0 see:
+http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+     <support_organization>Pentaho</support_organization>
+     <support_url>http:&#47;&#47;www.pentaho.com&#47;services&#47;support&#47;pdi</support_url>
+   </market_entry>
+   
+   <market_entry>
+     <id>KFF</id>
+     <type>Mixed</type>
+     <name>KFF</name>
+     <description>This market entry contains a number of step and jobentry plugins from the KFF project:
+- Table compare
+- Environment configurator
+- Data Grid (in 4.1)
+- ...
+</description>
+     <versions>
+         <version>
+             <version>4.x</version>
+             <package_url>http://code.google.com/p/kettle-franchise/downloads/detail?name=kff-plugins4.zip</package_url>
+             <source_url>http://kettle-franchise.googlecode.com/svn/trunk/</source_url>
+         </version>
+     </versions>
+     <author>The KFF project members: Jan, Matt, Ricardo, Alexandre, Harris, André</author>
+     <documentation_url>http://code.google.com/p/kettle-franchise/w/list</documentation_url>
+     <forum_url>http://code.google.com/p/kettle-franchise/</forum_url>
+     <cases_url>http://code.google.com/p/kettle-franchise/issues/list</cases_url>
+     <license_name>GNU LGPL</license_name>
+     <license_text>For more details about the GNU General Lesser Public License v2.0 see:
+http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+     <support_message>Supported by the KFF project on a best-effort bases.</support_message>
+     <support_organization>The KFF project</support_organization>
+     <support_url></support_url>
+   </market_entry>
+  
+</market>
