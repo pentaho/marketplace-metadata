@@ -236,7 +236,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 	            <branch>STABLE</branch>
         		<version>12.09.21</version>
 		        <name>Stable</name>
-        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/2/artifact/dist/cdb-12.09.21.zipp</package_url>
+        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/2/artifact/dist/cdb-12.09.21.zip</package_url>
 		        <description>12.09.21 release.</description>
     		</version>		    
 	    
