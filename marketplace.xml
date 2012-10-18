@@ -162,7 +162,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
                 <branch>STABLE</branch>
         		<version>12.10.17</version>
 		        <name>Stable</name>
-        		<downloadUrl>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/16/artifact/dist/cgg-12.10.17.zip</downloadUrl>
+        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/16/artifact/dist/cgg-12.10.17.zip</package_url>
 		        <description>Release 12.10.17</description>
 		        <releaseDate>2012-10-17</releaseDate>
     		</version>        
