@@ -63,7 +63,7 @@ this time there are some feature differences.  Each element below specifies whet
           <samples_url>http://me.com/plugin.zip</samples_url> <!-- The download URL of samples for this plugin (BA Server only) -->
           <description>My Version Description</description> <!-- the description of the specific version (BA Server only) -->
           <changelog>Changes</changelog> <!-- a list of changes since the last update (BA Server only) -->
-          <build_id>12<build_id> <!-- I have no idea what this is (BA Server only) -->
+          <build_id>12<build_id> <!-- If two versions of a plugin have the same version, you can still distinguish them using the build id - useful for trunk-snapshot versions (BA Server only) -->
           
           <!-- In the BA Server, if you specify min and max parent versions, the plugin will only appear in the 
                marketplace if the BA Server is within range of those versions. -->
@@ -81,6 +81,24 @@ At this time, the review process is informal, and can be done by any of the core
 committers of the marketplace-metadata project.  The core committers will review 
 the plugin submission, and if accepted, will accept the pull request.
 
+  
+Version.xml: What is it and why should I use it?
+------------------------------------------
+ 
+version.xml is a file used by marketplace to determine which version of your plugin your user has installed.
+This will allow the marketplace to tell the user when a new version is available and he can update your plugin.
+The version.xml file should be located in the plugin root folder (where plugin.xml is) and it must follow
+the following format:
+
+<version branch='<branch>' buildId='<buildId>'><versionNumber></version>
+ 
+ * <branch> - This should be the branch from where this build originated (stable or trunk, but you can use 
+ whatever you want - GA, RC, etc)
+ * <versionNumber> - The plugin version. Can be a complex string
+ * <buildId> - This is used to differentiate between two versions who share the same version number. For instance,
+ snapshot builds that usually have the same version (TRUNK-SNAPSHOT) can still be distinguished if the buildId is
+ different. 
+ 
   
 How do I develop a plugin?
 --------------------------
