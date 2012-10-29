@@ -402,6 +402,31 @@ http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
      <support_message>Supported by the KFF project on a best-effort bases.</support_message>
      <support_organization>The KFF project</support_organization>
      <support_url></support_url>
+   </market_entry> 
+
+   <market_entry>
+     <id>market</id>
+     <type>Mixed</type>
+     <name>PDI Marketplace</name>
+     <description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
+     <author>Pentaho</author>
+     <documentation_url>http:&#47;&#47;wiki.pentaho.com&#47;display&#47;EAI&#47;The+PDI+SDK</documentation_url>
+     <versions>
+         <version>
+              <version>TRUNK-SNAPSHOT</version>
+              <package_url>http://ci.pentaho.com/job/Kettle/lastSuccessfulBuild/artifact/Kettle/src-plugins/market/dist/market.zip</package_url>
+              <source_url>http:&#47;&#47;source.pentaho.org&#47;svnkettleroot&#47;Kettle&#47;trunk&#47;src-plugins&#47;market&#47;</source_url>
+         </version>
+     </versions>
+     <forum_url>forums.pentaho.com&#47;forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url>http:&#47;&#47;jira.pentaho.com&#47;browse&#47;PDI</cases_url>
+     <license_name>Apache License 2.0</license_name>
+     <license_text>For more details see:
+http:&#47;&#47;www.apache.org&#47;licenses&#47;LICENSE-2.0.html</license_text>
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+     <support_organization>Pentaho</support_organization>
+     <support_url>http:&#47;&#47;www.pentaho.com&#47;services&#47;support&#47;pdi</support_url>
    </market_entry>
   
 </market>
