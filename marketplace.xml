@@ -373,7 +373,8 @@ http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
      <support_organization>Pentaho</support_organization>
      <support_url>http:&#47;&#47;www.pentaho.com&#47;services&#47;support&#47;pdi</support_url>
    </market_entry>
-   
+
+<!--  The KFF plugin is temporarily commented out until Mixed plugins (other than the marketplace itself) are supported   
    <market_entry>
      <id>KFF</id>
      <type>Mixed</type>
@@ -387,7 +388,7 @@ http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
      <versions>
          <version>
              <version>4.x</version>
-             <package_url>http://code.google.com/p/kettle-franchise/downloads/detail?name=kff-plugins4.zip</package_url>
+             <package_url>http://kettle-franchise.googlecode.com/files/kff-plugins4.zip</package_url>
              <source_url>http://kettle-franchise.googlecode.com/svn/trunk/</source_url>
          </version>
      </versions>
@@ -403,7 +404,7 @@ http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
      <support_organization>The KFF project</support_organization>
      <support_url></support_url>
    </market_entry> 
-
+ -->
    <market_entry>
      <id>market</id>
      <type>Mixed</type>
