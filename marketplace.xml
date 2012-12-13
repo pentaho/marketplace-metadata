@@ -429,5 +429,28 @@ http:&#47;&#47;www.apache.org&#47;licenses&#47;LICENSE-2.0.html</license_text>
      <support_organization>Pentaho</support_organization>
      <support_url>http:&#47;&#47;www.pentaho.com&#47;services&#47;support&#47;pdi</support_url>
    </market_entry>
+   
+   <market_entry>
+        <id>OpenI</id>
+        <type>Platform</type>
+        <img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
+        <small_img></small_img>
+        <name>OpenI-Pentaho Plugin</name>
+        <documentation_url>http://wiki.openi.org/</documentation_url>
+        <description>OpenI plugin for Pentaho CE provides a simple and clean user interface to visualize data in OLAP cubes. It supports both direct Mondrian and xmla based connections like Microsoft SQL Server Analysis Services (SSAS), plus provides add-on features like Explore Cube Data, custom SQL for drillthrough data, publishing drillthrough data to external web services etc</description>
+        <author>OpenI</author>
+        <author_url>http://www.openi.org/</author_url>
+        <author_logo>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</author_logo>
+        <license>GNU General Public License version 2.0 (GPLv2)</license>   
+        <versions>
+            <version>
+                <branch>Stable</branch>
+                <version>3.0.1</version>
+                <name>OpenI-Pentaho 3.0.1</name>
+                <package_url>http://downloads.sourceforge.net/project/openi/openi-3.0/openi-pentaho-plugin-3.0.1.zip</package_url>
+                <description>OpenI Plugin is available on both sourceforge.net(http://sourceforge.net/projects/openi) and github(https://www.github.com/openi/)</description>
+            </version>
+        </versions>
+    </market_entry>
   
 </market>
