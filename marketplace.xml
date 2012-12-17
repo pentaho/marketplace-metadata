@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <market>
     
     <!-- ***************** -->
@@ -45,25 +45,23 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <license>MPL 2.0</license>
 		<versions>
 			<version>
-				<branch>STABLE</branch>
-        <version>12.10.17</version>
+        <branch>STABLE</branch>
+		<version>12.12.10</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/289/artifact/server/plugin/dist/pentaho-cdf-dd-12.10.17.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/289/artifact/server/plugin/dist/pentaho-cdf-dd-solution-12.10.17.zip</samples_url>
-		<description>Release 12.10.17</description>
-		<build_id/>				
-		<releaseDate>2012-10-17</releaseDate>
-				
-			</version>    	                    
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-12.12.10.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-12.12.10.zip</samples_url>
+		<description>Release 12.12.10</description>
+		<build_id/>
+		</version>    	                    
 			<version>
-				<branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
-				<description>Trunk Snapshot. Install at your own risk....</description>
-                <build_id>307</build_id>
-			</version>    	
+        <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
+		<build_id>367</build_id>
+		</version>    	
 		</versions>
 		
        <screenshots>
@@ -89,23 +87,23 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
      <license>MPL 2.0</license>        
 		<versions>
 			<version>
-			    <branch>STABLE</branch>			    
-                <name>Stable</name>
-                <version>12.10.17</version>
-        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/62/artifact/dist/cda-12.10.17.zip</package_url>
-		        <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/62/artifact/dist/cda-samples-12.10.17.zip</samples_url>
-        		<description>12.10.17 release.</description>		
-        		<releaseDate>2012-10-17</releaseDate>        		
-			</version>    	                    
+	    <branch>STABLE</branch>
+		<version>12.12.10</version>
+		<name>Stable</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/dist/cda-12.12.10.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/dist/cda-samples-12.12.10.zip</samples_url>
+		<description>12.12.10 release.</description>
+		<build_id/>
+		</version>    	                    
 			<version>
-			    <branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
-				<description>Trunk Snapshot. Install at your own risk....</description>
-                <build_id>197</build_id>
-			</version>    	
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>217</build_id>
+		</version>    	
 		</versions>
     </market_entry>
   
@@ -123,24 +121,23 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
          <license>MPL 2.0</license>
         <versions>
 			<version>
-			    <branch>STABLE</branch>			    
-            	<version>12.10.17</version>
-		        <name>Stable</name>
-        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/35/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-12.10.17.zip</package_url>
-		        <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/35/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-12.10.17.zip</samples_url>
-        		<description>Stable Release</description>
-                <description>12.10.17 Release</description>
-                <releaseDate>2012-10-17</releaseDate>
-			</version>    	                    
+	    <branch>STABLE</branch>
+		<version>12.12.11</version>
+		<name>Stable</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-12.12.11.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-12.12.11.zip</samples_url>
+		<description>Stable Release</description>
+		<build_id/>
+		</version>    	                    
 			<version>
-			    <branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
-				<description>Trunk Snapshot. Install at your own risk....</description>
-                <build_id>372</build_id>
-			</version>    	
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>411</build_id>
+		</version>    	
 		</versions>
     </market_entry>
 
@@ -159,22 +156,22 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <installation_notes>Please remember to replace the batik, xml-apis and xmlgraphics jars on WEB-INF/lib with the ones on system/CGG/lib.</installation_notes>
         <versions>
             <version>
-                <branch>STABLE</branch>
-        		<version>12.10.17</version>
-		        <name>Stable</name>
-        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/16/artifact/dist/cgg-12.10.17.zip</package_url>
-		        <description>Release 12.10.17</description>
-		        <releaseDate>2012-10-17</releaseDate>
-    		</version>        
+	    <branch>STABLE</branch>
+		<version>12.12.04</version>
+		<name>Stable</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/dist/cgg-12.12.04.zip</package_url>
+		<description>12.12.04 release.</description>
+		<build_id/>
+		</version>        
         
             <version>
-                <branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
-				<description>Trunk Snapshot. Install at your own risk....</description>
-                <build_id>90</build_id>
-			</version>    	
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>97</build_id>
+		</version>    	
 		</versions>                       
     </market_entry>
     
@@ -194,23 +191,22 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
     	<versions>
     	
     	       <version>
-	            <branch>STABLE</branch>
-        		<version>12.09.21</version>
-		        <name>Stable</name>
-        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV-Release/7/artifact/dist/cdv-12.09.21.zip</package_url>
-        		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDV-Release/7/artifact/dist/cdv-samples-12.09.21.zip</samples_url>
-		        <description>12.09.21 release</description>
-    		</version>		
+	    <branch>STABLE</branch>
+		<version>12.12.10</version>
+		<name>Stable</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV-Release/lastSuccessfulBuild/artifact/dist/cdv-12.12.10.zip</package_url>
+		<description>12.12.10 release</description>
+		<build_id/>
+		</version>		
     	
 			<version>
-			    <branch>TRUNK</branch>
-        		<version>TRUNK-SNAPSHOT</version>
-		        <name>Trunk</name>
-        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV/lastSuccessfulBuild/artifact/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
-        		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDV/lastSuccessfulBuild/artifact/dist/cdv-samples-TRUNK-SNAPSHOT.zip</samples_url>
-	        	<description>Trunk snapshot. install at your own risk...</description>
-		        <build_id>113</build_id>
-    		</version>    	
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV/lastSuccessfulBuild/artifact/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>128</build_id>
+		</version>    	
 		
 	 
 		</versions>                       
@@ -233,21 +229,22 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 	    <versions>
 	    
 	        <version>
-	            <branch>STABLE</branch>
-        		<version>12.09.21</version>
-		        <name>Stable</name>
-        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/2/artifact/dist/cdb-12.09.21.zip</package_url>
-		        <description>12.09.21 release.</description>
-    		</version>		    
+        <branch>STABLE</branch>
+		<version>12.12.11</version>
+		<name>Stable</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/lastSuccessfulBuild/artifact/dist/cdb-12.12.11.zip</package_url>
+		<description>12.12.11 release.</description>
+		<build_id/>
+		</version>		    
 	    
 			<version>
-			    <branch>TRUNK</branch>
-		        <version>TRUNK-SNAPSHOT</version>
-        		<name>Trunk</name>
-		        <package_url>http://ci.analytical-labs.com/job/Webdetails-CDB/lastSuccessfulBuild/artifact/dist/cdb-TRUNK-SNAPSHOT.zip</package_url>
-        		<description>Trunk Snapshot. Install at your own risk....</description>
-		        <build_id>74</build_id>
-    		</version>    			
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB/lastSuccessfulBuild/artifact/dist/cdb-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>90</build_id>
+		</version>    			
 	
 		</versions>                       
     </market_entry>    
@@ -270,21 +267,22 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
     	<versions>
     	
       <version>
-	            <branch>STABLE</branch>
-        		<version>12.09.21</version>
-		        <name>Stable</name>
-        		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC-Release/3/artifact/dist/cdc-12.09.21.zip</package_url>
-		        <description>12.09.21 release.</description>
-    		</version>		    	
+	    <branch>STABLE</branch>
+		<version>12.12.10</version>
+		<name>Stable</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC-Release/lastSuccessfulBuild/artifact/dist/cdc-12.12.10.zip</package_url>
+		<description>12.12.10 release.</description>
+		<build_id/>
+		</version>		    	
     	
 			<version>
-			    <branch>TRUNK</branch>
-	        	<version>TRUNK-SNAPSHOT</version>
-        		<name>Trunk</name>
-		        <package_url>http://ci.analytical-labs.com/job/Webdetails-CDC/lastSuccessfulBuild/artifact/dist/cdc-TRUNK-SNAPSHOT.zip</package_url>
-        		<description>Trunk Snapshot. Install at your own risk....</description>
-		        <build_id>115</build_id>
-    		</version>    				  
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC/lastSuccessfulBuild/artifact/dist/cdc-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>125</build_id>
+		</version>    				  
 		</versions>                       
     </market_entry>    
     
@@ -328,23 +326,23 @@ This plugin is intended only to show how a plugin works, it's goal is not to be 
 Please consult the documentation referenced below as well as the linked source code.
 </description>
      <author>Pentaho</author>
-     <documentation_url>http:&#47;&#47;wiki.pentaho.com&#47;display&#47;EAI&#47;The+PDI+SDK</documentation_url>
+     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
      <versions>
          <version>
               <version>4.4</version>
-              <package_url>http:&#47;&#47;wiki.pentaho.com&#47;download&#47;attachments&#47;23531011&#47;DummyPlugin.zip</package_url>
-              <source_url>http:&#47;&#47;source.pentaho.org&#47;svnkettleroot&#47;plugins&#47;DummyPlugin&#47;trunk&#47;</source_url>
+              <package_url>http://wiki.pentaho.com/download/attachments/23531011/DummyPlugin.zip</package_url>
+              <source_url>http://source.pentaho.org/svnkettleroot/plugins/DummyPlugin/trunk/</source_url>
          </version>
      </versions>
-     <forum_url>forums.pentaho.com&#47;forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>http:&#47;&#47;jira.pentaho.com&#47;browse&#47;PDI</cases_url>
+     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
      <license_name>Apache License 2.0</license_name>
      <license_text>For more details see:
-http:&#47;&#47;www.apache.org&#47;licenses&#47;LICENSE-2.0.html</license_text>
+http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
      <support_level>PROFESSIONALLY_SUPPORTED</support_level>
      <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
      <support_organization>Pentaho</support_organization>
-     <support_url>http:&#47;&#47;www.pentaho.com&#47;services&#47;support&#47;pdi</support_url>
+     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
    </market_entry>
 
    <market_entry>
@@ -356,22 +354,22 @@ http:&#47;&#47;www.apache.org&#47;licenses&#47;LICENSE-2.0.html</license_text>
      <versions>
          <version>
              <version>4.x</version>
-             <package_url>http:&#47;&#47;s3.amazonaws.com&#47;kettle&#47;ArffOutput.zip</package_url>
-             <source_url>http:&#47;&#47;source.pentaho.org&#47;svnkettleroot&#47;plugins&#47;ArffOutput&#47;trunk&#47;</source_url>
+             <package_url>http://s3.amazonaws.com/kettle/ArffOutput.zip</package_url>
+             <source_url>http://source.pentaho.org/svnkettleroot/plugins/ArffOutput/trunk/</source_url>
          </version>
      </versions>
      
      <author>Pentaho</author>
      <documentation_url>http://source.pentaho.org/svnkettleroot/plugins/ArffOutput/trunk/docs/ArffOutput.pdf</documentation_url>
-     <forum_url>forums.pentaho.com&#47;forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>http:&#47;&#47;jira.pentaho.com&#47;browse&#47;PDI</cases_url>
+     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
      <license_name>GNU GPL</license_name>
      <license_text>For more details about the GNU General Public License v2.0 see:
-http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
+http://www.gnu.org/licenses/gpl-2.0.html</license_text>
      <support_level>PROFESSIONALLY_SUPPORTED</support_level>
      <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
      <support_organization>Pentaho</support_organization>
-     <support_url>http:&#47;&#47;www.pentaho.com&#47;services&#47;support&#47;pdi</support_url>
+     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
    </market_entry>
 
 <!--  The KFF plugin is temporarily commented out until Mixed plugins (other than the marketplace itself) are supported   
@@ -411,30 +409,30 @@ http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
      <name>PDI Marketplace</name>
      <description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
      <author>Pentaho</author>
-     <documentation_url>http:&#47;&#47;wiki.pentaho.com&#47;display&#47;EAI&#47;The+PDI+SDK</documentation_url>
+     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
      <versions>
          <version>
               <version>TRUNK-SNAPSHOT</version>
               <package_url>http://ci.pentaho.com/job/Kettle/lastSuccessfulBuild/artifact/Kettle/src-plugins/market/dist/market.zip</package_url>
-              <source_url>http:&#47;&#47;source.pentaho.org&#47;svnkettleroot&#47;Kettle&#47;trunk&#47;src-plugins&#47;market&#47;</source_url>
+              <source_url>http://source.pentaho.org/svnkettleroot/Kettle/trunk/src-plugins/market/</source_url>
          </version>
      </versions>
-     <forum_url>forums.pentaho.com&#47;forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>http:&#47;&#47;jira.pentaho.com&#47;browse&#47;PDI</cases_url>
+     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
      <license_name>Apache License 2.0</license_name>
      <license_text>For more details see:
-http:&#47;&#47;www.apache.org&#47;licenses&#47;LICENSE-2.0.html</license_text>
+http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
      <support_level>PROFESSIONALLY_SUPPORTED</support_level>
      <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
      <support_organization>Pentaho</support_organization>
-     <support_url>http:&#47;&#47;www.pentaho.com&#47;services&#47;support&#47;pdi</support_url>
+     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
    </market_entry>
    
    <market_entry>
         <id>OpenI</id>
         <type>Platform</type>
         <img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
-        <small_img></small_img>
+        <small_img/>
         <name>OpenI-Pentaho Plugin</name>
         <documentation_url>http://wiki.openi.org/</documentation_url>
         <description>OpenI plugin for Pentaho CE provides a simple and clean user interface to visualize data in OLAP cubes. It supports both direct Mondrian and xmla based connections like Microsoft SQL Server Analysis Services (SSAS), plus provides add-on features like Explore Cube Data, custom SQL for drillthrough data, publishing drillthrough data to external web services etc</description>
