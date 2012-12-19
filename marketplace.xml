@@ -62,6 +62,19 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
 		<build_id>367</build_id>
 		</version>    	
+		
+			<version>
+	    <branch>CCC_V2</branch>
+		<version>CCC_V2</version>
+		<name>CCC V2</name>
+		<package_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-dd-CCC_V2.zip</package_url>
+		<samples_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-dd-solution-CCC_V2.zip</samples_url>
+		<description>CCC V2 is here! Check the new features by downloading this version of CDE (don't forget the CDF as well).</description>
+		<build_id>10</build_id>
+		</version>    	
+		
+		
+		
 		</versions>
 		
        <screenshots>
@@ -138,6 +151,18 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>411</build_id>
 		</version>    	
+
+			<version>
+	    <branch>CCC_V2</branch>
+		<version>CCC_V2</version>
+		<name>CCC V2</name>
+		<package_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-CCC_V2.zip</package_url>
+		<samples_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-samples-CCC_V2.zip</samples_url>
+		<description>CCC V2 is here! Check the new features by downloading this version of CDF (don't forget the CDE as well).</description>
+		<build_id>10</build_id>
+		</version>    	
+
+
 		</versions>
     </market_entry>
 
