@@ -329,12 +329,19 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
         <license>ASL 2.0</license>   
         <versions>
             <version>
+                <branch>STABLE</branch>
+                <version>2.4</version>
+                <name>Stable</name>
+                <package_url>http://analytical-labs.com/downloads/saiku-plugin-2.4.zip</package_url>
+                <description>2.4 release for the Saiku Plugin</description>
+            </version>        
+            <version>
                 <branch>TRUNK</branch>
                 <version>Trunk</version>
                 <name>Trunk</name>
                 <package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.5-SNAPSHOT.zip</package_url>
                 <description>Trunk Snapshot. Install at your own risk...</description>
-            </version>
+            </version>                                
         </versions>
     </market_entry>
   
