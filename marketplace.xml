@@ -126,10 +126,10 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <versions>
 			<version>
 	    <branch>STABLE</branch>
-		<version>13.01.07</version>
+		<version>13.02.07</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.01.07.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.01.07.zip</samples_url>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.02.07.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.02.07.zip</samples_url>
 		<description>Stable Release</description>
 		<build_id/>
 		</version>    	                    
