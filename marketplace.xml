@@ -289,6 +289,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
         <license>MPL 2.0</license>
         <dependencies>CDE, CDA, CDF</dependencies>        
+                <installation_notes>Please remember to copy the contents of system/cdc/pentaho-lib to webapps/pentaho/WEB-INF/lib.</installation_notes>
     	<versions>
     	
       <version>
