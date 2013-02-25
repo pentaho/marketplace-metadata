@@ -46,11 +46,11 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<versions>
 			<version>
         <branch>STABLE</branch>
-		<version>12.12.17</version>
+		<version>13.02.07</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-12.12.17.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-12.12.17.zip</samples_url>
-		<description>Release 12.12.17</description>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-13.02.07.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-13.02.07.zip</samples_url>
+		<description>Release 13.02.07</description>
 		<build_id/>
 		</version>    	                    
 			<version>
@@ -60,18 +60,9 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
 		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
-		<build_id>367</build_id>
+		<build_id>2</build_id>
 		</version>    	
 		
-			<version>
-	    <branch>CCC_V2</branch>
-		<version>CCC_V2</version>
-		<name>CCC V2</name>
-		<package_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-dd-CCC_V2.zip</package_url>
-		<samples_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-dd-solution-CCC_V2.zip</samples_url>
-		<description>CCC V2 is here! Check the new features by downloading this version of CDE (don't forget the CDF as well).</description>
-		<build_id>10</build_id>
-		</version>    	
 		
 		
 		
@@ -101,11 +92,11 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<versions>
 			<version>
 	    <branch>STABLE</branch>
-		<version>12.12.10</version>
+		<version>13.02.07</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/dist/cda-12.12.10.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/dist/cda-samples-12.12.10.zip</samples_url>
-		<description>12.12.10 release.</description>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/dist/cda-13.02.07.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/dist/cda-samples-13.02.07.zip</samples_url>
+		<description>13.02.07 release.</description>
 		<build_id/>
 		</version>    	                    
 			<version>
@@ -115,7 +106,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
 		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>217</build_id>
+		<build_id>3</build_id>
 		</version>    	
 		</versions>
     </market_entry>
@@ -135,10 +126,10 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <versions>
 			<version>
 	    <branch>STABLE</branch>
-		<version>12.12.11</version>
+		<version>13.02.07</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-12.12.11.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-12.12.11.zip</samples_url>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.02.07.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.02.07.zip</samples_url>
 		<description>Stable Release</description>
 		<build_id/>
 		</version>    	                    
@@ -149,18 +140,9 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
 		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>411</build_id>
+		<build_id>6</build_id>
 		</version>    	
 
-			<version>
-	    <branch>CCC_V2</branch>
-		<version>CCC_V2</version>
-		<name>CCC V2</name>
-		<package_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-CCC_V2.zip</package_url>
-		<samples_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-samples-CCC_V2.zip</samples_url>
-		<description>CCC V2 is here! Check the new features by downloading this version of CDF (don't forget the CDE as well).</description>
-		<build_id>10</build_id>
-		</version>    	
 
 
 		</versions>
@@ -182,10 +164,10 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <versions>
             <version>
 	    <branch>STABLE</branch>
-		<version>12.12.04</version>
+		<version>13.01.07</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/dist/cgg-12.12.04.zip</package_url>
-		<description>12.12.04 release.</description>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/dist/cgg-13.01.07.zip</package_url>
+		<description>13.01.07 release.</description>
 		<build_id/>
 		</version>        
         
@@ -195,7 +177,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<name>Trunk</name>
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>97</build_id>
+		<build_id>2</build_id>
 		</version>    	
 		</versions>                       
     </market_entry>
@@ -217,10 +199,10 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
     	
     	       <version>
 	    <branch>STABLE</branch>
-		<version>12.12.10</version>
+		<version>13.01.07</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV-Release/lastSuccessfulBuild/artifact/dist/cdv-12.12.10.zip</package_url>
-		<description>12.12.10 release</description>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV-Release/lastSuccessfulBuild/artifact/dist/cdv-13.01.07.zip</package_url>
+		<description>13.01.07 release</description>
 		<build_id/>
 		</version>		
     	
@@ -230,7 +212,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<name>Trunk</name>
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV/lastSuccessfulBuild/artifact/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>128</build_id>
+		<build_id>2</build_id>
 		</version>    	
 		
 	 
@@ -255,10 +237,10 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 	    
 	        <version>
         <branch>STABLE</branch>
-		<version>12.12.11</version>
+		<version>13.01.07</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/lastSuccessfulBuild/artifact/dist/cdb-12.12.11.zip</package_url>
-		<description>12.12.11 release.</description>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/lastSuccessfulBuild/artifact/dist/cdb-13.01.07.zip</package_url>
+		<description>13.01.07 release.</description>
 		<build_id/>
 		</version>		    
 	    
@@ -268,7 +250,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<name>Trunk</name>
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB/lastSuccessfulBuild/artifact/dist/cdb-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>90</build_id>
+		<build_id>2</build_id>
 		</version>    			
 	
 		</versions>                       
@@ -294,10 +276,10 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
     	
       <version>
 	    <branch>STABLE</branch>
-		<version>12.12.10</version>
+		<version>13.02.07</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC-Release/lastSuccessfulBuild/artifact/dist/cdc-12.12.10.zip</package_url>
-		<description>12.12.10 release.</description>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC-Release/lastSuccessfulBuild/artifact/dist/cdc-13.02.07.zip</package_url>
+		<description>13.02.07 release.</description>
 		<build_id/>
 		</version>		    	
     	
@@ -307,7 +289,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<name>Trunk</name>
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC/lastSuccessfulBuild/artifact/dist/cdc-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>125</build_id>
+		<build_id>2</build_id>
 		</version>    				  
 		</versions>                       
     </market_entry>    
@@ -330,12 +312,19 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
         <license>ASL 2.0</license>   
         <versions>
             <version>
+                <branch>STABLE</branch>
+                <version>2.4</version>
+                <name>Stable</name>
+                <package_url>http://analytical-labs.com/downloads/saiku-plugin-2.4.zip</package_url>
+                <description>2.4 release for the Saiku Plugin</description>
+            </version>        
+            <version>
                 <branch>TRUNK</branch>
                 <version>Trunk</version>
                 <name>Trunk</name>
-                <package_url>http://ci.analytical-labs.com/job/saiku-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.5-SNAPSHOT.zip</package_url>
+                <package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.5-SNAPSHOT.zip</package_url>
                 <description>Trunk Snapshot. Install at your own risk...</description>
-            </version>
+            </version>                                
         </versions>
     </market_entry>
   
