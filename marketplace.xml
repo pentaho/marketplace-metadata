@@ -336,11 +336,12 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
      <id>AndroidPushNotification</id>
      <type>Step</type>
      <name>Android Push Notification</name>
-     <description>This is a plugin that allows send push notifications from Pentaho Data Integration to any android application that enable GCM service. This plugin is written in Scala!
+     <description>This is a plugin that allows send push notifications from Pentaho Data Integration to any android application that enable GCM service. This plugin is written in Scala.
 The motivation for developed this plugin is for you, as ETL Developer, receive a quickly notifications about state of ETL executions in any place (than faster email), you can use my android app with name PDI Manager. 
 However, this plugin can be use for other's scenarios.
 </description>
-     <author>Pentaho</author>
+     <author>Joel Latino</author>
+     <author_url>http://about.me/latinojoel</author_url>
      <documentation_url>https://github.com/latinojoel/pdi-android-pushnotifications/blob/master/README.md</documentation_url>
      <cases_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</cases_url>
      <license_name>GNU General Public License v3</license_name>
