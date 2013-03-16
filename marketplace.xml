@@ -342,7 +342,7 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
      <versions>
          <version>
               <version>TRUNK-SNAPSHOT</version>
-              <package_url>https://pentaho.box.com/s/qllv3c2bo1eiv0o5f468</package_url>
+              <package_url>https://pentaho.box.com/shared/static/qllv3c2bo1eiv0o5f468.zip</package_url>
               <source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
          </version>
      </versions>
