@@ -331,6 +331,31 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
     <!-- ***************** -->  
     <!-- Kettle Plugins    -->
     <!-- ***************** -->
+
+   <market_entry>
+     <id>pdi-mysql-plugin</id>
+     <type>Database</type>
+     <name>PDI MySQL Plugin</name>
+     <description>This plugin also contains the GPL MySQL JDBC Driver version 5</description>
+     <author>Pentaho</author>
+     <documentation_url>http://wiki.pentaho.com/display/EAI/MySQL</documentation_url>
+     <versions>
+         <version>
+              <version>TRUNK-SNAPSHOT</version>
+              <package_url>https://pentaho.box.com/shared/static/qllv3c2bo1eiv0o5f468.zip</package_url>
+              <source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
+         </version>
+     </versions>
+     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+     <license_name>GPL 2.0</license_name>
+     <license_text>For more details see:
+http://www.gnu.org/licenses/gpl-2.0.txt</license_text>
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+     <support_organization>Pentaho</support_organization>
+     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
+   </market_entry>
     
     <market_entry>
      <id>AndroidPushNotification</id>
