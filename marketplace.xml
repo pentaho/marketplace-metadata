@@ -5,6 +5,7 @@
     <!-- BA Server Plugins -->
     <!-- ***************** -->
         
+        <!--
     <market_entry>
         <id>marketplace</id>
         <type>Platform</type>
@@ -27,7 +28,7 @@
             </version>
         </versions>
     </market_entry>
-  
+  -->
     <market_entry>
     	<id>pentaho-cdf-dd</id>
         <type>Platform</type>    	
