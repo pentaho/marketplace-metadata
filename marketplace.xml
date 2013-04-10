@@ -472,6 +472,33 @@ http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
      <support_url></support_url>
    </market_entry> 
  -->
+ 
+    <market_entry>
+     <id>kettle5-profiling-datacleaner</id>
+     <type>Mixed</type>
+     <name>DataCleaner Data Profiling for Kettle version 5 or higher</name>
+     <description>This plugin provides a Spoon v5 plugin with integration directly into transformation steps and the database explorer.
+It also provides a job entry for batch processing of DataCleaner jobs.</description>
+     <versions>
+         <version>
+             <version>3.1.1</version>
+             <package_url>https://pentaho.box.com/shared/static/8krh22v7g18ukn56clp8.zip</package_url>
+	     <source_url>http://source.pentaho.org/svnkettleroot/plugins/kettle-profiling-datacleaner/</source_url>
+         </version>
+     </versions>
+     <author>Human Inference - eobjects - Kasper Sørensen</author>
+     <documentation_url>http://datacleaner.org/docs</documentation_url>
+     <forum_url>http://datacleaner.org/forum/1</forum_url>
+     <cases_url>http://eobjects.org/trac/</cases_url>
+     <license_name>GNU LGPL</license_name>
+     <license_text>For more details about the GNU General Lesser Public License v2.0 see:
+http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Professional support, training and consultancy for DataCleaner is offered by Human Inference upon request.</support_message>
+     <support_organization>Human Inference</support_organization>
+     <support_url>http://datacleaner.org/support</support_url>
+   </market_entry> 
+ 
    <market_entry>
      <id>market</id>
      <type>Mixed</type>
