@@ -90,12 +90,12 @@ This will allow the marketplace to tell the user when a new version is available
 The version.xml file should be located in the plugin root folder (where plugin.xml is) and it must follow
 the following format:
 
-<version branch='<branch>' buildId='<buildId>'><versionNumber></version>
- 
- * <branch> - This should be the branch from where this build originated (stable or trunk, but you can use 
+    <version branch='<branch>' buildId='<buildId>'><versionNumber></version>
+
+ * &lt;branch&gt; - This should be the branch from where this build originated (stable or trunk, but you can use 
  whatever you want - GA, RC, etc)
- * <versionNumber> - The plugin version. Can be a complex string
- * <buildId> - This is used to differentiate between two versions who share the same version number. For instance,
+ * &lt;versionNumber&gt; - The plugin version. Can be a complex string
+ *  &lt;buildId&gt; - This is used to differentiate between two versions who share the same version number. For instance,
  snapshot builds that usually have the same version (TRUNK-SNAPSHOT) can still be distinguished if the buildId is
  different. 
  
