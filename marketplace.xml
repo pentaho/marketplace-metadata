@@ -128,10 +128,10 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <versions>
 			<version>
 	    <branch>STABLE</branch>
-		<version>13.03.25</version>
+		<version>13.06.05</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.03.25.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.03.25.zip</samples_url>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.06.05.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.06.05.zip</samples_url>
 		<description>Stable Release</description>
 		<build_id/>
 		</version>    	                    
@@ -142,7 +142,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
 		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>74</build_id>
+		<build_id>136</build_id>
 		</version>    	
 
 
