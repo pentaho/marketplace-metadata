@@ -605,5 +605,31 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
             </version>
         </versions>
     </market_entry>
+
+    <market_entry>
+     <id>BucketPartitioner</id>
+     <type>Partitioner</type>
+     <name>Bucket Partitioner</name>
+     <description>Partitions rows based on the quotient (rather than the remainder)</description>
+     <versions>
+         <version>
+             <version>1.0</version>
+             <package_url>https://pentaho.box.com/shared/static/fcvlirqac4k6semj6q7d.zip</package_url>
+             <source_url>https://github.com/mattyb149/BucketPartitioner</source_url>
+         </version>
+     </versions>
+     
+     <author>Matt Burgess</author>
+     <documentation_url>https://github.com/mattyb149/BucketPartitioner/wiki</documentation_url>
+     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url></cases_url>
+     <license_name>Apache 2.0</license_name>
+     <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+     <support_organization>Pentaho Developer Community</support_organization>
+     <support_url>http://kettle.pentaho.com</support_url>
+   </market_entry>
+
   
 </market>
