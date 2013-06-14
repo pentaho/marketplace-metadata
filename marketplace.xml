@@ -528,6 +528,34 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
    </market_entry>
    
    <market_entry>
+      <id>CmisInput</id>
+      <type>Step</type>
+      <name>CMIS Input</name>
+      <description>The CMIS Input plugin make you able to extract from your Enterprise Content Management System, all the metadata of your documents using simple queries with a query language very close to the traditional SQL.</description>
+      <documentation_url>http://francescocorti.wordpress.com/pdi-cmis-input/</documentation_url>
+      <author>Francesco Corti</author>
+      <author_url>http://francescocorti.wordpress.com</author_url>
+      <author_logo>http://francescocorti.files.wordpress.com/2012/12/copy-francescosmall1.jpg</author_logo>
+      
+      <img>http://francescocorti.files.wordpress.com/2013/01/cmisinput.png</img>
+      <small_img>http://francescocorti.files.wordpress.com/2013/04/cmisinput.png</small_img>
+      <license_name>LGPL v3</license_name>
+
+      <versions>
+        <version>
+          <branch>Stable</branch>
+          <version>1.0</version>
+          <name>1.0</name>
+          <package_url>https://cmis-input-plugin.googlecode.com/files/CMIS%20Input%20plugin%20v1.0%20for%20the%20marketplace.zip</package_url>
+          <description>Release of the plugin.</description>
+          <changelog>First release</changelog>
+          <build_id>1</build_id>
+          <min_parent_version>4.4</min_parent_version>
+        </version>
+      </versions>
+   </market_entry> 
+   
+   <market_entry>
         <id>OpenI</id>
         <type>Platform</type>
         <img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
