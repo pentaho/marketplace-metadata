@@ -494,7 +494,7 @@ http://www.gnu.org/licenses/gpl-2.0.html</license_text>
 
    <market_entry>
      <id>KFF</id>
-     <type>General</type>
+     <type>Mixed</type>
      <name>KFF</name>
      <description>This market entry contains a number of step and jobentry plugins from the KFF project:
 - Table compare
