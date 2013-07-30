@@ -657,7 +657,7 @@ All the metadata of your documents can be retrieved using simple queries with a 
    </market_entry> 
   
    <market_entry>
-     <id>weka-scoring</id>
+     <id>WekaScoring</id>
      <type>Step</type>
      <name>Weka Scoring</name>
      <description>This step allows you to push data into a Weka model and get scoring out in a transformation.</description>
