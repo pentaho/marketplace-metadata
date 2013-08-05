@@ -681,5 +681,97 @@ All the metadata of your documents can be retrieved using simple queries with a 
        </version>
      </versions>
    </market_entry> 
+
+  <market_entry>
+     <id>MDCheckPlugin</id>
+     <type>Step</type>
+     <name>MDCheck</name>
+     <description> Melissa Data Contact Verification Tools:
+
+Contact Verify Component
+• Standardize, verify, and correct U.S. and Canadian addresses
+• Verify and normalize U.S. and Canadian phones on a 7-10 digit level
+• Parse names, genderize, and detect suspicious words or companies in name field
+• Geocode addresses by assigning rooftop lat/long coordinates*
+
+SmartMover Component
+• U.S./Canadian change of address processing to update addresses of people or
+businesses that have moved
+
+MatchUp Component
+• Identify duplicate records with domain specific knowledge of contact information
+
+IP Locator Component
+• Identify web visitor's geographic location
+• Reduce fraud and geo target
+
+</description>
+     <author>Melissa Data</author>
+     <documentation_url>http://www.melissadata.com/dqt/contact-zone/index.htm</documentation_url>
+     <versions>
+         <version>
+              <version>3.1.0</version>
+              <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
+         </version>
+     </versions>
+ 
+     <license_name>MD licensing</license_name>
+	<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+     
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
+     <support_organization>Melissa Data</support_organization>
+     <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+   </market_entry>
+
+   <market_entry>
+     <id>MDGlobalAddressPlugin</id>
+     <type>Step</type>
+     <name>MDGlobalVerify</name>
+     <description> Global Verify Component
+• Address verification for over 240 countries
+• Transliteration of many major character sets and display output in either nature or  Roman characters</description>
+     <author>Melissa Data</author>
+     <documentation_url>http://w10.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
+     <versions>
+         <version>
+              <version>3.1.0</version>
+              <package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
+         </version>
+     </versions>
+ 
+     <license_name>MD licensing</license_name>
+	<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+     
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
+     <support_organization>Melissa Data</support_organization>
+     <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+   </market_entry>
+
+   <market_entry>
+     <id>MDPersonatorPlugin</id>
+     <type>Step</type>
+     <name>MDPersonator</name>
+     <description> Personator Component
+• Verifies name corresponds to address, email, and phone data
+• Appends missing name and company name, phone number, and/or email address</description>
+     <author>Melissa Data</author>
+     <documentation_url>http://w10.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
+     <versions>
+         <version>
+              <version>3.1.0</version>
+              <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
+         </version>
+     </versions>
+ 
+     <license_name>MD licensing</license_name>
+	<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+     
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
+     <support_organization>Melissa Data</support_organization>
+     <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+   </market_entry>
   
 </market>
