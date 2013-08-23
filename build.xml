@@ -1,0 +1,14 @@
+<!--===========================================================================
+  This is an Ant build file for validating the Marketplace metadata.
+============================================================================-->
+<project name="marketplace-metadata" basedir="." default="default">
+
+  <description>
+    This build file is used for validating the Marketplace metadata.
+  </description>
+	
+<target name="default">
+	<schemavalidate noNamespaceFile="marketplace.xsd" file="marketplace.xml"/>
+</target>
+	
+ </project>
