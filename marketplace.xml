@@ -775,7 +775,7 @@ IP Locator Component
    </market_entry>
    
    <market_entry>
-    <id>EasyDQPlugin</id>
+    <id>EasyDQ</id>
     <type>Step</type>
     <name>EasyDataQuality for Pentaho</name>
     <description>
@@ -803,7 +803,7 @@ IP Locator Component
     <versions>
         <version>
             <version>1.19</version>
-            <package_url>http://sourceforge.net/projects/easydq-kettle/files/EasyDQ-PDI-plugin-1.19.jar/download</package_url>
+            <package_url>http://sourceforge.net/projects/easydq-kettle/files/EasyDQ-PDI-plugin-1.19.zip/download</package_url>
         </version>
     </versions>
 	
