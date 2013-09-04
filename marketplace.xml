@@ -315,10 +315,10 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
         <versions>
             <version>
                 <branch>STABLE</branch>
-                <version>2.4</version>
+                <version>2.5</version>
                 <name>Stable</name>
-                <package_url>http://analytical-labs.com/downloads/saiku-plugin-2.4.zip</package_url>
-                <description>2.4 release for the Saiku Plugin</description>
+                <package_url>http://meteorite.bi/downloads/saiku-plugin-2.5.zip</package_url>
+                <description>2.5 release for the Saiku Plugin</description>
             </version>        
             <version>
                 <branch>TRUNK</branch>
