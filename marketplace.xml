@@ -94,11 +94,11 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<versions>
 			<version>
 	    <branch>STABLE</branch>
-		<version>13.06.05</version>
+		<version>13.09.10</version>
 		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-13.06.05.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-13.06.05.zip</samples_url>
-		<description>13.03.25 release.</description>
+		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-13.09.10.zip</package_url>
+		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-13.09.10.zip</samples_url>
+		<description>13.09.10 release.</description>
 		<build_id/>
 		</version>    	                    
 			<version>
