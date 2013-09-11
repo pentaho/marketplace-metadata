@@ -682,6 +682,33 @@ All the metadata of your documents can be retrieved using simple queries with a 
      </versions>
    </market_entry> 
 
+   <market_entry>
+     <id>GroovyConsoleSpoonPlugin</id>
+     <type>SpoonPlugin</type>
+     <name>PDI Groovy Console</name>
+     <description>This plugin (for PDI 5.0+) adds a Groovy console to the Help menu that has some helper methods 
+and classes to interact with the PDI environment.</description>
+     <author>Matt Burgess</author> 
+     <forum_url>http://forums.pentaho.com/forumdisplay.php?269-Data-Integration-Kettle</forum_url>
+     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+     <license_name>Apache License 2.0</license_name>
+     <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+     <support_message>Supported by a community of volunteers</support_message>
+     <support_organization>none</support_organization>
+     <support_url>https://github.com/mattyb149/GroovyConsoleSpoonPlugin/wiki</support_url>
+     <versions>
+        <version>
+         <branch>master</branch>
+         <version>2.0</version>
+         <name>2.0</name>
+         <package_url>https://pentaho.box.com/shared/static/09jfpshf5tgcgo0so8la.zip</package_url>
+         <source_url>https://github.com/mattyb149/GroovyConsoleSpoonPlugin</source_url>
+         <min_parent_version>5.0</min_parent_version>
+       </version>
+     </versions>
+   </market_entry>
+
   <market_entry>
      <id>MDCheckPlugin</id>
      <type>Step</type>
