@@ -548,6 +548,48 @@ http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
      <support_organization>Human Inference</support_organization>
      <support_url>http://datacleaner.org/support</support_url>
    </market_entry> 
+   
+      <market_entry>
+    <id>EasyDQ</id>
+    <type>Step</type>
+    <name>EasyDataQuality for Pentaho</name>
+    <description>
+	 
+		Combine the leading open source ETL tool with the leading data cleansing functions!
+		
+		EasyDQ delivers on demand data quality functions that are fully integrated with Pentaho Data Integration / Kettle.
+		
+		Data quality functions by Human Inference and EasyDQ available in Pentaho Data Integration:
+		
+		* Data profiling (through DataCleaner)
+		* Name cleansing
+		* Address cleansing
+		* Phone cleansing
+		* Email cleansing
+		* Detect and merge duplicates (through DataCleaner)
+		
+		Register now at www.easydq.com and start increasing the quality of your data.
+		
+    </description>
+	<img>http://www.easydq.com/media/120433/teaser_pentaho_screenshots.png</img>
+    <author>EasyDQ - Human Inference</author>
+	<author_url>http://www.easydq.com</author_url>
+    <documentation_url>http://www.easydq.com/pentaho</documentation_url>
+    <versions>
+        <version>
+            <version>1.19</version>
+            <package_url>http://sourceforge.net/projects/easydq-kettle/files/EasyDQ-PDI-plugin-1.19.zip/download</package_url>
+        </version>
+    </versions>
+	
+    <license_name>Proprietary</license_name>
+	<license_text>To get access to EasyDQ.com and the data quality services, please register at https://www.easydq.com/register</license_text>
+    
+    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_message>Please contact Human Inference Support at +31 (0)26 3550600 or email support@humaninference.com</support_message>
+    <support_organization>Human Inference</support_organization>
+    <support_url>http://www.easydq.com/faq</support_url>
+   </market_entry>
  
  
    <market_entry>
