@@ -832,7 +832,7 @@ IP Locator Component
             <version>
                 <branch>Development</branch>
                 <version>0.9-SNAPSHOT</version>
-                <build_id>263</build_id>
+                <build_id>267</build_id>
                 <name>Latest snapshot build</name>
                 <package_url>http://dev.eyeq.co.kr/jenkins/job/Pivot4J/263/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
                 <description>The latest development snapshot build.</description>
