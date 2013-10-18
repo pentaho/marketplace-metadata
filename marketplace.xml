@@ -843,4 +843,42 @@ IP Locator Component
             <screenshot>http://mysticfall.github.io/pivot4j/images/screenshot-pentaho.png</screenshot>
         </screenshots>
     </market_entry>
+    
+    
+    
+    <market_entry>
+        <id>sparkl</id>
+        <type>Platform</type>
+        <img>http://www.webdetails.pt/ficheiros/sparkl2.png</img>
+        <small_img>http://www.webdetails.pt/ficheiros/sparkl2.png</small_img>
+        <name>Sparkl</name>
+        <documentation_url>http://www.webdetails.pt/ctools.html</documentation_url>
+        <description> Sparkl, or Pentaho App Builder,
+is a plugin creator instrument
+that sits on 2 major cornerstones:
+ Ctools and PDI, aiming to leverage
+ as much as possible of our
+ existing stack. Anyone familiar
+ with those tools will be able
+ to build plugins, facilitating
+ adoption.</description>
+        <author>WebDetails</author>
+        <author_url>http://webdetails.pt</author_url>    
+        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+        <license>MPL 2.0</license>
+        <dependencies>CDE, CDF</dependencies>
+    	<versions>    	    	
+            <version>
+        	    <branch>TRUNK</branch>
+		        <version>TRUNK-SNAPSHOT</version>
+        		<name>Trunk</name>
+		        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+        		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		        <build_id>manual-20131011</build_id>
+    	    </version>    				 
+		</versions>                       
+    </market_entry>    
+    
+    
+    
 </market>
