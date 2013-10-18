@@ -873,7 +873,15 @@ that sits on 2 major cornerstones:
 		        <version>TRUNK-SNAPSHOT</version>
         		<name>Trunk</name>
 		        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-        		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+        		<description>Sparkl, or Pentaho App Builder,
+is a plugin creator instrument
+that sits on 2 major cornerstones:
+ Ctools and PDI, aiming to leverage
+ as much as possible of our
+ existing stack. Anyone familiar
+ with those tools will be able
+ to build plugins, facilitating
+ adoption.</description>
 		        <build_id>manual-20131011</build_id>
     	    </version>    				 
 		</versions>                       
