@@ -879,6 +879,37 @@ that sits on 2 major cornerstones:
 		</versions>                       
     </market_entry>    
     
+
+
+	<market_entry>
+		<id>BTable</id>
+		<type>Platform</type>    	
+		<img>http://www.biztech.it/btable/img/btable.png</img>
+		<small_img>http://www.biztech.it/btable/img/btable.png</small_img>
+		<name>BTable</name>
+		<documentation_url>http://www.biztech.it/btable</documentation_url>
+		<description>BTable is a component for the Community Dashboard Designer (CDE) that extends the standard Table Component with OLAP functionalities and provides a new drill experience... drill anywhere!</description>
+		<author>Biz Tech</author>
+		<author_url>http://www.biztech.it</author_url>
+		<author_logo>http://www.biztech.it/btable/img/biztech.png</author_logo>
+		<dependencies>CDE, CDF, CDA</dependencies>
+		<license>MPL 2.0</license>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>1.0</version>
+				<name>Stable</name>
+				<package_url></package_url>
+				<description>Release 1.0</description>
+				<build_id>manual-20131028</build_id>
+			</version>    	                    		
+		</versions>		
+	   <screenshots>
+			 <screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-01.png</screenshot>
+			 <screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-02.png</screenshot>
+	   </screenshots>
+	</market_entry>
+
     
     
 </market>
