@@ -899,7 +899,7 @@ that sits on 2 major cornerstones:
 				<branch>STABLE</branch>
 				<version>1.0</version>
 				<name>Stable</name>
-				<package_url></package_url>
+				<package_url>http://downloads.sourceforge.net/project/btable/Version1.0/BTable-STABLE-1.0.zip</package_url>
 				<description>Release 1.0</description>
 				<build_id>manual-20131028</build_id>
 			</version>    	                    		
