@@ -1049,7 +1049,7 @@ that sits on 2 major cornerstones:
         <documentation_url/>
         <description>WAQR (Web Adhoc Query and Reporting) is a report generation tool based on Web 2.0 technology (AJAX, DHTML) designed to help typical business users easily generate adhoc reports using the Pentaho BI platform. It provides a user interface that helps the user quickly identify and group the data of interest, apply constraints to the data, and generate a report. The resulting reports are viewable through WAQR's Preview feature, or through a Pentaho-platform based web application.</description>
         <author>Pentaho Legacy - Plugins developed by Pentaho but no longer supported</author>
-        author_url>http://pentaho.com</author_url>
+        <author_url>http://pentaho.com</author_url>
         <author_logo></author_logo>
         <versions>
             <version>
