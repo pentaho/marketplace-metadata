@@ -47,26 +47,39 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <license>MPL 2.0</license>
 		<versions>
 			<version>
-        <branch>STABLE</branch>
-		<version>13.09.10</version>
-		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-13.09.10.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-13.09.10.zip</samples_url>
-		<description>Release 13.09.10</description>
-		<build_id/>
-		</version>    	                    
+                <branch>STABLE</branch>
+	    	    <version>13.09.10</version>
+	        	<name>Stable</name>
+    		    <package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-13.09.10.zip</package_url>
+    		    <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-13.09.10.zip</samples_url>
+	        	<description>Release 13.09.10</description>
+    	    	<build_id/>
+                <max_parent_version>4.8</max_parent_version>
+                <min_parent_version>1.0</min_parent_version>                
+		    </version>    	                    
 			<version>
-        <branch>TRUNK</branch>
-		<version>TRUNK-SNAPSHOT</version>
-		<name>Trunk</name>
-		<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
-		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
-		<build_id>150</build_id>
-		</version>    	
+                <branch>TRUNK</branch>
+		        <version>TRUNK-SNAPSHOT</version>
+        		<name>Trunk</name>
+        		<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
+		        <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
+        		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
+        		<build_id>150</build_id>
+                <max_parent_version>4.8</max_parent_version>
+                <min_parent_version>1.0</min_parent_version>
+    		</version>    	
 		
-		
-		
+   
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <name>Trunk</name>
+                <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
+                <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
+                <description>Build for Pentaho 5.0</description>
+                <build_id>manual-20131021</build_id>
+                <min_parent_version>5.0</min_parent_version>
+            </version>
 		
 		</versions>
 		
@@ -93,13 +106,15 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
      <license>MPL 2.0</license>        
 		<versions>
 			<version>
-	    <branch>STABLE</branch>
-		<version>13.09.10</version>
+        	    <branch>STABLE</branch>
+		        <version>13.09.10</version>
 		<name>Stable</name>
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-13.09.10.zip</package_url>
 		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-13.09.10.zip</samples_url>
 		<description>13.09.10 release.</description>
 		<build_id/>
+        <max_parent_version>4.8</max_parent_version>
+                <min_parent_version>1.0</min_parent_version>        
 		</version>    	                    
 			<version>
 	    <branch>TRUNK</branch>
@@ -108,8 +123,20 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
 		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>98</build_id>
+		<build_id>98</build_id> 
+		<max_parent_version>4.8</max_parent_version>
+		                <min_parent_version>1.0</min_parent_version>
 		</version>    	
+		
+        <version>
+            <branch>STABLE</branch>
+            <version>TRUNK-SNAPSHOT</version>
+            <name>Trunk</name>
+            <package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+            <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
+            <description>Build for Pentaho 5.0</description>
+            <build_id/>
+            <min_parent_version>5.0</min_parent_version></version>				
 		</versions>
     </market_entry>
   
@@ -133,6 +160,8 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.09.10.zip</package_url>
 		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.09.10.zip</samples_url>
 		<description>Stable Release</description>
+		<max_parent_version>4.8</max_parent_version>	
+		                <min_parent_version>1.0</min_parent_version>
 		<build_id/>
 		</version>    	                    
 			<version>
@@ -143,9 +172,20 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>182</build_id>
+        <max_parent_version>4.8</max_parent_version>
+                        <min_parent_version>1.0</min_parent_version>
 		</version>    	
 
-
+         <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <name>Trunk</name>
+                <package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-5.0/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+                <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-5.0/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+                <description>Build for Pentaho 5.0</description>
+                <min_parent_version>5.0</min_parent_version>
+                <build_id/>
+            </version>		
 
 		</versions>
     </market_entry>
@@ -162,7 +202,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <author_url>http://webdetails.pt</author_url>    
         <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
          <license>MPL 2.0</license>
-        <installation_notes>Please remember to replace the batik, xml-apis and xmlgraphics jars on WEB-INF/lib with the ones on system/CGG/lib.</installation_notes>
+        <installation_notes></installation_notes>
         <versions>
             <version>
 	    <branch>STABLE</branch>
@@ -170,6 +210,8 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<name>Stable</name>
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-13.09.10.zip</package_url>
 		<description>13.09.10 release.</description>
+		        <max_parent_version>4.8</max_parent_version>
+		                        <min_parent_version>1.0</min_parent_version>
 		<build_id/>
 		</version>        
         
@@ -180,7 +222,21 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>89</build_id>
+		        <max_parent_version>4.8</max_parent_version>
+		                        <min_parent_version>1.0</min_parent_version>
 		</version>    	
+		
+		
+        <version>
+            <branch>TRUNK</branch>
+            <version>TRUNK-SNAPSHOT</version>
+            <name>Trunk</name>
+            <package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-5.0/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+            <build_id/>
+            <min_parent_version>5.0</min_parent_version>
+        </version>		
+		
 		</versions>                       
     </market_entry>
     
@@ -206,6 +262,8 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV-Release/lastSuccessfulBuild/artifact/dist/cdv-13.09.10.zip</package_url>
 		<description>13.09.10 release</description>
 		<build_id/>
+        <max_parent_version>4.8</max_parent_version>		
+                        <min_parent_version>1.0</min_parent_version>
 		</version>		
     	
         <version>
@@ -215,6 +273,8 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV/lastSuccessfulBuild/artifact/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>16</build_id>
+        <max_parent_version>4.8</max_parent_version>		
+                        <min_parent_version>1.0</min_parent_version>
 		</version>    	
 		
 	 
@@ -244,6 +304,8 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/lastSuccessfulBuild/artifact/dist/cdb-13.09.10.zip</package_url>
 		<description>13.09.10 release.</description>
 		<build_id/>
+        <max_parent_version>4.8</max_parent_version>		
+                        <min_parent_version>1.0</min_parent_version>
 		</version>		    
 	    
 			<version>
@@ -253,6 +315,8 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB/lastSuccessfulBuild/artifact/dist/cdb-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>22</build_id>
+        <max_parent_version>4.8</max_parent_version>		
+                        <min_parent_version>1.0</min_parent_version>
 		</version>    			
 	
 		</versions>                       
@@ -283,6 +347,8 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC-Release/lastSuccessfulBuild/artifact/dist/cdc-13.09.10.zip</package_url>
 		<description>13.09.10 release.</description>
 		<build_id/>
+		        <max_parent_version>4.8</max_parent_version>
+		                        <min_parent_version>1.0</min_parent_version>
 		</version>		    	
     	
 			<version>
@@ -292,6 +358,8 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC/lastSuccessfulBuild/artifact/dist/cdc-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>11</build_id>
+		        <max_parent_version>4.8</max_parent_version>
+                <min_parent_version>1.0</min_parent_version>		        
 		</version>    				  
 		</versions>                       
     </market_entry>    
@@ -319,6 +387,8 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
                 <name>Stable</name>
                 <package_url>http://meteorite.bi/downloads/saiku-plugin-2.5.zip</package_url>
                 <description>2.5 release for the Saiku Plugin</description>
+                        <max_parent_version>4.8</max_parent_version>
+                                        <min_parent_version>1.0</min_parent_version>
             </version>        
             <version>
                 <branch>TRUNK</branch>
@@ -326,7 +396,21 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
                 <name>Trunk</name>
                 <package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.5-SNAPSHOT.zip</package_url>
                 <description>Trunk Snapshot. Install at your own risk...</description>
-            </version>                                
+                        <max_parent_version>4.8</max_parent_version>
+                                        <min_parent_version>1.0</min_parent_version>
+            </version>                           
+
+            <version>
+                <branch>TRUNK</branch>
+                <version>2.6-PENTAHO5-SNAPSHOT</version>
+                <name>Trunk</name>
+                <package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin-p5/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin-p5/target/saiku-plugin-p5-2.6-SNAPSHOT.zip</package_url>
+                <description>Build for Pentaho 5.0</description>
+                <min_parent_version>5.0</min_parent_version>
+            </version>                           
+            
+            
+                        
         </versions>
     </market_entry>
   
@@ -349,6 +433,8 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
                 <name>OpenI-Pentaho 3.0.1</name>
                 <package_url>http://downloads.sourceforge.net/project/openi/openi-3.0/openi-pentaho-plugin-3.0.1.zip</package_url>
                 <description>OpenI Plugin is available on both sourceforge.net(http://sourceforge.net/projects/openi) and github(https://www.github.com/openi/)</description>
+        <max_parent_version>4.8</max_parent_version>
+                        <min_parent_version>1.0</min_parent_version>
             </version>
         </versions>
     </market_entry>
@@ -832,9 +918,9 @@ IP Locator Component
             <version>
                 <branch>Development</branch>
                 <version>0.9-SNAPSHOT</version>
-                <build_id>267</build_id>
+                <build_id>271</build_id>
                 <name>Latest snapshot build</name>
-                <package_url>http://dev.eyeq.co.kr/jenkins/job/Pivot4J/267/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
+                <package_url>http://dev.eyeq.co.kr/jenkins/job/Pivot4J/lastSuccessfulBuild/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
                 <description>The latest development snapshot build.</description>
                 <min_parent_version>5.0</min_parent_version>
             </version>
@@ -875,6 +961,8 @@ that sits on 2 major cornerstones:
 		        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
         		<description>Latest trunk snapshot build.</description>
 		        <build_id>manual-20131011</build_id>
+                <max_parent_version>4.8</max_parent_version>
+                                <min_parent_version>1.0</min_parent_version>
     	    </version>    				 
 		</versions>                       
     </market_entry>    
@@ -902,6 +990,8 @@ that sits on 2 major cornerstones:
 				<package_url>http://downloads.sourceforge.net/project/btable/Version1.0/BTable-STABLE-1.0.zip</package_url>
 				<description>Release 1.0</description>
 				<build_id>manual-20131028</build_id>
+                <max_parent_version>4.8</max_parent_version>
+                <min_parent_version>1.0</min_parent_version>				
 			</version>    	                    		
 		</versions>		
 	   <screenshots>
@@ -910,6 +1000,70 @@ that sits on 2 major cornerstones:
 	   </screenshots>
 	</market_entry>
 
+    
+    
+    <market_entry>
+        <id>marketplace</id>
+        <type>Platform</type>
+        <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
+        <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+        <name>Pentaho Marketplace</name>
+        <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+        <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
+        <author>Pentaho</author>
+        <author_url>http://pentaho.com</author_url>
+        <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+        <versions>
+        
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <build_id>1</build_id>
+                <name>Latest snapshot build</name>
+                <package_url>http://ci.pentaho.com/job/marketplace-4.8/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
+                <description>The latest development snapshot build.</description>
+                <max_parent_version>4.8</max_parent_version>
+                                <min_parent_version>1.0</min_parent_version>
+            </version>
+        
+        
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <build_id>1</build_id>
+                <name>Latest snapshot build</name>
+                <package_url>http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
+                <description>Build for Pentaho 5.0</description>
+                <min_parent_version>5.0</min_parent_version>
+            </version>
+        </versions>
+        <screenshots/>
+    </market_entry>
+    
+    <market_entry>
+        <id>waqr</id>
+        <type>Platform</type>
+        <img/>
+        <small_img/>
+        <name>WAQR</name>
+        <documentation_url/>
+        <description>WAQR (Web Adhoc Query and Reporting) is a report generation tool based on Web 2.0 technology (AJAX, DHTML) designed to help typical business users easily generate adhoc reports using the Pentaho BI platform. It provides a user interface that helps the user quickly identify and group the data of interest, apply constraints to the data, and generate a report. The resulting reports are viewable through WAQR's Preview feature, or through a Pentaho-platform based web application.</description>
+        <author>Pentaho Legacy - Plugins developed by Pentaho but no longer supported</author>
+        author_url>http://pentaho.com</author_url>
+        <author_logo></author_logo>
+        <versions>
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <build_id></build_id>
+                <name>Latest snapshot build</name>
+                <package_url>http://ci.pentaho.com/job/WAQR-Plugin/lastSuccessfulBuild/artifact/dist/waqr-plugin-package-TRUNK-SNAPSHOT.zip</package_url>
+                <description>Build for Pentaho 5.0</description>
+                <min_parent_version>5.0</min_parent_version>
+            </version>
+        </versions>
+        <screenshots/>
+    </market_entry>    
     
     
 </market>
