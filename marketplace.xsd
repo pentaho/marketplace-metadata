@@ -32,7 +32,7 @@
               <xsd:element name="screenshots" minOccurs="0" maxOccurs="1">
                 <xsd:complexType>
                   <xsd:sequence>
-                    <xsd:element name="screenshot" maxOccurs="unbounded" type="xsd:anyURI"/>
+                    <xsd:element name="screenshot" minOccurs="0" maxOccurs="unbounded" type="xsd:anyURI"/>
                   </xsd:sequence>
                 </xsd:complexType>
               </xsd:element>
