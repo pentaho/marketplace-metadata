@@ -1065,5 +1065,25 @@ that sits on 2 major cornerstones:
         <screenshots/>
     </market_entry>    
     
-    
+    <market_entry>
+     <id>load-text-from-file</id>
+     <type>Step</type>
+     <name>Load Text From File</name>
+     <description>This plugin uses Apache Tika to extract text from files in many different formats, such as PDF, XLS, etc.</description>
+     <author>Matt Burgess</author>
+     <documentation_url>https://github.com/mattyb149/load-text-from-file-plugin/wiki</documentation_url>
+     <versions>
+         <version>
+              <version>1.0</version>
+              <package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
+         </version>
+     </versions>
+ 
+     <license_name>Apache 2.0</license_name>
+     <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+     <support_organization>Pentaho Developer Community</support_organization>
+     <support_url>http://kettle.pentaho.com</support_url>
+   </market_entry>
 </market>
