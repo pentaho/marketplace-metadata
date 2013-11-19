@@ -180,8 +180,8 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
                 <branch>TRUNK</branch>
                 <version>5.0.1-stable</version>
                 <name>Trunk</name>
-                <package_url>http://ci.analytical-labs.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
-                <samples_url>http://ci.analytical-labs.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+                <package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+                <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
                 <min_parent_version>5.0</min_parent_version>
                 <build_id/>
@@ -231,7 +231,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
             <branch>TRUNK</branch>
             <version>5.0.1-stable</version>
             <name>Trunk</name>
-            <package_url>http://ci.analytical-labs.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
+            <package_url>http://ci.pentaho.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
             <build_id/>
             <min_parent_version>5.0</min_parent_version>
