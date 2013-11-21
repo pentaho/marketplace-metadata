@@ -1063,7 +1063,62 @@ that sits on 2 major cornerstones:
             </version>
         </versions>
         <screenshots/>
-    </market_entry>    
-    
+    </market_entry>   
+ 
+    <market_entry>
+     <id>idh23</id>
+     <type>HadoopShim</type>
+     <name>IDH 2.3 Hadoop Configuration</name>
+     <description>This is a Hadoop Configuration plugin that allows PDI to interact with 
+Intel Distribution of Hadoop clusters (version 2.3). This plugin is compatible with 
+PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
+</description>
+     <author>Pentaho</author>
+     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+     <versions>
+         <version>
+              <version>5.0.1</version>
+              <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+              <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/idh</source_url>
+         </version>
+     </versions>
+     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+     <license_name>Apache License 2.0</license_name>
+     <license_text>For more details see:
+http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+     <support_organization>Pentaho</support_organization>
+     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
+   </market_entry>
+
+   <market_entry>
+     <id>cdh3u4</id>
+     <type>HadoopShim</type>
+     <name>CDH 3u4 Hadoop Configuration</name>
+     <description>This is a Hadoop Configuration plugin that allows PDI to interact with 
+Cloudera Distribution of Hadoop clusters (version 3u4). This plugin is compatible with 
+PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
+</description>
+     <author>Pentaho</author>
+     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+     <versions>
+         <version>
+              <version>5.0.1</version>
+              <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+              <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/cdh3u4</source_url>
+         </version>
+     </versions>
+     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+     <license_name>Apache License 2.0</license_name>
+     <license_text>For more details see:
+http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+     <support_organization>Pentaho</support_organization>
+     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
+   </market_entry>
     
 </market>
