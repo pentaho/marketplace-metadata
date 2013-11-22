@@ -77,7 +77,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
                 <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
                 <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
-                <build_id>50</build_id>
+                <build_id>53</build_id>
                 <min_parent_version>5.0</min_parent_version>
             </version>
 		
