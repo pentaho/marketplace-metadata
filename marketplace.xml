@@ -960,10 +960,20 @@ that sits on 2 major cornerstones:
         		<name>Trunk</name>
 		        <package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
         		<description>Latest trunk snapshot build.</description>
-		        <build_id>manual-20131011</build_id>
+		        <build_id>manual-20131019</build_id>
                 <max_parent_version>4.8</max_parent_version>
                                 <min_parent_version>1.0</min_parent_version>
     	    </version>    				 
+    	    
+            <version>
+        	    <branch>TRUNK</branch>
+		        <version>TRUNK-SNAPSHOT</version>
+        		<name>Trunk</name>
+		        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+        		<description>Latest trunk snapshot build.</description>
+		        <build_id>manual-20131122</build_id>
+                <min_parent_version>5.0</min_parent_version>
+    	    </version>    				     	        	    
 		</versions>                       
     </market_entry>    
     
