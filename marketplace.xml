@@ -77,7 +77,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
                 <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
                 <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
-                <build_id>53</build_id>
+                <build_id>58</build_id>
                 <min_parent_version>5.0</min_parent_version>
             </version>
 		
@@ -178,13 +178,13 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 
          <version>
                 <branch>TRUNK</branch>
-                <version>5.0.1-stable</version>
+                <version>TRUNK-SNAPSHOT</version>
                 <name>Trunk</name>
                 <package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
                 <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
                 <min_parent_version>5.0</min_parent_version>
-                <build_id/>
+                <build_id>192</build_id>
             </version>		
 
 		</versions>
@@ -229,7 +229,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 		
         <version>
             <branch>TRUNK</branch>
-            <version>5.0.1-stable</version>
+            <version>TRUNK-SNAPSHOT</version>
             <name>Trunk</name>
             <package_url>http://ci.pentaho.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
@@ -971,7 +971,7 @@ that sits on 2 major cornerstones:
         		<name>Trunk</name>
 		        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
         		<description>Latest trunk snapshot build.</description>
-		        <build_id>manual-20131122</build_id>
+		        <build_id>manual-20131128</build_id>
                 <min_parent_version>5.0</min_parent_version>
     	    </version>    				     	        	    
 		</versions>                       
