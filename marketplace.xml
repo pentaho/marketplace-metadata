@@ -1089,7 +1089,7 @@ that sits on 2 major cornerstones:
     <market_entry>
      <id>tdeoutputplugin</id>
      <type>Step</type>
-     <name>PDI Tableau Data Exract Output Plugin</name>
+     <name>PDI Tableau Data Extract Output Plugin</name>
      <description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a Tableau server or use the TDE in Tableau Desktop.</description>
      <author>OpenBI</author>
 	 <author_url>http://www.openbi.com</author_url>
