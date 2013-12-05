@@ -1095,7 +1095,7 @@ that sits on 2 major cornerstones:
 	 <author_url>http://www.openbi.com</author_url>
 	 <author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
 	 <installation_notes>
-Due to licensing concerns the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
+Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
 
 1. Install the Tableau Data Exract Output plugin from the Pentaho marketplace.
 2. Download the "C/C++/Java" data extract API from Tableau. Choose the 32 bit or 64 bit version based on your Java JDK. - http://www.tableausoftware.com/data-extract-api
@@ -1106,7 +1106,7 @@ Due to licensing concerns the Tableau Data Extract API is not distributed throug
   6.1. Right click on "My Computer" and go to "Properties"
   6.2. Select "Advanced system settings"
   6.3. Click the "Environment Variables" button.
-  6.4. Under "System variables" select the "Path" variable and clikc "Edit"
+  6.4. Under "System variables" select the "Path" variable and click "Edit"
   6.5. At the end of the "Variable value" add a ; and the path to the bin directory of the downloaded zip.
   6.6. Click OK
 7. Restart PDI
