@@ -1090,7 +1090,9 @@ that sits on 2 major cornerstones:
      <id>tdeoutputplugin</id>
      <type>Step</type>
      <name>PDI Tableau Data Extract Output Plugin</name>
-     <description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a Tableau server or use the TDE in Tableau Desktop.</description>
+     <description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a Tableau server or use the TDE in Tableau Desktop.
+	 
+	 Although development using this plugin can occur in any environment, transformations with this step will only run on Windows due to Tableau API limitations.</description>
      <author>OpenBI</author>
 	 <author_url>http://www.openbi.com</author_url>
 	 <author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
@@ -1102,13 +1104,7 @@ Due to licensing the Tableau Data Extract API is not distributed through the Pen
 3. Unzip the downloaded zip.
 4. For PDI 5.0 and above - Copy the contents of the Java directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
 5. For PDI 4.8 and below - Copy the contents of the Java6 directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
-6. Add the bin folder to your system path.
-  6.1. Right click on "My Computer" and go to "Properties"
-  6.2. Select "Advanced system settings"
-  6.3. Click the "Environment Variables" button.
-  6.4. Under "System variables" select the "Path" variable and click "Edit"
-  6.5. At the end of the "Variable value" add a ; and the path to the bin directory of the downloaded zip.
-  6.6. Click OK
+6. Add the bin folder from the downloaded Tableau API zip to your system path variable.
 7. Restart PDI
 	 </installation_notes>
      <documentation_url>https://github.com/cdeptula/tdeoutputplugin/wiki</documentation_url>
