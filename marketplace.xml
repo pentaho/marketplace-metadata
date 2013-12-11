@@ -120,10 +120,10 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
 	    <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
 		<name>Trunk</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
+		<package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+		<samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>116</build_id> 
+		<build_id>14</build_id> 
 		<max_parent_version>4.8</max_parent_version>
 		                <min_parent_version>1.0</min_parent_version>
 		</version>    	
