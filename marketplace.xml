@@ -298,6 +298,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
         <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
         <license>MPL 2.0</license>
         <dependencies>CDE, CDA, CDF, Saiku</dependencies>                
+
 	    <versions>
 	    
 	        <version>
@@ -1160,5 +1161,24 @@ that sits on 2 major cornerstones:
         <screenshots/>
     </market_entry>    
     
-    
+    <market_entry>
+     <id>csv-jdbc-plugin</id>
+     <type>Database</type>
+     <name>CSV JDBC Connector</name>
+     <description>This plugin uses csvjdbc (http://csvjdbc.sourceforge.net) to provide a PDI database dialect for CSV files.</description>
+     <author>Matt Burgess</author>
+     <documentation_url>https://github.com/mattyb149/csv-jdbc-plugin/wiki</documentation_url>
+     <versions>
+         <version>
+              <version>1.0</version>
+              <package_url>https://pentaho.box.com/shared/static/1pnvur1jkjaukvuqx91b.zip</package_url>
+         </version>
+     </versions> 
+     <license_name>Apache 2.0</license_name>
+     <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+     <support_organization>Pentaho Developer Community</support_organization>
+     <support_url>http://kettle.pentaho.com</support_url>
+   </market_entry>
 </market>
