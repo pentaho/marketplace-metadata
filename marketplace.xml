@@ -1170,16 +1170,6 @@ that sits on 2 major cornerstones:
         </versions>
         <screenshots/>
     </market_entry>    
-    <market_entry>
-     <id>tdeoutputplugin</id>
-     <type>Step</type>
-     <name>PDI Tableau Data Extract Output Plugin</name>
-     <description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a Tableau server or use the TDE in Tableau Desktop.</description>
-     <author>OpenBI</author>
-	 <author_url>http://www.openbi.com</author_url>
-	 <author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
-	 <installation_notes>
-Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
 
     <market_entry>
      <id>load-text-from-file</id>
@@ -1194,18 +1184,12 @@ Due to licensing the Tableau Data Extract API is not distributed through the Pen
               <package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
          </version>
      </versions>
- 
      <license_name>Apache 2.0</license_name>
      <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
      <support_level>COMMUNITY_SUPPORTED</support_level>
      <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
      <support_organization>Pentaho Developer Community</support_organization>
      <support_url>http://kettle.pentaho.com</support_url>
-   </market_entry>
-     <license_name>Apache License 2.0</license_name>
-     <license_text>For more details see:
-    http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
    </market_entry>
    
    <market_entry>
