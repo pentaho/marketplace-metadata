@@ -408,7 +408,7 @@ Our RESTful server connects to existing OLAP systems, which then powers user-fri
                 <branch>TRUNK</branch>
                 <version>Trunk</version>
                 <name>Trunk</name>
-                <package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.5-SNAPSHOT.zip</package_url>
+                <package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.6-SNAPSHOT.zip</package_url>
                 <description>Trunk Snapshot. Install at your own risk...</description>
                         <max_parent_version>4.8</max_parent_version>
                                         <min_parent_version>1.0</min_parent_version>
