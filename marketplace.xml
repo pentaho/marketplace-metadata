@@ -1307,4 +1307,42 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
      <support_url>http://kettle.pentaho.com</support_url>
    </market_entry>
 
+	<market_entry>
+	    <id>repositorySynchronizer</id>
+	    <type>Platform</type>
+	    <name>Pentaho Repository Synchronizer</name>
+	    <description>Pentaho plugin that allows you to interact with the solution repository of Pentaho 5.0 by keeping the disk-based file structure synchronized with the Pentaho internal solution repository (JCR).</description>
+	    <documentation_url>http://www.webdetails.pt</documentation_url>
+	    <author>Webdetails</author>
+	    <author_url>http://www.webdetails.pt</author_url>
+	    <author_logo>http://www.webdetails.pt/images/wdlogo.png</author_logo>
+
+	    <img></img>
+	    <small_img></small_img>
+	    <installation_notes>Install Notes</installation_notes>
+
+	    <versions>
+	        <version>
+	            <branch>Trunk</branch>
+	            <version>1.0</version>
+	            <name>TRUNK</name>
+	            <package_url>http://ci.pentaho.com/job/RepositorySynchronizer/lastSuccessfulBuild/artifact/dist/repositorySynchronizer-TRUNK-SNAPSHOT.zip</package_url>
+	            <samples_url></samples_url>
+	            <description>Pilot release</description>
+	            <changelog>Pilot release</changelog>
+	            <build_id>0</build_id>
+	            <min_parent_version>5.0</min_parent_version>
+	            <max_parent_version></max_parent_version>
+	        </version>
+	    </versions>
+
+	</market_entry>
+
+
+
+
+
+
+
+
 </market>
