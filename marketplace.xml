@@ -1307,4 +1307,25 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
      <support_url>http://kettle.pentaho.com</support_url>
    </market_entry>
 
+   <market_entry>
+     <id>html2xml</id>
+     <type>Step</type>
+     <name>HTML to XML</name>
+     <description>This plugin uses JTidy to convert HTML into XML or XHTML, and is inspired by Roland Bouman's blog using the 
+UDJC step with JTidy.</description>
+     <author>Matt Burgess</author>
+     <documentation_url>https://github.com/mattyb149/pdi-html-to-xml-plugin/wiki</documentation_url>
+     <versions>
+         <version>
+              <version>1.0</version>
+              <package_url>https://pentaho.box.com/shared/static/i009upass9f2iip4fit5.zip</package_url>
+         </version>
+     </versions>
+     <license_name>Apache 2.0</license_name>
+     <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+     <support_organization>Pentaho Developer Community</support_organization>
+     <support_url>http://kettle.pentaho.com</support_url>
+   </market_entry>
 </market>
