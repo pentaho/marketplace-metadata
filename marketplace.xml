@@ -1307,4 +1307,57 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
      <support_url>http://kettle.pentaho.com</support_url>
    </market_entry>
 
+	<market_entry>
+	    <id>repositorySynchronizer</id>
+	    <type>Platform</type>
+	    <name>Pentaho Repository Synchronizer</name>
+		<description><![CDATA[
+			
+			Plugin that allows you to interact with the solution repository of Pentaho 5.0 by keeping the disk-based file structure synchronized with the Pentaho internal solution repository (JCR).<br/><br/>
+			
+			This is a pilot release, use at your own risk and report any issues / feedback back to <a target="_blank" href="http://redmine.webdetails.org/projects/prs">Webdetails bug tracker</a> 
+			]]>
+		</description>
+	    <documentation_url>http://redmine.webdetails.org/projects/prs</documentation_url>
+	    <author>Webdetails</author>
+	    <author_url>http://www.webdetails.pt</author_url>
+	    <author_logo>http://www.webdetails.pt/images/wdlogo.png</author_logo>
+
+	    <img></img>
+	    <small_img></small_img>
+		<installation_notes>
+			This plugin copies a version of libpensol.*.jar to the server's WEB-INF/lib.
+			It's possible that on Windows boxes there's an error upgrading the repositorySynchronizer. If that happens, stop the server and delete the WEB-INF/lib/libpensol.* jar file(s)
+		</installation_notes>
+
+	    <versions>
+	        <version>
+	            <branch>Trunk</branch>
+	            <version>1.0</version>
+	            <name>TRUNK</name>
+	            <package_url>http://ci.pentaho.com/job/RepositorySynchronizer/lastSuccessfulBuild/artifact/dist/repositorySynchronizer-TRUNK-SNAPSHOT.zip</package_url>
+	            <samples_url></samples_url>
+				<description><![CDATA[
+					
+					Plugin that allows you to interact with the solution repository of Pentaho 5.0 by keeping the disk-based file structure synchronized with the Pentaho internal solution repository (JCR).<br/><br/>
+					
+					This is a pilot release, use at your own risk and report any issues / feedback back to <a target="_blank" href="http://redmine.webdetails.org/projects/prs">Webdetails bug tracker</a> 
+					]]>
+				</description>
+	            <changelog>Pilot release</changelog>
+	            <build_id>0</build_id>
+	            <min_parent_version>5.0</min_parent_version>
+	            <max_parent_version></max_parent_version>
+	        </version>
+	    </versions>
+
+	</market_entry>
+
+
+
+
+
+
+
+
 </market>
