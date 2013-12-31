@@ -77,7 +77,7 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
                 <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
                 <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
-                <build_id>66</build_id>
+                <build_id>58</build_id>
                 <min_parent_version>5.0</min_parent_version>
             </version>
 		
@@ -186,18 +186,6 @@ CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deplo
                 <min_parent_version>5.0</min_parent_version>
                 <build_id>233</build_id>
             </version>		
-
-         <version>
-                <branch>STABLE</branch>
-                <version>5.0.1</version>
-                <name>5.0.1</name>
-                <package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-5.0/42/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-5.0.1.zip</package_url>
-                <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-5.0/42/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-5.0.1.zip</samples_url>
-                <description>Build for Pentaho 5.0</description>
-                <min_parent_version>5.0</min_parent_version>
-                <build_id>42</build_id>
-            </version>		
-
 
 		</versions>
     </market_entry>
@@ -983,7 +971,7 @@ that sits on 2 major cornerstones:
         		<name>Trunk</name>
 		        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
         		<description>Latest trunk snapshot build.</description>
-		        <build_id>manual-20131205</build_id>
+		        <build_id>manual-20131128</build_id>
                 <min_parent_version>5.0</min_parent_version>
     	    </version>    				     	        	    
 		</versions>                       
@@ -1086,6 +1074,41 @@ that sits on 2 major cornerstones:
         </versions>
         <screenshots/>
     </market_entry>    
-    
-    
+    <market_entry>
+     <id>tdeoutputplugin</id>
+     <type>Step</type>
+     <name>PDI Tableau Data Extract Output Plugin</name>
+     <description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a Tableau server or use the TDE in Tableau Desktop.</description>
+     <author>OpenBI</author>
+	 <author_url>http://www.openbi.com</author_url>
+	 <author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
+	 <installation_notes>
+Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
+
+1. Install the Tableau Data Exract Output plugin from the Pentaho marketplace.
+2. Download the "C/C++/Java" data extract API from Tableau for your environment. Choose the 32 bit or 64 bit version based on your Java JDK. - http://www.tableausoftware.com/data-extract-api
+3. Unzip the downloaded zip.
+4. For PDI 5.0 and above - Copy the contents of the Java directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
+5. For PDI 4.8 and below - Copy the contents of the Java6 directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
+6. For Windows - Add the bin folder from the downloaded Tableau API zip to your system path variable.
+7. For Linux - Add the lib folder from the downloaded Tableau API zip to the LD_LIBRARY_PATH variable.
+8. Restart PDI
+	 </installation_notes>
+     <documentation_url>https://github.com/cdeptula/tdeoutputplugin/wiki</documentation_url>
+     <versions>
+         <version>
+			  <branch>TRUNK</branch>
+              <version>1.0.1</version>
+			  <buildid></buildid>
+			  <name>Version 1.0.1</name>
+              <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.1/TDEOutputPlugin_1.0.1.zip</package_url>
+              <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
+         </version>
+     </versions>
+     <cases_url>https://github.com/cdeptula/tdeoutputplugin/issues</cases_url>
+     <license_name>Apache License 2.0</license_name>
+     <license_text>For more details see:
+    http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+   </market_entry>
 </market>
