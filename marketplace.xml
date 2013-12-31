@@ -1067,7 +1067,7 @@ that sits on 2 major cornerstones:
         		<name>Trunk</name>
 		        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
         		<description>Latest trunk snapshot build.</description>
-		        <build_id>manual-20131128</build_id>
+		        <build_id>manual-20131205</build_id>
                 <min_parent_version>5.0</min_parent_version>
     	    </version>    				     	        	    
 		</versions>                       
