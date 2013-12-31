@@ -1196,7 +1196,13 @@ that sits on 2 major cornerstones:
      <id>tdeoutputplugin</id>
      <type>Step</type>
      <name>PDI Tableau Data Extract Output Plugin</name>
-     <description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a Tableau server or use the TDE in Tableau Desktop.</description>
+     <description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL 
+capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a 
+Tableau server or use the TDE in Tableau Desktop.
+
+Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace
+and requires additional installation.  Instructions to download and install the Tableau Data Extract
+API are available in the README or at: https://github.com/cdeptula/tdeoutputplugin</description>
      <author>OpenBI</author>
 	 <author_url>http://www.openbi.com</author_url>
 	 <author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
@@ -1216,10 +1222,10 @@ Due to licensing the Tableau Data Extract API is not distributed through the Pen
      <versions>
          <version>
 			  <branch>TRUNK</branch>
-              <version>1.0.1</version>
-			  <buildid></buildid>
-			  <name>Version 1.0.1</name>
-              <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.1/TDEOutputPlugin_1.0.1.zip</package_url>
+              <version>1.0.2</version>
+			  <build_id></build_id>
+			  <name>Version 1.0.2</name>
+              <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.2/TDEOutputPlugin_1.0.2.zip</package_url>
               <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
          </version>
      </versions>
