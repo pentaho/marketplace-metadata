@@ -1381,9 +1381,9 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
         </installation_notes>
         <versions>
             <version>
-                <branch>GA</branch>
+                <branch>STABLE</branch>
                 <version>2.0</version>
-                <name>GA</name>
+                <name>stable</name>
                 <package_url>http://sourceforge.net/projects/aaar/files/v2.0/AAAR_v2.0.zip/download</package_url>
                 <samples_url></samples_url>
                 <description><![CDATA[
