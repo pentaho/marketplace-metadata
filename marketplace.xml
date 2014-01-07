@@ -1354,7 +1354,7 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
 					]]>
 				</description>
 	            <changelog>Pilot release</changelog>
-	            <build_id>0</build_id>
+	            <build_id>15</build_id>
 	            <min_parent_version>5.0</min_parent_version>
 	            <max_parent_version></max_parent_version>
 	        </version>
