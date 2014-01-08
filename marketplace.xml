@@ -1367,7 +1367,7 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
         <author>Francesco Corti</author>
         <author_url>http://fcorti.com</author_url>
         <author_logo>http://www.gravatar.com/avatar/7d8758b63c7b2a873b3b925267ba912d.png</author_logo>
-        <img>http://francescocorti.files.wordpress.com/2013/10/logo-aaar.png</img>
+        <img>http://francescocorti.files.wordpress.com/2014/01/aaar_for_marketplace.png</img>
         <small_img></small_img>
         <installation_notes><![CDATA[
             This plugin requires CDA and CDE installed in the Pentaho BIServer and has been developed using Sparkl.
@@ -1381,9 +1381,9 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
         </installation_notes>
         <versions>
             <version>
-                <branch>STABLE</branch>
+                <branch>Limited</branch>
                 <version>2.0</version>
-                <name>stable</name>
+                <name>Limited</name>
                 <package_url>http://sourceforge.net/projects/aaar/files/v2.0/AAAR_v2.0.zip/download</package_url>
                 <samples_url></samples_url>
                 <description><![CDATA[
@@ -1407,11 +1407,9 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
             </version>
         </versions>
         <screenshots>
-            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_install_1.png</screenshot>
-            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_install_3.png</screenshot>
-            <screenshot>http://francescocorti.files.wordpress.com/2013/10/aaar-analytics-dashboard.png</screenshot>
-            <screenshot>http://francescocorti.files.wordpress.com/2013/10/document_size.png</screenshot>
-            <screenshot>http://francescocorti.files.wordpress.com/2013/10/audit_creation.png</screenshot>
+            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_1.png</screenshot>
+            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_2.png</screenshot>
+            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_3.png</screenshot>
         </screenshots>
     </market_entry>
 
