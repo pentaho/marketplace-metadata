@@ -1362,11 +1362,64 @@ http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
 
 	</market_entry>
 
-
-
-
-
-
-
+    <market_entry>
+        <id>AAAR</id>
+        <type>Platform</type>
+        <name>Alfresco Audit Analysis and Reporting</name>
+        <description><![CDATA[
+            Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
+            <br/>
+            With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
+            ]]>
+        </description>
+        <documentation_url>http://fcorti.com/alfresco-audit-analysis-reporting/</documentation_url>
+        <author>Francesco Corti</author>
+        <author_url>http://fcorti.com</author_url>
+        <author_logo>http://www.gravatar.com/avatar/7d8758b63c7b2a873b3b925267ba912d.png</author_logo>
+        <img>http://francescocorti.files.wordpress.com/2014/01/aaar_for_marketplace.png</img>
+        <small_img></small_img>
+        <installation_notes><![CDATA[
+            This plugin requires CDA and CDE installed in the Pentaho BIServer and has been developed using Sparkl.
+            All the configurations, logs, sources and scripts are stored in the AAAR folder.
+            Several actions are performed during installation, in particular:
+            - Creation of 2 database schema (one as Kettle repository and one as AAAR Data Mart).
+            - Creation of a new JDBC data source in the Pentaho Server.
+            - Creation of a repository structure with dashboards and reports installed inside.
+            - Update of script stored into the file system.
+            ]]>
+        </installation_notes>
+        <versions>
+            <version>
+                <branch>Limited</branch>
+                <version>2.0</version>
+                <name>Limited</name>
+                <package_url>http://sourceforge.net/projects/aaar/files/v2.0/AAAR_v2.0.zip/download</package_url>
+                <samples_url></samples_url>
+                <description><![CDATA[
+                    Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
+                    <br/>
+                    With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
+                    ]]>
+                </description>
+                <changelog><![CDATA[
+                    - Developed the dashboards used as installation wizard and instructions on how to use the solution.
+                    - Added the repository structure in the Pentaho containing dashboards and reports.
+                    - Developed the main dashboard as hub of reports.
+                    - Added the configuration file for the installation, extraction and publication processes.
+                    - Added the log file for the installation, extraction and publication processes.
+                    - Updated the script file with sevarl feature like: log file, silent parameter, configuration file.
+                    ]]>
+                </changelog>
+                <build_id>1</build_id>
+                <min_parent_version>5.0</min_parent_version>
+                <max_parent_version></max_parent_version>
+            </version>
+        </versions>
+        <screenshots>
+            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_1.png</screenshot>
+            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_2.png</screenshot>
+            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_3.png</screenshot>
+        </screenshots>
+    </market_entry>
 
 </market>
