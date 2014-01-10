@@ -1390,6 +1390,33 @@ UDJC step with JTidy.</description>
 
 	</market_entry>
 
+    <market_entry>
+		<id>pentaho-kafka-consumer</id>
+		<type>Step</type>
+		<img>https://kafka.apache.org/images/kafka_logo.png</img>
+		<small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
+		<name>Apache Kafka Consumer</name>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Consumer</documentation_url>
+		<description>The plug-in allows reading binary messages from Apache Kafka message queue.</description>
+		<author>Ruckus Wireless</author>
+		<author_url>http://ruckuswireless.com</author_url>
+		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
+		<license>Apache License 2.0</license>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Latest</name>
+				<package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.0/pentaho-kafka-consumer-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url></samples_url>
+				<description>Latest build from the trunk development branch.</description>
+				<build_id>20140101-1548</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+		</versions>
+    </market_entry>
 
   <market_entry>
      <id>TableauExtractRefresh</id>
@@ -1478,5 +1505,62 @@ extract from a database, or append new files to an existing extract.</descriptio
             <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_3.png</screenshot>
         </screenshots>
     </market_entry>
+
+       <market_entry>
+		<id>pentaho-kafka-consumer</id>
+		<type>Step</type>
+		<img>https://kafka.apache.org/images/kafka_logo.png</img>
+		<small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
+		<name>Apache Kafka Consumer</name>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Consumer</documentation_url>
+		<description>The plug-in allows reading binary messages from Apache Kafka message queue.</description>
+		<author>Ruckus Wireless</author>
+		<author_url>http://ruckuswireless.com</author_url>
+		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
+		<license>Apache License 2.0</license>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Latest</name>
+				<package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.0/pentaho-kafka-consumer-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url></samples_url>
+				<description>Latest build from the trunk development branch.</description>
+				<build_id>20140101-1548</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+		</versions>
+    </market_entry>
+
+    <market_entry>
+		<id>pentaho-protobuf-decode</id>
+		<type>Step</type>
+		<img>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</img>
+		<small_img>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</small_img>
+		<name>Google Protocol Buffers Decode</name>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
+		<description>The Kettle transformation plug-in allows decoding binary messages encoded using Google Protocol Buffers.</description>
+		<author>Ruckus Wireless</author>
+		<author_url>http://ruckuswireless.com</author_url>
+		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
+		<license>Apache License 2.0</license>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Latest</name>
+				<package_url>https://github.com/RuckusWirelessIL/pentaho-protobuf-decode/releases/download/v1.0/pentaho-protobuf-decode-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url></samples_url>
+				<description>Latest build from the trunk development branch.</description>
+				<build_id>20140101-1603</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+		</versions>
+    </market_entry>
+    
 
 </market>
