@@ -1226,7 +1226,7 @@ Due to licensing the Tableau Data Extract API is not distributed through the Pen
          <version>
 			  <branch>TRUNK</branch>
               <version>1.0.1</version>
-			  <buildid></buildid>
+			  <build_id></build_id>
 			  <name>Version 1.0.1</name>
               <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.1/TDEOutputPlugin_1.0.1.zip</package_url>
               <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
@@ -1383,6 +1383,35 @@ UDJC step with JTidy.</description>
 	    </versions>
 
 	</market_entry>
+
+
+  <market_entry>
+     <id>TableauExtractRefresh</id>
+     <type>JobEntry</type>
+     <name>Refresh Tableau Server Extract Plugin</name>
+     <description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau 
+server from PDI. It can perform a full refresh of any extract, update an incremental 
+extract from a database, or append new files to an existing extract.</description>
+     <author>OpenBI</author>
+     <author_url>http://www.openbi.com</author_url>
+     <author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
+     <documentation_url>https://github.com/cdeptula/refreshtableauextract/wiki</documentation_url>
+     <versions>
+         <version>
+               <branch>TRUNK</branch>
+               <version>1.0</version>
+               <build_id></build_id>
+               <name>Version 1.0</name>
+               <package_url>https://github.com/cdeptula/refreshtableauextract/releases/download/1.0.0/refreshtableauextract.zip</package_url>
+               <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
+         </version>
+     </versions>
+     <cases_url>https://github.com/cdeptula/refreshtableauextract/issues</cases_url>
+     <license_name>Apache License 2.0</license_name>
+     <license_text>For more details see:
+    http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+   </market_entry>
 
     <market_entry>
         <id>AAAR</id>
