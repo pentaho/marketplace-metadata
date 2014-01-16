@@ -1562,5 +1562,28 @@ extract from a database, or append new files to an existing extract.</descriptio
 		</versions>
     </market_entry>
     
+   <market_entry>
+     <id>legstar.pdi.zosfile</id>
+     <type>Step</type>
+     <name>LegStar z/OS File reader Plugin</name>
+     <description>This step reads raw z/OS records from a file and transforms them to PDI rows</description>
+     <author>LegSem</author>
+     <documentation_url>https://code.google.com/p/legstar-pdi/wiki/GetStarted</documentation_url>
+     <versions>
+         <version>
+              <version>0.6</version>
+              <package_url>https://googledrive.com/host/0B0Jhkz53SgUXTElZSHh4NUM2Tm8/legstar.pdi.zosfile-0.6.zip</package_url>
+              <source_url>https://code.google.com/p/legstar-pdi/source/checkout</source_url>
+         </version>
+     </versions>
+     <forum_url>https://groups.google.com/forum/#!forum/legstar-user</forum_url>
+     <cases_url>https://code.google.com/p/legstar-pdi/issues/list</cases_url>
+     <license_name>GNU Lesser GPL</license_name>
+     <license_text>For more details see: http://www.gnu.org/licenses/lgpl.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+     <support_message>Supported by a LegSem</support_message>
+     <support_organization>LegSem</support_organization>
+     <support_url>http://www.legsem.com/</support_url>
+   </market_entry>
 
 </market>
