@@ -1460,6 +1460,8 @@ extract from a database, or append new files to an existing extract.</descriptio
         <author>Francesco Corti</author>
         <author_url>http://fcorti.com</author_url>
         <author_logo>http://www.gravatar.com/avatar/7d8758b63c7b2a873b3b925267ba912d.png</author_logo>
+        <dependencies>CDA, CDE, CDF</dependencies>
+        <license>GPL v3</license>
         <img>http://francescocorti.files.wordpress.com/2014/01/aaar_for_marketplace.png</img>
         <small_img></small_img>
         <installation_notes><![CDATA[
