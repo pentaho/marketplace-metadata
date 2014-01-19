@@ -1001,28 +1001,28 @@ http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
     <market_entry>
         <id>pivot4j</id>
         <type>Platform</type>
-        <img>http://mysticfall.github.io/pivot4j/images/logo.png</img>
-        <small_img>http://mysticfall.github.io/pivot4j/images/logo.png</small_img>
+        <img>http://www.pivot4j.org/img/logo.png</img>
+        <small_img>http://www.pivot4j.org/img/logo.png</small_img>
         <name>Pivot4J Analytics</name>
-        <documentation_url>http://mysticfall.github.io/pivot4j/pentaho.html</documentation_url>
+        <documentation_url>http://www.pivot4j.org/pentaho.html</documentation_url>
         <description>Pivot4J provides a common API for OLAP servers which can be used to build an analytical service frontend with pivot style GUI. Pivot4J Analytics is a full fledged OLAP client application built with the Pivot4J core API, which can be used as a drop-in replacement for legacy the JPivot web application.</description>
         <author>Pivot4J Project</author>
-        <author_url>http://mysticfall.github.io/pivot4j</author_url>
-        <author_logo>http://mysticfall.github.io/pivot4j/images/logo.png</author_logo>
+        <author_url>http://www.pivot4j.org</author_url>
+        <author_logo>http://www.pivot4j.org/img/logo.png</author_logo>
         <license_name>Common Public License 1.0</license_name>   
         <versions>
             <version>
                 <branch>Development</branch>
                 <version>0.9-SNAPSHOT</version>
-                <build_id>276</build_id>
+                <build_id>292</build_id>
                 <name>Latest snapshot build</name>
-                <package_url>http://dev.eyeq.co.kr/jenkins/job/Pivot4J/276/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
+                <package_url>http://ci.greencatsoft.com/job/Pivot4J/292/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
                 <description>The latest development snapshot build.</description>
                 <min_parent_version>5.0</min_parent_version>
             </version>
         </versions>
         <screenshots>
-            <screenshot>http://mysticfall.github.io/pivot4j/images/screenshot-pentaho.png</screenshot>
+            <screenshot>http://www.pivot4j.org/img/screenshot-pentaho.png</screenshot>
         </screenshots>
     </market_entry>
     
