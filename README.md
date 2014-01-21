@@ -33,7 +33,8 @@ this time there are some feature differences.  Each element below specifies whet
       <author>Me</author> <!-- The name of the author of the plugin (Both) -->
       <author_url>http://me.com</author_url> <!-- The location of the author's website (BA Server only) -->
       <author_logo>http://me.com/logo.png</author_logo> <!-- The location of the author's logo (BA Server only) -->
-      
+      <dependencies>pluginA, pluginB, pluginC</dependencies> <!-- list of plugins required for the correct operation of this plugin (BA Server only) -->
+
       <img>myimage.png</img> <!-- an image representing your plugin, displayed in the Marketplace (BA Server only) -->
       <small_img>mysmallimg.png</small_img>  <!-- a small image representing your plugin, displayed in the Marketplace (BA Server only) -->
       <installation_notes>Install Notes</installation_notes> <!-- an optional set of notes that displays during install for a plugin (BA Server only) -->
@@ -72,8 +73,11 @@ this time there are some feature differences.  Each element below specifies whet
           <max_parent_version>4.8</max_parent_version> <!-- the maximum system version this plugin is compatible with (BA Server only) -->
         </version>
       </versions>
-      
-    </market_entry>  
+      <screenshots> <!-- list of screenshots (BA Server Only) -->
+        <screenshot>screenshot_1.png</screenshot>
+        <screenshot>screenshot_2.png</screenshot>
+      </screenshots>
+    </market_entry>
 
 What is the review process for the plugin?
 ------------------------------------------
