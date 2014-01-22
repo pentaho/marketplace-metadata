@@ -1,1078 +1,478 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <market>
-    
-    <!-- ***************** -->
-    <!-- BA Server Plugins -->
-    <!-- ***************** -->
-        
-        <!--
-    <market_entry>
-        <id>marketplace</id>
-        <type>Platform</type>
-        <img>http://www.webdetails.pt/ficheiros/mk.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
-        <name>Pentaho Marketplace</name>
-        <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
-        <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
-        <author>Pentaho</author>
-        <author_url>http://pentaho.com</author_url>
-        <author_logo>http://www.pentaho.com/images/2011/logo.png</author_logo>
-        <versions>
-            <version>
-                <branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-                <name>Trunk</name>
-                <package_url>http://ci.analytical-labs.com/job/Webdetails-Marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
-                <description>Trunk Snapshot. Install at your own risk...</description>
-                <build_id>4</build_id>
-            </version>
-        </versions>
-    </market_entry>
+
+	<!-- ***************** -->
+	<!-- BA Server Plugins -->
+	<!-- ***************** -->
+
+	<!--
+	<market_entry>
+		<id>marketplace</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/mk.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+		<name>Pentaho Marketplace</name>
+		<documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+		<description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
+		<author>Pentaho</author>
+		<author_url>http://pentaho.com</author_url>
+		<author_logo>http://www.pentaho.com/images/2011/logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE</dependencies>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-Marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Trunk Snapshot. Install at your own risk...</description>
+				<build_id>4</build_id>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot></screenshot>
+		</screenshots>			
+	</market_entry>
   -->
-    <market_entry>
-    	<id>pentaho-cdf-dd</id>
-        <type>Platform</type>    	
-        <img>http://www.webdetails.pt/ficheiros/cde.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/cde_plugin.png</small_img>
-        <name>Community Dashboard Editor</name>
-        <documentation_url>http://cde.webdetails.org</documentation_url>
-        <description>The Community Dashboard Editor (CDE) is the outcome of real-world needs: It was born to greatly simplify the creation, edition and rendering of dashboards.
+  
+	<market_entry> 
+		<id>marketplace</id> 
+		<type>Platform</type>
+		<img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
+		<small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+		<name>Pentaho Marketplace</name>
+		<documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+		<description>
+			Pentaho Marketplace allows users to explore and test the plugins
+			that are most relevant to them. This means high quality and useful
+			plugins that users can use to get the most out of their business.
+		</description> 
+		<author>Pentaho</author>
+		<author_url>http://pentaho.com</author_url>
+		<author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+		<license>GLPL v2</license>
+		<dependencies/> 
+		<versions> 
+			<version> 
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<build_id>1</build_id>
+				<name>Latest snapshot build</name>
+				<package_url>http://ci.pentaho.com/job/marketplace-4.8/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
+				<description>The latest development snapshot
+					build.</description>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+			<version>
+				<branch>TRUNK</branch>
+				<version>5.0.1-stable</version>
+				<build_id/>
+				<name>Latest snapshot build</name>
+				<package_url>http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Build for Pentaho 5.0</description>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png</screenshot>
+			<screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png</screenshot>
+			<screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png</screenshot>
+			<screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png</screenshot>
+			<screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png</screenshot>
+		</screenshots>			
+	</market_entry>
 
-CDE and the technology underneath (CDF, CDA and CCC) allows to develop and deploy dashboards in the Pentaho platform in a fast and effective way.
-        </description>
-        <author>WebDetails</author>
-        <author_url>http://webdetails.pt</author_url>
-        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-       <dependencies>CDF, CDA</dependencies>
-        <license>MPL 2.0</license>
+
+	<market_entry>
+		<id>pentaho-cdf</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/cdf.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/cdf_plugin.png</small_img>
+		<name>Community Dashboards Framework</name>
+		<documentation_url>http://cdf.webdetails.org</documentation_url>
+		<description>
+			Community Dashboard Framework (CDF) is the engine that allows you to
+			create friendly, powerful and fully featured Dashboards on top of
+			the Pentaho Business Intelligence server.
+		</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies/>
 		<versions>
 			<version>
-                <branch>STABLE</branch>
-	    	    <version>13.09.10</version>
-	        	<name>Stable</name>
-    		    <package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-13.09.10.zip</package_url>
-    		    <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-13.09.10.zip</samples_url>
-	        	<description>Release 13.09.10</description>
-    	    	<build_id/>
-                <max_parent_version>4.8</max_parent_version>
-                <min_parent_version>1.0</min_parent_version>                
-		    </version>    	                    
+				<branch>STABLE</branch>
+				<version>13.09.10</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.09.10.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.09.10.zip</samples_url>
+				<description>Stable Release</description>
+				<max_parent_version>4.8</max_parent_version>	
+				<min_parent_version>1.0</min_parent_version>
+				<build_id/>
+			</version>    	                    
 			<version>
-                <branch>TRUNK</branch>
-		        <version>TRUNK-SNAPSHOT</version>
-        		<name>Trunk</name>
-        		<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
-		        <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
-        		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
-        		<build_id>217</build_id>
-                <max_parent_version>4.8</max_parent_version>
-                <min_parent_version>1.0</min_parent_version>
-    		</version>    	
-		
-   
-            <version>
-                <branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-                <name>Trunk</name>
-                <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
-                <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
-                <description>Build for Pentaho 5.0</description>
-                <build_id>76</build_id>
-                <min_parent_version>5.0</min_parent_version>
-            </version>
-		
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+				<build_id>235</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>    	
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+				<description>Build for Pentaho 5.0</description>
+				<min_parent_version>5.0</min_parent_version>
+				<build_id>218</build_id>
+			</version>		
 		</versions>
-		
-       <screenshots>
-		     <screenshot>http://www.webdetails.pt/ficheiros/screen1.png</screenshot>
-             <screenshot>http://www.webdetails.pt/ficheiros/screen2.png</screenshot>
-             <screenshot>http://www.webdetails.pt/ficheiros/screen3.png</screenshot>
-	   </screenshots>			
-		
-		
-    </market_entry>
-    
-    <market_entry>
-        <id>cda</id>
-        <type>Platform</type>
-        <img>http://www.webdetails.pt/ficheiros/cda.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/cda_plugin.png</small_img>
-        <name>Community Data Access</name>
-        <documentation_url>http://cda.webdetails.org</documentation_url>
-        <description>Community Data Access (CDA) is a Pentaho plugin designed for accessing data with great flexibility. Born for overcoming some cons of the older implementation, CDA allows you to access any of the various Pentaho data sources.   </description>
-        <author>WebDetails</author>
-        <author_url>http://webdetails.pt</author_url>
-        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-     <license>MPL 2.0</license>        
+		<screenshots>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-1.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-2.png</screenshot>
+		</screenshots>			
+	</market_entry>
+
+
+	<market_entry>
+		<id>cda</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/cda.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/cda_plugin.png</small_img>
+		<name>Community Data Access</name>
+		<documentation_url>http://cda.webdetails.org</documentation_url>
+		<description>
+			Community Data Access (CDA) is a Pentaho plugin designed for
+			accessing data with great flexibility. Born for overcoming some
+			cons of the older implementation, CDA allows you to access any of
+			the various Pentaho data sources.   
+		</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<dependencies>CDF</dependencies>
+		<license>MPL 2.0</license>        
 		<versions>
 			<version>
-        	    <branch>STABLE</branch>
-		        <version>13.09.10</version>
-		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-13.09.10.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-13.09.10.zip</samples_url>
-		<description>13.09.10 release.</description>
-		<build_id/>
-        <max_parent_version>4.8</max_parent_version>
-                <min_parent_version>1.0</min_parent_version>        
-		</version>    	                    
+				<branch>STABLE</branch>
+				<version>13.09.10</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-13.09.10.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-13.09.10.zip</samples_url>
+				<description>13.09.10 release.</description>
+				<build_id/>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>        
+			</version>    	                    
 			<version>
-	    <branch>TRUNK</branch>
-		<version>TRUNK-SNAPSHOT</version>
-		<name>Trunk</name>
-		<package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
-		<samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
-		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>19</build_id> 
-		<max_parent_version>4.8</max_parent_version>
-		                <min_parent_version>1.0</min_parent_version>
-		</version>    	
-		
-        <version>
-            <branch>TRUNK</branch>
-            <version>TRUNK-SNAPSHOT</version>
-            <name>Trunk</name>
-            <package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
-            <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
-            <description>Build for Pentaho 5.0</description>
-            <build_id>83</build_id>
-            <min_parent_version>5.0</min_parent_version></version>				
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
+				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+				<build_id>19</build_id> 
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>    	
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
+				<description>Build for Pentaho 5.0</description>
+				<build_id>83</build_id>
+				<min_parent_version>5.0</min_parent_version></version>				
 		</versions>
-    </market_entry>
-  
-    <market_entry>
-        <id>pentaho-cdf</id>
-        <type>Platform</type>
-        <img>http://www.webdetails.pt/ficheiros/cdf.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/cdf_plugin.png</small_img>
-        <name>Community Dashboards Framework</name>
-        <documentation_url>http://cdf.webdetails.org</documentation_url>
-        <description>Community Dashboards Framework (CDF) is a Pentaho plugin designed for drawing dashboards.</description>
-        <author>WebDetails</author>
-        <author_url>http://webdetails.pt</author_url>
-        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-         <license>MPL 2.0</license>
-        <versions>
-			<version>
-	    <branch>STABLE</branch>
-		<version>13.09.10</version>
-		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.09.10.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.09.10.zip</samples_url>
-		<description>Stable Release</description>
-		<max_parent_version>4.8</max_parent_version>	
-		                <min_parent_version>1.0</min_parent_version>
-		<build_id/>
-		</version>    	                    
-			<version>
-	    <branch>TRUNK</branch>
-		<version>TRUNK-SNAPSHOT</version>
-		<name>Trunk</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
-		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
-		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>235</build_id>
-        <max_parent_version>4.8</max_parent_version>
-                        <min_parent_version>1.0</min_parent_version>
-		</version>    	
+		<screenshots>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-01.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-02.png</screenshot>
+		</screenshots>			
+	</market_entry>
 
-         <version>
-                <branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-                <name>Trunk</name>
-                <package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
-                <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
-                <description>Build for Pentaho 5.0</description>
-                <min_parent_version>5.0</min_parent_version>
-                <build_id>218</build_id>
-            </version>		
 
-  
+	<market_entry>
+		<id>pentaho-cdf-dd</id>
+		<type>Platform</type>    	
+		<img>http://www.webdetails.pt/ficheiros/cde.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/cde_plugin.png</small_img>
+		<name>Community Dashboard Editor</name>
+		<documentation_url>http://cde.webdetails.org</documentation_url>
+		<description>
+			The Community Dashboard Editor (CDE) is the outcome of real-world
+			needs: It was born to greatly simplify the creation, edition and
+			rendering of dashboards.
+
+			CDE and the technology underneath (CDF, CDA and CCC) allows to
+			develop and deploy dashboards in the Pentaho platform in a fast and
+			effective way.
+		</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<dependencies>CDF, CDA</dependencies>
+		<license>MPL 2.0</license>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>13.09.10</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-13.09.10.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-13.09.10.zip</samples_url>
+				<description>Release 13.09.10</description>
+				<build_id/>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>                
+			</version>    	                    
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
+				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
+				<build_id>217</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>    	
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
+				<samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
+				<description>Build for Pentaho 5.0</description>
+				<build_id>76</build_id>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
 		</versions>
-    </market_entry>
-
-    <market_entry>
-        <id>cgg</id>
-        <type>Platform</type>
-        <img>http://www.webdetails.pt/ficheiros/cgg.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/cgg_plugin.png</small_img>
-        <name>Community Graphics Generator</name>
-        <documentation_url>http://ctools.webdetails.org</documentation_url>
-        <description>Community Graphics Generator (CGG) is a Pentaho plugin designed for rendering CCC charts serverside, enabling you to embed them into Pentaho Reports.</description>
-        <author>WebDetails</author>
-        <author_url>http://webdetails.pt</author_url>    
-        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-         <license>MPL 2.0</license>
-        <installation_notes></installation_notes>
-        <versions>
-            <version>
-	    <branch>STABLE</branch>
-		<version>13.09.10</version>
-		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-13.09.10.zip</package_url>
-		<description>13.09.10 release.</description>
-		        <max_parent_version>4.8</max_parent_version>
-		                        <min_parent_version>1.0</min_parent_version>
-		<build_id/>
-		</version>        
-        
-            <version>
-	    <branch>TRUNK</branch>
-		<version>TRUNK-SNAPSHOT</version>
-		<name>Trunk</name>
-		<package_url>http://ci.pentaho.com/job/pentaho-cgg-pentaho/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-pentaho-TRUNK-SNAPSHOT.zip</package_url>
-		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>14</build_id>
-		        <max_parent_version>4.8</max_parent_version>
-		                        <min_parent_version>1.0</min_parent_version>
-		</version>    	
-		
-		
-        <version>
-            <branch>TRUNK</branch>
-            <version>TRUNK-SNAPSHOT</version>
-            <name>Trunk</name>
-            <package_url>http://ci.pentaho.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
-            <description>Build for Pentaho 5.0</description>
-            <build_id>67</build_id>
-            <min_parent_version>5.0</min_parent_version>
-        </version>		
+		<screenshots>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-1.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-2.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-3.png</screenshot>
+		</screenshots>			
+	</market_entry>
 
 
-		
-		</versions>                       
-    </market_entry>
-    
-    <market_entry>
-        <id>cdv</id>
-        <type>Platform</type>
-        <img>http://www.webdetails.pt/ficheiros/cdv.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/cdv_plugin.png</small_img>
-        <name>Community Data Validation</name>
-        <documentation_url>http://ctools.webdetails.org</documentation_url>
-        <description>n the words of one of the wise men who are still around: "Our business isn't displaying stats, ours is the confidence business". The system we created to instantly detect and report data related errors, CDV, is key to achieve absolute accuracy in the numbers our dashboards display.</description>
-        <author>WebDetails</author>
-        <author_url>http://webdetails.pt</author_url>    
-        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-        <license>MPL 2.0</license>
-        <dependencies>CDE, CDA, CDF</dependencies>
-    	<versions>
-    	
-    	       <version>
-	    <branch>STABLE</branch>
-		<version>13.09.10</version>
-		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV-Release/lastSuccessfulBuild/artifact/dist/cdv-13.09.10.zip</package_url>
-		<description>13.09.10 release</description>
-		<build_id/>
-        <max_parent_version>4.8</max_parent_version>		
-                        <min_parent_version>1.0</min_parent_version>
-		</version>		
-    	
-        <version>
-	    <branch>TRUNK</branch>
-		<version>TRUNK-SNAPSHOT</version>
-		<name>Trunk</name>
-		<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
-		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>8</build_id>
-        <max_parent_version>4.8</max_parent_version>		
-                        <min_parent_version>1.0</min_parent_version>
-		</version>    	
-		
-		
-    <version>
-            <branch>TRUNK</branch>
-            <version>TRUNK-SNAPSHOT</version>
-            <name>Trunk</name>
-            <package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
-            <description>Build for Pentaho 5.0</description>
-            <build_id>8</build_id>
-            <min_parent_version>5.0</min_parent_version>
-        </version>				
-		
-	 
-		</versions>                       
-    </market_entry>    
-
-
-  <market_entry>
-        <id>cdb</id>
-        <type>Platform</type>
-        <img>http://www.webdetails.pt/ficheiros/cdb.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/cdb_plugin.png</small_img>
-        <name>Community Data Browser</name>
-        <documentation_url>http://ctools.webdetails.org</documentation_url>
-        <description>Calling Business Analysts! Now you can Slice and Dice your Data directly from Pentaho. Make your own analysis in an autonomous and easy way. </description>
-        <author>WebDetails</author>
-        <author_url>http://webdetails.pt</author_url>    
-        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-        <license>MPL 2.0</license>
-        <dependencies>CDE, CDA, CDF, Saiku</dependencies>                
-	    <versions>
-	    
-	        <version>
-        <branch>STABLE</branch>
-		<version>13.09.10</version>
-		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/lastSuccessfulBuild/artifact/dist/cdb-13.09.10.zip</package_url>
-		<description>13.09.10 release.</description>
-		<build_id/>
-        <max_parent_version>4.8</max_parent_version>		
-                        <min_parent_version>1.0</min_parent_version>
-		</version>		    
-	    
+	<market_entry>
+		<id>cgg</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/cgg.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/cgg_plugin.png</small_img>
+		<name>Community Graphics Generator</name>
+		<documentation_url>http://ctools.webdetails.org</documentation_url>
+		<description>
+			The CGG (Community Graphics Generator) is a Pentaho Plugin that
+			allows the user to export CCC/CDE charts as images, enabling the
+			inclusion of CDE charts inside Pentaho reports. Quite simply, this
+			plugin is able to render, on server-side, exactly the same chart
+			that is rendered on the browser by CDE/CDF.
+		</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>    
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<installation_notes></installation_notes>
+		<versions>
 			<version>
-	    <branch>TRUNK</branch>
-		<version>TRUNK-SNAPSHOT</version>
-		<name>Trunk</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB/lastSuccessfulBuild/artifact/dist/cdb-TRUNK-SNAPSHOT.zip</package_url>
-		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>27</build_id>
-        <max_parent_version>4.8</max_parent_version>		
-                        <min_parent_version>1.0</min_parent_version>
-		</version>    			
-	
-		</versions>                       
-    </market_entry>    
-
-
-
-  <market_entry>
-        <id>cdc</id>
-        <type>Platform</type>
-        <img>http://www.webdetails.pt/ficheiros/cdc.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/cdc_plugin.png</small_img>
-        <name>Community Distributed Cache</name>
-        <documentation_url>http://ctools.webdetails.org</documentation_url>
-        <description>CDC stands for Community Distributed Cache and allows for high-performance, scalable and distributed memory clustering cache based on Hazelcast for both CDA and Mondrian.</description>
-        <author>WebDetails</author>
-        <author_url>http://webdetails.pt</author_url>    
-        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-        <license>MPL 2.0</license>
-        <dependencies>CDE, CDA, CDF</dependencies>        
-                <installation_notes>Please remember to copy the contents of system/cdc/pentaho-lib to webapps/pentaho/WEB-INF/lib.</installation_notes>
-    	<versions>
-    	
-      <version>
-	    <branch>STABLE</branch>
-		<version>13.09.10</version>
-		<name>Stable</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC-Release/lastSuccessfulBuild/artifact/dist/cdc-13.09.10.zip</package_url>
-		<description>13.09.10 release.</description>
-		<build_id/>
-		        <max_parent_version>4.8</max_parent_version>
-		                        <min_parent_version>1.0</min_parent_version>
-		</version>		    	
-    	
+				<branch>STABLE</branch>
+				<version>13.09.10</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-13.09.10.zip</package_url>
+				<description>13.09.10 release.</description>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+				<build_id/>
+			</version>        
 			<version>
-	    <branch>TRUNK</branch>
-		<version>TRUNK-SNAPSHOT</version>
-		<name>Trunk</name>
-		<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC/lastSuccessfulBuild/artifact/dist/cdc-TRUNK-SNAPSHOT.zip</package_url>
-		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>17</build_id>
-		        <max_parent_version>4.8</max_parent_version>
-                <min_parent_version>1.0</min_parent_version>		        
-		</version>    				  
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/pentaho-cgg-pentaho/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+				<build_id>14</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>    	
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Build for Pentaho 5.0</description>
+				<build_id>67</build_id>
+				<min_parent_version>5.0</min_parent_version>
+			</version>		
 		</versions>                       
-    </market_entry>    
-    
-    
-    
-    
-    <market_entry>
-        <id>saiku</id>
-        <type>Platform</type>
-        <img>http://www.webdetails.pt/ficheiros/saiku.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/saiku_plugin.png</small_img>
-        <name>Saiku Analytics</name>
-        <documentation_url>http://analytical-labs.com/</documentation_url>
-        <description>Saiku is a modular open-source analysis suite offering lightweight OLAP which remains easily embeddable, extendable and configurable.
-Our RESTful server connects to existing OLAP systems, which then powers user-friendly, intuitive analytics via our lightweight JQuery based frontend.</description>
-        <author>Analytical Labs</author>
-        <author_url>http://analytical-labs.com</author_url>
-        <author_logo>http://www.webdetails.pt/ficheiros/saiku.png</author_logo>
-        <license>ASL 2.0</license>   
-        <versions>
-            <version>
-                <branch>STABLE</branch>
-                <version>2.5</version>
-                <name>Stable</name>
-                <package_url>http://meteorite.bi/downloads/saiku-plugin-2.5.zip</package_url>
-                <description>2.5 release for the Saiku Plugin</description>
-                        <max_parent_version>4.8</max_parent_version>
-                                        <min_parent_version>1.0</min_parent_version>
-            </version>        
-            <version>
-                <branch>TRUNK</branch>
-                <version>Trunk</version>
-                <name>Trunk</name>
-                <package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.6-SNAPSHOT.zip</package_url>
-                <description>Trunk Snapshot. Install at your own risk...</description>
-                        <max_parent_version>4.8</max_parent_version>
-                                        <min_parent_version>1.0</min_parent_version>
-            </version>                           
+	</market_entry>
 
-            <version>
-                <branch>TRUNK</branch>
-                <version>2.6-PENTAHO5-SNAPSHOT</version>
-                <name>Trunk</name>
-                <package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin-p5/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin-p5/target/saiku-plugin-p5-2.6-SNAPSHOT.zip</package_url>
-                <description>Build for Pentaho 5.0</description>
-                <min_parent_version>5.0</min_parent_version>
-            </version>                           
-            
-            
-                        
-        </versions>
-    </market_entry>
-  
-   <market_entry>
-        <id>OpenI</id>
-        <type>Platform</type>
-        <img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
-        <small_img/>
-        <name>OpenI-Pentaho Plugin</name>
-        <documentation_url>http://wiki.openi.org/</documentation_url>
-        <description>OpenI plugin for Pentaho CE provides a simple and clean user interface to visualize data in OLAP cubes. It supports both direct Mondrian and xmla based connections like Microsoft SQL Server Analysis Services (SSAS), plus provides add-on features like Explore Cube Data, custom SQL for drillthrough data, publishing drillthrough data to external web services etc</description>
-        <author>OpenI</author>
-        <author_url>http://www.openi.org/</author_url>
-        <author_logo>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</author_logo>
-        <license>GNU General Public License version 2.0 (GPLv2)</license>   
-        <versions>
-            <version>
-                <branch>Stable</branch>
-                <version>3.0.1</version>
-                <name>OpenI-Pentaho 3.0.1</name>
-                <package_url>http://downloads.sourceforge.net/project/openi/openi-3.0/openi-pentaho-plugin-3.0.1.zip</package_url>
-                <description>OpenI Plugin is available on both sourceforge.net(http://sourceforge.net/projects/openi) and github(https://www.github.com/openi/)</description>
-        <max_parent_version>4.8</max_parent_version>
-                        <min_parent_version>1.0</min_parent_version>
-            </version>
-        </versions>
-    </market_entry>
-
-    <!-- ***************** -->  
-    <!-- Kettle Plugins    -->
-    <!-- ***************** -->
-
-   <market_entry>
-     <id>pdi-mysql-plugin</id>
-     <type>Database</type>
-     <name>PDI MySQL Plugin</name>
-     <description>This plugin also contains the GPL MySQL JDBC Driver version 5</description>
-     <author>Pentaho</author>
-     <documentation_url>http://wiki.pentaho.com/display/EAI/MySQL</documentation_url>
-     <versions>
-         <version>
-              <version>TRUNK-SNAPSHOT</version>
-              <package_url>https://pentaho.box.com/shared/static/qllv3c2bo1eiv0o5f468.zip</package_url>
-              <source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
-         </version>
-     </versions>
-     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-     <license_name>GPL 2.0</license_name>
-     <license_text>For more details see:
-http://www.gnu.org/licenses/gpl-2.0.txt</license_text>
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-     <support_organization>Pentaho</support_organization>
-     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
-   </market_entry>
-   
-    <market_entry>
-     <id>ApplePushNotification</id>
-     <type>Step</type>
-     <name>Apple Push Notification</name>
-     <description>This is a plugin that allows to you send push notifications from Pentaho Data Integration to any iOS and OSX devices, using Apple's Push Notification Services. 
-This plugin is written in Scala and uses the Java Apple Push Notification Service library. 
-The motivation for developing this plugin is to have you, the ETL developer, receive quick notifications about the state of ETL executions wherever you are (faster than email). 
-However, this plugin can be use for other scenarios as well.
-</description>
-     <author>Joel Latino</author>
-     <author_url>http://about.me/latinojoel</author_url>
-     <documentation_url>https://github.com/latinojoel/pdi-apple-pushnotifications/blob/master/README.md</documentation_url>
-     <cases_url>https://github.com/latinojoel/pdi-apple-pushnotifications/issues</cases_url>
-     <license_name>GNU General Public License v3</license_name>
-     <license_text>For more details see:
-http://www.gnu.org/licenses/gpl-3.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by a PDI Apple Push Notifications github project contract.</support_message>
-     <support_url>https://github.com/latinojoel/pdi-apple-pushnotifications/issues</support_url>
-     <versions>
-         <version>
-              <version>0.9.0</version>
-              <package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/0.9.0/ApplePushNotification.zip</package_url>
-              <source_url>https://github.com/latinojoel/pdi-apple-pushnotifications/tree/0.9.0</source_url>
-         </version>
-     </versions>
-   </market_entry>
-   
-    <market_entry>
-     <id>AndroidPushNotification</id>
-     <type>Step</type>
-     <name>Android Push Notification</name>
-     <description>This is a plugin that allows you to send push notifications from Pentaho Data Integration to any android application with GCM services. This plugin is written in Scala.
-The motivation for developing this plugin is to have you, the ETL developer, receive fast notifications about the state of ETL executions wherever you are (than faster email). 
-You can use my android app named PDI Manager: https://play.google.com/store/apps/details?id=com.latinojoel.pdimanager
-However, this plugin can be used in other scenarios as well.
-</description>
-     <author>Joel Latino</author>
-     <author_url>http://about.me/latinojoel</author_url>
-     <documentation_url>https://github.com/latinojoel/pdi-android-pushnotifications/blob/master/README.md</documentation_url>
-     <cases_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</cases_url>
-     <license_name>GNU General Public License v3</license_name>
-     <license_text>For more details see:
-http://www.gnu.org/licenses/gpl-3.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by a PDI Android Push Notifications github project contract.</support_message>
-     <support_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</support_url>
-     <versions>
-         <version>
-              <version>0.9-GA</version>
-              <package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho Data Integration/PDI Android Push Notifications/0.9-GA/AndroidPushNotification.zip</package_url>
-              <source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/0.9.0-GA</source_url>
-         </version>
-     </versions>
-   </market_entry>
-   
-    <market_entry>
-     <id>DummyPlugin</id>
-     <type>Step</type>
-     <name>Dummy step plugin</name>
-     <description>This is a plugin that is provided as an example on how to create a step plugin for PDI.
-This plugin is intended only to show how a plugin works, it's goal is not to be used in production situations.
-Please consult the documentation referenced below as well as the linked source code.
-</description>
-     <author>Pentaho</author>
-     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
-     <versions>
-         <version>
-              <version>4.4</version>
-              <package_url>http://wiki.pentaho.com/download/attachments/23531011/DummyPlugin.zip</package_url>
-              <source_url>http://source.pentaho.org/svnkettleroot/plugins/DummyPlugin/trunk/</source_url>
-         </version>
-     </versions>
-     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-     <license_name>Apache License 2.0</license_name>
-     <license_text>For more details see:
-http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-     <support_organization>Pentaho</support_organization>
-     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
-   </market_entry>
-
-   <market_entry>
-     <id>ArffOutput</id>
-     <type>Step</type>
-     <name>ARFF Output</name>
-     <description>Saves data to a file in WEKA's ARFF (Attribute Relation File Format).
-</description>
-     <versions>
-         <version>
-             <version>4.x</version>
-             <package_url>http://s3.amazonaws.com/kettle/ArffOutput.zip</package_url>
-             <source_url>http://source.pentaho.org/svnkettleroot/plugins/ArffOutput/trunk/</source_url>
-         </version>
-     </versions>
-     <author>Pentaho</author>
-     <documentation_url>http://source.pentaho.org/svnkettleroot/plugins/ArffOutput/trunk/docs/ArffOutput.pdf</documentation_url>
-     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-     <license_name>GNU GPL</license_name>
-     <license_text>For more details about the GNU General Public License v2.0 see:
-http://www.gnu.org/licenses/gpl-2.0.html</license_text>
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-     <support_organization>Pentaho</support_organization>
-     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
-   </market_entry>
-
-   <market_entry>
-     <id>KFF</id>
-     <type>Mixed</type>
-     <name>KFF</name>
-     <description>This market entry contains a number of step and jobentry plugins from the KFF project:
-- Table compare
-- Environment configurator
-- Data Grid (in 4.1)
-- ...
-</description>
-     <versions>
-         <version>
-             <version>4.x</version>
-             <package_url>http://kettle-franchise.googlecode.com/files/kff-plugins4.zip</package_url>
-             <source_url>http://kettle-franchise.googlecode.com/svn/trunk/</source_url>
-         </version>
-     </versions>
-     <author>The KFF project members: Jan, Matt, Ricardo, Alexandre, Harris, André</author>
-     <documentation_url>http://code.google.com/p/kettle-franchise/w/list</documentation_url>
-     <forum_url>http://code.google.com/p/kettle-franchise/</forum_url>
-     <cases_url>http://code.google.com/p/kettle-franchise/issues/list</cases_url>
-     <license_name>GNU LGPL</license_name>
-     <license_text>For more details about the GNU General Lesser Public License v2.0 see:
-http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by the KFF project on a best-effort bases.</support_message>
-     <support_organization>The KFF project</support_organization>
-     <support_url></support_url>
-   </market_entry> 
- 
-    <market_entry>
-     <id>kettle5-profiling-datacleaner</id>
-     <type>Mixed</type>
-     <name>DataCleaner Data Profiling for Kettle version 5 or higher</name>
-     <description>Use DataCleaner to profile your Pentaho Data Integration transformations, step by step.
-Data Cleaner is an open source data quality application made by Human Inference.  With it you can run profiling jobs using DataCleaner for any transformation step and in the database explorer.  Additionally you can include and launch DataCleaner jobs as part of your PDI jobs.  This allows you to merge the tasks of data quality and data integration.</description>
-     <versions>
-         <version>
-             <version>3.1.2</version>
-	     <min_parent_version>5.0.0</min_parent_version>
-             <package_url>https://pentaho.box.com/shared/static/a1yl5gmibhrbp9kfim8t.zip</package_url>
-	     <source_url>http://source.pentaho.org/svnkettleroot/plugins/kettle-profiling-datacleaner/</source_url>
-         </version>
-     </versions>
-     <author>Human Inference - eobjects - Kasper Sørensen</author>
-     <documentation_url>http://datacleaner.org/docs</documentation_url>
-     <forum_url>http://datacleaner.org/forum/1</forum_url>
-     <cases_url>http://eobjects.org/trac/</cases_url>
-     <license_name>GNU LGPL</license_name>
-     <license_text>For more details about the GNU General Lesser Public License v2.0 see:
-http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Professional support, training and consultancy for DataCleaner is offered by Human Inference upon request.</support_message>
-     <support_organization>Human Inference</support_organization>
-     <support_url>http://datacleaner.org/support</support_url>
-   </market_entry> 
-   
-      <market_entry>
-    <id>EasyDQ</id>
-    <type>Step</type>
-    <name>EasyDataQuality for Pentaho</name>
-    <description>
-	 
-		Combine the leading open source ETL tool with the leading data cleansing functions!
-		
-		EasyDQ delivers on demand data quality functions that are fully integrated with Pentaho Data Integration / Kettle.
-		
-		Data quality functions by Human Inference and EasyDQ available in Pentaho Data Integration:
-		
-		* Data profiling (through DataCleaner)
-		* Name cleansing
-		* Address cleansing
-		* Phone cleansing
-		* Email cleansing
-		* Detect and merge duplicates (through DataCleaner)
-		
-		Register now at www.easydq.com and start increasing the quality of your data.
-		
-    </description>
-	<img>http://www.easydq.com/media/120433/teaser_pentaho_screenshots.png</img>
-    <author>EasyDQ - Human Inference</author>
-	<author_url>http://www.easydq.com</author_url>
-    <documentation_url>http://www.easydq.com/pentaho</documentation_url>
-    <versions>
-        <version>
-            <version>1.19</version>
-            <package_url>http://sourceforge.net/projects/easydq-kettle/files/EasyDQ-PDI-plugin-1.19.zip/download</package_url>
-        </version>
-    </versions>
-	
-    <license_name>Proprietary</license_name>
-	<license_text>To get access to EasyDQ.com and the data quality services, please register at https://www.easydq.com/register</license_text>
-    
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-    <support_message>Please contact Human Inference Support at +31 (0)26 3550600 or email support@humaninference.com</support_message>
-    <support_organization>Human Inference</support_organization>
-    <support_url>http://www.easydq.com/faq</support_url>
-   </market_entry>
- 
- 
-   <market_entry>
-     <id>market</id>
-     <type>Mixed</type>
-     <name>PDI Marketplace</name>
-     <description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
-     <author>Pentaho</author>
-     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
-     <versions>
-         <version>
-              <version>TRUNK-SNAPSHOT</version>
-              <package_url>http://ci.pentaho.com/job/Kettle/lastSuccessfulBuild/artifact/Kettle/src-plugins/market/dist/market.zip</package_url>
-              <source_url>http://source.pentaho.org/svnkettleroot/Kettle/trunk/src-plugins/market/</source_url>
-         </version>
-     </versions>
-     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-     <license_name>Apache License 2.0</license_name>
-     <license_text>For more details see:
-http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-     <support_organization>Pentaho</support_organization>
-     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
-   </market_entry>
-   
-<market_entry>
-      <id>CmisInput</id>
-      <type>Step</type>
-      <name>CMIS Input</name>
-      <description>The CMIS Input plugin make you able to extract from your Enterprise Content Management System. 
-All the metadata of your documents can be retrieved using simple queries with a query language very close to the traditional SQL.</description>
-      <documentation_url>http://fcorti.com/pdi-cmis-input/</documentation_url>
-      <author>Francesco Corti</author>
-      <author_url>http://fcorti.com</author_url>
-      <author_logo>http://francescocorti.files.wordpress.com/2012/12/copy-francescosmall1.jpg</author_logo>
-      <img>http://francescocorti.files.wordpress.com/2013/01/cmisinput.png</img>
-      <small_img>http://francescocorti.files.wordpress.com/2013/04/cmisinput.png</small_img>
-      <license_name>LGPL v3</license_name>
-      <versions>
-        <version>
-          <branch>Stable</branch>
-          <version>1.1</version>
-          <name>1.0</name>
-          <package_url>https://cmis-input-plugin.googlecode.com/files/CMIS%20Input%20plugin%20v1.1%20for%20the%20marketplace.zip</package_url>
-          <description>Release of the plugin.</description>
-          <changelog>Pentaho 5 compliance and OpenCMIS 0.10.0 (Apache Chemistry).</changelog>
-          <build_id>1</build_id>
-          <min_parent_version>5.0</min_parent_version>
-        </version>
-      </versions>
-   </market_entry> 
-
-    <market_entry>
-     <id>BucketPartitioner</id>
-     <type>Partitioner</type>
-     <name>Bucket Partitioner</name>
-     <description>Partitions rows based on the quotient (rather than the remainder)</description>
-     <versions>
-         <version>
-             <version>1.0</version>
-             <package_url>https://pentaho.box.com/shared/static/fcvlirqac4k6semj6q7d.zip</package_url>
-             <source_url>https://github.com/mattyb149/BucketPartitioner</source_url>
-         </version>
-     </versions>
-     <author>Matt Burgess</author>
-     <documentation_url>https://github.com/mattyb149/BucketPartitioner/wiki</documentation_url>
-     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url></cases_url>
-     <license_name>Apache 2.0</license_name>
-     <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
-     <support_organization>Pentaho Developer Community</support_organization>
-     <support_url>http://kettle.pentaho.com</support_url>
-   </market_entry>
-
-   <market_entry>
-     <id>MaxMindGeoIPLookup</id>
-     <type>Step</type>
-     <name>MaxMind GeoIP Lookup</name>
-     <description>This step uses the MaxMind GeoIP library to look up Countries, region and city information with an IP address.</description>
-     <documentation_url>https://raw.github.com/mattcasters/MaxMindGeoIPLookup/master/README.txt</documentation_url>
-     <author>Daniel Einspanjer, Doug Moran, Pedro Alves, Matt Casters</author> 
-     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>https://github.com/mattcasters/MaxMindGeoIPLookup/issues/</cases_url>
-     <license_name>Apache License 2.0</license_name>
-     <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html </license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by a community of volunteers</support_message>
-     <support_organization>none</support_organization>
-     <support_url>https://github.com/mattcasters/MaxMindGeoIPLookup</support_url>
-     <versions>
-        <version>
-         <branch>Stable</branch>
-         <version>1.0</version>
-         <name>1.0</name>
-         <package_url>https://pentaho.box.com/shared/static/sz6y7m04slzxy93brg3d.zip</package_url>
-         <source_url>https://github.com/mattcasters/MaxMindGeoIPLookup</source_url>
-         <description>First stable release, supports running in Map/Reduce, handles VFS URLs for database files</description>
-         <changelog>First release</changelog>
-         <build_id>1</build_id>
-         <min_parent_version>4.2</min_parent_version>
-       </version>
-     </versions>
-   </market_entry> 
-  
-   <market_entry>
-     <id>weka-scoring</id>
-     <type>Step</type>
-     <name>Weka Scoring</name>
-     <description>This step allows you to push data into a Weka model and get scoring out in a transformation.</description>
-     <author>Mark Hall</author> 
-     <forum_url>http://forums.pentaho.com/forumdisplay.php?81-Pentaho-Data-Mining-WEKA</forum_url>
-     <cases_url>http://jira.pentaho.com/browse/DATAMINING</cases_url>
-     <license_name>GNU General Public License 3.0</license_name>
-     <license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.html</license_text>
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-     <support_organization>Pentaho</support_organization>
-     <support_url>http://www.pentaho.com/services/support/</support_url>
-     <versions>
-        <version>
-         <branch>Stable</branch>
-         <version>4.x</version>
-         <name>4.x</name>
-         <package_url>https://pentaho.box.com/shared/static/1rcyaet2tceprebejldg.zip</package_url>
-         <source_url>http://source.pentaho.org/svnkettleroot/plugins/WekaScoring/</source_url>
-         <min_parent_version>4.2</min_parent_version>
-       </version>
-     </versions>
-   </market_entry> 
-
-  <market_entry>
-     <id>MDCheckPlugin</id>
-     <type>Step</type>
-     <name>MDCheck</name>
-     <description> Melissa Data Contact Verification Tools:
-
-Contact Verify Component
-• Standardize, verify, and correct U.S. and Canadian addresses
-• Verify and normalize U.S. and Canadian phones on a 7-10 digit level
-• Parse names, genderize, and detect suspicious words or companies in name field
-• Geocode addresses by assigning rooftop lat/long coordinates*
-
-SmartMover Component
-• U.S./Canadian change of address processing to update addresses of people or
-businesses that have moved
-
-MatchUp Component
-• Identify duplicate records with domain specific knowledge of contact information
-
-IP Locator Component
-• Identify web visitor's geographic location
-• Reduce fraud and geo target
-
-</description>
-     <author>Melissa Data</author>
-     <documentation_url>http://www.melissadata.com/dqt/contact-zone/index.htm</documentation_url>
-     <versions>
-         <version>
-              <version>3.1.0</version>
-              <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
-         </version>
-     </versions>
- 
-     <license_name>MD licensing</license_name>
-	<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-     
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
-     <support_organization>Melissa Data</support_organization>
-     <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
-   </market_entry>
-
-   <market_entry>
-     <id>MDGlobalAddressPlugin</id>
-     <type>Step</type>
-     <name>MDGlobalVerify</name>
-     <description> Global Verify Component
-• Address verification for over 240 countries
-• Transliteration of many major character sets and display output in either nature or  Roman characters</description>
-     <author>Melissa Data</author>
-     <documentation_url>http://w10.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
-     <versions>
-         <version>
-              <version>3.1.0</version>
-              <package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
-         </version>
-     </versions>
- 
-     <license_name>MD licensing</license_name>
-	<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-     
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
-     <support_organization>Melissa Data</support_organization>
-     <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
-   </market_entry>
-
-   <market_entry>
-     <id>MDPersonatorPlugin</id>
-     <type>Step</type>
-     <name>MDPersonator</name>
-     <description> Personator Component
-• Verifies name corresponds to address, email, and phone data
-• Appends missing name and company name, phone number, and/or email address</description>
-     <author>Melissa Data</author>
-     <documentation_url>http://w10.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
-     <versions>
-         <version>
-              <version>3.1.0</version>
-              <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
-         </version>
-     </versions>
- 
-     <license_name>MD licensing</license_name>
-	<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-     
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
-     <support_organization>Melissa Data</support_organization>
-     <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
-   </market_entry>
-
-   
-       <market_entry>
-     <id>CiviCrmInput</id>
-     <type>Step</type>
-     <name>CiviCrmInput</name>
-     <description>This step allows reading data from CiviCRM 
-      </description>
-     <versions>
-         <version>
-             <version>4.X</version>
-             <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMInput.zip</package_url>
-             <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
-         </version>
-     </versions>
-     <author>Stratebi and Amnesty International</author>
-     <documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Input</documentation_url>
-     <forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
-     <cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
-     <license_name>GNU GPL</license_name>
-     <license_text>For more details about the GNU General Public License v2.0 see:
-http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Report issues  and suggestions to support@stratebi.com</support_message>
-     <support_organization>Stratebi</support_organization>
-     <support_url></support_url>
-   </market_entry>
-  
-   
-   
-         <market_entry>
-     <id>CiviCrmOutput</id>
-     <type>Step</type>
-     <name>CiviCrmOutput</name>
-     <description>This step allows write/update data into CiviCRM 
-      </description>
-     <versions>
-         <version>
-             <version>4.X</version>
-             <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMOutput.zip</package_url>
-             <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
-         </version>
-     </versions>
-     <author>Stratebi and Amnesty International</author>
-     <documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Output</documentation_url>
-     <forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
-     <cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
-     <license_name>GNU GPL</license_name>
-     <license_text>For more details about the GNU General Public License v2.0 see:
-http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Report issues  and suggestions to support@stratebi.com</support_message>
-     <support_organization>Stratebi</support_organization>
-     <support_url></support_url>
-   </market_entry>
-  
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    <market_entry>
-        <id>pivot4j</id>
-        <type>Platform</type>
-        <img>http://www.pivot4j.org/img/logo.png</img>
-        <small_img>http://www.pivot4j.org/img/logo.png</small_img>
-        <name>Pivot4J Analytics</name>
-        <documentation_url>http://www.pivot4j.org/pentaho.html</documentation_url>
-        <description>Pivot4J provides a common API for OLAP servers which can be used to build an analytical service frontend with pivot style GUI. Pivot4J Analytics is a full fledged OLAP client application built with the Pivot4J core API, which can be used as a drop-in replacement for legacy the JPivot web application.</description>
-        <author>Pivot4J Project</author>
-        <author_url>http://www.pivot4j.org</author_url>
-        <author_logo>http://www.pivot4j.org/img/logo.png</author_logo>
-        <license_name>Common Public License 1.0</license_name>   
-        <versions>
-            <version>
-                <branch>Development</branch>
-                <version>0.9-SNAPSHOT</version>
-                <build_id>292</build_id>
-                <name>Latest snapshot build</name>
-                <package_url>http://ci.greencatsoft.com/job/Pivot4J/292/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
-                <description>The latest development snapshot build.</description>
-                <min_parent_version>5.0</min_parent_version>
-            </version>
-        </versions>
-        <screenshots>
-            <screenshot>http://www.pivot4j.org/img/screenshot-pentaho.png</screenshot>
-        </screenshots>
-    </market_entry>
-    
-    
-    
-    <market_entry>
-        <id>sparkl</id>
-        <type>Platform</type>
-        <img>http://www.webdetails.pt/ficheiros/sparkl2.png</img>
-        <small_img>http://www.webdetails.pt/ficheiros/sparkl2.png</small_img>
-        <name>Sparkl</name>
-        <documentation_url>http://www.webdetails.pt/ctools.html</documentation_url>
-        <description> Sparkl, or Pentaho App Builder,
-is a plugin creator instrument
-that sits on 2 major cornerstones:
- Ctools and PDI, aiming to leverage
- as much as possible of our
- existing stack. Anyone familiar
- with those tools will be able
- to build plugins, facilitating
- adoption.</description>
-        <author>WebDetails</author>
-        <author_url>http://webdetails.pt</author_url>    
-        <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-        <license>MPL 2.0</license>
-        <dependencies>CDE, CDF</dependencies>
-    	<versions>    	    	
-            <version>
-        	    <branch>TRUNK</branch>
-		        <version>TRUNK-SNAPSHOT</version>
-        		<name>Trunk</name>
-		        <package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-        		<description>Latest trunk snapshot build.</description>
-		        <build_id>manual-20131126</build_id>
-                <max_parent_version>4.8</max_parent_version>
-                                <min_parent_version>1.0</min_parent_version>
-    	    </version>    				 
-    	    
-            <version>
-        	    <branch>TRUNK</branch>
-		        <version>TRUNK-SNAPSHOT</version>
-        		<name>Trunk</name>
-		        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-        		<description>Latest trunk snapshot build.</description>
-		        <build_id>manual-20131205</build_id>
-                <min_parent_version>5.0</min_parent_version>
-    	    </version>    				     	        	    
+	<market_entry>
+		<id>sparkl</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/sparkl2.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/sparkl2.png</small_img>
+		<name>Sparkl - Pentaho Application Builder</name>
+		<documentation_url>http://www.webdetails.pt/ctools.html</documentation_url>
+		<description> 
+			Sparkl, or Pentaho Application Builder, is a plugin creator
+			instrument that sits on 2 major cornerstones of the Pentaho
+			ecosystem: Ctools and PDI. Aiming to leverage as much as possible
+			of our existing stack, anyone familiar with those tools will be
+			able to build plugins.
+		</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>    
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<versions>    	    	
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Latest trunk snapshot build.</description>
+				<build_id>manual-20131126</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>    				 
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Latest trunk snapshot build.</description>
+				<build_id>manual-20131205</build_id>
+				<min_parent_version>5.0</min_parent_version>
+			</version>    				     	        	    
 		</versions>                       
-    </market_entry>    
-    
+		<screenshots>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-1.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-2.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-3.png</screenshot>
+		</screenshots>			
+	</market_entry>    
+
+
+	<market_entry>
+		<id>saiku</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/saiku.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/saiku_plugin.png</small_img>
+		<name>Saiku Analytics</name>
+		<documentation_url>http://analytical-labs.com/</documentation_url>
+		<description>
+			Saiku is a modular open-source analysis suite offering lightweight
+			OLAP which remains easily embeddable, extendable and configurable.
+			Our RESTful server connects to existing OLAP systems, which then
+			powers user-friendly, intuitive analytics via our lightweight
+			JQuery based frontend.
+		</description>
+		<author>Analytical Labs</author>
+		<author_url>http://analytical-labs.com</author_url>
+		<author_logo>http://www.webdetails.pt/ficheiros/saiku.png</author_logo>
+		<license>ASL 2.0</license>   
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>2.5</version>
+				<name>Stable</name>
+				<package_url>http://meteorite.bi/downloads/saiku-plugin-2.5.zip</package_url>
+				<description>2.5 release for the Saiku Plugin</description>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>        
+			<version>
+				<branch>TRUNK</branch>
+				<version>Trunk</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.6-SNAPSHOT.zip</package_url>
+				<description>Trunk Snapshot. Install at your own risk...</description>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>                           
+
+			<version>
+				<branch>TRUNK</branch>
+				<version>2.6-PENTAHO5-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin-p5/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin-p5/target/saiku-plugin-p5-2.6-SNAPSHOT.zip</package_url>
+				<description>Build for Pentaho 5.0</description>
+				<min_parent_version>5.0</min_parent_version>
+			</version>                           
+		</versions>
+	</market_entry>
+
+	<market_entry>
+		<id>OpenI</id>
+		<type>Platform</type>
+		<img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
+		<small_img/>
+		<name>OpenI-Pentaho Plugin</name>
+		<documentation_url>http://wiki.openi.org/</documentation_url>
+		<description>
+			OpenI plugin for Pentaho CE provides a simple and clean user
+			interface to visualize data in OLAP cubes. It supports both direct
+			Mondrian and xmla based connections like Microsoft SQL Server
+			Analysis Services (SSAS), plus provides add-on features like
+			Explore Cube Data, custom SQL for drillthrough data, publishing
+			drillthrough data to external web services etc
+		</description>
+		<author>OpenI</author>
+		<author_url>http://www.openi.org/</author_url>
+		<author_logo>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</author_logo>
+		<license>GNU General Public License version 2.0 (GPLv2)</license>   
+		<versions>
+			<version>
+				<branch>Stable</branch>
+				<version>3.0.1</version>
+				<name>OpenI-Pentaho 3.0.1</name>
+				<package_url>http://downloads.sourceforge.net/project/openi/openi-3.0/openi-pentaho-plugin-3.0.1.zip</package_url>
+				<description>OpenI Plugin is available on both sourceforge.net(http://sourceforge.net/projects/openi) and github(https://www.github.com/openi/)</description>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+		</versions>
+	</market_entry>
+
+
+	<market_entry>
+		<id>pivot4j</id>
+		<type>Platform</type>
+		<img>http://www.pivot4j.org/img/logo.png</img>
+		<small_img>http://www.pivot4j.org/img/logo.png</small_img>
+		<name>Pivot4J Analytics</name>
+		<documentation_url>http://www.pivot4j.org/pentaho.html</documentation_url>
+		<description>Pivot4J provides a common API for OLAP servers which can be used to build an analytical service frontend with pivot style GUI. Pivot4J Analytics is a full fledged OLAP client application built with the Pivot4J core API, which can be used as a drop-in replacement for legacy the JPivot web application.</description>
+		<author>Pivot4J Project</author>
+		<author_url>http://www.pivot4j.org</author_url>
+		<author_logo>http://www.pivot4j.org/img/logo.png</author_logo>
+		<license_name>Common Public License 1.0</license_name>   
+		<versions>
+			<version>
+				<branch>Development</branch>
+				<version>0.9-SNAPSHOT</version>
+				<build_id>292</build_id>
+				<name>Latest snapshot build</name>
+				<package_url>http://ci.greencatsoft.com/job/Pivot4J/292/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
+				<description>The latest development snapshot build.</description>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>http://www.pivot4j.org/img/screenshot-pentaho.png</screenshot>
+		</screenshots>
+	</market_entry>
+
 
 
 	<market_entry>
@@ -1096,301 +496,1013 @@ that sits on 2 major cornerstones:
 				<package_url>http://sourceforge.net/projects/btable/files/Version1.5/BTable-pentaho4-STABLE-1.5.zip/download</package_url>
 				<description>Release 1.5</description>
 				<build_id>manual-20131223</build_id>
-                <max_parent_version>4.8</max_parent_version>
-                <min_parent_version>1.0</min_parent_version>				
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>				
 			</version>
-            <version>
-                <branch>STABLE</branch>
-                <version>1.5</version>
-                <name>Stable</name>
-                <package_url>http://sourceforge.net/projects/btable/files/Version1.5/BTable-pentaho5-STABLE-1.5.zip/download</package_url>
-                <description>Release 1.5</description>
-                <build_id>manual-20131223</build_id>
-                <min_parent_version>5.0</min_parent_version>
-            </version>                  		
+			<version>
+				<branch>STABLE</branch>
+				<version>1.5</version>
+				<name>Stable</name>
+				<package_url>http://sourceforge.net/projects/btable/files/Version1.5/BTable-pentaho5-STABLE-1.5.zip/download</package_url>
+				<description>Release 1.5</description>
+				<build_id>manual-20131223</build_id>
+				<min_parent_version>5.0</min_parent_version>
+			</version>                  		
 		</versions>		
-	   <screenshots>
-			 <screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-01.png</screenshot>
-			 <screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-02.png</screenshot>
-	   </screenshots>
+		<screenshots>
+			<screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-01.png</screenshot>
+			<screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-02.png</screenshot>
+		</screenshots>
 	</market_entry>
 
-    
-    
-    <market_entry>
-        <id>marketplace</id>
-        <type>Platform</type>
-        <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
-        <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
-        <name>Pentaho Marketplace</name>
-        <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
-        <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
-        <author>Pentaho</author>
-        <author_url>http://pentaho.com</author_url>
-        <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
-        <versions>
-        
-            <version>
-                <branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-                <build_id>1</build_id>
-                <name>Latest snapshot build</name>
-                <package_url>http://ci.pentaho.com/job/marketplace-4.8/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
-                <description>The latest development snapshot build.</description>
-                <max_parent_version>4.8</max_parent_version>
-                                <min_parent_version>1.0</min_parent_version>
-            </version>
-        
-        
-            <version>
-                <branch>TRUNK</branch>
-                <version>5.0.1-stable</version>
-                <build_id/>
-                <name>Latest snapshot build</name>
-                <package_url>http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
-                <description>Build for Pentaho 5.0</description>
-                <min_parent_version>5.0</min_parent_version>
-            </version>
-        </versions>
-        <screenshots/>
-    </market_entry>
-    
-    <market_entry>
-        <id>waqr</id>
-        <type>Platform</type>
-        <img/>
-        <small_img/>
-        <name>WAQR</name>
-        <documentation_url/>
-        <description>WAQR (Web Adhoc Query and Reporting) is a report generation tool based on Web 2.0 technology (AJAX, DHTML) designed to help typical business users easily generate adhoc reports using the Pentaho BI platform. It provides a user interface that helps the user quickly identify and group the data of interest, apply constraints to the data, and generate a report. The resulting reports are viewable through WAQR's Preview feature, or through a Pentaho-platform based web application.</description>
-        <author>Pentaho Legacy - Plugins developed by Pentaho but no longer supported</author>
-        <author_url>http://pentaho.com</author_url>
-        <author_logo></author_logo>
-        <versions>
-            <version>
-                <branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-                <build_id></build_id>
-                <name>Latest snapshot build</name>
-                <package_url>http://ci.pentaho.com/job/WAQR-Plugin/lastSuccessfulBuild/artifact/dist/waqr-plugin-package-TRUNK-SNAPSHOT.zip</package_url>
-                <description>Build for Pentaho 5.0</description>
-                <min_parent_version>5.0</min_parent_version>
-            </version>
-        </versions>
-        <screenshots/>
-    </market_entry>    
-
-    <market_entry>
-     <id>load-text-from-file</id>
-     <type>Step</type>
-     <name>Load Text From File</name>
-     <description>This plugin uses Apache Tika to extract text from files in many different formats, such as PDF, XLS, etc.</description>
-     <author>Matt Burgess</author>
-     <documentation_url>https://github.com/mattyb149/load-text-from-file-plugin/wiki</documentation_url>
-     <versions>
-         <version>
-              <version>1.0</version>
-              <package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
-         </version>
-     </versions>
-     <license_name>Apache 2.0</license_name>
-     <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
-     <support_organization>Pentaho Developer Community</support_organization>
-     <support_url>http://kettle.pentaho.com</support_url>
-   </market_entry>
-   
-   <market_entry>
-     <id>tdeoutputplugin</id>
-     <type>Step</type>
-     <name>PDI Tableau Data Extract Output Plugin</name>
-     <description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL 
-capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a 
-Tableau server or use the TDE in Tableau Desktop.
-
-Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace
-and requires additional installation.  Instructions to download and install the Tableau Data Extract
-API are available in the README or at: https://github.com/cdeptula/tdeoutputplugin</description>
-     <author>OpenBI</author>
-	 <author_url>http://www.openbi.com</author_url>
-	 <author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
-	 <installation_notes>
-Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
-
-1. Install the Tableau Data Exract Output plugin from the Pentaho marketplace.
-2. Download the "C/C++/Java" data extract API from Tableau for your environment. Choose the 32 bit or 64 bit version based on your Java JDK. - http://www.tableausoftware.com/data-extract-api
-3. Unzip the downloaded zip.
-4. For PDI 5.0 and above - Copy the contents of the Java directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
-5. For PDI 4.8 and below - Copy the contents of the Java6 directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
-6. For Windows - Add the bin folder from the downloaded Tableau API zip to your system path variable.
-7. For Linux - Add the lib folder from the downloaded Tableau API zip to the LD_LIBRARY_PATH variable.
-8. Restart PDI
-	 </installation_notes>
-     <documentation_url>https://github.com/cdeptula/tdeoutputplugin/wiki</documentation_url>
-     <versions>
-         <version>
-			  <branch>TRUNK</branch>
-              <version>1.0.2</version>
-			  <build_id></build_id>
-			  <name>Version 1.0.2</name>
-              <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.2/TDEOutputPlugin_1.0.2.zip</package_url>
-              <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
-         </version>
-     </versions>
-     <cases_url>https://github.com/cdeptula/tdeoutputplugin/issues</cases_url>
-     <license_name>Apache License 2.0</license_name>
-     <license_text>For more details see:
-    http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-   </market_entry>
-
-   <market_entry>
-     <id>idh23</id>
-     <type>HadoopShim</type>
-     <name>IDH 2.3 Hadoop Configuration</name>
-     <description>This is a Hadoop Configuration plugin that allows PDI to interact with 
-Intel Distribution of Hadoop clusters (version 2.3). This plugin is compatible with 
-PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
-</description>
-     <author>Pentaho</author>
-     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
-     <versions>
-         <version>
-              <version>5.0.1</version>
-              <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
-              <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/idh</source_url>
-         </version>
-     </versions>
-     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-     <license_name>Apache License 2.0</license_name>
-     <license_text>For more details see:
-http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-     <support_organization>Pentaho</support_organization>
-     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
-   </market_entry>
-
-   <market_entry>
-     <id>cdh3u4</id>
-     <type>HadoopShim</type>
-     <name>CDH 3u4 Hadoop Configuration</name>
-     <description>This is a Hadoop Configuration plugin that allows PDI to interact with 
-Cloudera Distribution of Hadoop clusters (version 3u4). This plugin is compatible with 
-PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
-</description>
-     <author>Pentaho</author>
-     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
-     <versions>
-         <version>
-              <version>5.0.1</version>
-              <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
-              <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/cdh3u4</source_url>
-         </version>
-     </versions>
-     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-     <license_name>Apache License 2.0</license_name>
-     <license_text>For more details see:
-http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-     <support_organization>Pentaho</support_organization>
-     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
-   </market_entry>
-
-   <market_entry>
-     <id>csv-jdbc-plugin</id>
-     <type>Database</type>
-     <name>CSV JDBC Connector</name>
-     <description>This plugin uses csvjdbc (http://csvjdbc.sourceforge.net) to provide a PDI database dialect for CSV files.</description>
-     <author>Matt Burgess</author>
-     <documentation_url>https://github.com/mattyb149/csv-jdbc-plugin/wiki</documentation_url>
-     <versions>
-         <version>
-              <version>1.0</version>
-              <package_url>https://pentaho.box.com/shared/static/1pnvur1jkjaukvuqx91b.zip</package_url>
-         </version>
-     </versions> 
-     <license_name>Apache 2.0</license_name>
-     <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
-     <support_organization>Pentaho Developer Community</support_organization>
-     <support_url>http://kettle.pentaho.com</support_url>
-   </market_entry>
-   
-   <market_entry>
-     <id>html2xml</id>
-     <type>Step</type>
-     <name>HTML to XML</name>
-     <description>This plugin uses JTidy to convert HTML into XML or XHTML, and is inspired by Roland Bouman's blog using the 
-UDJC step with JTidy.</description>
-     <author>Matt Burgess</author>
-     <documentation_url>https://github.com/mattyb149/pdi-html-to-xml-plugin/wiki</documentation_url>
-     <versions>
-         <version>
-              <version>1.0</version>
-              <package_url>https://pentaho.box.com/shared/static/i009upass9f2iip4fit5.zip</package_url>
-         </version>
-     </versions>
-     <license_name>Apache 2.0</license_name>
-     <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
-     <support_organization>Pentaho Developer Community</support_organization>
-     <support_url>http://kettle.pentaho.com</support_url>
-   </market_entry>
-
 	<market_entry>
-	    <id>repositorySynchronizer</id>
-	    <type>Platform</type>
-	    <name>Pentaho Repository Synchronizer</name>
+		<id>AAAR</id>
+		<type>Platform</type>
+		<name>Alfresco Audit Analysis and Reporting</name>
 		<description><![CDATA[
-			
-			Plugin that allows you to interact with the solution repository of Pentaho 5.0 by keeping the disk-based file structure synchronized with the Pentaho internal solution repository (JCR).<br/><br/>
-			
-			This is a pilot release, use at your own risk and report any issues / feedback back to <a target="_blank" href="http://redmine.webdetails.org/projects/prs">Webdetails bug tracker</a> 
+			Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
+			<br/>
+			With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
 			]]>
 		</description>
-	    <documentation_url>http://redmine.webdetails.org/projects/prs</documentation_url>
-	    <author>Webdetails</author>
-	    <author_url>http://www.webdetails.pt</author_url>
-	    <author_logo>http://www.webdetails.pt/images/wdlogo.png</author_logo>
+		<documentation_url>http://fcorti.com/alfresco-audit-analysis-reporting/</documentation_url>
+		<author>Francesco Corti</author>
+		<author_url>http://fcorti.com</author_url>
+		<author_logo>http://www.gravatar.com/avatar/7d8758b63c7b2a873b3b925267ba912d.png</author_logo>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<license>GPL v3</license>
+		<img>http://francescocorti.files.wordpress.com/2014/01/aaar_for_marketplace.png</img>
+		<small_img></small_img>
+		<installation_notes><![CDATA[
+			This plugin requires CDA and CDE installed in the Pentaho BIServer and has been developed using Sparkl.
+			All the configurations, logs, sources and scripts are stored in the AAAR folder.
+			Several actions are performed during installation, in particular:
+			- Creation of 2 database schema (one as Kettle repository and one as AAAR Data Mart).
+			- Creation of a new JDBC data source in the Pentaho Server.
+			- Creation of a repository structure with dashboards and reports installed inside.
+			- Update of script stored into the file system.
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>Limited</branch>
+				<version>2.0</version>
+				<name>Stable</name>
+				<package_url>http://sourceforge.net/projects/aaar/files/v2.0/AAAR_v2.0.zip/download</package_url>
+				<samples_url></samples_url>
+				<description><![CDATA[
+					Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
+					<br/>
+					With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
+					]]>
+				</description>
+				<changelog><![CDATA[
+					- Developed the dashboards used as installation wizard and instructions on how to use the solution.
+					- Added the repository structure in the Pentaho containing dashboards and reports.
+					- Developed the main dashboard as hub of reports.
+					- Added the configuration file for the installation, extraction and publication processes.
+					- Added the log file for the installation, extraction and publication processes.
+					- Updated the script file with sevarl feature like: log file, silent parameter, configuration file.
+					]]>
+				</changelog>
+				<build_id>1</build_id>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version></max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_1.png</screenshot>
+			<screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_2.png</screenshot>
+			<screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_3.png</screenshot>
+		</screenshots>
+	</market_entry>
 
-	    <img></img>
-	    <small_img></small_img>
+
+	<market_entry>
+		<id>repositorySynchronizer</id>
+		<type>Platform</type>
+		<name>Pentaho Repository Synchronizer</name>
+		<description><![CDATA[
+			Pentaho Repository Synchronizer allows you to interact with the
+			solution repository of Pentaho 5.0 by keeping the disk-based file
+			structure synchronized with the Pentaho internal solution
+			repository (JCR).<br/><br/>
+
+			This is a pilot release, use at your own risk and report any issues
+			/ feedback back to <a target="_blank"
+				href="http://redmine.webdetails.org/projects/prs">Webdetails
+				bug tracker</a> 
+			]]>
+		</description>
+		<documentation_url>http://redmine.webdetails.org/projects/prs</documentation_url>
+		<author>Webdetails</author>
+		<author_url>http://www.webdetails.pt</author_url>
+		<author_logo>http://www.webdetails.pt/images/wdlogo.png</author_logo>
+		<img></img>
+		<small_img></small_img>
+		<license>MPL 2.0</license>
+		<dependencies>CDE, CDA, CDF, CGG</dependencies>
 		<installation_notes>
 			This plugin copies a version of libpensol.*.jar to the server's WEB-INF/lib.
 			It's possible that on Windows boxes there's an error upgrading the repositorySynchronizer. If that happens, stop the server and delete the WEB-INF/lib/libpensol.* jar file(s)
 		</installation_notes>
-
-	    <versions>
-	        <version>
-	            <branch>Trunk</branch>
-	            <version>1.0</version>
-	            <name>TRUNK</name>
-	            <package_url>http://ci.pentaho.com/job/RepositorySynchronizer/lastSuccessfulBuild/artifact/dist/repositorySynchronizer-TRUNK-SNAPSHOT.zip</package_url>
-	            <samples_url></samples_url>
+		<versions>
+			<version>
+				<branch>Trunk</branch>
+				<version>1.0</version>
+				<name>TRUNK</name>
+				<package_url>http://ci.pentaho.com/job/RepositorySynchronizer/lastSuccessfulBuild/artifact/dist/repositorySynchronizer-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url></samples_url>
 				<description><![CDATA[
-					
-					Plugin that allows you to interact with the solution repository of Pentaho 5.0 by keeping the disk-based file structure synchronized with the Pentaho internal solution repository (JCR).<br/><br/>
-					
-					This is a pilot release, use at your own risk and report any issues / feedback back to <a target="_blank" href="http://redmine.webdetails.org/projects/prs">Webdetails bug tracker</a> 
+					Plugin that allows you to interact with the solution
+					repository of Pentaho 5.0 by keeping the disk-based file
+					structure synchronized with the Pentaho internal solution
+					repository (JCR).<br/><br/>
+
+					This is a pilot release, use at your own risk and report
+					any issues / feedback back to <a target="_blank"
+						href="http://redmine.webdetails.org/projects/prs">Webdetails
+						bug tracker</a> 
 					]]>
 				</description>
-	            <changelog>Pilot release</changelog>
-	            <build_id>15</build_id>
-	            <min_parent_version>5.0</min_parent_version>
-	            <max_parent_version></max_parent_version>
-	        </version>
-	    </versions>
-
+				<changelog>Pilot release</changelog>
+				<build_id>15</build_id>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version></max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/prs/prs-1.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/prs/prs-2.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/prs/prs-3.png</screenshot>
+		</screenshots>			
 	</market_entry>
 
-    <market_entry>
+
+	<market_entry>
+		<id>cdv</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/cdv.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/cdv_plugin.png</small_img>
+		<name>Community Data Validation</name>
+		<documentation_url>http://ctools.webdetails.org</documentation_url>
+		<description>
+			In the words of one of the wise men who are still around: "Our
+			business isn't displaying stats, ours is the confidence business".
+			The system we created to instantly detect and report data related
+			errors, CDV, is key to achieve absolute accuracy in the numbers our
+			dashboards display.
+		</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>    
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDE, CDA, CDF, CGG</dependencies>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>13.09.10</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV-Release/lastSuccessfulBuild/artifact/dist/cdv-13.09.10.zip</package_url>
+				<description>13.09.10 release</description>
+				<build_id/>
+				<max_parent_version>4.8</max_parent_version>		
+				<min_parent_version>1.0</min_parent_version>
+			</version>		
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+				<build_id>8</build_id>
+				<max_parent_version>4.8</max_parent_version>		
+				<min_parent_version>1.0</min_parent_version>
+			</version>    	
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Build for Pentaho 5.0</description>
+				<build_id>8</build_id>
+				<min_parent_version>5.0</min_parent_version>
+			</version>				
+		</versions>                       
+		<screenshots>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-1.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-2.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-3.png</screenshot>
+			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-4.png</screenshot>
+		</screenshots>			
+	</market_entry>    
+
+
+	<market_entry>
+		<id>cdb</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/cdb.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/cdb_plugin.png</small_img>
+		<name>Community Data Browser</name>
+		<documentation_url>http://ctools.webdetails.org</documentation_url>
+		<description>
+			Calling Business Analysts! Now you can Slice and Dice your Data
+			directly from Pentaho. Make your own analysis in an autonomous and
+			easy way. 
+		</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>    
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDE, CDA, CDF, Saiku</dependencies>                
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>13.09.10</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/lastSuccessfulBuild/artifact/dist/cdb-13.09.10.zip</package_url>
+				<description>13.09.10 release.</description>
+				<build_id/>
+				<max_parent_version>4.8</max_parent_version>		
+				<min_parent_version>1.0</min_parent_version>
+			</version>		    
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB/lastSuccessfulBuild/artifact/dist/cdb-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+				<build_id>27</build_id>
+				<max_parent_version>4.8</max_parent_version>		
+				<min_parent_version>1.0</min_parent_version>
+			</version>    			
+		</versions>                       
+	</market_entry>    
+
+
+	<market_entry>
+		<id>cdc</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/cdc.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/cdc_plugin.png</small_img>
+		<name>Community Distributed Cache</name>
+		<documentation_url>http://ctools.webdetails.org</documentation_url>
+		<description>CDC stands for Community Distributed Cache and allows for high-performance, scalable and distributed memory clustering cache based on Hazelcast for both CDA and Mondrian.</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>    
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDE, CDA, CDF</dependencies>        
+		<installation_notes>Please remember to copy the contents of system/cdc/pentaho-lib to webapps/pentaho/WEB-INF/lib.</installation_notes>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>13.09.10</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC-Release/lastSuccessfulBuild/artifact/dist/cdc-13.09.10.zip</package_url>
+				<description>13.09.10 release.</description>
+				<build_id/>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>		    	
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Trunk</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC/lastSuccessfulBuild/artifact/dist/cdc-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+				<build_id>17</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>		        
+			</version>    				  
+		</versions>                       
+	</market_entry>    
+
+
+	<market_entry>
+		<id>waqr</id>
+		<type>Platform</type>
+		<img/>
+		<small_img/>
+		<name>WAQR</name>
+		<documentation_url/>
+		<description>WAQR (Web Adhoc Query and Reporting) is a report generation tool based on Web 2.0 technology (AJAX, DHTML) designed to help typical business users easily generate adhoc reports using the Pentaho BI platform. It provides a user interface that helps the user quickly identify and group the data of interest, apply constraints to the data, and generate a report. The resulting reports are viewable through WAQR's Preview feature, or through a Pentaho-platform based web application.</description>
+		<author>Pentaho Legacy - Plugins developed by Pentaho but no longer supported</author>
+		<author_url>http://pentaho.com</author_url>
+		<author_logo></author_logo>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<build_id></build_id>
+				<name>Latest snapshot build</name>
+				<package_url>http://ci.pentaho.com/job/WAQR-Plugin/lastSuccessfulBuild/artifact/dist/waqr-plugin-package-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Build for Pentaho 5.0</description>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+		</versions>
+		<screenshots/>
+	</market_entry>    
+
+
+
+
+	<!-- ***************** -->  
+	<!-- Kettle Plugins    -->
+	<!-- ***************** -->
+
+	<market_entry>
+		<id>pdi-mysql-plugin</id>
+		<type>Database</type>
+		<name>PDI MySQL Plugin</name>
+		<description>This plugin also contains the GPL MySQL JDBC Driver version 5</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/MySQL</documentation_url>
+		<versions>
+			<version>
+				<version>TRUNK-SNAPSHOT</version>
+				<package_url>https://pentaho.box.com/shared/static/qllv3c2bo1eiv0o5f468.zip</package_url>
+				<source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>GPL 2.0</license_name>
+		<license_text>For more details see:
+			http://www.gnu.org/licenses/gpl-2.0.txt</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>ApplePushNotification</id>
+		<type>Step</type>
+		<name>Apple Push Notification</name>
+		<description>This is a plugin that allows to you send push notifications from Pentaho Data Integration to any iOS and OSX devices, using Apple's Push Notification Services. 
+			This plugin is written in Scala and uses the Java Apple Push Notification Service library. 
+			The motivation for developing this plugin is to have you, the ETL developer, receive quick notifications about the state of ETL executions wherever you are (faster than email). 
+			However, this plugin can be use for other scenarios as well.
+		</description>
+		<author>Joel Latino</author>
+		<author_url>http://about.me/latinojoel</author_url>
+		<documentation_url>https://github.com/latinojoel/pdi-apple-pushnotifications/blob/master/README.md</documentation_url>
+		<cases_url>https://github.com/latinojoel/pdi-apple-pushnotifications/issues</cases_url>
+		<license_name>GNU General Public License v3</license_name>
+		<license_text>For more details see:
+			http://www.gnu.org/licenses/gpl-3.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by a PDI Apple Push Notifications github project contract.</support_message>
+		<support_url>https://github.com/latinojoel/pdi-apple-pushnotifications/issues</support_url>
+		<versions>
+			<version>
+				<version>0.9.0</version>
+				<package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/0.9.0/ApplePushNotification.zip</package_url>
+				<source_url>https://github.com/latinojoel/pdi-apple-pushnotifications/tree/0.9.0</source_url>
+			</version>
+		</versions>
+	</market_entry>
+
+
+	<market_entry>
+		<id>AndroidPushNotification</id>
+		<type>Step</type>
+		<name>Android Push Notification</name>
+		<description>This is a plugin that allows you to send push notifications from Pentaho Data Integration to any android application with GCM services. This plugin is written in Scala.
+			The motivation for developing this plugin is to have you, the ETL developer, receive fast notifications about the state of ETL executions wherever you are (than faster email). 
+			You can use my android app named PDI Manager: https://play.google.com/store/apps/details?id=com.latinojoel.pdimanager
+			However, this plugin can be used in other scenarios as well.
+		</description>
+		<author>Joel Latino</author>
+		<author_url>http://about.me/latinojoel</author_url>
+		<documentation_url>https://github.com/latinojoel/pdi-android-pushnotifications/blob/master/README.md</documentation_url>
+		<cases_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</cases_url>
+		<license_name>GNU General Public License v3</license_name>
+		<license_text>For more details see:
+			http://www.gnu.org/licenses/gpl-3.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by a PDI Android Push Notifications github project contract.</support_message>
+		<support_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</support_url>
+		<versions>
+			<version>
+				<version>0.9-GA</version>
+				<package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho Data Integration/PDI Android Push Notifications/0.9-GA/AndroidPushNotification.zip</package_url>
+				<source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/0.9.0-GA</source_url>
+			</version>
+		</versions>
+	</market_entry>
+
+
+	<market_entry>
+		<id>DummyPlugin</id>
+		<type>Step</type>
+		<name>Dummy step plugin</name>
+		<description>This is a plugin that is provided as an example on how to create a step plugin for PDI.
+			This plugin is intended only to show how a plugin works, it's goal is not to be used in production situations.
+			Please consult the documentation referenced below as well as the linked source code.
+		</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+		<versions>
+			<version>
+				<version>4.4</version>
+				<package_url>http://wiki.pentaho.com/download/attachments/23531011/DummyPlugin.zip</package_url>
+				<source_url>http://source.pentaho.org/svnkettleroot/plugins/DummyPlugin/trunk/</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>ArffOutput</id>
+		<type>Step</type>
+		<name>ARFF Output</name>
+		<description>Saves data to a file in WEKA's ARFF (Attribute Relation File Format).
+		</description>
+		<versions>
+			<version>
+				<version>4.x</version>
+				<package_url>http://s3.amazonaws.com/kettle/ArffOutput.zip</package_url>
+				<source_url>http://source.pentaho.org/svnkettleroot/plugins/ArffOutput/trunk/</source_url>
+			</version>
+		</versions>
+		<author>Pentaho</author>
+		<documentation_url>http://source.pentaho.org/svnkettleroot/plugins/ArffOutput/trunk/docs/ArffOutput.pdf</documentation_url>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>GNU GPL</license_name>
+		<license_text>For more details about the GNU General Public License v2.0 see:
+			http://www.gnu.org/licenses/gpl-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>KFF</id>
+		<type>Mixed</type>
+		<name>KFF</name>
+		<description>This market entry contains a number of step and jobentry plugins from the KFF project:
+			- Table compare
+			- Environment configurator
+			- Data Grid (in 4.1)
+			- ...
+		</description>
+		<versions>
+			<version>
+				<version>4.x</version>
+				<package_url>http://kettle-franchise.googlecode.com/files/kff-plugins4.zip</package_url>
+				<source_url>http://kettle-franchise.googlecode.com/svn/trunk/</source_url>
+			</version>
+		</versions>
+		<author>The KFF project members: Jan, Matt, Ricardo, Alexandre, Harris, André</author>
+		<documentation_url>http://code.google.com/p/kettle-franchise/w/list</documentation_url>
+		<forum_url>http://code.google.com/p/kettle-franchise/</forum_url>
+		<cases_url>http://code.google.com/p/kettle-franchise/issues/list</cases_url>
+		<license_name>GNU LGPL</license_name>
+		<license_text>For more details about the GNU General Lesser Public License v2.0 see:
+			http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the KFF project on a best-effort bases.</support_message>
+		<support_organization>The KFF project</support_organization>
+		<support_url></support_url>
+	</market_entry> 
+
+
+	<market_entry>
+		<id>kettle5-profiling-datacleaner</id>
+		<type>Mixed</type>
+		<name>DataCleaner Data Profiling for Kettle version 5 or higher</name>
+		<description>Use DataCleaner to profile your Pentaho Data Integration transformations, step by step.
+			Data Cleaner is an open source data quality application made by Human Inference.  With it you can run profiling jobs using DataCleaner for any transformation step and in the database explorer.  Additionally you can include and launch DataCleaner jobs as part of your PDI jobs.  This allows you to merge the tasks of data quality and data integration.</description>
+		<versions>
+			<version>
+				<version>3.1.2</version>
+				<min_parent_version>5.0.0</min_parent_version>
+				<package_url>https://pentaho.box.com/shared/static/a1yl5gmibhrbp9kfim8t.zip</package_url>
+				<source_url>http://source.pentaho.org/svnkettleroot/plugins/kettle-profiling-datacleaner/</source_url>
+			</version>
+		</versions>
+		<author>Human Inference - eobjects - Kasper Sørensen</author>
+		<documentation_url>http://datacleaner.org/docs</documentation_url>
+		<forum_url>http://datacleaner.org/forum/1</forum_url>
+		<cases_url>http://eobjects.org/trac/</cases_url>
+		<license_name>GNU LGPL</license_name>
+		<license_text>For more details about the GNU General Lesser Public License v2.0 see:
+			http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Professional support, training and consultancy for DataCleaner is offered by Human Inference upon request.</support_message>
+		<support_organization>Human Inference</support_organization>
+		<support_url>http://datacleaner.org/support</support_url>
+	</market_entry> 
+
+
+	<market_entry>
+		<id>EasyDQ</id>
+		<type>Step</type>
+		<name>EasyDataQuality for Pentaho</name>
+		<description>
+
+			Combine the leading open source ETL tool with the leading data cleansing functions!
+
+			EasyDQ delivers on demand data quality functions that are fully integrated with Pentaho Data Integration / Kettle.
+
+			Data quality functions by Human Inference and EasyDQ available in Pentaho Data Integration:
+
+			* Data profiling (through DataCleaner)
+			* Name cleansing
+			* Address cleansing
+			* Phone cleansing
+			* Email cleansing
+			* Detect and merge duplicates (through DataCleaner)
+
+			Register now at www.easydq.com and start increasing the quality of your data.
+
+		</description>
+		<img>http://www.easydq.com/media/120433/teaser_pentaho_screenshots.png</img>
+		<author>EasyDQ - Human Inference</author>
+		<author_url>http://www.easydq.com</author_url>
+		<documentation_url>http://www.easydq.com/pentaho</documentation_url>
+		<versions>
+			<version>
+				<version>1.19</version>
+				<package_url>http://sourceforge.net/projects/easydq-kettle/files/EasyDQ-PDI-plugin-1.19.zip/download</package_url>
+			</version>
+		</versions>
+		<license_name>Proprietary</license_name>
+		<license_text>To get access to EasyDQ.com and the data quality services, please register at https://www.easydq.com/register</license_text>
+
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Please contact Human Inference Support at +31 (0)26 3550600 or email support@humaninference.com</support_message>
+		<support_organization>Human Inference</support_organization>
+		<support_url>http://www.easydq.com/faq</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>market</id>
+		<type>Mixed</type>
+		<name>PDI Marketplace</name>
+		<description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+		<versions>
+			<version>
+				<version>TRUNK-SNAPSHOT</version>
+				<package_url>http://ci.pentaho.com/job/Kettle/lastSuccessfulBuild/artifact/Kettle/src-plugins/market/dist/market.zip</package_url>
+				<source_url>http://source.pentaho.org/svnkettleroot/Kettle/trunk/src-plugins/market/</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>CmisInput</id>
+		<type>Step</type>
+		<name>CMIS Input</name>
+		<description>The CMIS Input plugin make you able to extract from your Enterprise Content Management System. 
+			All the metadata of your documents can be retrieved using simple queries with a query language very close to the traditional SQL.</description>
+		<documentation_url>http://fcorti.com/pdi-cmis-input/</documentation_url>
+		<author>Francesco Corti</author>
+		<author_url>http://fcorti.com</author_url>
+		<author_logo>http://francescocorti.files.wordpress.com/2012/12/copy-francescosmall1.jpg</author_logo>
+		<img>http://francescocorti.files.wordpress.com/2013/01/cmisinput.png</img>
+		<small_img>http://francescocorti.files.wordpress.com/2013/04/cmisinput.png</small_img>
+		<license_name>LGPL v3</license_name>
+		<versions>
+			<version>
+				<branch>Stable</branch>
+				<version>1.1</version>
+				<name>1.0</name>
+				<package_url>https://cmis-input-plugin.googlecode.com/files/CMIS%20Input%20plugin%20v1.1%20for%20the%20marketplace.zip</package_url>
+				<description>Release of the plugin.</description>
+				<changelog>Pentaho 5 compliance and OpenCMIS 0.10.0 (Apache Chemistry).</changelog>
+				<build_id>1</build_id>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+		</versions>
+	</market_entry> 
+
+
+	<market_entry>
+		<id>BucketPartitioner</id>
+		<type>Partitioner</type>
+		<name>Bucket Partitioner</name>
+		<description>Partitions rows based on the quotient (rather than the remainder)</description>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/fcvlirqac4k6semj6q7d.zip</package_url>
+				<source_url>https://github.com/mattyb149/BucketPartitioner</source_url>
+			</version>
+		</versions>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/BucketPartitioner/wiki</documentation_url>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url></cases_url>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+	<market_entry>
+		<id>MaxMindGeoIPLookup</id>
+		<type>Step</type>
+		<name>MaxMind GeoIP Lookup</name>
+		<description>This step uses the MaxMind GeoIP library to look up Countries, region and city information with an IP address.</description>
+		<documentation_url>https://raw.github.com/mattcasters/MaxMindGeoIPLookup/master/README.txt</documentation_url>
+		<author>Daniel Einspanjer, Doug Moran, Pedro Alves, Matt Casters</author> 
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>https://github.com/mattcasters/MaxMindGeoIPLookup/issues/</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html </license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by a community of volunteers</support_message>
+		<support_organization>none</support_organization>
+		<support_url>https://github.com/mattcasters/MaxMindGeoIPLookup</support_url>
+		<versions>
+			<version>
+				<branch>Stable</branch>
+				<version>1.0</version>
+				<name>1.0</name>
+				<package_url>https://pentaho.box.com/shared/static/sz6y7m04slzxy93brg3d.zip</package_url>
+				<source_url>https://github.com/mattcasters/MaxMindGeoIPLookup</source_url>
+				<description>First stable release, supports running in Map/Reduce, handles VFS URLs for database files</description>
+				<changelog>First release</changelog>
+				<build_id>1</build_id>
+				<min_parent_version>4.2</min_parent_version>
+			</version>
+		</versions>
+	</market_entry> 
+
+
+	<market_entry>
+		<id>weka-scoring</id>
+		<type>Step</type>
+		<name>Weka Scoring</name>
+		<description>This step allows you to push data into a Weka model and get scoring out in a transformation.</description>
+		<author>Mark Hall</author> 
+		<forum_url>http://forums.pentaho.com/forumdisplay.php?81-Pentaho-Data-Mining-WEKA</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/DATAMINING</cases_url>
+		<license_name>GNU General Public License 3.0</license_name>
+		<license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/</support_url>
+		<versions>
+			<version>
+				<branch>Stable</branch>
+				<version>4.x</version>
+				<name>4.x</name>
+				<package_url>https://pentaho.box.com/shared/static/1rcyaet2tceprebejldg.zip</package_url>
+				<source_url>http://source.pentaho.org/svnkettleroot/plugins/WekaScoring/</source_url>
+				<min_parent_version>4.2</min_parent_version>
+			</version>
+		</versions>
+	</market_entry> 
+
+
+	<market_entry>
+		<id>MDCheckPlugin</id>
+		<type>Step</type>
+		<name>MDCheck</name>
+		<description> Melissa Data Contact Verification Tools:
+
+			Contact Verify Component
+			• Standardize, verify, and correct U.S. and Canadian addresses
+			• Verify and normalize U.S. and Canadian phones on a 7-10 digit level
+			• Parse names, genderize, and detect suspicious words or companies in name field
+			• Geocode addresses by assigning rooftop lat/long coordinates*
+
+			SmartMover Component
+			• U.S./Canadian change of address processing to update addresses of people or
+			businesses that have moved
+
+			MatchUp Component
+			• Identify duplicate records with domain specific knowledge of contact information
+
+			IP Locator Component
+			• Identify web visitor's geographic location
+			• Reduce fraud and geo target
+
+		</description>
+		<author>Melissa Data</author>
+		<documentation_url>http://www.melissadata.com/dqt/contact-zone/index.htm</documentation_url>
+		<versions>
+			<version>
+				<version>3.1.0</version>
+				<package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
+			</version>
+		</versions>
+		<license_name>MD licensing</license_name>
+		<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
+		<support_organization>Melissa Data</support_organization>
+		<support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>MDGlobalAddressPlugin</id>
+		<type>Step</type>
+		<name>MDGlobalVerify</name>
+		<description> Global Verify Component
+			• Address verification for over 240 countries
+			• Transliteration of many major character sets and display output in either nature or  Roman characters</description>
+		<author>Melissa Data</author>
+		<documentation_url>http://w10.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
+		<versions>
+			<version>
+				<version>3.1.0</version>
+				<package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
+			</version>
+		</versions>
+		<license_name>MD licensing</license_name>
+		<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
+		<support_organization>Melissa Data</support_organization>
+		<support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>MDPersonatorPlugin</id>
+		<type>Step</type>
+		<name>MDPersonator</name>
+		<description> Personator Component
+			• Verifies name corresponds to address, email, and phone data
+			• Appends missing name and company name, phone number, and/or email address</description>
+		<author>Melissa Data</author>
+		<documentation_url>http://w10.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
+		<versions>
+			<version>
+				<version>3.1.0</version>
+				<package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
+			</version>
+		</versions>
+		<license_name>MD licensing</license_name>
+		<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
+		<support_organization>Melissa Data</support_organization>
+		<support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>CiviCrmInput</id>
+		<type>Step</type>
+		<name>CiviCrmInput</name>
+		<description>This step allows reading data from CiviCRM 
+		</description>
+		<versions>
+			<version>
+				<version>4.X</version>
+				<package_url>http://www.stratebi.com/documents/10157/0/CIVICRMInput.zip</package_url>
+				<source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
+			</version>
+		</versions>
+		<author>Stratebi and Amnesty International</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Input</documentation_url>
+		<forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
+		<cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
+		<license_name>GNU GPL</license_name>
+		<license_text>For more details about the GNU General Public License v2.0 see:
+			http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Report issues  and suggestions to support@stratebi.com</support_message>
+		<support_organization>Stratebi</support_organization>
+		<support_url></support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>CiviCrmOutput</id>
+		<type>Step</type>
+		<name>CiviCrmOutput</name>
+		<description>This step allows write/update data into CiviCRM 
+		</description>
+		<versions>
+			<version>
+				<version>4.X</version>
+				<package_url>http://www.stratebi.com/documents/10157/0/CIVICRMOutput.zip</package_url>
+				<source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
+			</version>
+		</versions>
+		<author>Stratebi and Amnesty International</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Output</documentation_url>
+		<forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
+		<cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
+		<license_name>GNU GPL</license_name>
+		<license_text>For more details about the GNU General Public License v2.0 see:
+			http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Report issues  and suggestions to support@stratebi.com</support_message>
+		<support_organization>Stratebi</support_organization>
+		<support_url></support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>load-text-from-file</id>
+		<type>Step</type>
+		<name>Load Text From File</name>
+		<description>This plugin uses Apache Tika to extract text from files in many different formats, such as PDF, XLS, etc.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/load-text-from-file-plugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>tdeoutputplugin</id>
+		<type>Step</type>
+		<name>PDI Tableau Data Extract Output Plugin</name>
+		<description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL 
+			capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a 
+			Tableau server or use the TDE in Tableau Desktop.
+
+			Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace
+			and requires additional installation.  Instructions to download and install the Tableau Data Extract
+			API are available in the README or at: https://github.com/cdeptula/tdeoutputplugin</description>
+		<author>OpenBI</author>
+		<author_url>http://www.openbi.com</author_url>
+		<author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
+		<installation_notes>
+			Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
+
+			1. Install the Tableau Data Exract Output plugin from the Pentaho marketplace.
+			2. Download the "C/C++/Java" data extract API from Tableau for your environment. Choose the 32 bit or 64 bit version based on your Java JDK. - http://www.tableausoftware.com/data-extract-api
+			3. Unzip the downloaded zip.
+			4. For PDI 5.0 and above - Copy the contents of the Java directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
+			5. For PDI 4.8 and below - Copy the contents of the Java6 directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
+			6. For Windows - Add the bin folder from the downloaded Tableau API zip to your system path variable.
+			7. For Linux - Add the lib folder from the downloaded Tableau API zip to the LD_LIBRARY_PATH variable.
+			8. Restart PDI
+		</installation_notes>
+		<documentation_url>https://github.com/cdeptula/tdeoutputplugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>1.0.2</version>
+				<build_id></build_id>
+				<name>Version 1.0.2</name>
+				<package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.2/TDEOutputPlugin_1.0.2.zip</package_url>
+				<source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
+			</version>
+		</versions>
+		<cases_url>https://github.com/cdeptula/tdeoutputplugin/issues</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+	</market_entry>
+
+
+	<market_entry>
+		<id>idh23</id>
+		<type>HadoopShim</type>
+		<name>IDH 2.3 Hadoop Configuration</name>
+		<description>This is a Hadoop Configuration plugin that allows PDI to interact with 
+			Intel Distribution of Hadoop clusters (version 2.3). This plugin is compatible with 
+			PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
+		</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+		<versions>
+			<version>
+				<version>5.0.1</version>
+				<package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+				<source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/idh</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>cdh3u4</id>
+		<type>HadoopShim</type>
+		<name>CDH 3u4 Hadoop Configuration</name>
+		<description>This is a Hadoop Configuration plugin that allows PDI to interact with 
+			Cloudera Distribution of Hadoop clusters (version 3u4). This plugin is compatible with 
+			PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
+		</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+		<versions>
+			<version>
+				<version>5.0.1</version>
+				<package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+				<source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/cdh3u4</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>csv-jdbc-plugin</id>
+		<type>Database</type>
+		<name>CSV JDBC Connector</name>
+		<description>This plugin uses csvjdbc (http://csvjdbc.sourceforge.net) to provide a PDI database dialect for CSV files.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/csv-jdbc-plugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/1pnvur1jkjaukvuqx91b.zip</package_url>
+			</version>
+		</versions> 
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>html2xml</id>
+		<type>Step</type>
+		<name>HTML to XML</name>
+		<description>This plugin uses JTidy to convert HTML into XML or XHTML, and is inspired by Roland Bouman's blog using the 
+			UDJC step with JTidy.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/pdi-html-to-xml-plugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/i009upass9f2iip4fit5.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+
+	<market_entry>
 		<id>pentaho-kafka-consumer</id>
 		<type>Step</type>
 		<img>https://kafka.apache.org/images/kafka_logo.png</img>
@@ -1416,127 +1528,38 @@ UDJC step with JTidy.</description>
 				<min_parent_version>1.0</min_parent_version>
 			</version>
 		</versions>
-    </market_entry>
+	</market_entry>
 
-  <market_entry>
-     <id>TableauExtractRefresh</id>
-     <type>JobEntry</type>
-     <name>Refresh Tableau Server Extract Plugin</name>
-     <description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau 
-server from PDI. It can perform a full refresh of any extract, update an incremental 
-extract from a database, or append new files to an existing extract.</description>
-     <author>OpenBI</author>
-     <author_url>http://www.openbi.com</author_url>
-     <author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
-     <documentation_url>https://github.com/cdeptula/refreshtableauextract/wiki</documentation_url>
-     <versions>
-         <version>
-               <branch>TRUNK</branch>
-               <version>1.0</version>
-               <build_id></build_id>
-               <name>Version 1.0</name>
-               <package_url>https://github.com/cdeptula/refreshtableauextract/releases/download/1.0.0/refreshtableauextract.zip</package_url>
-               <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
-         </version>
-     </versions>
-     <cases_url>https://github.com/cdeptula/refreshtableauextract/issues</cases_url>
-     <license_name>Apache License 2.0</license_name>
-     <license_text>For more details see:
-    http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-   </market_entry>
 
-    <market_entry>
-        <id>AAAR</id>
-        <type>Platform</type>
-        <name>Alfresco Audit Analysis and Reporting</name>
-        <description><![CDATA[
-            Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-            <br/>
-            With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-            ]]>
-        </description>
-        <documentation_url>http://fcorti.com/alfresco-audit-analysis-reporting/</documentation_url>
-        <author>Francesco Corti</author>
-        <author_url>http://fcorti.com</author_url>
-        <author_logo>http://www.gravatar.com/avatar/7d8758b63c7b2a873b3b925267ba912d.png</author_logo>
-        <dependencies>CDA, CDE, CDF</dependencies>
-        <license>GPL v3</license>
-        <img>http://francescocorti.files.wordpress.com/2014/01/aaar_for_marketplace.png</img>
-        <small_img></small_img>
-        <installation_notes><![CDATA[
-            This plugin requires CDA and CDE installed in the Pentaho BIServer and has been developed using Sparkl.
-            All the configurations, logs, sources and scripts are stored in the AAAR folder.
-            Several actions are performed during installation, in particular:
-            - Creation of 2 database schema (one as Kettle repository and one as AAAR Data Mart).
-            - Creation of a new JDBC data source in the Pentaho Server.
-            - Creation of a repository structure with dashboards and reports installed inside.
-            - Update of script stored into the file system.
-            ]]>
-        </installation_notes>
-        <versions>
-            <version>
-                <branch>Limited</branch>
-                <version>2.0</version>
-                <name>Limited</name>
-                <package_url>http://sourceforge.net/projects/aaar/files/v2.0/AAAR_v2.0.zip/download</package_url>
-                <samples_url></samples_url>
-                <description><![CDATA[
-                    Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-                    <br/>
-                    With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-                    ]]>
-                </description>
-                <changelog><![CDATA[
-                    - Developed the dashboards used as installation wizard and instructions on how to use the solution.
-                    - Added the repository structure in the Pentaho containing dashboards and reports.
-                    - Developed the main dashboard as hub of reports.
-                    - Added the configuration file for the installation, extraction and publication processes.
-                    - Added the log file for the installation, extraction and publication processes.
-                    - Updated the script file with sevarl feature like: log file, silent parameter, configuration file.
-                    ]]>
-                </changelog>
-                <build_id>1</build_id>
-                <min_parent_version>5.0</min_parent_version>
-                <max_parent_version></max_parent_version>
-            </version>
-        </versions>
-        <screenshots>
-            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_1.png</screenshot>
-            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_2.png</screenshot>
-            <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_3.png</screenshot>
-        </screenshots>
-    </market_entry>
-
-       <market_entry>
-		<id>pentaho-kafka-consumer</id>
-		<type>Step</type>
-		<img>https://kafka.apache.org/images/kafka_logo.png</img>
-		<small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
-		<name>Apache Kafka Consumer</name>
-		<documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Consumer</documentation_url>
-		<description>The plug-in allows reading binary messages from Apache Kafka message queue.</description>
-		<author>Ruckus Wireless</author>
-		<author_url>http://ruckuswireless.com</author_url>
-		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
-		<license>Apache License 2.0</license>
-		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+	<market_entry>
+		<id>TableauExtractRefresh</id>
+		<type>JobEntry</type>
+		<name>Refresh Tableau Server Extract Plugin</name>
+		<description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau 
+			server from PDI. It can perform a full refresh of any extract, update an incremental 
+			extract from a database, or append new files to an existing extract.</description>
+		<author>OpenBI</author>
+		<author_url>http://www.openbi.com</author_url>
+		<author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
+		<documentation_url>https://github.com/cdeptula/refreshtableauextract/wiki</documentation_url>
 		<versions>
 			<version>
 				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Latest</name>
-				<package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.0/pentaho-kafka-consumer-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url></samples_url>
-				<description>Latest build from the trunk development branch.</description>
-				<build_id>20140101-1548</build_id>
-				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
+				<version>1.0</version>
+				<build_id></build_id>
+				<name>Version 1.0</name>
+				<package_url>https://github.com/cdeptula/refreshtableauextract/releases/download/1.0.0/refreshtableauextract.zip</package_url>
+				<source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
 			</version>
 		</versions>
-    </market_entry>
+		<cases_url>https://github.com/cdeptula/refreshtableauextract/issues</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+	</market_entry>
 
-    <market_entry>
+	<market_entry>
 		<id>pentaho-protobuf-decode</id>
 		<type>Step</type>
 		<img>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</img>
@@ -1562,30 +1585,31 @@ extract from a database, or append new files to an existing extract.</descriptio
 				<min_parent_version>1.0</min_parent_version>
 			</version>
 		</versions>
-    </market_entry>
-    
-   <market_entry>
-     <id>legstar.pdi.zosfile</id>
-     <type>Step</type>
-     <name>LegStar z/OS File reader Plugin</name>
-     <description>This step reads raw z/OS records from a file and transforms them to PDI rows</description>
-     <author>LegSem</author>
-     <documentation_url>https://code.google.com/p/legstar-pdi/wiki/GetStarted</documentation_url>
-     <versions>
-         <version>
-              <version>0.6</version>
-              <package_url>https://googledrive.com/host/0B0Jhkz53SgUXTElZSHh4NUM2Tm8/legstar.pdi.zosfile-0.6.zip</package_url>
-              <source_url>https://code.google.com/p/legstar-pdi/source/checkout</source_url>
-         </version>
-     </versions>
-     <forum_url>https://groups.google.com/forum/#!forum/legstar-user</forum_url>
-     <cases_url>https://code.google.com/p/legstar-pdi/issues/list</cases_url>
-     <license_name>GNU Lesser GPL</license_name>
-     <license_text>For more details see: http://www.gnu.org/licenses/lgpl.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by a LegSem</support_message>
-     <support_organization>LegSem</support_organization>
-     <support_url>http://www.legsem.com/</support_url>
-   </market_entry>
+	</market_entry>
+
+
+	<market_entry>
+		<id>legstar.pdi.zosfile</id>
+		<type>Step</type>
+		<name>LegStar z/OS File reader Plugin</name>
+		<description>This step reads raw z/OS records from a file and transforms them to PDI rows</description>
+		<author>LegSem</author>
+		<documentation_url>https://code.google.com/p/legstar-pdi/wiki/GetStarted</documentation_url>
+		<versions>
+			<version>
+				<version>0.6</version>
+				<package_url>https://googledrive.com/host/0B0Jhkz53SgUXTElZSHh4NUM2Tm8/legstar.pdi.zosfile-0.6.zip</package_url>
+				<source_url>https://code.google.com/p/legstar-pdi/source/checkout</source_url>
+			</version>
+		</versions>
+		<forum_url>https://groups.google.com/forum/#!forum/legstar-user</forum_url>
+		<cases_url>https://code.google.com/p/legstar-pdi/issues/list</cases_url>
+		<license_name>GNU Lesser GPL</license_name>
+		<license_text>For more details see: http://www.gnu.org/licenses/lgpl.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by a LegSem</support_message>
+		<support_organization>LegSem</support_organization>
+		<support_url>http://www.legsem.com/</support_url>
+	</market_entry>
 
 </market>
