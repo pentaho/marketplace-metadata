@@ -608,8 +608,8 @@
 		</installation_notes>
 		<versions>
 			<version>
-				<branch>Trunk</branch>
-				<version>1.0</version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
 				<name>TRUNK</name>
 				<package_url>http://ci.pentaho.com/job/RepositorySynchronizer/lastSuccessfulBuild/artifact/dist/repositorySynchronizer-TRUNK-SNAPSHOT.zip</package_url>
 				<samples_url></samples_url>
@@ -626,7 +626,7 @@
 					]]>
 				</description>
 				<changelog>Pilot release</changelog>
-				<build_id>15</build_id>
+				<build_id>19</build_id>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version></max_parent_version>
 			</version>
@@ -804,6 +804,190 @@
 		<screenshots/>
 	</market_entry>    
 
+	<market_entry>
+		<id>languagePack_fr</id> 
+		<type>Platform</type> 
+		<name>French Language Pack Installer</name> 
+		<description>This plugin installs language definitions for the French language in Pentaho 5</description> 
+		<documentation_url>This plugin installs language definitions for the French language in Pentaho 5</documentation_url> 
+		<author>Sylvain Decloix</author> 
+		<author_url>http://www.atolcd.com</author_url> 
+		<author_logo/> 
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/fr/resources/img/flag.png</img> 
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/fr/resources/img/flag.png</small_img>  
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes> 
+		<versions> 
+			<version>
+				<branch>TRUNK</branch> 
+				<version>TRUNK-SNAPSHOT</version> 
+				<name>TRUNK</name> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-TRUNK-SNAPSHOT.zip</package_url> 
+				<samples_url/> 
+				<description>Trunk snapshot</description> 
+				<changelog/> 
+				<build_id>0</build_id>  
+				<min_parent_version>5.0</min_parent_version> 
+				<max_parent_version>5.0.1</max_parent_version> 
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_1.png</screenshot>
+			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+
+	<market_entry>
+		<id>languagePack_hi</id> 
+		<type>Platform</type> 
+		<name>Hindi Language Pack Installer</name> 
+		<description>This plugin installs language definitions for the Hindi language in Pentaho 5</description> 
+		<documentation_url>This plugin installs language definitions for the Hindi language in Pentaho 5</documentation_url> 
+		<author>InfoAxon Technologies</author> 
+		<author_url>http://www.infoaxon.com</author_url> 
+		<author_logo/> 
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/hi/resources/img/flag.png</img> 
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/hi/resources/img/flag.png</small_img>  
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes> 
+		<versions> 
+			<version>
+				<branch>TRUNK</branch> 
+				<version>TRUNK-SNAPSHOT</version> 
+				<name>TRUNK</name> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-TRUNK-SNAPSHOT.zip</package_url> 
+				<samples_url/> 
+				<description>Trunk snapshot</description> 
+				<changelog/> 
+				<build_id>0</build_id>  
+				<min_parent_version>5.0</min_parent_version> 
+				<max_parent_version>5.0.1</max_parent_version> 
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_1.png</screenshot>
+			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+
+	<market_entry>
+		<id>languagePack_ko</id> 
+		<type>Platform</type> 
+		<name>Korean Language Pack Installer</name> 
+		<description>This plugin installs language definitions for the Korean language in Pentaho 5</description> 
+		<documentation_url>This plugin installs language definitions for the Korean language in Pentaho 5</documentation_url> 
+		<author>Xavier Cho</author> 
+		<author_url>http://github.com/mysticfall</author_url> 
+		<author_logo/> 
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ko/resources/img/flag.png</img> 
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ko/resources/img/flag.png</small_img>  
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes> 
+		<versions> 
+			<version>
+				<branch>TRUNK</branch> 
+				<version>TRUNK-SNAPSHOT</version> 
+				<name>TRUNK</name> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-TRUNK-SNAPSHOT.zip</package_url> 
+				<samples_url/> 
+				<description>Trunk snapshot</description> 
+				<changelog/> 
+				<build_id>0</build_id>  
+				<min_parent_version>5.0</min_parent_version> 
+				<max_parent_version>5.0.1</max_parent_version> 
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_1.png</screenshot>
+			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+
+	<market_entry>
+		<id>languagePack_nl</id> 
+		<type>Platform</type> 
+		<name>Dutch Language Pack Installer</name> 
+		<description>This plugin installs language definitions for the Dutch language in Pentaho 5</description> 
+		<documentation_url>This plugin installs language definitions for the Dutch language in Pentaho 5</documentation_url> 
+		<author>C. van Kemenade</author> 
+		<author_url>http://www.vinzi.nl</author_url> 
+		<author_logo/> 
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/nl/resources/img/flag.png</img> 
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/nl/resources/img/flag.png</small_img>  
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes> 
+		<versions> 
+			<version>
+				<branch>TRUNK</branch> 
+				<version>TRUNK-SNAPSHOT</version> 
+				<name>TRUNK</name> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-TRUNK-SNAPSHOT.zip</package_url> 
+				<samples_url/> 
+				<description>Trunk snapshot</description> 
+				<changelog/> 
+				<build_id>0</build_id>  
+				<min_parent_version>5.0</min_parent_version> 
+				<max_parent_version>5.0.1</max_parent_version> 
+			</version>
+		</versions>
+		<screenshots>
+		</screenshots>
+	</market_entry>
 
 
 
