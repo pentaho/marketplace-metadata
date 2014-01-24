@@ -66,8 +66,8 @@
 			</version>
 			<version>
 				<branch>TRUNK</branch>
-				<version>5.0.1-stable</version>
-				<build_id/>
+				<version>TRUNK-SNAPSHOT</version>
+				<build_id>47</build_id>
 				<name>Latest snapshot build</name>
 				<package_url>http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
 				<description>Build for Pentaho 5.0</description>
@@ -1073,17 +1073,17 @@
 	<market_entry>
 		<id>languagePack_es</id> 
 		<type>Platform</type> 
-		<name>Spanish (Mexico) Language Pack Installer</name> 
+		<name>Spanish Language Pack Installer</name> 
 		<description>
 			<![CDATA[
-			This plugin installs language definitions for the Spanish language (Mexico's variant) in Pentaho 5 <br /><br />
+			This plugin installs language definitions for the Spanish language in Pentaho 5 <br /><br />
 
 			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 			any translation issues or suggestions for improvement
 			]]>
-			This plugin installs language definitions for the Spanish language (Mexico's variant) in Pentaho 5
+			This plugin installs language definitions for the Spanish language in Pentaho 5
 		</description> 
-		<documentation_url>This plugin installs language definitions for the Spanish language (Mexico's variant) in Pentaho 5</documentation_url> 
+		<documentation_url>This plugin installs language definitions for the Spanish language in Pentaho 5</documentation_url> 
 		<author>Domingo Lavin</author> 
 		<author_url>http://www.pentaho.com</author_url> 
 		<author_logo/> 
@@ -1119,8 +1119,11 @@
 			</version>
 		</versions>
 		<screenshots>
+			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_1.png</screenshot>
+			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
+	
 
 
 
