@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <market>
 
 	<!-- ***************** -->
@@ -114,26 +114,26 @@
 				<build_id/>
 			</version>    	                    
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
-				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-				<build_id>235</build_id>
-				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
-			</version>    	
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+		    <name>Trunk</name>
+		    <package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+    		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+	    	<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		    <build_id>246</build_id>
+            <max_parent_version>4.8</max_parent_version>
+            <min_parent_version>1.0</min_parent_version>		        							
+		</version>    	
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
-				<description>Build for Pentaho 5.0</description>
-				<min_parent_version>5.0</min_parent_version>
-				<build_id>218</build_id>
-			</version>		
+            <branch>TRUNK</branch>
+            <version>TRUNK-SNAPSHOT</version>
+            <name>Trunk</name>
+                <package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+                <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+                <description>Build for Pentaho 5.0</description>
+                <min_parent_version>5.0</min_parent_version>
+                <build_id>238</build_id>
+            </version>		
 		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-1.png</screenshot>
@@ -173,25 +173,27 @@
 				<min_parent_version>1.0</min_parent_version>        
 			</version>    	                    
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
-				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-				<build_id>19</build_id> 
-				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
-			</version>    	
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+		<samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>30</build_id>
+		<max_parent_version>4.8</max_parent_version>
+        <min_parent_version>1.0</min_parent_version>
+		
+		</version>    	
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
-				<description>Build for Pentaho 5.0</description>
-				<build_id>83</build_id>
-				<min_parent_version>5.0</min_parent_version></version>				
+        <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+        <package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+        <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
+        <description>Build for Pentaho 5.0</description>
+		<build_id>94</build_id>
+        <min_parent_version>5.0</min_parent_version>		
+		</version>				
 		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-01.png</screenshot>
@@ -234,26 +236,27 @@
 				<min_parent_version>1.0</min_parent_version>                
 			</version>    	                    
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
-				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
-				<build_id>217</build_id>
-				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
-			</version>    	
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <name>Trunk</name>
+        		<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
+		        <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
+                <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
+                <build_id>225</build_id>
+                <max_parent_version>4.8</max_parent_version>
+                <min_parent_version>1.0</min_parent_version>		        		
+            
+            </version>    	
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
-				<samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
-				<description>Build for Pentaho 5.0</description>
-				<build_id>76</build_id>
-				<min_parent_version>5.0</min_parent_version>
-			</version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <name>Trunk</name>
+                <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
+                <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
+                <description>Build for Pentaho 5.0</description>
+                <build_id>83</build_id>
+                <min_parent_version>5.0</min_parent_version>		            
+            </version>
 		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-1.png</screenshot>
@@ -281,7 +284,7 @@
 		<author_url>http://webdetails.pt</author_url>    
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
 		<license>MPL 2.0</license>
-		<installation_notes></installation_notes>
+		<installation_notes/>
 		<versions>
 			<version>
 				<branch>STABLE</branch>
@@ -294,24 +297,25 @@
 				<build_id/>
 			</version>        
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/pentaho-cgg-pentaho/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-pentaho-TRUNK-SNAPSHOT.zip</package_url>
-				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-				<build_id>14</build_id>
-				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
-			</version>    	
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.pentaho.com/job/pentaho-cgg-pentaho/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>15</build_id>
+        <max_parent_version>4.8</max_parent_version>
+		<min_parent_version>1.0</min_parent_version>
+
+		</version>    	
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
-				<description>Build for Pentaho 5.0</description>
-				<build_id>67</build_id>
-				<min_parent_version>5.0</min_parent_version>
-			</version>		
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+        <package_url>http://ci.pentaho.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Buid for Pentaho 5</description>
+		<build_id>71</build_id>
+        <min_parent_version>5.0</min_parent_version>		
+		</version>		
 		</versions>                       
 	</market_entry>
 
@@ -336,24 +340,24 @@
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
 		<versions>    	    	
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-				<description>Latest trunk snapshot build.</description>
-				<build_id>manual-20131126</build_id>
-				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
-			</version>    				 
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+		    <name>Trunk</name>
+    		<package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+	    	<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
+		    <build_id>8</build_id>
+            <max_parent_version>4.8</max_parent_version>
+	    	<min_parent_version>1.0</min_parent_version>		
+		</version>    				 
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-				<description>Latest trunk snapshot build.</description>
-				<build_id>manual-20131205</build_id>
-				<min_parent_version>5.0</min_parent_version>
-			</version>    				     	        	    
+	        <branch>TRUNK</branch>
+    		<version>TRUNK-SNAPSHOT</version>
+	    	<name>Trunk</name>
+		    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+    		<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
+	    	<build_id>35</build_id>
+            <min_parent_version>5.0</min_parent_version>		
+		</version>    				     	        	    
 		</versions>                       
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-1.png</screenshot>
@@ -532,7 +536,7 @@
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
 		<license>GPL v3</license>
 		<img>http://francescocorti.files.wordpress.com/2014/01/aaar_for_marketplace.png</img>
-		<small_img></small_img>
+		<small_img/>
 		<installation_notes><![CDATA[
 			This plugin requires CDA and CDE installed in the Pentaho BIServer and has been developed using Sparkl.
 			All the configurations, logs, sources and scripts are stored in the AAAR folder.
@@ -549,7 +553,7 @@
 				<version>2.0</version>
 				<name>Stable</name>
 				<package_url>http://sourceforge.net/projects/aaar/files/v2.0/AAAR_v2.0.zip/download</package_url>
-				<samples_url></samples_url>
+				<samples_url/>
 				<description><![CDATA[
 					Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
 					<br/>
@@ -567,7 +571,7 @@
 				</changelog>
 				<build_id>1</build_id>
 				<min_parent_version>5.0</min_parent_version>
-				<max_parent_version></max_parent_version>
+				<max_parent_version/>
 			</version>
 		</versions>
 		<screenshots>
@@ -598,8 +602,8 @@
 		<author>Webdetails</author>
 		<author_url>http://www.webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/images/wdlogo.png</author_logo>
-		<img></img>
-		<small_img></small_img>
+		<img/>
+		<small_img/>
 		<license>MPL 2.0</license>
 		<dependencies>CDE, CDA, CDF, CGG</dependencies>
 		<installation_notes>
@@ -612,7 +616,7 @@
 				<version>1.0</version>
 				<name>TRUNK</name>
 				<package_url>http://ci.pentaho.com/job/RepositorySynchronizer/lastSuccessfulBuild/artifact/dist/repositorySynchronizer-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url></samples_url>
+				<samples_url/>
 				<description><![CDATA[
 					Plugin that allows you to interact with the solution
 					repository of Pentaho 5.0 by keeping the disk-based file
@@ -628,7 +632,7 @@
 				<changelog>Pilot release</changelog>
 				<build_id>15</build_id>
 				<min_parent_version>5.0</min_parent_version>
-				<max_parent_version></max_parent_version>
+				<max_parent_version/>
 			</version>
 		</versions>
 		<screenshots>
@@ -670,24 +674,24 @@
 				<min_parent_version>1.0</min_parent_version>
 			</version>		
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
-				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-				<build_id>8</build_id>
-				<max_parent_version>4.8</max_parent_version>		
-				<min_parent_version>1.0</min_parent_version>
-			</version>    	
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	    	<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+		    <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+    		<build_id>11</build_id>
+            <max_parent_version>4.8</max_parent_version>		
+            <min_parent_version>1.0</min_parent_version>		
+		</version>    	
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
-				<description>Build for Pentaho 5.0</description>
-				<build_id>8</build_id>
-				<min_parent_version>5.0</min_parent_version>
-			</version>				
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+		    <name>Trunk</name>
+            <package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+            <build_id>11</build_id>
+            <min_parent_version>5.0</min_parent_version>
+		</version>				
 		</versions>                       
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-1.png</screenshot>
@@ -789,12 +793,12 @@
 		<description>WAQR (Web Adhoc Query and Reporting) is a report generation tool based on Web 2.0 technology (AJAX, DHTML) designed to help typical business users easily generate adhoc reports using the Pentaho BI platform. It provides a user interface that helps the user quickly identify and group the data of interest, apply constraints to the data, and generate a report. The resulting reports are viewable through WAQR's Preview feature, or through a Pentaho-platform based web application.</description>
 		<author>Pentaho Legacy - Plugins developed by Pentaho but no longer supported</author>
 		<author_url>http://pentaho.com</author_url>
-		<author_logo></author_logo>
+		<author_logo/>
 		<versions>
 			<version>
 				<branch>TRUNK</branch>
 				<version>TRUNK-SNAPSHOT</version>
-				<build_id></build_id>
+				<build_id/>
 				<name>Latest snapshot build</name>
 				<package_url>http://ci.pentaho.com/job/WAQR-Plugin/lastSuccessfulBuild/artifact/dist/waqr-plugin-package-TRUNK-SNAPSHOT.zip</package_url>
 				<description>Build for Pentaho 5.0</description>
@@ -974,11 +978,11 @@
 		<cases_url>http://code.google.com/p/kettle-franchise/issues/list</cases_url>
 		<license_name>GNU LGPL</license_name>
 		<license_text>For more details about the GNU General Lesser Public License v2.0 see:
-			http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
+			http://www.gnu.org/licenses/lgpl-2.0.html</license_text>
 		<support_level>COMMUNITY_SUPPORTED</support_level>
 		<support_message>Supported by the KFF project on a best-effort bases.</support_message>
 		<support_organization>The KFF project</support_organization>
-		<support_url></support_url>
+		<support_url/>
 	</market_entry> 
 
 
@@ -1002,7 +1006,7 @@
 		<cases_url>http://eobjects.org/trac/</cases_url>
 		<license_name>GNU LGPL</license_name>
 		<license_text>For more details about the GNU General Lesser Public License v2.0 see:
-			http:&#47;&#47;www.gnu.org&#47;licenses&#47;lgpl-2.0.html</license_text>
+			http://www.gnu.org/licenses/lgpl-2.0.html</license_text>
 		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
 		<support_message>Professional support, training and consultancy for DataCleaner is offered by Human Inference upon request.</support_message>
 		<support_organization>Human Inference</support_organization>
@@ -1121,7 +1125,7 @@
 		<author>Matt Burgess</author>
 		<documentation_url>https://github.com/mattyb149/BucketPartitioner/wiki</documentation_url>
 		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-		<cases_url></cases_url>
+		<cases_url/>
 		<license_name>Apache 2.0</license_name>
 		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
 		<support_level>COMMUNITY_SUPPORTED</support_level>
@@ -1297,11 +1301,11 @@
 		<cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
 		<license_name>GNU GPL</license_name>
 		<license_text>For more details about the GNU General Public License v2.0 see:
-			http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
+			http://www.gnu.org/licenses/gpl-2.0.html</license_text>
 		<support_level>COMMUNITY_SUPPORTED</support_level>
 		<support_message>Report issues  and suggestions to support@stratebi.com</support_message>
 		<support_organization>Stratebi</support_organization>
-		<support_url></support_url>
+		<support_url/>
 	</market_entry>
 
 
@@ -1324,11 +1328,11 @@
 		<cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
 		<license_name>GNU GPL</license_name>
 		<license_text>For more details about the GNU General Public License v2.0 see:
-			http:&#47;&#47;www.gnu.org&#47;licenses&#47;gpl-2.0.html</license_text>
+			http://www.gnu.org/licenses/gpl-2.0.html</license_text>
 		<support_level>COMMUNITY_SUPPORTED</support_level>
 		<support_message>Report issues  and suggestions to support@stratebi.com</support_message>
 		<support_organization>Stratebi</support_organization>
-		<support_url></support_url>
+		<support_url/>
 	</market_entry>
 
 
@@ -1385,7 +1389,7 @@
 			<version>
 				<branch>TRUNK</branch>
 				<version>1.0.2</version>
-				<build_id></build_id>
+				<build_id/>
 				<name>Version 1.0.2</name>
 				<package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.2/TDEOutputPlugin_1.0.2.zip</package_url>
 				<source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
@@ -1521,7 +1525,7 @@
 				<version>TRUNK-SNAPSHOT</version>
 				<name>Latest</name>
 				<package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.0/pentaho-kafka-consumer-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url></samples_url>
+				<samples_url/>
 				<description>Latest build from the trunk development branch.</description>
 				<build_id>20140101-1548</build_id>
 				<max_parent_version>4.8</max_parent_version>
@@ -1546,7 +1550,7 @@
 			<version>
 				<branch>TRUNK</branch>
 				<version>1.0</version>
-				<build_id></build_id>
+				<build_id/>
 				<name>Version 1.0</name>
 				<package_url>https://github.com/cdeptula/refreshtableauextract/releases/download/1.0.0/refreshtableauextract.zip</package_url>
 				<source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
@@ -1578,7 +1582,7 @@
 				<version>TRUNK-SNAPSHOT</version>
 				<name>Latest</name>
 				<package_url>https://github.com/RuckusWirelessIL/pentaho-protobuf-decode/releases/download/v1.0/pentaho-protobuf-decode-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url></samples_url>
+				<samples_url/>
 				<description>Latest build from the trunk development branch.</description>
 				<build_id>20140101-1603</build_id>
 				<max_parent_version>4.8</max_parent_version>
