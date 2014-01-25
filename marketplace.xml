@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <market>
 
 	<!-- ***************** -->
@@ -1946,7 +1946,7 @@
         </description>
         <documentation_url>http://dekarlab.de/?index=2</documentation_url>
         <author>DEKAR laboratory</author>
-        <small_img></small_img>
+        <small_img/>
         <installation_notes><![CDATA[
 				R script plugin can be installed by performing the following steps:
 				1) Install R project from the site http://www.r-project.org/
