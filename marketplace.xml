@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <market>
 
 	<!-- ***************** -->
@@ -1936,5 +1936,35 @@
 		<support_organization>LegSem</support_organization>
 		<support_url>http://www.legsem.com/</support_url>
 	</market_entry>
+    <market_entry>
+        <id>PRScript</id>
+        <type>Step</type>
+        <name>Execute R Script</name>
+        <description><![CDATA[
+				Execute R script from file by specifying input and output variables.
+            ]]>
+        </description>
+        <documentation_url>http://dekarlab.de/?index=2</documentation_url>
+        <author>DEKAR laboratory</author>
+        <small_img></small_img>
+        <installation_notes><![CDATA[
+				R script plugin can be installed by performing the following steps:
+				1) Install R project from the site http://www.r-project.org/
+				2) Install rJava package in R by executing: install.packages("rJava")
+				3) Copy JRI library rJava/jri/jri.dll or rJava/jri/libjri.so to: data-integration/libswt/{Platform_64bit}
+				4) Specify location of R using R_HOME environment variable.
+		]]>
+        </installation_notes>
+		<cases_url>https://github.com/dekarlab/pentahor/issues</cases_url>
+		<license_name>GNU General Public License</license_name>
+		<license_text>For more details see:
+			http://www.gnu.org/licenses/</license_text>
+        <versions>
+            <version>
+                <version>0.0.1</version>
+                <package_url>http://dekarlab.de/download/PRScript.zip</package_url>
+            </version>
+        </versions>
+    </market_entry>
 
 </market>
