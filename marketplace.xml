@@ -1167,7 +1167,7 @@
 		<type>Step</type>
 		<name>Apple Push Notification</name>
 		<description>This is a plugin that allows to you send push notifications from Pentaho Data Integration to any iOS and OSX devices, using Apple's Push Notification Services. 
-			This plugin is written in Scala and uses the Java Apple Push Notification Service library. 
+			This plugin is written in Java and uses the Java Apple Push Notification Service library. 
 			The motivation for developing this plugin is to have you, the ETL developer, receive quick notifications about the state of ETL executions wherever you are (faster than email). 
 			However, this plugin can be use for other scenarios as well.
 		</description>
@@ -1183,9 +1183,9 @@
 		<support_url>https://github.com/latinojoel/pdi-apple-pushnotifications/issues</support_url>
 		<versions>
 			<version>
-				<version>0.9.0</version>
-				<package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/0.9.0/ApplePushNotification.zip</package_url>
-				<source_url>https://github.com/latinojoel/pdi-apple-pushnotifications/tree/0.9.0</source_url>
+				<version>1.0.0</version>
+				<package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/1.0.0/ApplePushNotification.zip</package_url>
+				<source_url>https://github.com/latinojoel/pdi-apple-pushnotifications/tree/1.0.0</source_url>
 			</version>
 		</versions>
 	</market_entry>
@@ -1195,7 +1195,7 @@
 		<id>AndroidPushNotification</id>
 		<type>Step</type>
 		<name>Android Push Notification</name>
-		<description>This is a plugin that allows you to send push notifications from Pentaho Data Integration to any android application with GCM services. This plugin is written in Scala.
+		<description>This is a plugin that allows you to send push notifications from Pentaho Data Integration to any android application with GCM services.
 			The motivation for developing this plugin is to have you, the ETL developer, receive fast notifications about the state of ETL executions wherever you are (than faster email). 
 			You can use my android app named PDI Manager: https://play.google.com/store/apps/details?id=com.latinojoel.pdimanager
 			However, this plugin can be used in other scenarios as well.
@@ -1212,9 +1212,9 @@
 		<support_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</support_url>
 		<versions>
 			<version>
-				<version>0.9-GA</version>
-				<package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho Data Integration/PDI Android Push Notifications/0.9-GA/AndroidPushNotification.zip</package_url>
-				<source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/0.9.0-GA</source_url>
+				<version>1.0.0</version>
+				<package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho Data Integration/PDI Android Push Notifications/1.0.0/AndroidPushNotification.zip</package_url>
+				<source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/1.0.0</source_url>
 			</version>
 		</versions>
 	</market_entry>
