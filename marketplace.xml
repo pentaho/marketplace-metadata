@@ -242,7 +242,7 @@
         		<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
 		        <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
                 <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
-                <build_id>226</build_id>
+                <build_id>227</build_id>
                 <max_parent_version>4.8</max_parent_version>
                 <min_parent_version>1.0</min_parent_version>		        		
             
