@@ -846,9 +846,9 @@
 		<versions> 
 			<version>
 				<branch>RELEASE</branch> 
-				<version>RELEASE-0.5</version> 
+				<version>RELEASE-0.6</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-RELEASE-0.5.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-RELEASE-0.6.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
@@ -898,9 +898,9 @@
 		<versions> 
 			<version>
 				<branch>RELEASE</branch> 
-				<version>RELEASE-0.5</version> 
+				<version>RELEASE-0.6</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-RELEASE-0.5.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-RELEASE-0.6.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
@@ -911,6 +911,59 @@
 		<screenshots>
 			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_1.png</screenshot>
 			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+	<market_entry>
+	<market_entry>
+		<id>languagePack_de</id> 
+		<type>Platform</type> 
+		<name>German Language Pack Installer</name> 
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the German language in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+			This plugin installs language definitions for the German language in Pentaho 5
+		</description> 
+		<documentation_url>This plugin installs language definitions for the German language in Pentaho 5</documentation_url> 
+		<author>Thomas Starl</author> 
+		<author_url/> 
+		<author_logo/> 
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/de/resources/img/flag.png</img> 
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/de/resources/img/flag.png</small_img>  
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes> 
+		<versions> 
+			<version>
+			<branch>RELEASE</branch> 
+				<version>RELEASE-0.6</version> 
+				<name>Latest build</name> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-RELEASE-0.6.zip</package_url> 
+				<samples_url/> 
+				<description>Trunk snapshot</description> 
+				<changelog/> 
+				<build_id/>  
+				<min_parent_version>5.0</min_parent_version> 
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_1.png</screenshot>
+			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 	<market_entry>
@@ -950,9 +1003,9 @@
 		<versions> 
 			<version>
 				<branch>RELEASE</branch> 
-				<version>RELEASE-0.5</version> 
+				<version>RELEASE-0.6</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-RELEASE-0.5.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-RELEASE-0.6.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
@@ -1002,9 +1055,9 @@
 		<versions> 
 			<version>
 				<branch>RELEASE</branch> 
-				<version>RELEASE-0.5</version> 
+				<version>RELEASE-0.6</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-RELEASE-0.5.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-RELEASE-0.6.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
@@ -1054,9 +1107,9 @@
 		<versions> 
 			<version>
 				<branch>RELEASE</branch> 
-				<version>RELEASE-0.5</version> 
+				<version>RELEASE-0.6</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.5.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.6.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
@@ -1106,9 +1159,9 @@
 		<versions> 
 			<version>
 				<branch>RELEASE</branch> 
-				<version>RELEASE-0.5</version> 
+				<version>RELEASE-0.6</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_es-RELEASE-0.5.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_es-RELEASE-0.6.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
