@@ -2013,4 +2013,27 @@
         </versions>
     </market_entry>
 
+    <market_entry>
+        <id>pentaho-kettle-compare-fields-plugin</id>
+        <type>Step</type>
+        <name>Compare Fields</name>
+        <description> Compares 2 sets of fields in a row and directs it to the appropriate destination step based on the result.
+This step detects identical, changed, added and removed rows.</description>
+        <documentation_url></documentation_url>
+        <author>Matt Casters / Pentaho</author>
+	<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+	<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+	<license_name>Apache License 2.0</license_name>
+	<license_text>For more details see:
+		http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+        <versions>
+            <version>
+                <version>1.0.0</version>
+                <package_url>https://pentaho.box.com/shared/static/0wq4a5u4dtkdcvsb8h17.zip</package_url>
+		<min_parent_version>5.0.0</min_parent_version>
+            </version>
+        </versions>
+    </market_entry>
+
+
 </market>
