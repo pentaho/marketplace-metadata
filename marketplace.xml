@@ -846,9 +846,9 @@
 		<versions> 
 			<version>
 				<branch>RELEASE</branch> 
-				<version>RELEASE-0.6</version> 
+				<version>RELEASE-0.7</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-RELEASE-0.6.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-RELEASE-0.7.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
@@ -950,9 +950,9 @@
 		<versions> 
 			<version>
 			<branch>RELEASE</branch> 
-				<version>RELEASE-0.6</version> 
+				<version>RELEASE-0.7</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-RELEASE-0.6.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-RELEASE-0.7.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
@@ -1106,9 +1106,9 @@
 		<versions> 
 			<version>
 				<branch>RELEASE</branch> 
-				<version>RELEASE-0.6</version> 
+				<version>RELEASE-0.7</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.6.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.7.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
