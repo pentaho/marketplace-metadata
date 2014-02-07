@@ -641,6 +641,49 @@
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/prs/prs-3.png</screenshot>
 		</screenshots>			
 	</market_entry>
+	
+	<market_entry>
+		<id>logManager</id>
+		<type>Platform</type>
+		<name>Pentaho Log Manager</name>
+		<description><![CDATA[
+			Pentaho Log Manager allows you to view, download, and delete
+			Pentaho BI Server logs in the Pentaho User Console.
+			]]>
+		</description>
+		<documentation_url>https://github.com/cdeptula/logManager/blob/master/README.md</documentation_url>
+		<author>OpenBI LLC</author>
+		<author_url>http://www.openbi.com</author_url>
+		<author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
+		<img/>
+		<small_img/>
+		<license_name>MPL 2.0</license_name>
+		<dependencies>CDE, CDA, CDF, CGG</dependencies>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>TRUNK</name>
+				<package_url>https://github.com/cdeptula/logManager/releases/download/TRUNK_SNAPSHOT/logManager.zip</package_url>
+				<samples_url/>
+				<description><![CDATA[
+					Pentaho Log Manager allows you to view, download, and delete
+					Pentaho BI Server logs in the Pentaho User Console.
+					]]>
+				</description>
+				<changelog></changelog>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version/>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/cdeptula/logManager/master/screenshots/logManagerListLogs.png</screenshot>
+			<screenshot>https://raw.github.com/cdeptula/logManager/master/screenshots/logManagerShowLog.PNG</screenshot>
+		</screenshots>
+		<cases_url>https://github.com/cdeptula/logManager/issues</cases_url>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+	</market_entry>
 
 
 	<market_entry>
