@@ -2078,5 +2078,39 @@ This step detects identical, changed, added and removed rows.</description>
         </versions>
     </market_entry>
 
+    <market_entry>
+        <id>Jare_Rule_Engine_Plugin</id>
+        <type>Step</type>
+        <name>JaRE - Java Rule Engine</name>
+        <description>
+		Check data against rules defined in external xml files. The advantage being
+		that the logic is not defined in the transformation but externally.
+
+		Rules are defined in groups and subgroups allowing to combine them
+		with flexible and/or conditions. So a group may pass the check even though
+		some of the rules might have failed.
+
+		You may check a single field or fields against each other. The rule engine
+		also allows for actions (e.g. update a field), depending on the result of the
+		check.
+
+		Detailed documentation on the rule engine: https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/jare_v0.60.pdf
+	</description>
+        <documentation_url>https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/readme.txt</documentation_url>
+        <author>Uwe Geercken / Datamelt</author>
+	<forum_url></forum_url>
+	<cases_url></cases_url>
+	<license_name>GNU General Public License version 2.0 (GPLv2)</license_name>
+	<license_text>For more details see:
+			http://www.gnu.org/licenses/</license_text>
+        <versions>
+            <version>
+                <version>0.0.1</version>
+                <package_url>https://github.com/uwegeercken/jareplugin/archive/master.zip</package_url>
+		<min_parent_version>4.3.0</min_parent_version>
+            </version>
+        </versions>
+    </market_entry>
+
 
 </market>
