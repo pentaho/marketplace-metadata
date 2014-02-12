@@ -2078,5 +2078,38 @@ This step detects identical, changed, added and removed rows.</description>
         </versions>
     </market_entry>
 
+    <market_entry>
+        <id>ic-amqp-plugin</id>
+        <type>Step</type>
+        <name>IC AMQP Plugin</name>
+        <description>AMQP Consumer/Producer</description>
+        <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-AMQP/blob/master/README.md</documentation_url>
+        <author>instaclick inc.</author>
+        <license_name>MIT</license_name>
+        <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-AMQP/master/LICENSE.md</license_text>
+        <versions>
+            <version>
+                <version>1.0.0</version>
+                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.0.0-SNAPSHOT.tar</package_url>
+            </version>
+        </versions>
+    </market_entry>
+
+    <market_entry>
+        <id>ic-filter-plugin</id>
+        <type>Step</type>
+        <name>IC Bloom filter Plugin</name>
+        <description>Bloom filter for pentaho PDI</description>
+        <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-BloomFilter/blob/master/README.md</documentation_url>
+        <author>instaclick inc.</author>
+        <license_name>MIT</license_name>
+        <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-BloomFilter/master/LICENSE.md</license_text>
+        <versions>
+            <version>
+                <version>1.7.0</version>
+                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-filter-plugin-pdi-1.7.0-SNAPSHOT.tar</package_url>
+            </version>
+        </versions>
+    </market_entry>
 
 </market>
