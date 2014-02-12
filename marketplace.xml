@@ -31,12 +31,12 @@
 		</versions>
 		<screenshots>
 			<screenshot></screenshot>
-		</screenshots>			
+		</screenshots>
 	</market_entry>
   -->
-  
-	<market_entry> 
-		<id>marketplace</id> 
+
+	<market_entry>
+		<id>marketplace</id>
 		<type>Platform</type>
 		<img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
 		<small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
@@ -46,14 +46,14 @@
 			Pentaho Marketplace allows users to explore and test the plugins
 			that are most relevant to them. This means high quality and useful
 			plugins that users can use to get the most out of their business.
-		</description> 
+		</description>
 		<author>Pentaho</author>
 		<author_url>http://pentaho.com</author_url>
 		<author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
 		<license>GLPL v2</license>
-		<dependencies/> 
-		<versions> 
-			<version> 
+		<dependencies/>
+		<versions>
+			<version>
 				<branch>TRUNK</branch>
 				<version>TRUNK-SNAPSHOT</version>
 				<build_id>1</build_id>
@@ -80,7 +80,7 @@
 			<screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png</screenshot>
 			<screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png</screenshot>
 			<screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png</screenshot>
-		</screenshots>			
+		</screenshots>
 	</market_entry>
 
 
@@ -109,10 +109,10 @@
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.09.10.zip</package_url>
 				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.09.10.zip</samples_url>
 				<description>Stable Release</description>
-				<max_parent_version>4.8</max_parent_version>	
+				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 				<build_id/>
-			</version>    	                    
+			</version>
 			<version>
     	    <branch>TRUNK</branch>
 	    	<version>TRUNK-SNAPSHOT</version>
@@ -122,8 +122,8 @@
 	    	<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		    <build_id>247</build_id>
             <max_parent_version>4.8</max_parent_version>
-            <min_parent_version>1.0</min_parent_version>		        							
-		</version>    	
+            <min_parent_version>1.0</min_parent_version>
+		</version>
 			<version>
             <branch>TRUNK</branch>
             <version>TRUNK-SNAPSHOT</version>
@@ -133,12 +133,12 @@
                 <description>Build for Pentaho 5.0</description>
                 <min_parent_version>5.0</min_parent_version>
                 <build_id>251</build_id>
-            </version>		
+            </version>
 		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-1.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-2.png</screenshot>
-		</screenshots>			
+		</screenshots>
 	</market_entry>
 
 
@@ -153,13 +153,13 @@
 			Community Data Access (CDA) is a Pentaho plugin designed for
 			accessing data with great flexibility. Born for overcoming some
 			cons of the older implementation, CDA allows you to access any of
-			the various Pentaho data sources.   
+			the various Pentaho data sources.
 		</description>
 		<author>WebDetails</author>
 		<author_url>http://webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
 		<dependencies>CDF</dependencies>
-		<license>MPL 2.0</license>        
+		<license>MPL 2.0</license>
 		<versions>
 			<version>
 				<branch>STABLE</branch>
@@ -170,8 +170,8 @@
 				<description>13.09.10 release.</description>
 				<build_id/>
 				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>        
-			</version>    	                    
+				<min_parent_version>1.0</min_parent_version>
+			</version>
 			<version>
 	    <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
@@ -182,8 +182,8 @@
 		<build_id>38</build_id>
 		<max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
-		
-		</version>    	
+
+		</version>
 			<version>
         <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
@@ -192,19 +192,19 @@
         <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Build for Pentaho 5.0</description>
 		<build_id>107</build_id>
-        <min_parent_version>5.0</min_parent_version>		
-		</version>				
+        <min_parent_version>5.0</min_parent_version>
+		</version>
 		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-01.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-02.png</screenshot>
-		</screenshots>			
+		</screenshots>
 	</market_entry>
 
 
 	<market_entry>
 		<id>pentaho-cdf-dd</id>
-		<type>Platform</type>    	
+		<type>Platform</type>
 		<img>http://www.webdetails.pt/ficheiros/cde.png</img>
 		<small_img>http://www.webdetails.pt/ficheiros/cde_plugin.png</small_img>
 		<name>Community Dashboard Editor</name>
@@ -233,8 +233,8 @@
 				<description>Release 13.09.10</description>
 				<build_id/>
 				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>                
-			</version>    	                    
+				<min_parent_version>1.0</min_parent_version>
+			</version>
 			<version>
                 <branch>TRUNK</branch>
                 <version>TRUNK-SNAPSHOT</version>
@@ -244,9 +244,9 @@
                 <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
                 <build_id>229</build_id>
                 <max_parent_version>4.8</max_parent_version>
-                <min_parent_version>1.0</min_parent_version>		        		
-            
-            </version>    	
+                <min_parent_version>1.0</min_parent_version>
+
+            </version>
 			<version>
                 <branch>TRUNK</branch>
                 <version>TRUNK-SNAPSHOT</version>
@@ -255,14 +255,14 @@
                 <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
                 <build_id>87</build_id>
-                <min_parent_version>5.0</min_parent_version>		            
+                <min_parent_version>5.0</min_parent_version>
             </version>
 		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-1.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-2.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-3.png</screenshot>
-		</screenshots>			
+		</screenshots>
 	</market_entry>
 
 
@@ -281,7 +281,7 @@
 			that is rendered on the browser by CDE/CDF.
 		</description>
 		<author>WebDetails</author>
-		<author_url>http://webdetails.pt</author_url>    
+		<author_url>http://webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
 		<license>MPL 2.0</license>
 		<installation_notes/>
@@ -295,7 +295,7 @@
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 				<build_id/>
-			</version>        
+			</version>
 			<version>
 	    <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
@@ -306,7 +306,7 @@
         <max_parent_version>4.8</max_parent_version>
 		<min_parent_version>1.0</min_parent_version>
 
-		</version>    	
+		</version>
 			<version>
 	    <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
@@ -314,9 +314,9 @@
         <package_url>http://ci.pentaho.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Buid for Pentaho 5</description>
 		<build_id>73</build_id>
-        <min_parent_version>5.0</min_parent_version>		
-		</version>		
-		</versions>                       
+        <min_parent_version>5.0</min_parent_version>
+		</version>
+		</versions>
 	</market_entry>
 
 	<market_entry>
@@ -326,7 +326,7 @@
 		<small_img>http://www.webdetails.pt/ficheiros/sparkl2.png</small_img>
 		<name>Sparkl - Pentaho Application Builder</name>
 		<documentation_url>http://www.webdetails.pt/ctools.html</documentation_url>
-		<description> 
+		<description>
 			Sparkl, or Pentaho Application Builder, is a plugin creator
 			instrument that sits on 2 major cornerstones of the Pentaho
 			ecosystem: Ctools and PDI. Aiming to leverage as much as possible
@@ -334,11 +334,11 @@
 			able to build plugins.
 		</description>
 		<author>WebDetails</author>
-		<author_url>http://webdetails.pt</author_url>    
+		<author_url>http://webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-		<versions>    	    	
+		<versions>
 			<version>
     	    <branch>TRUNK</branch>
 	    	<version>TRUNK-SNAPSHOT</version>
@@ -347,8 +347,8 @@
 	    	<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
 		    <build_id>8</build_id>
             <max_parent_version>4.8</max_parent_version>
-	    	<min_parent_version>1.0</min_parent_version>		
-		</version>    				 
+	    	<min_parent_version>1.0</min_parent_version>
+		</version>
 			<version>
 	        <branch>TRUNK</branch>
     		<version>TRUNK-SNAPSHOT</version>
@@ -356,15 +356,15 @@
 		    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
     		<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
 	    	<build_id>40</build_id>
-            <min_parent_version>5.0</min_parent_version>		
-		</version>    				     	        	    
-		</versions>                       
+            <min_parent_version>5.0</min_parent_version>
+		</version>
+		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-1.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-2.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-3.png</screenshot>
-		</screenshots>			
-	</market_entry>    
+		</screenshots>
+	</market_entry>
 
 
 	<market_entry>
@@ -384,7 +384,7 @@
 		<author>Analytical Labs</author>
 		<author_url>http://analytical-labs.com</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/saiku.png</author_logo>
-		<license>ASL 2.0</license>   
+		<license>ASL 2.0</license>
 		<versions>
 			<version>
 				<branch>STABLE</branch>
@@ -394,7 +394,7 @@
 				<description>2.5 release for the Saiku Plugin</description>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
-			</version>        
+			</version>
 			<version>
 				<branch>TRUNK</branch>
 				<version>Trunk</version>
@@ -403,7 +403,7 @@
 				<description>Trunk Snapshot. Install at your own risk...</description>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
-			</version>                           
+			</version>
 
 			<version>
 				<branch>TRUNK</branch>
@@ -412,7 +412,7 @@
 				<package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin-p5/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin-p5/target/saiku-plugin-p5-2.6-SNAPSHOT.zip</package_url>
 				<description>Build for Pentaho 5.0</description>
 				<min_parent_version>5.0</min_parent_version>
-			</version>                           
+			</version>
 		</versions>
 	</market_entry>
 
@@ -434,7 +434,7 @@
 		<author>OpenI</author>
 		<author_url>http://www.openi.org/</author_url>
 		<author_logo>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</author_logo>
-		<license>GNU General Public License version 2.0 (GPLv2)</license>   
+		<license>GNU General Public License version 2.0 (GPLv2)</license>
 		<versions>
 			<version>
 				<branch>Stable</branch>
@@ -460,7 +460,7 @@
 		<author>Pivot4J Project</author>
 		<author_url>http://www.pivot4j.org</author_url>
 		<author_logo>http://www.pivot4j.org/img/logo.png</author_logo>
-		<license_name>Common Public License 1.0</license_name>   
+		<license_name>Common Public License 1.0</license_name>
 		<versions>
 			<version>
 				<branch>Development</branch>
@@ -481,7 +481,7 @@
 
 	<market_entry>
 		<id>BTable</id>
-		<type>Platform</type>    	
+		<type>Platform</type>
 		<img>http://www.biztech.it/btable/img/btable.png</img>
 		<small_img>http://www.biztech.it/btable/img/btable.png</small_img>
 		<name>BTable</name>
@@ -501,7 +501,7 @@
 				<description>Release 1.5</description>
 				<build_id>manual-20131223</build_id>
 				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>				
+				<min_parent_version>1.0</min_parent_version>
 			</version>
 			<version>
 				<branch>STABLE</branch>
@@ -511,8 +511,8 @@
 				<description>Release 1.5</description>
 				<build_id>manual-20131223</build_id>
 				<min_parent_version>5.0</min_parent_version>
-			</version>                  		
-		</versions>		
+			</version>
+		</versions>
 		<screenshots>
 			<screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-01.png</screenshot>
 			<screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-02.png</screenshot>
@@ -595,7 +595,7 @@
 			This is a pilot release, use at your own risk and report any issues
 			/ feedback back to <a target="_blank"
 				href="http://redmine.webdetails.org/projects/prs">Webdetails
-				bug tracker</a> 
+				bug tracker</a>
 			]]>
 		</description>
 		<documentation_url>http://redmine.webdetails.org/projects/prs</documentation_url>
@@ -626,7 +626,7 @@
 					This is a pilot release, use at your own risk and report
 					any issues / feedback back to <a target="_blank"
 						href="http://redmine.webdetails.org/projects/prs">Webdetails
-						bug tracker</a> 
+						bug tracker</a>
 					]]>
 				</description>
 				<changelog>Pilot release</changelog>
@@ -639,9 +639,9 @@
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/prs/prs-1.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/prs/prs-2.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/prs/prs-3.png</screenshot>
-		</screenshots>			
+		</screenshots>
 	</market_entry>
-	
+
 	<market_entry>
 		<id>logManager</id>
 		<type>Platform</type>
@@ -701,7 +701,7 @@
 			dashboards display.
 		</description>
 		<author>WebDetails</author>
-		<author_url>http://webdetails.pt</author_url>    
+		<author_url>http://webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
 		<license>MPL 2.0</license>
 		<dependencies>CDE, CDA, CDF, CGG</dependencies>
@@ -713,9 +713,9 @@
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDV-Release/lastSuccessfulBuild/artifact/dist/cdv-13.09.10.zip</package_url>
 				<description>13.09.10 release</description>
 				<build_id/>
-				<max_parent_version>4.8</max_parent_version>		
+				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
-			</version>		
+			</version>
 			<version>
     	    <branch>TRUNK</branch>
 	    	<version>TRUNK-SNAPSHOT</version>
@@ -723,9 +723,9 @@
 	    	<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
 		    <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
     		<build_id>12</build_id>
-            <max_parent_version>4.8</max_parent_version>		
-            <min_parent_version>1.0</min_parent_version>		
-		</version>    	
+            <max_parent_version>4.8</max_parent_version>
+            <min_parent_version>1.0</min_parent_version>
+		</version>
 			<version>
     	    <branch>TRUNK</branch>
 	    	<version>TRUNK-SNAPSHOT</version>
@@ -734,15 +734,15 @@
             <description>Build for Pentaho 5.0</description>
             <build_id>12</build_id>
             <min_parent_version>5.0</min_parent_version>
-		</version>				
-		</versions>                       
+		</version>
+		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-1.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-2.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-3.png</screenshot>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-4.png</screenshot>
-		</screenshots>			
-	</market_entry>    
+		</screenshots>
+	</market_entry>
 
 
 	<market_entry>
@@ -755,13 +755,13 @@
 		<description>
 			Calling Business Analysts! Now you can Slice and Dice your Data
 			directly from Pentaho. Make your own analysis in an autonomous and
-			easy way. 
+			easy way.
 		</description>
 		<author>WebDetails</author>
-		<author_url>http://webdetails.pt</author_url>    
+		<author_url>http://webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
 		<license>MPL 2.0</license>
-		<dependencies>CDE, CDA, CDF, Saiku</dependencies>                
+		<dependencies>CDE, CDA, CDF, Saiku</dependencies>
 		<versions>
 			<version>
 				<branch>STABLE</branch>
@@ -770,9 +770,9 @@
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB-Release/lastSuccessfulBuild/artifact/dist/cdb-13.09.10.zip</package_url>
 				<description>13.09.10 release.</description>
 				<build_id/>
-				<max_parent_version>4.8</max_parent_version>		
+				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
-			</version>		    
+			</version>
 			<version>
 				<branch>TRUNK</branch>
 				<version>TRUNK-SNAPSHOT</version>
@@ -780,11 +780,11 @@
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDB/lastSuccessfulBuild/artifact/dist/cdb-TRUNK-SNAPSHOT.zip</package_url>
 				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 				<build_id>27</build_id>
-				<max_parent_version>4.8</max_parent_version>		
+				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
-			</version>    			
-		</versions>                       
-	</market_entry>    
+			</version>
+		</versions>
+	</market_entry>
 
 
 	<market_entry>
@@ -796,10 +796,10 @@
 		<documentation_url>http://ctools.webdetails.org</documentation_url>
 		<description>CDC stands for Community Distributed Cache and allows for high-performance, scalable and distributed memory clustering cache based on Hazelcast for both CDA and Mondrian.</description>
 		<author>WebDetails</author>
-		<author_url>http://webdetails.pt</author_url>    
+		<author_url>http://webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
 		<license>MPL 2.0</license>
-		<dependencies>CDE, CDA, CDF</dependencies>        
+		<dependencies>CDE, CDA, CDF</dependencies>
 		<installation_notes>Please remember to copy the contents of system/cdc/pentaho-lib to webapps/pentaho/WEB-INF/lib.</installation_notes>
 		<versions>
 			<version>
@@ -811,7 +811,7 @@
 				<build_id/>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
-			</version>		    	
+			</version>
 			<version>
 				<branch>TRUNK</branch>
 				<version>TRUNK-SNAPSHOT</version>
@@ -820,10 +820,56 @@
 				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 				<build_id>17</build_id>
 				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>		        
-			</version>    				  
-		</versions>                       
-	</market_entry>    
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+		</versions>
+	</market_entry>
+
+
+<market_entry>
+    <id>startupRuleEngine</id>
+    <type>Platform</type>
+    <name>Startup Rule Engine</name>
+    <description>
+        <![CDATA[
+                 Application that provides a PDI-based alternative to the XActions mechanism.
+                 It allows the user to configure Kettle jobs and transformations to be run upon specific events, such as upon session login or server startup. <br /><br />
+                 Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
+        ]]>
+    </description>
+    <documentation_url>>https://www.github.com/webdetails/startupRuleEngine</documentation_url>
+    <author>Webdetails</author>
+    <author_url>http://www.webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE, CGG</dependencies>
+    <img>https://github.com/webdetails/startupRuleEngine/raw/master/static/custom/img/play.png</img>
+    <small_img></small_img>
+    <installation_notes>
+        <![CDATA[You can run the Startup Rule Engine as an administrator from the Tools menu.
+                 On the first server restart, YOUR SERVER MAY CRASH, as the application will patch your installation and edit system files.
+                 It will also create the folder pentaho-solutions/system/startupRules and populate it with some sample jobs and transformations. <br />
+                 Upon the second server restart, the Startup Rule Engine will be operational. <br /><br/ >
+                 Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
+        ]]>
+    </installation_notes>
+    <versions>
+        <version>
+            <branch>TRUNK</branch>
+            <version>TRUNK-SNAPSHOT</version>
+            <name>Latest build</name>
+            <package_url>http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-TRUNK-SNAPSHOT.zip</package_url>
+            <samples_url></samples_url>
+            <description>Trunk snapshot</description>
+            <changelog></changelog>
+            <build_id></build_id>
+            <min_parent_version>5.0</min_parent_version>
+        </version>
+    </versions>
+    <screenshots>
+        <screenshot id="1">https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
+    </screenshots>
+</market_entry>
 
 
 	<market_entry>
@@ -849,13 +895,13 @@
 			</version>
 		</versions>
 		<screenshots/>
-	</market_entry>    
+	</market_entry>
 
 
 	<market_entry>
-		<id>languagePack_nl</id> 
-		<type>Platform</type> 
-		<name>Dutch Language Pack Installer</name> 
+		<id>languagePack_nl</id>
+		<type>Platform</type>
+		<name>Dutch Language Pack Installer</name>
 		<description>
 			<![CDATA[
 			This plugin installs language definitions for the Dutch language in Pentaho 5 <br /><br />
@@ -864,15 +910,15 @@
 			any translation issues or suggestions for improvement
 			]]>
 			This plugin installs language definitions for the Dutch language in Pentaho 5
-		</description> 
-		<documentation_url>This plugin installs language definitions for the Dutch language in Pentaho 5</documentation_url> 
-		<author>C. van Kemenade</author> 
-		<author_url>http://www.vinzi.nl</author_url> 
-		<author_logo/> 
+		</description>
+		<documentation_url>This plugin installs language definitions for the Dutch language in Pentaho 5</documentation_url>
+		<author>C. van Kemenade</author>
+		<author_url>http://www.vinzi.nl</author_url>
+		<author_logo/>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/nl/resources/img/flag.png</img> 
-		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/nl/resources/img/flag.png</small_img>  
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/nl/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/nl/resources/img/flag.png</small_img>
 		<installation_notes>
 			<![CDATA[You can run the Language Pack Installer as an administrator from
 			the Tools menu. The installer will then copy the language packs over your
@@ -885,18 +931,18 @@
 			any translation issues or suggestions for improvement
 
 			]]>
-		</installation_notes> 
-		<versions> 
+		</installation_notes>
+		<versions>
 			<version>
-				<branch>RELEASE</branch> 
-				<version>RELEASE-0.7</version> 
-				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-RELEASE-0.7.zip</package_url> 
-				<samples_url/> 
-				<description>Trunk snapshot</description> 
-				<changelog/> 
-				<build_id/>  
-				<min_parent_version>5.0</min_parent_version> 
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.7</version>
+				<name>Latest build</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-RELEASE-0.7.zip</package_url>
+				<samples_url/>
+				<description>Trunk snapshot</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -905,9 +951,9 @@
 		</screenshots>
 	</market_entry>
 	<market_entry>
-		<id>languagePack_fr</id> 
-		<type>Platform</type> 
-		<name>French Language Pack Installer</name> 
+		<id>languagePack_fr</id>
+		<type>Platform</type>
+		<name>French Language Pack Installer</name>
 		<description>
 			<![CDATA[
 			This plugin installs language definitions for the French language in Pentaho 5 <br /><br />
@@ -916,15 +962,15 @@
 			any translation issues or suggestions for improvement
 			]]>
 			This plugin installs language definitions for the French language in Pentaho 5
-		</description> 
-		<documentation_url>This plugin installs language definitions for the French language in Pentaho 5</documentation_url> 
-		<author>Sylvain Decloix</author> 
-		<author_url>http://www.atolcd.com</author_url> 
-		<author_logo/> 
+		</description>
+		<documentation_url>This plugin installs language definitions for the French language in Pentaho 5</documentation_url>
+		<author>Sylvain Decloix</author>
+		<author_url>http://www.atolcd.com</author_url>
+		<author_logo/>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/fr/resources/img/flag.png</img> 
-		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/fr/resources/img/flag.png</small_img>  
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/fr/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/fr/resources/img/flag.png</small_img>
 		<installation_notes>
 			<![CDATA[You can run the Language Pack Installer as an administrator from
 			the Tools menu. The installer will then copy the language packs over your
@@ -937,18 +983,18 @@
 			any translation issues or suggestions for improvement
 
 			]]>
-		</installation_notes> 
-		<versions> 
+		</installation_notes>
+		<versions>
 			<version>
-				<branch>RELEASE</branch> 
-				<version>RELEASE-0.6</version> 
-				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-RELEASE-0.6.zip</package_url> 
-				<samples_url/> 
-				<description>Trunk snapshot</description> 
-				<changelog/> 
-				<build_id/>  
-				<min_parent_version>5.0</min_parent_version> 
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.6</version>
+				<name>Latest build</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-RELEASE-0.6.zip</package_url>
+				<samples_url/>
+				<description>Trunk snapshot</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -957,9 +1003,9 @@
 		</screenshots>
 	</market_entry>
 	<market_entry>
-		<id>languagePack_de</id> 
-		<type>Platform</type> 
-		<name>German Language Pack Installer</name> 
+		<id>languagePack_de</id>
+		<type>Platform</type>
+		<name>German Language Pack Installer</name>
 		<description>
 			<![CDATA[
 			This plugin installs language definitions for the German language in Pentaho 5 <br /><br />
@@ -968,15 +1014,15 @@
 			any translation issues or suggestions for improvement
 			]]>
 			This plugin installs language definitions for the German language in Pentaho 5
-		</description> 
-		<documentation_url>This plugin installs language definitions for the German language in Pentaho 5</documentation_url> 
-		<author>Thomas Starl</author> 
-		<author_url/> 
-		<author_logo/> 
+		</description>
+		<documentation_url>This plugin installs language definitions for the German language in Pentaho 5</documentation_url>
+		<author>Thomas Starl</author>
+		<author_url/>
+		<author_logo/>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/de/resources/img/flag.png</img> 
-		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/de/resources/img/flag.png</small_img>  
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/de/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/de/resources/img/flag.png</small_img>
 		<installation_notes>
 			<![CDATA[You can run the Language Pack Installer as an administrator from
 			the Tools menu. The installer will then copy the language packs over your
@@ -989,18 +1035,18 @@
 			any translation issues or suggestions for improvement
 
 			]]>
-		</installation_notes> 
-		<versions> 
+		</installation_notes>
+		<versions>
 			<version>
-			<branch>RELEASE</branch> 
-				<version>RELEASE-0.7</version> 
-				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-RELEASE-0.7.zip</package_url> 
-				<samples_url/> 
-				<description>Trunk snapshot</description> 
-				<changelog/> 
-				<build_id/>  
-				<min_parent_version>5.0</min_parent_version> 
+			<branch>RELEASE</branch>
+				<version>RELEASE-0.7</version>
+				<name>Latest build</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-RELEASE-0.7.zip</package_url>
+				<samples_url/>
+				<description>Trunk snapshot</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1009,9 +1055,9 @@
 		</screenshots>
 	</market_entry>
 	<market_entry>
-		<id>languagePack_hi</id> 
-		<type>Platform</type> 
-		<name>Hindi Language Pack Installer</name> 
+		<id>languagePack_hi</id>
+		<type>Platform</type>
+		<name>Hindi Language Pack Installer</name>
 		<description>
 			<![CDATA[
 			This plugin installs language definitions for the Hindi language in Pentaho 5 <br /><br />
@@ -1020,15 +1066,15 @@
 			any translation issues or suggestions for improvement
 			]]>
 			This plugin installs language definitions for the Hindi language in Pentaho 5
-		</description> 
-		<documentation_url>This plugin installs language definitions for the Hindi language in Pentaho 5</documentation_url> 
-		<author>InfoAxon Technologies</author> 
-		<author_url>http://www.infoaxon.com</author_url> 
-		<author_logo/> 
+		</description>
+		<documentation_url>This plugin installs language definitions for the Hindi language in Pentaho 5</documentation_url>
+		<author>InfoAxon Technologies</author>
+		<author_url>http://www.infoaxon.com</author_url>
+		<author_logo/>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/hi/resources/img/flag.png</img> 
-		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/hi/resources/img/flag.png</small_img>  
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/hi/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/hi/resources/img/flag.png</small_img>
 		<installation_notes>
 			<![CDATA[You can run the Language Pack Installer as an administrator from
 			the Tools menu. The installer will then copy the language packs over your
@@ -1041,18 +1087,18 @@
 			any translation issues or suggestions for improvement
 
 			]]>
-		</installation_notes> 
-		<versions> 
+		</installation_notes>
+		<versions>
 			<version>
-				<branch>RELEASE</branch> 
-				<version>RELEASE-0.6</version> 
-				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-RELEASE-0.6.zip</package_url> 
-				<samples_url/> 
-				<description>Trunk snapshot</description> 
-				<changelog/> 
-				<build_id/>  
-				<min_parent_version>5.0</min_parent_version> 
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.6</version>
+				<name>Latest build</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-RELEASE-0.6.zip</package_url>
+				<samples_url/>
+				<description>Trunk snapshot</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1061,9 +1107,9 @@
 		</screenshots>
 	</market_entry>
 	<market_entry>
-		<id>languagePack_ko</id> 
-		<type>Platform</type> 
-		<name>Korean Language Pack Installer</name> 
+		<id>languagePack_ko</id>
+		<type>Platform</type>
+		<name>Korean Language Pack Installer</name>
 		<description>
 			<![CDATA[
 			This plugin installs language definitions for the Korean language in Pentaho 5 <br /><br />
@@ -1072,15 +1118,15 @@
 			any translation issues or suggestions for improvement
 			]]>
 			This plugin installs language definitions for the Korean language in Pentaho 5
-		</description> 
-		<documentation_url>This plugin installs language definitions for the Korean language in Pentaho 5</documentation_url> 
-		<author>Xavier Cho</author> 
-		<author_url>http://github.com/mysticfall</author_url> 
-		<author_logo/> 
+		</description>
+		<documentation_url>This plugin installs language definitions for the Korean language in Pentaho 5</documentation_url>
+		<author>Xavier Cho</author>
+		<author_url>http://github.com/mysticfall</author_url>
+		<author_logo/>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ko/resources/img/flag.png</img> 
-		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ko/resources/img/flag.png</small_img>  
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ko/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ko/resources/img/flag.png</small_img>
 		<installation_notes>
 			<![CDATA[You can run the Language Pack Installer as an administrator from
 			the Tools menu. The installer will then copy the language packs over your
@@ -1093,18 +1139,18 @@
 			any translation issues or suggestions for improvement
 
 			]]>
-		</installation_notes> 
-		<versions> 
+		</installation_notes>
+		<versions>
 			<version>
-				<branch>RELEASE</branch> 
-				<version>RELEASE-0.6</version> 
-				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-RELEASE-0.6.zip</package_url> 
-				<samples_url/> 
-				<description>Trunk snapshot</description> 
-				<changelog/> 
-				<build_id/>  
-				<min_parent_version>5.0</min_parent_version> 
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.6</version>
+				<name>Latest build</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-RELEASE-0.6.zip</package_url>
+				<samples_url/>
+				<description>Trunk snapshot</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1113,9 +1159,9 @@
 		</screenshots>
 	</market_entry>
 	<market_entry>
-		<id>languagePack_pt_BR</id> 
-		<type>Platform</type> 
-		<name>Portuguese (Brazilian variant) Language Pack Installer</name> 
+		<id>languagePack_pt_BR</id>
+		<type>Platform</type>
+		<name>Portuguese (Brazilian variant) Language Pack Installer</name>
 		<description>
 			<![CDATA[
 			This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5 <br /><br />
@@ -1124,15 +1170,15 @@
 			any translation issues or suggestions for improvement
 			]]>
 			This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5
-		</description> 
-		<documentation_url>This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5</documentation_url> 
-		<author>Oncase, Open Consulting</author> 
-		<author_url>http://br.groups.yahoo.com/neo/groups/pentahobr/info</author_url> 
-		<author_logo/> 
+		</description>
+		<documentation_url>This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5</documentation_url>
+		<author>Oncase, Open Consulting</author>
+		<author_url>http://br.groups.yahoo.com/neo/groups/pentahobr/info</author_url>
+		<author_logo/>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_BR/resources/img/flag.png</img> 
-		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_BR/resources/img/flag.png</small_img>  
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_BR/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_BR/resources/img/flag.png</small_img>
 		<installation_notes>
 			<![CDATA[You can run the Language Pack Installer as an administrator from
 			the Tools menu. The installer will then copy the language packs over your
@@ -1145,18 +1191,18 @@
 			any translation issues or suggestions for improvement
 
 			]]>
-		</installation_notes> 
-		<versions> 
+		</installation_notes>
+		<versions>
 			<version>
-				<branch>RELEASE</branch> 
-				<version>RELEASE-0.7</version> 
-				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.7.zip</package_url> 
-				<samples_url/> 
-				<description>Trunk snapshot</description> 
-				<changelog/> 
-				<build_id/>  
-				<min_parent_version>5.0</min_parent_version> 
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.7</version>
+				<name>Latest build</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.7.zip</package_url>
+				<samples_url/>
+				<description>Trunk snapshot</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1165,9 +1211,9 @@
 		</screenshots>
 	</market_entry>
 	<market_entry>
-		<id>languagePack_es</id> 
-		<type>Platform</type> 
-		<name>Spanish Language Pack Installer</name> 
+		<id>languagePack_es</id>
+		<type>Platform</type>
+		<name>Spanish Language Pack Installer</name>
 		<description>
 			<![CDATA[
 			This plugin installs language definitions for the Spanish language in Pentaho 5 <br /><br />
@@ -1176,15 +1222,15 @@
 			any translation issues or suggestions for improvement
 			]]>
 			This plugin installs language definitions for the Spanish language in Pentaho 5
-		</description> 
-		<documentation_url>This plugin installs language definitions for the Spanish language in Pentaho 5</documentation_url> 
-		<author>Domingo Lavin</author> 
-		<author_url>http://www.pentaho.com</author_url> 
-		<author_logo/> 
+		</description>
+		<documentation_url>This plugin installs language definitions for the Spanish language in Pentaho 5</documentation_url>
+		<author>Domingo Lavin</author>
+		<author_url>http://www.pentaho.com</author_url>
+		<author_logo/>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/es/resources/img/flag.png</img> 
-		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/es/resources/img/flag.png</small_img>  
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/es/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/es/resources/img/flag.png</small_img>
 		<installation_notes>
 			<![CDATA[You can run the Language Pack Installer as an administrator from
 			the Tools menu. The installer will then copy the language packs over your
@@ -1197,18 +1243,18 @@
 			any translation issues or suggestions for improvement
 
 			]]>
-		</installation_notes> 
-		<versions> 
+		</installation_notes>
+		<versions>
 			<version>
-				<branch>RELEASE</branch> 
-				<version>RELEASE-0.7</version> 
-				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_es-RELEASE-0.7.zip</package_url> 
-				<samples_url/> 
-				<description>Trunk snapshot</description> 
-				<changelog/> 
-				<build_id/>  
-				<min_parent_version>5.0</min_parent_version> 
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.7</version>
+				<name>Latest build</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_es-RELEASE-0.7.zip</package_url>
+				<samples_url/>
+				<description>Trunk snapshot</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1216,12 +1262,12 @@
 			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
-	
 
 
 
 
-	<!-- ***************** -->  
+
+	<!-- ***************** -->
 	<!-- Kettle Plugins    -->
 	<!-- ***************** -->
 
@@ -1255,9 +1301,9 @@
 		<id>ApplePushNotification</id>
 		<type>Step</type>
 		<name>Apple Push Notification</name>
-		<description>This is a plugin that allows to you send push notifications from Pentaho Data Integration to any iOS and OSX devices, using Apple's Push Notification Services. 
-			This plugin is written in Java and uses the Java Apple Push Notification Service library. 
-			The motivation for developing this plugin is to have you, the ETL developer, receive quick notifications about the state of ETL executions wherever you are (faster than email). 
+		<description>This is a plugin that allows to you send push notifications from Pentaho Data Integration to any iOS and OSX devices, using Apple's Push Notification Services.
+			This plugin is written in Java and uses the Java Apple Push Notification Service library.
+			The motivation for developing this plugin is to have you, the ETL developer, receive quick notifications about the state of ETL executions wherever you are (faster than email).
 			However, this plugin can be use for other scenarios as well.
 		</description>
 		<author>Joel Latino</author>
@@ -1285,7 +1331,7 @@
 		<type>Step</type>
 		<name>Android Push Notification</name>
 		<description>This is a plugin that allows you to send push notifications from Pentaho Data Integration to any android application with GCM services.
-			The motivation for developing this plugin is to have you, the ETL developer, receive fast notifications about the state of ETL executions wherever you are (than faster email). 
+			The motivation for developing this plugin is to have you, the ETL developer, receive fast notifications about the state of ETL executions wherever you are (than faster email).
 			You can use my android app named PDI Manager: https://play.google.com/store/apps/details?id=com.latinojoel.pdimanager
 			However, this plugin can be used in other scenarios as well.
 		</description>
@@ -1393,7 +1439,7 @@
 		<support_message>Supported by the KFF project on a best-effort bases.</support_message>
 		<support_organization>The KFF project</support_organization>
 		<support_url/>
-	</market_entry> 
+	</market_entry>
 
 
 	<market_entry>
@@ -1421,7 +1467,7 @@
 		<support_message>Professional support, training and consultancy for DataCleaner is offered by Human Inference upon request.</support_message>
 		<support_organization>Human Inference</support_organization>
 		<support_url>http://datacleaner.org/support</support_url>
-	</market_entry> 
+	</market_entry>
 
 
 	<market_entry>
@@ -1496,7 +1542,7 @@
 		<id>CmisInput</id>
 		<type>Step</type>
 		<name>CMIS Input</name>
-		<description>The CMIS Input plugin make you able to extract from your Enterprise Content Management System. 
+		<description>The CMIS Input plugin make you able to extract from your Enterprise Content Management System.
 			All the metadata of your documents can be retrieved using simple queries with a query language very close to the traditional SQL.</description>
 		<documentation_url>http://fcorti.com/pdi-cmis-input/</documentation_url>
 		<author>Francesco Corti</author>
@@ -1517,7 +1563,7 @@
 				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
-	</market_entry> 
+	</market_entry>
 
 
 	<market_entry>
@@ -1550,7 +1596,7 @@
 		<name>MaxMind GeoIP Lookup</name>
 		<description>This step uses the MaxMind GeoIP library to look up Countries, region and city information with an IP address.</description>
 		<documentation_url>https://raw.github.com/mattcasters/MaxMindGeoIPLookup/master/README.txt</documentation_url>
-		<author>Daniel Einspanjer, Doug Moran, Pedro Alves, Matt Casters</author> 
+		<author>Daniel Einspanjer, Doug Moran, Pedro Alves, Matt Casters</author>
 		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
 		<cases_url>https://github.com/mattcasters/MaxMindGeoIPLookup/issues/</cases_url>
 		<license_name>Apache License 2.0</license_name>
@@ -1572,7 +1618,7 @@
 				<min_parent_version>4.2</min_parent_version>
 			</version>
 		</versions>
-	</market_entry> 
+	</market_entry>
 
 
 	<market_entry>
@@ -1580,7 +1626,7 @@
 		<type>Step</type>
 		<name>Weka Scoring</name>
 		<description>This step allows you to push data into a Weka model and get scoring out in a transformation.</description>
-		<author>Mark Hall</author> 
+		<author>Mark Hall</author>
 		<forum_url>http://forums.pentaho.com/forumdisplay.php?81-Pentaho-Data-Mining-WEKA</forum_url>
 		<cases_url>http://jira.pentaho.com/browse/DATAMINING</cases_url>
 		<license_name>GNU General Public License 3.0</license_name>
@@ -1599,7 +1645,7 @@
 				<min_parent_version>4.2</min_parent_version>
 			</version>
 		</versions>
-	</market_entry> 
+	</market_entry>
 
 
 	<market_entry>
@@ -1696,7 +1742,7 @@
 		<id>CiviCrmInput</id>
 		<type>Step</type>
 		<name>CiviCrmInput</name>
-		<description>This step allows reading data from CiviCRM 
+		<description>This step allows reading data from CiviCRM
 		</description>
 		<versions>
 			<version>
@@ -1723,7 +1769,7 @@
 		<id>CiviCrmOutput</id>
 		<type>Step</type>
 		<name>CiviCrmOutput</name>
-		<description>This step allows write/update data into CiviCRM 
+		<description>This step allows write/update data into CiviCRM
 		</description>
 		<versions>
 			<version>
@@ -1772,8 +1818,8 @@
 		<id>tdeoutputplugin</id>
 		<type>Step</type>
 		<name>PDI Tableau Data Extract Output Plugin</name>
-		<description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL 
-			capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a 
+		<description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL
+			capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a
 			Tableau server or use the TDE in Tableau Desktop.
 
 			Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace
@@ -1817,8 +1863,8 @@
 		<id>idh23</id>
 		<type>HadoopShim</type>
 		<name>IDH 2.3 Hadoop Configuration</name>
-		<description>This is a Hadoop Configuration plugin that allows PDI to interact with 
-			Intel Distribution of Hadoop clusters (version 2.3). This plugin is compatible with 
+		<description>This is a Hadoop Configuration plugin that allows PDI to interact with
+			Intel Distribution of Hadoop clusters (version 2.3). This plugin is compatible with
 			PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
 		</description>
 		<author>Pentaho</author>
@@ -1846,8 +1892,8 @@
 		<id>cdh3u4</id>
 		<type>HadoopShim</type>
 		<name>CDH 3u4 Hadoop Configuration</name>
-		<description>This is a Hadoop Configuration plugin that allows PDI to interact with 
-			Cloudera Distribution of Hadoop clusters (version 3u4). This plugin is compatible with 
+		<description>This is a Hadoop Configuration plugin that allows PDI to interact with
+			Cloudera Distribution of Hadoop clusters (version 3u4). This plugin is compatible with
 			PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
 		</description>
 		<author>Pentaho</author>
@@ -1883,7 +1929,7 @@
 				<version>1.0</version>
 				<package_url>https://pentaho.box.com/shared/static/1pnvur1jkjaukvuqx91b.zip</package_url>
 			</version>
-		</versions> 
+		</versions>
 		<license_name>Apache 2.0</license_name>
 		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
 		<support_level>COMMUNITY_SUPPORTED</support_level>
@@ -1897,7 +1943,7 @@
 		<id>html2xml</id>
 		<type>Step</type>
 		<name>HTML to XML</name>
-		<description>This plugin uses JTidy to convert HTML into XML or XHTML, and is inspired by Roland Bouman's blog using the 
+		<description>This plugin uses JTidy to convert HTML into XML or XHTML, and is inspired by Roland Bouman's blog using the
 			UDJC step with JTidy.</description>
 		<author>Matt Burgess</author>
 		<documentation_url>https://github.com/mattyb149/pdi-html-to-xml-plugin/wiki</documentation_url>
@@ -1949,8 +1995,8 @@
 		<id>TableauExtractRefresh</id>
 		<type>JobEntry</type>
 		<name>Refresh Tableau Server Extract Plugin</name>
-		<description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau 
-			server from PDI. It can perform a full refresh of any extract, update an incremental 
+		<description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau
+			server from PDI. It can perform a full refresh of any extract, update an incremental
 			extract from a database, or append new files to an existing extract.</description>
 		<author>OpenBI</author>
 		<author_url>http://www.openbi.com</author_url>
