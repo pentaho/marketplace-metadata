@@ -827,6 +827,50 @@
 
 
 	<market_entry>
+		<id>startupRuleEngine</id>
+		<type>Platform</type>
+		<name>Startup Rule Engine</name>
+		<description>
+			<![CDATA[ Application that allows the user to configure Kettle jobs and transformations to be run upon specific events, such as upon session login/logout or server startup. <br /><br />
+				 Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>>https://www.github.com/webdetails/startupRuleEngine</documentation_url>
+		<author>Webdetails</author>
+		<author_url>http://www.webdetails.pt</author_url>
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img></img>
+		<small_img></small_img>
+		<installation_notes>
+			<![CDATA[ You can run the Startup Rule Engine as an administrator from the Tools menu. <br/>
+				 After installation, you'll require two server restarts. <br />
+				 On the first server restart, the application will patch your installation and edit system files.
+				 It will also create the folder pentaho-solutions/system/startupRules and populate it with some sample jobs and transformations.
+				 Upon the second server restart, the Startup Rule Engine will be operational.. <br /><br/ >
+				 Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.9</version>
+				<name>Latest version</name>
+				<package_url>http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-RELEASE-0.9.zip</package_url>
+				<samples_url></samples_url>
+				<description>Release</description>
+				<changelog></changelog>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot id="1">https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+
+	<market_entry>
 		<id>waqr</id>
 		<type>Platform</type>
 		<img/>
