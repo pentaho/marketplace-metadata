@@ -854,14 +854,14 @@
 		</installation_notes>
 		<versions>
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Latest build</name>
-				<package_url>http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-TRUNK-SNAPSHOT.zip</package_url>
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.9</version>
+				<name>Latest version</name>
+				<package_url>http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-RELEASE-0.9.zip</package_url>
 				<samples_url></samples_url>
-				<description>Trunk snapshot</description>
+				<description>Release</description>
 				<changelog></changelog>
-				<build_id></build_id>
+				<build_id>16</build_id>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
