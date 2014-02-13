@@ -835,14 +835,14 @@
 				 Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
 			]]>
 		</description>
-		<documentation_url>>https://www.github.com/webdetails/startupRuleEngine</documentation_url>
+		<documentation_url>&gt;https://www.github.com/webdetails/startupRuleEngine</documentation_url>
 		<author>Webdetails</author>
 		<author_url>http://www.webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-		<img></img>
-		<small_img></small_img>
+		<img/>
+		<small_img/>
 		<installation_notes>
 			<![CDATA[ You can run the Startup Rule Engine as an administrator from the Tools menu. <br/>
 				 After installation, you'll require two server restarts. <br />
@@ -858,9 +858,9 @@
 				<version>RELEASE-0.9</version>
 				<name>Latest version</name>
 				<package_url>http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-RELEASE-0.9.zip</package_url>
-				<samples_url></samples_url>
+				<samples_url/>
 				<description>Release</description>
-				<changelog></changelog>
+				<changelog/>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
