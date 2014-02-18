@@ -1170,7 +1170,7 @@
 			This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5
 		</description> 
 		<documentation_url>This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5</documentation_url> 
-		<author>Oncase, Open Consulting</author> 
+		<author>Oncase, Open Consulting, IT4biz</author> 
 		<author_url>http://br.groups.yahoo.com/neo/groups/pentahobr/info</author_url> 
 		<author_logo/> 
 		<license>MPL 2.0</license>
@@ -1193,9 +1193,9 @@
 		<versions> 
 			<version>
 				<branch>RELEASE</branch> 
-				<version>RELEASE-0.7</version> 
+				<version>RELEASE-0.7.1</version> 
 				<name>Latest build</name> 
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.7.zip</package_url> 
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.7.1.zip</package_url> 
 				<samples_url/> 
 				<description>Trunk snapshot</description> 
 				<changelog/> 
