@@ -906,7 +906,6 @@
 			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 			any translation issues or suggestions for improvement
 			]]>
-			This plugin installs language definitions for the Dutch language in Pentaho 5
 		</description> 
 		<documentation_url>This plugin installs language definitions for the Dutch language in Pentaho 5</documentation_url> 
 		<author>C. van Kemenade</author> 
@@ -958,7 +957,6 @@
 			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 			any translation issues or suggestions for improvement
 			]]>
-			This plugin installs language definitions for the French language in Pentaho 5
 		</description> 
 		<documentation_url>This plugin installs language definitions for the French language in Pentaho 5</documentation_url> 
 		<author>Sylvain Decloix</author> 
@@ -1010,7 +1008,6 @@
 			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 			any translation issues or suggestions for improvement
 			]]>
-			This plugin installs language definitions for the German language in Pentaho 5
 		</description> 
 		<documentation_url>This plugin installs language definitions for the German language in Pentaho 5</documentation_url> 
 		<author>Thomas Starl</author> 
@@ -1062,7 +1059,6 @@
 			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 			any translation issues or suggestions for improvement
 			]]>
-			This plugin installs language definitions for the Hindi language in Pentaho 5
 		</description> 
 		<documentation_url>This plugin installs language definitions for the Hindi language in Pentaho 5</documentation_url> 
 		<author>InfoAxon Technologies</author> 
@@ -1104,6 +1100,58 @@
 		</screenshots>
 	</market_entry>
 	<market_entry>
+		<id>languagePack_ja</id> 
+		<type>Platform</type> 
+		<name>Japanese Language Pack Installer</name> 
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the Japanese language in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+		</description> 
+		<documentation_url>This plugin installs language definitions for the Japanese language in Pentaho 5</documentation_url> 
+		<author>Akito Tanaka</author> 
+		<author_url>http://ksk-anl.com/</author_url> 
+		<author_logo/> 
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ja/resources/img/flag.png</img> 
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ja/resources/img/flag.png</small_img>  
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes> 
+		<versions> 
+		<version>
+		<branch>0.5</branch> 
+			<version>RELEASE-0.5</version> 
+			<name>Latest build</name> 
+			<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ja-RELEASE-0.5.zip</package_url> 
+			<samples_url/> 
+			<description>Trunk snapshot</description> 
+			<changelog/> 
+			<build_id/>  
+			<min_parent_version>5.0</min_parent_version> 
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_1.png</screenshot>
+			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+	<market_entry>
 		<id>languagePack_ko</id> 
 		<type>Platform</type> 
 		<name>Korean Language Pack Installer</name> 
@@ -1114,7 +1162,6 @@
 			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 			any translation issues or suggestions for improvement
 			]]>
-			This plugin installs language definitions for the Korean language in Pentaho 5
 		</description> 
 		<documentation_url>This plugin installs language definitions for the Korean language in Pentaho 5</documentation_url> 
 		<author>Xavier Cho</author> 
@@ -1166,7 +1213,6 @@
 			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 			any translation issues or suggestions for improvement
 			]]>
-			This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5
 		</description> 
 		<documentation_url>This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5</documentation_url> 
 		<author>Oncase, Open Consulting, IT4biz</author> 
@@ -1218,7 +1264,6 @@
 			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 			any translation issues or suggestions for improvement
 			]]>
-			This plugin installs language definitions for the Spanish language in Pentaho 5
 		</description> 
 		<documentation_url>This plugin installs language definitions for the Spanish language in Pentaho 5</documentation_url> 
 		<author>Domingo Lavin</author> 
