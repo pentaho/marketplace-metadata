@@ -825,7 +825,7 @@
 	</market_entry>    
 
 	<market_entry>
-		<id>ChangePassword</id>
+		<id>changePassword</id>
 		<type>Platform</type>
 		<name>Change Password</name>
 		<description><![CDATA[
