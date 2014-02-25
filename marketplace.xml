@@ -476,6 +476,54 @@
 		</screenshots>
 	</market_entry>
 
+	<market_entry>
+		<id>changePassword</id>
+		<type>Platform</type>
+		<name>Change Password</name>
+		<description><![CDATA[
+			Plugin that allows the user logged in change its password.<br/>
+			]]>
+		</description>
+		<documentation_url></documentation_url>
+		<author>Kleyson Rios</author>
+		<author_url>http://kleysonrios.blogspot.com.br/</author_url>
+		<author_logo>http://4.bp.blogspot.com/-xO0YdnrqN0g/Uj9iVM8ulhI/AAAAAAAAAmM/i8UZzpIkGW0/s220-h/kleyson.png</author_logo>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<license>MPL 2.0</license>
+		<img/>
+		<small_img/>
+		<installation_notes><![CDATA[
+			This plugin requires CDA and CDE installed in the Pentaho BIServer and has been developed using Sparkl.</br>
+			Change Password option will be available under File menu.
+			</br>
+			After installation edit the pentaho-solutions\system\changePassword\cpp.xml file and configure an user/password with admin permission.
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>1.0.0</version>
+				<name>Stable</name>
+				<package_url>http://sourceforge.net/projects/pentaho5changepassword/files/cpp-1.0.0.zip/download</package_url>
+				<samples_url/>
+				<description><![CDATA[
+					Plugin that allows the user logged in change its password.<br/>
+					]]>
+				</description>
+				<changelog><![CDATA[
+					Initial release.
+					]]>
+				</changelog>
+				<build_id>2014022401</build_id>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version/>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp1.PNG</screenshot>
+			<screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp2.PNG</screenshot>
+		</screenshots>
+	</market_entry>
 
 
 	<market_entry>
@@ -1720,484 +1768,4 @@
 			<version>
 				<version>3.1.0</version>
 				<package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
-			</version>
-		</versions>
-		<license_name>MD licensing</license_name>
-		<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-
-		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
-		<support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
-		<support_organization>Melissa Data</support_organization>
-		<support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
-	</market_entry>
-
-
-	<market_entry>
-		<id>MDGlobalAddressPlugin</id>
-		<type>Step</type>
-		<name>MDGlobalVerify</name>
-		<description> Global Verify Component
-			• Address verification for over 240 countries
-			• Transliteration of many major character sets and display output in either nature or  Roman characters</description>
-		<author>Melissa Data</author>
-		<documentation_url>http://w10.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
-		<versions>
-			<version>
-				<version>3.1.0</version>
-				<package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
-			</version>
-		</versions>
-		<license_name>MD licensing</license_name>
-		<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
-		<support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
-		<support_organization>Melissa Data</support_organization>
-		<support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
-	</market_entry>
-
-
-	<market_entry>
-		<id>MDPersonatorPlugin</id>
-		<type>Step</type>
-		<name>MDPersonator</name>
-		<description> Personator Component
-			• Verifies name corresponds to address, email, and phone data
-			• Appends missing name and company name, phone number, and/or email address</description>
-		<author>Melissa Data</author>
-		<documentation_url>http://w10.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
-		<versions>
-			<version>
-				<version>3.1.0</version>
-				<package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
-			</version>
-		</versions>
-		<license_name>MD licensing</license_name>
-		<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
-		<support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
-		<support_organization>Melissa Data</support_organization>
-		<support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
-	</market_entry>
-
-
-	<market_entry>
-		<id>CiviCrmInput</id>
-		<type>Step</type>
-		<name>CiviCrmInput</name>
-		<description>This step allows reading data from CiviCRM 
-		</description>
-		<versions>
-			<version>
-				<version>4.X</version>
-				<package_url>http://www.stratebi.com/documents/10157/0/CIVICRMInput.zip</package_url>
-				<source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
-			</version>
-		</versions>
-		<author>Stratebi and Amnesty International</author>
-		<documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Input</documentation_url>
-		<forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
-		<cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
-		<license_name>GNU GPL</license_name>
-		<license_text>For more details about the GNU General Public License v2.0 see:
-			http://www.gnu.org/licenses/gpl-2.0.html</license_text>
-		<support_level>COMMUNITY_SUPPORTED</support_level>
-		<support_message>Report issues  and suggestions to support@stratebi.com</support_message>
-		<support_organization>Stratebi</support_organization>
-		<support_url/>
-	</market_entry>
-
-
-	<market_entry>
-		<id>CiviCrmOutput</id>
-		<type>Step</type>
-		<name>CiviCrmOutput</name>
-		<description>This step allows write/update data into CiviCRM 
-		</description>
-		<versions>
-			<version>
-				<version>4.X</version>
-				<package_url>http://www.stratebi.com/documents/10157/0/CIVICRMOutput.zip</package_url>
-				<source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
-			</version>
-		</versions>
-		<author>Stratebi and Amnesty International</author>
-		<documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Output</documentation_url>
-		<forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
-		<cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
-		<license_name>GNU GPL</license_name>
-		<license_text>For more details about the GNU General Public License v2.0 see:
-			http://www.gnu.org/licenses/gpl-2.0.html</license_text>
-		<support_level>COMMUNITY_SUPPORTED</support_level>
-		<support_message>Report issues  and suggestions to support@stratebi.com</support_message>
-		<support_organization>Stratebi</support_organization>
-		<support_url/>
-	</market_entry>
-
-
-	<market_entry>
-		<id>load-text-from-file</id>
-		<type>Step</type>
-		<name>Load Text From File</name>
-		<description>This plugin uses Apache Tika to extract text from files in many different formats, such as PDF, XLS, etc.</description>
-		<author>Matt Burgess</author>
-		<documentation_url>https://github.com/mattyb149/load-text-from-file-plugin/wiki</documentation_url>
-		<versions>
-			<version>
-				<version>1.0</version>
-				<package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
-			</version>
-		</versions>
-		<license_name>Apache 2.0</license_name>
-		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<support_level>COMMUNITY_SUPPORTED</support_level>
-		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
-		<support_organization>Pentaho Developer Community</support_organization>
-		<support_url>http://kettle.pentaho.com</support_url>
-	</market_entry>
-
-
-	<market_entry>
-		<id>tdeoutputplugin</id>
-		<type>Step</type>
-		<name>PDI Tableau Data Extract Output Plugin</name>
-		<description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL 
-			capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a 
-			Tableau server or use the TDE in Tableau Desktop.
-
-			Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace
-			and requires additional installation.  Instructions to download and install the Tableau Data Extract
-			API are available in the README or at: https://github.com/cdeptula/tdeoutputplugin</description>
-		<author>OpenBI</author>
-		<author_url>http://www.openbi.com</author_url>
-		<author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
-		<installation_notes>
-			Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
-
-			1. Install the Tableau Data Exract Output plugin from the Pentaho marketplace.
-			2. Download the "C/C++/Java" data extract API from Tableau for your environment. Choose the 32 bit or 64 bit version based on your Java JDK. - http://www.tableausoftware.com/data-extract-api
-			3. Unzip the downloaded zip.
-			4. For PDI 5.0 and above - Copy the contents of the Java directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
-			5. For PDI 4.8 and below - Copy the contents of the Java6 directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
-			6. For Windows - Add the bin folder from the downloaded Tableau API zip to your system path variable.
-			7. For Linux - Add the lib folder from the downloaded Tableau API zip to the LD_LIBRARY_PATH variable.
-			8. Restart PDI
-		</installation_notes>
-		<documentation_url>https://github.com/cdeptula/tdeoutputplugin/wiki</documentation_url>
-		<versions>
-			<version>
-				<branch>TRUNK</branch>
-				<version>1.0.2</version>
-				<build_id/>
-				<name>Version 1.0.2</name>
-				<package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.2/TDEOutputPlugin_1.0.2.zip</package_url>
-				<source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
-			</version>
-		</versions>
-		<cases_url>https://github.com/cdeptula/tdeoutputplugin/issues</cases_url>
-		<license_name>Apache License 2.0</license_name>
-		<license_text>For more details see:
-			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<support_level>COMMUNITY_SUPPORTED</support_level>
-	</market_entry>
-
-
-	<market_entry>
-		<id>idh23</id>
-		<type>HadoopShim</type>
-		<name>IDH 2.3 Hadoop Configuration</name>
-		<description>This is a Hadoop Configuration plugin that allows PDI to interact with 
-			Intel Distribution of Hadoop clusters (version 2.3). This plugin is compatible with 
-			PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
-		</description>
-		<author>Pentaho</author>
-		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
-		<versions>
-			<version>
-				<version>5.0.1</version>
-				<package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
-				<source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/idh</source_url>
-			</version>
-		</versions>
-		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-		<license_name>Apache License 2.0</license_name>
-		<license_text>For more details see:
-			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
-		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-		<support_organization>Pentaho</support_organization>
-		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
-	</market_entry>
-
-
-	<market_entry>
-		<id>cdh3u4</id>
-		<type>HadoopShim</type>
-		<name>CDH 3u4 Hadoop Configuration</name>
-		<description>This is a Hadoop Configuration plugin that allows PDI to interact with 
-			Cloudera Distribution of Hadoop clusters (version 3u4). This plugin is compatible with 
-			PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
-		</description>
-		<author>Pentaho</author>
-		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
-		<versions>
-			<version>
-				<version>5.0.1</version>
-				<package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
-				<source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/cdh3u4</source_url>
-			</version>
-		</versions>
-		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-		<license_name>Apache License 2.0</license_name>
-		<license_text>For more details see:
-			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
-		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-		<support_organization>Pentaho</support_organization>
-		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
-	</market_entry>
-
-
-	<market_entry>
-		<id>csv-jdbc-plugin</id>
-		<type>Database</type>
-		<name>CSV JDBC Connector</name>
-		<description>This plugin uses csvjdbc (http://csvjdbc.sourceforge.net) to provide a PDI database dialect for CSV files.</description>
-		<author>Matt Burgess</author>
-		<documentation_url>https://github.com/mattyb149/csv-jdbc-plugin/wiki</documentation_url>
-		<versions>
-			<version>
-				<version>1.0</version>
-				<package_url>https://pentaho.box.com/shared/static/1pnvur1jkjaukvuqx91b.zip</package_url>
-			</version>
-		</versions> 
-		<license_name>Apache 2.0</license_name>
-		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<support_level>COMMUNITY_SUPPORTED</support_level>
-		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
-		<support_organization>Pentaho Developer Community</support_organization>
-		<support_url>http://kettle.pentaho.com</support_url>
-	</market_entry>
-
-
-	<market_entry>
-		<id>html2xml</id>
-		<type>Step</type>
-		<name>HTML to XML</name>
-		<description>This plugin uses JTidy to convert HTML into XML or XHTML, and is inspired by Roland Bouman's blog using the 
-			UDJC step with JTidy.</description>
-		<author>Matt Burgess</author>
-		<documentation_url>https://github.com/mattyb149/pdi-html-to-xml-plugin/wiki</documentation_url>
-		<versions>
-			<version>
-				<version>1.0</version>
-				<package_url>https://pentaho.box.com/shared/static/i009upass9f2iip4fit5.zip</package_url>
-			</version>
-		</versions>
-		<license_name>Apache 2.0</license_name>
-		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<support_level>COMMUNITY_SUPPORTED</support_level>
-		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
-		<support_organization>Pentaho Developer Community</support_organization>
-		<support_url>http://kettle.pentaho.com</support_url>
-	</market_entry>
-
-
-	<market_entry>
-		<id>pentaho-kafka-consumer</id>
-		<type>Step</type>
-		<img>https://kafka.apache.org/images/kafka_logo.png</img>
-		<small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
-		<name>Apache Kafka Consumer</name>
-		<documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Consumer</documentation_url>
-		<description>The plug-in allows reading binary messages from Apache Kafka message queue.</description>
-		<author>Ruckus Wireless</author>
-		<author_url>http://ruckuswireless.com</author_url>
-		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
-		<license>Apache License 2.0</license>
-		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<versions>
-			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Latest</name>
-				<package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.0/pentaho-kafka-consumer-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url/>
-				<description>Latest build from the trunk development branch.</description>
-				<build_id>20140101-1548</build_id>
-				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
-			</version>
-		</versions>
-	</market_entry>
-
-
-	<market_entry>
-		<id>TableauExtractRefresh</id>
-		<type>JobEntry</type>
-		<name>Refresh Tableau Server Extract Plugin</name>
-		<description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau 
-			server from PDI. It can perform a full refresh of any extract, update an incremental 
-			extract from a database, or append new files to an existing extract.</description>
-		<author>OpenBI</author>
-		<author_url>http://www.openbi.com</author_url>
-		<author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
-		<documentation_url>https://github.com/cdeptula/refreshtableauextract/wiki</documentation_url>
-		<versions>
-			<version>
-				<branch>TRUNK</branch>
-				<version>1.0</version>
-				<build_id/>
-				<name>Version 1.0</name>
-				<package_url>https://github.com/cdeptula/refreshtableauextract/releases/download/1.0.0/refreshtableauextract.zip</package_url>
-				<source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
-			</version>
-		</versions>
-		<cases_url>https://github.com/cdeptula/refreshtableauextract/issues</cases_url>
-		<license_name>Apache License 2.0</license_name>
-		<license_text>For more details see:
-			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<support_level>COMMUNITY_SUPPORTED</support_level>
-	</market_entry>
-
-	<market_entry>
-		<id>pentaho-protobuf-decode</id>
-		<type>Step</type>
-		<img>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</img>
-		<small_img>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</small_img>
-		<name>Google Protocol Buffers Decode</name>
-		<documentation_url>http://wiki.pentaho.com/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
-		<description>The Kettle transformation plug-in allows decoding binary messages encoded using Google Protocol Buffers.</description>
-		<author>Ruckus Wireless</author>
-		<author_url>http://ruckuswireless.com</author_url>
-		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
-		<license>Apache License 2.0</license>
-		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<versions>
-			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Latest</name>
-				<package_url>https://github.com/RuckusWirelessIL/pentaho-protobuf-decode/releases/download/v1.0/pentaho-protobuf-decode-TRUNK-SNAPSHOT.zip</package_url>
-				<samples_url/>
-				<description>Latest build from the trunk development branch.</description>
-				<build_id>20140101-1603</build_id>
-				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
-			</version>
-		</versions>
-	</market_entry>
-
-
-	<market_entry>
-		<id>legstar.pdi.zosfile</id>
-		<type>Step</type>
-		<name>LegStar z/OS File reader Plugin</name>
-		<description>This step reads raw z/OS records from a file and transforms them to PDI rows</description>
-		<author>LegSem</author>
-		<documentation_url>https://code.google.com/p/legstar-pdi/wiki/GetStarted</documentation_url>
-		<versions>
-			<version>
-				<version>0.6</version>
-				<package_url>https://googledrive.com/host/0B0Jhkz53SgUXTElZSHh4NUM2Tm8/legstar.pdi.zosfile-0.6.zip</package_url>
-				<source_url>https://code.google.com/p/legstar-pdi/source/checkout</source_url>
-			</version>
-		</versions>
-		<forum_url>https://groups.google.com/forum/#!forum/legstar-user</forum_url>
-		<cases_url>https://code.google.com/p/legstar-pdi/issues/list</cases_url>
-		<license_name>GNU Lesser GPL</license_name>
-		<license_text>For more details see: http://www.gnu.org/licenses/lgpl.html</license_text>
-		<support_level>COMMUNITY_SUPPORTED</support_level>
-		<support_message>Supported by a LegSem</support_message>
-		<support_organization>LegSem</support_organization>
-		<support_url>http://www.legsem.com/</support_url>
-	</market_entry>
-    <market_entry>
-        <id>PRScript</id>
-        <type>Step</type>
-        <name>Execute R Script</name>
-        <description><![CDATA[
-				Execute R script from file by specifying input and output variables.
-            ]]>
-        </description>
-        <documentation_url>http://dekarlab.de/?index=2</documentation_url>
-        <author>DEKAR laboratory</author>
-        <small_img/>
-        <installation_notes><![CDATA[
-				R script plugin can be installed by performing the following steps:
-				1) Install R project from the site http://www.r-project.org/
-				2) Install rJava package in R by executing: install.packages("rJava")
-				3) Copy JRI library rJava/jri/jri.dll or rJava/jri/libjri.so to: data-integration/libswt/{Platform_64bit}
-				4) Specify location of R using R_HOME environment variable.
-		]]>
-        </installation_notes>
-		<cases_url>https://github.com/dekarlab/pentahor/issues</cases_url>
-		<license_name>GNU General Public License</license_name>
-		<license_text>For more details see:
-			http://www.gnu.org/licenses/</license_text>
-        <versions>
-            <version>
-                <version>0.0.1</version>
-                <package_url>http://dekarlab.de/download/PRScript.zip</package_url>
-            </version>
-        </versions>
-    </market_entry>
-
-    <market_entry>
-        <id>pentaho-kettle-compare-fields-plugin</id>
-        <type>Step</type>
-        <name>Compare Fields</name>
-        <description> Compares 2 sets of fields in a row and directs it to the appropriate destination step based on the result.
-This step detects identical, changed, added and removed rows.</description>
-        <documentation_url>http://wiki.pentaho.com/display/EAI/Compare+Fields</documentation_url>
-        <author>Matt Casters / Pentaho</author>
-	<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-	<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-	<license_name>Apache License 2.0</license_name>
-	<license_text>For more details see:
-		http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-        <versions>
-            <version>
-                <version>1.0.0</version>
-                <package_url>https://pentaho.box.com/shared/static/0wq4a5u4dtkdcvsb8h17.zip</package_url>
-		<min_parent_version>5.0.0</min_parent_version>
-            </version>
-        </versions>
-    </market_entry>
-
-    <market_entry>
-        <id>ic-amqp-plugin</id>
-        <type>Step</type>
-        <name>IC AMQP Plugin</name>
-        <description>AMQP Consumer/Producer</description>
-        <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-AMQP/blob/master/README.md</documentation_url>
-        <author>instaclick inc.</author>
-        <license_name>MIT</license_name>
-        <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-AMQP/master/LICENSE.md</license_text>
-        <versions>
-            <version>
-                <version>1.0.0</version>
-                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.0.0-SNAPSHOT.tar</package_url>
-            </version>
-        </versions>
-    </market_entry>
-
-    <market_entry>
-        <id>ic-filter-plugin</id>
-        <type>Step</type>
-        <name>IC Bloom filter Plugin</name>
-        <description>Bloom filter for pentaho PDI</description>
-        <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-BloomFilter/blob/master/README.md</documentation_url>
-        <author>instaclick inc.</author>
-        <license_name>MIT</license_name>
-        <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-BloomFilter/master/LICENSE.md</license_text>
-        <versions>
-            <version>
-                <version>1.7.0</version>
-                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-filter-plugin-pdi-1.7.0-SNAPSHOT.tar</package_url>
-            </version>
-        </versions>
-    </market_entry>
-
-</market>
+			</
