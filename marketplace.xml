@@ -354,7 +354,7 @@
 	    	<name>Trunk</name>
 		    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
     		<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
-	    	<build_id>42</build_id>
+	    	<build_id>43</build_id>
             <min_parent_version>5.0</min_parent_version>		
 		</version>    				     	        	    
 		</versions>                       
