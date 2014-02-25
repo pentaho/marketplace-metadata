@@ -179,7 +179,7 @@
         <package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
         <samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>44</build_id>
+		<build_id>45</build_id>
         <min_parent_version>1.0</min_parent_version>		
 		<max_parent_version>4.8</max_parent_version>        
 		</version>    	
@@ -731,7 +731,7 @@
 		    <name>Trunk</name>
             <package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
-            <build_id>14</build_id>
+            <build_id>15</build_id>
             <min_parent_version>5.0</min_parent_version>
 		</version>				
 		</versions>                       
