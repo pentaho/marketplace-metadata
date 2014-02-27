@@ -2230,4 +2230,28 @@ This step detects identical, changed, added and removed rows.</description>
         </versions>
     </market_entry>
 
+	<market_entry>
+		<id>jdbcMetaData</id>
+		<type>Step</type>
+		<name>JDBC Metadata</name>
+		<description>
+      This step provides access to various metadata resultsets of the JDBC DatabaseMetaData object.
+      JDBC metadata allows you to list tables, table columns, primary key columns, foreign key columns, object privileges etc. based on a database connection.
+    </description>
+		<author>Roland Bouman</author>
+		<documentation_url>https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/raw/master/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
 </market>
