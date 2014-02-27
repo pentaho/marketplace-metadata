@@ -1310,8 +1310,8 @@
 	<market_entry>
 		<id>pash</id>
 		<type>Platform</type>
-		<img>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</img>
-		<small_img>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</small_img>
+		<img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</img>
+		<small_img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</small_img>
 		<name>Pentaho Analytics Shell</name>
 		<documentation_url>http://analytical-labs.com/</documentation_url>
 		<description>
@@ -1330,12 +1330,15 @@
 				<branch>BETA</branch>
 				<version>0.1</version>
 				<name>Beta</name>
-				<package_url>https://drive.google.com/uc?id=0BzdLoKoT3p_eSGl0Wll6MWU3Vzg</package_url>
+				<package_url>https://github.com/rpbouman/pash/raw/master/bin/pash.zip</package_url>
 				<description>Pash version 0.1 (beta)</description>
 				<max_parent_version>5.1</max_parent_version>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
     </versions>
+		<screenshots>
+			<screenshot id="1">https://github.com/rpbouman/pash/raw/master/images/screenshot.png</screenshot>
+		</screenshots>
 	</market_entry>
 
 
