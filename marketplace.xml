@@ -2220,8 +2220,8 @@ This step detects identical, changed, added and removed rows.</description>
 	</description>
         <documentation_url>https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/readme.txt</documentation_url>
         <author>Uwe Geercken / Datamelt</author>
-	<forum_url></forum_url>
-	<cases_url></cases_url>
+	<forum_url/>
+	<cases_url/>
 	<license_name>GNU General Public License version 2.0 (GPLv2)</license_name>
 	<license_text>For more details see:
 			http://www.gnu.org/licenses/</license_text>
