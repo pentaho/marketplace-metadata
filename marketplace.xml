@@ -483,7 +483,54 @@
 		</screenshots>
 	</market_entry>
 
-
+	<market_entry>
+		<id>changePassword</id>
+		<type>Platform</type>
+		<name>Change Password</name>
+		<description><![CDATA[
+			Plugin that allows the user logged in change its password.<br/>
+			]]>
+		</description>
+		<documentation_url></documentation_url>
+		<author>Kleyson Rios</author>
+		<author_url>http://kleysonrios.blogspot.com.br/</author_url>
+		<author_logo>http://4.bp.blogspot.com/-xO0YdnrqN0g/Uj9iVM8ulhI/AAAAAAAAAmM/i8UZzpIkGW0/s220-h/kleyson.png</author_logo>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<license>MPL 2.0</license>
+		<img/>
+		<small_img/>
+		<installation_notes><![CDATA[
+			This plugin requires CDA and CDE installed in the Pentaho BIServer and has been developed using Sparkl.</br>
+			Change Password option will be available under File menu.
+			</br>
+			After installation edit the pentaho-solutions\system\changePassword\cpp.xml file and configure an user/password with admin permission.
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>1.0.0</version>
+				<name>Stable</name>
+				<package_url>http://sourceforge.net/projects/pentaho5changepassword/files/cpp-1.0.0.zip/download</package_url>
+				<samples_url/>
+				<description><![CDATA[
+					Plugin that allows the user logged in change its password.<br/>
+					]]>
+				</description>
+				<changelog><![CDATA[
+					Initial release.
+					]]>
+				</changelog>
+				<build_id>2014022401</build_id>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version/>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp1.PNG</screenshot>
+			<screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp2.PNG</screenshot>
+		</screenshots>
+	</market_entry>
 
 	<market_entry>
 		<id>BTable</id>
