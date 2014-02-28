@@ -416,7 +416,7 @@
 	</market_entry>
 
 	<market_entry>
-		<id>OpenI</id>
+		<id>openi</id>
 		<type>Platform</type>
 		<img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
 		<small_img/>
