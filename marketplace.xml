@@ -514,7 +514,7 @@
 				<package_url>http://sourceforge.net/projects/pentaho5changepassword/files/cpp-1.0.0.zip/download</package_url>
 				<samples_url/>
 				<description><![CDATA[
-					Plugin that allows the user logged in change its password.<br/>
+					Initial release<br/>
 					]]>
 				</description>
 				<changelog><![CDATA[
@@ -921,7 +921,37 @@
 			<screenshot id="1">https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
 		</screenshots>
 	</market_entry>
-
+    
+    <market_entry>
+		<id>pash</id>
+		<type>Platform</type>
+		<img>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</img>
+		<small_img>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</small_img>
+		<name>Pentaho Analytics Shell</name>
+		<documentation_url>http://analytical-labs.com/</documentation_url>
+		<description>
+			Pash is a shell interface to Pentaho Analysis.
+            It provides command-line access to mondrian straight from within your webbrowser.
+            The shell allows you to list the available mondrian catalogs, cubes, dimensions etc,
+            and you can type and run ad-hoc MDX queries.
+            After installation, the shell is available in the Tools menu
+		</description>
+		<author>Roland Bouman</author>
+		<author_url>http://rpbouman.blogspot.com</author_url>
+		<author_logo>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</author_logo>
+		<license>ASL 2.0</license>   
+		<versions>
+			<version>
+				<branch>BETA</branch>
+				<version>0.1</version>
+				<name>Beta</name>
+				<package_url>https://drive.google.com/uc?id=0BzdLoKoT3p_eSGl0Wll6MWU3Vzg</package_url>
+				<description>Pash version 0.1 (beta)</description>
+				<max_parent_version>5.1</max_parent_version>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+        </versions>
+	</market_entry>    
 
 	<market_entry>
 		<id>waqr</id>
@@ -2338,38 +2368,6 @@ This step detects identical, changed, added and removed rows.</description>
 	<support_organization>Pentaho Developer Community</support_organization>
 	<support_url>http://kettle.pentaho.com</support_url>
     </market_entry>
-    
-    
-    <market_entry>
-		<id>pash</id>
-		<type>Platform</type>
-		<img>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</img>
-		<small_img>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</small_img>
-		<name>Pentaho Analytics Shell</name>
-		<documentation_url>http://analytical-labs.com/</documentation_url>
-		<description>
-			Pash is a shell interface to Pentaho Analysis.
-            It provides command-line access to mondrian straight from within your webbrowser.
-            The shell allows you to list the available mondrian catalogs, cubes, dimensions etc,
-            and you can type and run ad-hoc MDX queries.
-            After installation, the shell is available in the Tools menu
-		</description>
-		<author>Roland Bouman</author>
-		<author_url>http://rpbouman.blogspot.com</author_url>
-		<author_logo>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</author_logo>
-		<license>ASL 2.0</license>   
-		<versions>
-			<version>
-				<branch>BETA</branch>
-				<version>0.1</version>
-				<name>Beta</name>
-				<package_url>https://drive.google.com/uc?id=0BzdLoKoT3p_eSGl0Wll6MWU3Vzg</package_url>
-				<description>Pash version 0.1 (beta)</description>
-				<max_parent_version>5.1</max_parent_version>
-				<min_parent_version>5.0</min_parent_version>
-			</version>
-        </versions>
-	</market_entry>    
     
 
 </market>
