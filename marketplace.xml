@@ -425,10 +425,9 @@
 		<description>
 			OpenI plugin for Pentaho CE provides a simple and clean user
 			interface to visualize data in OLAP cubes. It supports both direct
-			Mondrian and xmla based connections like Microsoft SQL Server
-			Analysis Services (SSAS), plus provides add-on features like
+			Mondrian and xmla based connections, plus provides add-on features like
 			Explore Cube Data, custom SQL for drillthrough data, publishing
-			drillthrough data to external web services etc
+			drillthrough data to external web services etc.
 		</description>
 		<author>OpenI</author>
 		<author_url>http://www.openi.org/</author_url>
@@ -443,6 +442,14 @@
 				<description>OpenI Plugin is available on both sourceforge.net(http://sourceforge.net/projects/openi) and github(https://www.github.com/openi/)</description>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
+			</version>
+			<version>
+				<branch>TRUNK</branch>
+				<version>3.0.2</version>
+				<name>OpenI-Pentaho 3.0.2</name>
+				<package_url>http://downloads.sourceforge.net/project/openi/openi-3.0/openi-pentaho-plugin-3.0.2.zip</package_url>
+				<description>Point Release for Pentaho 5.0. Available on both SF.net(http://sourceforge.net/projects/openi) and GitHub(https://www.github.com/openi/)</description>
+				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 	</market_entry>
