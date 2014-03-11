@@ -104,15 +104,26 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>13.09.10</version>
+				<version>14.03.07</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.09.10.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.09.10.zip</samples_url>
+				<package_url>http://ci.pentaho.com/job/pentaho-cdf-r/6/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-14.03.07.zip</package_url>
+				<samples_url>http://ci.pentaho.com/job/pentaho-cdf-r/6/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-14.03.07.zip</samples_url>
 				<description>Stable Release</description>
 				<max_parent_version>4.8</max_parent_version>	
 				<min_parent_version>1.0</min_parent_version>
 				<build_id/>
 			</version>    	                    
+			<version>
+				<branch>STABLE</branch>
+				<version>14.03.07</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-5-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-5-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-14.03.07.zip</samples_url>
+				<description>Stable Release</description>
+				<min_parent_version>5.0</min_parent_version>
+				<build_id/>
+			</version>    	                    
+			
 			<version>
     	    <branch>TRUNK</branch>
 	    	<version>TRUNK-SNAPSHOT</version>
@@ -163,15 +174,26 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>13.09.10</version>
+				<version>14.03.07</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-13.09.10.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-13.09.10.zip</samples_url>
-				<description>13.09.10 release.</description>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-14.03.07.zip</samples_url>
+				<description>14.03.07 release.</description>
 				<build_id/>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>        
 			</version>    	                    
+			<version>
+				<branch>STABLE</branch>
+				<version>14.03.07</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-14.03.07.zip</samples_url>
+				<description>14.03.07 release.</description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>        
+			</version>    	                    
+			
 			<version>
         <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
@@ -225,15 +247,27 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>13.09.10</version>
+				<version>14.03.07</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-13.09.10.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-13.09.10.zip</samples_url>
-				<description>Release 13.09.10</description>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-14.03.07.zip</samples_url>
+				<description>Release 14.03.07</description>
 				<build_id/>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>                
 			</version>    	                    
+			<version>
+				<branch>STABLE</branch>
+				<version>14.03.07</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-14.03.07.zip</samples_url>
+				<description>Release 14.03.07</description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>                
+			</version>    	                    
+
+
 			<version>
             <branch>TRUNK</branch>
     		<version>TRUNK-SNAPSHOT</version>
@@ -286,14 +320,25 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>13.09.10</version>
+				<version>14.03.07</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-13.09.10.zip</package_url>
-				<description>13.09.10 release.</description>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-pentaho-14.03.07.zip</package_url>
+				<description>14.03.07 release.</description>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 				<build_id/>
 			</version>        
+			
+		    <version>
+				<branch>STABLE</branch>
+				<version>14.03.07</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release-5/lastSuccessfulBuild/artifact/dist/cgg-14.03.07.zip</package_url>
+				<description>14.03.07 release.</description>
+				<min_parent_version>5.0</min_parent_version>
+				<build_id/>
+			</version>        			
+			
 			<version>
 	    <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
