@@ -201,7 +201,7 @@
         <package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
         <samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>52</build_id>
+		<build_id>53</build_id>
         <min_parent_version>1.0</min_parent_version>		
 		<max_parent_version>4.8</max_parent_version>        
 		</version>    	
@@ -212,7 +212,7 @@
         <package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
         <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Build for Pentaho 5.0</description>
-		<build_id>122</build_id>
+		<build_id>123</build_id>
         <min_parent_version>5.0</min_parent_version>		
 		</version>				
 		</versions>
@@ -275,7 +275,7 @@
             <package_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
             <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
             <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		    <build_id>257</build_id>
+		    <build_id>258</build_id>
             <min_parent_version>1.0</min_parent_version>		
 	    	<max_parent_version>4.8</max_parent_version>        
 		    </version>    	
@@ -819,7 +819,7 @@
     		<name>Trunk</name>
 	    	<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
 		    <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-    		<build_id>16</build_id>
+    		<build_id>17</build_id>
             <max_parent_version>4.8</max_parent_version>		
             <min_parent_version>1.0</min_parent_version>		
 		</version>    	
@@ -829,7 +829,7 @@
 		    <name>Trunk</name>
             <package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
-            <build_id>15</build_id>
+            <build_id>16</build_id>
             <min_parent_version>5.0</min_parent_version>
 		</version>				
 		</versions>                       
@@ -1658,9 +1658,9 @@
 			Data Cleaner is an open source data quality application made by Human Inference.  With it you can run profiling jobs using DataCleaner for any transformation step and in the database explorer.  Additionally you can include and launch DataCleaner jobs as part of your PDI jobs.  This allows you to merge the tasks of data quality and data integration.</description>
 		<versions>
 			<version>
-				<version>3.1.2</version>
+				<version>3.5.8</version>
 				<min_parent_version>5.0.0</min_parent_version>
-				<package_url>https://pentaho.box.com/shared/static/a1yl5gmibhrbp9kfim8t.zip</package_url>
+				<package_url>https://pentaho.box.com/shared/static/wg73cc5539jbqde90kxy.zip</package_url>
 				<source_url>http://source.pentaho.org/svnkettleroot/plugins/kettle-profiling-datacleaner/</source_url>
 			</version>
 		</versions>
