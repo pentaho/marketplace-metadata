@@ -1332,7 +1332,6 @@
 				<name>Beta</name>
 				<package_url>https://github.com/rpbouman/pash/raw/master/bin/pash.zip</package_url>
 				<description>Pash version 0.1 (beta)</description>
-				<max_parent_version>5.1</max_parent_version>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
     </versions>
