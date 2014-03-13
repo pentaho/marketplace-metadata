@@ -924,6 +924,44 @@
 
 
 	<market_entry>
+		<id>cfr</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/cfr_logo.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/cfr_logo.png</small_img>
+		<name>Community File Repository</name>
+		<documentation_url>http://www.webdetails.pt/ctools/cfr.html</documentation_url>
+		<description>CFR (Community File Repository) is a new CTool Plugin that allows you to setup and use a file repository from inside Pentaho. You can use it to manage your file needs, allowing uploads and downloads from inside your dashboards.</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>    
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDE, CDA, CDF</dependencies>        
+		<installation_notes/>
+		<versions>
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <name>Trunk</name>
+                <package_url>http://ci.pentaho.com/job/pentaho-cfr-pentaho/lastSuccessfulBuild/artifact/cfr-pentaho/dist/cfr-pentaho-TRUNK-SNAPSHOT.zip</package_url><description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+                <build_id>17</build_id>
+                <min_parent_version>1.0</min_parent_version>
+                <max_parent_version>4.8</max_parent_version>
+            </version>
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <name>Trunk</name>
+                <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+                <description>Build for Pentaho 5.0</description>
+                <build_id>9</build_id>
+                <min_parent_version>5.0</min_parent_version>
+            </version>		
+        </versions>                       
+	</market_entry>    
+
+
+
+	<market_entry>
 		<id>startupRuleEngine</id>
 		<type>Platform</type>
 		<name>Startup Rule Engine</name>
