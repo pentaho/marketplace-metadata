@@ -104,15 +104,26 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>13.09.10</version>
+				<version>14.03.07</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-13.09.10.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-13.09.10.zip</samples_url>
+				<package_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-14.03.07.zip</package_url>
+				<samples_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-samples-14.03.07.zip</samples_url>
 				<description>Stable Release</description>
 				<max_parent_version>4.8</max_parent_version>	
 				<min_parent_version>1.0</min_parent_version>
 				<build_id/>
 			</version>    	                    
+			<version>
+				<branch>STABLE</branch>
+				<version>14.03.07</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDF-5-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-5-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-14.03.07.zip</samples_url>
+				<description>Stable Release</description>
+				<min_parent_version>5.0</min_parent_version>
+				<build_id/>
+			</version>    	                    
+			
 			<version>
     	    <branch>TRUNK</branch>
 	    	<version>TRUNK-SNAPSHOT</version>
@@ -120,7 +131,7 @@
 		    <package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
     		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
 	    	<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		    <build_id>251</build_id>
+		    <build_id>256</build_id>
             <max_parent_version>4.8</max_parent_version>
             <min_parent_version>1.0</min_parent_version>		        							
 		</version>    	
@@ -132,7 +143,7 @@
                 <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
                 <min_parent_version>5.0</min_parent_version>
-                <build_id>269</build_id>
+                <build_id>276</build_id>
             </version>		
 		</versions>
 		<screenshots>
@@ -163,15 +174,26 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>13.09.10</version>
+				<version>14.03.07</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-13.09.10.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-13.09.10.zip</samples_url>
-				<description>13.09.10 release.</description>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-14.03.07.zip</samples_url>
+				<description>14.03.07 release.</description>
 				<build_id/>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>        
 			</version>    	                    
+			<version>
+				<branch>STABLE</branch>
+				<version>14.03.07</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-14.03.07.zip</samples_url>
+				<description>14.03.07 release.</description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>        
+			</version>    	                    
+			
 			<version>
         <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
@@ -179,7 +201,7 @@
         <package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
         <samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>46</build_id>
+		<build_id>53</build_id>
         <min_parent_version>1.0</min_parent_version>		
 		<max_parent_version>4.8</max_parent_version>        
 		</version>    	
@@ -190,7 +212,7 @@
         <package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
         <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Build for Pentaho 5.0</description>
-		<build_id>115</build_id>
+		<build_id>123</build_id>
         <min_parent_version>5.0</min_parent_version>		
 		</version>				
 		</versions>
@@ -225,27 +247,38 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>13.09.10</version>
+				<version>14.03.07</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-13.09.10.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/server/plugin/dist/pentaho-cdf-dd-solution-13.09.10.zip</samples_url>
-				<description>Release 13.09.10</description>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-14.03.07.zip</samples_url>
+				<description>Release 14.03.07</description>
 				<build_id/>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>                
 			</version>    	                    
 			<version>
-                <branch>TRUNK</branch>
-                <version>TRUNK-SNAPSHOT</version>
-                <name>Trunk</name>
-        		<package_url> http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip </package_url>
-		        <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip </samples_url>
-                <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here....</description>
-                <build_id>245</build_id>
-                <max_parent_version>4.8</max_parent_version>
-                <min_parent_version>1.0</min_parent_version>		        		
-            
-            </version>    	
+				<branch>STABLE</branch>
+				<version>14.03.07</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-14.03.07.zip</package_url>
+				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-14.03.07.zip</samples_url>
+				<description>Release 14.03.07</description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>                
+			</version>    	                    
+
+
+			<version>
+            <branch>TRUNK</branch>
+    		<version>TRUNK-SNAPSHOT</version>
+	    	<name>Trunk</name>
+            <package_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
+            <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
+            <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		    <build_id>260</build_id>
+            <min_parent_version>1.0</min_parent_version>		
+	    	<max_parent_version>4.8</max_parent_version>        
+		    </version>    	
 			<version>
                 <branch>TRUNK</branch>
                 <version>TRUNK-SNAPSHOT</version>
@@ -253,7 +286,7 @@
                 <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
                 <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
-        		<build_id>99</build_id>
+        		<build_id>110</build_id>
                 <min_parent_version>5.0</min_parent_version>	
             </version>
 		</versions>
@@ -287,14 +320,25 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>13.09.10</version>
+				<version>14.03.07</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-13.09.10.zip</package_url>
-				<description>13.09.10 release.</description>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-pentaho-14.03.07.zip</package_url>
+				<description>14.03.07 release.</description>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 				<build_id/>
 			</version>        
+			
+		    <version>
+				<branch>STABLE</branch>
+				<version>14.03.07</version>
+				<name>Stable</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release-5/lastSuccessfulBuild/artifact/dist/cgg-14.03.07.zip</package_url>
+				<description>14.03.07 release.</description>
+				<min_parent_version>5.0</min_parent_version>
+				<build_id/>
+			</version>        			
+			
 			<version>
 	    <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
@@ -416,7 +460,7 @@
 	</market_entry>
 
 	<market_entry>
-		<id>OpenI</id>
+		<id>openi</id>
 		<type>Platform</type>
 		<img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
 		<small_img/>
@@ -425,10 +469,9 @@
 		<description>
 			OpenI plugin for Pentaho CE provides a simple and clean user
 			interface to visualize data in OLAP cubes. It supports both direct
-			Mondrian and xmla based connections like Microsoft SQL Server
-			Analysis Services (SSAS), plus provides add-on features like
+			Mondrian and xmla based connections, plus provides add-on features like
 			Explore Cube Data, custom SQL for drillthrough data, publishing
-			drillthrough data to external web services etc
+			drillthrough data to external web services etc.
 		</description>
 		<author>OpenI</author>
 		<author_url>http://www.openi.org/</author_url>
@@ -443,6 +486,14 @@
 				<description>OpenI Plugin is available on both sourceforge.net(http://sourceforge.net/projects/openi) and github(https://www.github.com/openi/)</description>
 				<max_parent_version>4.8</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
+			</version>
+			<version>
+				<branch>TRUNK</branch>
+				<version>3.0.2</version>
+				<name>OpenI-Pentaho 3.0.2</name>
+				<package_url>http://downloads.sourceforge.net/project/openi/openi-3.0/openi-pentaho-plugin-3.0.2.zip</package_url>
+				<description>Point Release for Pentaho 5.0. Available on both SF.net(http://sourceforge.net/projects/openi) and GitHub(https://www.github.com/openi/)</description>
+				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 	</market_entry>
@@ -464,9 +515,9 @@
 			<version>
 				<branch>Development</branch>
 				<version>0.9-SNAPSHOT</version>
-				<build_id>297</build_id>
+				<build_id>315</build_id>
 				<name>Latest snapshot build</name>
-				<package_url>http://ci.greencatsoft.com/job/Pivot4J/297/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
+				<package_url>http://ci.greencatsoft.com/job/Pivot4J/315/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
 				<description>The latest development snapshot build.</description>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
@@ -476,7 +527,54 @@
 		</screenshots>
 	</market_entry>
 
-
+	<market_entry>
+		<id>changePassword</id>
+		<type>Platform</type>
+		<name>Change Password</name>
+		<description><![CDATA[
+			Plugin that allows the user logged in change its password.<br/>
+			]]>
+		</description>
+		<documentation_url/>
+		<author>Kleyson Rios</author>
+		<author_url>http://kleysonrios.blogspot.com.br/</author_url>
+		<author_logo>http://4.bp.blogspot.com/-xO0YdnrqN0g/Uj9iVM8ulhI/AAAAAAAAAmM/i8UZzpIkGW0/s220-h/kleyson.png</author_logo>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<license>MPL 2.0</license>
+		<img/>
+		<small_img/>
+		<installation_notes><![CDATA[
+			This plugin requires CDA and CDE installed in the Pentaho BIServer and has been developed using Sparkl.</br>
+			Change Password option will be available under File menu.
+			</br>
+			After installation edit the pentaho-solutions\system\changePassword\cpp.xml file and configure an user/password with admin permission.
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>1.0.0</version>
+				<name>Stable</name>
+				<package_url>http://sourceforge.net/projects/pentaho5changepassword/files/cpp-1.0.0.zip/download</package_url>
+				<samples_url/>
+				<description><![CDATA[
+					Initial release<br/>
+					]]>
+				</description>
+				<changelog><![CDATA[
+					Initial release.
+					]]>
+				</changelog>
+				<build_id>2014022401</build_id>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version/>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp1.PNG</screenshot>
+			<screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp2.PNG</screenshot>
+		</screenshots>
+	</market_entry>
 
 	<market_entry>
 		<id>BTable</id>
@@ -721,7 +819,7 @@
     		<name>Trunk</name>
 	    	<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
 		    <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-    		<build_id>16</build_id>
+    		<build_id>17</build_id>
             <max_parent_version>4.8</max_parent_version>		
             <min_parent_version>1.0</min_parent_version>		
 		</version>    	
@@ -731,7 +829,7 @@
 		    <name>Trunk</name>
             <package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
-            <build_id>15</build_id>
+            <build_id>16</build_id>
             <min_parent_version>5.0</min_parent_version>
 		</version>				
 		</versions>                       
@@ -826,6 +924,45 @@
 
 
 	<market_entry>
+		<id>cfr</id>
+		<type>Platform</type>
+		<img>http://www.webdetails.pt/ficheiros/cfr_logo.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/cfr_logo.png</small_img>
+		<name>Community File Repository</name>
+		<documentation_url>http://www.webdetails.pt/ctools/cfr.html</documentation_url>
+		<description>CFR (Community File Repository) is a new CTool Plugin that allows you to setup and use a file repository from inside Pentaho. You can use it to manage your file needs, allowing uploads and downloads from inside your dashboards.</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>    
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDE, CDA, CDF</dependencies>        
+		<installation_notes/>
+		<versions>
+            <version>
+        <branch>TRUNK</branch>
+	    <version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+        <package_url>http://ci.pentaho.com/job/pentaho-cfr-pentaho/lastSuccessfulBuild/artifact/cfr-pentaho/dist/cfr-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>18</build_id>
+        <min_parent_version>1.0</min_parent_version>		
+		<max_parent_version>4.8</max_parent_version>    
+		</version>
+            <version>
+		    <branch>TRUNK</branch>
+			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+		    <build_id>12</build_id>
+            <min_parent_version>5.0</min_parent_version>		
+        </version>		
+        </versions>                       
+	</market_entry>    
+
+
+
+	<market_entry>
 		<id>startupRuleEngine</id>
 		<type>Platform</type>
 		<name>Startup Rule Engine</name>
@@ -867,7 +1004,37 @@
 			<screenshot id="1">https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
 		</screenshots>
 	</market_entry>
-
+    
+    <market_entry>
+		<id>pash</id>
+		<type>Platform</type>
+		<img>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</img>
+		<small_img>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</small_img>
+		<name>Pentaho Analytics Shell</name>
+		<documentation_url>http://analytical-labs.com/</documentation_url>
+		<description>
+			Pash is a shell interface to Pentaho Analysis.
+            It provides command-line access to mondrian straight from within your webbrowser.
+            The shell allows you to list the available mondrian catalogs, cubes, dimensions etc,
+            and you can type and run ad-hoc MDX queries.
+            After installation, the shell is available in the Tools menu
+		</description>
+		<author>Roland Bouman</author>
+		<author_url>http://rpbouman.blogspot.com</author_url>
+		<author_logo>https://drive.google.com/uc?id=0BzdLoKoT3p_eWnVvSGxrZ2F0Qnc</author_logo>
+		<license>ASL 2.0</license>   
+		<versions>
+			<version>
+				<branch>BETA</branch>
+				<version>0.1</version>
+				<name>Beta</name>
+				<package_url>https://drive.google.com/uc?id=0BzdLoKoT3p_eSGl0Wll6MWU3Vzg</package_url>
+				<description>Pash version 0.1 (beta)</description>
+				<max_parent_version>5.1</max_parent_version>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+        </versions>
+	</market_entry>    
 
 	<market_entry>
 		<id>waqr</id>
@@ -1100,9 +1267,65 @@
 		</screenshots>
 	</market_entry>
 	<market_entry>
-		<id>languagePack_ja</id> 
-		<type>Platform</type> 
-		<name>Japanese Language Pack Installer</name> 
+		<id>languagePack_it</id>
+		<type>Platform</type>
+		<name>Italian Language Pack Installer</name>
+		<description>
+			<![CDATA[
+							 This plugin installs language definitions for the Italian language in Pentaho 5 <br /><br />
+
+	Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+	any translation issues or suggestions for improvement
+			]]>
+			This plugin installs language definitions for the Italian language in Pentaho 5
+		</description>
+		<documentation_url>This plugin installs language definitions for the Italian language in Pentaho 5</documentation_url>
+		<author>Serasoft S.r.l.</author>
+		<author_url>http://www.serasoft.it</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/it/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/it/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+							 the Tools menu. The installer will then copy the language packs over your
+							 installation, requiring a reboot in the end.	 <br /><br />
+
+	Please note that if you upgrade one of the translated plugins, you will
+	need to run the Language Pack Installer again. <br /><br/>
+
+	Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+	any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.5</version>
+				<name>Latest build</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_it-RELEASE-0.5.zip</package_url>
+				<samples_url/>
+				<description>Trunk snapshot</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot id="1">
+				https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_1.png
+			</screenshot>
+			<screenshot id="2">
+				https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_2.png
+			</screenshot>
+		</screenshots>
+	</market_entry>
+	<market_entry>
+		<id>languagePack_ja</id>
+		<type>Platform</type>
+		<name>Japanese Language Pack Installer</name>
 		<description>
 			<![CDATA[
 			This plugin installs language definitions for the Japanese language in Pentaho 5 <br /><br />
@@ -1524,9 +1747,9 @@
 			Data Cleaner is an open source data quality application made by Human Inference.  With it you can run profiling jobs using DataCleaner for any transformation step and in the database explorer.  Additionally you can include and launch DataCleaner jobs as part of your PDI jobs.  This allows you to merge the tasks of data quality and data integration.</description>
 		<versions>
 			<version>
-				<version>3.1.2</version>
+				<version>3.5.8</version>
 				<min_parent_version>5.0.0</min_parent_version>
-				<package_url>https://pentaho.box.com/shared/static/a1yl5gmibhrbp9kfim8t.zip</package_url>
+				<package_url>https://pentaho.box.com/shared/static/wg73cc5539jbqde90kxy.zip</package_url>
 				<source_url>http://source.pentaho.org/svnkettleroot/plugins/kettle-profiling-datacleaner/</source_url>
 			</version>
 		</versions>
@@ -2064,6 +2287,33 @@
 		</versions>
 	</market_entry>
 
+	<market_entry>
+		<id>pentaho-kafka-producer</id>
+		<type>Step</type>
+		<img>https://kafka.apache.org/images/kafka_logo.png</img>
+		<small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
+		<name>Apache Kafka Producer</name>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Producer</documentation_url>
+		<description>The plug-in allows sending binary messages over Apache Kafka message queue.</description>
+		<author>Ruckus Wireless</author>
+		<author_url>http://ruckuswireless.com</author_url>
+		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
+		<license>Apache License 2.0</license>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Latest</name>
+				<package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.0/pentaho-kafka-producer-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url/>
+				<description>Latest build from the trunk development branch.</description>
+				<build_id>20140220-1106</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+		</versions>
+	</market_entry>
 
 	<market_entry>
 		<id>TableauExtractRefresh</id>
@@ -2149,9 +2399,8 @@
         <id>PRScript</id>
         <type>Step</type>
         <name>Execute R Script</name>
-        <description><![CDATA[
-				Execute R script from file by specifying input and output variables.
-            ]]>
+        <description>Execute R script from file by specifying input and output variables.
+Note: See also the advanced R script executor plug-in within the Marketplace.
         </description>
         <documentation_url>http://dekarlab.de/?index=2</documentation_url>
         <author>DEKAR laboratory</author>
@@ -2191,13 +2440,13 @@ This step detects identical, changed, added and removed rows.</description>
 		http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
         <versions>
             <version>
-                <version>1.0.0</version>
+                <version>1.1.0</version>
                 <package_url>https://pentaho.box.com/shared/static/0wq4a5u4dtkdcvsb8h17.zip</package_url>
 		<min_parent_version>5.0.0</min_parent_version>
             </version>
         </versions>
     </market_entry>
-
+    
     <market_entry>
         <id>ic-amqp-plugin</id>
         <type>Step</type>
@@ -2209,8 +2458,8 @@ This step detects identical, changed, added and removed rows.</description>
         <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-AMQP/master/LICENSE.md</license_text>
         <versions>
             <version>
-                <version>1.0.0</version>
-                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.0.0-SNAPSHOT.tar</package_url>
+                <version>1.1.1</version>
+                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.1.1-SNAPSHOT.zip</package_url>
             </version>
         </versions>
     </market_entry>
@@ -2226,10 +2475,113 @@ This step detects identical, changed, added and removed rows.</description>
         <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-BloomFilter/master/LICENSE.md</license_text>
         <versions>
             <version>
-                <version>1.7.0</version>
-                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-filter-plugin-pdi-1.7.0-SNAPSHOT.tar</package_url>
+                <version>1.8.1</version>
+                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-filter-plugin-pdi-1.8.1-SNAPSHOT.zip</package_url>
             </version>
         </versions>
     </market_entry>
 
+    <market_entry>
+        <id>Jare_Rule_Engine_Plugin</id>
+        <type>Step</type>
+        <name>JaRE - Java Rule Engine</name>
+        <description>
+		Check data against rules defined in external xml files. The advantage being
+		that the logic is not defined in the transformation but externally.
+
+		Rules are defined in groups and subgroups allowing to combine them
+		with flexible and/or conditions. So a group may pass the check even though
+		some of the rules might have failed.
+
+		You may check a single field or fields against each other. The rule engine
+		also allows for actions (e.g. update a field), depending on the result of the
+		check.
+
+		Detailed documentation on the rule engine: https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/jare_v0.60.pdf
+	</description>
+        <documentation_url>https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/readme.txt</documentation_url>
+        <author>Uwe Geercken / Datamelt</author>
+	<forum_url/>
+	<cases_url/>
+	<license_name>GNU General Public License version 2.0 (GPLv2)</license_name>
+	<license_text>For more details see:
+			http://www.gnu.org/licenses/</license_text>
+        <versions>
+            <version>
+                <version>0.0.1</version>
+                <package_url>https://github.com/uwegeercken/jareplugin/archive/master.zip</package_url>
+		<min_parent_version>4.3.0</min_parent_version>
+            </version>
+        </versions>
+    </market_entry>
+
+    <market_entry>
+	<id>jdbcMetaData</id>
+	<type>Step</type>
+	<name>JDBC Metadata</name>
+	<description>
+      This step provides access to various metadata resultsets of the JDBC DatabaseMetaData object.
+      JDBC metadata allows you to list tables, table columns, primary key columns, foreign key columns, object privileges etc. based on a database connection.
+      </description>
+	<author>Roland Bouman</author>
+	<documentation_url>https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/wiki</documentation_url>
+	<versions>
+		<version>
+			<version>1.0</version>
+			<package_url>https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/raw/master/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip</package_url>
+		</version>
+	</versions>
+	<license_name>Apache 2.0</license_name>
+	<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+	<support_level>COMMUNITY_SUPPORTED</support_level>
+	<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+	<support_organization>Pentaho Developer Community</support_organization>
+	<support_url>http://kettle.pentaho.com</support_url>
+    </market_entry>
+   
+
+	<market_entry>
+		<id>pdi-memcached-plugin</id>
+		<type>Step</type>
+		<name>Memcached Input/Output</name>
+		<description>This plugin offers Input/Output steps for reading from or writing to memcached servers</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/pdi-memcached-plugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/wkk3i8wblpl4py1ht85j.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+	
+	<market_entry>
+		<id>pentaho-r-plugin</id>
+		<type>Step</type>
+		<name>R script executor</name>
+		<description>This step executes an R script within a PDI transformation.</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/R+script+executor</documentation_url>
+		<installation_notes>Please see the install instructions within the documentation http://wiki.pentaho.com/display/EAI/R+script+executor</installation_notes>
+		<versions>
+			<version>
+				<version>1.0 Beta</version>
+				<package_url>https://pentaho.box.com/shared/static/qig9er0slbvksacqvbx1.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Within the actual beta and preview state, we offer limited customer support:
+Assistance is given by Services Development with no contractual support for production environments until PDI 5.1 GA.
+		</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>	
 </market>
