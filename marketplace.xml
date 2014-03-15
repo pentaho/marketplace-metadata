@@ -1715,9 +1715,9 @@
 			Data Cleaner is an open source data quality application made by Human Inference.  With it you can run profiling jobs using DataCleaner for any transformation step and in the database explorer.  Additionally you can include and launch DataCleaner jobs as part of your PDI jobs.  This allows you to merge the tasks of data quality and data integration.</description>
 		<versions>
 			<version>
-				<version>3.5.8</version>
+				<version>3.5.10</version>
 				<min_parent_version>5.0.0</min_parent_version>
-				<package_url>https://pentaho.box.com/shared/static/wg73cc5539jbqde90kxy.zip</package_url>
+				<package_url>https://pentaho.box.com/shared/static/dsmczkkmoibwydj2y6z6.zip</package_url>
 				<source_url>http://source.pentaho.org/svnkettleroot/plugins/kettle-profiling-datacleaner/</source_url>
 			</version>
 		</versions>
