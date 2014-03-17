@@ -460,6 +460,59 @@
 	</market_entry>
 
 	<market_entry>
+		<id>saiku</id>
+		<type>Platform</type>
+		<img>http://raw.github.com/it4biz/SaikuChartPlus/master/chart.png</img>
+		<small_img>http://raw.github.com/it4biz/SaikuChartPlus/master/chart.png</small_img>
+		<name>Saiku Chart Plus</name>
+		<documentation_url>http://it4biz.github.io/SaikuChartPlus/</documentation_url>
+		<description>
+		<![CDATA[
+		What is Saiku Chart Plus? <br><br>
+
+		It is an open source project that helps Pentaho BI users to create other types of charts and maps based on Saiku Project, Highcharts and Google Maps.<BR><BR>
+		
+		
+		<br>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/ovyQ1GQAbeE" frameborder="0" allowfullscreen></iframe>
+		<br>
+			
+		For more information <a target='NO_BLANK' href='http://it4biz.github.io/SaikuChartPlus/'>visit our site</a>.<br>	
+		Having trouble with this project? Feel free to send us an e-mail at info@it4biz.com.br
+		]]>		
+		</description>
+		<author>IT4biz</author>
+		<author_url>http://it4biz.com.br</author_url>
+		<author_logo>http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png</author_logo>
+		<license>ASL 2.0</license>   
+		<versions>
+			<version>
+				<branch>RC1</branch>
+				<version>2.5</version>
+				<name>RC1</name>
+				<package_url>http://sourceforge.net/projects/saikuchartplus/files/SaikuChartPlus2.5/saikuchartplus-plugin-2.5-RC1.zip/download</package_url>
+				<description>RC1 for the Saiku Plugin 2.5</description>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+			<version>
+				<branch>RC1</branch>
+				<version>2.6</version>
+				<name>RC1</name>
+				<package_url>http://sourceforge.net/projects/saikuchartplus/files/SaikuChartPlus2.5/saikuchartplus-plugin-2.6-SNAPSHOT-RC1.zip/download</package_url>
+				<description>RC1 for the Saiku Plugin 2.6 SNAPSHOT	
+				</description>
+				<min_parent_version>5.0</min_parent_version>
+			</version>         
+		</versions>
+		<screenshots>
+			<screenshot>https://a.fsdn.com/con/app/proj/saikuchartplus/screenshots/geoChartChartPlus.png</screenshot>
+			<screenshot>https://a.fsdn.com/con/app/proj/saikuchartplus/screenshots/geoMapChartPlus.png</screenshot>
+			<screenshot>https://a.fsdn.com/con/app/proj/saikuchartplus/screenshots/PieChartPlus.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+	<market_entry>
 		<id>openi</id>
 		<type>Platform</type>
 		<img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
