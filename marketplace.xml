@@ -1557,6 +1557,32 @@
 	</market_entry>
 
 
+    <market_entry>
+        <id>pdi-nuodb-plugin</id>
+        <type>Database</type>
+        <name>PDI NuoDB Plugin</name>
+        <description>This plugin also contains the NuoDB JDBC Driver</description>
+        <author>NuoDB</author>
+        <documentation_url>http://wiki.pentaho.com/display/EAI/NuoDB</documentation_url>
+        <versions>
+            <version>
+                <version>1.0-SNAPSHOT</version>
+                <package_url>https://github.com/nuodb/pdi-nuodb-plugin/releases/download/1.0/pdi-nuodb-plugin-1.0-SNAPSHOT-assembly.zip</package_url>
+                <source_url>https://github.com/nuodb/pdi-nuodb-plugin</source_url>
+            </version>
+        </versions>
+        <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+        <cases_url>https://github.com/nuodb/pdi-nuodb-plugin/issues</cases_url>
+        <license_name>BSD</license_name>
+        <license_text>For more details see:
+            http://opensource.org/licenses/BSD-2-Clause</license_text>
+        <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+        <support_message>Supported by a NuoDB Enterprise Edition support contract.</support_message>
+        <support_organization>NuoDB</support_organization>
+        <support_url>http://www.nuodb.com/</support_url>
+    </market_entry>
+
+
 	<market_entry>
 		<id>ApplePushNotification</id>
 		<type>Step</type>
