@@ -971,7 +971,7 @@
 				 Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
 			]]>
 		</description>
-		<documentation_url>&gt;https://www.github.com/webdetails/startupRuleEngine</documentation_url>
+		<documentation_url>https://www.github.com/webdetails/startupRuleEngine</documentation_url>
 		<author>Webdetails</author>
 		<author_url>http://www.webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
@@ -1001,7 +1001,7 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
 		</screenshots>
 	</market_entry>
     
@@ -1109,8 +1109,8 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_1.png</screenshot>
-			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_2.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 	<market_entry>
@@ -1160,8 +1160,8 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_1.png</screenshot>
-			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_2.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 	<market_entry>
@@ -1211,8 +1211,8 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_1.png</screenshot>
-			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_2.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 	<market_entry>
@@ -1262,8 +1262,8 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_1.png</screenshot>
-			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_2.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 	<market_entry>
@@ -1314,10 +1314,10 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">
+			<screenshot>
 				https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_1.png
 			</screenshot>
-			<screenshot id="2">
+			<screenshot>
 				https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_2.png
 			</screenshot>
 		</screenshots>
@@ -1369,8 +1369,8 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_1.png</screenshot>
-			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_2.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 
@@ -1421,8 +1421,8 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_1.png</screenshot>
-			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_2.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 	<market_entry>
@@ -1472,8 +1472,8 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_1.png</screenshot>
-			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_2.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 	<market_entry>
@@ -1523,8 +1523,8 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_1.png</screenshot>
-			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_2.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 	
@@ -2551,5 +2551,26 @@ Assistance is given by Services Development with no contractual support for prod
 		</support_message>
 		<support_organization>Pentaho</support_organization>
 		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
-	</market_entry>	
+	</market_entry>
+
+  <market_entry>
+    <id>BAServerUtils</id>
+    <type>Step</type>
+    <name>BA Server Utils</name>
+    <description>Collection of kettle steps to interact with BA Server services.</description>
+    <documentation_url>https://github.com/webdetails/kettle-baserver-utils/blob/release/README.md</documentation_url>
+    <author>Webdetails</author>
+    <author_url>http://www.webdetails.pt</author_url>
+    <license>MPL 2.0</license>
+    <versions>
+      <version>
+        <branch>RELEASE</branch>
+        <version>0.1</version>
+        <name>RELEASE-0.1</name>
+        <package_url>ci.pentaho.com/job/Webdetails-kettle-ba-server-utils/lastSuccessfulBuild/artifact/dist/kettle-baserver-utils-RELEASE-0.1.zip</package_url>
+        <source_url>https://github.com/webdetails/kettle-baserver-utils</source_url>
+        <min_parent_version>5.0</min_parent_version>
+      </version>
+    </versions>
+  </market_entry>
 </market>
