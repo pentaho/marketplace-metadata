@@ -2567,7 +2567,7 @@ Assistance is given by Services Development with no contractual support for prod
         <branch>RELEASE</branch>
         <version>0.1</version>
         <name>RELEASE-0.1</name>
-        <package_url>ci.pentaho.com/job/Webdetails-kettle-ba-server-utils/lastSuccessfulBuild/artifact/dist/kettle-baserver-utils-RELEASE-0.1.zip</package_url>
+        <package_url>http://ci.pentaho.com/job/Webdetails-kettle-ba-server-utils/lastSuccessfulBuild/artifact/dist/kettle-baserver-utils-RELEASE-0.1.zip</package_url>
         <source_url>https://github.com/webdetails/kettle-baserver-utils</source_url>
         <min_parent_version>5.0</min_parent_version>
       </version>
