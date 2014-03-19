@@ -2594,4 +2594,28 @@ Assistance is given by Services Development with no contractual support for prod
       </version>
     </versions>
   </market_entry>
+
+	<market_entry>
+		<id>TeraDataBulkLoader</id>
+		<type>Step</type>
+		<name>Teradata TPT Insert Upsert Bulk Loader</name>
+		<description>This step supports Teradata bulk loading via TPT using the tbuild command and supports Insert and Upsert.</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/Teradata+TPT+Insert+Upsert+Bulk+Loader</documentation_url>
+		<versions>
+			<version>
+				<version>1.0 Beta</version>
+				<package_url>https://pentaho.box.com/shared/static/ksd8kr7zazd9ymc4rjbo.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Within the actual beta and preview state, we offer limited customer support:
+Assistance is given by Services Development with no contractual support for production environments until PDI 5.1 GA.
+		</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>  
+  
 </market>
