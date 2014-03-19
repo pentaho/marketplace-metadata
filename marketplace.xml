@@ -460,7 +460,7 @@
 	</market_entry>
 
 	<market_entry>
-		<id>saiku</id>
+		<id>saiku-chart-plus</id>
 		<type>Platform</type>
 		<img>http://raw.github.com/it4biz/SaikuChartPlus/master/chart.png</img>
 		<small_img>http://raw.github.com/it4biz/SaikuChartPlus/master/chart.png</small_img>
@@ -487,20 +487,11 @@
 		<license>ASL 2.0</license>   
 		<versions>
 			<version>
-				<branch>RC1</branch>
-				<version>2.5</version>
-				<name>RC1</name>
-				<package_url>http://sourceforge.net/projects/saikuchartplus/files/SaikuChartPlus2.5/saikuchartplus-plugin-2.5-RC1.zip/download</package_url>
-				<description>RC1 for the Saiku Plugin 2.5</description>
-				<max_parent_version>4.8</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
-			</version>
-			<version>
-				<branch>RC1</branch>
-				<version>2.6</version>
-				<name>RC1</name>
-				<package_url>http://sourceforge.net/projects/saikuchartplus/files/SaikuChartPlus2.5/saikuchartplus-plugin-2.6-SNAPSHOT-RC1.zip/download</package_url>
-				<description>RC1 for the Saiku Plugin 2.6 SNAPSHOT	
+				<branch>TRUNK</branch>
+				<version>RC4</version>
+				<name>TRUNK</name>
+				<package_url>http://sourceforge.net/projects/saikuchartplus/files/SaikuChartPlus2.5/saiku-chart-plus-RC4-plugin-pentaho.zip/download</package_url>
+				<description>RC4 for the Saiku Plugin
 				</description>
 				<min_parent_version>5.0</min_parent_version>
 			</version>         
