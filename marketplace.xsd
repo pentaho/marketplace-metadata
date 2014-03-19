@@ -1,35 +1,240 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
+  <xsd:annotation>
+    <xsd:documentation>
+      This schema defines the format for the Pentaho Marketplace Metadata.
+      Pentaho Marketplace Metadata is maintained here:
+      
+      https://github.com/pentaho/marketplace-metadata/raw/master/marketplace.xml
+
+      Community contributers can add their contribution to the marktet place by forking
+
+      https://github.com/pentaho/marketplace-metadata
+
+      They can then modify marketplace.xml to add or update market_entry
+      elements that correspond to their contribution.
+
+      The contribution can then be submitted to the marketplace by sending a pull request to
+      pentaho's marketplace repository. Once the pull request is merged, pentaho users can
+      review, obtain, install, upgrade and uninstall the contribution via the marketplace ui.
+
+      The market place does not only allow users to easily obtain third party contributions;
+      third parties can also use the marketplace to offer support for their contribution.
+    </xsd:documentation>
+  </xsd:annotation>
+  
   <xsd:element name="market">
+
+    <xsd:annotation>
+      <xsd:documentation>
+        The market element is the root element of marketplace.xml. It is simply
+        a container for all market_place elements.
+      </xsd:documentation>
+    </xsd:annotation>
+
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element name="market_entry" maxOccurs="unbounded">
+
+          <xsd:annotation>
+            <xsd:documentation>
+              Each market_entry element represents a piece of functionalityu offered by a third party.
+              In many cases, a market entry is a single plugin.
+              However, it can also consist of a collection of plugins. 
+              Currently, the marketplace provides items for the biserver and
+              pentaho data integration.
+            </xsd:documentation>
+          </xsd:annotation>
+
           <xsd:complexType>
             <xsd:all>
-              <xsd:element name="id" minOccurs="1" maxOccurs="1" type="xsd:normalizedString"/>
-              <xsd:element name="type" minOccurs="1" maxOccurs="1" type="xsd:normalizedString"/>
-              <xsd:element name="img" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
-              <xsd:element name="small_img" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
-              <xsd:element name="name" minOccurs="1" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="documentation_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
-              <xsd:element name="description" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="author" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
-              <xsd:element name="author_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
-              <xsd:element name="author_logo" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
-              <xsd:element name="installation_notes" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="dependencies" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="license" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="license_name" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="license_text" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="support_level" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="support_message" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="support_organization" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-              <xsd:element name="support_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
-              <xsd:element name="versions" minOccurs="0" maxOccurs="1" type="versionList"/>
-              <xsd:element name="forum_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
+            
+              <xsd:element name="id" minOccurs="1" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A string that uniquely identifies each marketplace entry. (mandatory)
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              
+              <xsd:element name="name" minOccurs="1" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A human-readable name to identify this marketplace entry. (mandatory)
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              
+              <xsd:element name="type" minOccurs="1" maxOccurs="1" type="market_entry_type">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A string that identifies what type of marketplace entry this is. (mandatory)
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+
+              <xsd:element name="img" minOccurs="0" maxOccurs="1" type="xsd:anyURI">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A uri for an image that illustrates this marketplace entry. (optional)
+                    This image may appear in the marketplace ui.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="small_img" minOccurs="0" maxOccurs="1" type="xsd:anyURI">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A uri for an small image that illustrates marketplace entry plugin. (optional)
+                    This image may appear in the marketplace ui.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="documentation_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A uri for documentation that describes this. (optional)
+                    The marketplace ui may use this to produce a hyperlink to provide access to the documentation.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="description" minOccurs="0" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A description of this plugin. (optional)
+                    The marketplace ui uses this text to let the user know what this marketplace entry is about..
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="author" minOccurs="0" maxOccurs="1" type="xsd:normalizedString">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A string that identifies the author of this marketplace entry. (optional)
+                    This could be the name of a person, or a company name.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="author_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A uri that links to a document with more information about this author. (optional)
+                    This could be a blog home page, a user profile on some social medium like github,
+                    twitter or facebook, or a company homepage.
+                    The marketplace ui may produce a link to this page.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="author_logo" minOccurs="0" maxOccurs="1" type="xsd:anyURI">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A uri that links to a logo to describe this author. (optional)
+                    For example, if the author is a company, this would link to an image of the company logo.
+                    The marketplace ui may display this logo together with the market place entry.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="installation_notes" minOccurs="0" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    If applicable, any extra info required to install this plugin . (optional)
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="dependencies" minOccurs="0" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A comma separated list of plugin ids which are required to use this plugin . (optional)
+                    For example, the community dashboard editor (CDE) depends on both
+                    the community dashboard framework (CDF) and community data access (CDA).
+                    Therefore CDE lists "CDF, CDA" as dependencies.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="license" minOccurs="0" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A string that identifies the license that applies to this marketplace entry. (optional)
+                    The marketplace may use this to produce a hyperlink to the license.
+
+                    If you're contribution is distributed under a known open source license, then
+                    please consider using the list of OSI approved licenses for the exact spelling
+                    of the license name or abbreviation:
+                    
+                    http://opensource.org/licenses/alphabetical
+
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="license_name" minOccurs="0" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    Typically not used. If you decide to use it please consider using the "license" element
+                    for the abbreviation and the license_name field for the full name.
+                    A list of OSI approved licenses is here:
+                    
+                    http://opensource.org/licenses/alphabetical
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="license_text" minOccurs="0" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    Full license text. You can use this if your license is a custom license. (optional)
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="support_level" minOccurs="0" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A code that indicates the level of support offered for this contribution. (optional)
+                    Here's a list of suggested codes
+                    * COMMUNITY_SUPPORTED
+                    * PROFESSIONALLY_SUPPORTED
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="support_message" minOccurs="0" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A short human-readable message to further clarify the support level, or more detailed support options if applicable.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="support_organization" minOccurs="0" maxOccurs="1" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    If applicable, the name of the organization providing the support.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="support_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A uri that provides access to the support channel.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="versions" minOccurs="0" maxOccurs="1" type="versionList">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A list of available versions.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element name="forum_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    Use this to advertise the url of a particular forum or community support site for this marketplace entry.
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
               <xsd:element name="cases_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
               <xsd:element name="screenshots" minOccurs="0" maxOccurs="1">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    A list of screenshots to further illustrate this marketplace entry.
+                  </xsd:documentation>
+                </xsd:annotation>
                 <xsd:complexType>
                   <xsd:sequence>
                     <xsd:element name="screenshot" minOccurs="0" maxOccurs="unbounded" type="xsd:anyURI"/>
@@ -41,7 +246,84 @@
         </xsd:element>
       </xsd:sequence>
     </xsd:complexType>
+
+    <xsd:key name="market_entry_type_id">
+      <xsd:annotation>
+        <xsd:documentation>
+          Id and type must be unique throughout the marketplace.
+        </xsd:documentation>
+      </xsd:annotation>
+      <xsd:selector xpath="market_entry"/>
+      <xsd:field xpath="type"/>
+      <xsd:field xpath="id"/>
+    </xsd:key>
+
+    <xsd:key name="market_entry_type_name">
+      <xsd:annotation>
+        <xsd:documentation>
+          Name and type should be unique throughout the marketplace.
+        </xsd:documentation>
+      </xsd:annotation>
+      <xsd:selector xpath="market_entry"/>
+      <xsd:field xpath="type"/>
+      <xsd:field xpath="name"/>
+    </xsd:key>
+
   </xsd:element>
+
+  <xsd:simpleType name="market_entry_type">
+    <xsd:restriction base="xsd:normalizedString">
+      <xsd:enumeration value="Platform">
+        <xsd:annotation>
+          <xsd:documentation>
+            This market entry is a bi platform plugin, such as a content generator plugin.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="Database">
+        <xsd:annotation>
+          <xsd:documentation>
+            This market entry is a database connection plugin for pentaho data integration.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="Step">
+        <xsd:annotation>
+          <xsd:documentation>
+            This market entry is a transformation step plugin for pentaho data integration. 
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="JobEntry">
+        <xsd:annotation>
+          <xsd:documentation>
+            The market entry is a job entry plugin for pentaho data integration.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="Mixed">
+        <xsd:annotation>
+          <xsd:documentation>
+            Mixed type. If the market entry could comprise a number of plugins. 
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="Partitioner">
+        <xsd:annotation>
+          <xsd:documentation>
+            This market entry is a row partitioner plugin for pentaho data integration.
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="HadoopShim">
+        <xsd:annotation>
+          <xsd:documentation>
+            This market entry is a big data shim - an abstraction of a typical hadoop distro - for use in the pentaho big data plugin. 
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
   
   <xsd:complexType name="versionList">
     <xsd:sequence>
@@ -50,19 +332,24 @@
   </xsd:complexType>
   
   <xsd:complexType name="version">
-     <xsd:all>
-       <xsd:element name="branch" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
-       <xsd:element name="version" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
-       <xsd:element name="name" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
-       <xsd:element name="package_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
-       <xsd:element name="samples_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
-       <xsd:element name="source_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
-       <xsd:element name="description" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-       <xsd:element name="build_id" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-       <xsd:element name="min_parent_version" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-       <xsd:element name="max_parent_version" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-       <xsd:element name="changelog" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-     </xsd:all>
-   </xsd:complexType>
+    <xsd:annotation>
+      <xsd:documentation>
+        A descriptor of a particular version of a plugin.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:all>
+     <xsd:element name="branch" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
+     <xsd:element name="version" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
+     <xsd:element name="name" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
+     <xsd:element name="package_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
+     <xsd:element name="samples_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
+     <xsd:element name="source_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
+     <xsd:element name="description" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="build_id" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="min_parent_version" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="max_parent_version" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <xsd:element name="changelog" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+    </xsd:all>
+  </xsd:complexType>
    
 </xsd:schema>
