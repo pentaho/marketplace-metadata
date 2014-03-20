@@ -462,8 +462,8 @@
 	<market_entry>
 		<id>saiku-chart-plus</id>
 		<type>Platform</type>
-		<img>http://raw.github.com/it4biz/SaikuChartPlus/master/chart.png</img>
-		<small_img>http://raw.github.com/it4biz/SaikuChartPlus/master/chart.png</small_img>
+		<img>https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png</img>
+		<small_img>https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png</small_img>
 		<name>Saiku Chart Plus</name>
 		<documentation_url>http://it4biz.github.io/SaikuChartPlus/</documentation_url>
 		<description>
