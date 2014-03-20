@@ -493,7 +493,7 @@
 				<package_url>http://sourceforge.net/projects/saikuchartplus/files/SaikuChartPlus2.5/saiku-chart-plus-RC4-plugin-pentaho.zip/download</package_url>
 				<description>RC4 for the Saiku Plugin
 				</description>
-				<min_parent_version>5.0</min_parent_version>
+				<min_parent_version>4.8</min_parent_version>
 			</version>         
 		</versions>
 		<screenshots>
