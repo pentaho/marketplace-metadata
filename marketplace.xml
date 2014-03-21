@@ -468,7 +468,7 @@
 		<documentation_url>http://it4biz.github.io/SaikuChartPlus/</documentation_url>
 		<description>
 		<![CDATA[
-		What is Saiku Chart Plus? <br><br>
+		<b>What is Saiku Chart Plus?</b> <br><br>
 
 		It is an open source project that helps Pentaho BI users to create other types of charts and maps based on Saiku Project, Highcharts and Google Maps.<BR><BR>
 		
@@ -476,7 +476,12 @@
 		<br>
 			<iframe width="560" height="315" src="//www.youtube.com/embed/ovyQ1GQAbeE" frameborder="0" allowfullscreen></iframe>
 		<br>
-			
+		
+		<br><br>
+		<b>Requirements</b><br>
+		<font color="red">Uninstall your Saiku version and install again the last trunk snapshot, this is really necessary!</font>
+		
+		<br><br>	
 		For more information <a target='NO_BLANK' href='http://it4biz.github.io/SaikuChartPlus/'>visit our site</a>.<br>	
 		Having trouble with this project? Feel free to send us an e-mail at info@it4biz.com.br
 		]]>		
@@ -484,7 +489,8 @@
 		<author>IT4biz</author>
 		<author_url>http://it4biz.com.br</author_url>
 		<author_logo>http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png</author_logo>
-		<license>ASL 2.0</license>   
+		<license>ASL 2.0</license>  
+		<dependencies>Saiku Analytics</dependencies>
 		<versions>
 			<version>
 				<branch>TRUNK</branch>
