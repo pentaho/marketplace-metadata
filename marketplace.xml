@@ -508,6 +508,93 @@
 			<screenshot>https://a.fsdn.com/con/app/proj/saikuchartplus/screenshots/PieChartPlus.png</screenshot>
 		</screenshots>
 	</market_entry>
+	
+	<market_entry>
+		<id>IvySE</id>
+		<type>Platform</type>
+		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</img>
+		<small_img/>
+		<name>IvySE - Ivy Schema Editor</name>
+		<documentation_url>https://github.com/ivylabs/ivy-se/blob/master/README.md</documentation_url>
+		<description>
+		<![CDATA[
+		<article>
+			<h1>IvySE - Ivy Schema Editor</h1>
+
+			<p>This web based mondrian schema editor is developed on the new Bootstrap framework which means it has a responsive UI that will work on mobile devices ('take a look in your mobile').</p>
+
+			<h2>Some of the features in this 0.0.1 release:</h2>
+
+			<ul>
+				<li>Web Browser Based</li>
+				<li>List existing Mondrian Schemas</li>
+				<li>Edit Mondrian Schemas</li>
+				<li>Based on Bootstrap</li>
+			</ul>
+
+			<h2>What is the road map for the next version?</h2>
+
+			<ul>
+				<li>Create new schema</li>
+				<li>Live preview with Penatho analyser and/or Saiku pluigns</li>
+				<li>Schema validation</li>
+			</ul>
+		</article>
+		
+		<br><br>	
+		For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk'>visit our site</a>.<br>	
+		Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/ivy-se'>GitHub</a>
+		]]>	
+		</description>
+		<author>Ivy Information Systems</author>
+		<author_url>http://www.ivy-is.co.uk/</author_url>
+		<author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
+		<license>Apache License 2.0</license>   
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>0.0.1</version>
+				<name>Stable</name>
+				<package_url>http://goo.gl/cTJM37</package_url>
+				<description>
+				<![CDATA[
+				<article>
+					<h1>IvySE - Ivy Schema Editor</h1>
+
+					<p>This web based mondrian schema editor is developed on the new Bootstrap framework which means it has a responsive UI that will work on mobile devices ('take a look in your mobile').</p>
+
+					<h2>Some of the features in this 0.0.1 release:</h2>
+
+					<ul>
+						<li>Web Browser Based</li>
+						<li>List existing Mondrian Schemas</li>
+						<li>Edit Mondrian Schemas</li>
+						<li>Based on Bootstrap</li>
+					</ul>
+
+					<h2>What is the road map for the next version?</h2>
+
+					<ul>
+						<li>Create new schema</li>
+						<li>Live preview with Penatho analyser and/or Saiku pluigns</li>
+						<li>Schema validation</li>
+					</ul>
+				</article>
+	
+				<br><br>	
+				For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk'>visit our site</a>.<br>	
+				Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/ivy-se'>GitHub</a>
+				]]>
+				</description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>                
+			</version>    
+		</versions>
+		<screenshots>
+			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse1.png</screenshot>
+			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse2.png</screenshot>
+		</screenshots>
+	</market_entry>
 
 	<market_entry>
 		<id>openi</id>
