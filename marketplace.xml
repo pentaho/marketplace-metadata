@@ -143,7 +143,7 @@
                 <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
                 <min_parent_version>5.0</min_parent_version>
-                <build_id>282</build_id>
+                <build_id>283</build_id>
             </version>		
 		</versions>
 		<screenshots>
@@ -286,7 +286,7 @@
                 <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
                 <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
-        		<build_id>114</build_id>
+        		<build_id>115</build_id>
                 <min_parent_version>5.0</min_parent_version>	
             </version>
 		</versions>
