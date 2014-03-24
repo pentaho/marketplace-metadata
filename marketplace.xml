@@ -131,7 +131,7 @@
 		    <package_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
     		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
 	    	<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		    <build_id>256</build_id>
+		    <build_id>257</build_id>
             <max_parent_version>4.8</max_parent_version>
             <min_parent_version>1.0</min_parent_version>		        							
 		</version>    	
@@ -275,7 +275,7 @@
             <package_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
             <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
             <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		    <build_id>264</build_id>
+		    <build_id>266</build_id>
             <min_parent_version>1.0</min_parent_version>		
 	    	<max_parent_version>4.8</max_parent_version>        
 		    </version>    	
