@@ -1101,9 +1101,9 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.9.2</version>
+				<version>RELEASE-0.9.3</version>
 				<name>Latest version</name>
-				<package_url>http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-RELEASE-0.9.2.zip</package_url>
+				<package_url>http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-RELEASE-0.9.3.zip</package_url>
 				<samples_url/>
 				<description>Release</description>
 				<changelog/>
