@@ -356,7 +356,7 @@
 		<name>Trunk</name>
         <package_url>http://ci.pentaho.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Buid for Pentaho 5</description>
-		<build_id>76</build_id>
+		<build_id>77</build_id>
         <min_parent_version>5.0</min_parent_version>		
 		</version>		
 		</versions>                       
