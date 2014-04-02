@@ -2547,6 +2547,23 @@ This step detects identical, changed, added and removed rows.</description>
     </market_entry>
     
     <market_entry>
+        <id>ic-riak-plugin</id>
+        <type>Step</type>
+        <name>IC Riak Plugin</name>
+        <description>Riak Consumer/Producer</description>
+        <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-Riak/blob/master/README.md</documentation_url>
+        <author>instaclick inc.</author>
+        <license_name>MIT</license_name>
+        <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-Riak/master/LICENSE.md</license_text>
+        <versions>
+            <version>
+                <version>1.0.0</version>
+                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-riak-plugin-pdi-1.0.0-SNAPSHOT.zip</package_url>
+            </version>
+        </versions>
+    </market_entry>
+
+    <market_entry>
         <id>ic-amqp-plugin</id>
         <type>Step</type>
         <name>IC AMQP Plugin</name>
