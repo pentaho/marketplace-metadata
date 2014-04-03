@@ -351,13 +351,14 @@
 		<max_parent_version>${marketplace.metadata.max_parent_version}</max_parent_version>
 		</version>    	
 			<version>
-	    <branch>TRUNK</branch>
+        <branch>TRUNK</branch>
 		<version>TRUNK-SNAPSHOT</version>
 		<name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/Webdetails-cgg/lastSuccessfulBuild/artifact/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
-		<description>Buid for Pentaho 5</description>
-		<build_id>77</build_id>
-        <min_parent_version>5.0</min_parent_version>		
+        <package_url>http://ci.pentaho.com/job/pentaho-cgg/lastSuccessfulBuild/artifact/cgg-pentaho5/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
+        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>12</build_id>
+        <min_parent_version>5.0</min_parent_version>
+
 		</version>		
 		</versions>                       
 	</market_entry>
