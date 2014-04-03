@@ -348,7 +348,7 @@
         <description>${marketplace.metadata.description}</description>
 		<build_id>28</build_id>
         <min_parent_version>${marketplace.metadata.min_parent_version}</min_parent_version>
-		<max_parent_version>${marketplace.metadata.max_parent_version}</max_parent_version>
+		<max_parent_version>4.8</max_parent_version>
 		</version>    	
 			<version>
         <branch>TRUNK</branch>
