@@ -1952,7 +1952,7 @@
 				<branch>Stable</branch>
 				<version>1.2</version>
 				<name>1.2</name>
-				<package_url>https://sourceforge.net/projects/cmisinputplugin/files/v1.2/CMIS%20Input%20plugin%20v1.2.zip/download</package_url>
+				<package_url>http://sourceforge.net/projects/cmisinputplugin/files/v1.2/CMIS-Input-plugin-v1.2.zip/download</package_url>
 				<description>Release v1.2 of the plugin.</description>
 				<changelog>Better performance and bufix.</changelog>
 				<build_id>1</build_id>
