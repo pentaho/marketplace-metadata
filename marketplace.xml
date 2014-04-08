@@ -573,11 +573,11 @@ i
 		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</img>
 		<small_img/>
 		<name>IvyDC - Ivy Dashboard Components</name>
-		<documentation_url>https://github.com/ivylabs/ivy-se/blob/master/README.md</documentation_url>
+		<documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
 		<description>
 		<![CDATA[
 		<article>
-			<h1>IvySE - Ivy Dashboard Components</h1>
+			<h1>IvyDC - Ivy Dashboard Components</h1>
 
 			<p>This is a plugin with custom CDE Components to use in your dashboards.</p>
 
