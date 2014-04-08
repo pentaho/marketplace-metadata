@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <market>
-
+i
 	<!-- ***************** -->
 	<!-- BA Server Plugins -->
 	<!-- ***************** -->
@@ -515,7 +515,7 @@
 		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</img>
 		<small_img/>
 		<name>IvySE - Ivy Schema Editor</name>
-		<documentation_url>https://github.com/ivylabs/ivy-se/blob/master/README.md</documentation_url>
+		<documentation_url>https://github.com/ivylabs/IvySE/blob/master/README.md</documentation_url>
 		<description>
 		<![CDATA[
 		<article>
@@ -542,14 +542,14 @@
 		</article>
 		
 		<br><br>	
-		For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk'>visit our site</a>.<br>	
-		Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/ivy-se'>GitHub</a>
+		For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.<br>	
+		Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvySE'>GitHub</a>
 		]]>	
 		</description>
 		<author>Ivy Information Systems</author>
 		<author_url>http://www.ivy-is.co.uk/</author_url>
 		<author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
-		<license>Apache License 2.0</license>   
+		<license>MPL 2.0</license>   
 		<versions>
 			<version>
 				<branch>STABLE</branch>
@@ -564,6 +564,65 @@
 		<screenshots>
 			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse1.png</screenshot>
 			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse2.png</screenshot>
+		</screenshots>
+	</market_entry>
+	
+	<market_entry>
+		<id>IvyDC</id>
+		<type>Platform</type>
+		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</img>
+		<small_img/>
+		<name>IvyDC - Ivy Dashboard Components</name>
+		<documentation_url>https://github.com/ivylabs/ivy-se/blob/master/README.md</documentation_url>
+		<description>
+		<![CDATA[
+		<article>
+			<h1>IvySE - Ivy Dashboard Components</h1>
+
+			<p>This is a plugin with custom CDE Components to use in your dashboards.</p>
+
+			<h2>Some of the features in this 0.0.1 release:</h2>
+
+			<ul>
+				<li>JustGage Component</li>
+				<li>Vectormap Component</li>
+				<li>Videoplayer Component</li>
+				<li>Samples</li>
+				<li>Documentation</li>
+			</ul>
+
+			<h2>What is the road map for the next version?</h2>
+
+			<ul>
+				<li>Range Slider Component</li>
+				<li>Summary Component</li>
+				<li>...</li>
+			</ul>
+		</article>
+		
+		<br><br>	
+		For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.<br>	
+		Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyDC'>GitHub</a>
+		]]>	
+		</description>
+		<author>Ivy Information Systems</author>
+		<author_url>http://www.ivy-is.co.uk/</author_url>
+		<author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
+		<license>MPL 2.0</license>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>0.0.1</version>
+				<name>Stable</name>
+				<package_url>http://goo.gl/5SFyC0</package_url>
+				<description>Release 0.0.1</description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>                
+			</version>    
+		</versions>
+		<screenshots>
+			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_samples.png</screenshot>
+			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_docs1.png</screenshot>
 		</screenshots>
 	</market_entry>
 
