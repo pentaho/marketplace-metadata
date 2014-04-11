@@ -67,7 +67,7 @@
 			<version>
 				<branch>TRUNK</branch>
 				<version>TRUNK-SNAPSHOT</version>
-				<build_id>47</build_id>
+				<build_id>48</build_id>
 				<name>Latest snapshot build</name>
 				<package_url>http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
 				<description>Build for Pentaho 5.0</description>
