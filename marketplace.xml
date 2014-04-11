@@ -1229,6 +1229,57 @@
 		<screenshots/>
 	</market_entry>    
 
+	<market_entry>
+		<id>languagePack_ca</id>
+		<type>Platform</type>
+		<name>Catalan Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the Catalan language in Pentaho 5 <br /><br />
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+			This plugin installs language definitions for the Catalan language in Pentaho 5
+		</description>
+		<documentation_url>This plugin installs language definitions for the Catalan language in Pentaho 5</documentation_url>
+		<author>Blau Advisors Strategic Partners,S.L.</author>
+		<author_url>http://www.blauadvisors.com</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ca/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ca/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>0.5</branch>
+				<version>RELEASE-0.5</version>
+				<name>Latest build</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ca-RELEASE-0.5.zip</package_url>
+				<samples_url/>
+				<description>Trunk snapshot</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_1.png</screenshot>
+			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
 
 	<market_entry>
 		<id>languagePack_nl</id> 
