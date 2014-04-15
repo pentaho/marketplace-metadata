@@ -61,7 +61,7 @@
 				<package_url>http://ci.pentaho.com/job/marketplace-4.8/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
 				<description>The latest development snapshot
 					build.</description>
-				<max_parent_version>4.8</max_parent_version>
+				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 			</version>
 			<version>
@@ -132,8 +132,8 @@
     		<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
 	    	<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		    <build_id>263</build_id>
-            <max_parent_version>4.8</max_parent_version>
-            <min_parent_version>1.0</min_parent_version>		        							
+            <max_parent_version>4.9</max_parent_version>
+            <min_parent_version>1.0</min_parent_version>
 		</version>
 			<version>
             <branch>TRUNK</branch>
@@ -202,8 +202,8 @@
         <samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>77</build_id>
-        <min_parent_version>1.0</min_parent_version>		
-		<max_parent_version>4.9</max_parent_version>        
+        <min_parent_version>1.0</min_parent_version>
+		<max_parent_version>4.9</max_parent_version>
 		</version>
 			<version>
         <branch>TRUNK</branch>
@@ -213,7 +213,7 @@
         <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Build for Pentaho 5.0</description>
 		<build_id>152</build_id>
-        <min_parent_version>5.0</min_parent_version>		
+        <min_parent_version>5.0</min_parent_version>
 		</version>
 		</versions>
 		<screenshots>
@@ -276,18 +276,18 @@
             <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
             <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		    <build_id>282</build_id>
-            <min_parent_version>1.0</min_parent_version>		
-	    	<max_parent_version>4.9</max_parent_version>        
+            <min_parent_version>1.0</min_parent_version>
+	    	<max_parent_version>4.9</max_parent_version>
 		    </version>
 			<version>
                 <branch>TRUNK</branch>
                 <version>TRUNK-SNAPSHOT</version>
-        		<name>Trunk</name>                
+        		<name>Trunk</name>
                 <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
                 <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
         		<build_id>134</build_id>
-                <min_parent_version>5.0</min_parent_version>	
+                <min_parent_version>5.0</min_parent_version>
             </version>
 		</versions>
 		<screenshots>
@@ -390,7 +390,7 @@
 	    	<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
 		    <build_id>8</build_id>
             <max_parent_version>4.8</max_parent_version>
-	    	<min_parent_version>1.0</min_parent_version>		
+	    	<min_parent_version>1.0</min_parent_version>
 		</version>
 			<version>
 	        <branch>TRUNK</branch>
@@ -399,7 +399,7 @@
 		    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
     		<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
 	    	<build_id>45</build_id>
-            <min_parent_version>5.0</min_parent_version>		
+            <min_parent_version>5.0</min_parent_version>
 		</version>
 		</versions>
 		<screenshots>
@@ -651,7 +651,7 @@
 				<name>OpenI-Pentaho 3.0.1</name>
 				<package_url>http://downloads.sourceforge.net/project/openi/openi-3.0/openi-pentaho-plugin-3.0.1.zip</package_url>
 				<description>OpenI Plugin is available on both sourceforge.net(http://sourceforge.net/projects/openi) and github(https://www.github.com/openi/)</description>
-				<max_parent_version>4.8</max_parent_version>
+				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 			</version>
 			<version>
@@ -989,8 +989,8 @@
 	    	<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
 		    <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
     		<build_id>24</build_id>
-            <max_parent_version>4.9</max_parent_version>		
-            <min_parent_version>1.0</min_parent_version>		
+            <max_parent_version>4.9</max_parent_version>
+            <min_parent_version>1.0</min_parent_version>
 		</version>
 			<version>
     	    <branch>TRUNK</branch>
@@ -1114,8 +1114,8 @@
         <package_url>http://ci.pentaho.com/job/pentaho-cfr-pentaho/lastSuccessfulBuild/artifact/cfr-pentaho/dist/cfr-pentaho-TRUNK-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>25</build_id>
-        <min_parent_version>1.0</min_parent_version>		
-		<max_parent_version>4.9</max_parent_version>    
+        <min_parent_version>1.0</min_parent_version>
+		<max_parent_version>4.9</max_parent_version>
 		</version>
             <version>
 		    <branch>TRUNK</branch>
@@ -1124,7 +1124,7 @@
 	        <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
 		    <build_id>16</build_id>
-            <min_parent_version>5.0</min_parent_version>		
+            <min_parent_version>5.0</min_parent_version>
         </version>
         </versions>
 	</market_entry>
