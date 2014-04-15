@@ -109,7 +109,7 @@
 				<package_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-14.03.07.zip</package_url>
 				<samples_url>http://www.webdetails.pt/ficheiros/pentaho-cdf-samples-14.03.07.zip</samples_url>
 				<description>Stable Release</description>
-				<max_parent_version>4.8</max_parent_version>	
+				<max_parent_version>4.9</max_parent_version>	
 				<min_parent_version>1.0</min_parent_version>
 				<build_id/>
 			</version>    	                    
