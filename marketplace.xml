@@ -212,8 +212,8 @@
         <package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
         <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Build for Pentaho 5.0</description>
-		<build_id>152</build_id>
-        <min_parent_version>5.0</min_parent_version>
+		<build_id>153</build_id>
+        <min_parent_version>5.0</min_parent_version>		
 		</version>
 		</versions>
 		<screenshots>
@@ -282,12 +282,12 @@
 			<version>
                 <branch>TRUNK</branch>
                 <version>TRUNK-SNAPSHOT</version>
-        		<name>Trunk</name>
+        		<name>Trunk</name>                
                 <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
                 <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
         		<build_id>134</build_id>
-                <min_parent_version>5.0</min_parent_version>
+                <min_parent_version>5.0</min_parent_version>	
             </version>
 		</versions>
 		<screenshots>
@@ -387,10 +387,10 @@
 	    	<version>TRUNK-SNAPSHOT</version>
 		    <name>Trunk</name>
     		<package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-	    	<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
-		    <build_id>8</build_id>
-            <max_parent_version>4.8</max_parent_version>
-	    	<min_parent_version>1.0</min_parent_version>
+	    	<description/>
+		    <build_id>9</build_id>
+            <max_parent_version>4.9</max_parent_version>
+	    	<min_parent_version>1.0</min_parent_version>		
 		</version>
 			<version>
 	        <branch>TRUNK</branch>
@@ -399,7 +399,7 @@
 		    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
     		<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
 	    	<build_id>45</build_id>
-            <min_parent_version>5.0</min_parent_version>
+            <min_parent_version>5.0</min_parent_version>		
 		</version>
 		</versions>
 		<screenshots>
@@ -1124,7 +1124,7 @@
 	        <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
 		    <build_id>16</build_id>
-            <min_parent_version>5.0</min_parent_version>
+            <min_parent_version>5.0</min_parent_version>		
         </version>
         </versions>
 	</market_entry>
