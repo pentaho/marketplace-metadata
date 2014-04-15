@@ -180,7 +180,7 @@
 				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-14.03.07.zip</samples_url>
 				<description>14.03.07 release.</description>
 				<build_id/>
-				<max_parent_version>4.8</max_parent_version>
+				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>        
 			</version>    	                    
 			<version>
@@ -253,7 +253,7 @@
 				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE-Release/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-14.03.07.zip</samples_url>
 				<description>Release 14.03.07</description>
 				<build_id/>
-				<max_parent_version>4.8</max_parent_version>
+				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>                
 			</version>    	                    
 			<version>
@@ -324,7 +324,7 @@
 				<name>Stable</name>
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-pentaho-14.03.07.zip</package_url>
 				<description>14.03.07 release.</description>
-				<max_parent_version>4.8</max_parent_version>
+				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 				<build_id/>
 			</version>        
@@ -435,7 +435,7 @@
 				<name>Stable</name>
 				<package_url>http://meteorite.bi/downloads/saiku-plugin-2.5.zip</package_url>
 				<description>2.5 release for the Saiku Plugin</description>
-				<max_parent_version>4.8</max_parent_version>
+				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 			</version>        
 			<version>
@@ -444,7 +444,7 @@
 				<name>Trunk</name>
 				<package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin/target/saiku-plugin-2.6-SNAPSHOT.zip</package_url>
 				<description>Trunk Snapshot. Install at your own risk...</description>
-				<max_parent_version>4.8</max_parent_version>
+				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 			</version>                           
 
