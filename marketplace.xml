@@ -1276,8 +1276,8 @@
 			</version>
 		</versions>
 		<screenshots>
-			<screenshot id="1">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_1.png</screenshot>
-			<screenshot id="2">https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_2.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_2.png</screenshot>
 		</screenshots>
 	</market_entry>
 
