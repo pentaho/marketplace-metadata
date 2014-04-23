@@ -2444,6 +2444,29 @@
 		<support_url>http://kettle.pentaho.com</support_url>
 	</market_entry>
 
+    <market_entry>
+		<id>pdi-neo4j-query</id>
+		<type>Database</type>
+		<name>Neo4j JDBC Connector</name>
+		<description>This plugin uses neo4j-jdbc (http://www.neo4j.org/develop/tools/jdbc) to provide a PDI database dialect for the 
+			Neo4j graph database. Note that the only steps/entries this will work with are the ones where you can specify
+			the full query, as the query language is Neo4j's Cypher, not SQL.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/pdi-neo4j-query/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/e8kua9axb616dfvmdhzu.zip</package_url>
+			</version>
+		</versions> 
+		<license_name>GNU General Public License version 3.0 (GPLv3)</license_name>
+	<license_text>For more details see:
+			http://www.gnu.org/licenses/</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
 
 	<market_entry>
 		<id>html2xml</id>
