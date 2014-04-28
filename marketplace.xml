@@ -2869,31 +2869,7 @@ This step detects identical, changed, added and removed rows.</description>
 		<support_organization>Pentaho Developer Community</support_organization>
 		<support_url>http://kettle.pentaho.com</support_url>
 	</market_entry>
-
-	<market_entry>
-		<id>pentaho-r-plugin</id>
-		<type>Step</type>
-		<name>R script executor</name>
-		<description>This step executes an R script within a PDI transformation.</description>
-		<author>Pentaho</author>
-		<documentation_url>http://wiki.pentaho.com/display/EAI/R+script+executor</documentation_url>
-		<installation_notes>Please see the install instructions within the documentation http://wiki.pentaho.com/display/EAI/R+script+executor</installation_notes>
-		<versions>
-			<version>
-				<version>1.0 Beta</version>
-				<package_url>https://pentaho.box.com/shared/static/qig9er0slbvksacqvbx1.zip</package_url>
-			</version>
-		</versions>
-		<license_name>Apache 2.0</license_name>
-		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
-		<support_message>Within the actual beta and preview state, we offer limited customer support:
-Assistance is given by Services Development with no contractual support for production environments until PDI 5.1 GA.
-		</support_message>
-		<support_organization>Pentaho</support_organization>
-		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
-	</market_entry>
-
+	
   <market_entry>
     <id>BAServerUtils</id>
     <type>Step</type>
