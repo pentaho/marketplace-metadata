@@ -581,9 +581,11 @@
 
 			<p>This is a plugin with custom CDE Components to use in your dashboards.</p>
 
-			<h2>Some of the features in this 0.0.1 release:</h2>
+			<h2>Some of the features in this 0.0.2 release:</h2>
 
 			<ul>
+				<li><b>New</b> Pentaho Analyzer Component</li>
+				<li><b>New</b> Ion Range Slider Component</li>
 				<li>JustGage Component</li>
 				<li>Vectormap Component</li>
 				<li>Videoplayer Component</li>
@@ -594,8 +596,9 @@
 			<h2>What is the road map for the next version?</h2>
 
 			<ul>
-				<li>Range Slider Component</li>
 				<li>Summary Component</li>
+				<li>d3js Neighborhood chart</li>
+				<li>d3js Zoomable Pack chart</li>
 				<li>...</li>
 			</ul>
 		</article>
@@ -612,11 +615,10 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>0.0.1</version>
-				<name>Stable</name>
-				<package_url>http://goo.gl/5SFyC0</package_url>
-				<description>Release 0.0.1</description>
-				<build_id/>
+				<version>0.0.2</version>
+				<name>Stable 0.0.2</name>
+				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.2/IvyDC.zip/download</package_url>
+				<description>Release 0.0.2</description>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
