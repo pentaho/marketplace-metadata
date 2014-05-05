@@ -2362,6 +2362,28 @@
 	</market_entry>
 
 	<market_entry>
+		<id>pdi-superlative-plugin</id>
+		<type>Step</type>
+		<name>Top / Bottom / First / Last filter</name>
+		<description>This plugin filters rows based on a field's values or row numbers, which allows the user to perform
+"top", "bottom", "first", and "last" filtering.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/pdi-superlative-plugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/t39m1n3rwbmix38wshy5.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+	<market_entry>
 		<id>pdi-valuemeta-map</id>
 		<type>Mixed</type>
 		<name>Map (key/value pair) type</name>
