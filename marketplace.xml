@@ -2938,4 +2938,24 @@ Assistance is given by Services Development with no contractual support for prod
 		<support_level>NOT_SUPPORTED</support_level>
 	</market_entry>
 
+	<market_entry>
+		<id>pdi-nlp-sentiment-analysis-plugin</id>
+		<type>Step</type>
+		<name>Sentiment Analysis</name>
+		<documentation_url>https://github.com/OSBI/pdi-sentiment/blob/master/README.md</documentation_url>
+		<description>This plugin allows basic Sentiment Analysis over textual sentences.</description>
+		<author>Tom Barber</author>
+		<versions>
+			<version>
+				<version>1.0.0</version>
+				<package_url>https://dl.dropboxusercontent.com/u/8503756/nlp-TRUNK-SNAPSHOT.zip</package_url>
+				<source_url>https://github.com/OSBI/pdi-sentiment</source_url>
+			</version>
+		</versions>
+		<cases_url>https://github.com/OSBI/pdi-sentiment/issues</cases_url>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details see:
+			https://github.com/OSBI/pdi-sentiment/blob/master/LICENSE</license_text>
+		<support_level>NOT_SUPPORTED</support_level>
+	</market_entry>
 </market>
