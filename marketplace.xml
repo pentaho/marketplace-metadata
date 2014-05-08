@@ -174,22 +174,22 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>14.03.07</version>
+				<version>14.05.06</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-14.03.07.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-14.03.07.zip</samples_url>
-				<description>14.03.07 release.</description>
+				<package_url>http://www.webdetails.pt/ficheiros/cda/14.05.06/4.x/cda-14.05.06.zip</package_url>
+				<samples_url>http://www.webdetails.pt/ficheiros/cda/14.05.06/4.x/cda-samples-14.05.06.zip</samples_url>
+				<description>14.05.06 release.</description>
 				<build_id/>
 				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 			</version>
 			<version>
 				<branch>STABLE</branch>
-				<version>14.03.07</version>
+				<version>14.05.06</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-14.03.07.zip</package_url>
-				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDA-Release/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-14.03.07.zip</samples_url>
-				<description>14.03.07 release.</description>
+				<package_url>http://www.webdetails.pt/ficheiros/cda/14.05.06/5.x/cda-14.05.06.zip</package_url>
+				<samples_url>http://www.webdetails.pt/ficheiros/cda/14.05.06/5.x/cda-samples-14.05.06.zip</samples_url>
+				<description>14.05.06 release.</description>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
