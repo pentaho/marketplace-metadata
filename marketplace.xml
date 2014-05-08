@@ -320,10 +320,10 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>14.03.07</version>
+				<version>14.05.06</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-pentaho-14.03.07.zip</package_url>
-				<description>14.03.07 release.</description>
+				<package_url>http://www.webdetails.pt/ficheiros/cgg/14.05.06/4.x/cgg-14.05.06.zip</package_url>
+				<description>14.05.06 release.</description>
 				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 				<build_id/>
@@ -331,10 +331,10 @@
 
 		    <version>
 				<branch>STABLE</branch>
-				<version>14.03.07</version>
+				<version>14.05.06</version>
 				<name>Stable</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CGG-Release-5/lastSuccessfulBuild/artifact/dist/cgg-14.03.07.zip</package_url>
-				<description>14.03.07 release.</description>
+				<package_url>http://www.webdetails.pt/ficheiros/cgg/14.05.06/5.x/cgg-14.05.06.zip</package_url>
+				<description>14.05.06 release.</description>
 				<min_parent_version>5.0</min_parent_version>
 				<build_id/>
 			</version>
