@@ -142,7 +142,7 @@
             <package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
             <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
             <description>Build for Pentaho 5.0</description>
-            <build_id>314</build_id>
+            <build_id>315</build_id>
             <min_parent_version>5.0</min_parent_version>
           </version>
 		</versions>
