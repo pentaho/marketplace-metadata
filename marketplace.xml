@@ -388,7 +388,7 @@
 	    		<version>14.05.06</version>
 		    	<name>Release 14.05.06</name>
 			    <package_url>http://ci.pentaho.com/job/sparkl-release/lastSuccessfulBuild/artifact/dist/sparkl-14.06.05.zip</package_url>
-	    		<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
+	    		<description>Release 14.05.06</description>
 		    	<build_id/>
 	            <min_parent_version>5.0</min_parent_version>		
 			</version>			
@@ -407,7 +407,7 @@
 	    		<version>TRUNK-SNAPSHOT</version>
 		    	<name>Trunk</name>
 			    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-	    		<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
+	    		<description/>
 		    	<build_id>49</build_id>
 	            <min_parent_version>5.0</min_parent_version>		
 			</version>
