@@ -402,14 +402,14 @@
 		    	<min_parent_version>1.0</min_parent_version>
 			</version>
 			<version>
-		        <branch>TRUNK</branch>
-	    		<version>TRUNK-SNAPSHOT</version>
-		    	<name>Trunk</name>
-			    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-	    		<description/>
-		    	<build_id>49</build_id>
-	            <min_parent_version>5.0</min_parent_version>		
-			</version>
+	        <branch>TRUNK</branch>
+    		<version>TRUNK-SNAPSHOT</version>
+	    	<name>Trunk</name>
+		    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+    		<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
+	    	<build_id>49</build_id>
+            <min_parent_version>5.0</min_parent_version>		
+		</version>
 		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-1.png</screenshot>
