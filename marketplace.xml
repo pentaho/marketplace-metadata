@@ -382,25 +382,35 @@
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
 		<versions>
+			</version>
+				<version>
+		        <branch>RELEASE</branch>
+	    		<version>14.05.06</version>
+		    	<name>Release 14.05.06</name>
+			    <package_url>http://ci.pentaho.com/job/sparkl-release/lastSuccessfulBuild/artifact/dist/sparkl-14.06.05.zip</package_url>
+	    		<description>Release 14.05.06</description>
+		    	<build_id/>
+	            <min_parent_version>5.0</min_parent_version>		
+			</version>			
 			<version>
-    	    <branch>TRUNK</branch>
-	    	<version>TRUNK-SNAPSHOT</version>
-		    <name>Trunk</name>
-    		<package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-	    	<description/>
-		    <build_id>9</build_id>
-            <max_parent_version>4.9</max_parent_version>
-	    	<min_parent_version>1.0</min_parent_version>
-		</version>
+	    	    <branch>TRUNK</branch>
+		    	<version>TRUNK-SNAPSHOT</version>
+			    <name>Trunk</name>
+	    		<package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+		    	<description/>
+			    <build_id>9</build_id>
+	            <max_parent_version>4.9</max_parent_version>
+		    	<min_parent_version>1.0</min_parent_version>
+			</version>
 			<version>
-	        <branch>TRUNK</branch>
-    		<version>TRUNK-SNAPSHOT</version>
-	    	<name>Trunk</name>
-		    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-    		<description>@PLUGIN_PACKAGE_DESCRIPTION</description>
-	    	<build_id>49</build_id>
-            <min_parent_version>5.0</min_parent_version>		
-		</version>
+		        <branch>TRUNK</branch>
+	    		<version>TRUNK-SNAPSHOT</version>
+		    	<name>Trunk</name>
+			    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+	    		<description/>
+		    	<build_id>49</build_id>
+	            <min_parent_version>5.0</min_parent_version>		
+			</version>
 		</versions>
 		<screenshots>
 			<screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-1.png</screenshot>
