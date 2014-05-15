@@ -1281,6 +1281,50 @@
 	</market_entry>
 
 	<market_entry>
+		<id>fusion_plugin</id>
+		<type>Platform</type>
+		<img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</img>
+		<small_img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</small_img>
+		<name>Fusion Charts Plugin</name>
+		<documentation_url>https://code.google.com/p/pentaho-fc-plugin/wiki/Main</documentation_url>
+		<description>
+			<![CDATA[
+				Pentaho FusionCharts plugin allows creating Killer Data Visualizations on Pentaho Business
+				Analytics through a seamless integration with the FusionCharts library. The latest update
+				includes access to real-time charts, widgets and maps all this optimized for mobile devices 
+				as well as many other exciting features. The plugin allows using FusionCharts on EE Dashboards,
+				CDF, CDE and Analyzer. 
+				<br>
+				<b>Note:</b> This plugin requires Pentaho version 5.0 or higher. To start using this plugin for free, 
+				you need to fill the form at the <a href="http://www.xpand-it.com/en/technology/fusioncharts">Xpand IT website</a> and request your license. Once you get the key you 
+				just need to insert it on the Pentaho User Console through the menu entry "Tools" -> "FusionChartsManager" 
+				and start using Pentaho FusionCharts Plugin. For more information you can check the <a href="https://code.google.com/p/pentaho-fc-plugin/wiki/Main">wiki</a>.
+			]]>
+		</description>
+		<author>Xpand IT</author>
+		<author_url>http://www.xpand-it.com/</author_url>
+		<author_logo>http://www.xpand-it.com/images/xpand_it/xpand%20it-new-logo-%20standard.png</author_logo>
+		<license_name>GNU General Public License</license_name>
+		<license_text>For more details see: http://www.gnu.org/licenses/</license_text>
+		<versions>
+			<version>
+				<branch>Release</branch>
+				<version>3.0.5</version>
+				<name>Latest</name>
+				<package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin_pentaho_full_package-v2.1.0.zip</package_url>
+				<samples_url/>
+				<max_parent_version>5.1</max_parent_version>
+				<min_parent_version>5.0.0</min_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/1.pentaho%20marketplace.png</screenshot>
+			<screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/2.pentaho%20marketplace.png</screenshot>
+			<screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/3.pentaho%20marketplace.png</screenshot>
+		</screenshots>			
+	</market_entry>
+
+	<market_entry>
 		<id>languagePack_ca</id>
 		<type>Platform</type>
 		<name>Catalan Language Pack Installer</name>
@@ -2988,48 +3032,5 @@ Assistance is given by Services Development with no contractual support for prod
 		<license_text>For more details see:
 			https://github.com/OSBI/pdi-sentiment/blob/master/LICENSE</license_text>
 		<support_level>NOT_SUPPORTED</support_level>
-	</market_entry>
-	
-		<market_entry>
-		<id>FusionChartsPlugin</id>
-		<type>Platform</type>
-		<img>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/fusioncharts%20plugin%20for%20pentaho-01.png</img>
-		<small_img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</small_img>
-		<name>Fusion Charts Plugin</name>
-		<documentation_url>https://code.google.com/p/pentaho-fc-plugin/wiki/Main</documentation_url>
-		<description>
-			<![CDATA[
-				Pentaho FusionCharts plugin allows creating Killer Data Visualizations on Pentaho Business
-				Analytics through a seamless integration with the FusionCharts library. The latest update
-				includes access to real-time charts, widgets and maps all this optimized for mobile devices 
-				as well as many other exciting features. The plugin allows using FusionCharts on EE Dashboards,
-				CDF, CDE and Analyzer. 
-				<br>
-				<b>Note:</b> This plugin requires Pentaho version 5.0 or higher. To start using this plugin for free, 
-				you need to fill the form at the <a href="http://www.xpand-it.com/en/technology/fusioncharts">Xpand IT website</a> and request your license. Once you get the key you 
-				just need to insert it on the Pentaho User Console through the menu entry “Tools” > “FusionChartsManager” 
-				and start using Pentaho FusionCharts Plugin. For more information you can check the <a href="https://code.google.com/p/pentaho-fc-plugin/wiki/Main">wiki</a>.
-			]]>
-		</description>
-		<author>Xpand IT</author>
-		<author_url>http://www.xpand-it.com/</author_url>
-		<author_logo>http://www.xpand-it.com/images/xpand_it/xpand%20it-new-logo-%20standard.png</author_logo>
-		<license_name>GNU General Public License</license_name>
-		<license_text>For more details see: http://www.gnu.org/licenses/</license_text>
-		<versions>
-			<version>
-				<version>3.0.5</version>
-				<name>Latest</name>
-				<package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin_pentaho_full_package-v2.1.0.zip</package_url>
-				<samples_url/>
-				<max_parent_version>5.1</max_parent_version>
-				<min_parent_version>5.0.0</min_parent_version>
-			</version>
-		</versions>
-		<screenshots>
-			<screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/1.pentaho%20marketplace.png</screenshot>
-			<screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/2.pentaho%20marketplace.png</screenshot>
-			<screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/3.pentaho%20marketplace.png</screenshot>
-		</screenshots>			
 	</market_entry>
 </market>
