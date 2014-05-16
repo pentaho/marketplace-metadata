@@ -418,6 +418,30 @@
 		</screenshots>
 	</market_entry>
 
+	<market_entry>
+		<id>d3ComponentLibrary</id>
+		<type>Platform</type>
+		<name>d3 Component Library</name>
+		<description>
+			d3 Component Library
+		</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<versions>
+			<version>
+		        <branch>RELEASE</branch>
+	    		<version>14.05.06</version>
+		    	<name>RELEASE</name>
+			    <package_url>http://ci.pentaho.com/job/d3componentlibrary/lastSuccessfulBuild/artifact/dist/d3ComponentLibrary-14.05.06.zip</package_url>
+	    		<description>Release 14.05.06</description>
+		    	<build_id/>
+	            <min_parent_version>5.0</min_parent_version>		
+			</version>			
+		</versions>
+	</market_entry>
 
 	<market_entry>
 		<id>saiku</id>
