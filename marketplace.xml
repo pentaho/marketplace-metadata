@@ -1294,7 +1294,7 @@
 				includes access to real-time charts, widgets and maps all this optimized for mobile devices 
 				as well as many other exciting features. The plugin allows using FusionCharts on EE Dashboards,
 				CDF, CDE and Analyzer. 
-				<br>
+				<br><br>
 				<b>Note:</b> This plugin requires Pentaho version 5.0 or higher. To start using this plugin for free, 
 				you need to fill the form at the <a href="http://www.xpand-it.com/en/technology/fusioncharts">Xpand IT website</a> and request your license. Once you get the key you 
 				just need to insert it on the Pentaho User Console through the menu entry "Tools" -> "FusionChartsManager" 
@@ -1306,13 +1306,14 @@
 		<author_logo>http://www.xpand-it.com/images/xpand_it/xpand%20it-new-logo-%20standard.png</author_logo>
 		<license_name>GNU General Public License</license_name>
 		<license_text>For more details see: http://www.gnu.org/licenses/</license_text>
+		<installation_notes>Please remember to copy the contents of pentaho-solutions/system/fusion_plugin/cde-resources to pentaho-solutions/system/pentaho-cdf-dd.</installation_notes>
 		<versions>
 			<version>
 				<branch>Release</branch>
 				<version>3.0.5</version>
 				<name>Latest</name>
-				<package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin_pentaho_full_package-v2.1.0.zip</package_url>
-				<samples_url/>
+				<package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip</package_url>
+				<samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip</samples_url>
 				<max_parent_version>5.1</max_parent_version>
 				<min_parent_version>5.0.0</min_parent_version>
 			</version>
