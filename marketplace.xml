@@ -421,9 +421,10 @@
 	<market_entry>
 		<id>d3ComponentLibrary</id>
 		<type>Platform</type>
-		<name>d3 Component Library</name>
+		<name>D3 Component Library</name>
 		<description>
-			d3 Component Library
+			This project holds d3 components to be used in Pentaho, both on Analyzer and on CTools dashboards.
+			The idea is to provide some helper functions that allows to quickly port examples from the d3 gallery page and implement them as components to be used in the Pentaho platform.
 		</description>
 		<author>WebDetails</author>
 		<author_url>http://webdetails.pt</author_url>
