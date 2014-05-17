@@ -418,6 +418,31 @@
 		</screenshots>
 	</market_entry>
 
+	<market_entry>
+		<id>d3ComponentLibrary</id>
+		<type>Platform</type>
+		<name>D3 Component Library</name>
+		<description>
+			This project holds d3 components to be used in Pentaho, both on Analyzer and on CTools dashboards.
+			The idea is to provide some helper functions that allows to quickly port examples from the d3 gallery page and implement them as components to be used in the Pentaho platform.
+		</description>
+		<author>WebDetails</author>
+		<author_url>http://webdetails.pt</author_url>
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<versions>
+			<version>
+		        <branch>RELEASE</branch>
+	    		<version>14.05.06</version>
+		    	<name>RELEASE</name>
+			    <package_url>http://ci.pentaho.com/job/d3componentlibrary/lastSuccessfulBuild/artifact/dist/d3ComponentLibrary-14.05.06.zip</package_url>
+	    		<description>Release 14.05.06</description>
+		    	<build_id/>
+	            <min_parent_version>5.0</min_parent_version>		
+			</version>			
+		</versions>
+	</market_entry>
 
 	<market_entry>
 		<id>saiku</id>
