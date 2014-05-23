@@ -1114,17 +1114,26 @@
 				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 			</version>
-			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>Trunk</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-CDC/lastSuccessfulBuild/artifact/dist/cdc-TRUNK-SNAPSHOT.zip</package_url>
-				<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-				<build_id>17</build_id>
-				<max_parent_version>4.9</max_parent_version>
-				<min_parent_version>1.0</min_parent_version>
-			</version>
-		</versions>
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <name>Trunk</name>
+                <package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho/dist/cdc-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+                <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+                <build_id>7</build_id>
+                <min_parent_version>1.0</min_parent_version>
+                <max_parent_version>4.9</max_parent_version>
+            </version>		            
+            <version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+                <name>Trunk</name>
+                <package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho5/dist/cdc-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+                <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+                <build_id>7</build_id>
+                <min_parent_version>5.0</min_parent_version>
+            </version>                        
+        </versions>
 	</market_entry>
 
 
