@@ -1306,7 +1306,6 @@
 		<author_logo>http://www.xpand-it.com/images/xpand_it/xpand%20it-new-logo-%20standard.png</author_logo>
 		<license_name>GNU General Public License</license_name>
 		<license_text>For more details see: http://www.gnu.org/licenses/</license_text>
-		<installation_notes>Please remember to copy the contents of pentaho-solutions/system/fusion_plugin/cde-resources to pentaho-solutions/system/pentaho-cdf-dd.</installation_notes>
 		<versions>
 			<version>
 				<branch>Release</branch>
