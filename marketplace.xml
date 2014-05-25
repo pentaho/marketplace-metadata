@@ -717,10 +717,10 @@
 		<versions>
 			<version>
 				<branch>Development</branch>
-				<version>0.9-SNAPSHOT</version>
-				<build_id>340</build_id>
+				<version>1.0-SNAPSHOT</version>
+				<build_id>352</build_id>
 				<name>Latest snapshot build</name>
-				<package_url>http://ci.greencatsoft.com/job/Pivot4J/340/artifact/pivot4j-pentaho/target/pivot4j-pentaho-0.9-SNAPSHOT-plugin.zip</package_url>
+				<package_url>http://ci.greencatsoft.com/job/Pivot4J/352/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip</package_url>
 				<description>The latest development snapshot build.</description>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
