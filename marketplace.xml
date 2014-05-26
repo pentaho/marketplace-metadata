@@ -1781,6 +1781,59 @@
 		</screenshots>
 	</market_entry>
 	<market_entry>
+	  <id>languagePack_pt_PT</id>
+	  <type>Platform</type>
+	  <name>Portuguese (European variant) Language Pack Installer</name>
+	  <description>
+		  <![CDATA[
+			This plugin installs language definitions for the Portuguese language (European variant) in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+		  ]]>
+		  This plugin installs language definitions for the Portuguese language (European variant) in Pentaho 5
+	  </description>
+	  <documentation_url>This plugin installs language definitions for the Portuguese language (European variant) in Pentaho 5</documentation_url>
+	  <author>Xpand-IT</author>
+	  <author_url>http://www.xpand-it.com</author_url>
+	  <author_logo>http://www.xpand-it.com/templates/xpandit-experience/images/logo.png</author_logo>
+	  <license>MPL 2.0</license>
+	  <dependencies>CDF, CDA, CDE, CGG</dependencies>
+	  <img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_PT/resources/img/flag.png</img>
+	  <small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_PT/resources/img/flag.png</small_img>
+	  <installation_notes>
+		  <![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+		  ]]>
+	  </installation_notes>
+	  <versions>
+	    <version>
+	      <branch>0.5</branch>
+	      <version>RELEASE-0.5</version>
+	      <name>Latest build</name>
+	      <package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/95/artifact/dist/languagePack_pt_PT-RELEASE-0.5.zip</package_url>
+	      <samples_url/>
+	      <description>Trunk snapshot</description>
+	      <changelog/>
+	      <build_id/>
+	      <min_parent_version>5.0</min_parent_version>
+	    </version>
+	  </versions>
+	  <screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_2.png</screenshot>
+	  </screenshots>
+	</market_entry>
+
+	<market_entry>
 		<id>languagePack_es</id>
 		<type>Platform</type>
 		<name>Spanish Language Pack Installer</name>
