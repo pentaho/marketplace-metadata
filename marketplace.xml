@@ -1120,7 +1120,7 @@
 		<name>Trunk</name>
 		<package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho/dist/cdc-pentaho-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>12</build_id>
+		<build_id>13</build_id>
 		<min_parent_version>1.0</min_parent_version>
 		<max_parent_version>4.9</max_parent_version>
 		</version>		            
@@ -1130,7 +1130,7 @@
 		<name>Trunk</name>
 		<package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho5/dist/cdc-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
 		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-		<build_id>12</build_id>
+		<build_id>13</build_id>
 		<min_parent_version>5.0</min_parent_version>		
 		</version>                        
         </versions>
