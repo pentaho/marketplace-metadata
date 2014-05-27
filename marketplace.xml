@@ -2386,7 +2386,7 @@
 		<id>CiviCrmInput</id>
 		<type>Step</type>
 		<name>CiviCrmInput</name>
-		<description>This step allows reading data from CiviCRM
+		<description>This step allows reading data from CiviCRM version 1.1
 		</description>
 		<versions>
 			<version>
@@ -2413,7 +2413,7 @@
 		<id>CiviCrmOutput</id>
 		<type>Step</type>
 		<name>CiviCrmOutput</name>
-		<description>This step allows write/update data into CiviCRM
+		<description>This step allows write/update data into CiviCRM version 1.1
 		</description>
 		<versions>
 			<version>
