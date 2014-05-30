@@ -1081,7 +1081,7 @@
     		<name>Trunk</name>
 	        <package_url>http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho/dist/cdb-pentaho-TRUNK-SNAPSHOT.zip</package_url>
             <description>Trunk snapshot build for Pentaho 4.x</description>
-		    <build_id>7</build_id>
+		    <build_id>8</build_id>
             <min_parent_version>1.0</min_parent_version>		
 	    	<max_parent_version>4.9</max_parent_version>     
 		</version>
@@ -1091,7 +1091,7 @@
     		<name>Trunk</name>
 	        <package_url>http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho5/dist/cdb-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
-		    <build_id>7</build_id>
+		    <build_id>8</build_id>
             <min_parent_version>5.0</min_parent_version>		
 		</version>						
 		</versions>
