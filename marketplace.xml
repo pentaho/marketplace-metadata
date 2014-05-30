@@ -3063,6 +3063,23 @@ This step detects identical, changed, added and removed rows.</description>
       </version>
     </versions>
   </market_entry>
+  
+   <market_entry>
+        <id>lookupTimeDimension</id>
+        <type>Step</type>
+        <name>Lookup Time Dimension</name>
+        <description>LookupTimeDimension is a step for Kettle transformation to lookup/create an entry on DW dimension time table and return the id.</description>
+        <documentation_url>https://github.com/kleysonr/LookupTimeDimensionStep/blob/master/README.md</documentation_url>
+        <author>Kleyson Rios</author>
+        <license_name>Mozilla Public License, v. 2.0</license_name>
+        <license_text>For more details see: https://github.com/kleysonr/LookupTimeDimensionStep/blob/master/plugin/LICENSE</license_text>
+        <versions>
+            <version>
+                <version>1.0.0</version>
+                <package_url>http://sourceforge.net/projects/lookuptimedimension/files/LookupTimeDimensionStep-1.0.0.zip/download</package_url>
+            </version>
+        </versions>
+    </market_entry>
 
 	<market_entry>
 		<id>TeraDataBulkLoader</id>
