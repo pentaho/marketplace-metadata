@@ -1402,10 +1402,10 @@
 		</installation_notes>
 		<versions>
 			<version>
-				<branch>0.5</branch>
-				<version>RELEASE-0.5</version>
+				<branch>RELEASE</branch>
+				<version>RELEASE-0.5.1</version>
 				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_ca-RELEASE-0.5.zip</package_url>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_ca-RELEASE-0.5.1.zip</package_url>
 				<samples_url/>
 				<description>Trunk snapshot</description>
 				<changelog/>
@@ -1455,9 +1455,9 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.7</version>
+				<version>RELEASE-0.7.1</version>
 				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_nl-RELEASE-0.7.zip</package_url>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_nl-RELEASE-0.7.1.zip</package_url>
 				<samples_url/>
 				<description>Trunk snapshot</description>
 				<changelog/>
@@ -1506,9 +1506,9 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.6</version>
+				<version>RELEASE-0.6.1</version>
 				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_fr-RELEASE-0.6.zip</package_url>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_fr-RELEASE-0.6.1.zip</package_url>
 				<samples_url/>
 				<description>Trunk snapshot</description>
 				<changelog/>
@@ -1557,9 +1557,9 @@
 		<versions>
 			<version>
 			<branch>RELEASE</branch>
-				<version>RELEASE-0.7</version>
+				<version>RELEASE-0.7.1</version>
 				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_de-RELEASE-0.7.zip</package_url>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_de-RELEASE-0.7.1.zip</package_url>
 				<samples_url/>
 				<description>Trunk snapshot</description>
 				<changelog/>
@@ -1608,9 +1608,9 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.6</version>
+				<version>RELEASE-0.6.1</version>
 				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_hi-RELEASE-0.6.zip</package_url>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_hi-RELEASE-0.6.1.zip</package_url>
 				<samples_url/>
 				<description>Trunk snapshot</description>
 				<changelog/>
@@ -1660,9 +1660,9 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.5</version>
+				<version>RELEASE-0.5.1</version>
 				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_it-RELEASE-0.5.zip</package_url>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_it-RELEASE-0.5.1.zip</package_url>
 				<samples_url/>
 				<description>Trunk snapshot</description>
 				<changelog/>
@@ -1714,10 +1714,10 @@
 		</installation_notes>
 		<versions>
 		<version>
-		<branch>0.6</branch>
-			<version>RELEASE-0.6</version>
+		<branch>RELEASE</branch>
+			<version>RELEASE-0.6.1</version>
 			<name>Latest build</name>
-			<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_ja-RELEASE-0.6.zip</package_url>
+			<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_ja-RELEASE-0.6.1.zip</package_url>
 			<samples_url/>
 			<description>Trunk snapshot</description>
 			<changelog/>
@@ -1767,9 +1767,9 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.6</version>
+				<version>RELEASE-0.6.1</version>
 				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_ko-RELEASE-0.6.zip</package_url>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_ko-RELEASE-0.6.1.zip</package_url>
 				<samples_url/>
 				<description>Trunk snapshot</description>
 				<changelog/>
@@ -1818,9 +1818,9 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.7.1</version>
+				<version>RELEASE-0.7.2</version>
 				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_pt_BR-RELEASE-0.7.1.zip</package_url>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_pt_BR-RELEASE-0.7.2.zip</package_url>
 				<samples_url/>
 				<description>Trunk snapshot</description>
 				<changelog/>
@@ -1869,10 +1869,10 @@
 	  </installation_notes>
 	  <versions>
 	    <version>
-	      <branch>0.5</branch>
-	      <version>RELEASE-0.5</version>
+	      <branch>RELEASE</branch>
+	      <version>RELEASE-0.5.1</version>
 	      <name>Latest build</name>
-	      <package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/95/artifact/dist/languagePack_pt_PT-RELEASE-0.5.zip</package_url>
+	      <package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_pt_PT-RELEASE-0.5.1.zip</package_url>
 	      <samples_url/>
 	      <description>Trunk snapshot</description>
 	      <changelog/>
@@ -1922,9 +1922,9 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.7</version>
+				<version>RELEASE-0.7.1</version>
 				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/94/artifact/dist/languagePack_es-RELEASE-0.7.zip</package_url>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/97/artifact/dist/languagePack_es-RELEASE-0.7.1.zip</package_url>
 				<samples_url/>
 				<description>Trunk snapshot</description>
 				<changelog/>
