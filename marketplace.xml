@@ -121,6 +121,7 @@
 				<samples_url>http://ci.analytical-labs.com/job/Webdetails-CDF-5-Release/lastSuccessfulBuild/artifact/bi-platform-v2-plugin/dist/pentaho-cdf-samples-14.05.06.zip</samples_url>
 				<description>Stable Release</description>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>
 				<build_id/>
 			</version>
 
@@ -192,6 +193,7 @@
 				<description>14.05.06 release.</description>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 
 			<version>
@@ -265,6 +267,7 @@
 				<description>Release 14.05.06</description>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 
 
@@ -336,6 +339,7 @@
 				<package_url>http://www.webdetails.pt/ficheiros/cgg/14.05.06/5.x/cgg-14.05.06.zip</package_url>
 				<description>14.05.06 release.</description>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 				<build_id/>
 			</version>
 
@@ -389,7 +393,8 @@
 			    <package_url>http://ci.pentaho.com/job/sparkl-release/lastSuccessfulBuild/artifact/dist/sparkl-14.05.06.zip</package_url>
 	    		<description>Release 14.05.06</description>
 		    	<build_id/>
-	            <min_parent_version>5.0</min_parent_version>		
+	            <min_parent_version>5.0</min_parent_version>	
+				<max_parent_version>5.0.99</max_parent_version>	            
 			</version>			
 			<version>
     	    <branch>TRUNK</branch>
@@ -440,6 +445,7 @@
 	    		<description>Release 14.05.06</description>
 		    	<build_id/>
 	            <min_parent_version>5.0</min_parent_version>		
+				<max_parent_version>5.0.99</max_parent_version>	            
 			</version>			
 		</versions>
 	</market_entry>
