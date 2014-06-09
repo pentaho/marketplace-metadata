@@ -1417,6 +1417,7 @@
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1469,6 +1470,7 @@
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 		</versions>
 		<screenshots>
@@ -1520,6 +1522,7 @@
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 		</versions>
 		<screenshots>
@@ -1571,6 +1574,7 @@
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 		</versions>
 		<screenshots>
@@ -1622,6 +1626,7 @@
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 		</versions>
 		<screenshots>
@@ -1674,6 +1679,7 @@
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 		</versions>
 		<screenshots>
@@ -1729,6 +1735,7 @@
 			<changelog/>
 			<build_id/>
 			<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>			
 			</version>
 		</versions>
 		<screenshots>
@@ -1781,6 +1788,7 @@
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 		</versions>
 		<screenshots>
@@ -1832,6 +1840,7 @@
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 		</versions>
 		<screenshots>
@@ -1884,6 +1893,7 @@
 	      <changelog/>
 	      <build_id/>
 	      <min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>	      
 	    </version>
 	  </versions>
 	  <screenshots>
@@ -1936,6 +1946,7 @@
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
 			</version>
 		</versions>
 		<screenshots>
