@@ -814,8 +814,8 @@
 				<branch>STABLE</branch>
 				<version>2.1</version>
 				<name>Stable</name>
-				<package_url>http://sourceforge.net/projects/btable/files/Version2.0/BTable-pentaho5-STABLE-2.1.zip/download</package_url>
-				<samples_url>http://sourceforge.net/projects/btable/files/Version2.0/BTable-samples-pentaho5-STABLE-2.1.zip/download</samples_url>
+				<package_url>http://sourceforge.net/projects/btable/files/Version2.1/BTable-pentaho5-STABLE-2.1.zip/download</package_url>
+				<samples_url>http://sourceforge.net/projects/btable/files/Version2.1/BTable-samples-pentaho5-STABLE-2.1.zip/download</samples_url>
 				<description>Release 2.1</description>
 				<build_id>manual-20140610</build_id>
 				<min_parent_version>5.0</min_parent_version>
