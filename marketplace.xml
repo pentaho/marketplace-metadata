@@ -801,29 +801,31 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>2.0</version>
+				<version>2.1</version>
 				<name>Stable</name>
-				<package_url>http://sourceforge.net/projects/btable/files/Version2.0/BTable-pentaho4-STABLE-2.0.zip/download</package_url>
-				<samples_url>http://sourceforge.net/projects/btable/files/Version2.0/BTable-samples-pentaho4-STABLE-2.0.zip/download</samples_url>
-				<description>Release 2.0</description>
-				<build_id>manual-20140319</build_id>
+				<package_url>http://sourceforge.net/projects/btable/files/Version2.1/BTable-pentaho4-STABLE-2.1.zip/download</package_url>
+				<samples_url>http://sourceforge.net/projects/btable/files/Version2.1/BTable-samples-pentaho4-STABLE-2.1.zip/download</samples_url>
+				<description>Release 2.1</description>
+				<build_id>manual-20140610</build_id>
 				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 			</version>
 			<version>
 				<branch>STABLE</branch>
-				<version>2.0</version>
+				<version>2.1</version>
 				<name>Stable</name>
-				<package_url>http://sourceforge.net/projects/btable/files/Version2.0/BTable-pentaho5-STABLE-2.0.zip/download</package_url>
-				<samples_url>http://sourceforge.net/projects/btable/files/Version2.0/BTable-samples-pentaho5-STABLE-2.0.zip/download</samples_url>
-				<description>Release 2.0</description>
-				<build_id>manual-20140319</build_id>
+				<package_url>http://sourceforge.net/projects/btable/files/Version2.0/BTable-pentaho5-STABLE-2.1.zip/download</package_url>
+				<samples_url>http://sourceforge.net/projects/btable/files/Version2.0/BTable-samples-pentaho5-STABLE-2.1.zip/download</samples_url>
+				<description>Release 2.1</description>
+				<build_id>manual-20140610</build_id>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
 			<screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-01.png</screenshot>
 			<screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-02.png</screenshot>
+			<screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-03.png</screenshot>
+			<screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-04.png</screenshot>
 		</screenshots>
 	</market_entry>
 
