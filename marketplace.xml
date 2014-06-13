@@ -2372,27 +2372,40 @@
 
 			Contact Verify Component
 			• Standardize, verify, and correct U.S. and Canadian addresses
+			• Add County and census information. 
 			• Verify and normalize U.S. and Canadian phones on a 7-10 digit level
 			• Parse names, genderize, and detect suspicious words or companies in name field
-			• Geocode addresses by assigning rooftop lat/long coordinates*
+			• Geocode addresses by assigning rooftop lat/long coordinates
+			• USPS CASS certified engine
+			
+			Processing Options - (Local)(Cloud)(Dedicated Cloud) 
 
 			SmartMover Component
 			• U.S./Canadian change of address processing to update addresses of people or
-			businesses that have moved
+			  businesses that have moved
+			• USPS Certified NCOA (National Change of Address) 
+			
+			Processing Options -(Cloud Only)
 
 			MatchUp Component
 			• Identify duplicate records with domain specific knowledge of contact information
+			• Allows users to define and customize powerful matching algorithms based on their data.
 
+			Processing Options -(Local Only) 
+			
 			IP Locator Component
 			• Identify web visitor's geographic location
+			• Append Latitude, longitude, ISP, City, State, Country
 			• Reduce fraud and geo target
+			
+			Processing Options -(Local)(Cloud)(Dedicated Cloud) 
 
 		</description>
 		<author>Melissa Data</author>
 		<documentation_url>http://www.melissadata.com/dqt/contact-zone/index.htm</documentation_url>
 		<versions>
 			<version>
-				<version>3.1.0</version>
+				<version>4.2.0</version>
 				<package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
 			</version>
 		</versions>
@@ -2412,12 +2425,18 @@
 		<name>MDGlobalVerify</name>
 		<description> Global Verify Component
 			• Address verification for over 240 countries
-			• Transliteration of many major character sets and display output in either nature or  Roman characters</description>
+ 			• Parses and Standardizes data based on country specific rules
+			• Transliteration of many major character sets and display output in either native or Roman characters
+			• Append Geographic coordinates for many worldwide postal addresses.
+		    
+			  Processing Options -(Cloud Only)
+			  
+		</description>
 		<author>Melissa Data</author>
-		<documentation_url>http://w10.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
+		<documentation_url>http://www.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
 		<versions>
 			<version>
-				<version>3.1.0</version>
+				<version>4.2.0</version>
 				<package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
 			</version>
 		</versions>
@@ -2434,14 +2453,25 @@
 		<id>MDPersonatorPlugin</id>
 		<type>Step</type>
 		<name>MDPersonator</name>
-		<description> Personator Component
+		<description> Melissa Data Personator Component - Offering Melissa Data's flagship service 
+		                                                  in an easy to use Pentaho Component
+		
 			• Verifies name corresponds to address, email, and phone data
-			• Appends missing name and company name, phone number, and/or email address</description>
+			• Appends missing name and company name, phone number, and/or email address
+			• Append Latitude, Longitude along with County and Census data. 
+			• Free-form input allows for unparsed or un-delimited data. The service then can parse,
+			  standardize, correct, verify and append missing information. 
+			• Move update - Identifies moves with up to a 10 year history. 
+
+            Processing Options -(Cloud Only)
+		
+		
+		</description>
 		<author>Melissa Data</author>
-		<documentation_url>http://w10.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
+		<documentation_url>http://www.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
 		<versions>
 			<version>
-				<version>3.1.0</version>
+				<version>4.2.0</version>
 				<package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
 			</version>
 		</versions>
