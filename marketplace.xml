@@ -861,6 +861,30 @@
 		<versions>
 			<version>
 				<branch>Limited</branch>
+				<version>2.1</version>
+				<name>Beta</name>
+				<package_url>http://sourceforge.net/projects/aaar/files/v2.1/AAAR_v2.1.zip/download</package_url>
+				<samples_url/>
+				<description><![CDATA[
+					Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
+					<br/>
+					With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
+					]]>
+				</description>
+				<changelog><![CDATA[
+					- Custom metadata are imported into the data mart with the purpose to be analyzed (wokflow comprised).
+					- CMIS Input plugin improved in performance.
+					- Bugfix of the AAAR_Extract.
+					- Bugfix of the port of the installation dashboard.
+					- Bugfix of the postgresql extraction on a CMIS query.
+					]]>
+				</changelog>
+				<build_id>1</build_id>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version/>
+			</version>
+			<version>
+				<branch>Limited</branch>
 				<version>2.0</version>
 				<name>Stable</name>
 				<package_url>http://sourceforge.net/projects/aaar/files/v2.0/AAAR_v2.0.zip/download</package_url>
@@ -878,30 +902,6 @@
 					- Added the configuration file for the installation, extraction and publication processes.
 					- Added the log file for the installation, extraction and publication processes.
 					- Updated the script file with sevarl feature like: log file, silent parameter, configuration file.
-					]]>
-				</changelog>
-				<build_id>1</build_id>
-				<min_parent_version>5.0</min_parent_version>
-				<max_parent_version/>
-			</version>
-			<version>
-				<branch>Limited</branch>
-				<version>2.1</version>
-				<name>Beta</name>
-				<package_url>http://sourceforge.net/projects/aaar/files/v2.1/AAAR_v2.1.zip/download</package_url>
-				<samples_url/>
-				<description><![CDATA[
-					Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-					<br/>
-					With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-					]]>
-				</description>
-				<changelog><![CDATA[
-					- Custom metadata are imported into the data mart with the purpose to be analyzed (wokflow comprised).
-					- CMIS Input plugin improved in performance.
-					- Bugfix of the AAAR_Extract.
-					- Bugfix of the port of the installation dashboard.
-					- Bugfix of the postgresql extraction on a CMIS query.
 					]]>
 				</changelog>
 				<build_id>1</build_id>
