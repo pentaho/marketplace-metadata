@@ -563,6 +563,10 @@
 
 			<p>This web based mondrian schema editor is developed on the new Bootstrap framework which means it has a responsive UI that will work on mobile devices ('take a look in your mobile').</p>
 
+			<br>
+				<iframe width="560" height="315" src="http://goo.gl/UNmJri" frameborder="0" allowfullscreen></iframe>
+			<br>
+			
 			<h2>Some of the features in this 0.0.2 release:</h2>
 
 			<ul>
@@ -627,11 +631,17 @@
 
 			<p>This is a plugin with custom CDE Components to use in your dashboards.</p>
 
-			<h2>Some of the features in this 0.0.2 release:</h2>
+			<br>
+				<iframe width="560" height="315" src="http://goo.gl/izzxNU" frameborder="0" allowfullscreen></iframe>
+			<br>
+			
+			<h2>Some of the features in this 0.0.3 release:</h2>
 
 			<ul>
-				<li><b>New</b> Pentaho Analyzer Component</li>
-				<li><b>New</b> Ion Range Slider Component</li>
+				<li><b>New</b> Summary Component</li>
+				<li><b>New</b> Export Data Component</li>
+				<li>Pentaho Analyzer Component</li>
+				<li>Ion Range Slider Component</li>
 				<li>JustGage Component</li>
 				<li>Vectormap Component</li>
 				<li>Videoplayer Component</li>
@@ -642,9 +652,6 @@
 			<h2>What is the road map for the next version?</h2>
 
 			<ul>
-				<li>Summary Component</li>
-				<li>d3js Neighborhood chart</li>
-				<li>d3js Zoomable Pack chart</li>
 				<li>...</li>
 			</ul>
 		</article>
@@ -658,13 +665,14 @@
 		<author_url>http://www.ivy-is.co.uk/</author_url>
 		<author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
 		<license>MPL 2.0</license>
+		<dependencies>CDE, CDA, CDF</dependencies>
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>0.0.2</version>
-				<name>Stable 0.0.2</name>
-				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.2/IvyDC.zip/download</package_url>
-				<description>Release 0.0.2</description>
+				<version>0.0.3</version>
+				<name>Stable 0.0.3</name>
+				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.3/IvyDC.zip/download</package_url>
+				<description>Release 0.0.3</description>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
