@@ -670,8 +670,8 @@
 			<version>
 				<branch>STABLE</branch>
 				<version>0.0.3</version>
-				<name>Stable 0.0.2</name>
-				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.2/IvyDC.zip/download</package_url>
+				<name>Stable 0.0.3</name>
+				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.3/IvyDC.zip/download</package_url>
 				<description>Release 0.0.3</description>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
