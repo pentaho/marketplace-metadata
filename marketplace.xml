@@ -3231,7 +3231,7 @@ Assistance is given by Services Development with no contractual support for prod
 
 	<market_entry>
 		<id>pdi-random-row-distributions</id>
-		<type>General</type>
+		<type>Mixed</type>
 		<name>Probabilistic Row Distributions for PDI</name>
 		<description>
 This is a collection of Row Distribution plugins for PDI that use probabilistic methods for determining
