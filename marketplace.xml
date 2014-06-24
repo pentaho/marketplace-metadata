@@ -1390,6 +1390,7 @@
 		<author_logo>http://www.xpand-it.com/images/xpand_it/xpand%20it-new-logo-%20standard.png</author_logo>
 		<license_name>GNU General Public License</license_name>
 		<license_text>For more details see: http://www.gnu.org/licenses/</license_text>
+		<dependencies>CDF, CDE</dependencies>
 		<versions>
 			<version>
 				<branch>Release</branch>
