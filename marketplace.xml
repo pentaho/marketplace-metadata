@@ -3228,4 +3228,44 @@ Assistance is given by Services Development with no contractual support for prod
 			https://github.com/OSBI/pdi-sentiment/blob/master/LICENSE</license_text>
 		<support_level>NOT_SUPPORTED</support_level>
 	</market_entry>
+
+	<market_entry>
+		<id>pdi-random-row-distributions</id>
+		<type>General</type>
+		<name>Probabilistic Row Distributions for PDI</name>
+		<description>
+This is a collection of Row Distribution plugins for PDI that use probabilistic methods for determining
+the distribution of rows. The collection currently includes:
+
+   - Uniformly random: Distributes rows to each target step with equal probability. For example, if you
+       distribute from a step to 4 target steps, then each row has a 25% chance of being sent to a
+       particular target step.
+
+   - Markov chains: Distributes rows based on a specification file that assigns probabilities to hops.
+       For example, the markov_hops.txt file in the plugin specifies probabilities from a Generate Zeroes
+       step to calculator steps with varying probabilities. Note that the sum of probabilities for all hops
+       from a step must equal 1.0.
+
+These can be used to perform random walks of transformations. This is intended to aid in the use of PDI as
+a graphical tool for statistical analysis.
+		</description>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/p65t49w1nizstw3kx89t.zip</package_url>
+				<source_url>https://github.com/mattyb149/pdi-random-row-distributions</source_url>
+			</version>
+		</versions>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/pdi-random-row-distributions/wiki</documentation_url>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url/>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
 </market>
