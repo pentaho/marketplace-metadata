@@ -896,8 +896,8 @@
 					]]>
 				</changelog>
 				<build_id>1</build_id>
-				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version/>
+				<min_parent_version>5.1</min_parent_version>
 			</version>
 			<version>
 				<branch>Limited</branch>
@@ -921,8 +921,8 @@
 					]]>
 				</changelog>
 				<build_id>1</build_id>
-				<min_parent_version>5.0</min_parent_version>
-				<max_parent_version/>
+				<max_parent_version>5.0</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
