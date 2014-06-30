@@ -876,9 +876,9 @@
 		</installation_notes>
 		<versions>
 			<version>
-				<branch>Limited</branch>
+				<branch>TRUNK</branch>
 				<version>2.1</version>
-				<name>Beta</name>
+				<name>Trunk</name>
 				<package_url>http://sourceforge.net/projects/aaar/files/v2.1/AAAR_v2.1.zip/download</package_url>
 				<samples_url/>
 				<description><![CDATA[
@@ -900,7 +900,7 @@
 				<min_parent_version>5.1</min_parent_version>
 			</version>
 			<version>
-				<branch>Limited</branch>
+				<branch>LIMITED</branch>
 				<version>2.0</version>
 				<name>Stable</name>
 				<package_url>http://sourceforge.net/projects/aaar/files/v2.0/AAAR_v2.0.zip/download</package_url>
