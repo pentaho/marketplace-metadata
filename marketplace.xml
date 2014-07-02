@@ -932,14 +932,13 @@
 		</screenshots>
 	</market_entry>
 
-
 	<market_entry>
 		<id>repositorySynchronizer</id>
 		<type>Platform</type>
 		<name>Pentaho Repository Synchronizer</name>
 		<description><![CDATA[
 			Pentaho Repository Synchronizer allows you to interact with the
-			solution repository of Pentaho 5.0 by keeping the disk-based file
+			solution repository of Pentaho 5 by keeping the disk-based file
 			structure synchronized with the Pentaho internal solution
 			repository (JCR).<br/><br/>
 
@@ -963,27 +962,15 @@
 		</installation_notes>
 		<versions>
 			<version>
-				<branch>TRUNK</branch>
-				<version>TRUNK-SNAPSHOT</version>
-				<name>TRUNK</name>
-				<package_url>http://ci.pentaho.com/job/RepositorySynchronizer/lastSuccessfulBuild/artifact/dist/repositorySynchronizer-TRUNK-SNAPSHOT.zip</package_url>
+				<branch>RELEASE</branch>
+				<version>14.06.18</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/RepositorySynchronizer/lastSuccessfulBuild/artifact/dist/repositorySynchronizer-14.06.18.zip</package_url>
 				<samples_url/>
-				<description><![CDATA[
-					Plugin that allows you to interact with the solution
-					repository of Pentaho 5.0 by keeping the disk-based file
-					structure synchronized with the Pentaho internal solution
-					repository (JCR).<br/><br/>
-
-					This is a pilot release, use at your own risk and report
-					any issues / feedback back to <a target="_blank"
-						href="http://redmine.webdetails.org/projects/prs">Webdetails
-						bug tracker</a>
-					]]>
-				</description>
-				<changelog>Pilot release</changelog>
-				<build_id>24</build_id>
+				<description>Latest Release</description>
+				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
-				<max_parent_version/>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
