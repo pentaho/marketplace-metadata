@@ -487,6 +487,14 @@
 				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 			</version>
+				<version>
+				<branch>STABLE</branch>
+				<version>2.6</version>
+				<name>Stable</name>
+				<package_url>http://meteorite.bi/downloads/saiku-plugin-p5-2.6.zip</package_url>
+				<description>Build for Pentaho 5.0+</description>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
 <version>
                                 <branch>TRUNK</branch>
                                 <version>Trunk</version>
@@ -496,14 +504,7 @@
                                 <min_parent_version>5.0</min_parent_version>
                         </version>
 
-			<version>
-				<branch>STABLE</branch>
-				<version>2.6</version>
-				<name>Stable</name>
-				<package_url>http://meteorite.bi/downloads/saiku-plugin-p5-2.6.zip</package_url>
-				<description>Build for Pentaho 5.0+</description>
-				<min_parent_version>5.0</min_parent_version>
-			</version>
+		
 		</versions>
 	</market_entry>
 
