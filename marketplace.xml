@@ -1274,36 +1274,35 @@
 		<img>http://www.webdetails.pt/ficheiros/envdisplay.png</img>
 		<small_img>http://www.webdetails.pt/ficheiros/envdisplay_plugin.png</small_img>
 		<description>
-
-      <![CDATA[Plugin that gives information about system and session
-      environment information useful for development and debugging. Even though
-      it's not sensitive information, it's not recommended to have this plugin
-      installed in a production environment  <br /><br /> Report <a
-        href="http://redmine.webdetails.org/projects/envdisplay">here</a> any
-      issues or suggestions for improvement ]]>
-
+		      <![CDATA[Plugin that gives information about system and session
+		      environment information useful for development and debugging. Even though
+		      it's not sensitive information, it's not recommended to have this plugin
+		      installed in a production environment  <br /><br /> Report <a
+		        href="http://redmine.webdetails.org/projects/envdisplay">here</a> any
+		      issues or suggestions for improvement ]]>
 		</description>
-    <documentation_url>https://github.com/webdetails/environmentDisplay</documentation_url>
+    	<documentation_url>https://github.com/webdetails/environmentDisplay</documentation_url>
 		<author>Webdetails</author>
 		<author_url>http://www.webdetails.pt</author_url>
 		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
 		<license>MPL 2.0</license>
 		<dependencies>CDF, CDA, CDE, CGG</dependencies>
-    <installation_notes/>
+    	<installation_notes/>
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-1.0</version>
-				<name>Latest version</name>
-        <package_url>http://ci.pentaho.com/view/Community/job/environmentdisplay/lastSuccessfulBuild/artifact/dist/EnvironmentDisplay-RELEASE-1.0.zip</package_url>
+				<version>14.06.18</version>
+				<name>RELEASE</name>
+        		<package_url>http://ci.pentaho.com/job/environmentdisplay/lastSuccessfulBuild/artifact/dist/EnvironmentDisplay-14.06.18.zip</package_url>
 				<samples_url/>
-				<description>Release</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
-      <screenshot>https://raw.githubusercontent.com/webdetails/environmentDisplay/release/resources/img/screenshot_1.png</screenshot>
+      		<screenshot>https://raw.githubusercontent.com/webdetails/environmentDisplay/release/resources/img/screenshot_1.png</screenshot>
 		</screenshots>
 	</market_entry>
 
