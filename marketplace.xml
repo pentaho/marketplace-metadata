@@ -1441,15 +1441,27 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.5.2</version>
-				<name>Latest build</name>
+				<version>0.5.2</version>
+				<name>RELEASE</name>
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ca-RELEASE-0.5.2.zip</package_url>
 				<samples_url/>
-				<description>Trunk snapshot</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_ca-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1494,15 +1506,27 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.7.2</version>
-				<name>Latest build</name>
+				<version>0.7.2</version>
+				<name>RELEASE</name>
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-RELEASE-0.7.2.zip</package_url>
 				<samples_url/>
-				<description>Trunk snapshot</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1546,15 +1570,27 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.6.2</version>
-				<name>Latest build</name>
+				<version>0.6.2</version>
+				<name>RELEASE</name>
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-RELEASE-0.6.2.zip</package_url>
 				<samples_url/>
-				<description>Trunk snapshot</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1598,15 +1634,27 @@
 		<versions>
 			<version>
 			<branch>RELEASE</branch>
-				<version>RELEASE-0.7.2</version>
-				<name>Latest build</name>
+				<version>0.7.2</version>
+				<name>RELEASE</name>
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-RELEASE-0.7.2.zip</package_url>
 				<samples_url/>
-				<description>Trunk snapshot</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1650,15 +1698,27 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.6.2</version>
-				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-RELEASE-0.6.2.zip</package_url>
+				<version>0.6.3</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-RELEASE-0.6.3.zip</package_url>
 				<samples_url/>
-				<description>Trunk snapshot</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1703,15 +1763,27 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.5.2</version>
-				<name>Latest build</name>
+				<version>0.5.2</version>
+				<name>RELEASE</name>
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_it-RELEASE-0.5.2.zip</package_url>
 				<samples_url/>
-				<description>Trunk snapshot</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_it-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1757,17 +1829,29 @@
 			]]>
 		</installation_notes>
 		<versions>
-		<version>
-		<branch>RELEASE</branch>
-			<version>RELEASE-0.6.2</version>
-			<name>Latest build</name>
-			<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ja-RELEASE-0.6.2.zip</package_url>
-			<samples_url/>
-			<description>Trunk snapshot</description>
-			<changelog/>
-			<build_id/>
-			<min_parent_version>5.0</min_parent_version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.7</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ja-RELEASE-0.7.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>			
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_ja-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1812,15 +1896,27 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.6.2</version>
-				<name>Latest build</name>
-				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-RELEASE-0.6.2.zip</package_url>
+				<version>0.7</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-RELEASE-0.7.zip</package_url>
 				<samples_url/>
-				<description>Trunk snapshot</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1864,15 +1960,27 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.7.3</version>
-				<name>Latest build</name>
+				<version>0.7.3</version>
+				<name>RELEASE</name>
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.7.3.zip</package_url>
 				<samples_url/>
-				<description>Trunk snapshot</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
@@ -1914,20 +2022,32 @@
 
 		  ]]>
 	  </installation_notes>
-	  <versions>
-	    <version>
-	      <branch>RELEASE</branch>
-	      <version>RELEASE-0.5.2</version>
-	      <name>Latest build</name>
-	      <package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_PT-RELEASE-0.5.2.zip</package_url>
-	      <samples_url/>
-	      <description>Trunk snapshot</description>
-	      <changelog/>
-	      <build_id/>
-	      <min_parent_version>5.0</min_parent_version>
+	  	<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.5.2</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_PT-RELEASE-0.5.2.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>	      
-	    </version>
-	  </versions>
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_PT-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+	  	</versions>
 	  <screenshots>
 			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_1.png</screenshot>
 			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_2.png</screenshot>
@@ -1970,15 +2090,27 @@
 		<versions>
 			<version>
 				<branch>RELEASE</branch>
-				<version>RELEASE-0.7.2</version>
-				<name>Latest build</name>
+				<version>0.7.2</version>
+				<name>RELEASE</name>
 				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_es-RELEASE-0.7.2.zip</package_url>
 				<samples_url/>
-				<description>Trunk snapshot</description>
+				<description>Latest Release</description>
 				<changelog/>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_es-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
 			</version>
 		</versions>
 		<screenshots>
