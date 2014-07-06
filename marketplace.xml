@@ -922,7 +922,7 @@
 					]]>
 				</changelog>
 				<build_id>1</build_id>
-				<max_parent_version>5.0.1</max_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
 			</version>
 		</versions>
