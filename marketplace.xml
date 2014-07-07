@@ -104,10 +104,10 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>14.06.18</version>
+				<version>14.06.18.1</version>
 				<name>Stable</name>
-				<package_url>http://www.webdetails.pt/ficheiros/cdf/14.06.18/4.x/pentaho-cdf-14.06.18.zip</package_url>
-				<samples_url>http://www.webdetails.pt/ficheiros/cdf/14.06.18/4.x/pentaho-cdf-samples-14.06.18.zip</samples_url>
+				<package_url>http://www.webdetails.pt/ficheiros/cdf/14.06.18/4.x/pentaho-cdf-14.06.18.1.zip</package_url>
+				<samples_url>http://www.webdetails.pt/ficheiros/cdf/14.06.18/4.x/pentaho-cdf-samples-14.06.18.1.zip</samples_url>
 				<description>Stable Release</description>
 				<max_parent_version>4.9</max_parent_version>
 				<min_parent_version>1.0</min_parent_version>
@@ -115,10 +115,10 @@
 			</version>
 			<version>
 				<branch>STABLE</branch>
-				<version>14.06.18</version>
+				<version>14.06.18.1</version>
 				<name>Stable</name>
-				<package_url>http://www.webdetails.pt/ficheiros/cdf/14.06.18/5.x/pentaho-cdf-14.06.18.zip</package_url>
-				<samples_url>http://www.webdetails.pt/ficheiros/cdf/14.06.18/5.x/pentaho-cdf-samples-14.06.18.zip</samples_url>
+				<package_url>http://www.webdetails.pt/ficheiros/cdf/14.06.18/5.x/pentaho-cdf-14.06.18.1.zip</package_url>
+				<samples_url>http://www.webdetails.pt/ficheiros/cdf/14.06.18/5.x/pentaho-cdf-samples-14.06.18.1.zip</samples_url>
 				<description>Stable Release</description>
 				<min_parent_version>5.0</min_parent_version>
 				<max_parent_version>5.1.99</max_parent_version>
