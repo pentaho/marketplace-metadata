@@ -557,20 +557,102 @@
 			<screenshot>https://a.fsdn.com/con/app/proj/saikuchartplus/screenshots/PieChartPlus.png</screenshot>
 		</screenshots>
 	</market_entry>
+	
+	<market_entry>
+		<id>IvyBC</id>
+		<type>Platform</type>
+		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_short.png</img>
+		<small_img/>
+		<name>IvyBC - Ivy Bootstrap Components (Purchase)</name>
+		<documentation_url>https://github.com/ivylabs/IvyBC/blob/master/README.md</documentation_url>
+		<description>
+		<![CDATA[
+		<article>
+			<img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_long.png" />
+			
+			<center><img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_components1.png" /></center>
+			
+			
+
+			<p>The Ivy BC is a suite of additional CDE Components that allow you to quickly and easily create responsive bootstrap dashboards. Each of these components comes with many options that allow you advanced control on their look and behaviour</p>
+			
+			<h2>Included Bootstrap Components</h2>
+			
+			<ul>
+				<li>Bootstrap Panel</li>
+				<li>Bootstrap Button</li>
+				<li>Bootstrap Button Group</li>
+				<li>Bootstrap Checkbox</li>
+				<li>Bootstrap Radio Button</li>
+				<li>Bootstrap Date Picker</li>
+				<li>Bootstrap Date Range Picker</li>
+				<li>Bootstrap Input</li>
+				<li>Bootstrap Select</li>
+				<li>Bootstrap Data Grid</li>
+				<li>Bootstrap Table</li>
+				<li>Bootstrap Switch</li>
+			</ul>
+			
+			<h2>Samples & Documentation</h2>
+			
+			<p>The IvyBC Plugin also includes extensive component samples and coumentation that you can open in the CDE and edit as you like</p>
+			
+			<h2>Licenses</h2>
+			
+			<p>There are three types of available licenses available with the IvyBC. Please refer to the website and make sure you select the correct one before purchasing. If you intend to deploy more that one version of the IvyBC for your clients then you <b>MUST</b> purchase a license other than the Single User License</p>
+
+
+			<center><a target='NO_BLANK' style="color:#8cc63f;font-size:20px;font-weight:bold;" href='http://www.ivy-is.co.uk/ivy-labs/pentaho-bootstrap-dashboards/'>Buy Now</a></center>
+			
+		</article>
+		
+		]]>	
+		</description>
+		<author>Ivy Information Systems</author>
+		<author_url>http://www.ivy-is.co.uk/</author_url>
+		<author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
+		<license>Proprietary</license>   
+		<dependencies>CDE, CDA, CDF</dependencies>
+		<installation_notes>
+		<![CDATA[
+			<article>
+				<h1>Ivy Bootstrap Components is a paid plugin.</h1>
+
+				<p>Plugin wasn't installed. Please, click on buy now button to find out more.</p>
+			</article>		
+		]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>Nothing</version>
+				<name>Nothing</name>
+				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%5BEMPTY%5D/1.0.0/IvyBC.zip/download</package_url>
+				<description></description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>                
+			</version>    
+		</versions>
+		<screenshots>
+			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/06/ivyDemo.png</screenshot>
+			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/06/ivyDemoProductComparison.png</screenshot>
+			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/06/ivyDemoCustomerAnalysis.png</screenshot>
+		</screenshots>
+	</market_entry>
 
 	<market_entry>
 		<id>IvySE</id>
 		<type>Platform</type>
-		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</img>
+		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_short.png</img>
 		<small_img/>
 		<name>IvySE - Ivy Schema Editor</name>
 		<documentation_url>https://github.com/ivylabs/IvySE/blob/master/README.md</documentation_url>
 		<description>
 		<![CDATA[
 		<article>
-			<h1>IvySE - Ivy Schema Editor</h1>
+			<img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_long.png" />
 
-			<p>This web based mondrian schema editor is developed on the new Bootstrap framework which means it has a responsive UI that will work on mobile devices ('take a look in your mobile').</p>
+			<p>This web based mondrian schema editor is developed on the new Bootstrap framework which means it has a responsive UI that will work on mobile devices ('have a look in your mobile').</p>
 
 			<br>
 				<iframe width="560" height="315" src="http://goo.gl/UNmJri" frameborder="0" allowfullscreen></iframe>
@@ -591,6 +673,7 @@
 
 			<ul>
 				<li>Schema validation</li>
+				<li>Remove Schema</li>
 				<li>...</li>
 			</ul>
 		</article>
@@ -629,22 +712,22 @@
 	<market_entry>
 		<id>IvyDC</id>
 		<type>Platform</type>
-		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</img>
+		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydc_short.png</img>
 		<small_img/>
 		<name>IvyDC - Ivy Dashboard Components</name>
 		<documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
 		<description>
 		<![CDATA[
 		<article>
-			<h1>IvyDC - Ivy Dashboard Components</h1>
+			<img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydc_long.png" />
 
-			<p>This is a plugin with custom CDE Components to use in your dashboards.</p>
+			<p>The IvyDC or Ivy Dashboard Components Plugin adds additional Components to the CDE for you to use in your dashboards.</p>
 
 			<br>
 				<iframe width="560" height="315" src="http://goo.gl/izzxNU" frameborder="0" allowfullscreen></iframe>
 			<br>
 			
-			<h2>Some of the features in this 0.0.3 release:</h2>
+			<h2>Included Components</h2>
 
 			<ul>
 				<li><b>New</b> Summary Component</li>
@@ -661,6 +744,8 @@
 			<h2>What is the road map for the next version?</h2>
 
 			<ul>
+				<li>Funnel Chart</li>
+				<li>Comparison/Pyramid Chart</li>
 				<li>...</li>
 			</ul>
 		</article>
