@@ -641,16 +641,16 @@
 	<market_entry>
 		<id>IvySE</id>
 		<type>Platform</type>
-		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</img>
+		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_short.png</img>
 		<small_img/>
 		<name>IvySE - Ivy Schema Editor</name>
 		<documentation_url>https://github.com/ivylabs/IvySE/blob/master/README.md</documentation_url>
 		<description>
 		<![CDATA[
 		<article>
-			<h1>IvySE - Ivy Schema Editor</h1>
+			<img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_long.png" />
 
-			<p>This web based mondrian schema editor is developed on the new Bootstrap framework which means it has a responsive UI that will work on mobile devices ('take a look in your mobile').</p>
+			<p>This web based mondrian schema editor is developed on the new Bootstrap framework which means it has a responsive UI that will work on mobile devices ('have a look in your mobile').</p>
 
 			<br>
 				<iframe width="560" height="315" src="http://goo.gl/UNmJri" frameborder="0" allowfullscreen></iframe>
@@ -709,14 +709,14 @@
 	<market_entry>
 		<id>IvyDC</id>
 		<type>Platform</type>
-		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</img>
+		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydc_short.png</img>
 		<small_img/>
 		<name>IvyDC - Ivy Dashboard Components</name>
 		<documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
 		<description>
 		<![CDATA[
 		<article>
-			<h1>IvyDC - Ivy Dashboard Components</h1>
+			<img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydc_long.png" />
 
 			<p>This is a plugin with custom CDE Components to use in your dashboards.</p>
 
