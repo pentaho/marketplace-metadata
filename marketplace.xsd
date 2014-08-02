@@ -322,6 +322,13 @@
           </xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="SpoonPlugin">
+        <xsd:annotation>
+          <xsd:documentation>
+            This market entry is a Spoon plugin, possibly a perspective or something that adds to the PDI UI. 
+          </xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
   
