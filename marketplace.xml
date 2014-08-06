@@ -639,6 +639,57 @@
 	</market_entry>
 
 	<market_entry>
+		<id>IvyDD</id>
+		<type>Platform</type>
+		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydd_short.png</img>
+		<small_img/>
+		<name>IvyDD - Ivy Dashboard Designer</name>
+		<documentation_url>https://github.com/ivylabs/IvyDD/blob/master/README.md</documentation_url>
+		<description>
+		<![CDATA[
+		<article>
+			<img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydd_long.png" />
+
+			<p>The IvyDD or Ivy Dashboard Designer is a Pentaho Plugin that allows you to quickly and easily create responsive, mobile dashboards using either Saiku or Community Data Access (CDA) files. Use the IvyDD to create dashboards in minutes instead of hours.</p>
+
+			<br>
+				<iframe width="560" height="315" src="http://bit.ly/1AUCDdN" frameborder="0" allowfullscreen></iframe>
+			<br>
+			
+		</article>
+		
+		<br><br>	
+		For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-dashboard-designer/'>visit our site</a>.<br>	
+		Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyDD'>GitHub</a>
+		<br/><br/>
+		<a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Any question copyright question contact <a target='NO_BLANK' href='http://www.ivy-is.co.uk/contact-us/'>Ivy Information Systems Ltd</a>.
+		]]>	
+		</description>
+		<author>Ivy Information Systems Ltd</author>
+		<author_url>http://www.ivy-is.co.uk/</author_url>
+		<author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
+		<license>CC BY-NC-ND 4.0</license>   
+		<dependencies>CDA and Saiku</dependencies>
+		<installation_notes/>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>0.0.1-POC</version>
+				<name>Stable</name>
+				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.1-POC/IvyDD.zip/download</package_url>
+				<description>Proof of Concept release 0.0.1</description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>                
+			</version>    
+		</versions>
+		<screenshots>
+			<screenshot>https://pbs.twimg.com/media/BsG3RbSCcAEkNds.png:large</screenshot>
+			<screenshot>https://pbs.twimg.com/media/BsG3RbJCUAACjn3.png:large</screenshot>
+			<screenshot>https://pbs.twimg.com/media/BsG3RYnCcAEYTsu.png:large</screenshot>
+		</screenshots>
+	</market_entry>
+
+	<market_entry>
 		<id>IvySE</id>
 		<type>Platform</type>
 		<img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_short.png</img>
