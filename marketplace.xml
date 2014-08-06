@@ -2370,13 +2370,13 @@
 		</description>
 		<versions>
 			<version>
-				<version>4.x</version>
-				<package_url>http://s3.amazonaws.com/kettle/ArffOutput.zip</package_url>
-				<source_url>http://source.pentaho.org/svnkettleroot/plugins/ArffOutput/trunk/</source_url>
+				<version>5.x</version>
+				<package_url>http://ci.pentaho.com/view/Data%20Mining/job/pdi-arff-output-plugin/lastSuccessfulBuild/artifact/dist/pdi-arffoutput-plugin-TRUNK-SNAPSHOT-deploy.zip</package_url>
+				<source_url>https://github.com/pentaho/pdi-weka-arff-output-plugin</source_url>
 			</version>
 		</versions>
 		<author>Pentaho</author>
-		<documentation_url>http://source.pentaho.org/svnkettleroot/plugins/ArffOutput/trunk/docs/ArffOutput.pdf</documentation_url>
+		<documentation_url>https://github.com/pentaho/pdi-weka-arff-output-plugin/blob/master/docs/ArffOutput.pdf</documentation_url>
 		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
 		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
 		<license_name>GNU GPL</license_name>
