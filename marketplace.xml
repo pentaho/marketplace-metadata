@@ -674,10 +674,10 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>0.0.1-POC</version>
+				<version>0.0.2-POC</version>
 				<name>Stable</name>
-				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.1-POC/IvyDD.zip/download</package_url>
-				<description>Proof of Concept release 0.0.1</description>
+				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.2-POC/IvyDD.zip/download</package_url>
+				<description>Proof of Concept release 0.0.2</description>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>                
 			</version>    
