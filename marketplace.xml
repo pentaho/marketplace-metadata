@@ -3546,4 +3546,61 @@ step for graph pipeline processing.</description>
         <support_organization>Pentaho Developer Community</support_organization>
         <support_url>http://kettle.pentaho.com</support_url>
     </market_entry>
+	<market_entry>
+		<id>bissolTableDataEditor</id>
+		<type>Platform</type>
+		<img>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-sparkl-icon.png</img>
+		<small_img/>
+		<name>Bissol Table Data Editor</name>
+		<documentation_url>https://github.com/diethardsteiner/bissolTableDataEditor/blob/master/README.md</documentation_url>
+		<description>
+		<![CDATA[
+		<article>
+			<h1 id="bissol-table-data-editor"><a name="bissol-table-data-editor" href="#bissol-table-data-editor"></a>Bissol Table Data Editor</h1>
+			<p><b>Warning:</b> This plugin has only been tested on Postgresql and MariaDB. It is highly recommended that you do not use this plugin in production. This project is in the early stages and once we've received feedback from more users, we will classify this plugin as stable.</p>
+			<h2 id="intended-purpose-of-the-plugin"><a name="intended-purpose-of-the-plugin" href="#intended-purpose-of-the-plugin"></a>Intended Purpose of the Plugin</h2>
+			<p>The <strong>Bissol Table Data Editor</strong> (BTDE) Pentaho BI Server Plugin allows you to <strong>update</strong> and <strong>add</strong> data to <strong>small database tables</strong> via an easy-to-use web-interface.</p>
+			<p>Example <strong>Use Cases</strong>:</p>
+			<ul>
+			<li>Maintaining attribute fields in <strong>dimension tables</strong>. For some dimensions in a star schema you might ask end-users to add some additional information which is otherwise not available.</li>
+			<li>Maintaining custom <strong>configuration tables</strong>  </li>
+			<li>Maintaining custom <strong>metadata tables</strong></li>
+			</ul>
+			<blockquote>
+			<p><strong>Note</strong>: The <strong>emphasis</strong> is on maintaining <strong>small tables</strong>. The definition of <strong>small</strong> is anything that fits on a standard screen, so ideally less than a hundred records.</p>
+			</blockquote>
+			<br>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/CgdNjdTi31w" frameborder="0" allowfullscreen></iframe>			<br>
+	
+		</article>
+		
+		<br><br>	
+		For more information <a target='NO_BLANK' href='https://github.com/diethardsteiner/bissolTableDataEditor'>visit the Github project site</a>.<br>	
+		Please report issues and improvement ideas on <a target='NO_BLANK' href='https://github.com/diethardsteiner/bissolTableDataEditor/issues'>GitHub</a>
+		]]>	
+		</description>
+		<author>Diethard Steiner (Bissol Consulting Ltd)</author>
+		<author_url>http://www.bissolconsulting.com</author_url>
+		<author_logo>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/bissol-consulting-ltd-logo.png</author_logo>
+		<license>MPL 2.0</license>   
+		<dependencies>CDE, CDA, CDF</dependencies>
+		<installation_notes>
+			You must restart the biserver after installing this plugin, because on installation this plugin adds following Pentaho Kettle steps to the biserver Kettle folder: BAServerUtils and JDBC Metadata. Only after you restarted the biserver, these Kettle steps will be registered.
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>release</branch>
+				<version>0.1.4</version>
+				<name>Release</name>
+				<package_url>https://github.com/diethardsteiner/bissolTableDataEditor/archive/0.1.4.zip</package_url>
+				<description>Release 0.1.4</description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>                
+			</version>    
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-admin-page.png</screenshot>
+			<screenshot>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-main-page.png</screenshot>
+		</screenshots>
+	</market_entry>
 </market>
