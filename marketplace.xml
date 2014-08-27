@@ -3590,10 +3590,10 @@ step for graph pipeline processing.</description>
 		<versions>
 			<version>
 				<branch>release</branch>
-				<version>0.1.5</version>
+				<version>0.1.6</version>
 				<name>Release</name>
-				<package_url>https://github.com/diethardsteiner/bissolTableDataEditor/archive/0.1.5.zip</package_url>
-				<description>Release 0.1.5</description>
+				<package_url>https://github.com/diethardsteiner/bissolTableDataEditor/archive/0.1.6.zip</package_url>
+				<description>Release 0.1.6</description>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>                
 			</version>    
