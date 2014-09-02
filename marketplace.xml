@@ -707,9 +707,11 @@
 				<iframe width="560" height="315" src="http://goo.gl/UNmJri" frameborder="0" allowfullscreen></iframe>
 			<br>
 			
-			<h2>Some of the features in this 0.0.2 release:</h2>
+			<h2>Some of the features in this 0.0.3 release:</h2>
 
 			<ul>
+				<li><b>New</b> XML schema validation</li>
+				<li><b>New</b> Remove schema</li>
 				<li>Web Browser Based</li>
 				<li>List existing Mondrian Schemas</li>
 				<li>Edit Mondrian Schemas</li>
@@ -721,7 +723,6 @@
 			<h2>What is the road map for the next version?</h2>
 
 			<ul>
-				<li>Schema validation</li>
 				<li>...</li>
 			</ul>
 		</article>
@@ -736,17 +737,14 @@
 		<author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
 		<license>MPL 2.0</license>   
 		<dependencies>CDE, CDA, CDF, Saiku or Pentaho Analyzer</dependencies>
-		<installation_notes>
-			This plugin copies a version of IvyOpenLicenseManager.*.jar to the server's WEB-INF/lib.
-			It's possible that on Windows boxes there's an error upgrading the IvySE. If that happens, stop the server and delete the WEB-INF/lib/IvyOpenLicenseManager.* jar file(s)
-		</installation_notes>
+		<installation_notes/>
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>0.0.2</version>
+				<version>0.0.3</version>
 				<name>Stable</name>
-				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.2/IvySE.zip/download</package_url>
-				<description>Release 0.0.2</description>
+				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.3/IvySE.zip/download</package_url>
+				<description>Release 0.0.3</description>
 				<build_id/>
 				<min_parent_version>5.0</min_parent_version>                
 			</version>    
