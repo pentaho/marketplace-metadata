@@ -773,11 +773,13 @@
 				<iframe width="560" height="315" src="http://goo.gl/izzxNU" frameborder="0" allowfullscreen></iframe>
 			<br>
 			
-			<h2>Some of the features in this 0.0.3 release:</h2>
+			<h2>Some of the features in this 0.0.4 release:</h2>
 
 			<ul>
-				<li><b>New</b> Summary Component</li>
-				<li><b>New</b> Export Data Component</li>
+				<li><b>New</b> Comparison / Pyramid Chart</li>
+				<li><b>New</b> Funnel Chart</li>
+				<li>Summary Component</li>
+				<li>Export Data Component</li>
 				<li>Pentaho Analyzer Component</li>
 				<li>Ion Range Slider Component</li>
 				<li>JustGage Component</li>
@@ -807,16 +809,18 @@
 		<versions>
 			<version>
 				<branch>STABLE</branch>
-				<version>0.0.3</version>
-				<name>Stable 0.0.3</name>
-				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.3/IvyDC.zip/download</package_url>
-				<description>Release 0.0.3</description>
+				<version>0.0.4</version>
+				<name>Stable 0.0.4</name>
+				<package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.4/IvyDC.zip/download</package_url>
+				<description>Release 0.0.4</description>
 				<min_parent_version>5.0</min_parent_version>
 			</version>
 		</versions>
 		<screenshots>
 			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_samples.png</screenshot>
 			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_docs1.png</screenshot>
+			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/09/comparison_chart.png</screenshot>
+			<screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/09/funnel_chart.png</screenshot>
 		</screenshots>
 	</market_entry>
 
