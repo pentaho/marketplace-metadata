@@ -8,7 +8,7 @@
       
       https://github.com/pentaho/marketplace-metadata/raw/master/marketplace.xml
 
-      Community contributers can add their contribution to the marktet place by forking
+      Community contributors can add their contribution to the marktet place by forking
 
       https://github.com/pentaho/marketplace-metadata
 
@@ -39,7 +39,7 @@
 
           <xsd:annotation>
             <xsd:documentation>
-              Each market_entry element represents a piece of functionalityu offered by a third party.
+              Each market_entry element represents a piece of functionality offered by a third party.
               In many cases, a market entry is a single plugin.
               However, it can also consist of a collection of plugins. 
               Currently, the marketplace provides items for the biserver and
@@ -49,7 +49,7 @@
 
           <xsd:complexType>
             <xsd:all>
-            
+
               <xsd:element name="id" minOccurs="1" maxOccurs="1" type="xsd:normalizedString">
                 <xsd:annotation>
                   <xsd:documentation>
@@ -70,6 +70,15 @@
                 <xsd:annotation>
                   <xsd:documentation>
                     A string that identifies what type of marketplace entry this is. (mandatory)
+                  </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+
+              <!-- category is temporarily not mandatory -->
+              <xsd:element name="category" minOccurs="0" maxOccurs="1" type="category">
+                <xsd:annotation>
+                  <xsd:documentation>
+                    At the moment a maximum of 2 levels of nesting are used for categorization.
                   </xsd:documentation>
                 </xsd:annotation>
               </xsd:element>
@@ -241,6 +250,7 @@
                   </xsd:sequence>
                 </xsd:complexType>
               </xsd:element>
+
             </xsd:all>
           </xsd:complexType>
         </xsd:element>
@@ -347,16 +357,64 @@
     <xsd:all>
      <xsd:element name="branch" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
      <xsd:element name="version" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
+     <xsd:element name="build_id" minOccurs="0" maxOccurs="1" type="xsd:string"/>
+     <!-- development stage is temporarily not mandatory -->
+     <xsd:element name="developmentStage" minOccurs="0" maxOccurs="1" type="development_stage"/>
      <xsd:element name="name" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
      <xsd:element name="package_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
      <xsd:element name="samples_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
      <xsd:element name="source_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
      <xsd:element name="description" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-     <xsd:element name="build_id" minOccurs="0" maxOccurs="1" type="xsd:string"/>
      <xsd:element name="min_parent_version" minOccurs="0" maxOccurs="1" type="xsd:string"/>
      <xsd:element name="max_parent_version" minOccurs="0" maxOccurs="1" type="xsd:string"/>
      <xsd:element name="changelog" minOccurs="0" maxOccurs="1" type="xsd:string"/>
     </xsd:all>
   </xsd:complexType>
-   
+
+  <xsd:complexType name="development_stage">
+    <xsd:annotation>
+      <xsd:documentation>
+        The stage of development the version of the market entry is at.
+      </xsd:documentation>
+    </xsd:annotation>
+
+    <xsd:all>
+      <xsd:element name="lane" minOccurs="1" maxOccurs="1" type="development_stage_lane">
+
+      </xsd:element>
+      <xsd:element name="phase" minOccurs="1" maxOccurs="1" type="development_stage_phase"/>
+    </xsd:all>
+
+  </xsd:complexType>
+
+  <xsd:simpleType name="development_stage_lane">
+
+    <xsd:restriction base="xsd:normalizedString">
+      <xsd:enumeration value="Customer"/>
+      <xsd:enumeration value="Community"/>
+    </xsd:restriction>
+
+  </xsd:simpleType>
+
+  <xsd:simpleType name="development_stage_phase">
+    <xsd:restriction base="xsd:unsignedInt">
+      <xsd:minInclusive value="1"/>
+      <xsd:maxInclusive value="4"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="category">
+    <xsd:annotation>
+      <xsd:documentation>
+        The category the market entry is belongs to.
+        A category can have a parent category.
+      </xsd:documentation>
+    </xsd:annotation>
+
+    <xsd:all>
+      <xsd:element name="parent" minOccurs="0" maxOccurs="1" type="category"/>
+      <xsd:element name="name" minOccurs="1" maxOccurs="1" type="xsd:normalizedString"/>
+    </xsd:all>
+  </xsd:complexType>
+
 </xsd:schema>
