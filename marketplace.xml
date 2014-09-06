@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-  <market xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
+<market xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
 
 	<!-- ***************** -->
 	<!-- BA Server Plugins -->
@@ -39,7 +38,9 @@
   <market_entry>
     <id>marketplace</id>
     <type>Platform</type>
-    <category><name>Administration</name></category>
+    <category>
+<name>Administration</name>
+</category>
     <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
     <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
     <name>Pentaho Marketplace</name>
@@ -73,7 +74,10 @@
         <name>Latest snapshot build</name>
         <package_url>http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
         <description>Build for Pentaho 5.0</description>
-        <development_stage><lane>Customer</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Customer</lane>
+<phase>2</phase>
+</development_stage>
         <min_parent_version>5.0</min_parent_version>
       </version>
     </versions>
@@ -90,7 +94,9 @@
   <market_entry>
     <id>pentaho-cdf</id>
     <type>Platform</type>
-    <category><name>CTools</name></category>
+    <category>
+<name>CTools</name>
+</category>
     <img>http://www.webdetails.pt/ficheiros/cdf.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdf_plugin.png</small_img>
     <name>Community Dashboards Framework</name>
@@ -126,32 +132,34 @@
         <description>Stable Release</description>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
-        <development_stage><lane>Customer</lane><phase>3</phase></development_stage>
+        <development_stage>
+<lane>Customer</lane>
+<phase>3</phase>
+</development_stage>
         <build_id/>
       </version>
 
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
-        <samples_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>128</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+		    <branch>TRUNK</branch>
+ 			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+            <samples_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+            <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		    <build_id>128</build_id>
+            <min_parent_version>1.0</min_parent_version>
+            <max_parent_version>4.9</max_parent_version>
+	        </version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
-        <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
-        <description>Build for Pentaho 5.0</description>
-        <build_id>476</build_id>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Customer</lane><phase>2</phase></development_stage>
-      </version>
+            <branch>TRUNK</branch>
+            <version>TRUNK-SNAPSHOT</version>
+            <name>Trunk</name>
+            <package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+            <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+            <description>Build for Pentaho 5.0</description>
+            <build_id>476</build_id>
+            <min_parent_version>5.0</min_parent_version>
+          </version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-1.png</screenshot>
@@ -163,7 +171,9 @@
   <market_entry>
     <id>cda</id>
     <type>Platform</type>
-    <category><name>CTools</name></category>
+    <category>
+<name>CTools</name>
+</category>
     <img>http://www.webdetails.pt/ficheiros/cda.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cda_plugin.png</small_img>
     <name>Community Data Access</name>
@@ -201,31 +211,33 @@
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
-        <development_stage><lane>Customer</lane><phase>3</phase></development_stage>
+        <development_stage>
+<lane>Customer</lane>
+<phase>3</phase>
+</development_stage>
       </version>
 
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
         <package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
         <samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>127</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+		<build_id>127</build_id>
+        <min_parent_version>1.0</min_parent_version>		
+		<max_parent_version>4.9</max_parent_version>        
+		</version>
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
         <package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
         <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Build for Pentaho 5.0</description>
-        <build_id>219</build_id>
+		<build_id>219</build_id>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Customer</lane><phase>2</phase></development_stage>
-      </version>
+		</version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-01.png</screenshot>
@@ -237,7 +249,9 @@
   <market_entry>
     <id>pentaho-cdf-dd</id>
     <type>Platform</type>
-    <category><name>CTools</name></category>
+    <category>
+<name>CTools</name>
+</category>
     <img>http://www.webdetails.pt/ficheiros/cde.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cde_plugin.png</small_img>
     <name>Community Dashboard Editor</name>
@@ -278,32 +292,34 @@
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
-        <development_stage><lane>Customer</lane><phase>3</phase></development_stage>
+        <development_stage>
+<lane>Customer</lane>
+<phase>3</phase>
+</development_stage>
       </version>
 
 
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
-        <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>373</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+            <branch>TRUNK</branch>
+    		<version>TRUNK-SNAPSHOT</version>
+	    	<name>Trunk</name>
+            <package_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
+            <samples_url>http://ci.analytical-labs.com/job/Webdetails-CDE/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
+            <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		    <build_id>381</build_id>
+            <min_parent_version>1.0</min_parent_version>		
+	    	<max_parent_version>4.9</max_parent_version>        
+		    </version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
-        <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
-        <description>Build for Pentaho 5.0</description>
-        <build_id>253</build_id>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Customer</lane><phase>2</phase></development_stage>
-      </version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+        		<name>Trunk</name>                
+                <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
+                <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
+                <description>Build for Pentaho 5.0</description>
+        		<build_id>271</build_id>
+                <min_parent_version>5.0</min_parent_version>	
+            </version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-1.png</screenshot>
@@ -316,7 +332,9 @@
   <market_entry>
     <id>cgg</id>
     <type>Platform</type>
-    <category><name>CTools</name></category>
+    <category>
+<name>CTools</name>
+</category>
     <img>http://www.webdetails.pt/ficheiros/cgg.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cgg_plugin.png</small_img>
     <name>Community Graphics Generator</name>
@@ -353,38 +371,42 @@
         <description>14.07.29 release.</description>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
-        <development_stage><lane>Customer</lane><phase>3</phase></development_stage>
+        <development_stage>
+<lane>Customer</lane>
+<phase>3</phase>
+</development_stage>
         <build_id/>
       </version>
 
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
         <package_url>http://ci.pentaho.com/job/pentaho-cgg-pentaho/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>42</build_id>
+		<build_id>42</build_id>
         <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+		<max_parent_version>4.9</max_parent_version>
+		</version>
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
         <package_url>http://ci.pentaho.com/job/pentaho-cgg/lastSuccessfulBuild/artifact/cgg-pentaho5/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>22</build_id>
+		<build_id>22</build_id>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Customer</lane><phase>2</phase></development_stage>
 
-      </version>
+		</version>
     </versions>
   </market_entry>
 
   <market_entry>
     <id>sparkl</id>
     <type>Platform</type>
-    <category><name>Development</name></category>
+    <category>
+<name>Development</name>
+</category>
     <img>http://www.webdetails.pt/ficheiros/sparkl2.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/sparkl2.png</small_img>
     <name>Sparkl - Pentaho Application Builder</name>
@@ -411,28 +433,30 @@
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>3</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>3</phase>
+</development_stage>
       </version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-        <description/>
-        <build_id>18</build_id>
-        <max_parent_version>4.9</max_parent_version>
-        <min_parent_version>1.0</min_parent_version>
-      </version>
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+		    <name>Trunk</name>
+    		<package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+	    	<description/>
+		    <build_id>18</build_id>
+            <max_parent_version>4.9</max_parent_version>
+	    	<min_parent_version>1.0</min_parent_version>		
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
-        <description>@PLUGIN_PACKAGE_DESCRIPTION@</description>
-        <build_id>59</build_id>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
-      </version>
+	        <branch>TRUNK</branch>
+    		<version>TRUNK-SNAPSHOT</version>
+	    	<name>Trunk</name>
+		    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+    		<description>@PLUGIN_PACKAGE_DESCRIPTION@</description>
+	    	<build_id>63</build_id>
+            <min_parent_version>5.0</min_parent_version>
+		</version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-1.png</screenshot>
@@ -444,7 +468,9 @@
   <market_entry>
     <id>d3ComponentLibrary</id>
     <type>Platform</type>
-    <category><name>Visualization</name></category>
+    <category>
+<name>Visualization</name>
+</category>
     <name>D3 Component Library</name>
     <description>
       This project holds d3 components to be used in Pentaho, both on Analyzer and on CTools dashboards.
@@ -465,7 +491,10 @@
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
   </market_entry>
@@ -473,7 +502,9 @@
   <market_entry>
     <id>saiku</id>
     <type>Platform</type>
-    <category><name>Analysis</name></category>
+    <category>
+<name>Analysis</name>
+</category>
     <img>http://www.webdetails.pt/ficheiros/saiku.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/saiku_plugin.png</small_img>
     <name>Saiku Analytics</name>
@@ -515,7 +546,10 @@
         <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-2.6.zip</package_url>
         <description>Build for Pentaho 5.0+</description>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>4</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>4</phase>
+</development_stage>
       </version>
       <version>
         <branch>TRUNK</branch>
@@ -524,7 +558,10 @@
         <package_url>http://ci.analytical-labs.com/job/saiku-bi-platform-plugin-p5/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin-p5/target/saiku-plugin-p5-3.0-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Install at your own risk...</description>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
 
 
@@ -534,7 +571,12 @@
   <market_entry>
     <id>saiku-chart-plus</id>
     <type>Platform</type>
-    <category><name>Add On</name><parent><name>Analysis</name></parent></category>
+    <category>
+<name>Add On</name>
+<parent>
+<name>Analysis</name>
+</parent>
+</category>
     <img>https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png</img>
     <small_img>https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png</small_img>
     <name>Saiku Chart Plus</name>
@@ -573,7 +615,10 @@ Having trouble with this project? Feel free to send us an e-mail at info@it4biz.
         <description>RC4 for the Saiku Plugin
         </description>
         <min_parent_version>4.8</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -586,7 +631,12 @@ Having trouble with this project? Feel free to send us an e-mail at info@it4biz.
   <market_entry>
     <id>IvyBC</id>
     <type>Platform</type>
-    <category><name>Add On</name><parent><name>CTools</name></parent></category>
+    <category>
+<name>Add On</name>
+<parent>
+<name>CTools</name>
+</parent>
+</category>
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_short.png</img>
     <small_img/>
     <name>IvyBC - Ivy Bootstrap Components (Free)</name>
@@ -655,7 +705,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>1.0.0 (free version)</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -668,7 +721,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>IvyDD</id>
     <type>Platform</type>
-    <category><name>Development</name></category>
+    <category>
+<name>Development</name>
+</category>
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydd_short.png</img>
     <small_img/>
     <name>IvyDD - Ivy Dashboard Designer</name>
@@ -708,7 +763,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>Proof of Concept release 0.0.2</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -721,7 +779,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>IvySE</id>
     <type>Platform</type>
-    <category><name>Analysis</name></category>
+    <category>
+<name>Analysis</name>
+</category>
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_short.png</img>
     <small_img/>
     <name>IvySE - Ivy Schema Editor</name>
@@ -777,7 +837,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>Release 0.0.3</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -789,7 +852,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>IvyDC</id>
     <type>Platform</type>
-    <category><name>Add On</name><parent><name>CTools</name></parent></category>
+    <category>
+<name>Add On</name>
+<parent>
+<name>CTools</name>
+</parent>
+</category>
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydc_short.png</img>
     <small_img/>
     <name>IvyDC - Ivy Dashboard Components</name>
@@ -846,7 +914,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.4/IvyDC.zip/download</package_url>
         <description>Release 0.0.4</description>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -860,7 +931,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>openi</id>
     <type>Platform</type>
-    <category><name>Analysis</name></category>
+    <category>
+<name>Analysis</name>
+</category>
     <img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
     <small_img/>
     <name>OpenI-Pentaho Plugin</name>
@@ -893,7 +966,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <package_url>http://downloads.sourceforge.net/project/openi/openi-3.0/openi-pentaho-plugin-3.0.2.zip</package_url>
         <description>Point Release for Pentaho 5.0. Available on both SF.net(http://sourceforge.net/projects/openi) and GitHub(https://www.github.com/openi/)</description>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
   </market_entry>
@@ -902,7 +978,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>pivot4j</id>
     <type>Platform</type>
-    <category><name>Analysis</name></category>
+    <category>
+<name>Analysis</name>
+</category>
     <img>http://www.pivot4j.org/img/logo.png</img>
     <small_img>http://www.pivot4j.org/img/logo.png</small_img>
     <name>Pivot4J Analytics</name>
@@ -921,7 +999,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <package_url>http://ci.greencatsoft.com/job/Pivot4J/364/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip</package_url>
         <description>The latest development snapshot build.</description>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -932,7 +1013,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>changePassword</id>
     <type>Platform</type>
-    <category><name>Administration</name></category>
+    <category>
+<name>Administration</name>
+</category>
     <name>Change Password</name>
     <description><![CDATA[
     Plugin that allows the user logged in change its password.<br/>
@@ -971,7 +1054,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <build_id>2014022401</build_id>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version/>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -983,7 +1069,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>BTable</id>
     <type>Platform</type>
-    <category><name>Add On</name><parent><name>CTools</name></parent></category>
+    <category>
+<name>Add On</name>
+<parent>
+<name>CTools</name>
+</parent>
+</category>
     <img>http://www.biztech.it/btable/img/btable.png</img>
     <small_img>http://www.biztech.it/btable/img/btable.png</small_img>
     <name>BTable</name>
@@ -1015,7 +1106,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>Release 2.1</description>
         <build_id>manual-20140610</build_id>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1029,7 +1123,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>AAAR</id>
     <type>Platform</type>
-    <category><name>Analysis</name></category>
+    <category>
+<name>Analysis</name>
+</category>
     <name>Alfresco Audit Analysis and Reporting</name>
     <description><![CDATA[
     Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
@@ -1074,7 +1170,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <build_id>1</build_id>
         <max_parent_version/>
         <min_parent_version>5.1</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>LIMITED</branch>
@@ -1100,7 +1199,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <build_id>1</build_id>
         <max_parent_version>5.0.99</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1113,7 +1215,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>repositorySynchronizer</id>
     <type>Platform</type>
-    <category><name>Administration</name></category>
+    <category>
+<name>Administration</name>
+</category>
     <name>Pentaho Repository Synchronizer</name>
     <description><![CDATA[
     Pentaho Repository Synchronizer allows you to interact with the
@@ -1149,7 +1253,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>Latest Release</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1162,7 +1269,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>logManager</id>
     <type>Platform</type>
-    <category><name>Administration</name></category>
+    <category>
+<name>Administration</name>
+</category>
     <name>Pentaho Log Manager</name>
     <description><![CDATA[
     Pentaho Log Manager allows you to view, download, and delete
@@ -1193,7 +1302,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version/>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1208,7 +1320,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>cdv</id>
     <type>Platform</type>
-    <category><name>CTools</name></category>
+    <category>
+<name>CTools</name>
+</category>
     <img>http://www.webdetails.pt/ficheiros/cdv.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdv_plugin.png</small_img>
     <name>Community Data Validation</name>
@@ -1237,26 +1351,25 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <min_parent_version>1.0</min_parent_version>
       </version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>59</build_id>
-        <max_parent_version>4.9</max_parent_version>
-        <min_parent_version>1.0</min_parent_version>
-      </version>
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	    	<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+		    <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+    		<build_id>59</build_id>
+            <max_parent_version>4.9</max_parent_version>		
+            <min_parent_version>1.0</min_parent_version>		
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Build for Pentaho 5.0</description>
-        <build_id>48</build_id>
-        <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.0</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
-      </version>
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+		    <name>Trunk</name>
+            <package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+            <build_id>48</build_id>
+            <min_parent_version>5.0</min_parent_version>
+            <max_parent_version>5.0</max_parent_version>            
+		</version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-1.png</screenshot>
@@ -1270,7 +1383,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>cdb</id>
     <type>Platform</type>
-    <category><name>Administration</name><parent><name>CTools</name></parent></category>
+    <category>
+<name>Administration</name>
+<parent>
+<name>CTools</name>
+</parent>
+</category>
     <img>http://www.webdetails.pt/ficheiros/cdb.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdb_plugin.png</small_img>
     <name>Community Data Browser</name>
@@ -1304,29 +1422,31 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>14.07.29 release.</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>3</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>3</phase>
+</development_stage>
       </version>
 
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho/dist/cdb-pentaho-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Trunk snapshot build for Pentaho 4.x</description>
-        <build_id>12</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+	    <branch>TRUNK</branch>
+			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho/dist/cdb-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Trunk snapshot build for Pentaho 4.x</description>
+		    <build_id>12</build_id>
+            <min_parent_version>1.0</min_parent_version>		
+	    	<max_parent_version>4.9</max_parent_version>     
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho5/dist/cdb-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Build for Pentaho 5.0</description>
-        <build_id>12</build_id>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
-      </version>
+	    <branch>TRUNK</branch>
+			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho5/dist/cdb-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+		    <build_id>12</build_id>
+            <min_parent_version>5.0</min_parent_version>		
+		</version>
     </versions>
   </market_entry>
 
@@ -1364,29 +1484,31 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>14.07.29 release.</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
 
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho/dist/cdc-pentaho-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>14</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho/dist/cdc-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>14</build_id>
+		<min_parent_version>1.0</min_parent_version>
+		<max_parent_version>4.9</max_parent_version>
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho5/dist/cdc-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>14</build_id>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
-      </version>
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho5/dist/cdc-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>14</build_id>
+		<min_parent_version>5.0</min_parent_version>		
+		</version>
     </versions>
   </market_entry>
 
@@ -1394,7 +1516,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>cfr</id>
     <type>Platform</type>
-    <category><name>CTools</name></category>
+    <category>
+<name>CTools</name>
+</category>
     <img>http://www.webdetails.pt/ficheiros/cfr_logo.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cfr_logo.png</small_img>
     <name>Community File Repository</name>
@@ -1409,24 +1533,23 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
+	    <version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
         <package_url>http://ci.pentaho.com/job/pentaho-cfr-pentaho/lastSuccessfulBuild/artifact/cfr-pentaho/dist/cfr-pentaho-TRUNK-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>60</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+		<build_id>60</build_id>
+        <min_parent_version>1.0</min_parent_version>		
+		<max_parent_version>4.9</max_parent_version>    
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Build for Pentaho 5.0</description>
-        <build_id>43</build_id>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
-      </version>
+		    <branch>TRUNK</branch>
+			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+		    <build_id>43</build_id>
+            <min_parent_version>5.0</min_parent_version>		
+        </version>
     </versions>
   </market_entry>
 
@@ -1435,7 +1558,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>startupRuleEngine</id>
     <type>Platform</type>
-    <category><name>Administration</name></category>
+    <category>
+<name>Administration</name>
+</category>
     <name>Startup Rule Engine</name>
     <description>
       <![CDATA[ Application that allows the user to configure Kettle jobs and transformations to be run upon specific events, such as upon session login/logout or server startup. <br /><br />
@@ -1471,7 +1596,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>3</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>3</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1482,7 +1610,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>EnvironmentDisplay</id>
     <type>Platform</type>
-    <category><name>Administration</name></category>
+    <category>
+<name>Administration</name>
+</category>
     <name>Environment Display</name>
     <img>http://www.webdetails.pt/ficheiros/envdisplay.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/envdisplay_plugin.png</small_img>
@@ -1512,7 +1642,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <changelog/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>3</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>3</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1523,7 +1656,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>pash</id>
     <type>Platform</type>
-    <category><name>Administration</name></category>
+    <category>
+<name>Administration</name>
+</category>
     <img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</img>
     <small_img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</small_img>
     <name>Pentaho Analytics Shell</name>
@@ -1547,7 +1682,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <package_url>https://github.com/rpbouman/pash/raw/master/bin/pash.zip</package_url>
         <description>Pash version 0.1 (beta)</description>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>3</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>3</phase>
+</development_stage>
       </version>
     </versions>
   </market_entry>
@@ -1555,7 +1693,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>waqr</id>
     <type>Platform</type>
-    <category><name>Legacy</name></category>
+    <category>
+<name>Legacy</name>
+</category>
     <img/>
     <small_img/>
     <name>WAQR</name>
@@ -1573,7 +1713,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <package_url>http://ci.pentaho.com/job/WAQR-Plugin/lastSuccessfulBuild/artifact/dist/waqr-plugin-package-TRUNK-SNAPSHOT.zip</package_url>
         <description>Build for Pentaho 5.0</description>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Customer</lane><phase>4</phase></development_stage>
+        <development_stage>
+<lane>Customer</lane>
+<phase>4</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots/>
@@ -1582,7 +1725,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>fusion_plugin</id>
     <type>Platform</type>
-    <category><name>Visualization</name></category>
+    <category>
+<name>Visualization</name>
+</category>
     <img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</img>
     <small_img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</small_img>
     <name>Fusion Charts Plugin</name>
@@ -1615,7 +1760,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip</samples_url>
         <max_parent_version>5.1</max_parent_version>
         <min_parent_version>5.0.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1628,7 +1776,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>bissolTableDataEditor</id>
     <type>Platform</type>
-    <category><name>Administration</name></category>
+    <category>
+<name>Administration</name>
+</category>
     <img>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-sparkl-icon.png</img>
     <small_img/>
     <name>Bissol Table Data Editor</name>
@@ -1676,7 +1826,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>Release 0.1.8</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1688,7 +1841,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>languagePack_ca</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>Catalan Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -1731,7 +1886,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -1744,7 +1902,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1756,7 +1917,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_nl</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>Dutch Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -1799,7 +1962,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -1812,7 +1978,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1823,7 +1992,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_fr</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>French Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -1866,7 +2037,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -1879,7 +2053,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -1890,7 +2067,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_de</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>German Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -1933,7 +2112,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -1956,7 +2138,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_hi</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>Hindi Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -1999,7 +2183,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -2012,7 +2199,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -2023,7 +2213,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_it</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>Italian Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -2067,7 +2259,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -2080,7 +2275,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -2095,7 +2293,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_ja</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>Japanese Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -2138,7 +2338,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -2150,7 +2353,10 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -2162,7 +2368,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_ko</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>Korean Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -2205,7 +2413,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -2218,7 +2429,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -2229,7 +2443,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_pt_BR</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>Portuguese (Brazilian variant) Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -2272,7 +2488,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -2285,7 +2504,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -2296,7 +2518,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_pt_PT</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>Portuguese (European variant) Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -2340,7 +2564,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -2353,7 +2580,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
@@ -2365,7 +2595,9 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_es</id>
     <type>Platform</type>
-    <category><name>Language Pack</name></category>
+    <category>
+<name>Language Pack</name>
+</category>
     <name>Spanish Language Pack Installer</name>
     <description>
       <![CDATA[
@@ -2408,7 +2640,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
       <version>
         <branch>RELEASE</branch>
@@ -2421,7 +2656,10 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.1.99</max_parent_version>
-        <development_stage><lane>Community</lane><phase>2</phase></development_stage>
+        <development_stage>
+<lane>Community</lane>
+<phase>2</phase>
+</development_stage>
       </version>
     </versions>
     <screenshots>
