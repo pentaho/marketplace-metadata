@@ -38,12 +38,12 @@
   <market_entry>
     <id>marketplace</id>
     <type>Platform</type>
-    <category>
-<name>Administration</name>
-</category>
     <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
     <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
     <name>Pentaho Marketplace</name>
+    <category>
+      <name>Administration</name>
+    </category>
     <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>
       Pentaho Marketplace allows users to explore and test the plugins
@@ -94,12 +94,12 @@
   <market_entry>
     <id>pentaho-cdf</id>
     <type>Platform</type>
-    <category>
-<name>CTools</name>
-</category>
     <img>http://www.webdetails.pt/ficheiros/cdf.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdf_plugin.png</small_img>
     <name>Community Dashboards Framework</name>
+    <category>
+      <name>CTools</name>
+    </category>
     <documentation_url>http://cdf.webdetails.org</documentation_url>
     <description>
       Community Dashboard Framework (CDF) is the engine that allows you to
@@ -171,12 +171,12 @@
   <market_entry>
     <id>cda</id>
     <type>Platform</type>
-    <category>
-<name>CTools</name>
-</category>
     <img>http://www.webdetails.pt/ficheiros/cda.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cda_plugin.png</small_img>
     <name>Community Data Access</name>
+    <category>
+      <name>CTools</name>
+    </category>
     <documentation_url>http://cda.webdetails.org</documentation_url>
     <description>
       Community Data Access (CDA) is a Pentaho plugin designed for
@@ -249,12 +249,12 @@
   <market_entry>
     <id>pentaho-cdf-dd</id>
     <type>Platform</type>
-    <category>
-<name>CTools</name>
-</category>
     <img>http://www.webdetails.pt/ficheiros/cde.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cde_plugin.png</small_img>
     <name>Community Dashboard Editor</name>
+    <category>
+      <name>CTools</name>
+    </category>
     <documentation_url>http://cde.webdetails.org</documentation_url>
     <description>
       The Community Dashboard Editor (CDE) is the outcome of real-world
@@ -332,12 +332,12 @@
   <market_entry>
     <id>cgg</id>
     <type>Platform</type>
-    <category>
-<name>CTools</name>
-</category>
     <img>http://www.webdetails.pt/ficheiros/cgg.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cgg_plugin.png</small_img>
     <name>Community Graphics Generator</name>
+    <category>
+      <name>CTools</name>
+    </category>
     <documentation_url>http://ctools.webdetails.org</documentation_url>
     <description>
       The CGG (Community Graphics Generator) is a Pentaho Plugin that
@@ -404,12 +404,12 @@
   <market_entry>
     <id>sparkl</id>
     <type>Platform</type>
-    <category>
-<name>Development</name>
-</category>
     <img>http://www.webdetails.pt/ficheiros/sparkl2.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/sparkl2.png</small_img>
     <name>Sparkl - Pentaho Application Builder</name>
+    <category>
+      <name>Development</name>
+    </category>
     <documentation_url>http://www.webdetails.pt/ctools.html</documentation_url>
     <description>
       Sparkl, or Pentaho Application Builder, is a plugin creator
@@ -468,10 +468,10 @@
   <market_entry>
     <id>d3ComponentLibrary</id>
     <type>Platform</type>
-    <category>
-<name>Visualization</name>
-</category>
     <name>D3 Component Library</name>
+    <category>
+      <name>Visualization</name>
+    </category>
     <description>
       This project holds d3 components to be used in Pentaho, both on Analyzer and on CTools dashboards.
       The idea is to provide some helper functions that allows to quickly port examples from the d3 gallery page and implement them as components to be used in the Pentaho platform.
@@ -502,12 +502,12 @@
   <market_entry>
     <id>saiku</id>
     <type>Platform</type>
-    <category>
-<name>Analysis</name>
-</category>
     <img>http://www.webdetails.pt/ficheiros/saiku.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/saiku_plugin.png</small_img>
     <name>Saiku Analytics</name>
+    <category>
+      <name>Analysis</name>
+    </category>
     <documentation_url>http://analytical-labs.com/</documentation_url>
     <description>
       Saiku is a modular open-source analysis suite offering lightweight
@@ -571,15 +571,15 @@
   <market_entry>
     <id>saiku-chart-plus</id>
     <type>Platform</type>
-    <category>
-<name>Add On</name>
-<parent>
-<name>Analysis</name>
-</parent>
-</category>
     <img>https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png</img>
     <small_img>https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png</small_img>
     <name>Saiku Chart Plus</name>
+    <category>
+      <name>Add On</name>
+      <parent>
+        <name>Analysis</name>
+      </parent>
+    </category>
     <documentation_url>http://it4biz.github.io/SaikuChartPlus/</documentation_url>
     <description>
       <![CDATA[
@@ -631,15 +631,15 @@ Having trouble with this project? Feel free to send us an e-mail at info@it4biz.
   <market_entry>
     <id>IvyBC</id>
     <type>Platform</type>
-    <category>
-<name>Add On</name>
-<parent>
-<name>CTools</name>
-</parent>
-</category>
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_short.png</img>
     <small_img/>
     <name>IvyBC - Ivy Bootstrap Components (Free)</name>
+    <category>
+      <name>Add On</name>
+      <parent>
+        <name>CTools</name>
+      </parent>
+    </category>
     <documentation_url>https://github.com/ivylabs/IvyBC/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -721,12 +721,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>IvyDD</id>
     <type>Platform</type>
-    <category>
-<name>Development</name>
-</category>
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydd_short.png</img>
     <small_img/>
     <name>IvyDD - Ivy Dashboard Designer</name>
+    <category>
+      <name>Development</name>
+    </category>
     <documentation_url>https://github.com/ivylabs/IvyDD/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -779,12 +779,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>IvySE</id>
     <type>Platform</type>
-    <category>
-<name>Analysis</name>
-</category>
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_short.png</img>
     <small_img/>
     <name>IvySE - Ivy Schema Editor</name>
+    <category>
+      <name>Analysis</name>
+    </category>
     <documentation_url>https://github.com/ivylabs/IvySE/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -852,15 +852,15 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>IvyDC</id>
     <type>Platform</type>
-    <category>
-<name>Add On</name>
-<parent>
-<name>CTools</name>
-</parent>
-</category>
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydc_short.png</img>
     <small_img/>
     <name>IvyDC - Ivy Dashboard Components</name>
+    <category>
+      <name>Add On</name>
+      <parent>
+        <name>CTools</name>
+      </parent>
+    </category>
     <documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -931,12 +931,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>openi</id>
     <type>Platform</type>
-    <category>
-<name>Analysis</name>
-</category>
     <img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
     <small_img/>
     <name>OpenI-Pentaho Plugin</name>
+    <category>
+      <name>Analysis</name>
+    </category>
     <documentation_url>http://wiki.openi.org/</documentation_url>
     <description>
       OpenI plugin for Pentaho CE provides a simple and clean user
@@ -978,12 +978,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>pivot4j</id>
     <type>Platform</type>
-    <category>
-<name>Analysis</name>
-</category>
     <img>http://www.pivot4j.org/img/logo.png</img>
     <small_img>http://www.pivot4j.org/img/logo.png</small_img>
     <name>Pivot4J Analytics</name>
+    <category>
+      <name>Analysis</name>
+    </category>
     <documentation_url>http://www.pivot4j.org/pentaho.html</documentation_url>
     <description>Pivot4J provides a common API for OLAP servers which can be used to build an analytical service frontend with pivot style GUI. Pivot4J Analytics is a full fledged OLAP client application built with the Pivot4J core API, which can be used as a drop-in replacement for legacy the JPivot web application.</description>
     <author>Pivot4J Project</author>
@@ -1013,10 +1013,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>changePassword</id>
     <type>Platform</type>
-    <category>
-<name>Administration</name>
-</category>
     <name>Change Password</name>
+    <category>
+      <name>Administration</name>
+    </category>
     <description><![CDATA[
     Plugin that allows the user logged in change its password.<br/>
     ]]>
@@ -1069,15 +1069,15 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>BTable</id>
     <type>Platform</type>
-    <category>
-<name>Add On</name>
-<parent>
-<name>CTools</name>
-</parent>
-</category>
     <img>http://www.biztech.it/btable/img/btable.png</img>
     <small_img>http://www.biztech.it/btable/img/btable.png</small_img>
     <name>BTable</name>
+    <category>
+      <name>Add On</name>
+      <parent>
+        <name>CTools</name>
+      </parent>
+    </category>
     <documentation_url>http://www.biztech.it/btable</documentation_url>
     <description>BTable is a component for the Community Dashboard Designer (CDE) that extends the standard Table Component with OLAP functionalities and provides a new drill experience... drill anywhere!</description>
     <author>Biz Tech</author>
@@ -1123,10 +1123,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>AAAR</id>
     <type>Platform</type>
-    <category>
-<name>Analysis</name>
-</category>
     <name>Alfresco Audit Analysis and Reporting</name>
+    <category>
+      <name>Analysis</name>
+    </category>
     <description><![CDATA[
     Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
     <br/>
@@ -1215,10 +1215,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>repositorySynchronizer</id>
     <type>Platform</type>
-    <category>
-<name>Administration</name>
-</category>
     <name>Pentaho Repository Synchronizer</name>
+    <category>
+      <name>Administration</name>
+    </category>
     <description><![CDATA[
     Pentaho Repository Synchronizer allows you to interact with the
     solution repository of Pentaho 5 by keeping the disk-based file
@@ -1269,10 +1269,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>logManager</id>
     <type>Platform</type>
-    <category>
-<name>Administration</name>
-</category>
     <name>Pentaho Log Manager</name>
+    <category>
+      <name>Administration</name>
+    </category>
     <description><![CDATA[
     Pentaho Log Manager allows you to view, download, and delete
     Pentaho BI Server logs in the Pentaho User Console.
@@ -1320,12 +1320,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>cdv</id>
     <type>Platform</type>
-    <category>
-<name>CTools</name>
-</category>
     <img>http://www.webdetails.pt/ficheiros/cdv.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdv_plugin.png</small_img>
     <name>Community Data Validation</name>
+    <category>
+      <name>CTools</name>
+    </category>
     <documentation_url>http://ctools.webdetails.org</documentation_url>
     <description>
       In the words of one of the wise men who are still around: "Our
@@ -1383,15 +1383,15 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>cdb</id>
     <type>Platform</type>
-    <category>
-<name>Administration</name>
-<parent>
-<name>CTools</name>
-</parent>
-</category>
     <img>http://www.webdetails.pt/ficheiros/cdb.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdb_plugin.png</small_img>
     <name>Community Data Browser</name>
+    <category>
+      <name>Administration</name>
+      <parent>
+        <name>CTools</name>
+      </parent>
+    </category>
     <documentation_url>http://ctools.webdetails.org</documentation_url>
     <description>
       Calling Business Analysts! Now you can Slice and Dice your Data
@@ -1516,12 +1516,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>cfr</id>
     <type>Platform</type>
-    <category>
-<name>CTools</name>
-</category>
     <img>http://www.webdetails.pt/ficheiros/cfr_logo.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cfr_logo.png</small_img>
     <name>Community File Repository</name>
+    <category>
+      <name>CTools</name>
+    </category>
     <documentation_url>http://www.webdetails.pt/ctools/cfr.html</documentation_url>
     <description>CFR (Community File Repository) is a new CTool Plugin that allows you to setup and use a file repository from inside Pentaho. You can use it to manage your file needs, allowing uploads and downloads from inside your dashboards.</description>
     <author>WebDetails</author>
@@ -1558,10 +1558,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>startupRuleEngine</id>
     <type>Platform</type>
-    <category>
-<name>Administration</name>
-</category>
     <name>Startup Rule Engine</name>
+    <category>
+      <name>Administration</name>
+    </category>
     <description>
       <![CDATA[ Application that allows the user to configure Kettle jobs and transformations to be run upon specific events, such as upon session login/logout or server startup. <br /><br />
                Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
@@ -1610,10 +1610,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>EnvironmentDisplay</id>
     <type>Platform</type>
-    <category>
-<name>Administration</name>
-</category>
     <name>Environment Display</name>
+    <category>
+      <name>Administration</name>
+    </category>
     <img>http://www.webdetails.pt/ficheiros/envdisplay.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/envdisplay_plugin.png</small_img>
     <description>
@@ -1656,12 +1656,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>pash</id>
     <type>Platform</type>
-    <category>
-<name>Administration</name>
-</category>
     <img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</img>
     <small_img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</small_img>
     <name>Pentaho Analytics Shell</name>
+    <category>
+      <name>Administration</name>
+    </category>
     <documentation_url>https://github.com/rpbouman/pash/wiki/Pash---The-Pentaho-Analysis-Shell</documentation_url>
     <description>
       Pash is a shell interface to Pentaho Analysis.
@@ -1693,12 +1693,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>waqr</id>
     <type>Platform</type>
-    <category>
-<name>Legacy</name>
-</category>
     <img/>
     <small_img/>
     <name>WAQR</name>
+    <category>
+      <name>Legacy</name>
+    </category>
     <documentation_url/>
     <description>WAQR (Web Adhoc Query and Reporting) is a report generation tool based on Web 2.0 technology (AJAX, DHTML) designed to help typical business users easily generate adhoc reports using the Pentaho BI platform. It provides a user interface that helps the user quickly identify and group the data of interest, apply constraints to the data, and generate a report. The resulting reports are viewable through WAQR's Preview feature, or through a Pentaho-platform based web application.</description>
     <author>Pentaho Legacy - Plugins developed by Pentaho but no longer supported</author>
@@ -1725,12 +1725,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>fusion_plugin</id>
     <type>Platform</type>
-    <category>
-<name>Visualization</name>
-</category>
     <img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</img>
     <small_img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</small_img>
     <name>Fusion Charts Plugin</name>
+    <category>
+      <name>Visualization</name>
+    </category>
     <documentation_url>https://code.google.com/p/pentaho-fc-plugin/wiki/Main</documentation_url>
     <description>
       <![CDATA[
@@ -1776,12 +1776,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>bissolTableDataEditor</id>
     <type>Platform</type>
-    <category>
-<name>Administration</name>
-</category>
     <img>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-sparkl-icon.png</img>
     <small_img/>
     <name>Bissol Table Data Editor</name>
+    <category>
+      <name>Administration</name>
+    </category>
     <documentation_url>https://github.com/diethardsteiner/bissolTableDataEditor/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -1841,10 +1841,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>languagePack_ca</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>Catalan Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the Catalan language in Pentaho 5 <br /><br />
@@ -1917,10 +1917,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_nl</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>Dutch Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the Dutch language in Pentaho 5 <br /><br />
@@ -1992,10 +1992,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_fr</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>French Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the French language in Pentaho 5 <br /><br />
@@ -2067,10 +2067,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_de</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>German Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the German language in Pentaho 5 <br /><br />
@@ -2138,10 +2138,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_hi</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>Hindi Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the Hindi language in Pentaho 5 <br /><br />
@@ -2213,10 +2213,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_it</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>Italian Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the Italian language in Pentaho 5 <br /><br />
@@ -2293,10 +2293,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_ja</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>Japanese Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the Japanese language in Pentaho 5 <br /><br />
@@ -2368,10 +2368,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_ko</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>Korean Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the Korean language in Pentaho 5 <br /><br />
@@ -2443,10 +2443,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_pt_BR</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>Portuguese (Brazilian variant) Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5 <br /><br />
@@ -2518,10 +2518,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_pt_PT</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>Portuguese (European variant) Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the Portuguese language (European variant) in Pentaho 5 <br /><br />
@@ -2595,10 +2595,10 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>languagePack_es</id>
     <type>Platform</type>
-    <category>
-<name>Language Pack</name>
-</category>
     <name>Spanish Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
     <description>
       <![CDATA[
                This plugin installs language definitions for the Spanish language in Pentaho 5 <br /><br />
