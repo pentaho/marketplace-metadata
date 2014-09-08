@@ -72,13 +72,27 @@
         <version>TRUNK-SNAPSHOT</version>
         <build_id>49</build_id>
         <name>Latest snapshot build</name>
-        <package_url>http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip</package_url>
+        <package_url>http://repository.pentaho.org/artifactory/pentaho/pentaho/marketplace/5.1-SNAPSHOT/marketplace-5.1-SNAPSHOT.zip</package_url>
         <description>Build for Pentaho 5.0</description>
         <development_stage>
-<lane>Customer</lane>
-<phase>2</phase>
-</development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
         <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.1.99</max_parent_version>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <build_id>56</build_id>
+        <name>Latest snapshot build</name>
+        <package_url>http://repository.pentaho.org/artifactory/pentaho/pentaho/marketplace/TRUNK-SNAPSHOT/marketplace-TRUNK-SNAPSHOT.zip</package_url>
+        <description>Build for Pentaho 5.2</description>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+        <min_parent_version>5.2</min_parent_version>
       </version>
     </versions>
     <screenshots>
