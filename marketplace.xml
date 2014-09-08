@@ -79,7 +79,7 @@
           <phase>2</phase>
         </development_stage>
         <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.1</max_parent_version>
+        <max_parent_version>5.1.99</max_parent_version>
       </version>
       <version>
         <branch>TRUNK</branch>
