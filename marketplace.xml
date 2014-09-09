@@ -159,11 +159,11 @@
     		<name>Trunk</name>
 	        <package_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
             <samples_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
-            <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>            
+            <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
             <developmentStage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </developmentStage>                        
+            </developmentStage>
 		    <build_id>132</build_id>
             <min_parent_version>1.0</min_parent_version>
             <max_parent_version>4.9</max_parent_version>
@@ -178,7 +178,7 @@
             <developmentStage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </developmentStage>                                    
+            </developmentStage>
             <build_id>480</build_id>
             <min_parent_version>5.0</min_parent_version>
           </version>
@@ -249,10 +249,10 @@
         <developmentStage>
             <lane>Community</lane>
             <phase>2</phase>
-        </developmentStage>                                            
+        </developmentStage>
 		<build_id>128</build_id>
-        <min_parent_version>1.0</min_parent_version>		
-		<max_parent_version>4.9</max_parent_version>        
+        <min_parent_version>1.0</min_parent_version>
+		<max_parent_version>4.9</max_parent_version>
 		</version>
       <version>
         <branch>TRUNK</branch>
@@ -264,7 +264,7 @@
         <developmentStage>
             <lane>Community</lane>
             <phase>2</phase>
-        </developmentStage>                                            
+        </developmentStage>
 		<build_id>220</build_id>
         <min_parent_version>5.0</min_parent_version>
 		</version>
@@ -339,20 +339,20 @@
             <developmentStage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </developmentStage>                                                
+            </developmentStage>
 		    <build_id>2</build_id>
-            <min_parent_version>1.0</min_parent_version>		
-	    	<max_parent_version>4.9</max_parent_version>        
+            <min_parent_version>1.0</min_parent_version>
+	    	<max_parent_version>4.9</max_parent_version>
 		    </version>
       <version>
                 <branch>TRUNK</branch>
                 <version>TRUNK-SNAPSHOT</version>
-        		<name>Trunk</name>                
+        		<name>Trunk</name>
                 <package_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
                 <samples_url>http://ci.pentaho.com/job/webdetails-cde-5.0/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
         		<build_id>271</build_id>
-                <min_parent_version>5.0</min_parent_version>	
+                <min_parent_version>5.0</min_parent_version>
             </version>
     </versions>
     <screenshots>
@@ -480,7 +480,7 @@
 	    	<description/>
 		    <build_id>18</build_id>
             <max_parent_version>4.9</max_parent_version>
-	    	<min_parent_version>1.0</min_parent_version>		
+	    	<min_parent_version>1.0</min_parent_version>
 		</version>
       <version>
 	        <branch>TRUNK</branch>
@@ -1393,10 +1393,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
             <developmentStage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </developmentStage>                                    		    
+            </developmentStage>
     		<build_id>60</build_id>
-            <max_parent_version>4.9</max_parent_version>		
-            <min_parent_version>1.0</min_parent_version>		
+            <max_parent_version>4.9</max_parent_version>
+            <min_parent_version>1.0</min_parent_version>
 		</version>
       <version>
     	    <branch>TRUNK</branch>
@@ -1407,10 +1407,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
             <developmentStage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </developmentStage>                                                
+            </developmentStage>
             <build_id>49</build_id>
             <min_parent_version>5.0</min_parent_version>
-            <max_parent_version>5.0</max_parent_version>            
+            <max_parent_version>5.0</max_parent_version>
 		</version>
     </versions>
     <screenshots>
@@ -1429,10 +1429,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <small_img>http://www.webdetails.pt/ficheiros/cdb_plugin.png</small_img>
     <name>Community Data Browser</name>
     <category>
-      <name>Administration</name>
-      <parent>
-        <name>CTools</name>
-      </parent>
+      <name>CTools</name>
     </category>
     <documentation_url>http://ctools.webdetails.org</documentation_url>
     <description>
@@ -1479,10 +1476,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
             <developmentStage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </developmentStage>                                                
+            </developmentStage>
 		    <build_id>13</build_id>
-            <min_parent_version>1.0</min_parent_version>		
-	    	<max_parent_version>4.9</max_parent_version>     
+            <min_parent_version>1.0</min_parent_version>
+	    	<max_parent_version>4.9</max_parent_version>
 		</version>
       <version>
 	    <branch>TRUNK</branch>
@@ -1493,9 +1490,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
             <developmentStage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </developmentStage>                                                
+            </developmentStage>
 		    <build_id>13</build_id>
-            <min_parent_version>5.0</min_parent_version>		
+            <min_parent_version>5.0</min_parent_version>
 		</version>
     </versions>
   </market_entry>
@@ -1549,7 +1546,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <developmentStage>
             <lane>Community</lane>
             <phase>2</phase>
-        </developmentStage>                                    		
+        </developmentStage>
 		<build_id>15</build_id>
 		<min_parent_version>1.0</min_parent_version>
 		<max_parent_version>4.9</max_parent_version>
@@ -1563,10 +1560,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <developmentStage>
             <lane>Community</lane>
             <phase>2</phase>
-        </developmentStage>                                    
+        </developmentStage>
 
 		<build_id>15</build_id>
-		<min_parent_version>5.0</min_parent_version>		
+		<min_parent_version>5.0</min_parent_version>
 		</version>
     </versions>
   </market_entry>
@@ -1597,8 +1594,8 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <package_url>http://ci.pentaho.com/job/pentaho-cfr-pentaho/lastSuccessfulBuild/artifact/cfr-pentaho/dist/cfr-pentaho-TRUNK-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>60</build_id>
-        <min_parent_version>1.0</min_parent_version>		
-		<max_parent_version>4.9</max_parent_version>    
+        <min_parent_version>1.0</min_parent_version>
+		<max_parent_version>4.9</max_parent_version>
 		</version>
       <version>
 		    <branch>TRUNK</branch>
@@ -1607,7 +1604,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
 	        <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
 		    <build_id>43</build_id>
-            <min_parent_version>5.0</min_parent_version>		
+            <min_parent_version>5.0</min_parent_version>
         </version>
     </versions>
   </market_entry>
