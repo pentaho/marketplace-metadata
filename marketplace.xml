@@ -1814,10 +1814,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <author_logo>http://www.xpand-it.com/images/xpand_it/xpand%20it-new-logo-%20standard.png</author_logo>
     <license_name>GNU General Public License</license_name>
     <license_text>For more details see: http://www.gnu.org/licenses/</license_text>
+	<dependencies>CDF, CDE, CDA</dependencies>
     <versions>
       <version>
         <branch>Release</branch>
-        <version>3.0.5</version>
+        <version>3.0.6</version>
         <name>Latest</name>
         <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip</package_url>
         <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip</samples_url>
