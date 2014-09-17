@@ -41,9 +41,7 @@
     <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
     <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
     <name>Pentaho Marketplace</name>
-    <category>
-      <name>Administration</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>
       Pentaho Marketplace allows users to explore and test the plugins
@@ -111,9 +109,7 @@
     <img>http://www.webdetails.pt/ficheiros/cdf.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdf_plugin.png</small_img>
     <name>Community Dashboards Framework</name>
-    <category>
-      <name>CTools</name>
-    </category>
+    <category><name>Dashboards</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://cdf.webdetails.org</documentation_url>
     <description>
       Community Dashboard Framework (CDF) is the engine that allows you to
@@ -159,11 +155,11 @@
     		<name>Trunk</name>
 	        <package_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
             <samples_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
-            <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>            
+            <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
             <development_stage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </development_stage>                        
+            </development_stage>
 		    <build_id>136</build_id>
             <min_parent_version>1.0</min_parent_version>
             <max_parent_version>4.9</max_parent_version>
@@ -178,7 +174,7 @@
             <development_stage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </development_stage>                                    
+            </development_stage>
             <build_id>484</build_id>
             <min_parent_version>5.0</min_parent_version>
           </version>
@@ -196,9 +192,7 @@
     <img>http://www.webdetails.pt/ficheiros/cda.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cda_plugin.png</small_img>
     <name>Community Data Access</name>
-    <category>
-      <name>CTools</name>
-    </category>
+    <category><name>Data</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://cda.webdetails.org</documentation_url>
     <description>
       Community Data Access (CDA) is a Pentaho plugin designed for
@@ -249,10 +243,10 @@
         <development_stage>
             <lane>Community</lane>
             <phase>2</phase>
-        </development_stage>                                            
+        </development_stage>
 		<build_id>130</build_id>
-        <min_parent_version>1.0</min_parent_version>		
-		<max_parent_version>4.9</max_parent_version>        
+        <min_parent_version>1.0</min_parent_version>
+		<max_parent_version>4.9</max_parent_version>
 		</version>
       <version>
         <branch>TRUNK</branch>
@@ -264,7 +258,7 @@
         <development_stage>
             <lane>Community</lane>
             <phase>2</phase>
-        </development_stage>                                            
+        </development_stage>
 		<build_id>221</build_id>
         <min_parent_version>5.0</min_parent_version>
 		</version>
@@ -282,9 +276,7 @@
     <img>http://www.webdetails.pt/ficheiros/cde.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cde_plugin.png</small_img>
     <name>Community Dashboard Editor</name>
-    <category>
-      <name>CTools</name>
-    </category>
+    <category><name>Dashboards</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://cde.webdetails.org</documentation_url>
     <description>
       The Community Dashboard Editor (CDE) is the outcome of real-world
@@ -339,24 +331,24 @@
             <development_stage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </development_stage>                                                
+            </development_stage>
 		    <build_id>10</build_id>
-            <min_parent_version>1.0</min_parent_version>		
-	    	<max_parent_version>4.9</max_parent_version>        
+            <min_parent_version>1.0</min_parent_version>
+	    	<max_parent_version>4.9</max_parent_version>
 		    </version>
       <version>
                 <branch>TRUNK</branch>
                 <version>TRUNK-SNAPSHOT</version>
-        		<name>Trunk</name>                
+        		<name>Trunk</name>
                 <package_url>http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
                 <samples_url>http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
                 <description>Build for Pentaho 5.0</description>
                 <development_stage>
                     <lane>Community</lane>
                     <phase>2</phase>
-                </development_stage>                                                    
+                </development_stage>
         		<build_id>289</build_id>
-                <min_parent_version>5.0</min_parent_version>	
+                <min_parent_version>5.0</min_parent_version>
             </version>
     </versions>
     <screenshots>
@@ -373,9 +365,7 @@
     <img>http://www.webdetails.pt/ficheiros/cgg.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cgg_plugin.png</small_img>
     <name>Community Graphics Generator</name>
-    <category>
-      <name>CTools</name>
-    </category>
+    <category><name>Dashboards</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://ctools.webdetails.org</documentation_url>
     <description>
       The CGG (Community Graphics Generator) is a Pentaho Plugin that
@@ -445,9 +435,7 @@
     <img>http://www.webdetails.pt/ficheiros/sparkl2.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/sparkl2.png</small_img>
     <name>Sparkl - Pentaho Application Builder</name>
-    <category>
-      <name>Development</name>
-    </category>
+    <category><name>Development</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://www.webdetails.pt/ctools.html</documentation_url>
     <description>
       Sparkl, or Pentaho Application Builder, is a plugin creator
@@ -484,7 +472,7 @@
 	    	<description/>
 		    <build_id>18</build_id>
             <max_parent_version>4.9</max_parent_version>
-	    	<min_parent_version>1.0</min_parent_version>		
+	    	<min_parent_version>1.0</min_parent_version>
 		</version>
       <version>
 	        <branch>TRUNK</branch>
@@ -507,9 +495,7 @@
     <id>d3ComponentLibrary</id>
     <type>Platform</type>
     <name>D3 Component Library</name>
-    <category>
-      <name>Visualization</name>
-    </category>
+    <category><name></name><parent><name>Visualizations</name></parent></category>
     <description>
       This project holds d3 components to be used in Pentaho, both on Analyzer and on CTools dashboards.
       The idea is to provide some helper functions that allows to quickly port examples from the d3 gallery page and implement them as components to be used in the Pentaho platform.
@@ -543,9 +529,7 @@
     <img>http://www.webdetails.pt/ficheiros/saiku.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/saiku_plugin.png</small_img>
     <name>Saiku Analytics</name>
-    <category>
-      <name>Analysis</name>
-    </category>
+    <category><name>Analysis</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://analytical-labs.com/</documentation_url>
     <description>
       Saiku is a modular open-source analysis suite offering lightweight
@@ -612,12 +596,7 @@
     <img>https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png</img>
     <small_img>https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png</small_img>
     <name>Saiku Chart Plus</name>
-    <category>
-      <name>Add On</name>
-      <parent>
-        <name>Analysis</name>
-      </parent>
-    </category>
+    <category><name>Analysis</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://it4biz.github.io/SaikuChartPlus/</documentation_url>
     <description>
       <![CDATA[
@@ -672,12 +651,7 @@ Having trouble with this project? Feel free to send us an e-mail at info@it4biz.
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_short.png</img>
     <small_img/>
     <name>IvyBC - Ivy Bootstrap Components (Free)</name>
-    <category>
-      <name>Add On</name>
-      <parent>
-        <name>CTools</name>
-      </parent>
-    </category>
+    <category><name>Dashboards</name><parent><name>Apps</name></parent></category>
     <documentation_url>https://github.com/ivylabs/IvyBC/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -762,9 +736,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydd_short.png</img>
     <small_img/>
     <name>IvyDD - Ivy Dashboard Designer</name>
-    <category>
-      <name>Development</name>
-    </category>
+    <category><name>Dashboards</name><parent><name>Apps</name></parent></category>
     <documentation_url>https://github.com/ivylabs/IvyDD/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -820,9 +792,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_short.png</img>
     <small_img/>
     <name>IvySE - Ivy Schema Editor</name>
-    <category>
-      <name>Analysis</name>
-    </category>
+    <category><name>Analysis</name><parent><name>Apps</name></parent></category>
     <documentation_url>https://github.com/ivylabs/IvySE/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -893,12 +863,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydc_short.png</img>
     <small_img/>
     <name>IvyDC - Ivy Dashboard Components</name>
-    <category>
-      <name>Add On</name>
-      <parent>
-        <name>CTools</name>
-      </parent>
-    </category>
+    <category><name>Dashboards</name><parent><name>Apps</name></parent></category>
     <documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -972,9 +937,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://openi.org/blogs/wp-content/themes/atahualpa332/images/openi-logo-with-tag.jpg</img>
     <small_img/>
     <name>OpenI-Pentaho Plugin</name>
-    <category>
-      <name>Analysis</name>
-    </category>
+    <category><name>Analysis</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://wiki.openi.org/</documentation_url>
     <description>
       OpenI plugin for Pentaho CE provides a simple and clean user
@@ -1019,9 +982,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.pivot4j.org/img/logo.png</img>
     <small_img>http://www.pivot4j.org/img/logo.png</small_img>
     <name>Pivot4J Analytics</name>
-    <category>
-      <name>Analysis</name>
-    </category>
+    <category><name>Analysis</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://www.pivot4j.org/pentaho.html</documentation_url>
     <description>Pivot4J provides a common API for OLAP servers which can be used to build an analytical service frontend with pivot style GUI. Pivot4J Analytics is a full fledged OLAP client application built with the Pivot4J core API, which can be used as a drop-in replacement for legacy the JPivot web application.</description>
     <author>Pivot4J Project</author>
@@ -1052,9 +1013,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <id>changePassword</id>
     <type>Platform</type>
     <name>Change Password</name>
-    <category>
-      <name>Administration</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <description><![CDATA[
     Plugin that allows the user logged in change its password.<br/>
     ]]>
@@ -1110,12 +1069,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.biztech.it/btable/img/btable.png</img>
     <small_img>http://www.biztech.it/btable/img/btable.png</small_img>
     <name>BTable</name>
-    <category>
-      <name>Add On</name>
-      <parent>
-        <name>CTools</name>
-      </parent>
-    </category>
+    <category><name>Dashboards</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://www.biztech.it/btable</documentation_url>
     <description>BTable is a component for the Community Dashboard Designer (CDE) that extends the standard Table Component with OLAP functionalities and provides a new drill experience... drill anywhere!</description>
     <author>Biz Tech</author>
@@ -1162,9 +1116,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <id>AAAR</id>
     <type>Platform</type>
     <name>Alfresco Audit Analysis and Reporting</name>
-    <category>
-      <name>Analysis</name>
-    </category>
+    <category><name>Analysis</name><parent><name>Apps</name></parent></category>
     <description><![CDATA[
     Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
     <br/>
@@ -1254,9 +1206,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <id>repositorySynchronizer</id>
     <type>Platform</type>
     <name>Pentaho Repository Synchronizer</name>
-    <category>
-      <name>Administration</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <description><![CDATA[
     Pentaho Repository Synchronizer allows you to interact with the
     solution repository of Pentaho 5 by keeping the disk-based file
@@ -1308,9 +1258,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <id>logManager</id>
     <type>Platform</type>
     <name>Pentaho Log Manager</name>
-    <category>
-      <name>Administration</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <description><![CDATA[
     Pentaho Log Manager allows you to view, download, and delete
     Pentaho BI Server logs in the Pentaho User Console.
@@ -1361,9 +1309,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.webdetails.pt/ficheiros/cdv.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdv_plugin.png</small_img>
     <name>Community Data Validation</name>
-    <category>
-      <name>CTools</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://ctools.webdetails.org</documentation_url>
     <description>
       In the words of one of the wise men who are still around: "Our
@@ -1397,10 +1343,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
             <development_stage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </development_stage>                                    		    
+            </development_stage>
     		<build_id>62</build_id>
-            <max_parent_version>4.9</max_parent_version>		
-            <min_parent_version>1.0</min_parent_version>		
+            <max_parent_version>4.9</max_parent_version>
+            <min_parent_version>1.0</min_parent_version>
 		</version>
       <version>
     	    <branch>TRUNK</branch>
@@ -1411,10 +1357,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
             <developmentStage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </developmentStage>                                                
+            </developmentStage>
             <build_id>49</build_id>
             <min_parent_version>5.0</min_parent_version>
-            <max_parent_version>5.0</max_parent_version>            
+            <max_parent_version>5.0</max_parent_version>
 		</version>
     </versions>
     <screenshots>
@@ -1432,12 +1378,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.webdetails.pt/ficheiros/cdb.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdb_plugin.png</small_img>
     <name>Community Data Browser</name>
-    <category>
-      <name>Administration</name>
-      <parent>
-        <name>CTools</name>
-      </parent>
-    </category>
+    <category><name>Data</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://ctools.webdetails.org</documentation_url>
     <description>
       Calling Business Analysts! Now you can Slice and Dice your Data
@@ -1483,10 +1424,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
             <development_stage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </development_stage>                                                
+            </development_stage>
 		    <build_id>14</build_id>
-            <min_parent_version>1.0</min_parent_version>		
-	    	<max_parent_version>4.9</max_parent_version>     
+            <min_parent_version>1.0</min_parent_version>
+	    	<max_parent_version>4.9</max_parent_version>
 		</version>
       <version>
 	    <branch>TRUNK</branch>
@@ -1497,9 +1438,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
             <development_stage>
                 <lane>Community</lane>
                 <phase>2</phase>
-            </development_stage>                                                
+            </development_stage>
 		    <build_id>14</build_id>
-            <min_parent_version>5.0</min_parent_version>		
+            <min_parent_version>5.0</min_parent_version>
 		</version>
     </versions>
   </market_entry>
@@ -1511,6 +1452,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.webdetails.pt/ficheiros/cdc.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cdc_plugin.png</small_img>
     <name>Community Distributed Cache</name>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://ctools.webdetails.org</documentation_url>
     <description>CDC stands for Community Distributed Cache and allows for high-performance, scalable and distributed memory clustering cache based on Hazelcast for both CDA and Mondrian.</description>
     <author>WebDetails</author>
@@ -1553,7 +1495,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <developmentStage>
             <lane>Community</lane>
             <phase>2</phase>
-        </developmentStage>                                    		
+        </developmentStage>
 		<build_id>15</build_id>
 		<min_parent_version>1.0</min_parent_version>
 		<max_parent_version>4.9</max_parent_version>
@@ -1567,10 +1509,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <developmentStage>
             <lane>Community</lane>
             <phase>2</phase>
-        </developmentStage>                                    
+        </developmentStage>
 
 		<build_id>15</build_id>
-		<min_parent_version>5.0</min_parent_version>		
+		<min_parent_version>5.0</min_parent_version>
 		</version>
     </versions>
   </market_entry>
@@ -1582,9 +1524,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.webdetails.pt/ficheiros/cfr_logo.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/cfr_logo.png</small_img>
     <name>Community File Repository</name>
-    <category>
-      <name>CTools</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <documentation_url>http://www.webdetails.pt/ctools/cfr.html</documentation_url>
     <description>CFR (Community File Repository) is a new CTool Plugin that allows you to setup and use a file repository from inside Pentaho. You can use it to manage your file needs, allowing uploads and downloads from inside your dashboards.</description>
     <author>WebDetails</author>
@@ -1601,8 +1541,8 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <package_url>http://ci.pentaho.com/job/pentaho-cfr-pentaho/lastSuccessfulBuild/artifact/cfr-pentaho/dist/cfr-pentaho-TRUNK-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
 		<build_id>60</build_id>
-        <min_parent_version>1.0</min_parent_version>		
-		<max_parent_version>4.9</max_parent_version>    
+        <min_parent_version>1.0</min_parent_version>
+		<max_parent_version>4.9</max_parent_version>
 		</version>
       <version>
 		    <branch>TRUNK</branch>
@@ -1611,7 +1551,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
 	        <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
             <description>Build for Pentaho 5.0</description>
 		    <build_id>43</build_id>
-            <min_parent_version>5.0</min_parent_version>		
+            <min_parent_version>5.0</min_parent_version>
         </version>
     </versions>
   </market_entry>
@@ -1622,9 +1562,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <id>startupRuleEngine</id>
     <type>Platform</type>
     <name>Startup Rule Engine</name>
-    <category>
-      <name>Administration</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <description>
       <![CDATA[ Application that allows the user to configure Kettle jobs and transformations to be run upon specific events, such as upon session login/logout or server startup. <br /><br />
                Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
@@ -1674,9 +1612,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <id>EnvironmentDisplay</id>
     <type>Platform</type>
     <name>Environment Display</name>
-    <category>
-      <name>Administration</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <img>http://www.webdetails.pt/ficheiros/envdisplay.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/envdisplay_plugin.png</small_img>
     <description>
@@ -1722,9 +1658,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</img>
     <small_img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</small_img>
     <name>Pentaho Analytics Shell</name>
-    <category>
-      <name>Administration</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <documentation_url>https://github.com/rpbouman/pash/wiki/Pash---The-Pentaho-Analysis-Shell</documentation_url>
     <description>
       Pash is a shell interface to Pentaho Analysis.
@@ -1759,9 +1693,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img/>
     <small_img/>
     <name>WAQR</name>
-    <category>
-      <name>Legacy</name>
-    </category>
+    <category><name>Analysis</name><parent><name>Apps</name></parent></category>
     <documentation_url/>
     <description>WAQR (Web Adhoc Query and Reporting) is a report generation tool based on Web 2.0 technology (AJAX, DHTML) designed to help typical business users easily generate adhoc reports using the Pentaho BI platform. It provides a user interface that helps the user quickly identify and group the data of interest, apply constraints to the data, and generate a report. The resulting reports are viewable through WAQR's Preview feature, or through a Pentaho-platform based web application.</description>
     <author>Pentaho Legacy - Plugins developed by Pentaho but no longer supported</author>
@@ -1791,9 +1723,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</img>
     <small_img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</small_img>
     <name>Fusion Charts Plugin</name>
-    <category>
-      <name>Visualization</name>
-    </category>
+    <category><name></name><parent><name>Visualizations</name></parent></category>
     <documentation_url>https://code.google.com/p/pentaho-fc-plugin/wiki/Main</documentation_url>
     <description>
       <![CDATA[
@@ -1843,9 +1773,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <img>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-sparkl-icon.png</img>
     <small_img/>
     <name>Bissol Table Data Editor</name>
-    <category>
-      <name>Administration</name>
-    </category>
+    <category><name>Admin</name><parent><name>Apps</name></parent></category>
     <documentation_url>https://github.com/diethardsteiner/bissolTableDataEditor/blob/master/README.md</documentation_url>
     <description>
       <![CDATA[
@@ -1983,7 +1911,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>Dutch Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
@@ -2058,7 +1986,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>French Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
@@ -2133,7 +2061,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>German Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
@@ -2204,7 +2132,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>Hindi Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
@@ -2279,7 +2207,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>Italian Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
@@ -2359,7 +2287,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>Japanese Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
@@ -2434,7 +2362,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>Korean Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
@@ -2509,7 +2437,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>Portuguese (Brazilian variant) Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
@@ -2584,7 +2512,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>Portuguese (European variant) Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
@@ -2661,7 +2589,7 @@ any translation issues or suggestions for improvement
     <type>Platform</type>
     <name>Spanish Language Pack Installer</name>
     <category>
-      <name>Language Pack</name>
+       <name>Language Packs</name>
     </category>
     <description>
       <![CDATA[
