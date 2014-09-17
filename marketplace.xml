@@ -4042,6 +4042,7 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>TRUNK</branch>
+<<<<<<< HEAD
         <version>TRUNK-SNAPSHOT</version>
         <name>Latest</name>
         <package_url>
@@ -4240,6 +4241,2078 @@ any translation issues or suggestions for improvement
     <type>Step</type>
     <name>JDBC Metadata</name>
     <description>
+=======
+	    <version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+        <package_url>http://ci.pentaho.com/job/pentaho-cfr-pentaho/lastSuccessfulBuild/artifact/cfr-pentaho/dist/cfr-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+		<build_id>57</build_id>
+        <min_parent_version>1.0</min_parent_version>		
+		<max_parent_version>4.9</max_parent_version>    
+		</version>
+            <version>
+		    <branch>TRUNK</branch>
+			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+		    <build_id>41</build_id>
+            <min_parent_version>5.0</min_parent_version>		
+        </version>
+        </versions>
+	</market_entry>
+
+
+
+	<market_entry>
+		<id>startupRuleEngine</id>
+		<type>Platform</type>
+		<name>Startup Rule Engine</name>
+		<description>
+			<![CDATA[ Application that allows the user to configure Kettle jobs and transformations to be run upon specific events, such as upon session login/logout or server startup. <br /><br />
+				 Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>https://www.github.com/webdetails/startupRuleEngine</documentation_url>
+		<author>Webdetails</author>
+		<author_url>http://www.webdetails.pt</author_url>
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img/>
+		<small_img/>
+		<installation_notes>
+			<![CDATA[ You can run the Startup Rule Engine as an administrator from the Tools menu. <br/>
+				 After installation, you'll require two server restarts. <br />
+				 On the first server restart, the application will patch your installation and edit system files.
+				 It will also create the folder pentaho-solutions/system/startupRules and populate it with some sample jobs and transformations.
+				 Upon the second server restart, the Startup Rule Engine will be operational.. <br /><br/ >
+				 Report <a href="http://redmine.webdetails.org/projects/sre">here</a> any issues or suggestions for improvement
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.06.18</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-14.06.18.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+	<market_entry>
+		<id>EnvironmentDisplay</id>
+		<type>Platform</type>
+		<name>Environment Display</name>
+		<img>http://www.webdetails.pt/ficheiros/envdisplay.png</img>
+		<small_img>http://www.webdetails.pt/ficheiros/envdisplay_plugin.png</small_img>
+		<description>
+      <![CDATA[Plugin that gives information about system and session
+      environment information useful for development and debugging. Even though
+      it's not sensitive information, it's not recommended to have this plugin
+      installed in a production environment  <br /><br /> Report <a
+        href="http://redmine.webdetails.org/projects/envdisplay">here</a> any
+      issues or suggestions for improvement ]]>
+		</description>
+    <documentation_url>https://github.com/webdetails/environmentDisplay</documentation_url>
+		<author>Webdetails</author>
+		<author_url>http://www.webdetails.pt</author_url>
+		<author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+    <installation_notes/>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.06.18</version>
+				<name>RELEASE</name>
+        		<package_url>http://ci.pentaho.com/job/environmentdisplay/lastSuccessfulBuild/artifact/dist/EnvironmentDisplay-14.06.18.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+      <screenshot>https://raw.githubusercontent.com/webdetails/environmentDisplay/release/resources/img/screenshot_1.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+    <market_entry>
+		<id>pash</id>
+		<type>Platform</type>
+		<img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</img>
+		<small_img>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</small_img>
+		<name>Pentaho Analytics Shell</name>
+		<documentation_url>https://github.com/rpbouman/pash/wiki/Pash---The-Pentaho-Analysis-Shell</documentation_url>
+		<description>
+			Pash is a shell interface to Pentaho Analysis.
+            It provides command-line access to mondrian straight from within your webbrowser.
+            The shell allows you to list the available mondrian catalogs, cubes, dimensions etc,
+            and you can type and run ad-hoc MDX queries.
+            After installation, the shell is available in the Tools menu
+		</description>
+		<author>Roland Bouman</author>
+		<author_url>http://rpbouman.blogspot.com</author_url>
+		<author_logo>https://raw.github.com/rpbouman/pash/master/images/pash128x128.png</author_logo>
+		<license>ASL 2.0</license>
+		<versions>
+			<version>
+				<branch>BETA</branch>
+				<version>0.11</version>
+				<name>Beta</name>
+				<package_url>https://github.com/rpbouman/pash/raw/master/bin/pash.zip</package_url>
+				<description>Pash version 0.1 (beta)</description>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+        </versions>
+	</market_entry>
+
+	<market_entry>
+		<id>waqr</id>
+		<type>Platform</type>
+		<img/>
+		<small_img/>
+		<name>WAQR</name>
+		<documentation_url/>
+		<description>WAQR (Web Adhoc Query and Reporting) is a report generation tool based on Web 2.0 technology (AJAX, DHTML) designed to help typical business users easily generate adhoc reports using the Pentaho BI platform. It provides a user interface that helps the user quickly identify and group the data of interest, apply constraints to the data, and generate a report. The resulting reports are viewable through WAQR's Preview feature, or through a Pentaho-platform based web application.</description>
+		<author>Pentaho Legacy - Plugins developed by Pentaho but no longer supported</author>
+		<author_url>http://pentaho.com</author_url>
+		<author_logo/>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<build_id/>
+				<name>Latest snapshot build</name>
+				<package_url>http://ci.pentaho.com/job/WAQR-Plugin/lastSuccessfulBuild/artifact/dist/waqr-plugin-package-TRUNK-SNAPSHOT.zip</package_url>
+				<description>Build for Pentaho 5.0</description>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+		</versions>
+		<screenshots/>
+	</market_entry>
+
+	<market_entry>
+		<id>fusion_plugin</id>
+		<type>Platform</type>
+		<img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</img>
+		<small_img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</small_img>
+		<name>Fusion Charts Plugin</name>
+		<documentation_url>https://code.google.com/p/pentaho-fc-plugin/wiki/Main</documentation_url>
+		<description>
+			<![CDATA[
+				Pentaho FusionCharts plugin allows creating Killer Data Visualizations on Pentaho Business
+				Analytics through a seamless integration with the FusionCharts library. The latest update
+				includes access to real-time charts, widgets and maps all this optimized for mobile devices 
+				as well as many other exciting features. The plugin allows using FusionCharts on EE Dashboards,
+				CDF, CDE and Analyzer. 
+				<br><br>
+				<b>Note:</b> This plugin requires Pentaho version 5.0 or higher. To start using this plugin for free, 
+				you need to fill the form at the <a href="http://www.xpand-it.com/en/technology/fusioncharts">Xpand IT website</a> and request your license. Once you get the key you 
+				just need to insert it on the Pentaho User Console through the menu entry "Tools" -> "FusionChartsManager" 
+				and start using Pentaho FusionCharts Plugin. For more information you can check the <a href="https://code.google.com/p/pentaho-fc-plugin/wiki/Main">wiki</a>.
+			]]>
+		</description>
+		<author>Xpand IT</author>
+		<author_url>http://www.xpand-it.com/</author_url>
+		<author_logo>http://www.xpand-it.com/images/xpand_it/xpand%20it-new-logo-%20standard.png</author_logo>
+		<license_name>GNU General Public License</license_name>
+		<license_text>For more details see: http://www.gnu.org/licenses/</license_text>
+		<versions>
+			<version>
+				<branch>Release</branch>
+				<version>3.0.5</version>
+				<name>Latest</name>
+				<package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip</package_url>
+				<samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip</samples_url>
+				<max_parent_version>5.1</max_parent_version>
+				<min_parent_version>5.0.0</min_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/1.pentaho%20marketplace.png</screenshot>
+			<screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/2.pentaho%20marketplace.png</screenshot>
+			<screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/3.pentaho%20marketplace.png</screenshot>
+		</screenshots>			
+	</market_entry>
+    
+    <market_entry>
+		<id>bissolTableDataEditor</id>
+		<type>Platform</type>
+		<img>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-sparkl-icon.png</img>
+		<small_img/>
+		<name>Bissol Table Data Editor</name>
+		<documentation_url>https://github.com/diethardsteiner/bissolTableDataEditor/blob/master/README.md</documentation_url>
+		<description>
+		<![CDATA[
+		<article>
+			<h1 id="bissol-table-data-editor"><a name="bissol-table-data-editor" href="#bissol-table-data-editor"></a>Bissol Table Data Editor</h1>
+			<p><b>Warning:</b> This plugin has only been tested on Postgresql and MariaDB. It is highly recommended that you do not use this plugin in production. This project is in the early stages and once we've received feedback from more users, we will classify this plugin as stable.</p>
+			<h2 id="intended-purpose-of-the-plugin"><a name="intended-purpose-of-the-plugin" href="#intended-purpose-of-the-plugin"></a>Intended Purpose of the Plugin</h2>
+			<p>The <strong>Bissol Table Data Editor</strong> (BTDE) Pentaho BI Server Plugin allows you to <strong>update</strong> and <strong>add</strong> data to <strong>small database tables</strong> via an easy-to-use web-interface.</p>
+			<p>Example <strong>Use Cases</strong>:</p>
+			<ul>
+			<li>Maintaining attribute fields in <strong>dimension tables</strong>. For some dimensions in a star schema you might ask end-users to add some additional information which is otherwise not available.</li>
+			<li>Maintaining custom <strong>configuration tables</strong>  </li>
+			<li>Maintaining custom <strong>metadata tables</strong></li>
+			</ul>
+			<blockquote>
+			<p><strong>Note</strong>: The <strong>emphasis</strong> is on maintaining <strong>small tables</strong>. The definition of <strong>small</strong> is anything that fits on a standard screen, so ideally less than a hundred records.</p>
+			</blockquote>
+			<br>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/CgdNjdTi31w" frameborder="0" allowfullscreen></iframe>			<br>
+	
+		</article>
+		
+		<br><br>	
+		For more information <a target='NO_BLANK' href='https://github.com/diethardsteiner/bissolTableDataEditor'>visit the Github project site</a>.<br>	
+		Please report issues and improvement ideas on <a target='NO_BLANK' href='https://github.com/diethardsteiner/bissolTableDataEditor/issues'>GitHub</a>
+		]]>	
+		</description>
+		<author>Diethard Steiner (Bissol Consulting Ltd)</author>
+		<author_url>http://www.bissolconsulting.com</author_url>
+		<author_logo>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/bissol-consulting-ltd-logo.png</author_logo>
+		<license>MPL 2.0</license>   
+		<dependencies>CDE, CDA, CDF</dependencies>
+		<installation_notes>
+			You must restart the biserver after installing this plugin, because on installation this plugin adds following Pentaho Kettle steps to the biserver Kettle folder: BAServerUtils and JDBC Metadata. Only after you restarted the biserver, these Kettle steps will be registered.
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>release</branch>
+				<version>0.2.0</version>
+				<name>Release</name>
+				<package_url>https://dl.dropboxusercontent.com/s/o4mjewg98ntcpfs/bissolTableDataEditor.zip</package_url>
+				<description>Release 0.2.0</description>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>                
+			</version>    
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-admin-page.png</screenshot>
+			<screenshot>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-main-page.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+	<market_entry>
+		<id>languagePack_ca</id>
+		<type>Platform</type>
+		<name>Catalan Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the Catalan language in Pentaho 5 <br /><br />
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+			This plugin installs language definitions for the Catalan language in Pentaho 5
+		</description>
+		<documentation_url>This plugin installs language definitions for the Catalan language in Pentaho 5</documentation_url>
+		<author>Blau Advisors Strategic Partners,S.L.</author>
+		<author_url>http://www.blauadvisors.com</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ca/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ca/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.5.2</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ca-RELEASE-0.5.2.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_ca-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+	<market_entry>
+		<id>languagePack_nl</id>
+		<type>Platform</type>
+		<name>Dutch Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the Dutch language in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>This plugin installs language definitions for the Dutch language in Pentaho 5</documentation_url>
+		<author>C. van Kemenade</author>
+		<author_url>http://www.vinzi.nl</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/nl/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/nl/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.7.2</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-RELEASE-0.7.2.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+	<market_entry>
+		<id>languagePack_fr</id>
+		<type>Platform</type>
+		<name>French Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the French language in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>This plugin installs language definitions for the French language in Pentaho 5</documentation_url>
+		<author>Sylvain Decloix</author>
+		<author_url>http://www.atolcd.com</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/fr/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/fr/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.6.2</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-RELEASE-0.6.2.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+	<market_entry>
+		<id>languagePack_de</id>
+		<type>Platform</type>
+		<name>German Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the German language in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>This plugin installs language definitions for the German language in Pentaho 5</documentation_url>
+		<author>Thomas Starl</author>
+		<author_url/>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/de/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/de/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+			<branch>RELEASE</branch>
+				<version>0.7.2</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-RELEASE-0.7.2.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+	<market_entry>
+		<id>languagePack_hi</id>
+		<type>Platform</type>
+		<name>Hindi Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the Hindi language in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>This plugin installs language definitions for the Hindi language in Pentaho 5</documentation_url>
+		<author>InfoAxon Technologies</author>
+		<author_url>http://www.infoaxon.com</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/hi/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/hi/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.6.3</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-RELEASE-0.6.3.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+	<market_entry>
+		<id>languagePack_it</id>
+		<type>Platform</type>
+		<name>Italian Language Pack Installer</name>
+		<description>
+			<![CDATA[
+							 This plugin installs language definitions for the Italian language in Pentaho 5 <br /><br />
+
+	Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+	any translation issues or suggestions for improvement
+			]]>
+			This plugin installs language definitions for the Italian language in Pentaho 5
+		</description>
+		<documentation_url>This plugin installs language definitions for the Italian language in Pentaho 5</documentation_url>
+		<author>Serasoft S.r.l.</author>
+		<author_url>http://www.serasoft.it</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/it/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/it/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+							 the Tools menu. The installer will then copy the language packs over your
+							 installation, requiring a reboot in the end.	 <br /><br />
+
+	Please note that if you upgrade one of the translated plugins, you will
+	need to run the Language Pack Installer again. <br /><br/>
+
+	Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+	any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.5.2</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_it-RELEASE-0.5.2.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_it-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>
+				https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_1.png
+			</screenshot>
+			<screenshot>
+				https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_2.png
+			</screenshot>
+		</screenshots>
+	</market_entry>
+	<market_entry>
+		<id>languagePack_ja</id>
+		<type>Platform</type>
+		<name>Japanese Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the Japanese language in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>This plugin installs language definitions for the Japanese language in Pentaho 5</documentation_url>
+		<author>Akito Tanaka</author>
+		<author_url>http://ksk-anl.com/</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ja/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ja/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+		<version>
+		<branch>RELEASE</branch>
+				<version>0.7</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ja-RELEASE-0.7.zip</package_url>
+			<samples_url/>
+				<description>Latest Release</description>
+			<changelog/>
+			<build_id/>
+			<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>			
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_ja-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+	<market_entry>
+		<id>languagePack_ko</id>
+		<type>Platform</type>
+		<name>Korean Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the Korean language in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>This plugin installs language definitions for the Korean language in Pentaho 5</documentation_url>
+		<author>Xavier Cho</author>
+		<author_url>http://github.com/mysticfall</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ko/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ko/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.7</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-RELEASE-0.7.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+	<market_entry>
+		<id>languagePack_pt_BR</id>
+		<type>Platform</type>
+		<name>Portuguese (Brazilian variant) Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5</documentation_url>
+		<author>Oncase, Open Consulting, IT4biz</author>
+		<author_url>http://br.groups.yahoo.com/neo/groups/pentahobr/info</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_BR/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_BR/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.7.3</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-RELEASE-0.7.3.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+	<market_entry>
+	  <id>languagePack_pt_PT</id>
+	  <type>Platform</type>
+	  <name>Portuguese (European variant) Language Pack Installer</name>
+	  <description>
+		  <![CDATA[
+			This plugin installs language definitions for the Portuguese language (European variant) in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+		  ]]>
+		  This plugin installs language definitions for the Portuguese language (European variant) in Pentaho 5
+	  </description>
+	  <documentation_url>This plugin installs language definitions for the Portuguese language (European variant) in Pentaho 5</documentation_url>
+	  <author>Xpand-IT</author>
+	  <author_url>http://www.xpand-it.com</author_url>
+	  <author_logo>http://www.xpand-it.com/templates/xpandit-experience/images/logo.png</author_logo>
+	  <license>MPL 2.0</license>
+	  <dependencies>CDF, CDA, CDE, CGG</dependencies>
+	  <img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_PT/resources/img/flag.png</img>
+	  <small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/pt_PT/resources/img/flag.png</small_img>
+	  <installation_notes>
+		  <![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+		  ]]>
+	  </installation_notes>
+	  <versions>
+	    <version>
+	      <branch>RELEASE</branch>
+				<version>0.5.2</version>
+				<name>RELEASE</name>
+	      <package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_PT-RELEASE-0.5.2.zip</package_url>
+	      <samples_url/>
+				<description>Latest Release</description>
+	      <changelog/>
+	      <build_id/>
+	      <min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>	      
+	    </version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_PT-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+	  </versions>
+	  <screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_2.png</screenshot>
+	  </screenshots>
+	</market_entry>
+
+	<market_entry>
+		<id>languagePack_es</id>
+		<type>Platform</type>
+		<name>Spanish Language Pack Installer</name>
+		<description>
+			<![CDATA[
+			This plugin installs language definitions for the Spanish language in Pentaho 5 <br /><br />
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+			]]>
+		</description>
+		<documentation_url>This plugin installs language definitions for the Spanish language in Pentaho 5</documentation_url>
+		<author>Domingo Lavin</author>
+		<author_url>http://www.pentaho.com</author_url>
+		<author_logo/>
+		<license>MPL 2.0</license>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/es/resources/img/flag.png</img>
+		<small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/es/resources/img/flag.png</small_img>
+		<installation_notes>
+			<![CDATA[You can run the Language Pack Installer as an administrator from
+			the Tools menu. The installer will then copy the language packs over your
+			installation, requiring a reboot in the end.  <br /><br />
+
+			Please note that if you upgrade one of the translated plugins, you will
+			need to run the Language Pack Installer again. <br /><br/>
+
+			Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+			any translation issues or suggestions for improvement
+
+			]]>
+		</installation_notes>
+		<versions>
+			<version>
+				<branch>RELEASE</branch>
+				<version>0.7.2</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.analytical-labs.com/job/Webdetails-languagePackInstallers/lastSuccessfulBuild/artifact/dist/languagePack_es-RELEASE-0.7.2.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.0</min_parent_version>
+				<max_parent_version>5.0.99</max_parent_version>				
+			</version>
+			<version>
+				<branch>RELEASE</branch>
+				<version>14.07.03</version>
+				<name>RELEASE</name>
+				<package_url>http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_es-14.07.03.zip</package_url>
+				<samples_url/>
+				<description>Latest Release</description>
+				<changelog/>
+				<build_id/>
+				<min_parent_version>5.1</min_parent_version>
+				<max_parent_version>5.1.99</max_parent_version>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_1.png</screenshot>
+			<screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_2.png</screenshot>
+		</screenshots>
+	</market_entry>
+
+	<!-- ***************** -->
+	<!-- Kettle Plugins    -->
+	<!-- ***************** -->
+
+	<market_entry>
+		<id>pdi-mysql-plugin</id>
+		<type>Database</type>
+		<name>PDI MySQL Plugin</name>
+		<description>This plugin also contains the GPL MySQL JDBC Driver version 5</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/MySQL</documentation_url>
+		<versions>
+			<version>
+				<version>TRUNK-SNAPSHOT</version>
+				<package_url>https://pentaho.box.com/shared/static/qllv3c2bo1eiv0o5f468.zip</package_url>
+				<source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>GPL 2.0</license_name>
+		<license_text>For more details see:
+			http://www.gnu.org/licenses/gpl-2.0.txt</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+    <market_entry>
+        <id>pdi-nuodb-plugin</id>
+        <type>Database</type>
+        <name>PDI NuoDB Plugin</name>
+        <description>This plugin also contains the NuoDB JDBC Driver</description>
+        <author>NuoDB</author>
+        <documentation_url>http://wiki.pentaho.com/display/EAI/NuoDB</documentation_url>
+        <versions>
+            <version>
+                <version>1.0-SNAPSHOT</version>
+                <package_url>https://github.com/nuodb/pdi-nuodb-plugin/releases/download/1.0/pdi-nuodb-plugin-1.0-SNAPSHOT-assembly.zip</package_url>
+                <source_url>https://github.com/nuodb/pdi-nuodb-plugin</source_url>
+            </version>
+        </versions>
+        <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+        <cases_url>https://github.com/nuodb/pdi-nuodb-plugin/issues</cases_url>
+        <license_name>BSD</license_name>
+        <license_text>For more details see:
+            http://opensource.org/licenses/BSD-2-Clause</license_text>
+        <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+        <support_message>Supported by a NuoDB Enterprise Edition support contract.</support_message>
+        <support_organization>NuoDB</support_organization>
+        <support_url>http://www.nuodb.com/</support_url>
+    </market_entry>
+
+
+	<market_entry>
+		<id>ApplePushNotification</id>
+		<type>Step</type>
+		<name>Apple Push Notification</name>
+		<description>This is a plugin that allows to you send push notifications from Pentaho Data Integration to any iOS and OSX devices, using Apple's Push Notification Services.
+			This plugin is written in Java and uses the Java Apple Push Notification Service library.
+			The motivation for developing this plugin is to have you, the ETL developer, receive quick notifications about the state of ETL executions wherever you are (faster than email).
+			However, this plugin can be use for other scenarios as well.
+		</description>
+		<author>Joel Latino</author>
+		<author_url>http://about.me/latinojoel</author_url>
+		<documentation_url>https://github.com/latinojoel/pdi-apple-pushnotifications/blob/master/README.md</documentation_url>
+		<cases_url>https://github.com/latinojoel/pdi-apple-pushnotifications/issues</cases_url>
+		<license_name>GNU General Public License v3</license_name>
+		<license_text>For more details see:
+			http://www.gnu.org/licenses/gpl-3.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by a PDI Apple Push Notifications github project contract.</support_message>
+		<support_url>https://github.com/latinojoel/pdi-apple-pushnotifications/issues</support_url>
+		<versions>
+			<version>
+				<version>1.0.0</version>
+				<package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/1.0.0/ApplePushNotification.zip</package_url>
+				<source_url>https://github.com/latinojoel/pdi-apple-pushnotifications/tree/1.0.0</source_url>
+			</version>
+		</versions>
+	</market_entry>
+
+
+	<market_entry>
+		<id>AndroidPushNotification</id>
+		<type>Step</type>
+		<name>Android Push Notification</name>
+		<description>This is a plugin that allows you to send push notifications from Pentaho Data Integration to any android application with GCM services.
+			The motivation for developing this plugin is to have you, the ETL developer, receive fast notifications about the state of ETL executions wherever you are (than faster email).
+			You can use my android app named PDI Manager: https://play.google.com/store/apps/details?id=com.latinojoel.pdimanager
+			However, this plugin can be used in other scenarios as well.
+		</description>
+		<author>Joel Latino</author>
+		<author_url>http://about.me/latinojoel</author_url>
+		<documentation_url>https://github.com/latinojoel/pdi-android-pushnotifications/blob/master/README.md</documentation_url>
+		<cases_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</cases_url>
+		<license_name>GNU General Public License v3</license_name>
+		<license_text>For more details see:
+			http://www.gnu.org/licenses/gpl-3.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by a PDI Android Push Notifications github project contract.</support_message>
+		<support_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</support_url>
+		<versions>
+			<version>
+				<version>1.0.0</version>
+				<package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho Data Integration/PDI Android Push Notifications/1.0.0/AndroidPushNotification.zip</package_url>
+				<source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/1.0.0</source_url>
+			</version>
+		</versions>
+	</market_entry>
+
+
+	<market_entry>
+		<id>DummyPlugin</id>
+		<type>Step</type>
+		<name>Dummy step plugin</name>
+		<description>This is a plugin that is provided as an example on how to create a step plugin for PDI.
+			This plugin is intended only to show how a plugin works, it's goal is not to be used in production situations.
+			Please consult the documentation referenced below as well as the linked source code.
+		</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+		<versions>
+			<version>
+				<version>4.4</version>
+				<package_url>http://wiki.pentaho.com/download/attachments/23531011/DummyPlugin.zip</package_url>
+				<source_url>http://source.pentaho.org/svnkettleroot/plugins/DummyPlugin/trunk/</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>ArffOutput</id>
+		<type>Step</type>
+		<name>ARFF Output</name>
+		<description>Saves data to a file in WEKA's ARFF (Attribute Relation File Format).
+		</description>
+		<versions>
+			<version>
+				<version>5.x</version>
+				<package_url>http://ci.pentaho.com/view/Data%20Mining/job/pdi-arff-output-plugin/lastSuccessfulBuild/artifact/dist/pdi-arffoutput-plugin-TRUNK-SNAPSHOT-deploy.zip</package_url>
+				<source_url>https://github.com/pentaho/pdi-weka-arff-output-plugin</source_url>
+			</version>
+		</versions>
+		<author>Pentaho</author>
+		<documentation_url>https://github.com/pentaho/pdi-weka-arff-output-plugin/blob/master/docs/ArffOutput.pdf</documentation_url>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>GNU GPL</license_name>
+		<license_text>For more details about the GNU General Public License v2.0 see:
+			http://www.gnu.org/licenses/gpl-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>KFF</id>
+		<type>Mixed</type>
+		<name>KFF</name>
+		<description>This market entry contains a number of step and jobentry plugins from the KFF project:
+			- Table compare
+			- Environment configurator
+			- Data Grid (in 4.1)
+			- ...
+		</description>
+		<versions>
+			<version>
+				<version>4.x</version>
+				<package_url>http://kettle-franchise.googlecode.com/files/kff-plugins4.zip</package_url>
+				<source_url>http://kettle-franchise.googlecode.com/svn/trunk/</source_url>
+			</version>
+		</versions>
+		<author>The KFF project members: Jan, Matt, Ricardo, Alexandre, Harris, André</author>
+		<documentation_url>http://code.google.com/p/kettle-franchise/w/list</documentation_url>
+		<forum_url>http://code.google.com/p/kettle-franchise/</forum_url>
+		<cases_url>http://code.google.com/p/kettle-franchise/issues/list</cases_url>
+		<license_name>GNU LGPL</license_name>
+		<license_text>For more details about the GNU General Lesser Public License v2.0 see:
+			http://www.gnu.org/licenses/lgpl-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the KFF project on a best-effort bases.</support_message>
+		<support_organization>The KFF project</support_organization>
+		<support_url/>
+	</market_entry>
+
+
+	<market_entry>
+		<id>kettle5-profiling-datacleaner</id>
+		<type>Mixed</type>
+		<name>DataCleaner Data Profiling for Kettle version 5 or higher</name>
+		<description>Use DataCleaner to profile your Pentaho Data Integration transformations, step by step.
+			Data Cleaner is an open source data quality application made by Human Inference.  With it you can run profiling jobs using DataCleaner for any transformation step and in the database explorer.  Additionally you can include and launch DataCleaner jobs as part of your PDI jobs.  This allows you to merge the tasks of data quality and data integration.</description>
+		<versions>
+			<version>
+				<version>3.5.10</version>
+				<min_parent_version>5.0.0</min_parent_version>
+				<package_url>https://pentaho.box.com/shared/static/dsmczkkmoibwydj2y6z6.zip</package_url>
+				<source_url>http://source.pentaho.org/svnkettleroot/plugins/kettle-profiling-datacleaner/</source_url>
+			</version>
+		</versions>
+		<author>Human Inference - eobjects - Kasper Sørensen</author>
+		<documentation_url>http://datacleaner.org/docs</documentation_url>
+		<forum_url>http://datacleaner.org/forum/1</forum_url>
+		<cases_url>http://eobjects.org/trac/</cases_url>
+		<license_name>GNU LGPL</license_name>
+		<license_text>For more details about the GNU General Lesser Public License v2.0 see:
+			http://www.gnu.org/licenses/lgpl-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Professional support, training and consultancy for DataCleaner is offered by Human Inference upon request.</support_message>
+		<support_organization>Human Inference</support_organization>
+		<support_url>http://datacleaner.org/support</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>EasyDQ</id>
+		<type>Step</type>
+		<name>EasyDataQuality for Pentaho</name>
+		<description>
+
+			Combine the leading open source ETL tool with the leading data cleansing functions!
+
+			EasyDQ delivers on demand data quality functions that are fully integrated with Pentaho Data Integration / Kettle.
+
+			Data quality functions by Human Inference and EasyDQ available in Pentaho Data Integration:
+
+			* Data profiling (through DataCleaner)
+			* Name cleansing
+			* Address cleansing
+			* Phone cleansing
+			* Email cleansing
+			* Detect and merge duplicates (through DataCleaner)
+
+			Register now at www.easydq.com and start increasing the quality of your data.
+
+		</description>
+		<img>http://www.easydq.com/media/120433/teaser_pentaho_screenshots.png</img>
+		<author>EasyDQ - Human Inference</author>
+		<author_url>http://www.easydq.com</author_url>
+		<documentation_url>http://www.easydq.com/pentaho</documentation_url>
+		<versions>
+			<version>
+				<version>1.19</version>
+				<package_url>http://sourceforge.net/projects/easydq-kettle/files/EasyDQ-PDI-plugin-1.19.zip/download</package_url>
+			</version>
+		</versions>
+		<license_name>Proprietary</license_name>
+		<license_text>To get access to EasyDQ.com and the data quality services, please register at https://www.easydq.com/register</license_text>
+
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Please contact Human Inference Support at +31 (0)26 3550600 or email support@humaninference.com</support_message>
+		<support_organization>Human Inference</support_organization>
+		<support_url>http://www.easydq.com/faq</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>market</id>
+		<type>Mixed</type>
+		<name>PDI Marketplace</name>
+		<description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+		<versions>
+			<version>
+				<version>TRUNK-SNAPSHOT</version>
+				<package_url>http://ci.pentaho.com/job/Kettle/lastSuccessfulBuild/artifact/Kettle/src-plugins/market/dist/market.zip</package_url>
+				<source_url>http://source.pentaho.org/svnkettleroot/Kettle/trunk/src-plugins/market/</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>CmisInput</id>
+		<type>Step</type>
+		<name>CMIS Input</name>
+		<description>The CMIS Input plugin make you able to extract from your Enterprise Content Management System.
+			All the metadata of your documents can be retrieved using simple queries with a query language very close to the traditional SQL.</description>
+		<documentation_url>http://fcorti.com/pdi-cmis-input/</documentation_url>
+		<author>Francesco Corti</author>
+		<author_url>http://fcorti.com</author_url>
+		<author_logo>http://francescocorti.files.wordpress.com/2012/12/copy-francescosmall1.jpg</author_logo>
+		<img>http://francescocorti.files.wordpress.com/2013/01/cmisinput.png</img>
+		<small_img>http://francescocorti.files.wordpress.com/2013/04/cmisinput.png</small_img>
+		<license_name>LGPL v3</license_name>
+		<versions>
+			<version>
+				<branch>Stable</branch>
+				<version>1.2</version>
+				<name>1.2</name>
+				<package_url>http://sourceforge.net/projects/cmisinputplugin/files/v1.2/CMIS-Input-plugin-v1.2.zip/download</package_url>
+				<description>Release v1.2 of the plugin.</description>
+				<changelog>Better performance and bufix.</changelog>
+				<build_id>1</build_id>
+				<min_parent_version>5.0</min_parent_version>
+			</version>
+		</versions>
+	</market_entry>
+
+
+	<market_entry>
+		<id>BucketPartitioner</id>
+		<type>Partitioner</type>
+		<name>Bucket Partitioner</name>
+		<description>Partitions rows based on the quotient (rather than the remainder)</description>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/fcvlirqac4k6semj6q7d.zip</package_url>
+				<source_url>https://github.com/mattyb149/BucketPartitioner</source_url>
+			</version>
+		</versions>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/BucketPartitioner/wiki</documentation_url>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url/>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+	<market_entry>
+		<id>MaxMindGeoIPLookup</id>
+		<type>Step</type>
+		<name>MaxMind GeoIP Lookup</name>
+		<description>This step uses the MaxMind GeoIP library to look up Countries, region and city information with an IP address.</description>
+		<documentation_url>https://raw.github.com/mattcasters/MaxMindGeoIPLookup/master/README.txt</documentation_url>
+		<author>Daniel Einspanjer, Doug Moran, Pedro Alves, Matt Casters</author>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>https://github.com/mattcasters/MaxMindGeoIPLookup/issues/</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html </license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by a community of volunteers</support_message>
+		<support_organization>none</support_organization>
+		<support_url>https://github.com/mattcasters/MaxMindGeoIPLookup</support_url>
+		<versions>
+			<version>
+				<branch>Stable</branch>
+				<version>1.0</version>
+				<name>1.0</name>
+				<package_url>https://pentaho.box.com/shared/static/sz6y7m04slzxy93brg3d.zip</package_url>
+				<source_url>https://github.com/mattcasters/MaxMindGeoIPLookup</source_url>
+				<description>First stable release, supports running in Map/Reduce, handles VFS URLs for database files</description>
+				<changelog>First release</changelog>
+				<build_id>1</build_id>
+				<min_parent_version>4.2</min_parent_version>
+			</version>
+		</versions>
+	</market_entry>
+
+
+	<market_entry>
+		<id>weka-scoring</id>
+		<type>Step</type>
+		<name>Weka Scoring</name>
+		<description>This step allows you to push data into a Weka model and get scoring out in a transformation.</description>
+		<author>Mark Hall</author>
+		<forum_url>http://forums.pentaho.com/forumdisplay.php?81-Pentaho-Data-Mining-WEKA</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/DATAMINING</cases_url>
+		<license_name>GNU General Public License 3.0</license_name>
+		<license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/</support_url>
+		<versions>
+			<version>
+				<branch>Stable</branch>
+				<version>4.x</version>
+				<name>4.x</name>
+				<package_url>https://pentaho.box.com/shared/static/1rcyaet2tceprebejldg.zip</package_url>
+				<source_url>http://source.pentaho.org/svnkettleroot/plugins/WekaScoring/</source_url>
+				<min_parent_version>4.2</min_parent_version>
+			</version>
+		</versions>
+	</market_entry>
+
+
+	<market_entry>
+		<id>MDCheckPlugin</id>
+		<type>Step</type>
+		<name>MDCheck</name>
+		<description> Melissa Data Contact Verification Tools:
+
+			Contact Verify Component
+			• Standardize, verify, and correct U.S. and Canadian addresses
+			• Add County and census information. 
+			• Verify and normalize U.S. and Canadian phones on a 7-10 digit level
+			• Parse names, genderize, and detect suspicious words or companies in name field
+			• Geocode addresses by assigning rooftop lat/long coordinates
+			• USPS CASS certified engine
+
+			Processing Options - (Local)(Cloud)(Dedicated Cloud) 
+
+			SmartMover Component
+			• U.S./Canadian change of address processing to update addresses of people or
+			businesses that have moved
+			• USPS Certified NCOA (National Change of Address) 
+
+			Processing Options -(Cloud Only)
+
+			MatchUp Component
+			• Identify duplicate records with domain specific knowledge of contact information
+			• Allows users to define and customize powerful matching algorithms based on their data.
+
+			Processing Options -(Local Only) 
+			
+			IP Locator Component
+			• Identify web visitor's geographic location
+			• Append Latitude, longitude, ISP, City, State, Country
+			• Reduce fraud and geo target
+
+			Processing Options -(Local)(Cloud)(Dedicated Cloud) 
+
+		</description>
+		<author>Melissa Data</author>
+		<documentation_url>http://www.melissadata.com/dqt/contact-zone/index.htm</documentation_url>
+		<versions>
+			<version>
+				<version>4.2.0</version>
+				<package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
+			</version>
+		</versions>
+		<license_name>MD licensing</license_name>
+		<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
+		<support_organization>Melissa Data</support_organization>
+		<support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>MDGlobalAddressPlugin</id>
+		<type>Step</type>
+		<name>MDGlobalVerify</name>
+		<description> Global Verify Component
+			• Address verification for over 240 countries
+ 			• Parses and Standardizes data based on country specific rules
+			• Transliteration of many major character sets and display output in either native or Roman characters
+			• Append Geographic coordinates for many worldwide postal addresses.
+		    
+			  Processing Options -(Cloud Only)
+			  
+		</description>
+		<author>Melissa Data</author>
+		<documentation_url>http://www.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
+		<versions>
+			<version>
+				<version>4.2.0</version>
+				<package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
+			</version>
+		</versions>
+		<license_name>MD licensing</license_name>
+		<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
+		<support_organization>Melissa Data</support_organization>
+		<support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>MDPersonatorPlugin</id>
+		<type>Step</type>
+		<name>MDPersonator</name>
+		<description> Melissa Data Personator Component - Offering Melissa Data's flagship service 
+		                                                  in an easy to use Pentaho Component
+		
+			• Verifies name corresponds to address, email, and phone data
+			• Appends missing name and company name, phone number, and/or email address
+			• Append Latitude, Longitude along with County and Census data. 
+			• Free-form input allows for unparsed or un-delimited data. The service then can parse,
+			  standardize, correct, verify and append missing information. 
+			• Move update - Identifies moves with up to a 10 year history. 
+
+                          Processing Options -(Cloud Only)
+		
+		
+		</description>
+		<author>Melissa Data</author>
+		<documentation_url>http://www.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
+		<versions>
+			<version>
+				<version>4.2.0</version>
+				<package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
+			</version>
+		</versions>
+		<license_name>MD licensing</license_name>
+		<license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
+		<support_organization>Melissa Data</support_organization>
+		<support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>CiviCrmInput</id>
+		<type>Step</type>
+		<name>CiviCrmInput</name>
+		<description>This step allows reading data from CiviCRM version 1.1
+		</description>
+		<versions>
+			<version>
+				<version>4.X</version>
+				<package_url>http://www.stratebi.com/documents/10157/0/CIVICRMInput.zip</package_url>
+				<source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
+			</version>
+		</versions>
+		<author>Stratebi and Amnesty International</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Input</documentation_url>
+		<forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
+		<cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
+		<license_name>GNU GPL</license_name>
+		<license_text>For more details about the GNU General Public License v2.0 see:
+			http://www.gnu.org/licenses/gpl-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Report issues  and suggestions to support@stratebi.com</support_message>
+		<support_organization>Stratebi</support_organization>
+		<support_url/>
+	</market_entry>
+
+
+	<market_entry>
+		<id>CiviCrmOutput</id>
+		<type>Step</type>
+		<name>CiviCrmOutput</name>
+		<description>This step allows write/update data into CiviCRM version 1.1
+		</description>
+		<versions>
+			<version>
+				<version>4.X</version>
+				<package_url>http://www.stratebi.com/documents/10157/0/CIVICRMOutput.zip</package_url>
+				<source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
+			</version>
+		</versions>
+		<author>Stratebi and Amnesty International</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Output</documentation_url>
+		<forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
+		<cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
+		<license_name>GNU GPL</license_name>
+		<license_text>For more details about the GNU General Public License v2.0 see:
+			http://www.gnu.org/licenses/gpl-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Report issues  and suggestions to support@stratebi.com</support_message>
+		<support_organization>Stratebi</support_organization>
+		<support_url/>
+	</market_entry>
+
+
+	<market_entry>
+		<id>load-text-from-file</id>
+		<type>Step</type>
+		<name>Load Text From File</name>
+		<description>This plugin uses Apache Tika to extract text from files in many different formats, such as PDF, XLS, etc.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/load-text-from-file-plugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+	<market_entry>
+		<id>pdi-superlative-plugin</id>
+		<type>Step</type>
+		<name>Top / Bottom / First / Last filter</name>
+		<description>This plugin filters rows based on a field's values or row numbers, which allows the user to perform
+"top", "bottom", "first", and "last" filtering.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/pdi-superlative-plugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/t39m1n3rwbmix38wshy5.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+	<market_entry>
+		<id>pdi-valuemeta-map</id>
+		<type>Mixed</type>
+		<name>Map (key/value pair) type</name>
+		<description>This plugin provides a ValueMeta plugin for key/value pairs (backed by a java.util.Map) </description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/pdi-valuemeta-map/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/mcjdlfp3s5z30wxnx04u.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+	<market_entry>
+		<id>tdeoutputplugin</id>
+		<type>Step</type>
+		<name>PDI Tableau Data Extract Output Plugin</name>
+		<description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL
+			capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a
+			Tableau server or use the TDE in Tableau Desktop.
+
+			Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace
+			and requires additional installation.  Instructions to download and install the Tableau Data Extract
+			API are available in the README or at: https://github.com/cdeptula/tdeoutputplugin</description>
+		<author>OpenBI</author>
+		<author_url>http://www.openbi.com</author_url>
+		<author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
+		<installation_notes>
+			Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be separately downloaded and installed using the instructions below.
+
+			1. Install the Tableau Data Exract Output plugin from the Pentaho marketplace.
+			2. Download the "C/C++/Java" data extract API from Tableau for your environment. Choose the 32 bit or 64 bit version based on your Java JDK. - http://www.tableausoftware.com/data-extract-api
+			3. Unzip the downloaded zip.
+			4. For PDI 5.0 and above - Copy the contents of the Java directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
+			5. For PDI 4.8 and below - Copy the contents of the Java6 directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin directory.
+			6. For Windows - Add the bin folder from the downloaded Tableau API zip to your system path variable.
+			7. For Linux - Add the lib folder from the downloaded Tableau API zip to the LD_LIBRARY_PATH variable.
+			8. Restart PDI
+		</installation_notes>
+		<documentation_url>https://github.com/cdeptula/tdeoutputplugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>1.0.2</version>
+				<build_id/>
+				<name>Version 1.0.2</name>
+				<package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.2/TDEOutputPlugin_1.0.2.zip</package_url>
+				<source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
+			</version>
+		</versions>
+		<cases_url>https://github.com/cdeptula/tdeoutputplugin/issues</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+	</market_entry>
+
+
+	<market_entry>
+		<id>idh23</id>
+		<type>HadoopShim</type>
+		<name>IDH 2.3 Hadoop Configuration</name>
+		<description>This is a Hadoop Configuration plugin that allows PDI to interact with
+			Intel Distribution of Hadoop clusters (version 2.3). This plugin is compatible with
+			PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
+		</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+		<versions>
+			<version>
+				<version>5.0.1</version>
+				<package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+				<source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/idh</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>cdh3u4</id>
+		<type>HadoopShim</type>
+		<name>CDH 3u4 Hadoop Configuration</name>
+		<description>This is a Hadoop Configuration plugin that allows PDI to interact with
+			Cloudera Distribution of Hadoop clusters (version 3u4). This plugin is compatible with
+			PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
+		</description>
+		<author>Pentaho</author>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+		<versions>
+			<version>
+				<version>5.0.1</version>
+				<package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+				<source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/cdh3u4</source_url>
+			</version>
+		</versions>
+		<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+		<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>PROFESSIONALLY_SUPPORTED</support_level>
+		<support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+		<support_organization>Pentaho</support_organization>
+		<support_url>http://www.pentaho.com/services/support/pdi</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>csv-jdbc-plugin</id>
+		<type>Database</type>
+		<name>CSV JDBC Connector</name>
+		<description>This plugin uses csvjdbc (http://csvjdbc.sourceforge.net) to provide a PDI database dialect for CSV files.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/csv-jdbc-plugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/1pnvur1jkjaukvuqx91b.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+    <market_entry>
+		<id>pdi-neo4j-query</id>
+		<type>Database</type>
+		<name>Neo4j JDBC Connector</name>
+		<description>This plugin uses neo4j-jdbc (http://www.neo4j.org/develop/tools/jdbc) to provide a PDI database dialect for the
+			Neo4j graph database. Note that the only steps/entries this will work with are the ones where you can specify
+			the full query, as the query language is Neo4j's Cypher, not SQL.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/pdi-neo4j-query/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/e8kua9axb616dfvmdhzu.zip</package_url>
+			</version>
+		</versions>
+		<license_name>GNU General Public License version 3.0 (GPLv3)</license_name>
+	<license_text>For more details see:
+			http://www.gnu.org/licenses/</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+	<market_entry>
+		<id>html2xml</id>
+		<type>Step</type>
+		<name>HTML to XML</name>
+		<description>This plugin uses JTidy to convert HTML into XML or XHTML, and is inspired by Roland Bouman's blog using the
+			UDJC step with JTidy.</description>
+		<author>Matt Burgess</author>
+		<documentation_url>https://github.com/mattyb149/pdi-html-to-xml-plugin/wiki</documentation_url>
+		<versions>
+			<version>
+				<version>1.0</version>
+				<package_url>https://pentaho.box.com/shared/static/i009upass9f2iip4fit5.zip</package_url>
+			</version>
+		</versions>
+		<license_name>Apache 2.0</license_name>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+		<support_organization>Pentaho Developer Community</support_organization>
+		<support_url>http://kettle.pentaho.com</support_url>
+	</market_entry>
+
+
+	<market_entry>
+		<id>pentaho-kafka-consumer</id>
+		<type>Step</type>
+		<img>https://kafka.apache.org/images/kafka_logo.png</img>
+		<small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
+		<name>Apache Kafka Consumer</name>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Consumer</documentation_url>
+		<description>The plug-in allows reading binary messages from Apache Kafka message queue.</description>
+		<author>Ruckus Wireless</author>
+		<author_url>http://ruckuswireless.com</author_url>
+		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
+		<license>Apache License 2.0</license>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Latest</name>
+				<package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.0/pentaho-kafka-consumer-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url/>
+				<description>Latest build from the trunk development branch.</description>
+				<build_id>20140101-1548</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+		</versions>
+	</market_entry>
+
+	<market_entry>
+		<id>pentaho-kafka-producer</id>
+		<type>Step</type>
+		<img>https://kafka.apache.org/images/kafka_logo.png</img>
+		<small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
+		<name>Apache Kafka Producer</name>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Producer</documentation_url>
+		<description>The plug-in allows sending binary messages over Apache Kafka message queue.</description>
+		<author>Ruckus Wireless</author>
+		<author_url>http://ruckuswireless.com</author_url>
+		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
+		<license>Apache License 2.0</license>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Latest</name>
+				<package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.0/pentaho-kafka-producer-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url/>
+				<description>Latest build from the trunk development branch.</description>
+				<build_id>20140220-1106</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+		</versions>
+	</market_entry>
+
+	<market_entry>
+		<id>TableauExtractRefresh</id>
+		<type>JobEntry</type>
+		<name>Refresh Tableau Server Extract Plugin</name>
+		<description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau
+			server from PDI. It can perform a full refresh of any extract, update an incremental
+			extract from a database, or append new files to an existing extract.</description>
+		<author>OpenBI</author>
+		<author_url>http://www.openbi.com</author_url>
+		<author_logo>http://openbi.com/sites/default/files/OpenBI%20Logo-small-with-tagline.PNG</author_logo>
+		<documentation_url>https://github.com/cdeptula/refreshtableauextract/wiki</documentation_url>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>1.0</version>
+				<build_id/>
+				<name>Version 1.0</name>
+				<package_url>https://github.com/cdeptula/refreshtableauextract/releases/download/1.0.0/refreshtableauextract.zip</package_url>
+				<source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
+			</version>
+		</versions>
+		<cases_url>https://github.com/cdeptula/refreshtableauextract/issues</cases_url>
+		<license_name>Apache License 2.0</license_name>
+		<license_text>For more details see:
+			http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+	</market_entry>
+
+	<market_entry>
+		<id>pentaho-protobuf-decode</id>
+		<type>Step</type>
+		<img>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</img>
+		<small_img>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</small_img>
+		<name>Google Protocol Buffers Decode</name>
+		<documentation_url>http://wiki.pentaho.com/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
+		<description>The Kettle transformation plug-in allows decoding binary messages encoded using Google Protocol Buffers.</description>
+		<author>Ruckus Wireless</author>
+		<author_url>http://ruckuswireless.com</author_url>
+		<author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
+		<license>Apache License 2.0</license>
+		<license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>TRUNK-SNAPSHOT</version>
+				<name>Latest</name>
+				<package_url>https://github.com/RuckusWirelessIL/pentaho-protobuf-decode/releases/download/v1.0/pentaho-protobuf-decode-TRUNK-SNAPSHOT.zip</package_url>
+				<samples_url/>
+				<description>Latest build from the trunk development branch.</description>
+				<build_id>20140101-1603</build_id>
+				<max_parent_version>4.8</max_parent_version>
+				<min_parent_version>1.0</min_parent_version>
+			</version>
+		</versions>
+	</market_entry>
+
+
+	<market_entry>
+		<id>legstar.pdi.zosfile</id>
+		<type>Step</type>
+		<name>LegStar z/OS File reader Plugin</name>
+		<description>This step reads raw z/OS records from a file and transforms them to PDI rows</description>
+		<author>LegSem</author>
+		<documentation_url>https://code.google.com/p/legstar-pdi/wiki/GetStarted</documentation_url>
+		<versions>
+			<version>
+				<version>0.6</version>
+				<package_url>https://googledrive.com/host/0B0Jhkz53SgUXTElZSHh4NUM2Tm8/legstar.pdi.zosfile-0.6.zip</package_url>
+				<source_url>https://code.google.com/p/legstar-pdi/source/checkout</source_url>
+			</version>
+		</versions>
+		<forum_url>https://groups.google.com/forum/#!forum/legstar-user</forum_url>
+		<cases_url>https://code.google.com/p/legstar-pdi/issues/list</cases_url>
+		<license_name>GNU Lesser GPL</license_name>
+		<license_text>For more details see: http://www.gnu.org/licenses/lgpl.html</license_text>
+		<support_level>COMMUNITY_SUPPORTED</support_level>
+		<support_message>Supported by a LegSem</support_message>
+		<support_organization>LegSem</support_organization>
+		<support_url>http://www.legsem.com/</support_url>
+	</market_entry>
+    <market_entry>
+        <id>PRScript</id>
+        <type>Step</type>
+        <name>Execute R Script</name>
+        <description>Execute R script from file by specifying input and output variables.
+Note: See also the advanced R script executor plug-in within the Marketplace.
+        </description>
+        <documentation_url>http://dekarlab.de/?index=2</documentation_url>
+        <author>DEKAR laboratory</author>
+        <small_img/>
+        <installation_notes><![CDATA[
+				R script plugin can be installed by performing the following steps:
+				1) Install R project from the site http://www.r-project.org/
+				2) Install rJava package in R by executing: install.packages("rJava")
+				3) Copy JRI library rJava/jri/jri.dll or rJava/jri/libjri.so to: data-integration/libswt/{Platform_64bit}
+				4) Specify location of R using R_HOME environment variable.
+		]]>
+        </installation_notes>
+		<cases_url>https://github.com/dekarlab/pentahor/issues</cases_url>
+		<license_name>GNU General Public License</license_name>
+		<license_text>For more details see:
+			http://www.gnu.org/licenses/</license_text>
+        <versions>
+            <version>
+                <version>0.0.1</version>
+                <package_url>http://dekarlab.de/download/PRScript.zip</package_url>
+            </version>
+        </versions>
+    </market_entry>
+
+    <market_entry>
+        <id>pentaho-kettle-compare-fields-plugin</id>
+        <type>Step</type>
+        <name>Compare Fields</name>
+        <description> Compares 2 sets of fields in a row and directs it to the appropriate destination step based on the result.
+This step detects identical, changed, added and removed rows.</description>
+        <documentation_url>http://wiki.pentaho.com/display/EAI/Compare+Fields</documentation_url>
+        <author>Matt Casters / Pentaho</author>
+	<forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+	<cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+	<license_name>Apache License 2.0</license_name>
+	<license_text>For more details see:
+		http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+        <versions>
+            <version>
+                <version>1.1.0</version>
+                <package_url>https://pentaho.box.com/shared/static/0wq4a5u4dtkdcvsb8h17.zip</package_url>
+		<min_parent_version>5.0.0</min_parent_version>
+            </version>
+        </versions>
+    </market_entry>
+
+    <market_entry>
+        <id>ic-riak-plugin</id>
+        <type>Step</type>
+        <name>IC Riak Plugin</name>
+        <description>Riak Consumer/Producer</description>
+        <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-Riak/blob/master/README.md</documentation_url>
+        <author>instaclick inc.</author>
+        <license_name>MIT</license_name>
+        <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-Riak/master/LICENSE.md</license_text>
+        <versions>
+            <version>
+                <version>1.0.0</version>
+                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-riak-plugin-pdi-1.0.0-SNAPSHOT.zip</package_url>
+            </version>
+        </versions>
+    </market_entry>
+
+    <market_entry>
+        <id>ic-amqp-plugin</id>
+        <type>Step</type>
+        <name>IC AMQP Plugin</name>
+        <description>AMQP Consumer/Producer</description>
+        <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-AMQP/blob/master/README.md</documentation_url>
+        <author>instaclick inc.</author>
+        <license_name>MIT</license_name>
+        <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-AMQP/master/LICENSE.md</license_text>
+        <versions>
+            <version>
+                <version>1.1.1</version>
+                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.1.1-SNAPSHOT.zip</package_url>
+            </version>
+        </versions>
+    </market_entry>
+
+    <market_entry>
+        <id>ic-filter-plugin</id>
+        <type>Step</type>
+        <name>IC Bloom filter Plugin</name>
+        <description>Bloom filter for pentaho PDI</description>
+        <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-BloomFilter/blob/master/README.md</documentation_url>
+        <author>instaclick inc.</author>
+        <license_name>MIT</license_name>
+        <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-BloomFilter/master/LICENSE.md</license_text>
+        <versions>
+            <version>
+                <version>1.8.1</version>
+                <package_url>https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-filter-plugin-pdi-1.8.1-SNAPSHOT.zip</package_url>
+            </version>
+        </versions>
+    </market_entry>
+
+    <market_entry>
+        <id>Jare_Rule_Engine_Plugin</id>
+        <type>Step</type>
+        <name>JaRE - Java Rule Engine</name>
+        <description>
+		Check data against rules defined in external xml files. The advantage being
+		that the logic is not defined in the transformation but externally.
+
+		Rules are defined in groups and subgroups allowing to combine them
+		with flexible and/or conditions. So a group may pass the check even though
+		some of the rules might have failed.
+
+		You may check a single field or fields against each other. The rule engine
+		also allows for actions (e.g. update a field), depending on the result of the
+		check.
+
+		Detailed documentation on the rule engine: https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/jare_v0.60.pdf
+	</description>
+        <documentation_url>https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/readme.txt</documentation_url>
+        <author>Uwe Geercken / Datamelt</author>
+	<forum_url/>
+	<cases_url/>
+	<license_name>GNU General Public License version 2.0 (GPLv2)</license_name>
+	<license_text>For more details see:
+			http://www.gnu.org/licenses/</license_text>
+        <versions>
+            <version>
+                <version>0.0.1</version>
+                <package_url>https://github.com/uwegeercken/jareplugin/archive/master.zip</package_url>
+		<min_parent_version>4.3.0</min_parent_version>
+            </version>
+        </versions>
+    </market_entry>
+
+    <market_entry>
+	<id>jdbcMetaData</id>
+	<type>Step</type>
+	<name>JDBC Metadata</name>
+	<description>
+>>>>>>> version no increased
       This step provides access to various metadata resultsets of the JDBC DatabaseMetaData object.
       JDBC metadata allows you to list tables, table columns, primary key columns, foreign key columns, object
       privileges etc. based on a database connection.
