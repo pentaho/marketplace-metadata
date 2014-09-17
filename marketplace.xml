@@ -139,7 +139,7 @@
       create friendly, powerful and fully featured Dashboards on top of
       the Pentaho Business Intelligence server.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
@@ -236,7 +236,7 @@
       cons of the older implementation, CDA allows you to access any of
       the various Pentaho data sources.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <dependencies>CDF</dependencies>
@@ -336,7 +336,7 @@
       develop and deploy dashboards in the Pentaho platform in a fast and
       effective way.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <dependencies>CDF, CDA</dependencies>
@@ -438,7 +438,7 @@
       plugin is able to render, on server-side, exactly the same chart
       that is rendered on the browser by CDE/CDF.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
