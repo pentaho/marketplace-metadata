@@ -2103,10 +2103,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>release</branch>
-        <version>0.1.8</version>
+        <version>0.2.0</version>
         <name>Release</name>
         <package_url>https://dl.dropboxusercontent.com/s/o4mjewg98ntcpfs/bissolTableDataEditor.zip</package_url>
-        <description>Release 0.1.8</description>
+        <description>Release 0.2.0</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
