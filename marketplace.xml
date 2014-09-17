@@ -517,7 +517,7 @@
       of our existing stack, anyone familiar with those tools will be
       able to build plugins.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
@@ -582,7 +582,7 @@
       The idea is to provide some helper functions that allows to quickly port examples from the d3 gallery page and
       implement them as components to be used in the Pentaho platform.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
@@ -1514,7 +1514,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       errors, CDV, is key to achieve absolute accuracy in the numbers our
       dashboards display.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
@@ -1592,7 +1592,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       directly from Pentaho. Make your own analysis in an autonomous and
       easy way.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
@@ -1677,7 +1677,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <description>CDC stands for Community Distributed Cache and allows for high-performance, scalable and distributed
       memory clustering cache based on Hazelcast for both CDA and Mondrian.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
@@ -1766,7 +1766,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       repository from inside Pentaho. You can use it to manage your file needs, allowing uploads and downloads from
       inside your dashboards.
     </description>
-    <author>WebDetails</author>
+    <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
