@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<market xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
+<market xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
 
   <!-- ***************** -->
   <!-- BA Server Plugins -->
@@ -173,42 +172,34 @@
       </version>
 
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <samples_url>
-          http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip
-        </samples_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-        <build_id>136</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+		    <branch>TRUNK</branch>
+ 			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+            <samples_url>http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+            <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>            
+            <development_stage>
+                <lane>Community</lane>
+                <phase>2</phase>
+            </development_stage>                        
+		    <build_id>137</build_id>
+            <min_parent_version>1.0</min_parent_version>
+            <max_parent_version>4.9</max_parent_version>
+	        </version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <samples_url>
-          http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip
-        </samples_url>
-        <description>Build for Pentaho 5.0</description>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-        <build_id>484</build_id>
-        <min_parent_version>5.0</min_parent_version>
-      </version>
+            <branch>TRUNK</branch>
+            <version>TRUNK-SNAPSHOT</version>
+            <name>Trunk</name>
+            <package_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip</package_url>
+            <samples_url>http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-samples-TRUNK-SNAPSHOT.zip</samples_url>
+            <description>Build for Pentaho 5.0</description>
+            <development_stage>
+                <lane>Community</lane>
+                <phase>2</phase>
+            </development_stage>                                    
+            <build_id>485</build_id>
+            <min_parent_version>5.0</min_parent_version>
+          </version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-1.png</screenshot>
@@ -271,41 +262,33 @@
 
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <samples_url>
-          http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip
-        </samples_url>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+        <package_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+        <samples_url>http://ci.pentaho.com/job/pentaho-cda-pentaho/lastSuccessfulBuild/artifact/cda-pentaho/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
         <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-        <build_id>130</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+            <lane>Community</lane>
+            <phase>2</phase>
+        </development_stage>                                            
+		<build_id>130</build_id>
+        <min_parent_version>1.0</min_parent_version>		
+		<max_parent_version>4.9</max_parent_version>        
+		</version>
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <samples_url>
-          http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip
-        </samples_url>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+        <package_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip</package_url>
+        <samples_url>http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-TRUNK-SNAPSHOT.zip</samples_url>
         <description>Build for Pentaho 5.0</description>
         <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-        <build_id>221</build_id>
+            <lane>Community</lane>
+            <phase>2</phase>
+        </development_stage>                                            
+		<build_id>221</build_id>
         <min_parent_version>5.0</min_parent_version>
-      </version>
+		</version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-01.png</screenshot>
@@ -373,42 +356,34 @@
 
 
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <samples_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip
-        </samples_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-        <build_id>10</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+            <branch>TRUNK</branch>
+    		<version>TRUNK-SNAPSHOT</version>
+	    	<name>Trunk</name>
+            <package_url>http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
+            <samples_url>http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
+            <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+            <development_stage>
+                <lane>Community</lane>
+                <phase>2</phase>
+            </development_stage>                                                
+		    <build_id>11</build_id>
+            <min_parent_version>1.0</min_parent_version>		
+	    	<max_parent_version>4.9</max_parent_version>        
+		    </version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <samples_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip
-        </samples_url>
-        <description>Build for Pentaho 5.0</description>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-        <build_id>289</build_id>
-        <min_parent_version>5.0</min_parent_version>
-      </version>
+                <branch>TRUNK</branch>
+                <version>TRUNK-SNAPSHOT</version>
+        		<name>Trunk</name>                
+                <package_url>http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip</package_url>
+                <samples_url>http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip</samples_url>
+                <description>Build for Pentaho 5.0</description>
+                <development_stage>
+                    <lane>Community</lane>
+                    <phase>2</phase>
+                </development_stage>                                                    
+        		<build_id>290</build_id>
+                <min_parent_version>5.0</min_parent_version>	
+            </version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-1.png</screenshot>
@@ -472,28 +447,24 @@
 
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cgg-pentaho/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-TRUNK-SNAPSHOT.zip
-        </package_url>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+        <package_url>http://ci.pentaho.com/job/pentaho-cgg-pentaho/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>42</build_id>
+		<build_id>42</build_id>
         <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+		<max_parent_version>4.9</max_parent_version>
+		</version>
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cgg/lastSuccessfulBuild/artifact/cgg-pentaho5/dist/cgg-TRUNK-SNAPSHOT.zip
-        </package_url>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+        <package_url>http://ci.pentaho.com/job/pentaho-cgg/lastSuccessfulBuild/artifact/cgg-pentaho5/dist/cgg-TRUNK-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>22</build_id>
+		<build_id>22</build_id>
         <min_parent_version>5.0</min_parent_version>
 
-      </version>
+		</version>
     </versions>
   </market_entry>
 
@@ -539,26 +510,24 @@
         </development_stage>
       </version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description/>
-        <build_id>18</build_id>
-        <max_parent_version>4.9</max_parent_version>
-        <min_parent_version>1.0</min_parent_version>
-      </version>
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+		    <name>Trunk</name>
+    		<package_url>http://ci.pentaho.com/job/Sparkl-4.x/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+	    	<description/>
+		    <build_id>18</build_id>
+            <max_parent_version>4.9</max_parent_version>
+	    	<min_parent_version>1.0</min_parent_version>		
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description>@PLUGIN_PACKAGE_DESCRIPTION@</description>
-        <build_id>72</build_id>
-        <min_parent_version>5.0</min_parent_version>
-      </version>
+	        <branch>TRUNK</branch>
+    		<version>TRUNK-SNAPSHOT</version>
+	    	<name>Trunk</name>
+		    <package_url>http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-TRUNK-SNAPSHOT.zip</package_url>
+    		<description>@PLUGIN_PACKAGE_DESCRIPTION@</description>
+	    	<build_id>72</build_id>
+            <min_parent_version>5.0</min_parent_version>
+		</version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/sparkl/sparkl-1.png</screenshot>
@@ -572,7 +541,7 @@
     <type>Platform</type>
     <name>D3 Component Library</name>
     <category>
-      <name></name>
+      <name/>
       <parent>
         <name>Visualizations</name>
       </parent>
@@ -1533,37 +1502,33 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <min_parent_version>1.0</min_parent_version>
       </version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-        <build_id>62</build_id>
-        <max_parent_version>4.9</max_parent_version>
-        <min_parent_version>1.0</min_parent_version>
-      </version>
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	    	<package_url>http://ci.pentaho.com/job/pentaho-cdv-pentaho/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+		    <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+            <development_stage>
+                <lane>Community</lane>
+                <phase>2</phase>
+            </development_stage>                                    		    
+    		<build_id>62</build_id>
+            <max_parent_version>4.9</max_parent_version>		
+            <min_parent_version>1.0</min_parent_version>		
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description>Build for Pentaho 5.0</description>
-        <developmentStage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </developmentStage>
-        <build_id>49</build_id>
-        <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.0</max_parent_version>
-      </version>
+    	    <branch>TRUNK</branch>
+	    	<version>TRUNK-SNAPSHOT</version>
+		    <name>Trunk</name>
+            <package_url>http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+            <developmentStage>
+                <lane>Community</lane>
+                <phase>2</phase>
+            </developmentStage>                                                
+            <build_id>49</build_id>
+            <min_parent_version>5.0</min_parent_version>
+            <max_parent_version>5.0</max_parent_version>            
+		</version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-1.png</screenshot>
@@ -1627,36 +1592,32 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
 
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho/dist/cdb-pentaho-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description>Trunk snapshot build for Pentaho 4.x</description>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-        <build_id>14</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+	    <branch>TRUNK</branch>
+			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho/dist/cdb-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Trunk snapshot build for Pentaho 4.x</description>
+            <development_stage>
+                <lane>Community</lane>
+                <phase>2</phase>
+            </development_stage>                                                
+		    <build_id>14</build_id>
+            <min_parent_version>1.0</min_parent_version>		
+	    	<max_parent_version>4.9</max_parent_version>     
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho5/dist/cdb-pentaho5-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description>Build for Pentaho 5.0</description>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-        <build_id>14</build_id>
-        <min_parent_version>5.0</min_parent_version>
-      </version>
+	    <branch>TRUNK</branch>
+			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cdb/lastSuccessfulBuild/artifact/cdb-pentaho5/dist/cdb-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+            <development_stage>
+                <lane>Community</lane>
+                <phase>2</phase>
+            </development_stage>                                                
+		    <build_id>14</build_id>
+            <min_parent_version>5.0</min_parent_version>		
+		</version>
     </versions>
   </market_entry>
 
@@ -1714,37 +1675,33 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
 
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho/dist/cdc-pentaho-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho/dist/cdc-pentaho-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
         <developmentStage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </developmentStage>
-        <build_id>15</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+            <lane>Community</lane>
+            <phase>2</phase>
+        </developmentStage>                                    		
+		<build_id>15</build_id>
+		<min_parent_version>1.0</min_parent_version>
+		<max_parent_version>4.9</max_parent_version>
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho5/dist/cdc-pentaho5-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
+	    <branch>TRUNK</branch>
+		<version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+		<package_url>http://ci.pentaho.com/job/pentaho-cdc/lastSuccessfulBuild/artifact/cdc-pentaho5/dist/cdc-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+		<description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
         <developmentStage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </developmentStage>
+            <lane>Community</lane>
+            <phase>2</phase>
+        </developmentStage>                                    
 
-        <build_id>15</build_id>
-        <min_parent_version>5.0</min_parent_version>
-      </version>
+		<build_id>15</build_id>
+		<min_parent_version>5.0</min_parent_version>		
+		</version>
     </versions>
   </market_entry>
 
@@ -1775,27 +1732,23 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cfr-pentaho/lastSuccessfulBuild/artifact/cfr-pentaho/dist/cfr-pentaho-TRUNK-SNAPSHOT.zip
-        </package_url>
+	    <version>TRUNK-SNAPSHOT</version>
+		<name>Trunk</name>
+        <package_url>http://ci.pentaho.com/job/pentaho-cfr-pentaho/lastSuccessfulBuild/artifact/cfr-pentaho/dist/cfr-pentaho-TRUNK-SNAPSHOT.zip</package_url>
         <description>Trunk Snapshot. Get the latest, edgy, still work in progress features here...</description>
-        <build_id>60</build_id>
-        <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>4.9</max_parent_version>
-      </version>
+		<build_id>60</build_id>
+        <min_parent_version>1.0</min_parent_version>		
+		<max_parent_version>4.9</max_parent_version>    
+		</version>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Trunk</name>
-        <package_url>
-          http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description>Build for Pentaho 5.0</description>
-        <build_id>43</build_id>
-        <min_parent_version>5.0</min_parent_version>
-      </version>
+		    <branch>TRUNK</branch>
+			<version>TRUNK-SNAPSHOT</version>
+    		<name>Trunk</name>
+	        <package_url>http://ci.pentaho.com/job/pentaho-cfr/lastSuccessfulBuild/artifact/cfr-pentaho5/dist/cfr-pentaho5-TRUNK-SNAPSHOT.zip</package_url>
+            <description>Build for Pentaho 5.0</description>
+		    <build_id>43</build_id>
+            <min_parent_version>5.0</min_parent_version>		
+        </version>
     </versions>
   </market_entry>
 
@@ -1999,7 +1952,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <small_img>http://www.xpand-it.com/images/software/pentaho-fusioncharts-plugin.png</small_img>
     <name>Fusion Charts Plugin</name>
     <category>
-      <name></name>
+      <name/>
       <parent>
         <name>Visualizations</name>
       </parent>
