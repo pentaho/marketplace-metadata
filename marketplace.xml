@@ -4156,32 +4156,43 @@ any translation issues or suggestions for improvement
     <type>Step</type>
     <name>JaRE - Java Rule Engine</name>
     <description>
-      Check data against rules defined in external xml files. The advantage being
-      that the logic is not defined in the transformation but externally.
+      Check data against rules defined in an external file. The advantage being
+      that the logic is not defined in the transformation but externally. If the logic
+      changes, then the transformation does not need to be touched.
+
+      Having the rules outside the ETL process in a central location is more transparent
+      for the users and the ETL process is cleaner.
+
+      There is a web application available for the maintenance of the rule logic in the
+      form of projects.
 
       Rules are defined in groups and subgroups allowing to combine them
       with flexible and/or conditions. So a group may pass the check even though
-      some of the rules might have failed.
+      some of the rules might have failed. You have optimum flexibility to define
+      your simple or komplex logic.
 
-      You may check a single field or fields against each other. The rule engine
-      also allows for actions (e.g. update a field), depending on the result of the
-      check.
+      The rule engine also allows for actions depending on the result of the
+      business rules. These actions may update fields, calculate values or do other
+      modifications.
 
       Detailed documentation on the rule engine:
       https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/jare_v0.60.pdf
+
+      Find source code and files on github.com/uwegeercken
+
     </description>
     <documentation_url>https://github.com/uwegeercken/jareplugin/blob/master/plugins/steps/JarePlugin/readme.txt
     </documentation_url>
     <author>Uwe Geercken / Datamelt</author>
     <forum_url/>
     <cases_url/>
-    <license_name>GNU General Public License version 2.0 (GPLv2)</license_name>
+    <license_name>GNU General Public License version 3.0 (GPLv3)</license_name>
     <license_text>For more details see:
       http://www.gnu.org/licenses/
     </license_text>
     <versions>
       <version>
-        <version>0.0.1</version>
+        <version>1.0.0</version>
         <package_url>https://github.com/uwegeercken/jareplugin/archive/master.zip</package_url>
         <min_parent_version>4.3.0</min_parent_version>
       </version>
