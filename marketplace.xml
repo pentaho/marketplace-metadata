@@ -1654,7 +1654,8 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
           Build for Pentaho 5.0
         </description>
         <build_id>16</build_id>
-        <min_parent_version>5.0</min_parent_version>
+        <min_parent_version>1.0</min_parent_version>
+	<max_parent_version>4.9</max_parent_version>        
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -1745,6 +1746,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         </description>
         <build_id>20</build_id>
         <min_parent_version>1.0</min_parent_version>
+	<max_parent_version>4.9</max_parent_version>        
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
