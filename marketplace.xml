@@ -679,7 +679,7 @@
       </version>
       <version>
         <branch>TRUNK</branch>
-        <version>Trunk</version>
+        <version>2.6-PENTAHO5-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
           http://ci.analytical-labs.com/job/saiku-bi-platform-plugin-p5/lastSuccessfulBuild/artifact/saiku-bi-platform-plugin-p5/target/saiku-plugin-p5-3.0-SNAPSHOT.zip
