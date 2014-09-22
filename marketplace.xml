@@ -3614,7 +3614,7 @@ any translation issues or suggestions for improvement
     <documentation_url>http://www.melissadata.com/dqt/contact-zone/index.htm</documentation_url>
     <versions>
       <version>
-        <version>4.2.0</version>
+        <version>4.3.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
       </version>
     </versions>
@@ -3647,7 +3647,7 @@ any translation issues or suggestions for improvement
     <documentation_url>http://www.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
     <versions>
       <version>
-        <version>4.2.0</version>
+        <version>4.3.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
       </version>
     </versions>
@@ -3684,7 +3684,7 @@ any translation issues or suggestions for improvement
     <documentation_url>http://www.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
     <versions>
       <version>
-        <version>4.2.0</version>
+        <version>4.3.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
       </version>
     </versions>
