@@ -2063,7 +2063,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>Release</branch>
-        <version>3.0.6</version>
+        <version>3.0.7</version>
         <name>Latest</name>
         <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip</package_url>
         <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip</samples_url>
