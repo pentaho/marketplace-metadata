@@ -173,7 +173,7 @@
 
       <version>
         <branch>TRUNK</branch>
-        <version>${distribution.version}</version>
+        <version>TRUNK-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
           http://ci.pentaho.com/job/pentaho-cdf-pentaho/lastSuccessfulBuild/artifact/cdf-pentaho/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip
@@ -184,7 +184,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>140</build_id>
+        <build_id>141</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -194,7 +194,7 @@
       </version>
       <version>
         <branch>TRUNK</branch>
-        <version>${distribution.version}</version>
+        <version>TRUNK-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
           http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-TRUNK-SNAPSHOT.zip
@@ -205,7 +205,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>490</build_id>
+        <build_id>491</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -384,15 +384,15 @@
         <version>TRUNK-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cde-pentaho/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-TRUNK-SNAPSHOT.zip
         </package_url>
         <samples_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cde-pentaho/lastSuccessfulBuild/artifact/cde-pentaho/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip
         </samples_url>
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>16</build_id>
+        <build_id>17</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
