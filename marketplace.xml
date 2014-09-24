@@ -205,7 +205,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>492</build_id>
+        <build_id>493</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -565,7 +565,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>81</build_id>
+        <build_id>82</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
