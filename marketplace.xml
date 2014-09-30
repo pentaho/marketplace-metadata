@@ -3109,7 +3109,7 @@ any translation issues or suggestions for improvement
         <branch>RELEASE</branch>
         <version>1.0</version>
         <name>Release</name>
-        <package_url>http://www.webdetails.pt/ficheiros/pentaho-emerald-theme-1.0.zip</package_url>
+        <package_url>http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/pentaho-emerald-theme-1.0.zip</package_url>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
@@ -3121,6 +3121,20 @@ any translation issues or suggestions for improvement
         </development_stage>
       </version>
     </versions>
+    <screenshots>
+      <screenshot>
+        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-01.png
+      </screenshot>
+      <screenshot>
+        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-02.png
+      </screenshot>
+      <screenshot>
+        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-03.png
+      </screenshot>
+      <screenshot>
+        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-04.png
+      </screenshot>
+    </screenshots>
   </market_entry>
 
 
