@@ -3784,6 +3784,10 @@ any translation issues or suggestions for improvement
     <documentation_url>https://github.com/mattyb149/load-text-from-file-plugin/wiki</documentation_url>
     <versions>
       <version>
+        <version>1.1</version>
+        <package_url>https://pentaho.box.com/shared/static/i9z811v11h1wtwf7v6ku.zip</package_url>
+      </version>
+      <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
       </version>
