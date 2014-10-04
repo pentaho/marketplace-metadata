@@ -5443,4 +5443,28 @@ any translation issues or suggestions for improvement
     <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
 
+
+  <market_entry>
+    <id>pdi-jira</id>
+    <type>Step</type>
+    <name>JIRA Plugin</name>
+    <description>Get information from JIRA server</description>
+    <documentation_url>https://sourceforge.net/p/pdijira/wiki/Home/</documentation_url>
+    <author>Neyko Neykov</author>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level> 
+    <support_message>Supported by Neyko Neykov.</support_message>
+    <support_url>https://sourceforge.net/p/pdijira/tickets/</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>0.4.3</version>
+        <name>0.4.3</name>
+        <package_url>http://sourceforge.net/projects/pdijira/files/pdi-jira-0.4.3.zip/download</package_url>
+        <min_parent_version>4.4</min_parent_version>
+      </version>
+    </versions>
+  </market_entry>
 </market>
