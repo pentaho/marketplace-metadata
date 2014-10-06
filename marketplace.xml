@@ -4647,7 +4647,7 @@ any translation issues or suggestions for improvement
     <license_name>Apache License 2.0</license_name>
     <license_text>For more details see:
       http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-    <support_level>PROFESSIONALY_SUPPORTED</support_level> 
+    <support_level>COMMUNITY_SUPPORTED</support_level> 
     <support_message>Supported by Neyko Neykov.</support_message>
     <support_url>https://sourceforge.net/p/pdijira/tickets/</support_url>
     <versions>
