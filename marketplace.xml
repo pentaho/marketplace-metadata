@@ -1487,7 +1487,6 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         ]]></description>
 		<build_id>manual-20141001</build_id>
 		<changelog/>
-        <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version/>
         <development_stage>
