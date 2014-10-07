@@ -4435,10 +4435,10 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>RELEASE</branch>
-        <version>0.1</version>
-        <name>RELEASE-0.1</name>
+        <version>0.2</version>
+        <name>RELEASE-0.2</name>
         <package_url>
-          http://ci.pentaho.com/job/Webdetails-kettle-ba-server-utils/lastSuccessfulBuild/artifact/dist/kettle-baserver-utils-RELEASE-0.1.zip
+          http://ci.pentaho.com/job/Webdetails-kettle-ba-server-utils/lastSuccessfulBuild/artifact/dist/kettle-baserver-utils-RELEASE-0.2.zip
         </package_url>
         <source_url>https://github.com/webdetails/kettle-baserver-utils</source_url>
         <min_parent_version>5.0</min_parent_version>
