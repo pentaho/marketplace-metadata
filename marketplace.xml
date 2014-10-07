@@ -4636,4 +4636,33 @@ any translation issues or suggestions for improvement
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
   </market_entry>
+
+  <market_entry>
+    <id>AvroOutputPlugin</id>
+    <type>Step</type>
+    <name>Avro Output Plugin</name>
+    <description>The Avro Output Plugin for Pentaho Data Integration allows you to output Avro files using Kettle. Avro files are commonly used in Hadoop allowing for schema evolution and truly separating the write schema from the read schema.</description>
+    <author>Inquidia Consulting</author>
+    <author_url>http://www.inquidia.com</author_url>
+    <author_logo>http://inquidia.com/sites/default/files/inquidia-web-logo.png</author_logo>
+    <installation_notes/>
+    <documentation_url>https://github.com/cdeptula/AvroOutputPlugin/blob/master/README.md</documentation_url>
+    <versions>
+      <version>
+        <branch>trunk</branch>
+        <version>1.0</version>
+        <build_id/>
+        <name>Version 1.0</name>
+        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/v1.0/AvroOutputPlugin.zip
+        </package_url>
+        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
+      </version>
+    </versions>
+    <cases_url>https://github.com/cdeptula/AvroOutputPlugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+  </market_entry>
 </market>
