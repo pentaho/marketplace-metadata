@@ -155,6 +155,25 @@
         <min_parent_version>1.0</min_parent_version>
         <build_id/>
       </version>
+      
+      <version>
+        <branch>5.2</branch>
+        <version>5.2.0.0-209</version>
+        <name>5.2</name>
+        <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf/5.2.0.0-209/pentaho-cdf-5.2.0.0-209.zip</package_url>
+        <samples_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-samples/5.2.0.0-209/pentaho-cdf-samples-5.2.0.0-209.zip</samples_url>
+        <description>Stable Release</description>
+        <min_parent_version>5.2</min_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+        <build_id/>
+      </version>
+      
+      
+      
       <version>
         <branch>STABLE</branch>
         <version>14.07.29</version>
@@ -272,6 +291,25 @@
         </development_stage>
       </version>
 
+
+      <version>
+        <branch>5.2</branch>
+        <version>5.2.0.0-209</version>
+        <name>5.2</name>
+        <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cda/5.2.0.0-209/cda-5.2.0.0-209.zip</package_url>
+        <samples_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cda-samples/5.2.0.0-209/cda-samples-5.2.0.0-209.zip</samples_url>
+        <description>5.2 platform release.</description>
+        <build_id/>
+        <min_parent_version>5.2</min_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
+
       <version>
         <branch>TRUNK</branch>
         <version>TRUNK-SNAPSHOT</version>
@@ -349,6 +387,26 @@
     <dependencies>CDF, CDA</dependencies>
     <license>MPL 2.0</license>
     <versions>
+    
+      <version>
+        <branch>5.2</branch>
+        <version>5.2.0.0-209</version>
+        <name>5.2</name>
+        <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-dd/5.2.0.0-209/pentaho-cdf-dd-5.2.0.0-209.zip</package_url>
+        <samples_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-dd-solution/5.2.0.0-209/pentaho-cdf-dd-solution-5.2.0.0-209.zip
+        </samples_url>
+        <description>5.2 Release</description>
+        <build_id/>
+        <min_parent_version>5.2</min_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    
+    
+    
       <version>
         <branch>STABLE</branch>
         <version>14.07.29</version>
@@ -455,6 +513,24 @@
     <license>MPL 2.0</license>
     <installation_notes/>
     <versions>
+    
+    
+      <version>
+        <branch>5.2</branch>
+        <version>5.2.0.0-209</version>
+        <name>5.2</name>
+        <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cgg/5.2.0.0-209/cgg-5.2.0.0-209.zip</package_url>
+        <description>5.2 release.</description>
+        <max_parent_version>5.2.99</max_parent_version>
+        <min_parent_version>5.2</min_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>        
+        <build_id/>
+      </version>
+    
+    
       <version>
         <branch>STABLE</branch>
         <version>14.07.29</version>
@@ -530,6 +606,24 @@
     <license>MPL 2.0</license>
     <dependencies>CDF, CDA, CDE, CGG</dependencies>
     <versions>
+    
+      <version>
+        <branch>5.2</branch>
+        <version>5.2.0.0-209</version>
+        <name>5.2 Release</name>
+        <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/sparkl/5.2.0.0-209/sparkl-5.2.0.0-209.zip
+        </package_url>
+        <description>5.2 Release</description>
+        <build_id/>
+        <min_parent_version>5.2</min_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>14.05.06</version>
