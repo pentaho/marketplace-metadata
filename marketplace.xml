@@ -4769,8 +4769,8 @@ any translation issues or suggestions for improvement
   <author_url>http://www.spec-india.com/business-intelligence-big-data.htm</author_url> 
   <author_logo>http://www.spec-india.com/images/spec-logo.png</author_logo>
   <dependencies>CDF, CDA, CDE, CGG</dependencies>
-  <img>https://github.com/SPECUSA/BootstrapPlugin/blob/master/PluginImg/Screen1.png</img>
-  <small_img>https://github.com/SPECUSA/BootstrapPlugin/blob/master/PluginImg/Screen1.png</small_img>
+  <img>https://raw.githubusercontent.com/SPECUSA/BootstrapPlugin/master/PluginImg/Screen1.png</img>
+  <small_img>https://raw.githubusercontent.com/SPECUSA/BootstrapPlugin/master/PluginImg/Screen1.png</small_img>
   <installation_notes>Install Notes</installation_notes>
   <forum_url>https://github.com/SPECUSA/BootstrapPlugin</forum_url>
   <cases_url>https://github.com/SPECUSA/BootstrapPlugin</cases_url>
