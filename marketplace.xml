@@ -26,7 +26,7 @@
          <name>1.0</name>
          <package_url>https://github.com/bcolas/PDISforceBulkPlugin/blob/5.1/dist/kettle-sforcebulk-plugin.zip</package_url>
          <source_url>https://github.com/bcolas/PDISforceBulkPlugin</source_url>
-         <min_parent_version>4.4</min_parent_version>
+         <min_parent_version>5.1</min_parent_version>
        </version>
      </versions>
    </market_entry>
