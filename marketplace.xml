@@ -224,7 +224,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>513</build_id>
+        <build_id>514</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -450,7 +450,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>22</build_id>
+        <build_id>23</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -471,7 +471,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>301</build_id>
+        <build_id>302</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -565,12 +565,12 @@
           http://ci.pentaho.com/job/pentaho-cgg-pentaho/lastSuccessfulBuild/artifact/cgg-pentaho/dist/cgg-TRUNK-SNAPSHOT.zip
         </package_url>
         <samples_url>
-          ${marketplace.metadata.samples_url}
+          
         </samples_url>
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>43</build_id>
+        <build_id>45</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -586,12 +586,12 @@
           http://ci.pentaho.com/job/pentaho-cgg/lastSuccessfulBuild/artifact/cgg-pentaho5/dist/cgg-TRUNK-SNAPSHOT.zip
         </package_url>
         <samples_url>
-          ${marketplace.metadata.samples_url}
+          
         </samples_url>
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>23</build_id>
+        <build_id>24</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
