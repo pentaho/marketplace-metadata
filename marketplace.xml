@@ -4790,8 +4790,6 @@ any translation issues or suggestions for improvement
   <author_url>http://www.spec-india.com/business-intelligence-big-data.htm</author_url> 
   <author_logo>http://www.spec-india.com/images/spec-logo.png</author_logo>
   <dependencies>CDF, CDA, CDE, CGG</dependencies>
-  <img>https://raw.githubusercontent.com/SPECUSA/BootstrapPlugin/master/PluginImg/Screen1.png</img>
-  <small_img>https://raw.githubusercontent.com/SPECUSA/BootstrapPlugin/master/PluginImg/Screen1.png</small_img>
   <installation_notes>Install Notes</installation_notes>
   <forum_url>https://github.com/SPECUSA/BootstrapPlugin</forum_url>
   <cases_url>https://github.com/SPECUSA/BootstrapPlugin</cases_url>
@@ -4803,13 +4801,13 @@ any translation issues or suggestions for improvement
       <branch>Stable</branch>
       <version>1.0</version>
       <name>BootstrapDashboardDesigner</name>
-      <package_url>https://github.com/SPECUSA/BootstrapPlugin/archive/master.zip</package_url>
-      <samples_url>https://www.youtube.com/watch?v=oIvax8-K5ko</samples_url>
-      <description>Bootstrap Dashboard Designer plugin which is use to develop bootstrap layout with click of mouse.</description>
-      <changelog>Changes</changelog>
-      <build_id>1</build_id>
+			<package_url>https://raw.githubusercontent.com/SPECUSA/BootstrapPlugin/master/BootstrapDashboardDesigner-1.0.zip</package_url>
+			<samples_url>https://www.youtube.com/watch?v=oIvax8-K5ko</samples_url>
+			<description>Bootstrap Dashboard Designer plugin which is use to develop bootstrap layout with click of mouse.</description>
+			<changelog>Changes</changelog>
+			<build_id>1</build_id>
 			<min_parent_version>5.0</min_parent_version>
-      <max_parent_version>5.2</max_parent_version>
+			<max_parent_version>5.2</max_parent_version>
     </version>
   </versions>
   <screenshots> 
