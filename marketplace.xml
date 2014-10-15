@@ -3274,6 +3274,12 @@ any translation issues or suggestions for improvement
     <id>pdi-mysql-plugin</id>
     <type>Database</type>
     <name>PDI MySQL Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin also contains the GPL MySQL JDBC Driver version 5</description>
     <author>Pentaho</author>
     <documentation_url>http://wiki.pentaho.com/display/EAI/MySQL</documentation_url>
@@ -3282,6 +3288,10 @@ any translation issues or suggestions for improvement
         <version>TRUNK-SNAPSHOT</version>
         <package_url>https://pentaho.box.com/shared/static/qllv3c2bo1eiv0o5f468.zip</package_url>
         <source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
@@ -3301,6 +3311,12 @@ any translation issues or suggestions for improvement
     <id>pdi-nuodb-plugin</id>
     <type>Database</type>
     <name>PDI NuoDB Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin also contains the NuoDB JDBC Driver</description>
     <author>NuoDB</author>
     <documentation_url>http://wiki.pentaho.com/display/EAI/NuoDB</documentation_url>
@@ -3311,6 +3327,10 @@ any translation issues or suggestions for improvement
           https://github.com/nuodb/pdi-nuodb-plugin/releases/download/1.0/pdi-nuodb-plugin-1.0-SNAPSHOT-assembly.zip
         </package_url>
         <source_url>https://github.com/nuodb/pdi-nuodb-plugin</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
@@ -3330,6 +3350,12 @@ any translation issues or suggestions for improvement
     <id>ApplePushNotification</id>
     <type>Step</type>
     <name>Apple Push Notification</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This is a plugin that allows to you send push notifications from Pentaho Data Integration to any iOS
       and OSX devices, using Apple's Push Notification Services.
       This plugin is written in Java and uses the Java Apple Push Notification Service library.
@@ -3356,6 +3382,10 @@ any translation issues or suggestions for improvement
           http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/1.0.0/ApplePushNotification.zip
         </package_url>
         <source_url>https://github.com/latinojoel/pdi-apple-pushnotifications/tree/1.0.0</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -3365,6 +3395,12 @@ any translation issues or suggestions for improvement
     <id>AndroidPushNotification</id>
     <type>Step</type>
     <name>Android Push Notification</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This is a plugin that allows you to send push notifications from Pentaho Data Integration to any
       android application with GCM services.
       The motivation for developing this plugin is to have you, the ETL developer, receive fast notifications about the
@@ -3392,6 +3428,10 @@ any translation issues or suggestions for improvement
           Notifications/1.0.0/AndroidPushNotification.zip
         </package_url>
         <source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/1.0.0</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -3401,6 +3441,12 @@ any translation issues or suggestions for improvement
     <id>DummyPlugin</id>
     <type>Step</type>
     <name>Dummy step plugin</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This is a plugin that is provided as an example on how to create a step plugin for PDI.
       This plugin is intended only to show how a plugin works, it's goal is not to be used in production situations.
       Please consult the documentation referenced below as well as the linked source code.
@@ -3412,6 +3458,7 @@ any translation issues or suggestions for improvement
         <version>4.4</version>
         <package_url>http://wiki.pentaho.com/download/attachments/23531011/DummyPlugin.zip</package_url>
         <source_url>http://source.pentaho.org/svnkettleroot/plugins/DummyPlugin/trunk/</source_url>
+        <development_stage><lane>Community</lane><phase>4</phase></development_stage>
       </version>
     </versions>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
@@ -3431,6 +3478,12 @@ any translation issues or suggestions for improvement
     <id>ArffOutput</id>
     <type>Step</type>
     <name>ARFF Output</name>
+    <category>
+      <name>Data Mining</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Saves data to a file in WEKA's ARFF (Attribute Relation File Format).
     </description>
     <versions>
@@ -3440,6 +3493,10 @@ any translation issues or suggestions for improvement
           http://ci.pentaho.com/view/Data%20Mining/job/pdi-arff-output-plugin/lastSuccessfulBuild/artifact/dist/pdi-arffoutput-plugin-TRUNK-SNAPSHOT-deploy.zip
         </package_url>
         <source_url>https://github.com/pentaho/pdi-weka-arff-output-plugin</source_url>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <author>Pentaho</author>
@@ -3462,6 +3519,12 @@ any translation issues or suggestions for improvement
     <id>KFF</id>
     <type>Mixed</type>
     <name>KFF</name>
+    <category>
+      <name>Lifecycle Management</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This market entry contains a number of step and jobentry plugins from the KFF project:
       - Table compare
       - Environment configurator
@@ -3473,6 +3536,10 @@ any translation issues or suggestions for improvement
         <version>4.x</version>
         <package_url>http://kettle-franchise.googlecode.com/files/kff-plugins4.zip</package_url>
         <source_url>http://kettle-franchise.googlecode.com/svn/trunk/</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <author>The KFF project members: Jan, Matt, Ricardo, Alexandre, Harris, André</author>
@@ -3494,6 +3561,12 @@ any translation issues or suggestions for improvement
     <id>kettle5-profiling-datacleaner</id>
     <type>Mixed</type>
     <name>DataCleaner Data Profiling for Kettle version 5 or higher</name>
+    <category>
+      <name>Data Profiling</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Use DataCleaner to profile your Pentaho Data Integration transformations, step by step.
       Data Cleaner is an open source data quality application made by Human Inference. With it you can run profiling
       jobs using DataCleaner for any transformation step and in the database explorer. Additionally you can include and
@@ -3506,6 +3579,10 @@ any translation issues or suggestions for improvement
         <min_parent_version>5.0.0</min_parent_version>
         <package_url>https://pentaho.box.com/shared/static/dsmczkkmoibwydj2y6z6.zip</package_url>
         <source_url>http://source.pentaho.org/svnkettleroot/plugins/kettle-profiling-datacleaner/</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <author>Human Inference - eobjects - Kasper Sørensen</author>
@@ -3529,6 +3606,12 @@ any translation issues or suggestions for improvement
     <id>EasyDQ</id>
     <type>Step</type>
     <name>EasyDataQuality for Pentaho</name>
+    <category>
+      <name>Data Quality</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>
 
       Combine the leading open source ETL tool with the leading data cleansing functions!
@@ -3556,6 +3639,10 @@ any translation issues or suggestions for improvement
         <version>1.19</version>
         <package_url>http://sourceforge.net/projects/easydq-kettle/files/EasyDQ-PDI-plugin-1.19.zip/download
         </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Proprietary</license_name>
@@ -3575,6 +3662,12 @@ any translation issues or suggestions for improvement
     <id>market</id>
     <type>Mixed</type>
     <name>PDI Marketplace</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
     <author>Pentaho</author>
     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
@@ -3585,6 +3678,10 @@ any translation issues or suggestions for improvement
           http://ci.pentaho.com/job/Kettle/lastSuccessfulBuild/artifact/Kettle/src-plugins/market/dist/market.zip
         </package_url>
         <source_url>http://source.pentaho.org/svnkettleroot/Kettle/trunk/src-plugins/market/</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
@@ -3604,6 +3701,12 @@ any translation issues or suggestions for improvement
     <id>CmisInput</id>
     <type>Step</type>
     <name>CMIS Input</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>The CMIS Input plugin make you able to extract from your Enterprise Content Management System.
       All the metadata of your documents can be retrieved using simple queries with a query language very close to the
       traditional SQL.
@@ -3626,6 +3729,10 @@ any translation issues or suggestions for improvement
         <changelog>Better performance and bufix.</changelog>
         <build_id>1</build_id>
         <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -3635,12 +3742,22 @@ any translation issues or suggestions for improvement
     <id>BucketPartitioner</id>
     <type>Partitioner</type>
     <name>Bucket Partitioner</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Partitions rows based on the quotient (rather than the remainder)</description>
     <versions>
       <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/fcvlirqac4k6semj6q7d.zip</package_url>
         <source_url>https://github.com/mattyb149/BucketPartitioner</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <author>Matt Burgess</author>
@@ -3660,6 +3777,12 @@ any translation issues or suggestions for improvement
     <id>MaxMindGeoIPLookup</id>
     <type>Step</type>
     <name>MaxMind GeoIP Lookup</name>
+    <category>
+      <name>Lookup</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This step uses the MaxMind GeoIP library to look up Countries, region and city information with an IP
       address.
     </description>
@@ -3685,6 +3808,10 @@ any translation issues or suggestions for improvement
         <changelog>First release</changelog>
         <build_id>1</build_id>
         <min_parent_version>4.2</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -3694,6 +3821,12 @@ any translation issues or suggestions for improvement
     <id>weka-scoring</id>
     <type>Step</type>
     <name>Weka Scoring</name>
+    <category>
+      <name>Data Mining</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This step allows you to push data into a Weka model and get scoring out in a transformation.
     </description>
     <author>Mark Hall</author>
@@ -3713,6 +3846,10 @@ any translation issues or suggestions for improvement
         <package_url>https://pentaho.box.com/shared/static/1rcyaet2tceprebejldg.zip</package_url>
         <source_url>http://source.pentaho.org/svnkettleroot/plugins/WekaScoring/</source_url>
         <min_parent_version>4.2</min_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -3722,6 +3859,12 @@ any translation issues or suggestions for improvement
     <id>MDCheckPlugin</id>
     <type>Step</type>
     <name>MDCheck</name>
+    <category>
+      <name>Data Quality</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Melissa Data Contact Verification Tools:
 
       Contact Verify Component
@@ -3761,6 +3904,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>4.3.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>MD licensing</license_name>
@@ -3779,6 +3926,12 @@ any translation issues or suggestions for improvement
     <id>MDGlobalAddressPlugin</id>
     <type>Step</type>
     <name>MDGlobalVerify</name>
+    <category>
+      <name>Data Quality</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Global Verify Component
       • Address verification for over 240 countries
       • Parses and Standardizes data based on country specific rules
@@ -3794,6 +3947,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>4.3.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>MD licensing</license_name>
@@ -3811,6 +3968,12 @@ any translation issues or suggestions for improvement
     <id>MDPersonatorPlugin</id>
     <type>Step</type>
     <name>MDPersonator</name>
+    <category>
+      <name>Data Quality</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Melissa Data Personator Component - Offering Melissa Data's flagship service
       in an easy to use Pentaho Component
 
@@ -3831,6 +3994,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>4.3.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>MD licensing</license_name>
@@ -3848,6 +4015,12 @@ any translation issues or suggestions for improvement
     <id>CiviCrmInput</id>
     <type>Step</type>
     <name>CiviCrmInput</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This step allows reading data from CiviCRM version 1.1
     </description>
     <versions>
@@ -3855,6 +4028,10 @@ any translation issues or suggestions for improvement
         <version>4.X</version>
         <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMInput.zip</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <author>Stratebi and Amnesty International</author>
@@ -3876,6 +4053,12 @@ any translation issues or suggestions for improvement
     <id>CiviCrmOutput</id>
     <type>Step</type>
     <name>CiviCrmOutput</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This step allows write/update data into CiviCRM version 1.1
     </description>
     <versions>
@@ -3883,6 +4066,10 @@ any translation issues or suggestions for improvement
         <version>4.X</version>
         <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMOutput.zip</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <author>Stratebi and Amnesty International</author>
@@ -3904,6 +4091,12 @@ any translation issues or suggestions for improvement
     <id>load-text-from-file</id>
     <type>Step</type>
     <name>Load Text From File</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin uses Apache Tika to extract text from files in many different formats, such as PDF, XLS,
       etc.
     </description>
@@ -3913,10 +4106,18 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.1</version>
         <package_url>https://pentaho.box.com/shared/static/i9z811v11h1wtwf7v6ku.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
       <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
@@ -3932,6 +4133,12 @@ any translation issues or suggestions for improvement
     <id>pdi-superlative-plugin</id>
     <type>Step</type>
     <name>Top / Bottom / First / Last filter</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin filters rows based on a field's values or row numbers, which allows the user to perform
       "top", "bottom", "first", and "last" filtering.
     </description>
@@ -3941,6 +4148,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/t39m1n3rwbmix38wshy5.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
@@ -3956,6 +4167,12 @@ any translation issues or suggestions for improvement
     <id>pdi-valuemeta-map</id>
     <type>Mixed</type>
     <name>Map (key/value pair) type</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin provides a ValueMeta plugin for key/value pairs (backed by a java.util.Map)</description>
     <author>Matt Burgess</author>
     <documentation_url>https://github.com/mattyb149/pdi-valuemeta-map/wiki</documentation_url>
@@ -3963,6 +4180,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/mcjdlfp3s5z30wxnx04u.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
@@ -3978,6 +4199,12 @@ any translation issues or suggestions for improvement
     <id>tdeoutputplugin</id>
     <type>Step</type>
     <name>PDI Tableau Data Extract Output Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>The Tableau Data Extract plugin for Pentaho Data Integration allows you to use Pentaho's ETL
       capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a
       Tableau server or use the TDE in Tableau Desktop.
@@ -4015,6 +4242,10 @@ any translation issues or suggestions for improvement
         <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.2/TDEOutputPlugin_1.0.2.zip
         </package_url>
         <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <cases_url>https://github.com/cdeptula/tdeoutputplugin/issues</cases_url>
@@ -4030,6 +4261,12 @@ any translation issues or suggestions for improvement
     <id>idh23</id>
     <type>HadoopShim</type>
     <name>IDH 2.3 Hadoop Configuration</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This is a Hadoop Configuration plugin that allows PDI to interact with
       Intel Distribution of Hadoop clusters (version 2.3). This plugin is compatible with
       PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
@@ -4041,6 +4278,10 @@ any translation issues or suggestions for improvement
         <version>5.0.1</version>
         <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/idh</source_url>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
@@ -4060,6 +4301,12 @@ any translation issues or suggestions for improvement
     <id>cdh3u4</id>
     <type>HadoopShim</type>
     <name>CDH 3u4 Hadoop Configuration</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This is a Hadoop Configuration plugin that allows PDI to interact with
       Cloudera Distribution of Hadoop clusters (version 3u4). This plugin is compatible with
       PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
@@ -4071,6 +4318,10 @@ any translation issues or suggestions for improvement
         <version>5.0.1</version>
         <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/cdh3u4</source_url>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
@@ -4090,6 +4341,12 @@ any translation issues or suggestions for improvement
     <id>csv-jdbc-plugin</id>
     <type>Database</type>
     <name>CSV JDBC Connector</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin uses csvjdbc (http://csvjdbc.sourceforge.net) to provide a PDI database dialect for CSV
       files.
     </description>
@@ -4099,6 +4356,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/1pnvur1jkjaukvuqx91b.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
@@ -4114,6 +4375,12 @@ any translation issues or suggestions for improvement
     <id>pdi-neo4j-query</id>
     <type>Database</type>
     <name>Neo4j JDBC Connector</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin uses neo4j-jdbc (http://www.neo4j.org/develop/tools/jdbc) to provide a PDI database dialect
       for the
       Neo4j graph database. Note that the only steps/entries this will work with are the ones where you can specify
@@ -4125,6 +4392,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/e8kua9axb616dfvmdhzu.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>GNU General Public License version 3.0 (GPLv3)</license_name>
@@ -4141,6 +4412,12 @@ any translation issues or suggestions for improvement
     <id>html2xml</id>
     <type>Step</type>
     <name>HTML to XML</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin uses JTidy to convert HTML into XML or XHTML, and is inspired by Roland Bouman's blog using
       the
       UDJC step with JTidy.
@@ -4151,6 +4428,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/i009upass9f2iip4fit5.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
@@ -4169,6 +4450,12 @@ any translation issues or suggestions for improvement
     <img>https://kafka.apache.org/images/kafka_logo.png</img>
     <small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
     <name>Apache Kafka Consumer</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Consumer</documentation_url>
     <description>The plug-in allows reading binary messages from Apache Kafka message queue.</description>
     <author>Ruckus Wireless</author>
@@ -4190,6 +4477,10 @@ any translation issues or suggestions for improvement
         <build_id>20140101-1548</build_id>
         <max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4200,6 +4491,12 @@ any translation issues or suggestions for improvement
     <img>https://kafka.apache.org/images/kafka_logo.png</img>
     <small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
     <name>Apache Kafka Producer</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Producer</documentation_url>
     <description>The plug-in allows sending binary messages over Apache Kafka message queue.</description>
     <author>Ruckus Wireless</author>
@@ -4221,6 +4518,10 @@ any translation issues or suggestions for improvement
         <build_id>20140220-1106</build_id>
         <max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4229,6 +4530,12 @@ any translation issues or suggestions for improvement
     <id>TableauExtractRefresh</id>
     <type>JobEntry</type>
     <name>Refresh Tableau Server Extract Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau
       server from PDI. It can perform a full refresh of any extract, update an incremental
       extract from a database, or append new files to an existing extract.
@@ -4247,6 +4554,10 @@ any translation issues or suggestions for improvement
           https://github.com/cdeptula/refreshtableauextract/releases/download/1.0.0/refreshtableauextract.zip
         </package_url>
         <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <cases_url>https://github.com/cdeptula/refreshtableauextract/issues</cases_url>
@@ -4263,6 +4574,12 @@ any translation issues or suggestions for improvement
     <img>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</img>
     <small_img>https://ssl.gstatic.com/codesite/ph/images/search-48.gif</small_img>
     <name>Google Protocol Buffers Decode</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <documentation_url>http://wiki.pentaho.com/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
     <description>The Kettle transformation plug-in allows decoding binary messages encoded using Google Protocol
       Buffers.
@@ -4286,6 +4603,10 @@ any translation issues or suggestions for improvement
         <build_id>20140101-1603</build_id>
         <max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4295,6 +4616,12 @@ any translation issues or suggestions for improvement
     <id>legstar.pdi.zosfile</id>
     <type>Step</type>
     <name>LegStar z/OS File reader Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This step reads raw z/OS records from a file and transforms them to PDI rows</description>
     <author>LegSem</author>
     <documentation_url>https://code.google.com/p/legstar-pdi/wiki/GetStarted</documentation_url>
@@ -4303,6 +4630,10 @@ any translation issues or suggestions for improvement
         <version>0.6</version>
         <package_url>https://googledrive.com/host/0B0Jhkz53SgUXTElZSHh4NUM2Tm8/legstar.pdi.zosfile-0.6.zip</package_url>
         <source_url>https://code.google.com/p/legstar-pdi/source/checkout</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <forum_url>https://groups.google.com/forum/#!forum/legstar-user</forum_url>
@@ -4318,6 +4649,12 @@ any translation issues or suggestions for improvement
     <id>PRScript</id>
     <type>Step</type>
     <name>Execute R Script</name>
+    <category>
+      <name>Data Mining</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Execute R script from file by specifying input and output variables.
       Note: See also the advanced R script executor plug-in within the Marketplace.
     </description>
@@ -4341,6 +4678,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>0.0.1</version>
         <package_url>http://dekarlab.de/download/PRScript.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4349,6 +4690,12 @@ any translation issues or suggestions for improvement
     <id>pentaho-kettle-compare-fields-plugin</id>
     <type>Step</type>
     <name>Compare Fields</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Compares 2 sets of fields in a row and directs it to the appropriate destination step based on the
       result.
       This step detects identical, changed, added and removed rows.
@@ -4366,6 +4713,10 @@ any translation issues or suggestions for improvement
         <version>1.1.0</version>
         <package_url>https://pentaho.box.com/shared/static/0wq4a5u4dtkdcvsb8h17.zip</package_url>
         <min_parent_version>5.0.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4374,6 +4725,12 @@ any translation issues or suggestions for improvement
     <id>ic-riak-plugin</id>
     <type>Step</type>
     <name>IC Riak Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Riak Consumer/Producer</description>
     <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-Riak/blob/master/README.md</documentation_url>
     <author>instaclick inc.</author>
@@ -4386,6 +4743,10 @@ any translation issues or suggestions for improvement
         <package_url>
           https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-riak-plugin-pdi-1.0.0-SNAPSHOT.zip
         </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4394,6 +4755,12 @@ any translation issues or suggestions for improvement
     <id>ic-amqp-plugin</id>
     <type>Step</type>
     <name>IC AMQP Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>AMQP Consumer/Producer</description>
     <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-AMQP/blob/master/README.md</documentation_url>
     <author>instaclick inc.</author>
@@ -4406,6 +4773,10 @@ any translation issues or suggestions for improvement
         <package_url>
           https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.1.1-SNAPSHOT.zip
         </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4414,6 +4785,12 @@ any translation issues or suggestions for improvement
     <id>ic-filter-plugin</id>
     <type>Step</type>
     <name>IC Bloom filter Plugin</name>
+    <category>
+      <name>Data Mining</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Bloom filter for pentaho PDI</description>
     <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-BloomFilter/blob/master/README.md
     </documentation_url>
@@ -4428,6 +4805,10 @@ any translation issues or suggestions for improvement
         <package_url>
           https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-filter-plugin-pdi-1.8.1-SNAPSHOT.zip
         </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4436,6 +4817,12 @@ any translation issues or suggestions for improvement
     <id>Jare_Rule_Engine_Plugin</id>
     <type>Step</type>
     <name>JaRE - Java Rule Engine</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>
       Check data against rules defined in an external file. The advantage being
       that the logic is not defined in the transformation but externally. If the logic
@@ -4476,6 +4863,10 @@ any translation issues or suggestions for improvement
         <version>1.0.0</version>
         <package_url>https://github.com/uwegeercken/jareplugin/archive/master.zip</package_url>
         <min_parent_version>4.3.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4484,6 +4875,12 @@ any translation issues or suggestions for improvement
     <id>jdbcMetaData</id>
     <type>Step</type>
     <name>JDBC Metadata</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>
       This step provides access to various metadata resultsets of the JDBC DatabaseMetaData object.
       JDBC metadata allows you to list tables, table columns, primary key columns, foreign key columns, object
@@ -4497,6 +4894,10 @@ any translation issues or suggestions for improvement
         <package_url>
           https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/raw/master/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip
         </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
@@ -4513,6 +4914,12 @@ any translation issues or suggestions for improvement
     <id>pdi-memcached-plugin</id>
     <type>Step</type>
     <name>Memcached Input/Output</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin offers Input/Output steps for reading from or writing to memcached servers</description>
     <author>Matt Burgess</author>
     <documentation_url>https://github.com/mattyb149/pdi-memcached-plugin/wiki</documentation_url>
@@ -4520,6 +4927,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/wkk3i8wblpl4py1ht85j.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
@@ -4535,6 +4946,12 @@ any translation issues or suggestions for improvement
     <id>BAServerUtils</id>
     <type>Step</type>
     <name>BA Server Utils</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Collection of kettle steps to interact with BA Server services.</description>
     <documentation_url>https://github.com/webdetails/kettle-baserver-utils/blob/release/README.md</documentation_url>
     <author>Webdetails</author>
@@ -4550,6 +4967,10 @@ any translation issues or suggestions for improvement
         </package_url>
         <source_url>https://github.com/webdetails/kettle-baserver-utils</source_url>
         <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4558,6 +4979,12 @@ any translation issues or suggestions for improvement
     <id>lookupTimeDimension</id>
     <type>Step</type>
     <name>Lookup Time Dimension</name>
+    <category>
+      <name>Lookup</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>LookupTimeDimension is a step for Kettle transformation to lookup/create an entry on DW dimension time
       table and return the id.
     </description>
@@ -4572,6 +4999,10 @@ any translation issues or suggestions for improvement
         <package_url>
           http://sourceforge.net/projects/lookuptimedimension/files/LookupTimeDimensionStep-1.0.0.zip/download
         </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4580,6 +5011,12 @@ any translation issues or suggestions for improvement
     <id>TeraDataBulkLoader</id>
     <type>Step</type>
     <name>Teradata TPT Insert Upsert Bulk Loader</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This step supports Teradata bulk loading via TPT using the tbuild command and supports Insert and
       Upsert.
     </description>
@@ -4589,6 +5026,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.0 Beta</version>
         <package_url>https://pentaho.box.com/shared/static/ksd8kr7zazd9ymc4rjbo.zip</package_url>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
@@ -4608,6 +5049,12 @@ any translation issues or suggestions for improvement
     <id>pdi-google-spreadsheet-plugin</id>
     <type>Step</type>
     <name>Google Spreadsheet Input/Output</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <documentation_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/blob/master/README.md
     </documentation_url>
     <description>This plugin offers Input/Output steps for reading from or writing to Google Docs/Drive spreadsheets.
@@ -4620,6 +5067,10 @@ any translation issues or suggestions for improvement
           https://maven.gcx.org/org/ccci/gto/pdi-google-spreadsheet-plugin/1.0.0/pdi-google-spreadsheet-plugin-1.0.0.zip
         </package_url>
         <source_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <cases_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/issues</cases_url>
@@ -4634,6 +5085,12 @@ any translation issues or suggestions for improvement
     <id>pdi-nlp-sentiment-analysis-plugin</id>
     <type>Step</type>
     <name>Sentiment Analysis</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <documentation_url>https://github.com/OSBI/pdi-sentiment/blob/master/README.md</documentation_url>
     <description>This plugin allows basic Sentiment Analysis over textual sentences.</description>
     <author>Tom Barber</author>
@@ -4642,6 +5099,10 @@ any translation issues or suggestions for improvement
         <version>1.0.0</version>
         <package_url>https://dl.dropboxusercontent.com/u/8503756/nlp-TRUNK-SNAPSHOT.zip</package_url>
         <source_url>https://github.com/OSBI/pdi-sentiment</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <cases_url>https://github.com/OSBI/pdi-sentiment/issues</cases_url>
@@ -4656,6 +5117,12 @@ any translation issues or suggestions for improvement
     <id>pdi-random-row-distributions</id>
     <type>Mixed</type>
     <name>Probabilistic Row Distributions for PDI</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>
       This is a collection of Row Distribution plugins for PDI that use probabilistic methods for determining
       the distribution of rows. The collection currently includes:
@@ -4677,6 +5144,10 @@ any translation issues or suggestions for improvement
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/p65t49w1nizstw3kx89t.zip</package_url>
         <source_url>https://github.com/mattyb149/pdi-random-row-distributions</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <author>Matt Burgess</author>
@@ -4697,6 +5168,12 @@ any translation issues or suggestions for improvement
     <id>GroovyConsoleSpoonPlugin</id>
     <type>SpoonPlugin</type>
     <name>PDI Groovy Console</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin (for PDI 5.0+) adds a Groovy console to the Help menu that has some helper methods
       and classes to interact with the PDI environment.
     </description>
@@ -4717,6 +5194,10 @@ any translation issues or suggestions for improvement
         <package_url>https://pentaho.box.com/shared/static/09jfpshf5tgcgo0so8la.zip</package_url>
         <source_url>https://github.com/mattyb149/GroovyConsoleSpoonPlugin</source_url>
         <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -4725,6 +5206,12 @@ any translation issues or suggestions for improvement
     <id>pdi-gremlin-plugin</id>
     <type>Step</type>
     <name>Gremlin Script step</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>This plugin offers a Gremlin (see https://github.com/tinkerpop/gremlin/wiki) script
       step for graph pipeline processing.
     </description>
@@ -4734,6 +5221,10 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/zzoi8egt5pbd9zabct88.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
