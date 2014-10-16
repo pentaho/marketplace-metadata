@@ -5311,18 +5311,26 @@ any translation issues or suggestions for improvement
     <name>Pdf Export</name>
     <documentation_url>http://joshid.github.io/blog/2014/10/08/pentaho-pdf-export/</documentation_url>
     <description>Export any URL to PDF format. Also Useful to generate PDF for CDE Dashboards using endpoint (see doc to know how)</description>
-    <author>Pentaho</author>
-    <author_url>http://pentaho.com</author_url>
-    <author_logo>http://www.pentaho.com/images/2011/logo.png</author_logo>
+    <author>Jose N.Hidalgo</author>
+    <author_url>http://dynambi.com</author_url>
+    <author_logo>http://dynambi.com/images/logo.png</author_logo>
     <license>MPL 2.0</license>
     <dependencies>CDF, CDA, CDE</dependencies>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by a community of volunteers</support_message>
+    <support_organization>none</support_organization>
+    <support_url>https://github.com/joshid/pdfExport/wiki</support_url>
     <versions>
       <version>
-        <package_url>http://dynambi.com/proyectos/pdfExport/pdfExport.zip</package_url>
         <description>PDF Export</description>
-        <build_id>1</build_id>
+        <branch>trunk</branch>
+        <version>1.0</version>
+        <name>Version 1.0</name>
+        <build_id/>
         <min_parent_version>5.0</min_parent_version>
 		<max_parent_version>5.2</max_parent_version>
+        <package_url>http://dynambi.com/proyectos/pdfExport/pdfExport.zip</package_url>
+		<source_url>https://github.com/joshid/pdfExport</source_url>
       </version>
     </versions>
     <screenshots>
