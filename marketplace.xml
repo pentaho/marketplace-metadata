@@ -5304,4 +5304,30 @@ any translation issues or suggestions for improvement
   </screenshots>
 </market_entry>
 
+  <market_entry>
+    <id>pdfExport</id>
+    <type>Platform</type>
+    <img>http://dynambi.com/proyectos/pdfExport/pdfExport.gif</img>
+    <name>Pdf Export</name>
+    <documentation_url>http://joshid.github.io/blog/2014/10/08/pentaho-pdf-export/</documentation_url>
+    <description>Export any URL to PDF format. Also Useful to generate PDF for CDE Dashboards using endpoint (see doc to know how)</description>
+    <author>Pentaho</author>
+    <author_url>http://pentaho.com</author_url>
+    <author_logo>http://www.pentaho.com/images/2011/logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE</dependencies>
+    <versions>
+      <version>
+        <package_url>http://dynambi.com/proyectos/pdfExport/pdfExport.zip</package_url>
+        <description>PDF Export</description>
+        <build_id>1</build_id>
+        <min_parent_version>5.0</min_parent_version>
+		<max_parent_version>5.2</max_parent_version>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot></screenshot>
+    </screenshots>
+  </market_entry>
+
 </market>
