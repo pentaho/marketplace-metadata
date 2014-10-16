@@ -2198,11 +2198,24 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <name>Latest</name>
         <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip</package_url>
         <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip</samples_url>
-        <max_parent_version>5.1</max_parent_version>
+        <max_parent_version>5.1.99</max_parent_version>
         <min_parent_version>5.0.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+	  <version>
+        <branch>Release</branch>
+        <version>3.0.7</version>
+        <name>Latest</name>
+        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip</package_url>
+        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip</samples_url>
+        <max_parent_version>5.2.99</max_parent_version>
+        <min_parent_version>5.2.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
