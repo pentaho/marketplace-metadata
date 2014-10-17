@@ -2001,10 +2001,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>RELEASE</branch>
-        <version>14.06.18</version>
+        <version>14.10.17</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-14.06.18.zip
+          http://ci.pentaho.com/job/StartupRuleEngine/lastSuccessfulBuild/artifact/dist/startupRuleEngine-14.10.17.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
