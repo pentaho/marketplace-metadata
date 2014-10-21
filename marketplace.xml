@@ -3449,6 +3449,43 @@ any translation issues or suggestions for improvement
     </versions>
   </market_entry>
 
+<market_entry>
+    <id>VerticaBulkLoader</id>
+    <type>Step</type>
+    <name>Vertica Bulk Loader</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This is a plugin for performing bulk data loads into a Vertica Analytic Database
+      using a COPY FROM STDIN statement through JDBC
+    </description>
+    <author>Pentaho</author>
+    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <versions>
+      <version>
+        <version>5.2.0.1-216</version>
+        <package_url>https://pentaho.box.com/shared/static/u5b0ai3shvot41f4g2a6.zip</package_url>
+        <source_url>https://github.com/pentaho/pentaho-vertica-bulkloader</source_url>
+        <development_stage>
+<lane>Community</lane>
+<phase>4</phase>
+</development_stage>
+      </version>
+    </versions>
+    <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+    <support_organization>Pentaho</support_organization>
+    <support_url>http://www.pentaho.com/services/support/pdi</support_url>
+  </market_entry>
 
   <market_entry>
     <id>DummyPlugin</id>
