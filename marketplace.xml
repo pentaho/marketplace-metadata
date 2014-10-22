@@ -4589,15 +4589,27 @@ any translation issues or suggestions for improvement
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau
-      server from PDI. It can perform a full refresh of any extract, update an incremental
-      extract from a database, or append new files to an existing extract.
-    </description>
+    <description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau server from PDI. It can perform a full refresh of any extract, update an incremental extract from a database, or append new files to an existing extract.</description>
     <author>Inquidia Consulting</author>
     <author_url>http://www.inquidia.com</author_url>
     <author_logo>http://inquidia.com/sites/default/files/inquidia-web-logo.png</author_logo>
     <documentation_url>https://github.com/cdeptula/refreshtableauextract/wiki</documentation_url>
     <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>2.0</version>
+        <build_id>89</build_id>
+        <name>Version 2.0</name>
+        <package_url>
+          https://github.com/cdeptula/refreshtableauextract/releases/download/2.0.0/refreshtableauextract.zip
+        </package_url>
+        <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
       <version>
         <branch>TRUNK</branch>
         <version>1.0</version>
@@ -4607,6 +4619,7 @@ any translation issues or suggestions for improvement
           https://github.com/cdeptula/refreshtableauextract/releases/download/1.0.0/refreshtableauextract.zip
         </package_url>
         <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
+        <min_parent_version>1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
