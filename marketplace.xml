@@ -5315,11 +5315,18 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>trunk</branch>
+        <version>2.0.0</version>
+        <build_id>99</build_id>
+        <name>Version 2.0.0 (Stable)</name>
+        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.0.0/AvroOutputPlugin.zip</package_url>
+        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
+      </version>
+      <version>
+        <branch>trunk</branch>
         <version>1.0</version>
         <build_id/>
         <name>Version 1.0</name>
-        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/v1.0/AvroOutputPlugin.zip
-        </package_url>
+        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/v1.0/AvroOutputPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
       </version>
     </versions>
