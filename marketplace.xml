@@ -5310,7 +5310,15 @@ any translation issues or suggestions for improvement
     <img>http://dynambi.com/proyectos/pdfExport/pdfExport.gif</img>
     <name>Pdf Export</name>
     <documentation_url>http://joshid.github.io/blog/2014/10/08/pentaho-pdf-export/</documentation_url>
-    <description>Export any URL to PDF format. Also Useful to generate PDF for CDE Dashboards using endpoint (see doc to know how)</description>
+    <description>
+    	Export any URL to PDF format. Also Useful to generate PDF for CDE Dashboards using endpoint (visit http://joshid.github.io/blog/2014/10/08/pentaho-pdf-export to know how)
+
+    	Post-installation note:
+    		- if PDF generation fails the execute permissions for following files must be verified:
+    			* pentaho-solutions/system/pdfExport/endpoints/kettle/phantomjs-lib/phanthomjs (linux only)
+    			* pentaho-solutions/system/pdfExport/endpoints/kettle/phantomjs-lib/phanthomjs.exe (windows only)
+    			* pentaho-solutions/system/pdfExport/endpoints/kettle/phantomjs-lib/rasterize.js (linux and windows)
+    </description>
     <author>Jose N.Hidalgo</author>
     <author_url>http://dynambi.com</author_url>
     <author_logo>http://dynambi.com/images/logo.png</author_logo>
