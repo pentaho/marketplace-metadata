@@ -5416,4 +5416,31 @@ any translation issues or suggestions for improvement
     </screenshots>
   </market_entry>
 
+  <market_entry>
+    <id>pentaho-mongodb-delete-plugin</id>
+    <type>Step</type>
+    <name>MongoDB Delete Plugin</name>
+    <description>Delete document inside a MongoDB collection</description>
+    <author>Maas Dianto</author>
+    <author_url>https://github.com/maasdi</author_url>
+    <author_logo/>
+    <installation_notes/>
+    <documentation_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/wiki/MongoDB-Delete</documentation_url>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.0-RELEASE</version>
+        <build_id>20141022-2338</build_id>
+        <name>1.0.0-RELEASE</name>
+        <package_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/releases/download/1.0.0-RELEASE/pentaho-mongodb-delete-plugin-1.0.0-RELEASE.zip</package_url>
+      </version>
+    </versions>
+    <cases_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+  </market_entry>
+
 </market>
