@@ -741,7 +741,7 @@
         <name>Apps</name>
       </parent>
     </category>
-    <documentation_url>http://analytical-labs.com/</documentation_url>
+    <documentation_url>http://wiki.meteorite.bi</documentation_url>
     <description>
       Saiku is a modular open-source analysis suite offering lightweight
       OLAP which remains easily embeddable, extendable and configurable.
@@ -749,21 +749,25 @@
       powers user-friendly, intuitive analytics via our lightweight
       JQuery based frontend.
     </description>
-    <author>Analytical Labs</author>
-    <author_url>http://analytical-labs.com</author_url>
+    <author>Meteorite BI</author>
+    <author_url>http://meteorite.bi</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/saiku.png</author_logo>
     <license>ASL 2.0</license>
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>2.6</version>
+        <version>3.0</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-2.6.zip</package_url>
-        <description>2.6 release for the Saiku Plugin</description>
-        <max_parent_version>4.9</max_parent_version>
-        <min_parent_version>1.0</min_parent_version>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0-GA.zip</package_url>
+        <description>3.0 release for the Saiku Plugin</description>
+        <max_parent_version>6.0</max_parent_version>
+        <min_parent_version>5.0</min_parent_version>
+          <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
-      <version>
+      <!--<version>
         <branch>TRUNK</branch>
         <version>Trunk</version>
         <name>Trunk</name>
@@ -799,7 +803,7 @@
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>
+      </version>-->
 
 
     </versions>
