@@ -3438,7 +3438,7 @@ any translation issues or suggestions for improvement
       <version>
         <version>1.0.1</version>
         <package_url>
-          http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/1.0.1/ApplePushNotification.zip/download
+          http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Android%20Push%20Notifications/1.0.1/AndroidPushNotification.zip/download
         </package_url>
         <source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/1.0.1</source_url>
         <development_stage>
