@@ -203,7 +203,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>156</build_id>
+        <build_id>158</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -224,7 +224,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>524</build_id>
+        <build_id>527</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -323,7 +323,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>141</build_id>
+        <build_id>143</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -344,7 +344,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>231</build_id>
+        <build_id>233</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -450,7 +450,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>28</build_id>
+        <build_id>31</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -471,7 +471,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>311</build_id>
+        <build_id>315</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -567,7 +567,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>46</build_id>
+        <build_id>48</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -585,7 +585,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>26</build_id>
+        <build_id>27</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -741,7 +741,7 @@
         <name>Apps</name>
       </parent>
     </category>
-    <documentation_url>http://analytical-labs.com/</documentation_url>
+    <documentation_url>http://wiki.meteorite.bi</documentation_url>
     <description>
       Saiku is a modular open-source analysis suite offering lightweight
       OLAP which remains easily embeddable, extendable and configurable.
@@ -749,21 +749,25 @@
       powers user-friendly, intuitive analytics via our lightweight
       JQuery based frontend.
     </description>
-    <author>Analytical Labs</author>
-    <author_url>http://analytical-labs.com</author_url>
+    <author>Meteorite BI</author>
+    <author_url>http://meteorite.bi</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/saiku.png</author_logo>
     <license>ASL 2.0</license>
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>2.6</version>
+        <version>3.0</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-2.6.zip</package_url>
-        <description>2.6 release for the Saiku Plugin</description>
-        <max_parent_version>4.9</max_parent_version>
-        <min_parent_version>1.0</min_parent_version>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0-GA.zip</package_url>
+        <description>3.0 release for the Saiku Plugin</description>
+        <max_parent_version>6.0</max_parent_version>
+        <min_parent_version>5.0</min_parent_version>
+          <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
       </version>
-      <version>
+      <!--<version>
         <branch>TRUNK</branch>
         <version>Trunk</version>
         <name>Trunk</name>
@@ -799,7 +803,7 @@
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>
+      </version>-->
 
 
     </versions>
@@ -1682,7 +1686,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>67</build_id>
+        <build_id>68</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -1700,7 +1704,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>56</build_id>
+        <build_id>57</build_id>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.0.99</max_parent_version>
         <development_stage>
@@ -1936,7 +1940,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>79</build_id>
+        <build_id>80</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -1954,7 +1958,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>57</build_id>
+        <build_id>58</build_id>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version/>
         <development_stage>
@@ -4068,36 +4072,25 @@ any translation issues or suggestions for improvement
     <id>CiviCrmInput</id>
     <type>Step</type>
     <name>CiviCrmInput</name>
-    <category>
-      <name>Connectivity</name>
-      <parent>
-        <name>PDI Plugins</name>
-      </parent>
-    </category>
-    <description>This step allows reading data from CiviCRM version 1.1
+    <description>This step allows reading data from a CiviCRM instance. It uses the API 3 of CiviCRM and has been tested with CiviCRM 4.4.5.
     </description>
     <versions>
       <version>
-        <version>4.X</version>
+        <version>1.1</version>
         <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMInput.zip</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
       </version>
     </versions>
-    <author>Stratebi and Amnesty International</author>
+    <author>Stratebi and Amnesty International (Spain)</author>
     <documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Input</documentation_url>
     <forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
     <cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
-    <license_name>GNU GPL</license_name>
-    <license_text>For more details about the GNU General Public License v2.0 see:
-      http://www.gnu.org/licenses/gpl-2.0.html
-    </license_text>
+    <license_name>GPL v3</license_name>
+    <license_text>For more details about the GNU General Public License v3.0 see:
+      http://www.gnu.org/licenses/gpl-3.0.html</license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Report issues and suggestions to support@stratebi.com</support_message>
-    <support_organization>Stratebi</support_organization>
+    <support_message>Report issues and suggestions trough GitHub: https://github.com/amnesty/civicrm-data-integration/issues?state=open</support_message>
+    <support_organization>Stratebi and Amnesty International (Spain)</support_organization>
     <support_url/>
   </market_entry>
 
@@ -4106,40 +4099,29 @@ any translation issues or suggestions for improvement
     <id>CiviCrmOutput</id>
     <type>Step</type>
     <name>CiviCrmOutput</name>
-    <category>
-      <name>Connectivity</name>
-      <parent>
-        <name>PDI Plugins</name>
-      </parent>
-    </category>
-    <description>This step allows write/update data into CiviCRM version 1.1
+    <description>This step allows writing data to a CiviCRM instance. It uses the API 3 of CiviCRM and has been tested with CiviCRM 4.4.5.
     </description>
     <versions>
       <version>
-        <version>4.X</version>
+        <version>1.1</version>
         <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMOutput.zip</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
       </version>
     </versions>
-    <author>Stratebi and Amnesty International</author>
+    <author>Stratebi and Amnesty International (Spain)</author>
     <documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Output</documentation_url>
     <forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
     <cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
-    <license_name>GNU GPL</license_name>
-    <license_text>For more details about the GNU General Public License v2.0 see:
-      http://www.gnu.org/licenses/gpl-2.0.html
-    </license_text>
+    <license_name>GPL v3</license_name>
+    <license_text>For more details about the GNU General Public License v3.0 see:
+      http://www.gnu.org/licenses/gpl-3.0.html</license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Report issues and suggestions to support@stratebi.com</support_message>
-    <support_organization>Stratebi</support_organization>
+    <support_message>Report issues and suggestions trough GitHub: https://github.com/amnesty/civicrm-data-integration/issues?state=open</support_message>
+    <support_organization>Stratebi and Amnesty International (Spain)</support_organization>
     <support_url/>
   </market_entry>
 
-
+  
   <market_entry>
     <id>load-text-from-file</id>
     <type>Step</type>
@@ -4500,8 +4482,8 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>pentaho-kafka-consumer</id>
     <type>Step</type>
-    <img>https://kafka.apache.org/images/kafka_logo.png</img>
-    <small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
+    <img>https://raw.githubusercontent.com/RuckusWirelessIL/pentaho-kafka-consumer/master/src/main/resources/logo.png</img>
+    <small_img>https://raw.githubusercontent.com/RuckusWirelessIL/pentaho-kafka-consumer/master/src/main/resources/logo.png</small_img>
     <name>Apache Kafka Consumer</name>
     <category>
       <name>Connectivity</name>
@@ -4515,19 +4497,16 @@ any translation issues or suggestions for improvement
     <author_url>http://ruckuswireless.com</author_url>
     <author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
     <license>Apache License 2.0</license>
-    <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html
-    </license_text>
+    <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
     <versions>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
+        <branch>master</branch>
+        <version>1.1</version>
         <name>Latest</name>
-        <package_url>
-          https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.0/pentaho-kafka-consumer-TRUNK-SNAPSHOT.zip
-        </package_url>
+        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.1/pentaho-kafka-consumer-v1.1.zip</package_url>
         <samples_url/>
-        <description>Latest build from the trunk development branch.</description>
-        <build_id>20140101-1548</build_id>
+        <description>Latest build from the development branch.</description>
+        <build_id>20140609-1000</build_id>
         <max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
@@ -4541,8 +4520,8 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>pentaho-kafka-producer</id>
     <type>Step</type>
-    <img>https://kafka.apache.org/images/kafka_logo.png</img>
-    <small_img>https://kafka.apache.org/images/kafka_logo.png</small_img>
+    <img>https://raw.githubusercontent.com/RuckusWirelessIL/pentaho-kafka-producer/master/src/main/resources/logo.png</img>
+    <small_img>https://raw.githubusercontent.com/RuckusWirelessIL/pentaho-kafka-producer/master/src/main/resources/logo.png</small_img>
     <name>Apache Kafka Producer</name>
     <category>
       <name>Connectivity</name>
@@ -4556,19 +4535,16 @@ any translation issues or suggestions for improvement
     <author_url>http://ruckuswireless.com</author_url>
     <author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
     <license>Apache License 2.0</license>
-    <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html
-    </license_text>
+    <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
     <versions>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
+        <branch>master</branch>
+        <version>1.2</version>
         <name>Latest</name>
-        <package_url>
-          https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.0/pentaho-kafka-producer-TRUNK-SNAPSHOT.zip
-        </package_url>
+        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.2/pentaho-kafka-producer-v1.2.zip</package_url>
         <samples_url/>
-        <description>Latest build from the trunk development branch.</description>
-        <build_id>20140220-1106</build_id>
+        <description>Latest build from the development branch.</description>
+        <build_id>20140811-1900</build_id>
         <max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
@@ -5115,38 +5091,24 @@ any translation issues or suggestions for improvement
     <id>pdi-google-spreadsheet-plugin</id>
     <type>Step</type>
     <name>Google Spreadsheet Input/Output</name>
-    <category>
-      <name>Connectivity</name>
-      <parent>
-        <name>PDI Plugins</name>
-      </parent>
-    </category>
-    <documentation_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/blob/master/README.md
-    </documentation_url>
-    <description>This plugin offers Input/Output steps for reading from or writing to Google Docs/Drive spreadsheets.
-    </description>
+    <documentation_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/blob/master/README.md</documentation_url>
+    <description>This plugin offers Input/Output steps for reading from or writing to Google Docs/Drive spreadsheets.</description>
     <author>Brian Zoetewey</author>
     <versions>
       <version>
-        <version>1.0.0</version>
-        <package_url>
-          https://maven.gcx.org/org/ccci/gto/pdi-google-spreadsheet-plugin/1.0.0/pdi-google-spreadsheet-plugin-1.0.0.zip
-        </package_url>
+        <version>1.0.1</version>
+        <package_url>https://maven.gcx.org/org/ccci/gto/pdi-google-spreadsheet-plugin/1.0.1/pdi-google-spreadsheet-plugin-1.0.1.zip</package_url>
         <source_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
       </version>
     </versions>
     <cases_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/issues</cases_url>
     <license_name>Modified BSD</license_name>
     <license_text>For more details see:
-      https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/blob/master/LICENSE
-    </license_text>
+      https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/blob/master/LICENSE</license_text>
     <support_level>NOT_SUPPORTED</support_level>
   </market_entry>
 
+  
   <market_entry>
     <id>pdi-nlp-sentiment-analysis-plugin</id>
     <type>Step</type>
@@ -5441,6 +5403,75 @@ any translation issues or suggestions for improvement
       http://www.apache.org/licenses/LICENSE-2.0.html
     </license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
+  </market_entry>
+
+  <market_entry>
+    <id>pdi-arsystem-output-plugin</id>
+    <type>Step</type>
+    <img/>
+    <small_img/>
+    <installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
+    <name>ARS Output (BMC Remedy)</name>
+    <dependencies>pdi-arsystem-database-plugin</dependencies>
+    <documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
+    <description><![CDATA[This plugin allow to write to a BMC Remedy AR System server.
+    
+** THIS PLUGIN REQURIES THE AR-SYSTEM DATABASE PLUGIN "ARS Server (BMC Remedy)" ** 
+
+( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
+]]></description>
+    <author>Sebastian Schmidt</author>
+    <author_url/>
+    <author_logo/>
+    <license>GNU General Public License version 3.0 (GPLv3)</license>
+    <dependencies/>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>0.7.0</version>
+        <package_url>http://sourceforge.net/projects/arsoutputplugin/files/v0.7.0/arsoutput-0.7.0-SNAPSHOT.zip/download</package_url>
+        <description>Trunk Snapshot. Install at your own risk...</description>
+      </version>
+    </versions>
+    <license_name>GPL 3.0</license_name>
+    <license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.txt</license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
+  
+  <market_entry>
+    <id>pdi-script-extension-points</id>
+    <type>Mixed</type>
+    <name>PDI Extension Point Scripting</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This set of extension point plugins allows the user to write scripts in JavaScript, Groovy, etc.
+that will be called as extension point functions. For example, the user can write a script called TransformationStart.groovy 
+and it will be executed when a transformation starts. All the extension points (up through 5.2) are supported.
+    </description>
+    <author>Matt Burgess</author>
+    <author_url>http://funpdi.blogspot.com</author_url>
+    <documentation_url>https://github.com/mattyb149/pdi-script-extension-points/wiki</documentation_url>
+    <versions>
+      <version>
+        <version>1.0</version>
+        <package_url>https://pentaho.box.com/shared/static/j0wo05woqgur434h7oti.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <license_name>Apache 2.0</license_name>
+    <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+    <support_organization>Pentaho Developer Community</support_organization>
+    <support_url>http://kettle.pentaho.com</support_url>
   </market_entry>
   
   <market_entry>
