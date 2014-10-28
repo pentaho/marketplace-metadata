@@ -5441,4 +5441,37 @@ any translation issues or suggestions for improvement
     <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
 
+  <market_entry>
+    <id>pdi-arsystem-output-plugin</id>
+    <type>Step</type>
+    <img/>
+    <small_img/>
+    <installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
+    <name>ARS Output (BMC Remedy)</name>
+    <dependencies>pdi-arsystem-database-plugin</dependencies>
+    <documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
+    <description><![CDATA[This plugin allow to write to a BMC Remedy AR System server.
+    
+** THIS PLUGIN REQURIES THE AR-SYSTEM DATABASE PLUGIN "ARS Server (BMC Remedy)" ** 
+
+( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
+]]></description>
+    <author>Sebastian Schmidt</author>
+    <author_url/>
+    <author_logo/>
+    <license>GNU General Public License version 3.0 (GPLv3)</license>
+    <dependencies/>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>0.7.0</version>
+        <package_url>http://sourceforge.net/projects/arsoutputplugin/files/v0.7.0/arsoutput-0.7.0-SNAPSHOT.zip/download</package_url>
+        <description>Trunk Snapshot. Install at your own risk...</description>
+      </version>
+    </versions>
+    <license_name>GPL 3.0</license_name>
+    <license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.txt</license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
+  
 </market>
