@@ -5506,4 +5506,174 @@ and it will be executed when a transformation starts. All the extension points (
      </versions>
    </market_entry>
 
+  <market_entry>
+    <id>pdfExport</id>
+    <type>Platform</type>
+    <img>http://dynambi.com/proyectos/pdfExport/pdfExport.gif</img>
+    <name>Pdf Export</name>
+    <documentation_url>http://joshid.github.io/blog/2014/10/08/pentaho-pdf-export/</documentation_url>
+    <description>
+    	Export any URL to PDF format. Also Useful to generate PDF for CDE Dashboards using endpoint (visit http://joshid.github.io/blog/2014/10/08/pentaho-pdf-export to know how)
+
+    	Post-installation note:
+    		- if PDF generation fails the execute permissions for following files must be verified:
+    			* pentaho-solutions/system/pdfExport/endpoints/kettle/phantomjs-lib/phanthomjs (linux only)
+    			* pentaho-solutions/system/pdfExport/endpoints/kettle/phantomjs-lib/phanthomjs.exe (windows only)
+    			* pentaho-solutions/system/pdfExport/endpoints/kettle/phantomjs-lib/rasterize.js (linux and windows)
+    </description>
+    <author>Jose N.Hidalgo</author>
+    <author_url>http://dynambi.com</author_url>
+    <author_logo>http://dynambi.com/images/logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE</dependencies>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by a community of volunteers</support_message>
+    <support_organization>none</support_organization>
+    <support_url>https://github.com/joshid/pdfExport/wiki</support_url>
+    <versions>
+      <version>
+        <description>PDF Export</description>
+        <branch>trunk</branch>
+        <version>1.0</version>
+        <name>Version 1.0</name>
+        <build_id/>
+        <min_parent_version>5.0</min_parent_version>
+		<max_parent_version>5.2</max_parent_version>
+        <package_url>http://dynambi.com/proyectos/pdfExport/pdfExport.zip</package_url>
+		<source_url>https://github.com/joshid/pdfExport</source_url>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot/>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>pentaho-mongodb-delete-plugin</id>
+    <type>Step</type>
+    <name>MongoDB Delete Plugin</name>
+    <description>Delete document inside a MongoDB collection</description>
+    <author>Maas Dianto</author>
+    <author_url>https://github.com/maasdi</author_url>
+    <author_logo/>
+    <installation_notes/>
+    <documentation_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/wiki/MongoDB-Delete</documentation_url>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.0-RELEASE</version>
+        <build_id>20141022-2338</build_id>
+        <name>1.0.0-RELEASE</name>
+        <package_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/releases/download/1.0.0-RELEASE/pentaho-mongodb-delete-plugin-1.0.0-RELEASE.zip</package_url>
+      </version>
+    </versions>
+    <cases_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+  </market_entry>
+
+  <market_entry>
+    <id>pdi-arsystem-output-plugin</id>
+    <type>Step</type>
+    <img/>
+    <small_img/>
+    <installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
+    <name>ARS Output (BMC Remedy)</name>
+    <dependencies>pdi-arsystem-database-plugin</dependencies>
+    <documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
+    <description><![CDATA[This plugin allow to write to a BMC Remedy AR System server.
+    
+** THIS PLUGIN REQURIES THE AR-SYSTEM DATABASE PLUGIN "ARS Server (BMC Remedy)" ** 
+
+( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
+]]></description>
+    <author>Sebastian Schmidt</author>
+    <author_url/>
+    <author_logo/>
+    <license>GNU General Public License version 3.0 (GPLv3)</license>
+    <dependencies/>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>0.7.0</version>
+        <package_url>http://sourceforge.net/projects/arsoutputplugin/files/v0.7.0/arsoutput-0.7.0-SNAPSHOT.zip/download</package_url>
+        <description>Trunk Snapshot. Install at your own risk...</description>
+      </version>
+    </versions>
+    <license_name>GPL 3.0</license_name>
+    <license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.txt</license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
+  
+  <market_entry>
+    <id>pdi-script-extension-points</id>
+    <type>Mixed</type>
+    <name>PDI Extension Point Scripting</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This set of extension point plugins allows the user to write scripts in JavaScript, Groovy, etc.
+that will be called as extension point functions. For example, the user can write a script called TransformationStart.groovy 
+and it will be executed when a transformation starts. All the extension points (up through 5.2) are supported.
+    </description>
+    <author>Matt Burgess</author>
+    <author_url>http://funpdi.blogspot.com</author_url>
+    <documentation_url>https://github.com/mattyb149/pdi-script-extension-points/wiki</documentation_url>
+    <versions>
+      <version>
+        <version>1.0</version>
+        <package_url>https://pentaho.box.com/shared/static/j0wo05woqgur434h7oti.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <license_name>Apache 2.0</license_name>
+    <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+    <support_organization>Pentaho Developer Community</support_organization>
+    <support_url>http://kettle.pentaho.com</support_url>
+  </market_entry>
+  
+  <market_entry>
+     <id>SforceBulkSpoonInput</id>
+     <type>Step</type>
+     <name>PDI Salesforce Bulk Input</name>
+     <category>
+       <name>Salesforce</name>
+       <parent>
+         <name>PDI Plugins</name>
+       </parent>
+     </category>
+     <description>This plugin (for PDI 5.1+) allows you to use Salesforce Bulk API to get data from SObjects.</description>
+     <author>Benoit COLAS</author> 
+     <forum_url></forum_url>
+     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+     <license_name>Apache License 2.0</license_name>
+     <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+     <support_message>Supported by a community of volunteers</support_message>
+     <support_organization>none</support_organization>
+     <support_url>https://github.com/bcolas/PDISforceBulkPlugin/wiki</support_url>
+     <versions>
+        <version>
+         <branch>5.1</branch>
+         <version>1.0</version>
+         <name>1.0</name>
+         <package_url>https://github.com/bcolas/PDISforceBulkPlugin/releases/download/1.0/SforceBulkSpoonInput.zip</package_url>
+         <source_url>https://github.com/bcolas/PDISforceBulkPlugin</source_url>
+         <min_parent_version>5.1</min_parent_version>
+       </version>
+     </versions>
+   </market_entry>
+  
 </market>
