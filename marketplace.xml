@@ -4527,8 +4527,6 @@ any translation issues or suggestions for improvement
         <version>1.1</version>
         <name>Latest</name>
         <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.1/pentaho-kafka-consumer-v1.1.zip</package_url>
-          https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.0/pentaho-kafka-consumer-TRUNK-SNAPSHOT.zip
-        </package_url>
         <samples_url/>
         <description>Latest build from the development branch.</description>
         <build_id>20140609-1000</build_id>
@@ -4561,15 +4559,12 @@ any translation issues or suggestions for improvement
     <author_logo>http://c447153.r53.cf2.rackcdn.com/thumbnails/th_ruckus_stckd070912.png</author_logo>
     <license>Apache License 2.0</license>
     <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-    </license_text>
     <versions>
       <version>
         <branch>master</branch>
         <version>1.2</version>
         <name>Latest</name>
         <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.2/pentaho-kafka-producer-v1.2.zip</package_url>
-          https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.0/pentaho-kafka-producer-TRUNK-SNAPSHOT.zip
-        </package_url>
         <samples_url/>
         <description>Latest build from the development branch.</description>
         <build_id>20140811-1900</build_id>
