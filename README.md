@@ -111,3 +111,27 @@ http://wiki.pentaho.com/display/ServerDoc2x/Developing+Plugins
 
 Link to the Pentaho InfoCenter SDK "Extending Pentaho Data Integration"
 http://infocenter.pentaho.com/help/topic/pdi_embed_extend_guide/concept_extending_PDI.html
+
+
+How do I test a plugin entry ?
+------------------------------
+Create a file marketplaces.xml in your .kettle folder
+The content of this file will be :
+
+<marketplaces>
+ <marketplace>
+  <name>Pentaho Data Integration Marketplace</name>
+  <entries_url>{local path to your marketplace.xml file}</entries_url>
+ </marketplace>
+</marketplaces>
+
+Example :
+
+<marketplaces>
+ <marketplace>
+  <name>Pentaho Data Integration Marketplace</name>
+  <entries_url>/home/matt/git/pentaho/marketplace-metadata/marketplace.xml</entries_url>
+ </marketplace>
+</marketplaces>
+
+
