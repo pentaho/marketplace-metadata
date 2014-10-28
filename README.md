@@ -118,20 +118,20 @@ How do I test a plugin entry ?
 Create a file marketplaces.xml in your .kettle folder
 The content of this file will be :
 
-<marketplaces>
- <marketplace>
-  <name>Pentaho Data Integration Marketplace</name>
-  <entries_url>{local path to your marketplace.xml file}</entries_url>
- </marketplace>
-</marketplaces>
+    <marketplaces>
+        <marketplace>
+            <name>Pentaho Data Integration Marketplace</name>
+                <entries_url>{local path to your marketplace.xml file}</entries_url>
+        </marketplace>
+    </marketplaces>
+
+
 
 Example :
 
-<marketplaces>
- <marketplace>
-  <name>Pentaho Data Integration Marketplace</name>
-  <entries_url>/home/matt/git/pentaho/marketplace-metadata/marketplace.xml</entries_url>
- </marketplace>
-</marketplaces>
-
-
+    <marketplaces>
+        <marketplace>
+            <name>Pentaho Data Integration Marketplace</name>
+                <entries_url>/home/matt/git/pentaho/marketplace-metadata/marketplace.xml</entries_url>
+        </marketplace>
+    </marketplaces>
