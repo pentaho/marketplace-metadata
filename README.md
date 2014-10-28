@@ -113,8 +113,8 @@ Link to the Pentaho InfoCenter SDK "Extending Pentaho Data Integration"
 http://infocenter.pentaho.com/help/topic/pdi_embed_extend_guide/concept_extending_PDI.html
 
 
-How do I test a plugin entry ?
-------------------------------
+How do I test a marketplace entry ?
+-----------------------------------
 Create a file marketplaces.xml in your .kettle folder
 The content of this file will be :
 
