@@ -5424,7 +5424,6 @@ any translation issues or suggestions for improvement
     <author_url/>
     <author_logo/>
     <license>GNU General Public License version 3.0 (GPLv3)</license>
-    <dependencies/>
     <versions>
       <version>
         <branch>TRUNK</branch>
@@ -5508,7 +5507,7 @@ and it will be executed when a transformation starts. All the extension points (
    
   <market_entry>
    <id>MongogridfsOutput</id>
-   <type>step</type>
+   <type>Step</type>
    <name>mongoDB Gridfs Output</name>
    <description>Import the any file from folder , RDBMS to mongoDB Gridfs</description>
    <documentation_url>https://github.com/SPECUSA/MongoDBGridfs/raw/master/Mongogridfs_1.3/MongogridfsOutput/InstalltionGuide.doc</documentation_url>
