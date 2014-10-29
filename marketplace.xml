@@ -5460,9 +5460,9 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>0.4.3</version>
-        <name>0.4.3</name>
-        <package_url>http://sourceforge.net/projects/pdijira/files/pdi-jira-0.4.3.zip/download</package_url>
+        <version>0.5</version>
+        <name>0.5</name>
+        <package_url>http://sourceforge.net/projects/pdijira/files/pdi-jira-0.5.zip/download</package_url>
         <min_parent_version>4.4</min_parent_version>
       </version>
     </versions>
