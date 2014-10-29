@@ -5473,5 +5473,36 @@ and it will be executed when a transformation starts. All the extension points (
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
   </market_entry>
-  
+	<market_entry>
+   <id>MongogridfsOutput</id>
+   <type>step</type>
+   <name>MongogridfsOutput</name>
+   <description>Import the any file from folder , RDBMS to mongodb Gridfs</description>
+   <documentation_url>https://github.com/SPECUSA/MongoDBGridfs/raw/master/Mongogridfs_1.3/MongogridfsOutput/InstalltionGuide.doc</documentation_url>
+   <author>SPEC INDIA</author>
+   <author_url>http://www.spec-india.com/business-intelligence-big-data.htm</author_url>
+   <author_logo>http://www.spec-india.com/images/spec-logo.png</author_logo>
+   <forum_url>https://github.com/SPECUSA/MongoDBGridfs</forum_url>
+   <cases_url>https://github.com/SPECUSA/MongoDBGridfs</cases_url>
+   <license_name>GNU General Public License</license_name>
+   <license_text>For more details see: http://www.gnu.org/licenses/</license_text>
+   <support_level>PROFESSIONALY_SUPPORTED</support_level>
+   <support_message>Supported by SPEC-INDIA BI Developer Team.</support_message>
+   <support_organization>SPEC-INDIA</support_organization>
+   <support_url>https://github.com/SPECUSA/MongoDBGridfs</support_url>
+   <versions>
+      <version>
+         <branch>Stable</branch>
+         <version>1.3</version>
+         <name>1.3</name>
+         <package_url>https://github.com/SPECUSA/MongoDBGridfs/raw/master/Mongogridfs_1.3/MongogridfsOutput.zip</package_url>
+         <samples_url>https://github.com/SPECUSA/MongoDBGridfs/tree/master/Mongogridfs_1.3/MongogridfsOutput/DemoTransformation</samples_url>
+         <description>My Version Description</description>
+         <changelog>1.0</changelog>
+         <build_id>1.0</build_id>
+         <min_parent_version>3.8</min_parent_version>
+         <max_parent_version>5.1</max_parent_version>
+      </version>
+   </versions>
+	</market_entry>
 </market>
