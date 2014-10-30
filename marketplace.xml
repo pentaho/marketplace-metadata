@@ -2015,7 +2015,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <changelog/>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.1.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
