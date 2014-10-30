@@ -450,7 +450,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>31</build_id>
+        <build_id>33</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -471,7 +471,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>315</build_id>
+        <build_id>317</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -5485,7 +5485,7 @@ and it will be executed when a transformation starts. All the extension points (
      </category>
      <description>This plugin (for PDI 5.1+) allows you to use Salesforce Bulk API to get data from SObjects.</description>
      <author>Benoit COLAS</author> 
-     <forum_url></forum_url>
+     <forum_url/>
      <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
      <license_name>Apache License 2.0</license_name>
      <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
