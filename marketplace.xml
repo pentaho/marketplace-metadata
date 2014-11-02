@@ -1464,8 +1464,8 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <max_parent_version/>
         <min_parent_version>5.1</min_parent_version>
         <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
+          <lane>Customer</lane>
+          <phase>3</phase>
         </development_stage>
       </version>
       <version>
