@@ -5566,7 +5566,9 @@ and it will be executed when a transformation starts. All the extension points (
     <id>pdi-zookeeper</id>
     <type>Step</type>
     <name>ZooKeeper Input/Output</name>
-    <description>Retrieves information from, and writes information to, ZooKeeper server(s)</description>
+    <description>Retrieves information from, and writes information to, ZooKeeper server(s)
+    As of version 1.1, ZooKeeper Output supports variable and field substitution.
+    </description>
     <documentation_url>https://github.com/mattyb149/pdi-zookeeper</documentation_url>
     <author>Matt Burgess</author>
     <license_name>Apache License 2.0</license_name>
@@ -5578,9 +5580,9 @@ and it will be executed when a transformation starts. All the extension points (
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>1.0</version>
-        <name>1.0</name>
-        <package_url>https://pentaho.box.com/shared/static/rdi1mg64701e0utz3t9b.zip</package_url>
+        <version>1.1</version>
+        <name>1.1</name>
+        <package_url>https://pentaho.box.com/shared/static/bqmzt007ryqdiijxs7ns.zip</package_url>
         <min_parent_version>5.0</min_parent_version>
       </version>
     </versions>
