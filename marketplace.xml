@@ -879,10 +879,10 @@ Having trouble with this project? Feel free to send us an e-mail at info@it4biz.
     <id>pentaho-ce-audit</id>
     <type>Platform</type>
     <img>
-      https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png
+      http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
     </img>
     <small_img>
-      https://raw.githubusercontent.com/it4biz/SaikuChartPlus/master/pentaho-plugin/saiku-chart-plus/images/chart.png
+      http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
     </small_img>
     <name>Pentaho CE Audit</name>
     <category>
