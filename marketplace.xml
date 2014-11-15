@@ -876,6 +876,80 @@ Having trouble with this project? Feel free to send us an e-mail at info@it4biz.
   </market_entry>
 
   <market_entry>
+    <id>pentaho-ce-audit</id>
+    <type>Platform</type>
+    <img>
+      http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
+    </img>
+    <small_img>
+      http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
+    </small_img>
+    <name>Pentaho CE Audit</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/it4biz/pentaho-ce-audit/</documentation_url>
+    <description>
+      <![CDATA[
+               <b>What is Pentaho CE Audit Plugin?</b> <br><br>
+
+It is an open source project that helps Pentaho BI Admin users to visualize statistics like:<BR><BR>
+
+Who is logging in the BI Portal (Pentaho BI Server)?<BR>
+When are the users using the BI Portal?<BR>
+What is the content with more access?<BR>
+And a lot of others infos about the use of the BI Portal.<BR><BR>
+
+This plug-in will apply automatically an Environment configuration, 
+if you want to know more about it please visit 
+the link http://infocenter.pentaho.com/help48/index.jsp?topic=%2Fadmin_guide%2Ftask_switching_to_file_based_logging.html
+<BR><BR>
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=W7tHv1C9cy0" frameborder="0" allowfullscreen></iframe>
+<br>
+
+<br><br>
+<b>Compatibility</b><br>
+<font color="red">Pentaho CE Audit works until this moment only with Pentaho BI Server CE 5.2!</font>
+
+<br><br>
+For more information <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-ce-audit/'>visit our site</a>.<br>
+Having trouble with this project? Feel free to send us an e-mail at info@it4biz.com.br or create a issue.
+      ]]>
+    </description>
+    <author>IT4biz</author>
+    <author_url>http://it4biz.com.br</author_url>
+    <author_logo>http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png</author_logo>
+    <license>ASL 2.0</license>
+    <dependencies>Sparkl</dependencies>
+
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>1.0</version>
+        <name>TRUNK</name>
+        <package_url>
+          http://sourceforge.net/projects/pentahoceaudit/files/1.0/pentaho-ce-audit-1.0-alpha.zip/download
+        </package_url>
+        <description>1.0 Alpha
+        </description>
+        <min_parent_version>5.2</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/Screen%20Shot%202014-11-13%20at%203.06.33%20PM.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
     <id>IvyBC</id>
     <type>Platform</type>
     <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_short.png</img>
