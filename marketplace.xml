@@ -3526,6 +3526,35 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
   </market_entry>
+  
+  <market_entry>
+    <id>IvyGitSteps</id>
+    <type>Step</type>
+    <name>Ivy PDI Git Steps</name>
+    <description>Pentaho Data Integration plugin for Git repositories.</description>
+    <documentation_url>https://github.com/ivylabs/ivy-pdi-git-steps/blob/master/README.md</documentation_url>
+    <author>Ivy Information Systems Ltd</author>
+    <license_name>MIT</license_name>
+    <license_text>For more details see:
+      http://opensource.org/licenses/MIT</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level> 
+    <support_message>Supported by Ivy Information Systems Ltd.</support_message>
+    <support_url>https://github.com/ivylabs/ivy-pdi-git-steps/issues</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>0.0.1</version>
+        <name>0.0.1</name>
+        <package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/Data%20Integration/PDI%20Git%20Steps/0.0.1/IvyGitSteps.zip/download</package_url>
+        <min_parent_version>5.0</min_parent_version>
+        <source_url>https://github.com/ivylabs/ivy-pdi-git-steps/tree/0.0.1</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
 
 <market_entry>
     <id>VerticaBulkLoader</id>
