@@ -875,7 +875,7 @@ Having trouble with this project? Feel free to send us an e-mail at info@it4biz.
     </screenshots>
   </market_entry>
 
-  <market_entry>
+<market_entry>
     <id>pentaho-ce-audit</id>
     <type>Platform</type>
     <img>
@@ -894,60 +894,62 @@ Having trouble with this project? Feel free to send us an e-mail at info@it4biz.
     <documentation_url>https://github.com/it4biz/pentaho-ce-audit/</documentation_url>
     <description>
       <![CDATA[
-               <b>What is Pentaho CE Audit Plugin?</b> <br><br>
+               <h3><b>What is Pentaho CE Audit Plugin?</b></h3> 
 
-It is an open source project that helps Pentaho BI Admin users to visualize statistics like:<BR><BR>
+<p>It is an open source project that helps Pentaho BI Admin users to visualize statistics like:</p>
 
-Who is logging in the BI Portal (Pentaho BI Server)?<BR>
-When are the users using the BI Portal?<BR>
-What is the content with more access?<BR>
-And a lot of others infos about the use of the BI Portal.<BR><BR>
+<ul>
+	<li>Who is logging in the BI Portal (Pentaho BI Server)?</li>
+	<li>When are the users using the BI Portal?</li>
+	<li>What is the content with more access?</li>
+	<li>And a lot of others infos about the use of the BI Portal.</li>
+</ul>
 
-This plug-in will apply automatically an Environment configuration, 
-if you want to know more about it please visit 
-the link http://infocenter.pentaho.com/help48/index.jsp?topic=%2Fadmin_guide%2Ftask_switching_to_file_based_logging.html
-<BR><BR>
+<p color="red"> This plug-in will apply automatically an Environment configuration, if you want to know more about it please visit 
+the link <a target='NO_BLANK' href='http://infocenter.pentaho.com/help48/index.jsp?topic=%2Fadmin_guide%2Ftask_switching_to_file_based_logging.html'>Pentaho InfoCenter.</a>
+</p>
 
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=W7tHv1C9cy0" frameborder="0" allowfullscreen></iframe>
-<br>
+<p>For more information <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-ce-audit/'>visit our site</a>.</p>
 
-<br><br>
-<b>Compatibility</b><br>
-<font color="red">Pentaho CE Audit works until this moment only with Pentaho BI Server CE 5.2!</font>
-
-<br><br>
-For more information <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-ce-audit/'>visit our site</a>.<br>
-Having trouble with this project? Feel free to send us an e-mail at info@it4biz.com.br or create a issue.
-      ]]>
+<p>Having trouble with this project? Feel free to send us an e-mail at <a href="mailto:info@it4biz.com.br?Subject=PentahoCEAudit" target="_top">info@it4biz.com.br</a> or <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-ce-audit/issues'>create a issue</a>.<p>
+]]>
     </description>
     <author>IT4biz</author>
     <author_url>http://it4biz.com.br</author_url>
     <author_logo>http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png</author_logo>
     <license>ASL 2.0</license>
-    <dependencies>Sparkl</dependencies>
+    <dependencies>CDF, CDA, CDE</dependencies>
+	<installation_notes>
+      <![CDATA[You can run the Pentaho CE Audit Installer as an administrator from the Tools menu. The installer will make some Environment configurations, requiring a reboot in the end.  <br /><br />
 
+Please note that if you upgrade Pentaho CE Audit, you will need to run the Pentaho CE Audit Installer again. <br /><br/>
+
+It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin Screen to get the most updated data.
+
+      ]]>
+	</installation_notes>
     <versions>
       <version>
         <branch>TRUNK</branch>
-        <version>1.0</version>
+        <version>2014.11.17</version>
         <name>TRUNK</name>
         <package_url>
           http://sourceforge.net/projects/pentahoceaudit/files/1.0/pentaho-ce-audit-1.0-alpha.zip/download
         </package_url>
-        <description>1.0 Alpha
-        </description>
-        <min_parent_version>5.2</min_parent_version>
+        <description>2014.11.17 (TRUNK)</description>
+        <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>
+	 </version>
     </versions>
     <screenshots>
-      <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/Screen%20Shot%202014-11-13%20at%203.06.33%20PM.png</screenshot>
+      <screenshot>https://sourceforge.net/p/pentahoceaudit/screenshot/home.png</screenshot>
+	  <screenshot>https://sourceforge.net/p/pentahoceaudit/screenshot/view.png</screenshot>
     </screenshots>
   </market_entry>
+
 
   <market_entry>
     <id>IvyBC</id>
