@@ -5418,14 +5418,15 @@ any translation issues or suggestions for improvement
     <description>This set of extension point plugins allows the user to write scripts in JavaScript, Groovy, etc.
 that will be called as extension point functions. For example, the user can write a script called TransformationStart.groovy 
 and it will be executed when a transformation starts. All the extension points (up through 5.2) are supported.
+Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and Lifecycle (onStart, onExit) plugin points as well.
     </description>
     <author>Matt Burgess</author>
     <author_url>http://funpdi.blogspot.com</author_url>
     <documentation_url>https://github.com/mattyb149/pdi-script-extension-points/wiki</documentation_url>
     <versions>
       <version>
-        <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/j0wo05woqgur434h7oti.zip</package_url>
+        <version>1.1</version>
+        <package_url>https://pentaho.box.com/shared/static/m2p0ryd69ra9xvlxzzvv.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
