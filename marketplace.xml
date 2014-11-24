@@ -756,10 +756,10 @@
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>3.0.5</version>
+        <version>3.0.6</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.5.zip</package_url>
-        <description>3.0.5 release for the Saiku Plugin</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.6.zip</package_url>
+        <description>3.0.6 release for the Saiku Plugin</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
           <development_stage>
