@@ -5245,9 +5245,17 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>trunk</branch>
+        <version>2.1.1/version>
+        <build_id>135</build_id>
+        <name>Version 2.1.1 (Stable)</name>
+        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.1/AvroOutputPlugin.zip</package_url>
+        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
+      </version>
+      <version>
+        <branch>trunk</branch>
         <version>2.1.0</version>
         <build_id>116</build_id>
-        <name>Version 2.1.0 (Stable)</name>
+        <name>Version 2.1.0</name>
         <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.0/AvroOutputPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
       </version>
