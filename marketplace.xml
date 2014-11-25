@@ -1729,7 +1729,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.10.15</version>
         <name>Stable</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cdv-release/lastSuccessfulBuild/artifact/cdv-pentaho/dist/cdv-pentaho-14.10.15.zip
+          http://www.webdetails.pt/ficheiros/cdv/14.10.15/4.x/cdv-pentaho-14.10.15.zip
         </package_url>
         <description>14.10.15 release</description>
         <build_id/>
@@ -1811,7 +1811,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.10.15</version>
         <name>Stable</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cdc-release/lastSuccessfulBuild/artifact/cdc-pentaho/dist/cdc-14.10.15.zip
+         http://www.webdetails.pt/ficheiros/cdc/14.10.15/4.x/cdc-14.10.15.zip
         </package_url>
         <description>14.10.15 release.</description>
         <build_id/>
@@ -1823,7 +1823,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.10.15</version>
         <name>Stable</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cdc-release/lastSuccessfulBuild/artifact/cdc-pentaho5/dist/cdc-14.10.15.zip
+          http://www.webdetails.pt/ficheiros/cdc/14.10.15/5.x/cdc-14.10.15.zip
         </package_url>
         <description>14.10.15 release.</description>
         <build_id/>
