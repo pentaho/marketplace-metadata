@@ -2075,10 +2075,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>BETA</branch>
-        <version>0.11</version>
+        <version>0.12</version>
         <name>Beta</name>
         <package_url>https://github.com/rpbouman/pash/raw/master/bin/pash.zip</package_url>
-        <description>Pash version 0.1 (beta)</description>
+        <description>Pash version 0.12 (beta)</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
