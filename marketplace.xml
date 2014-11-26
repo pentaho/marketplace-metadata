@@ -1248,6 +1248,60 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/09/funnel_chart.png</screenshot>
     </screenshots>
   </market_entry>
+  
+  <market_entry>
+    <id>IvyGS</id>
+    <type>Platform</type>
+    <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/11/ivygs.jpg</img>
+    <small_img/>
+    <name>IvyGS - Ivy Git Sync</name>
+    <category>
+      <name>Analysis</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/ivylabs/IvyGS/blob/master/README.md</documentation_url>
+    <description>
+      <![CDATA[
+               <article>
+               <img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/11/ivygs_full.jpg" />
+<p>A plugin that help synchronize a git repository with pentaho.</p>
+<br>
+</article>
+For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.<br>
+Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyGS'>GitHub</a>
+      ]]>
+    </description>
+    <author>Ivy Information Systems Ltd</author>
+    <author_url>http://www.ivy-is.co.uk/</author_url>
+    <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
+    <license>MIT</license>
+    <dependencies>CDE, CDA, CDF</dependencies>
+    <installation_notes/>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>0.0.1</version>
+        <name>Stable</name>
+        <package_url>
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Git%20Sync/0.0.1/IvyGS.zip/download
+        </package_url>
+        <description>Release 0.0.1</description>
+        <build_id/>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/11/IvyGS-main.png</screenshot>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/11/IvyGS-branches.png</screenshot>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/11/IvyGS-config.png</screenshot>
+    </screenshots>
+  </market_entry>
 
   <market_entry>
     <id>openi</id>
@@ -3413,6 +3467,35 @@ any translation issues or suggestions for improvement
           Notifications/1.0.0/AndroidPushNotification.zip
         </package_url>
         <source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/1.0.0</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+  
+  <market_entry>
+    <id>IvyGitSteps</id>
+    <type>Step</type>
+    <name>Ivy PDI Git Steps</name>
+    <description>Pentaho Data Integration plugin for Git repositories.</description>
+    <documentation_url>https://github.com/ivylabs/ivy-pdi-git-steps/blob/master/README.md</documentation_url>
+    <author>Ivy Information Systems Ltd</author>
+    <license_name>MIT</license_name>
+    <license_text>For more details see:
+      http://opensource.org/licenses/MIT</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level> 
+    <support_message>Supported by Ivy Information Systems Ltd.</support_message>
+    <support_url>https://github.com/ivylabs/ivy-pdi-git-steps/issues</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>0.0.1</version>
+        <name>0.0.1</name>
+        <package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/Data%20Integration/PDI%20Git%20Steps/0.0.1/IvyGitSteps.zip/download</package_url>
+        <min_parent_version>5.0</min_parent_version>
+        <source_url>https://github.com/ivylabs/ivy-pdi-git-steps/tree/0.0.1</source_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
