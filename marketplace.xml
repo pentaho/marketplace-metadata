@@ -3675,38 +3675,40 @@ any translation issues or suggestions for improvement
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Use DataCleaner to profile your Pentaho Data Integration transformations, step by step.
-      Data Cleaner is an open source data quality application made by Human Inference. With it you can run profiling
-      jobs using DataCleaner for any transformation step and in the database explorer. Additionally you can include and
-      launch DataCleaner jobs as part of your PDI jobs. This allows you to merge the tasks of data quality and data
-      integration.
+    <description>Use DataCleaner - the premier open source data quality solution - to profile the data that you work with in Pentaho Data Integration.
+
+DataCleaner provides strong functionality in the area of Data Profiling and Data Quality analysis. This includes discovering patterns and anomalies, standardizing data as well as detecting duplicate records.
+
+With this plugin you can:
+
+ * Launch data profiling for any transformation step in PDI, effectively allowing you to inspect and discover the shape of data at any point in your transformation pipeline.
+ * Apply DataCleaner to your database from the database explorer of PDI. This allows you to investigate the data at it's source.
+ * Include and launch DataCleaner jobs as part of your PDI jobs. This allows you to merge the ongoing workflow of data quality and data integration.
     </description>
     <versions>
       <version>
-        <version>3.5.10</version>
+        <version>3.7</version>
         <min_parent_version>5.0.0</min_parent_version>
-        <package_url>https://pentaho.box.com/shared/static/dsmczkkmoibwydj2y6z6.zip</package_url>
-        <source_url>http://source.pentaho.org/svnkettleroot/plugins/kettle-profiling-datacleaner/</source_url>
+        <package_url>http://datacleaner.org/resources/pentaho_plugin/DataCleaner-PDI-plugin-3.7-20141126.zip</package_url>
+        <source_url>https://github.com/datacleaner/pdi-datacleaner</source_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
       </version>
     </versions>
-    <author>Human Inference - eobjects - Kasper Sørensen</author>
+    <author>Neopost Customer Information Management</author>
     <documentation_url>http://datacleaner.org/docs</documentation_url>
-    <forum_url>http://datacleaner.org/forum/1</forum_url>
-    <cases_url>http://eobjects.org/trac/</cases_url>
+    <forum_url>http://datacleaner.org/forum</forum_url>
+    <cases_url>https://github.com/datacleaner/DataCleaner/issues</cases_url>
     <license_name>GNU LGPL</license_name>
     <license_text>For more details about the GNU General Lesser Public License v2.0 see:
       http://www.gnu.org/licenses/lgpl-2.0.html
     </license_text>
     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-    <support_message>Professional support, training and consultancy for DataCleaner is offered by Human Inference upon
-      request.
-    </support_message>
-    <support_organization>Human Inference</support_organization>
-    <support_url>http://datacleaner.org/support</support_url>
+    <support_message>Professional support, extended functionality, training and consultancy for DataCleaner is offered via the commercial editions of DataCleaner.</support_message>
+    <support_organization>Neopost Customer Information Management</support_organization>
+    <support_url>http://datacleaner.org/editions</support_url>
   </market_entry>
 
 
@@ -3721,12 +3723,11 @@ any translation issues or suggestions for improvement
       </parent>
     </category>
     <description>
-
       Combine the leading open source ETL tool with the leading data cleansing functions!
 
-      EasyDQ delivers on demand data quality functions that are fully integrated with Pentaho Data Integration / Kettle.
+      EasyDQ.com delivers on demand Data Quality functions that are fully integrated with Pentaho Data Integration / Kettle.
 
-      Data quality functions by Human Inference and EasyDQ available in Pentaho Data Integration:
+      Data Quality functions by Human Inference and EasyDQ.com available in Pentaho Data Integration:
 
       * Data profiling (through DataCleaner)
       * Name cleansing
@@ -3755,12 +3756,11 @@ any translation issues or suggestions for improvement
     </versions>
     <license_name>Proprietary</license_name>
     <license_text>To get access to EasyDQ.com and the data quality services, please register at
-      https://www.easydq.com/register
+https://www.easydq.com/register
     </license_text>
 
     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-    <support_message>Please contact Human Inference Support at +31 (0)26 3550600 or email support@humaninference.com
-    </support_message>
+    <support_message>Please contact Human Inference Support at +31 (0)26 3550600 or email support@humaninference.com</support_message>
     <support_organization>Human Inference</support_organization>
     <support_url>http://www.easydq.com/faq</support_url>
   </market_entry>
