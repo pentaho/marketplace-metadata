@@ -756,10 +756,10 @@
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>3.0.6</version>
+        <version>3.0.7</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.6.zip</package_url>
-        <description>3.0.6 release for the Saiku Plugin</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.7.zip</package_url>
+        <description>3.0.7 release for the Saiku Plugin</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
           <development_stage>
@@ -777,7 +777,7 @@
         <description>Trunk Snapshot. Install at your own risk...</description>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
-      </version>
+      </version>-->
       <version>
         <branch>STABLE</branch>
         <version>2.6</version>
@@ -790,7 +790,7 @@
           <phase>4</phase>
         </development_stage>
       </version>
-      <version>
+      <!--<version>
         <branch>TRUNK</branch>
         <version>2.6-PENTAHO5-SNAPSHOT</version>
         <name>Trunk</name>
