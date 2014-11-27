@@ -5647,4 +5647,31 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
       </version>
     </versions>
   </market_entry>
+    <market_entry>
+        <id>importio.plugin</id>
+        <type>Mixed</type>
+        <name>Import.io connector and extractor steps</name>
+        <category>
+            <name>Lookup</name>
+            <parent>
+                <name>PDI Plugins</name>
+            </parent>
+        </category>
+        <description>This bundle contains 2 steps based on the import.io APIs, which allow
+to parse web sites into structured data. Included in this plugin are steps for an extractor
+API as well as a connector API. See the documentation for more information.</description>
+        <author>Nicolas Haquet / Linalis</author>
+        <author_url>http://www.linalis.com</author_url>
+        <documentation_url>https://linalis.atlassian.net/wiki/x/WYDr</documentation_url>
+        <license_name>Apache License, Version 2.0</license_name>
+        <license_text>For more details see:
+http://www.apache.org/licenses/LICENSE-2.0</license_text>
+        <support_level>NOT_SUPPORTED</support_level>
+        <versions>
+            <version>
+                <version>1.0.0</version>
+                <package_url>https://docs.google.com/uc?export=download&amp;id=0B4rmkV4ykvQaWktfQWZydXZNRlk</package_url>
+            </version>
+        </versions>
+    </market_entry>
 </market>
