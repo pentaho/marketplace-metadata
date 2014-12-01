@@ -759,7 +759,7 @@
 		<version>3.0.8-EE</version>
 		<name>Stable</name>
 		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.0.8.zip</package_url>
-		<description>3.0.8 Enterprise Release for Pentaho BI Server. Enhanced Charting and Date Filters, UI tweaks & Support.
+		<description>3.0.8 Enterprise Release for Pentaho BI Server. Enhanced Charting and Date Filters, UI tweaks and Support.
 			For more information contact info@meteorite.bi.
 		</description>
 		<max_parent_version>6.0</max_parent_version>
