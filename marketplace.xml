@@ -5724,4 +5724,30 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
             </version>
         </versions>
     </market_entry>
+  <market_entry>
+    <id>TokenReplacementPlugin</id>
+    <type>Step</type>
+    <name>Token Replacement</name>
+    <description>The Token Replacement plugin allows you to replace tokens in strings or files. This plugin can read the string to replace from text entered into the step, a field on the stream, or even a file. The step can output the result to a string field or to a file.</description>
+    <author>Inquidia Consulting</author>
+    <author_url>http://www.inquidia.com</author_url>
+    <author_logo>http://inquidia.com/sites/default/files/inquidia-web-logo.png</author_logo>
+    <installation_notes/>
+    <documentation_url>https://github.com/cdeptula/TokenReplacementPlugin/blob/master/README.md</documentation_url>
+    <versions>
+      <version>
+        <branch>trunk</branch>
+        <version>1.0.0</version>
+        <build_id>29</build_id>
+        <name>Version 1.0.0 (Stable)</name>
+        <package_url>https://github.com/cdeptula/TokenReplacementPlugin/releases/download/1.0.0/TokenReplacementPlugin.zip</package_url>
+        <source_url>https://github.com/cdeptula/TokenReplacementPlugin</source_url>
+      </version>
+    </versions>
+    <cases_url>https://github.com/cdeptula/TokenReplacementPlugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+  </market_entry>
 </market>
