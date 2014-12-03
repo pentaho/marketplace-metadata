@@ -4170,7 +4170,7 @@ https://www.easydq.com/register
     </description>
     <versions>
       <version>
-        <version>1.1</version>
+        <version>1.2</version>
         <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMInput.zip</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
       </version>
@@ -4197,7 +4197,7 @@ https://www.easydq.com/register
     </description>
     <versions>
       <version>
-        <version>1.1</version>
+        <version>1.2</version>
         <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMOutput.zip</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
       </version>
