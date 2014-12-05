@@ -72,6 +72,10 @@
         </description>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
       </version>
       <version>
         <branch>TRUNK</branch>
@@ -154,6 +158,10 @@
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
         <build_id/>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
       
       <version>
@@ -274,6 +282,10 @@
         <build_id/>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
       <version>
         <branch>STABLE</branch>
@@ -418,6 +430,10 @@
         <build_id/>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
       <version>
         <branch>STABLE</branch>
@@ -539,6 +555,10 @@
         <description>14.10.15 release.</description>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
         <build_id/>
       </version>
 
@@ -865,6 +885,10 @@
 				<description>ChartPlusStable for the Saiku 3 plugin</description>
 				<min_parent_version>5.0</min_parent_version>
 				<build_id>20141119</build_id>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
 			</version>         
 		</versions>
 		<screenshots>
@@ -1832,6 +1856,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <build_id/>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
       <version>
         <branch>TRUNK</branch>
@@ -1914,6 +1942,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <build_id/>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
       <version>
         <branch>STABLE</branch>
@@ -5430,6 +5462,10 @@ https://www.easydq.com/register
 			<build_id>1</build_id>
 			<min_parent_version>5.0</min_parent_version>
 			<max_parent_version>5.2</max_parent_version>
+      <development_stage>
+        <lane>Community</lane>
+        <phase>2</phase>
+      </development_stage>
     </version>
   </versions>
   <screenshots> 
@@ -5473,6 +5509,10 @@ https://www.easydq.com/register
 		<max_parent_version>5.2</max_parent_version>
         <package_url>http://dynambi.com/proyectos/pdfExport/pdfExport.zip</package_url>
 		<source_url>https://github.com/joshid/pdfExport</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
       </version>
     </versions>
     <screenshots>
