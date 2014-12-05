@@ -5725,6 +5725,30 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         </versions>
     </market_entry>
   <market_entry>
+    <id>kettle-ftl-plugin</id>
+    <type>Step</type>
+    <name>FTL Plugin</name>
+    <description>Processes the incoming row as well as variables against a user specified Freemarker template to facilitate arbitrary output generation</description>
+    <documentation_url>https://github.com/brosander/kettle-plugins</documentation_url>
+    <author>Bryan Rosander</author>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level> 
+    <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+    <support_url>https://github.com/brosander/kettle-plugins/issues</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>0.1.2</version>
+        <name>0.1.2</name>
+        <package_url>http://dl.bintray.com/brosander/maven/com/github/brosander/kettle-ftl-plugin/0.1.2/kettle-ftl-plugin-0.1.2-plugin.zip</package_url>
+        <min_parent_version>5.0</min_parent_version>
+      </version>
+    </versions>
+  </market_entry>
+
+  <market_entry>
     <id>TokenReplacementPlugin</id>
     <type>Step</type>
     <name>Token Replacement</name>
