@@ -2406,6 +2406,89 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   </market_entry>
 
   <market_entry>
+    <id>pedis</id>
+    <type>Platform</type>
+    <img>https://raw.githubusercontent.com/rpbouman/pedis/master/src/images/pedis.png</img>
+    <small_img>https://raw.githubusercontent.com/rpbouman/pedis/master/src/images/pedis-small.png</small_img>
+    <name>Pentaho Database Inspection Service</name>
+    <category>
+      <name>Development</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/rpbouman/pedis/wiki</documentation_url>
+    <description>
+	Pedis is a contentgenerator (i.e. a webservice) that provides JDBC metadata for Pentaho JDBC connections.
+    </description>
+    <author>Roland Bouman</author>
+    <author_url>http://rpbouman.blogspot.com/</author_url>
+    <author_logo>http://2.bp.blogspot.com/-cQYKyRlMHFo/VCT7cT3aSsI/AAAAAAAAFts/FAZkW7EuYBA/s1600/*</author_logo>
+    <license>Apache 2.0</license>
+    <dependencies></dependencies>
+    <installation_notes>
+      You must restart the biserver after installing this plugin.
+    </installation_notes>
+    <versions>
+      <version>
+        <branch>beta</branch>
+        <version>0.0.1</version>
+        <name>0.0.1-beta</name>
+        <package_url>https://github.com/rpbouman/pedis/blob/master/dist/pedis.zip?raw=true</package_url>
+        <description>0.0.1-beta</description>
+        <build_id/>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+
+  <market_entry>
+    <id>phase</id>
+    <type>Platform</type>
+    <img>http://3.bp.blogspot.com/_UpvxZrigQfQ/SXyOvTqnBlI/AAAAAAAAACE/6kC_imaOC-0/s1600/cube_icon_plan.png</img>
+    <small_img>http://3.bp.blogspot.com/_UpvxZrigQfQ/SXyOvTqnBlI/AAAAAAAAACE/6kC_imaOC-0/s1600/cube_icon_plan.png</small_img>
+    <name>Pentaho Analysis Editor</name>
+    <category>
+      <name>Development</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/rpbouman/phase/wiki</documentation_url>
+    <description>
+	Phase is a mondrianV3 schema editor.
+    </description>
+    <author>Roland Bouman</author>
+    <author_url>http://rpbouman.blogspot.com/</author_url>
+    <author_logo>http://2.bp.blogspot.com/-cQYKyRlMHFo/VCT7cT3aSsI/AAAAAAAAFts/FAZkW7EuYBA/s1600/*</author_logo>
+    <license>Apache 2.0</license>
+    <dependencies>Pedis</dependencies>
+    <installation_notes>
+	Please make sure you install Pedis if you want to use Phase.
+      You must refresh the pentaho user console to start using this application.
+    </installation_notes>
+    <versions>
+      <version>
+        <branch>beta</branch>
+        <version>0.0.1</version>
+        <name>0.0.1-beta</name>
+        <package_url>https://github.com/rpbouman/phase/blob/master/dist/phase.zip?raw=true</package_url>
+        <description>0.0.1-beta</description>
+        <build_id/>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+
+  <market_entry>
     <id>languagePack_ca</id>
     <type>Platform</type>
     <name>Catalan Language Pack Installer</name>
