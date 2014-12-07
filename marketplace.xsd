@@ -74,7 +74,8 @@
                 </xsd:annotation>
               </xsd:element>
 
-              <xsd:element name="category" minOccurs="1" maxOccurs="1" type="category">
+              <!-- category is temporarily not mandatory -->
+              <xsd:element name="category" minOccurs="0" maxOccurs="1" type="category">
                 <xsd:annotation>
                   <xsd:documentation>
                     At the moment a maximum of 2 levels of nesting are used for categorization.
@@ -357,7 +358,7 @@
      <xsd:element name="branch" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
      <xsd:element name="version" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
      <xsd:element name="build_id" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-     <xsd:element name="development_stage" minOccurs="1" maxOccurs="1" type="development_stage"/>
+     <xsd:element name="development_stage" minOccurs="0" maxOccurs="1" type="development_stage"/>
      <xsd:element name="name" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
      <xsd:element name="package_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
      <xsd:element name="samples_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
