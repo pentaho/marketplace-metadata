@@ -2425,7 +2425,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <author_url>http://rpbouman.blogspot.com/</author_url>
     <author_logo>http://2.bp.blogspot.com/-cQYKyRlMHFo/VCT7cT3aSsI/AAAAAAAAFts/FAZkW7EuYBA/s1600/*</author_logo>
     <license>Apache 2.0</license>
-    <dependencies></dependencies>
+    <dependencies/>
     <installation_notes>
       You must restart the biserver after installing this plugin.
     </installation_notes>
