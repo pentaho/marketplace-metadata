@@ -3578,7 +3578,7 @@ any translation issues or suggestions for improvement
       This plugin is written in Java and uses the Java Apple Push Notification Service library.
       The motivation for developing this plugin is to have you, the ETL developer, receive quick notifications about the
       state of ETL executions wherever you are (faster than email).
-      However, this plugin can be use for other scenarios as well.
+      However, this plugin can be use for other scenarios as well. Now is just for PDI 5.x or later.
     </description>
     <author>Joel Latino</author>
     <author_url>http://about.me/latinojoel</author_url>
@@ -3594,11 +3594,11 @@ any translation issues or suggestions for improvement
     <support_url>https://github.com/latinojoel/pdi-apple-pushnotifications/issues</support_url>
     <versions>
       <version>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <package_url>
-          http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/1.0.0/ApplePushNotification.zip
+          http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/1.0.1/ApplePushNotification.zip/download
         </package_url>
-        <source_url>https://github.com/latinojoel/pdi-apple-pushnotifications/tree/1.0.0</source_url>
+        <source_url>https://github.com/latinojoel/pdi-apple-pushnotifications/tree/1.0.1</source_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -3624,7 +3624,7 @@ any translation issues or suggestions for improvement
       state of ETL executions wherever you are (than faster email).
       You can use my android app named PDI Manager:
       https://play.google.com/store/apps/details?id=com.latinojoel.pdimanager
-      However, this plugin can be used in other scenarios as well.
+      However, this plugin can be used in other scenarios as well. Now is just for PDI 5.x or later.
     </description>
     <author>Joel Latino</author>
     <author_url>http://about.me/latinojoel</author_url>
@@ -3640,11 +3640,11 @@ any translation issues or suggestions for improvement
     <support_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</support_url>
     <versions>
       <version>
-        <version>1.0.0</version>
-        <package_url>http://sourceforge.net/projects/pentaho-plugins/files/Pentaho Data Integration/PDI Android Push
-          Notifications/1.0.0/AndroidPushNotification.zip
+        <version>1.0.1</version>
+        <package_url>
+          http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Android%20Push%20Notifications/1.0.1/AndroidPushNotification.zip/download
         </package_url>
-        <source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/1.0.0</source_url>
+        <source_url>https://github.com/latinojoel/pdi-android-pushnotifications/tree/1.0.1</source_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
