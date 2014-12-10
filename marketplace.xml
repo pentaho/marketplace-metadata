@@ -814,7 +814,7 @@
         <min_parent_version>1.0</min_parent_version>
       </version>-->
       <version>
-        <branch>STABLE</branch>
+        <branch>DEPRECIATED</branch>
         <version>2.6</version>
         <name>Stable</name>
         <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-2.6.zip</package_url>
