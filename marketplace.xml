@@ -5024,15 +5024,28 @@ https://www.easydq.com/register
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Riak Consumer/Producer</description>
+    <description>Riak client for PDI</description>
     <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-Riak/blob/master/README.md</documentation_url>
-    <author>instaclick inc.</author>
+    <author>Fabio B. Silva / Instaclick INC.</author>
+    <author_url>https://github.com/FabioBatSilva</author_url>
     <license_name>MIT</license_name>
     <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-Riak/master/LICENSE.md
     </license_text>
     <versions>
       <version>
+        <version>2.0.2</version>
+        <name>Version 2.0.2 (Stable)</name>
+        <package_url>
+          https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-riak-plugin-pdi-2.0.2-SNAPSHOT.zip
+        </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+      <version>
         <version>1.0.0</version>
+        <name>Version 1.0.0</name>
         <package_url>
           https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-riak-plugin-pdi-1.0.0-SNAPSHOT.zip
         </package_url>
@@ -5056,11 +5069,22 @@ https://www.easydq.com/register
     </category>
     <description>AMQP Consumer/Producer</description>
     <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-AMQP/blob/master/README.md</documentation_url>
-    <author>instaclick inc.</author>
+    <author>Fabio B. Silva / Instaclick INC.</author>
+    <author_url>https://github.com/FabioBatSilva</author_url>
     <license_name>MIT</license_name>
     <license_text>For more details see: https://raw.github.com/instaclick/PDI-Plugin-Step-AMQP/master/LICENSE.md
     </license_text>
     <versions>
+      <version>
+        <version>1.1.2</version>
+        <package_url>
+          https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.1.2-SNAPSHOT.zip
+        </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
       <version>
         <version>1.1.1</version>
         <package_url>
@@ -5087,7 +5111,8 @@ https://www.easydq.com/register
     <description>Bloom filter for pentaho PDI</description>
     <documentation_url>https://github.com/instaclick/PDI-Plugin-Step-BloomFilter/blob/master/README.md
     </documentation_url>
-    <author>instaclick inc.</author>
+    <author>Fabio B. Silva / Instaclick INC.</author>
+    <author_url>https://github.com/FabioBatSilva</author_url>
     <license_name>MIT</license_name>
     <license_text>For more details see:
       https://raw.github.com/instaclick/PDI-Plugin-Step-BloomFilter/master/LICENSE.md
