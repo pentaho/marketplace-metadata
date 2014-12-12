@@ -150,10 +150,10 @@
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>14.12.10</version>
+        <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10/4.x/pentaho-cdf-14.12.10.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10/4.x/pentaho-cdf-samples-14.12.10.zip</samples_url>
+        <package_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/4.x/pentaho-cdf-14.12.10.1.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/4.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
         <description>Stable Release</description>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
@@ -184,10 +184,10 @@
       
       <version>
         <branch>STABLE</branch>
-        <version>14.12.10</version>
+        <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10/5.x/pentaho-cdf-14.12.10.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10/5.x/pentaho-cdf-samples-14.12.10.zip</samples_url>
+        <package_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/5.x/pentaho-cdf-14.12.10.1.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/5.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
         <description>Stable Release</description>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
@@ -421,12 +421,12 @@
     
       <version>
         <branch>STABLE</branch>
-        <version>14.12.10</version>
+        <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cde/14.12.10/4.x/pentaho-cdf-dd-14.12.10.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cde/14.12.10/4.x/pentaho-cdf-dd-solution-14.12.10.zip
+        <package_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/4.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/4.x/pentaho-cdf-dd-solution-14.12.10.1.zip
         </samples_url>
-        <description>Release 14.12.10</description>
+        <description>Release 14.12.10.1</description>
         <build_id/>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
@@ -437,12 +437,12 @@
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>14.12.10</version>
+        <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cde/14.12.10/5.x/pentaho-cdf-dd-14.12.10.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cde/14.12.10/5.x/pentaho-cdf-dd-solution-14.12.10.zip
+        <package_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/5.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/5.x/pentaho-cdf-dd-solution-14.12.10.1.zip
         </samples_url>
-        <description>Release 14.12.10</description>
+        <description>Release 14.12.10.1</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
