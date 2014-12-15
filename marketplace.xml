@@ -2171,10 +2171,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>14.12.10</version>
+        <version>14.12.10.1</version>
         <name>Stable</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/cst/14.12.10/cst-14.12.10.zip
+          http://www.webdetails.pt/ficheiros/cst/14.12.10.1/cst-14.12.10.1.zip
         </package_url>
         <description>Stable Release</description>
         <build_id/>
