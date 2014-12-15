@@ -2139,6 +2139,63 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   </market_entry>
 
   <market_entry>
+    <id>cst</id>
+    <type>Platform</type>
+    <img>http://www.webdetails.pt/ficheiros/cst.png</img>
+    <small_img>http://www.webdetails.pt/ficheiros/cst.png</small_img>
+    <name>Community Startup Tabs</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>http://www.webdetails.pt/ctools/cst</documentation_url>
+    <description>
+CST is the easiest way to define and implement the Pentaho startup tabs depending on the user that logs into the PUC (Pentaho User Console):
+
+1) Provides an easier way to set different startup tabs for each user that logs into the PUC, based on its username or role;
+2) Allows you to specify usernames or roles using regular expressions.
+
+Ranging from a single institutional page to a list of dashboards or reports, among other contents, the tabs opened to each Pentaho User after logging into the PUC vary depending on the user preferences or his/her role in the company. Then why should we let Pentaho open always the same content for everyone?
+
+Thanks to CST, the list of tabs opened right after the login can be automatically different, depending on the user profile.
+
+A landing tab can optionally be presented, which can be used to any of the predefined list of tabs and each user's favorite files.
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE, CGG</dependencies>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>14.12.10</version>
+        <name>Stable</name>
+        <package_url>
+          http://www.webdetails.pt/ficheiros/cst/14.12.10/cst-14.12.10.zip
+        </package_url>
+        <description>Stable Release</description>
+        <build_id/>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>
+        http://www.webdetails.pt/ficheiros/cst/screenshots/cst-launcher.png
+      </screenshot>
+      <screenshot>
+        http://www.webdetails.pt/ficheiros/cst/screenshots/cst-settings-editor.png
+      </screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
     <id>EnvironmentDisplay</id>
     <type>Platform</type>
     <name>Environment Display</name>
