@@ -2619,10 +2619,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_ca-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_ca-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2701,10 +2701,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_nl-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_nl-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2783,10 +2783,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_fr-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_fr-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2865,10 +2865,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_de-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_de-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2946,10 +2946,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_hi-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_hi-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3029,10 +3029,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_it-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_it-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3113,10 +3113,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_ja-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_ja-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3196,10 +3196,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_ko-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_ko-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3280,10 +3280,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_BR-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_pt_BR-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3367,10 +3367,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_pt_PT-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_pt_PT-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3452,10 +3452,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>14.10.17</version>
+        <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/lastSuccessfulBuild/artifact/dist/languagePack_es-14.10.17.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_es-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
