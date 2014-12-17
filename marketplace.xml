@@ -1738,18 +1738,19 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>RELEASE</branch>
-        <version>14.06.18</version>
-        <name>RELEASE</name>
+        <version>14.12.10</version>
+        <name>Latest Release</name>
         <package_url>
-          http://ci.pentaho.com/job/RepositorySynchronizer/lastSuccessfulBuild/artifact/dist/repositorySynchronizer-14.06.18.zip
+          http://www.webdetails.pt/ficheiros/repositorySynchronizer/14.12.10/repositorySynchronizer-14.12.10.zip
         </package_url>
         <samples_url/>
-        <description>Latest Release</description>
-        <build_id/>
+        <description>14.12.10 release.</description>
+        <build_id />
         <min_parent_version>5.0</min_parent_version>
+        <max_parent_version/>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
