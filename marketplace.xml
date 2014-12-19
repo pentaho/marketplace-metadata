@@ -5972,8 +5972,8 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <support_url>http://www.linalis.fr/fr/linalis/contact</support_url>
         <versions>
             <version>
-                <version>1.0.0</version>
-                <package_url>https://docs.google.com/uc?export=download&amp;id=0B4rmkV4ykvQaWktfQWZydXZNRlk</package_url>
+                <version>1.0.2</version>
+                <package_url>https://docs.google.com/uc?export=download&amp;id=0B4rmkV4ykvQabFhyMTdXOERFQ1k</package_url>
                 <development_stage>
                     <lane>Community</lane>
                     <phase>3</phase>
