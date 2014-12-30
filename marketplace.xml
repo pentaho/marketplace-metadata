@@ -6031,4 +6031,41 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     </license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
+
+  <market_entry>
+    <id>pdi-scriptengine-plugin</id>
+    <type>Step</type>
+    <name>SuperScript</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin is similar to the experimental Script step but offers many more capabilities, such as:
+    - Drop-down UI for selecting the scripting engine
+    - Allows non-compilable JSR-223 scripting (such as AppleScript)
+    - Enables the use of the script's returned value as an output field
+    - Enables use of the script as an input step (doesn't need a trigger)
+    </description>
+    <author>Matt Burgess</author>
+    <documentation_url>https://github.com/mattyb149/pdi-scriptengine-plugin/wiki</documentation_url>
+    <versions>
+      <version>
+        <version>1.0</version>
+        <package_url>https://pentaho.box.com/shared/static/pmxvmkjbsl6cirsyzfwf.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <license_name>Apache 2.0</license_name>
+    <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+    <support_organization>Pentaho Developer Community</support_organization>
+    <support_url>http://kettle.pentaho.com</support_url>
+  </market_entry>
 </market>
