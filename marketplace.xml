@@ -5291,8 +5291,20 @@ https://www.easydq.com/register
     <versions>
       <version>
         <version>1.0</version>
+        <branch>1.0</branch>
         <package_url>
-          https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/raw/master/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip
+          https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/blob/1.0/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip?raw=true
+        </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <version>1.01</version>
+        <branch>master</branch> 
+        <package_url>
+          https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/blob/master/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip?raw=true
         </package_url>
         <development_stage>
           <lane>Community</lane>
