@@ -83,7 +83,7 @@
         <build_id>49</build_id>
         <name>Latest snapshot build</name>
         <package_url>
-          http://repository.pentaho.org/artifactory/pentaho/pentaho/marketplace/5.1-SNAPSHOT/marketplace-5.1-SNAPSHOT.zip
+          http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/marketplace/5.1.0.0-752/marketplace-5.1.0.0-752.zip
         </package_url>
         <description>Build for Pentaho 5.0</description>
         <development_stage>
@@ -99,7 +99,7 @@
         <build_id>56</build_id>
         <name>Latest snapshot build</name>
         <package_url>
-          http://repository.pentaho.org/artifactory/pentaho/pentaho/marketplace/TRUNK-SNAPSHOT/marketplace-TRUNK-SNAPSHOT.zip
+          http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-TRUNK-SNAPSHOT.zip
         </package_url>
         <description>Build for Pentaho 5.2</description>
         <development_stage>
