@@ -813,7 +813,7 @@
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
       </version>-->
-      <version>
+      <!--<version>
         <branch>DEPRECIATED</branch>
         <version>2.6</version>
         <name>Stable</name>
@@ -824,7 +824,7 @@
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
-      </version>
+      </version>-->
       <!--<version>
         <branch>TRUNK</branch>
         <version>2.6-PENTAHO5-SNAPSHOT</version>
