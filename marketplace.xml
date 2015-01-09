@@ -1200,7 +1200,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         </package_url>
         <description>Release 0.0.3</description>
         <build_id/>
-        <max_parent_version>5.2</max_parent_version></max_parent_version>
+        <max_parent_version>5.2</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -1217,7 +1217,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         </package_url>
         <description>Release 0.0.4</description>
         <build_id/>
-        <max_parent_version>5.2</max_parent_version></max_parent_version>
+        <max_parent_version>5.2</max_parent_version>
         <min_parent_version>5.2</min_parent_version>
         <development_stage>
           <lane>Community</lane>
