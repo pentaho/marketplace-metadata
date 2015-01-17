@@ -1231,6 +1231,66 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse2.png</screenshot>
     </screenshots>
   </market_entry>
+  
+  <market_entry>
+    <id>IvyUD</id>
+    <type>Platform</type>
+    <img>http://www.ivy-is.co.uk/wp-content/uploads/2015/01/IvyUD-short-small.png</img>
+    <small_img/>
+    <name>IvyUD - Ivy User Details</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/ivylabs/IvyUD/blob/master/README.md</documentation_url>
+    <description>
+      <![CDATA[
+               <article>
+               <img src="http://www.ivy-is.co.uk/wp-content/uploads/2015/01/IvyUD-full-small.png" />
+
+
+
+
+               <br /><p>The Ivy UD is a sample plugin that has been developed to serve two purposes. The first purpose is to simply add some extra meta data for users that are logged into the Pentaho Server. The other purpose is to act as a sample for others to create persistent Sparkl applications.</p>
+
+<p>Please remember that this plugin requires the IvyBC Free edition to be installed as a minimum!</p>
+
+<p>For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.</p>
+<p>Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyUD'>GitHub</a></p>
+
+</article>
+
+      ]]>
+    </description>
+    <author>Ivy Information Systems Ltd</author>
+    <author_url>http://www.ivy-is.co.uk/</author_url>
+    <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDE, CDA, CDF, IvyBC Free</dependencies>
+    <installation_notes/>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>15.01.13</version>
+        <name>Stable</name>
+        <package_url>
+		  http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/IvyUD%20User%20Details/0.0.1/IvyUD.zip/download
+        </package_url>
+        <description>15.01.13</description>
+        <build_id/>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2015/01/ivyud.png</screenshot>
+    </screenshots>
+  </market_entry>
 
   <market_entry>
     <id>IvyDC</id>
