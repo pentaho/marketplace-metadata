@@ -6124,4 +6124,45 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
   </market_entry>
+  
+  
+  <market_entry>
+    <id>SpecialCharacterRemover-ver-1.1.0</id>
+    <type>Step</type>
+    <name>Special Character Remover</name>
+    <description>
+	Special Character Remover is a Pentaho DI Step Plugin which removes any sorts of special character coming in from the Input Stream.
+	Its has the support of multiple algorithms which will help a user to clean the input with minimal coding effort. The plugin's algorithm also supports a "Custom code" inclusion which expands the usuability.
+	
+	More Detailed Description is available at:	https://anotherreeshu.wordpress.com/2015/01/07/special-character-remover-clean-your-data-of-special-characters-pentaho-kettle-step-plugin/
+	
+    </description>
+    <author>Rishu Shrivastava</author>
+    <author_url>https://anotherreeshu.wordpress.com/about/</author_url>
+    <author_logo></author_logo>
+    <installation_notes>
+	The Installation notes is available at: 
+     https://github.com/rishuatgithub/Pentaho/blob/master/SpecialCharacterRemover/SpecialCharacterRemover-ver-1.1.0/README.txt
+    </installation_notes>
+    <documentation_url></documentation_url>
+    <versions>
+      <version>
+        <branch>stable</branch>
+        <version>1.1.0</version>
+        <build_id/>
+        <name>Version 1.1.0</name>
+		<min_parent_version>4.8</min_parent_version> 
+		<max_parent_version>5.2</max_parent_version>
+        <package_url>https://github.com/rishuatgithub/Pentaho/blob/master/SpecialCharacterRemover/marketplace/SpecialCharacterRemover-ver-1.1.0.zip
+        </package_url>
+        <source_url>https://github.com/rishuatgithub/Pentaho/tree/master/SpecialCharacterRemover/pentaho-kettle-step-spchr</source_url>
+        </version>
+    </versions>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+  </market_entry>
+  
 </market>
