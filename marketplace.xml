@@ -110,16 +110,11 @@
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png
-      </screenshot>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png
-      </screenshot>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png
-      </screenshot>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png
-      </screenshot>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png
-      </screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png</screenshot>
     </screenshots>
   </market_entry>
 
