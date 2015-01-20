@@ -786,10 +786,10 @@
 	</version>
       <version>
         <branch>STABLE</branch>
-        <version>3.0.8</version>
+        <version>3.0.9</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.8.zip</package_url>
-        <description>3.0.8 release for the Saiku Plugin - Fixed Filter Dialog and added Chart Export</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.9.zip</package_url>
+        <description>3.0.9 release for the Saiku Plugin - Improved filtering, drill across, measures menu, fixed exports</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
           <development_stage>
@@ -808,7 +808,7 @@
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
       </version>-->
-      <!--<version>
+      <version>
         <branch>DEPRECIATED</branch>
         <version>2.6</version>
         <name>Stable</name>
@@ -819,7 +819,7 @@
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
-      </version>-->
+      </version>
       <!--<version>
         <branch>TRUNK</branch>
         <version>2.6-PENTAHO5-SNAPSHOT</version>
