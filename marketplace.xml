@@ -4471,7 +4471,7 @@ https://www.easydq.com/register
     <versions>
       <version>
         <version>1.2</version>
-        <package_url>http://downloads.sourceforge.net/project/civicrm-data-integration/1.2/civicrm-data-integration-1.2-bin-input.zip?r=&ts=1421146417&use_mirror=master</package_url>
+        <package_url>http://downloads.sourceforge.net/project/civicrm-data-integration/1.2/civicrm-data-integration-1.2-bin-input.zip?r=&amp;ts=1421146417&amp;use_mirror=master</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
         <development_stage>
           <lane>Community</lane>
