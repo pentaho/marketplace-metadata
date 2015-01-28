@@ -83,7 +83,7 @@
         <build_id>49</build_id>
         <name>Latest snapshot build</name>
         <package_url>
-          http://repository.pentaho.org/artifactory/pentaho/pentaho/marketplace/5.1-SNAPSHOT/marketplace-5.1-SNAPSHOT.zip
+          http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/marketplace/5.1.0.0-752/marketplace-5.1.0.0-752.zip
         </package_url>
         <description>Build for Pentaho 5.0</description>
         <development_stage>
@@ -99,7 +99,7 @@
         <build_id>56</build_id>
         <name>Latest snapshot build</name>
         <package_url>
-          http://repository.pentaho.org/artifactory/pentaho/pentaho/marketplace/TRUNK-SNAPSHOT/marketplace-TRUNK-SNAPSHOT.zip
+          http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-TRUNK-SNAPSHOT.zip
         </package_url>
         <description>Build for Pentaho 5.2</description>
         <development_stage>
@@ -110,16 +110,11 @@
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png
-      </screenshot>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png
-      </screenshot>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png
-      </screenshot>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png
-      </screenshot>
-      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png
-      </screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -211,7 +206,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>178</build_id>
+        <build_id>180</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -232,7 +227,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>559</build_id>
+        <build_id>564</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -335,7 +330,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>167</build_id>
+        <build_id>169</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -356,7 +351,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>259</build_id>
+        <build_id>261</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -466,7 +461,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>50</build_id>
+        <build_id>67</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -487,7 +482,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>353</build_id>
+        <build_id>373</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -587,7 +582,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>60</build_id>
+        <build_id>63</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -605,7 +600,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>39</build_id>
+        <build_id>42</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -694,7 +689,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>87</build_id>
+        <build_id>88</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -776,10 +771,10 @@
     <versions>
     	<version>
 		<branch>ENTERPRISE</branch>
-		<version>3.0.8-EE</version>
+		<version>3.0.9.1-EE</version>
 		<name>Stable</name>
-		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.0.8.zip</package_url>
-		<description>3.0.8 Enterprise Release for Pentaho BI Server. Enhanced Charting and Date Filters, UI tweaks and Support.
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.0.9.1.zip</package_url>
+		<description>3.0.9 Enterprise Release for Pentaho BI Server. Enhanced Charting and Date Filters, UI enhancements and Support.
 			For more information contact info@meteorite.bi.
 		</description>
 		<max_parent_version>6.0</max_parent_version>
@@ -791,10 +786,10 @@
 	</version>
       <version>
         <branch>STABLE</branch>
-        <version>3.0.8</version>
+        <version>3.0.9.1</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.8.zip</package_url>
-        <description>3.0.8 release for the Saiku Plugin - Fixed Filter Dialog and added Chart Export</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.9.1.zip</package_url>
+        <description>3.0.9 release for the Saiku Plugin - Improved filtering, drill across, measures menu, fixed exports</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
           <development_stage>
@@ -1007,6 +1002,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
 <h2>Included Bootstrap Components - Free</h2>
 
 <ul>
+<li>Bootstrap Input <b>New</b></li>
 <li>Bootstrap Panel</li>
 <li>Bootstrap Button</li>
 <li>Bootstrap Checkbox</li>
@@ -1051,12 +1047,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>1.0.1 (free version)</version>
+        <version>1.0.2 (free version)</version>
         <name>Stable</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.1%20%28free%20version%29/IvyBC.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.2%20%28free%20version%29/IvyBC.zip/download
         </package_url>
-        <description>1.0.1 (free version)</description>
+        <description>1.0.2 (free version)</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
@@ -1114,12 +1110,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>0.0.3-POC</version>
+        <version>0.0.4-POC</version>
         <name>Stable</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.3-POC/IvyDD.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.4-POC/IvyDD.zip/download
         </package_url>
-        <description>Proof of Concept release 0.0.3</description>
+        <description>Proof of Concept release 0.0.4</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
@@ -1200,6 +1196,86 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         </package_url>
         <description>Release 0.0.3</description>
         <build_id/>
+        <max_parent_version>5.1.99</max_parent_version>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      
+      <version>
+        <branch>STABLE</branch>
+        <version>0.0.4</version>
+        <name>Stable</name>
+        <package_url>
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.4/IvySE.zip/download
+        </package_url>
+        <description>Release 0.0.4</description>
+        <build_id/>
+        <max_parent_version>5.2.99</max_parent_version>
+        <min_parent_version>5.2</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      
+    </versions>
+    <screenshots>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse1.png</screenshot>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse2.png</screenshot>
+    </screenshots>
+  </market_entry>
+  
+  <market_entry>
+    <id>IvyUD</id>
+    <type>Platform</type>
+    <img>http://www.ivy-is.co.uk/wp-content/uploads/2015/01/IvyUD-short-small.png</img>
+    <small_img/>
+    <name>IvyUD - Ivy User Details</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/ivylabs/IvyUD/blob/master/README.md</documentation_url>
+    <description>
+      <![CDATA[
+               <article>
+               <img src="http://www.ivy-is.co.uk/wp-content/uploads/2015/01/IvyUD-full-small.png" />
+
+
+
+
+               <br /><p>The Ivy UD is a sample plugin that has been developed to serve two purposes. The first purpose is to simply add some extra meta data for users that are logged into the Pentaho Server. The other purpose is to act as a sample for others to create persistent Sparkl applications.</p>
+
+<p>Please remember that this plugin requires the IvyBC Free edition to be installed as a minimum!</p>
+
+<p>For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.</p>
+<p>Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyUD'>GitHub</a></p>
+
+</article>
+
+      ]]>
+    </description>
+    <author>Ivy Information Systems Ltd</author>
+    <author_url>http://www.ivy-is.co.uk/</author_url>
+    <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDE, CDA, CDF, IvyBC Free</dependencies>
+    <installation_notes/>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>15.01.13</version>
+        <name>Stable</name>
+        <package_url>
+		  http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/IvyUD%20User%20Details/0.0.1/IvyUD.zip/download
+        </package_url>
+        <description>15.01.13</description>
+        <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -1208,8 +1284,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse1.png</screenshot>
-      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse2.png</screenshot>
+      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2015/01/ivyud.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -1609,6 +1684,56 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
+        <version>2.4</version>
+        <name>Stable</name>
+        <package_url>http://sourceforge.net/projects/aaar/files/v2.4/AAAR_v2.4.zip/download</package_url>
+        <samples_url/>
+        <description><![CDATA[
+        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
+        <br/>
+        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
+        ]]>
+        </description>
+        <changelog><![CDATA[
+        - Bootstrap restyle for all the installation wizard and dashboards.
+        - Bugfixes.
+        ]]>
+        </changelog>
+        <build_id>1</build_id>
+        <max_parent_version/>
+        <min_parent_version>5.2</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>2.3</version>
+        <name>Stable</name>
+        <package_url>http://sourceforge.net/projects/aaar/files/v2.3/AAAR_v2.3.zip/download</package_url>
+        <samples_url/>
+        <description><![CDATA[
+        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
+        <br/>
+        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
+        ]]>
+        </description>
+        <changelog><![CDATA[
+        - Multiple installations of Alfresco.
+        - Bugfixes.
+        ]]>
+        </changelog>
+        <build_id>1</build_id>
+        <max_parent_version>5.2.99</max_parent_version>
+        <min_parent_version>5.2</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
         <version>2.2</version>
         <name>Stable</name>
         <package_url>http://sourceforge.net/projects/aaar/files/v2.2/AAAR_v2.2.zip/download</package_url>
@@ -1628,7 +1753,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         ]]>
         </changelog>
         <build_id>1</build_id>
-        <max_parent_version/>
+        <max_parent_version>5.2.99</max_parent_version>
         <min_parent_version>5.2</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -1694,9 +1819,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_1.png</screenshot>
-      <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_2.png</screenshot>
-      <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_3.png</screenshot>
+      <screenshot>http://fcorti.com/wp-content/uploads/2015/01/aaar_marketplace_1.jpg</screenshot>
+      <screenshot>http://fcorti.com/wp-content/uploads/2015/01/aaar_marketplace_2.png</screenshot>
+      <screenshot>http://fcorti.com/wp-content/uploads/2015/01/aaar_marketplace_3.jpg</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4371,7 +4496,7 @@ https://www.easydq.com/register
     <versions>
       <version>
         <version>1.2</version>
-        <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMInput.zip</package_url>
+        <package_url>http://downloads.sourceforge.net/project/civicrm-data-integration/1.2/civicrm-data-integration-1.2-bin-input.zip?r=&amp;ts=1421146417&amp;use_mirror=master</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -4380,9 +4505,9 @@ https://www.easydq.com/register
       </version>
     </versions>
     <author>Stratebi and Amnesty International (Spain)</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Input</documentation_url>
+    <documentation_url>http://wiki.civicrm.org/confluence/display/CRM/Introduction+to+Civi+Data+Integration</documentation_url>
     <forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
-    <cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
+    <cases_url>http://wiki.civicrm.org/confluence/display/CRM/Using+CiviCRM+as+a+Backend+for+Web+Content</cases_url>
     <license_name>GPL v3</license_name>
     <license_text>For more details about the GNU General Public License v3.0 see:
       http://www.gnu.org/licenses/gpl-3.0.html</license_text>
@@ -4408,7 +4533,7 @@ https://www.easydq.com/register
     <versions>
       <version>
         <version>1.2</version>
-        <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMOutput.zip</package_url>
+        <package_url>http://downloads.sourceforge.net/project/civicrm-data-integration/1.2/civicrm-data-integration-1.2-bin-input.zip?r=&amp;ts=1421146528&amp;use_mirror=master</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -4417,9 +4542,9 @@ https://www.easydq.com/register
       </version>
     </versions>
     <author>Stratebi and Amnesty International (Spain)</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Output</documentation_url>
+    <documentation_url>http://wiki.civicrm.org/confluence/display/CRM/Introduction+to+Civi+Data+Integration</documentation_url>
     <forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
-    <cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
+    <cases_url>http://wiki.civicrm.org/confluence/display/CRM/Using+CiviCRM+as+a+Backend+for+Web+Content</cases_url>
     <license_name>GPL v3</license_name>
     <license_text>For more details about the GNU General Public License v3.0 see:
       http://www.gnu.org/licenses/gpl-3.0.html</license_text>
@@ -5266,8 +5391,20 @@ https://www.easydq.com/register
     <versions>
       <version>
         <version>1.0</version>
+        <branch>1.0</branch>
         <package_url>
-          https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/raw/master/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip
+          https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/blob/1.0/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip?raw=true
+        </package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <version>1.01</version>
+        <branch>master</branch> 
+        <package_url>
+          https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/blob/master/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip?raw=true
         </package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6030,5 +6167,42 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html
     </license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
+  </market_entry>
+
+  <market_entry>
+    <id>pdi-scriptengine-plugin</id>
+    <type>Step</type>
+    <name>SuperScript</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin is similar to the experimental Script step but offers many more capabilities, such as:
+    - Drop-down UI for selecting the scripting engine
+    - Allows non-compilable JSR-223 scripting (such as AppleScript)
+    - Enables the use of the script's returned value as an output field
+    - Enables use of the script as an input step (doesn't need a trigger)
+    </description>
+    <author>Matt Burgess</author>
+    <documentation_url>https://github.com/mattyb149/pdi-scriptengine-plugin/wiki</documentation_url>
+    <versions>
+      <version>
+        <version>1.0</version>
+        <package_url>https://pentaho.box.com/shared/static/pmxvmkjbsl6cirsyzfwf.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <license_name>Apache 2.0</license_name>
+    <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+    <support_organization>Pentaho Developer Community</support_organization>
+    <support_url>http://kettle.pentaho.com</support_url>
   </market_entry>
 </market>
