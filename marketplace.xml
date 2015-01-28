@@ -6205,4 +6205,39 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
   </market_entry>
+    <market_entry>
+        <id>simple.redis.plugin</id>
+        <type>Mixed</type>
+        <name>Simple redis input and output steps</name>
+        <category>
+            <name>Lookup</name>
+            <parent>
+                <name>PDI Plugins</name>
+            </parent>
+        </category>
+        <description>This bundle contains 2 steps to accessa redis server.
+Included in this plugin is a step to get inputs from a redis server and
+a step which outputs to a redis server. See the documentation for more information.</description>
+        <author>Nicolas Haquet / Linalis</author>
+        <author_url>http://www.linalis.com</author_url>
+        <documentation_url>https://linalis.atlassian.net/wiki/x/AoAFAQ</documentation_url>
+        <license_name>Apache License, Version 2.0</license_name>
+        <license_text>For more details see:
+http://www.apache.org/licenses/LICENSE-2.0</license_text>
+        <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+        <support_message>Support by Linalis. Please call +33 1 53 16 45 19 for further information.</support_message>
+<support_organization>Linalis</support_organization>
+<support_url>http://www.linalis.fr/fr/linalis/contact</support_url>
+        <versions>
+            <version>
+                <version>1.0.0</version>
+                <package_url>https://drive.google.com/uc?export=download&amp;id=0B4rmkV4ykvQaai01c1cyOWRRMUU</package_url>
+<development_stage>
+<lane>Community</lane>
+<phase>3</phase>
+</development_stage>
+            </version>
+        </versions>
+    </market_entry>
+
 </market>
