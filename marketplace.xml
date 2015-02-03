@@ -969,8 +969,8 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
 	 </version>
     </versions>
     <screenshots>
-      <screenshot>https://sourceforge.net/p/pentahoceaudit/screenshot/home.png</screenshot>
-	  <screenshot>https://sourceforge.net/p/pentahoceaudit/screenshot/view.png</screenshot>
+      <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/screen_dashboard-1.png</screenshot>
+	  <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/analysis_one_ok.png</screenshot>
     </screenshots>
   </market_entry>
 
