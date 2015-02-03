@@ -2754,7 +2754,7 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -2836,7 +2836,7 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3000,7 +3000,7 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3081,7 +3081,7 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3164,7 +3164,7 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3331,7 +3331,7 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3415,7 +3415,7 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3502,7 +3502,7 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3587,7 +3587,7 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
