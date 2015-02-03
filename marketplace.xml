@@ -954,17 +954,17 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
 	</installation_notes>
     <versions>
       <version>
-        <branch>TRUNK</branch>
-        <version>2014.11.17</version>
-        <name>TRUNK</name>
+        <branch>STABLE</branch>
+        <version>2015.02.03</version>
+        <name>STABLE</name>
         <package_url>
-          http://sourceforge.net/projects/pentahoceaudit/files/1.0/pentaho-ce-audit-1.0-alpha.zip/download
+          http://sourceforge.net/projects/pentahoceaudit/files/2.0/pentaho-ce-audit-2.0-stable.zip/download
         </package_url>
-        <description>2014.11.17 (TRUNK)</description>
+        <description>2015.02.03 (STABLE)</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
 	 </version>
     </versions>
