@@ -6257,4 +6257,57 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         </versions>
     </market_entry>
 
+  <market_entry>
+    <id>ParquetOutput</id>
+    <type>Step</type>
+    <name>Parquet Output Plugin</name>
+    <category>
+      <name>Big Data</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The Parquet Plugin for Pentaho Data Integration allows you to output Parquet files using Kettle. Parquet files are a columnar oriented file format commonly used in Hadoop. Using Parquet files in Hadoop as opposed to CSV files can produce orders of magnitude compression and query performance improvement.
+
+This Plugin is tightly integrated with Hadoop. It is recommended this plugin only be used when writing to files in HDFS.
+
+Additional installation steps available in the README must be followed in order for this plugin to work.  https://github.com/inquidia/ParquetPlugin/blob/master/README.md/
+    </description>
+    <author>Inquidia Consulting</author>
+    <author_url>http://www.inquidia.com</author_url>
+    <author_logo>http://inquidia.com/sites/default/files/inquidia-web-logo.png</author_logo>
+    <installation_notes>
+Pentaho currently does not provide a mechanism allowing for plugin steps to be dependent on the Pentaho Big Data Plugin shims. Due to this, the following steps must be followed to use this plugin.
+
+1. Copy the following files from the data-integration/plugins/pentaho-big-data-plugin/hadoop-configurations/{environment}/lib/client folder to the data-integration/lib folder.
+  1.1. commons-cli.jar
+  1.2. commons-configuration.jar
+  1.3. hadoop*.jar
+  1.4. protobuf-java.jar
+2. It is recommended you copy your Hadoop configuration files (hdfs-site.xml, core-site.xml, etc.) to the data-integration folder.
+3. Restart PDI
+    </installation_notes>
+    <documentation_url>https://github.com/inquidia/ParquetPlugin/blob/master/README.md/</documentation_url>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>1.0.0</version>
+        <build_id>173</build_id>
+        <name>Version 1.0.0</name>
+        <package_url>https://github.com/inquidia/ParquetPlugin/releases/download/v1.0.0/ParquetPlugin-1.0.0.zip</package_url>
+        <source_url>https://github.com/inquidia/ParquetPlugin</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <cases_url>https://github.com/inquidia/ParquetPlugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+  </market_entry>
+
 </market>
