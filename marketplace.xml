@@ -6270,7 +6270,7 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         </versions>
     </market_entry>
     <market_entry>
-        <id>mondrian.translator</id>
+        <id>localizedmondrian</id>
         <type>Platform</type>
         <name>Mondrian Translator</name>
         <description>Translates a Mondrian schema using dynamic processing</description>
