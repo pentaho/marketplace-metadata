@@ -147,8 +147,8 @@
         <branch>STABLE</branch>
         <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/4.x/pentaho-cdf-14.12.10.1.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/4.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
+        <package_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/4.x/pentaho-cdf-14.12.10.1.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/4.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
         <description>Stable Release</description>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
@@ -181,8 +181,8 @@
         <branch>STABLE</branch>
         <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/5.x/pentaho-cdf-14.12.10.1.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/5.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
+        <package_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/5.x/pentaho-cdf-14.12.10.1.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/5.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
         <description>Stable Release</description>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
@@ -271,8 +271,8 @@
         <branch>STABLE</branch>
         <version>14.12.10</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cda/14.12.10/4.x/cda-14.12.10.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cda/14.12.10/4.x/cda-samples-14.12.10.zip</samples_url>
+        <package_url>http://ctools.pentaho.com/files/cda/14.12.10/4.x/cda-14.12.10.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cda/14.12.10/4.x/cda-samples-14.12.10.zip</samples_url>
         <description>14.12.10 release.</description>
         <build_id/>
         <max_parent_version>4.9</max_parent_version>
@@ -286,8 +286,8 @@
         <branch>STABLE</branch>
         <version>14.12.10</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cda/14.12.10/5.x/cda-14.12.10.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cda/14.12.10/5.x/cda-samples-14.12.10.zip</samples_url>
+        <package_url>http://ctools.pentaho.com/files/cda/14.12.10/5.x/cda-14.12.10.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cda/14.12.10/5.x/cda-samples-14.12.10.zip</samples_url>
         <description>14.12.10 release.</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
@@ -418,8 +418,8 @@
         <branch>STABLE</branch>
         <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/4.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/4.x/pentaho-cdf-dd-solution-14.12.10.1.zip
+        <package_url>http://ctools.pentaho.com/files/cde/14.12.10.1/4.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/14.12.10.1/4.x/pentaho-cdf-dd-solution-14.12.10.1.zip
         </samples_url>
         <description>Release 14.12.10.1</description>
         <build_id/>
@@ -434,8 +434,8 @@
         <branch>STABLE</branch>
         <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/5.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
-        <samples_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/5.x/pentaho-cdf-dd-solution-14.12.10.1.zip
+        <package_url>http://ctools.pentaho.com/files/cde/14.12.10.1/5.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/14.12.10.1/5.x/pentaho-cdf-dd-solution-14.12.10.1.zip
         </samples_url>
         <description>Release 14.12.10.1</description>
         <build_id/>
@@ -546,7 +546,7 @@
         <branch>STABLE</branch>
         <version>14.12.10</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cgg/14.12.10/4.x/cgg-14.12.10.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/cgg/14.12.10/4.x/cgg-14.12.10.zip</package_url>
         <description>14.12.10 release.</description>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
@@ -561,7 +561,7 @@
         <branch>STABLE</branch>
         <version>14.12.10</version>
         <name>Stable</name>
-        <package_url>http://www.webdetails.pt/ficheiros/cgg/14.12.10/5.x/cgg-14.12.10.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/cgg/14.12.10/5.x/cgg-14.12.10.zip</package_url>
         <description>14.12.10 release.</description>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
@@ -1883,7 +1883,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.12.10</version>
         <name>Latest Release</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/repositorySynchronizer/14.12.10/repositorySynchronizer-14.12.10.zip
+         http://ctools.pentaho.com/files/repositorySynchronizer/14.12.10/repositorySynchronizer-14.12.10.zip
         </package_url>
         <samples_url/>
         <description>14.12.10 release.</description>
@@ -2007,7 +2007,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.10.15</version>
         <name>Stable</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/cdv/14.10.15/4.x/cdv-pentaho-14.10.15.zip
+          http://ctools.pentaho.com/files/ficheiros/cdv/14.10.15/4.x/cdv-pentaho-14.10.15.zip
         </package_url>
         <description>14.10.15 release</description>
         <build_id/>
@@ -2093,7 +2093,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.12.10</version>
         <name>Stable</name>
         <package_url>
-         http://www.webdetails.pt/ficheiros/cdc/14.12.10/4.x/cdc-14.12.10.zip
+         http://ctools.pentaho.com/files/cdc/14.12.10/4.x/cdc-14.12.10.zip
         </package_url>
         <description>14.12.10 release.</description>
         <build_id/>
@@ -2109,7 +2109,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.12.10</version>
         <name>Stable</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/cdc/14.12.10/5.x/cdc-14.12.10.zip
+          http://ctools.pentaho.com/files/cdc/14.12.10/5.x/cdc-14.12.10.zip
         </package_url>
         <description>14.12.10 release.</description>
         <build_id/>
@@ -2262,7 +2262,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.12.10</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/startupRuleEngine/14.12.10/startupRuleEngine-14.12.10.zip
+          http://ctools.pentaho.com/files/startupRuleEngine/14.12.10/startupRuleEngine-14.12.10.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2317,7 +2317,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <version>14.12.10.1</version>
         <name>Stable</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/cst/14.12.10.1/cst-14.12.10.1.zip
+          http://ctools.pentaho.com/files/cst/14.12.10.1/cst-14.12.10.1.zip
         </package_url>
         <description>Stable Release</description>
         <build_id/>
@@ -2746,7 +2746,7 @@ any translation issues or suggestions for improvement
         <version>0.5.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_ca-RELEASE-0.5.2.zip
+          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_ca-RELEASE-0.5.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2764,7 +2764,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_ca-14.12.16.zip
+          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_ca-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2828,7 +2828,7 @@ any translation issues or suggestions for improvement
         <version>0.7.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_nl-RELEASE-0.7.2.zip
+          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_nl-RELEASE-0.7.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2846,7 +2846,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_nl-14.12.16.zip
+         http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_nl-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2910,7 +2910,7 @@ any translation issues or suggestions for improvement
         <version>0.6.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_fr-RELEASE-0.6.2.zip
+         http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_fr-RELEASE-0.6.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2928,7 +2928,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_fr-14.12.16.zip
+          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_fr-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2992,7 +2992,7 @@ any translation issues or suggestions for improvement
         <version>0.7.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_de-RELEASE-0.7.2.zip
+          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_de-RELEASE-0.7.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3010,7 +3010,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_de-14.12.16.zip
+          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_de-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3073,7 +3073,7 @@ any translation issues or suggestions for improvement
         <version>0.6.3</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_hi-RELEASE-0.6.3.zip
+          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_hi-RELEASE-0.6.3.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3091,7 +3091,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_hi-14.12.16.zip
+          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_hi-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3156,7 +3156,7 @@ any translation issues or suggestions for improvement
         <version>0.5.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_it-RELEASE-0.5.2.zip
+          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_it-RELEASE-0.5.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3174,7 +3174,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_it-14.12.16.zip
+          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_it-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3240,7 +3240,7 @@ any translation issues or suggestions for improvement
         <version>0.7</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_ja-RELEASE-0.7.zip
+          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_ja-RELEASE-0.7.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3258,7 +3258,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_ja-14.12.16.zip
+          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_ja-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3323,7 +3323,7 @@ any translation issues or suggestions for improvement
         <version>0.7</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_ko-RELEASE-0.7.zip
+         http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_ko-RELEASE-0.7.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3341,7 +3341,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_ko-14.12.16.zip
+         http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_ko-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3407,7 +3407,7 @@ any translation issues or suggestions for improvement
         <version>0.7.3</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_pt_BR-RELEASE-0.7.3.zip
+          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_pt_BR-RELEASE-0.7.3.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3425,7 +3425,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_pt_BR-14.12.16.zip
+          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_pt_BR-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3494,7 +3494,7 @@ any translation issues or suggestions for improvement
         <version>0.5.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_pt_PT-RELEASE-0.5.2.zip
+          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_pt_PT-RELEASE-0.5.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3512,7 +3512,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_pt_PT-14.12.16.zip
+          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_pt_PT-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3579,7 +3579,7 @@ any translation issues or suggestions for improvement
         <version>0.7.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_es-RELEASE-0.7.2.zip
+          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_es-RELEASE-0.7.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3597,7 +3597,7 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_es-14.12.16.zip
+          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_es-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3648,7 +3648,7 @@ any translation issues or suggestions for improvement
         <branch>RELEASE</branch>
         <version>1.0</version>
         <name>Release</name>
-        <package_url>http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/pentaho-emerald-theme-1.0.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-emerald-theme/pentaho-emerald-theme-1.0.zip</package_url>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
@@ -3662,16 +3662,16 @@ any translation issues or suggestions for improvement
     </versions>
     <screenshots>
       <screenshot>
-        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-01.png
+        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-01.png
       </screenshot>
       <screenshot>
-        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-02.png
+        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-02.png
       </screenshot>
       <screenshot>
-        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-03.png
+        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-03.png
       </screenshot>
       <screenshot>
-        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-04.png
+        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-04.png
       </screenshot>
     </screenshots>
   </market_entry>
