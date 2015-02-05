@@ -81,7 +81,7 @@
         <branch>TRUNK</branch>
         <version>TRUNK-SNAPSHOT</version>
         <build_id>49</build_id>
-        <name>Latest snapshot build</name>
+        <name>Build for Pentaho 5.0</name>
         <package_url>
           http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/marketplace/5.1.0.0-752/marketplace-5.1.0.0-752.zip
         </package_url>
@@ -96,19 +96,32 @@
       <version>
         <branch>TRUNK</branch>
         <version>TRUNK-SNAPSHOT</version>
-        <build_id>56</build_id>
-        <name>Latest snapshot build</name>
-        <package_url>
-          http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-TRUNK-SNAPSHOT.zip
-        </package_url>
+        <name>Build for Pentaho 5.2</name>
+        <package_url>http://ci.pentaho.com/job/marketplace/77/artifact/dist/marketplace-TRUNK-SNAPSHOT.zip</package_url>
         <description>Build for Pentaho 5.2</description>
+        <build_id>77</build_id>
+        <min_parent_version>5.2</min_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
         </development_stage>
-        <min_parent_version>5.2</min_parent_version>
       </version>
-    </versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <name>Latest snapshot build</name>
+        <package_url>http://repository.pentaho.org/artifactory/pentaho/pentaho/marketplace/TRUNK-SNAPSHOT/marketplace-TRUNK-SNAPSHOT.zip</package_url>
+        <description>Build for Pentaho 5.3</description>
+        <build_id>80</build_id>
+        <min_parent_version>5.3</min_parent_version>
+        <max_parent_version>6.0</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>    
+      </versions>
     <screenshots>
       <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png</screenshot>
       <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png</screenshot>
