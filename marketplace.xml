@@ -986,6 +986,81 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
 	  <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/analysis_one_ok.png</screenshot>
     </screenshots>
   </market_entry>
+  
+  <market_entry>
+    <id>pentaho-performance-monitoring</id>
+    <type>Platform</type>
+    <img>
+      http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
+    </img>
+    <small_img>
+      http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
+    </small_img>
+    <name>Pentaho Performance Monitoring</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/it4biz/pentaho-performance-monitoring/</documentation_url>
+    <description>
+      <![CDATA[
+               <h3><b>What is Pentaho Performance Monitoring Plugin?</b></h3> 
+
+<p>It is an open source project that helps Pentaho BI Admin users to visualize statistics like:</p>
+
+<ul>
+    <li>Top MDX and SQL queries executed by the Pentaho BA Server</li>
+    <li>When do the BI users most use the BI Portal?</li>
+    <li>What are the queries with more executions?</li>
+    <li>And a lot of others infos about the queries executed in the BI Portal.</li>
+</ul>
+
+<p color="red"> This plug-in will apply automatically an Environment configuration, if you want to know more about it please visit 
+the link <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performance-monitoring#learn-more'>Github documentation.</a>
+</p>
+
+<p>For more information <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performance-monitoring/'>visit our site</a>.</p>
+
+<p>Having trouble with this project? Feel free to send us an e-mail at <a href="mailto:info@it4biz.com.br?Subject=PentahoPerformanceMonitoring" target="_top">info@it4biz.com.br</a> or <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performance-monitoring/issues'>create a issue</a>.<p>
+]]>
+    </description>
+    <author>IT4biz</author>
+    <author_url>http://it4biz.com.br</author_url>
+    <author_logo>http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png</author_logo>
+    <license>ASL 2.0</license>
+    <dependencies>CDF, CDA, CDE</dependencies>
+    <installation_notes>
+      <![CDATA[You can run the Pentaho Performance Monitoring Installer as an administrator from the Tools menu. The installer will make some Environment configurations, requiring a reboot in the end.  <br /><br />
+
+Please note that if you upgrade Pentaho Performance Monitoring, you will need to run the Pentaho Performance Monitoring Installer again. <br /><br/>
+
+It is mandatory to click on the "Refresh Button" on the Pentaho Performance Monitoring Admin Screen to get the most updated data.
+
+      ]]>
+    </installation_notes>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>2015.02.04</version>
+        <name>Stable</name>
+        <package_url>
+          http://sourceforge.net/projects/pentaho-performance-monitoring/files/1.0/pentaho-performance-monitoring-1.0-stable.zip/download
+        </package_url>
+        <description>2015.02.04 (STABLE)</description>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+     </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/screen_dashboard-1.png</screenshot>
+      <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/analysis_one_ok.png</screenshot>
+    </screenshots>
+ </market_entry>
 
 
   <market_entry>
