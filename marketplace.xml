@@ -901,7 +901,7 @@
 				<build_id>20141119</build_id>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
 			</version>         
 		</versions>
@@ -1042,17 +1042,17 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
     </installation_notes>
     <versions>
       <version>
-        <branch>STABLE</branch>
+        <branch>TRUNK</branch>
         <version>2015.02.06</version>
-        <name>Stable</name>
+        <name>TRUNK</name>
         <package_url>
-          http://sourceforge.net/projects/pentaho-performance-monitoring/files/1.0/pentaho-performance-monitoring-1.0-stable.zip/download
+          http://sourceforge.net/projects/pentaho-performance-monitoring/files/1.0/pentaho-performance-monitoring-2015.02.06-TRUNK.zip/download
         </package_url>
-        <description>2015.02.06 (STABLE)</description>
+        <description>2015.02.06 (TRUNK)</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>3</phase>
+          <phase>1</phase>
         </development_stage>
      </version>
     </versions>
