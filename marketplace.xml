@@ -1006,15 +1006,15 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
     <documentation_url>https://github.com/it4biz/pentaho-performance-monitoring/</documentation_url>
     <description>
       <![CDATA[
-               <h3><b>What is Pentaho Performance Monitoring Plugin?</b></h3> 
-
-<p>It is an open source project that helps Pentaho BI Admin users to visualize statistics like:</p>
-
+               <h3><b>Pentaho Performance Monitoring Plugin</b></h3> 
+               
+<p>The plugin is an open source project that helps Pentaho BI Administrators visualize performance statistics.</p>
+<p>Examples include:</p>
 <ul>
-    <li>Top MDX and SQL queries executed by the Pentaho BA Server</li>
-    <li>When do the BI users most use the BI Portal?</li>
-    <li>What are the queries with more executions?</li>
-    <li>And a lot of others infos about the queries executed in the BI Portal.</li>
+    <li>The most frequently run MDX and SQL queries</li>
+    <li>Showing who uses the BI Portal most often</li>
+    <li>Measures for which queries take the longest time to execute</li>
+    <li>Many other statistics are captures and available as well as the examples above.</li>
 </ul>
 
 <p color="red"> This plug-in will apply automatically an Environment configuration, if you want to know more about it please visit 
