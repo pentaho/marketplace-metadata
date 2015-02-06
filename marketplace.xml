@@ -1043,12 +1043,12 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>2015.02.04</version>
+        <version>2015.02.06</version>
         <name>Stable</name>
         <package_url>
           http://sourceforge.net/projects/pentaho-performance-monitoring/files/1.0/pentaho-performance-monitoring-1.0-stable.zip/download
         </package_url>
-        <description>2015.02.04 (STABLE)</description>
+        <description>2015.02.06 (STABLE)</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
