@@ -1043,12 +1043,12 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
     <versions>
       <version>
         <branch>TRUNK</branch>
-        <version>2015.02.06</version>
+        <version>2015.02.09</version>
         <name>TRUNK</name>
         <package_url>
           http://sourceforge.net/projects/pentaho-performance-monitoring/files/1.0/pentaho-performance-monitoring-2015.02.06-TRUNK.zip/download
         </package_url>
-        <description>2015.02.06 (TRUNK)</description>
+        <description>2015.02.09 (TRUNK)</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
