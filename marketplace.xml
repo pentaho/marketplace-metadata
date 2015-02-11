@@ -219,7 +219,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>184</build_id>
+        <build_id>185</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -240,7 +240,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>570</build_id>
+        <build_id>571</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -474,7 +474,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>70</build_id>
+        <build_id>71</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -493,10 +493,10 @@
           http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip
         </samples_url>
         <description>
-          Build for Pentaho 5.0
+          Build for Pentaho 5.x
         </description>
-        <build_id>376</build_id>
-        <min_parent_version>5.0</min_parent_version>
+        <build_id>377</build_id>
+        <min_parent_version>5.1</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
