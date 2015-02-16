@@ -799,9 +799,9 @@
 	</version>
       <version>
         <branch>STABLE</branch>
-        <version>3.0.9.8</version>
+        <version>3.0.9.9</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.9.8.zip</package_url>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.9.9.zip</package_url>
         <description>3.0.9 release for the Saiku Plugin - Improved filtering, drill across, measures menu, fixed exports</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
