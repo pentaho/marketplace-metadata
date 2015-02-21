@@ -219,7 +219,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>189</build_id>
+        <build_id>190</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -240,7 +240,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>576</build_id>
+        <build_id>577</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
