@@ -6421,5 +6421,37 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
     </license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
+  
+  <market_entry>
+     <id>EssbaseSpoonPlugin</id>
+     <type>SpoonPlugin</type>
+     <name>PDI Essbase Plugin</name>
+     <category>
+       <name>EssBase</name>
+       <parent>
+         <name>PDI Plugins</name>
+       </parent>
+     </category>
+     <description>This plugin (for PDI 5.2+) allows to connect to Essbase server, load data to cubes and read data through MDX queries.</description>
+     <author>Benoit COLAS</author> 
+     <forum_url>http://forums.pentaho.com/showthread.php?169809-Oracle-Essbase-Plugin-Development</forum_url>
+     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+     <license_name>Apache License 2.0</license_name>
+     <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+     <support_level>COMMUNITY_SUPPORTED</support_level>
+     <support_message>Supported by a community of volunteers</support_message>
+     <support_organization>none</support_organization>
+     <support_url>https://github.com/bcolas/PDIEssbasePlugin/wiki</support_url>
+     <versions>
+        <version>
+         <branch>master</branch>
+         <version>1.0</version>
+         <name>1.0</name>
+         <package_url>https://github.com/bcolas/PDIEssbasePlugin/blob/5.2/dist/kettle-essbase-plugin-5.2.zip</package_url>
+         <source_url>https://github.com/bcolas/PDIEssbasePlugin</source_url>
+         <min_parent_version>5.2</min_parent_version>
+       </version>
+     </versions>
+   </market_entry>
 
 </market>
