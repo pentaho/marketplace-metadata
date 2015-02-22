@@ -6447,7 +6447,7 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
          <branch>master</branch>
          <version>1.0</version>
          <name>1.0</name>
-         <package_url>https://github.com/bcolas/PDIEssbasePlugin/blob/5.2/dist/kettle-essbase-plugin-5.2.zip</package_url>
+         <package_url>https://github.com/bcolas/PDIEssbasePlugin/releases/download/1.0/kettle-essbase-plugin-5.2.zip</package_url>
          <source_url>https://github.com/bcolas/PDIEssbasePlugin</source_url>
          <min_parent_version>5.2</min_parent_version>
        </version>
