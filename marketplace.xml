@@ -2981,10 +2981,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <versions>
       <version>
         <branch>release</branch>
-        <version>0.2.0</version>
+        <version>0.3.2</version>
         <name>Release</name>
         <package_url>https://dl.dropboxusercontent.com/s/o4mjewg98ntcpfs/bissolTableDataEditor.zip</package_url>
-        <description>Release 0.2.0</description>
+        <description>Release 0.3.2</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
