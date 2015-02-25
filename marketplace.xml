@@ -4833,6 +4833,19 @@ https://www.easydq.com/register
     <versions>
       <version>
         <branch>TRUNK</branch>
+        <version>1.1.0</version>
+        <build_id>23</build_id>
+        <name>Version 1.1.0 (Stable)</name>
+        <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.1.0/TDEOutputPlugin.zip
+        </package_url>
+        <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
         <version>1.0.2</version>
         <build_id/>
         <name>Version 1.0.2</name>
