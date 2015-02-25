@@ -5886,9 +5886,17 @@ https://www.easydq.com/register
     <versions>
       <version>
         <branch>trunk</branch>
+        <version>2.1.2</version>
+        <build_id>139</build_id>
+        <name>Version 2.1.2 (Stable)</name>
+        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.2/AvroOutputPlugin.zip</package_url>
+        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
+      </version>
+      <version>
+        <branch>trunk</branch>
         <version>2.1.1</version>
         <build_id>135</build_id>
-        <name>Version 2.1.1 (Stable)</name>
+        <name>Version 2.1.1</name>
         <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.1/AvroOutputPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
       </version>
