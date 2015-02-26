@@ -347,7 +347,7 @@
       <version>
         <branch>5.3</branch>
         <version>5.3.0.0-213</version>
-        <name>5.2</name>
+        <name>5.3</name>
         <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cda/5.3.0.0-213/cda-5.3.0.0-213.zip</package_url>
         <samples_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cda-samples/5.3.0.0-213/cda-samples-5.3.0.0-213.zip</samples_url>
         <description>5.3 platform release.</description>
@@ -461,9 +461,9 @@
       <version>
         <branch>5.3</branch>
         <version>5.3.0.0-213</version>
-        <name>5.2</name>
+        <name>5.3</name>
         <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-dd/5.3.0.0-213/pentaho-cdf-dd-5.3.0.0-213.zip</package_url>
-        <samples_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-dd-solution/5.3.0.0-213/pentaho-cdf-dd-solution-5.2.0.0-213.zip
+        <samples_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-dd-solution/5.3.0.0-213/pentaho-cdf-dd-solution-5.3.0.0-213.zip
         </samples_url>
         <description>5.3 Platform Release</description>
         <build_id/>
