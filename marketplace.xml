@@ -234,7 +234,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>194</build_id>
+        <build_id>195</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -255,7 +255,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>582</build_id>
+        <build_id>583</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -375,7 +375,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>176</build_id>
+        <build_id>177</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -396,7 +396,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>268</build_id>
+        <build_id>269</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -546,7 +546,7 @@
         <description>
           Build for Pentaho 5.x
         </description>
-        <build_id>377</build_id>
+        <build_id>388</build_id>
         <min_parent_version>5.1</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -2208,7 +2208,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>85</build_id>
+        <build_id>87</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -2226,7 +2226,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Build for Pentaho 5.x
         </description>
-        <build_id>65</build_id>
+        <build_id>68</build_id>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
@@ -2374,7 +2374,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>98</build_id>
+        <build_id>99</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -2392,7 +2392,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>66</build_id>
+        <build_id>67</build_id>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version/>
         <development_stage>
