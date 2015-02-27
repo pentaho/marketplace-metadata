@@ -81,7 +81,7 @@
         <branch>TRUNK</branch>
         <version>TRUNK-SNAPSHOT</version>
         <build_id>49</build_id>
-        <name>Build for Pentaho 5.0</name>
+        <name>Latest snapshot build</name>
         <package_url>
           http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/marketplace/5.1.0.0-752/marketplace-5.1.0.0-752.zip
         </package_url>
@@ -96,38 +96,30 @@
       <version>
         <branch>TRUNK</branch>
         <version>TRUNK-SNAPSHOT</version>
-        <name>Build for Pentaho 5.2</name>
-        <package_url>http://ci.pentaho.com/job/marketplace/77/artifact/dist/marketplace-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Build for Pentaho 5.2</description>
-        <build_id>77</build_id>
-        <min_parent_version>5.2</min_parent_version>
-        <max_parent_version>5.2.99</max_parent_version>
-        <development_stage>
-          <lane>Customer</lane>
-          <phase>2</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
+        <build_id>56</build_id>
         <name>Latest snapshot build</name>
-        <package_url>http://repository.pentaho.org/artifactory/pentaho/pentaho/marketplace/TRUNK-SNAPSHOT/marketplace-TRUNK-SNAPSHOT.zip</package_url>
-        <description>Build for Pentaho 5.3</description>
-        <build_id>80</build_id>
-        <min_parent_version>5.3</min_parent_version>
-        <max_parent_version>6.0</max_parent_version>
+        <package_url>
+          http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-TRUNK-SNAPSHOT.zip
+        </package_url>
+        <description>Build for Pentaho 5.2</description>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
         </development_stage>
-      </version>    
-      </versions>
+        <min_parent_version>5.2</min_parent_version>
+      </version>
+    </versions>
     <screenshots>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png</screenshot>
+      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png
+      </screenshot>
+      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png
+      </screenshot>
+      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png
+      </screenshot>
+      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png
+      </screenshot>
+      <screenshot>https://raw2.github.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png
+      </screenshot>
     </screenshots>
   </market_entry>
 
@@ -160,8 +152,8 @@
         <branch>STABLE</branch>
         <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/4.x/pentaho-cdf-14.12.10.1.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/4.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
+        <package_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/4.x/pentaho-cdf-14.12.10.1.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/4.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
         <description>Stable Release</description>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
@@ -188,29 +180,14 @@
         <build_id/>
       </version>
       
-      <version>
-        <branch>5.3</branch>
-        <version>5.3.0.0-213</version>
-        <name>5.3</name>
-        <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf/5.3.0.0-213/pentaho-cdf-5.3.0.0-213.zip</package_url>
-        <samples_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-samples/5.3.0.0-213/pentaho-cdf-samples-5.3.0.0-213.zip</samples_url>
-        <description>5.3 Platform Release</description>
-        <min_parent_version>5.3</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
-        <development_stage>
-          <lane>Customer</lane>
-          <phase>4</phase>
-        </development_stage>
-        <build_id/>
-      </version>
       
       
       <version>
         <branch>STABLE</branch>
         <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/5.x/pentaho-cdf-14.12.10.1.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cdf/14.12.10.1/5.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
+        <package_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/5.x/pentaho-cdf-14.12.10.1.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cdf/14.12.10.1/5.x/pentaho-cdf-samples-14.12.10.1.zip</samples_url>
         <description>Stable Release</description>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
@@ -234,7 +211,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>195</build_id>
+        <build_id>178</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -255,7 +232,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>583</build_id>
+        <build_id>561</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -299,8 +276,8 @@
         <branch>STABLE</branch>
         <version>14.12.10</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cda/14.12.10/4.x/cda-14.12.10.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cda/14.12.10/4.x/cda-samples-14.12.10.zip</samples_url>
+        <package_url>http://www.webdetails.pt/ficheiros/cda/14.12.10/4.x/cda-14.12.10.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cda/14.12.10/4.x/cda-samples-14.12.10.zip</samples_url>
         <description>14.12.10 release.</description>
         <build_id/>
         <max_parent_version>4.9</max_parent_version>
@@ -314,8 +291,8 @@
         <branch>STABLE</branch>
         <version>14.12.10</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cda/14.12.10/5.x/cda-14.12.10.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cda/14.12.10/5.x/cda-samples-14.12.10.zip</samples_url>
+        <package_url>http://www.webdetails.pt/ficheiros/cda/14.12.10/5.x/cda-14.12.10.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cda/14.12.10/5.x/cda-samples-14.12.10.zip</samples_url>
         <description>14.12.10 release.</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
@@ -344,23 +321,6 @@
       </version>
 
 
-      <version>
-        <branch>5.3</branch>
-        <version>5.3.0.0-213</version>
-        <name>5.3</name>
-        <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cda/5.3.0.0-213/cda-5.3.0.0-213.zip</package_url>
-        <samples_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cda-samples/5.3.0.0-213/cda-samples-5.3.0.0-213.zip</samples_url>
-        <description>5.3 platform release.</description>
-        <build_id/>
-        <min_parent_version>5.3</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
-        <development_stage>
-          <lane>Customer</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-
-
 
       <version>
         <branch>TRUNK</branch>
@@ -375,7 +335,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>177</build_id>
+        <build_id>168</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -396,7 +356,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>269</build_id>
+        <build_id>260</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -456,25 +416,6 @@
           <phase>3</phase>
         </development_stage>
       </version>
-
-
-      <version>
-        <branch>5.3</branch>
-        <version>5.3.0.0-213</version>
-        <name>5.3</name>
-        <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-dd/5.3.0.0-213/pentaho-cdf-dd-5.3.0.0-213.zip</package_url>
-        <samples_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-dd-solution/5.3.0.0-213/pentaho-cdf-dd-solution-5.3.0.0-213.zip
-        </samples_url>
-        <description>5.3 Platform Release</description>
-        <build_id/>
-        <min_parent_version>5.3</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
-        <development_stage>
-          <lane>Customer</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-
     
     
     
@@ -482,8 +423,8 @@
         <branch>STABLE</branch>
         <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cde/14.12.10.1/4.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cde/14.12.10.1/4.x/pentaho-cdf-dd-solution-14.12.10.1.zip
+        <package_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/4.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/4.x/pentaho-cdf-dd-solution-14.12.10.1.zip
         </samples_url>
         <description>Release 14.12.10.1</description>
         <build_id/>
@@ -498,8 +439,8 @@
         <branch>STABLE</branch>
         <version>14.12.10.1</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cde/14.12.10.1/5.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cde/14.12.10.1/5.x/pentaho-cdf-dd-solution-14.12.10.1.zip
+        <package_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/5.x/pentaho-cdf-dd-14.12.10.1.zip</package_url>
+        <samples_url>http://www.webdetails.pt/ficheiros/cde/14.12.10.1/5.x/pentaho-cdf-dd-solution-14.12.10.1.zip
         </samples_url>
         <description>Release 14.12.10.1</description>
         <build_id/>
@@ -525,7 +466,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>79</build_id>
+        <build_id>59</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -544,10 +485,10 @@
           http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-TRUNK-SNAPSHOT.zip
         </samples_url>
         <description>
-          Build for Pentaho 5.x
+          Build for Pentaho 5.0
         </description>
-        <build_id>388</build_id>
-        <min_parent_version>5.1</min_parent_version>
+        <build_id>365</build_id>
+        <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -604,30 +545,13 @@
         </development_stage>        
         <build_id/>
       </version>
-
-      <version>
-        <branch>5.3</branch>
-        <version>5.3.0.0-213</version>
-        <name>5.3</name>
-        <package_url>http://public.nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cgg/5.3.0.0-213/cgg-5.3.0.0-213.zip</package_url>
-        <description>5.3 Platform release.</description>
-        <max_parent_version>5.3.99</max_parent_version>
-        <min_parent_version>5.3</min_parent_version>
-        <development_stage>
-          <lane>Customer</lane>
-          <phase>4</phase>
-        </development_stage>        
-        <build_id/>
-      </version>
-
-
     
     
       <version>
         <branch>STABLE</branch>
         <version>14.12.10</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cgg/14.12.10/4.x/cgg-14.12.10.zip</package_url>
+        <package_url>http://www.webdetails.pt/ficheiros/cgg/14.12.10/4.x/cgg-14.12.10.zip</package_url>
         <description>14.12.10 release.</description>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
@@ -642,7 +566,7 @@
         <branch>STABLE</branch>
         <version>14.12.10</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cgg/14.12.10/5.x/cgg-14.12.10.zip</package_url>
+        <package_url>http://www.webdetails.pt/ficheiros/cgg/14.12.10/5.x/cgg-14.12.10.zip</package_url>
         <description>14.12.10 release.</description>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
@@ -663,7 +587,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>68</build_id>
+        <build_id>62</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -681,7 +605,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>47</build_id>
+        <build_id>41</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -852,10 +776,10 @@
     <versions>
     	<version>
 		<branch>ENTERPRISE</branch>
-		<version>3.0.9.13-EE</version>
+		<version>3.0.8-EE</version>
 		<name>Stable</name>
-		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.0.9.13.zip</package_url>
-		<description>3.0.9 Enterprise Release for Pentaho BI Server. Enhanced Charting and Date Filters, UI enhancements and Support.
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.0.8.zip</package_url>
+		<description>3.0.8 Enterprise Release for Pentaho BI Server. Enhanced Charting and Date Filters, UI tweaks and Support.
 			For more information contact info@meteorite.bi.
 		</description>
 		<max_parent_version>6.0</max_parent_version>
@@ -867,10 +791,10 @@
 	</version>
       <version>
         <branch>STABLE</branch>
-        <version>3.0.9.9</version>
+        <version>3.0.8</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.9.9.zip</package_url>
-        <description>3.0.9 release for the Saiku Plugin - Improved filtering, drill across, measures menu, fixed exports</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.8.zip</package_url>
+        <description>3.0.8 release for the Saiku Plugin - Fixed Filter Dialog and added Chart Export</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
           <development_stage>
@@ -889,7 +813,7 @@
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
       </version>-->
-      <version>
+      <!--<version>
         <branch>DEPRECIATED</branch>
         <version>2.6</version>
         <name>Stable</name>
@@ -900,7 +824,7 @@
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
-      </version>
+      </version>-->
       <!--<version>
         <branch>TRUNK</branch>
         <version>2.6-PENTAHO5-SNAPSHOT</version>
@@ -969,7 +893,7 @@
 				<build_id>20141119</build_id>
         <development_stage>
           <lane>Community</lane>
-          <phase>3</phase>
+          <phase>2</phase>
         </development_stage>
 			</version>         
 		</versions>
@@ -1035,106 +959,31 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
 	</installation_notes>
     <versions>
       <version>
-        <branch>STABLE</branch>
-        <version>2015.02.03</version>
-        <name>Stable</name>
+        <branch>TRUNK</branch>
+        <version>2014.11.17</version>
+        <name>TRUNK</name>
         <package_url>
-          http://sourceforge.net/projects/pentahoceaudit/files/2.0/pentaho-ce-audit-2.0-stable.zip/download
+          http://sourceforge.net/projects/pentahoceaudit/files/1.0/pentaho-ce-audit-1.0-alpha.zip/download
         </package_url>
-        <description>2015.02.03 (STABLE)</description>
+        <description>2014.11.17 (TRUNK)</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>3</phase>
+          <phase>2</phase>
         </development_stage>
 	 </version>
     </versions>
     <screenshots>
-      <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/screen_dashboard-1.png</screenshot>
-	  <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/analysis_one_ok.png</screenshot>
+      <screenshot>https://sourceforge.net/p/pentahoceaudit/screenshot/home.png</screenshot>
+	  <screenshot>https://sourceforge.net/p/pentahoceaudit/screenshot/view.png</screenshot>
     </screenshots>
   </market_entry>
-  
-  <market_entry>
-    <id>pentaho-performance-monitoring</id>
-    <type>Platform</type>
-    <img>
-      http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
-    </img>
-    <small_img>
-      http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
-    </small_img>
-    <name>Pentaho Performance Monitoring</name>
-    <category>
-      <name>Admin</name>
-      <parent>
-        <name>Apps</name>
-      </parent>
-    </category>
-    <documentation_url>https://github.com/it4biz/pentaho-performance-monitoring/</documentation_url>
-    <description>
-      <![CDATA[
-               <h3><b>Pentaho Performance Monitoring Plugin</b></h3> 
-               
-<p>The plugin is an open source project that helps Pentaho BI Administrators visualize performance statistics.</p>
-<p>Examples include:</p>
-<ul>
-    <li>The most frequently run MDX and SQL queries</li>
-    <li>Showing who uses the BI Portal most often</li>
-    <li>Measures for which queries take the longest time to execute</li>
-    <li>Many other statistics are captures and available as well as the examples above.</li>
-</ul>
-
-<p color="red"> This plug-in will apply automatically an Environment configuration, if you want to know more about it please visit 
-the link <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performance-monitoring#learn-more'>Github documentation.</a>
-</p>
-
-<p>For more information <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performance-monitoring/'>visit our site</a>.</p>
-
-<p>Having trouble with this project? Feel free to send us an e-mail at <a href="mailto:info@it4biz.com.br?Subject=PentahoPerformanceMonitoring" target="_top">info@it4biz.com.br</a> or <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performance-monitoring/issues'>create a issue</a>.<p>
-]]>
-    </description>
-    <author>IT4biz</author>
-    <author_url>http://it4biz.com.br</author_url>
-    <author_logo>http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png</author_logo>
-    <license>ASL 2.0</license>
-    <dependencies>CDF, CDA, CDE</dependencies>
-    <installation_notes>
-      <![CDATA[You can run the Pentaho Performance Monitoring Installer as an administrator from the Tools menu. The installer will make some Environment configurations, requiring a reboot in the end.  <br /><br />
-
-Please note that if you upgrade Pentaho Performance Monitoring, you will need to run the Pentaho Performance Monitoring Installer again. <br /><br/>
-
-It is mandatory to click on the "Refresh Button" on the Pentaho Performance Monitoring Admin Screen to get the most updated data.
-
-      ]]>
-    </installation_notes>
-    <versions>
-      <version>
-        <branch>TRUNK</branch>
-        <version>2015.02.09</version>
-        <name>TRUNK</name>
-        <package_url>
-          http://sourceforge.net/projects/pentaho-performance-monitoring/files/1.0/pentaho-performance-monitoring-2015.02.06-TRUNK.zip/download
-        </package_url>
-        <description>2015.02.09 (TRUNK)</description>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>1</phase>
-        </development_stage>
-     </version>
-    </versions>
-    <screenshots>
-      <screenshot>https://a.fsdn.com/con/app/proj/pentaho-performance-monitoring/screenshots/dashboard_screen-4.png</screenshot>
-      <screenshot>https://a.fsdn.com/con/app/proj/pentaho-performance-monitoring/screenshots/dashboard_screen2.png</screenshot>
-    </screenshots>
- </market_entry>
 
 
   <market_entry>
     <id>IvyBC</id>
     <type>Platform</type>
-    <img>http://ivy-is.co.uk/images/logos/ivybc-small-short.png</img>
+    <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_short.png</img>
     <small_img/>
     <name>IvyBC - Ivy Bootstrap Components (Free)</name>
     <category>
@@ -1147,7 +996,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
     <description>
       <![CDATA[
                <article>
-               <img src="http://ivy-is.co.uk/images/logos/ivybc-small-full.png" />
+               <img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_long.png" />
 
                <center><img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_components1.png" /></center>
 
@@ -1158,7 +1007,6 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
 <h2>Included Bootstrap Components - Free</h2>
 
 <ul>
-<li>Bootstrap Input <b>New</b></li>
 <li>Bootstrap Panel</li>
 <li>Bootstrap Button</li>
 <li>Bootstrap Checkbox</li>
@@ -1203,12 +1051,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>1.0.4 (free version)</version>
+        <version>1.0.1 (free version)</version>
         <name>Stable</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.4%20%28free%20version%29/IvyBC.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.1%20%28free%20version%29/IvyBC.zip/download
         </package_url>
-        <description>1.0.4 (free version)</description>
+        <description>1.0.1 (free version)</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
@@ -1227,7 +1075,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>IvyDD</id>
     <type>Platform</type>
-    <img>http://ivy-is.co.uk/images/logos/ivydd-small-short.png</img>
+    <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydd_short.png</img>
     <small_img/>
     <name>IvyDD - Ivy Dashboard Designer</name>
     <category>
@@ -1240,7 +1088,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <description>
       <![CDATA[
                <article>
-               <img src="http://ivy-is.co.uk/images/logos/ivydd-small-full.png" />
+               <img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydd_long.png" />
 
 <p>The IvyDD or Ivy Dashboard Designer is a Pentaho Plugin that allows you to quickly and easily create responsive, mobile dashboards using either Saiku or Community Data Access (CDA) files. Use the IvyDD to create dashboards in minutes instead of hours.</p>
 
@@ -1266,27 +1114,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>0.0.4-POC</version>
-        <name>Stable</name>
-        <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.4-POC/IvyDD.zip/download
-        </package_url>
-        <description>Proof of Concept release 0.0.4</description>
-        <build_id/>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>DEPRECIATED</branch>
         <version>0.0.3-POC</version>
         <name>Stable</name>
         <package_url>
           http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.3-POC/IvyDD.zip/download
         </package_url>
-        <description>Proof of Concept release 0.0.3 for Saiku 2.6</description>
+        <description>Proof of Concept release 0.0.3</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
@@ -1305,7 +1138,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>IvySE</id>
     <type>Platform</type>
-    <img>http://ivy-is.co.uk/images/logos/ivyse-small-short.png</img>
+    <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_short.png</img>
     <small_img/>
     <name>IvySE - Ivy Schema Editor</name>
     <category>
@@ -1318,7 +1151,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <description>
       <![CDATA[
                <article>
-               <img src="http://ivy-is.co.uk/images/logos/ivyse-small-full.png" />
+               <img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivyse_long.png" />
 
 <p>This web based mondrian schema editor is developed on the new Bootstrap framework which means it has a responsive UI that will work on mobile devices ('have a look in your mobile').</p>
 
@@ -1326,12 +1159,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
 <iframe width="560" height="315" src="http://goo.gl/UNmJri" frameborder="0" allowfullscreen></iframe>
 <br>
 
-<h2>Some of the features in this 0.0.5 release for Pentaho 5.2:</h2>
+<h2>Some of the features in this 0.0.3 release:</h2>
 
 <ul>
-<li>New template</li>
-<li>XML schema validation</li>
-<li>Remove schema</li>
+<li><b>New</b> XML schema validation</li>
+<li><b>New</b> Remove schema</li>
 <li>Web Browser Based</li>
 <li>List existing Mondrian Schemas</li>
 <li>Edit Mondrian Schemas</li>
@@ -1378,14 +1210,14 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       
       <version>
         <branch>STABLE</branch>
-        <version>0.0.5</version>
+        <version>0.0.4</version>
         <name>Stable</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.5/IvySE.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.4/IvySE.zip/download
         </package_url>
-        <description>Release 0.0.5</description>
+        <description>Release 0.0.4</description>
         <build_id/>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <min_parent_version>5.2</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -1399,71 +1231,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/ivyse2.png</screenshot>
     </screenshots>
   </market_entry>
-  
-  <market_entry>
-    <id>IvyUD</id>
-    <type>Platform</type>
-    <img>http://ivy-is.co.uk/images/logos/ivyud-small-short.png</img>
-    <small_img/>
-    <name>IvyUD - Ivy User Details</name>
-    <category>
-      <name>Dashboards</name>
-      <parent>
-        <name>Apps</name>
-      </parent>
-    </category>
-    <documentation_url>https://github.com/ivylabs/IvyUD/blob/master/README.md</documentation_url>
-    <description>
-      <![CDATA[
-               <article>
-               <img src="http://ivy-is.co.uk/images/logos/ivyud-small-full.png" />
-
-
-
-
-               <br /><p>The Ivy UD is a sample plugin that has been developed to serve two purposes. The first purpose is to simply add some extra meta data for users that are logged into the Pentaho Server. The other purpose is to act as a sample for others to create persistent Sparkl applications.</p>
-
-<p>Please remember that this plugin requires the IvyBC Free edition to be installed as a minimum!</p>
-
-<p>For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.</p>
-<p>Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyUD'>GitHub</a></p>
-
-</article>
-
-      ]]>
-    </description>
-    <author>Ivy Information Systems Ltd</author>
-    <author_url>http://www.ivy-is.co.uk/</author_url>
-    <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
-    <license>MPL 2.0</license>
-    <dependencies>CDE, CDA, CDF, IvyBC Free</dependencies>
-    <installation_notes/>
-    <versions>
-      <version>
-        <branch>STABLE</branch>
-        <version>15.01.13</version>
-        <name>Stable</name>
-        <package_url>
-		  http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/IvyUD%20User%20Details/0.0.1/IvyUD.zip/download
-        </package_url>
-        <description>15.01.13</description>
-        <build_id/>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-      </version>
-    </versions>
-    <screenshots>
-      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2015/01/ivyud.png</screenshot>
-    </screenshots>
-  </market_entry>
 
   <market_entry>
     <id>IvyDC</id>
     <type>Platform</type>
-    <img>http://ivy-is.co.uk/images/logos/ivydc-small-short.png</img>
+    <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydc_short.png</img>
     <small_img/>
     <name>IvyDC - Ivy Dashboard Components</name>
     <category>
@@ -1476,7 +1248,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <description>
       <![CDATA[
                <article>
-               <img src="http://ivy-is.co.uk/images/logos/ivydc-small-full.png" />
+               <img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivydc_long.png" />
 
 <p>This is a plugin with custom CDE Components to use in your dashboards.</p>
 
@@ -1484,12 +1256,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
 <iframe width="560" height="315" src="http://goo.gl/izzxNU" frameborder="0" allowfullscreen></iframe>
 <br>
 
-<h2>Some of the features in this 0.0.5 release:</h2>
+<h2>Some of the features in this 0.0.4 release:</h2>
 
 <ul>
-<li>New template</li>
-<li>Comparison / Pyramid Chart</li>
-<li>Funnel Chart</li>
+<li><b>New</b> Comparison / Pyramid Chart</li>
+<li><b>New</b> Funnel Chart</li>
 <li>Summary Component</li>
 <li>Export Data Component</li>
 <li>Pentaho Analyzer Component</li>
@@ -1521,12 +1292,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>0.0.5</version>
-        <name>Stable 0.0.5</name>
+        <version>0.0.4</version>
+        <name>Stable 0.0.4</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.5/IvyDC.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.4/IvyDC.zip/download
         </package_url>
-        <description>Release 0.0.5</description>
+        <description>Release 0.0.4</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -1545,7 +1316,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
   <market_entry>
     <id>IvyGS</id>
     <type>Platform</type>
-    <img>http://ivy-is.co.uk/images/logos/ivygs-small-short.png</img>
+    <img>http://www.ivy-is.co.uk/wp-content/uploads/2014/11/ivygs.jpg</img>
     <small_img/>
     <name>IvyGS - Ivy Git Sync</name>
     <category>
@@ -1558,7 +1329,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <description>
       <![CDATA[
                <article>
-               <img src="http://ivy-is.co.uk/images/logos/ivygs-small-full.png" />
+               <img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/11/ivygs_full.jpg" />
 <p>A plugin that help synchronize a git repository with pentaho.</p>
 <br>
 </article>
@@ -1575,12 +1346,12 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>2.0.0</version>
+        <version>0.0.1</version>
         <name>Stable</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Git%20Sync/2.0.0/IvyGS.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Git%20Sync/0.0.1/IvyGS.zip/download
         </package_url>
-        <description>Release 2.0.0</description>
+        <description>Release 0.0.1</description>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
@@ -1681,10 +1452,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <version>
         <branch>Development</branch>
         <version>1.0-SNAPSHOT</version>
-        <build_id>379</build_id>
+        <build_id>364</build_id>
         <name>Latest snapshot build</name>
         <package_url>
-          http://ci.greencatsoft.com/job/Pivot4J/379/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip
+          http://ci.greencatsoft.com/job/Pivot4J/364/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip
         </package_url>
         <description>The latest development snapshot build.</description>
         <min_parent_version>5.0</min_parent_version>
@@ -1857,55 +1628,6 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>2.4.1</version>
-        <name>Stable</name>
-        <package_url>http://sourceforge.net/projects/aaar/files/v2.4.1/AAAR_v2.4.1.zip/download</package_url>
-        <samples_url/>
-        <description><![CDATA[
-        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-        <br/>
-        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-        ]]>
-        </description>
-        <changelog><![CDATA[
-        - Pentaho 5.3 compliance.
-        ]]>
-        </changelog>
-        <build_id>1</build_id>
-        <max_parent_version/>
-        <min_parent_version>5.3</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>STABLE</branch>
-        <version>2.4</version>
-        <name>Stable</name>
-        <package_url>http://sourceforge.net/projects/aaar/files/v2.4/AAAR_v2.4.zip/download</package_url>
-        <samples_url/>
-        <description><![CDATA[
-        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-        <br/>
-        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-        ]]>
-        </description>
-        <changelog><![CDATA[
-        - Bootstrap restyle for all the installation wizard and dashboards.
-        - Bugfixes.
-        ]]>
-        </changelog>
-        <build_id>1</build_id>
-        <max_parent_version>5.2.99</max_parent_version>
-        <min_parent_version>5.2</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>STABLE</branch>
         <version>2.3</version>
         <name>Stable</name>
         <package_url>http://sourceforge.net/projects/aaar/files/v2.3/AAAR_v2.3.zip/download</package_url>
@@ -1922,7 +1644,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         ]]>
         </changelog>
         <build_id>1</build_id>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version/>
         <min_parent_version>5.2</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -1950,7 +1672,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         ]]>
         </changelog>
         <build_id>1</build_id>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version/>
         <min_parent_version>5.2</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -1978,7 +1700,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         ]]>
         </changelog>
         <build_id>1</build_id>
-        <max_parent_version>5.2.99</max_parent_version>
+        <max_parent_version>5.1.99</max_parent_version>
         <min_parent_version>5.1</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -2016,9 +1738,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://fcorti.com/wp-content/uploads/2015/01/aaar_marketplace_1.jpg</screenshot>
-      <screenshot>http://fcorti.com/wp-content/uploads/2015/01/aaar_marketplace_2.png</screenshot>
-      <screenshot>http://fcorti.com/wp-content/uploads/2015/01/aaar_marketplace_3.jpg</screenshot>
+      <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_1.png</screenshot>
+      <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_2.png</screenshot>
+      <screenshot>http://francescocorti.files.wordpress.com/2014/01/aaar_marketplace_3.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -2063,7 +1785,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.12.10</version>
         <name>Latest Release</name>
         <package_url>
-         http://ctools.pentaho.com/files/repositorySynchronizer/14.12.10/repositorySynchronizer-14.12.10.zip
+          http://www.webdetails.pt/ficheiros/repositorySynchronizer/14.12.10/repositorySynchronizer-14.12.10.zip
         </package_url>
         <samples_url/>
         <description>14.12.10 release.</description>
@@ -2187,7 +1909,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.10.15</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/ficheiros/cdv/14.10.15/4.x/cdv-pentaho-14.10.15.zip
+          http://www.webdetails.pt/ficheiros/cdv/14.10.15/4.x/cdv-pentaho-14.10.15.zip
         </package_url>
         <description>14.10.15 release</description>
         <build_id/>
@@ -2208,7 +1930,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>87</build_id>
+        <build_id>72</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -2224,11 +1946,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
           http://ci.pentaho.com/job/pentaho-cdv/lastSuccessfulBuild/artifact/cdv-pentaho5/dist/cdv-TRUNK-SNAPSHOT.zip
         </package_url>
         <description>
-          Build for Pentaho 5.x
+          Build for Pentaho 5.0
         </description>
-        <build_id>68</build_id>
-        <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <build_id>61</build_id>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.0.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -2273,7 +1995,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.12.10</version>
         <name>Stable</name>
         <package_url>
-         http://ctools.pentaho.com/files/cdc/14.12.10/4.x/cdc-14.12.10.zip
+         http://www.webdetails.pt/ficheiros/cdc/14.12.10/4.x/cdc-14.12.10.zip
         </package_url>
         <description>14.12.10 release.</description>
         <build_id/>
@@ -2289,7 +2011,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.12.10</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cdc/14.12.10/5.x/cdc-14.12.10.zip
+          http://www.webdetails.pt/ficheiros/cdc/14.12.10/5.x/cdc-14.12.10.zip
         </package_url>
         <description>14.12.10 release.</description>
         <build_id/>
@@ -2374,7 +2096,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>99</build_id>
+        <build_id>84</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -2392,7 +2114,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>67</build_id>
+        <build_id>62</build_id>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version/>
         <development_stage>
@@ -2442,7 +2164,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>14.12.10</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/startupRuleEngine/14.12.10/startupRuleEngine-14.12.10.zip
+          http://www.webdetails.pt/ficheiros/startupRuleEngine/14.12.10/startupRuleEngine-14.12.10.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2497,7 +2219,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <version>14.12.10.1</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cst/14.12.10.1/cst-14.12.10.1.zip
+          http://www.webdetails.pt/ficheiros/cst/14.12.10.1/cst-14.12.10.1.zip
         </package_url>
         <description>Stable Release</description>
         <build_id/>
@@ -2926,7 +2648,7 @@ any translation issues or suggestions for improvement
         <version>0.5.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_ca-RELEASE-0.5.2.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_ca-RELEASE-0.5.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -2944,14 +2666,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_ca-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_ca-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3008,7 +2730,7 @@ any translation issues or suggestions for improvement
         <version>0.7.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_nl-RELEASE-0.7.2.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_nl-RELEASE-0.7.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3026,14 +2748,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-         http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_nl-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_nl-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3090,7 +2812,7 @@ any translation issues or suggestions for improvement
         <version>0.6.2</version>
         <name>RELEASE</name>
         <package_url>
-         http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_fr-RELEASE-0.6.2.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_fr-RELEASE-0.6.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3108,14 +2830,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_fr-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_fr-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3172,7 +2894,7 @@ any translation issues or suggestions for improvement
         <version>0.7.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_de-RELEASE-0.7.2.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_de-RELEASE-0.7.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3190,14 +2912,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_de-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_de-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3253,7 +2975,7 @@ any translation issues or suggestions for improvement
         <version>0.6.3</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_hi-RELEASE-0.6.3.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_hi-RELEASE-0.6.3.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3271,14 +2993,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_hi-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_hi-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3336,7 +3058,7 @@ any translation issues or suggestions for improvement
         <version>0.5.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_it-RELEASE-0.5.2.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_it-RELEASE-0.5.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3354,14 +3076,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_it-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_it-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3420,7 +3142,7 @@ any translation issues or suggestions for improvement
         <version>0.7</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_ja-RELEASE-0.7.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_ja-RELEASE-0.7.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3438,14 +3160,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_ja-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_ja-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3503,7 +3225,7 @@ any translation issues or suggestions for improvement
         <version>0.7</version>
         <name>RELEASE</name>
         <package_url>
-         http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_ko-RELEASE-0.7.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_ko-RELEASE-0.7.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3521,14 +3243,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-         http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_ko-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_ko-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3587,7 +3309,7 @@ any translation issues or suggestions for improvement
         <version>0.7.3</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_pt_BR-RELEASE-0.7.3.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_pt_BR-RELEASE-0.7.3.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3605,14 +3327,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_pt_BR-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_pt_BR-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3674,7 +3396,7 @@ any translation issues or suggestions for improvement
         <version>0.5.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_pt_PT-RELEASE-0.5.2.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_pt_PT-RELEASE-0.5.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3692,14 +3414,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_pt_PT-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_pt_PT-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3759,7 +3481,7 @@ any translation issues or suggestions for improvement
         <version>0.7.2</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/5.0/languagePack_es-RELEASE-0.7.2.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/5.0/languagePack_es-RELEASE-0.7.2.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -3777,14 +3499,14 @@ any translation issues or suggestions for improvement
         <version>14.12.16</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/14.12.16/languagePack_es-14.12.16.zip
+          http://www.webdetails.pt/ficheiros/languagePacks/14.12.16/languagePack_es-14.12.16.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3828,7 +3550,7 @@ any translation issues or suggestions for improvement
         <branch>RELEASE</branch>
         <version>1.0</version>
         <name>Release</name>
-        <package_url>http://ctools.pentaho.com/files/pentaho-emerald-theme/pentaho-emerald-theme-1.0.zip</package_url>
+        <package_url>http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/pentaho-emerald-theme-1.0.zip</package_url>
         <description>Latest Release</description>
         <changelog/>
         <build_id/>
@@ -3842,16 +3564,16 @@ any translation issues or suggestions for improvement
     </versions>
     <screenshots>
       <screenshot>
-        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-01.png
+        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-01.png
       </screenshot>
       <screenshot>
-        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-02.png
+        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-02.png
       </screenshot>
       <screenshot>
-        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-03.png
+        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-03.png
       </screenshot>
       <screenshot>
-        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-04.png
+        http://www.webdetails.pt/ficheiros/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-04.png
       </screenshot>
     </screenshots>
   </market_entry>
@@ -4693,7 +4415,7 @@ https://www.easydq.com/register
     <versions>
       <version>
         <version>1.2</version>
-        <package_url>http://downloads.sourceforge.net/project/civicrm-data-integration/1.2/civicrm-data-integration-1.2-bin-input.zip?r=&amp;ts=1421146417&amp;use_mirror=master</package_url>
+        <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMInput.zip</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -4702,9 +4424,9 @@ https://www.easydq.com/register
       </version>
     </versions>
     <author>Stratebi and Amnesty International (Spain)</author>
-    <documentation_url>http://wiki.civicrm.org/confluence/display/CRM/Introduction+to+Civi+Data+Integration</documentation_url>
+    <documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Input</documentation_url>
     <forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
-    <cases_url>http://wiki.civicrm.org/confluence/display/CRM/Using+CiviCRM+as+a+Backend+for+Web+Content</cases_url>
+    <cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
     <license_name>GPL v3</license_name>
     <license_text>For more details about the GNU General Public License v3.0 see:
       http://www.gnu.org/licenses/gpl-3.0.html</license_text>
@@ -4730,7 +4452,7 @@ https://www.easydq.com/register
     <versions>
       <version>
         <version>1.2</version>
-        <package_url>http://downloads.sourceforge.net/project/civicrm-data-integration/1.2/civicrm-data-integration-1.2-bin-input.zip?r=&amp;ts=1421146528&amp;use_mirror=master</package_url>
+        <package_url>http://www.stratebi.com/documents/10157/0/CIVICRMOutput.zip</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -4739,9 +4461,9 @@ https://www.easydq.com/register
       </version>
     </versions>
     <author>Stratebi and Amnesty International (Spain)</author>
-    <documentation_url>http://wiki.civicrm.org/confluence/display/CRM/Introduction+to+Civi+Data+Integration</documentation_url>
+    <documentation_url>http://wiki.pentaho.com/display/EAI/CiviCRM+Output</documentation_url>
     <forum_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</forum_url>
-    <cases_url>http://wiki.civicrm.org/confluence/display/CRM/Using+CiviCRM+as+a+Backend+for+Web+Content</cases_url>
+    <cases_url>https://civicrm.org/blogs/capo/new-tool-civicrm-data-integration</cases_url>
     <license_name>GPL v3</license_name>
     <license_text>For more details about the GNU General Public License v3.0 see:
       http://www.gnu.org/licenses/gpl-3.0.html</license_text>
@@ -5954,17 +5676,9 @@ https://www.easydq.com/register
     <versions>
       <version>
         <branch>trunk</branch>
-        <version>2.1.2</version>
-        <build_id>139</build_id>
-        <name>Version 2.1.2 (Stable)</name>
-        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.2/AvroOutputPlugin.zip</package_url>
-        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
-      </version>
-      <version>
-        <branch>trunk</branch>
         <version>2.1.1</version>
         <build_id>135</build_id>
-        <name>Version 2.1.1</name>
+        <name>Version 2.1.1 (Stable)</name>
         <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.1/AvroOutputPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
       </version>
@@ -6106,74 +5820,37 @@ https://www.easydq.com/register
     <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
 
-	<market_entry>
-		<id>pdi-arsystem-database-plugin</id>
-		<type>Database</type>
-		<img/>
-		<small_img/>
-		<installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
-		<name>ARS Server (BMC Remedy)</name>
-		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
-		<description><![CDATA[This plugin is required for the "ARS Output (BMC Remedy)" step plugin.
-It's not working with other database based plugins. 
-		
-** THE AR SYSTEM API JARS ARE NOT INCLUDED, YOU NEED TO ** 
-** COPY THE JARS INTO THE DATA-INTEGRATION LIB DIRECTORY. **  
-If you use api < 7.5 or running the plugin against a remedy version < 7.5, you need to copy the native libs
-in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installation notes.
-( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
-]]></description>
-		<author>Sebastian Schmidt</author>
-		<author_url/>
-		<author_logo/>
-		<license>GNU General Public License version 3.0 (GPLv3)</license>
-		<dependencies/>
-		<versions>
-			<version>
-				<branch>TRUNK</branch>
-				<version>0.7.0</version>
-				<package_url>http://sourceforge.net/projects/arsoutputplugin/files/arsdatabase/arsdatabase-0.7.0-SNAPSHOT.zip/download</package_url>
-				<description>Trunk Snapshot. Install at your own risk...</description>
-			</version>
-		</versions>
-		<license_name>GPL 3.0</license_name>
-		<license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.txt</license_text>
-		<support_level>NOT_SUPPORTED</support_level>
-	</market_entry>
-	
-	
-	<market_entry>
-		<id>pdi-arsystem-output-plugin</id>
-		<type>Step</type>
-		<img/>
-		<small_img/>
-		<installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
-		<name>ARS Output (BMC Remedy)</name>
-		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
-		<description><![CDATA[This plugin allow to write to a BMC Remedy AR System server.
-		
+  <market_entry>
+    <id>pdi-arsystem-output-plugin</id>
+    <type>Step</type>
+    <img/>
+    <small_img/>
+    <installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
+    <name>ARS Output (BMC Remedy)</name>
+    <dependencies>pdi-arsystem-database-plugin</dependencies>
+    <documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
+    <description><![CDATA[This plugin allow to write to a BMC Remedy AR System server.
+    
 ** THIS PLUGIN REQURIES THE AR-SYSTEM DATABASE PLUGIN "ARS Server (BMC Remedy)" ** 
+
 ( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
 ]]></description>
-		<author>Sebastian Schmidt</author>
-		<author_url/>
-		<author_logo/>
-		<license>GNU General Public License version 3.0 (GPLv3)</license>
-		<dependencies>pdi-arsystem-database-plugin</dependencies>
-		<versions>
-			<version>
-				<branch>TRUNK</branch>
-				<version>0.9.0</version>
-				<package_url>http://sourceforge.net/projects/arsoutputplugin/files/arsoutput/arsoutput-0.9.0-SNAPSHOT.zip/download</package_url>
-				<description>Trunk Snapshot. Install at your own risk...</description>
-			</version>
-		</versions>
-		<license_name>GPL 3.0</license_name>
-		<license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.txt</license_text>
-		<support_level>NOT_SUPPORTED</support_level> 
-	</market_entry>
-
-
+    <author>Sebastian Schmidt</author>
+    <author_url/>
+    <author_logo/>
+    <license>GNU General Public License version 3.0 (GPLv3)</license>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>0.7.0</version>
+        <package_url>http://sourceforge.net/projects/arsoutputplugin/files/v0.7.0/arsoutput-0.7.0-SNAPSHOT.zip/download</package_url>
+        <description>Trunk Snapshot. Install at your own risk...</description>
+      </version>
+    </versions>
+    <license_name>GPL 3.0</license_name>
+    <license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.txt</license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
   
   <market_entry>
     <id>pdi-script-extension-points</id>
@@ -6447,7 +6124,6 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
   </market_entry>
-<<<<<<< HEAD
   
   
   <market_entry>
@@ -6476,137 +6152,17 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <build_id/>
         <name>Version 1.1.0</name>
 		<min_parent_version>4.8</min_parent_version>
+		<max_parent_version>5.2</max_parent_version>
         <package_url>https://github.com/rishuatgithub/Pentaho/blob/master/SpecialCharacterRemover/marketplace/SpecialCharacterRemover-ver-1.1.0.zip
         </package_url>
         <source_url>https://github.com/rishuatgithub/Pentaho/tree/master/SpecialCharacterRemover/pentaho-kettle-step-spchr</source_url>
         </version>
     </versions>
-=======
-    <market_entry>
-        <id>simple.redis.plugin</id>
-        <type>Mixed</type>
-        <name>Simple redis input and output steps</name>
-        <category>
-            <name>Lookup</name>
-            <parent>
-                <name>PDI Plugins</name>
-            </parent>
-        </category>
-        <description>This bundle contains 2 steps to accessa redis server.
-Included in this plugin is a step to get inputs from a redis server and
-a step which outputs to a redis server. See the documentation for more information.</description>
-        <author>Nicolas Haquet / Linalis</author>
-        <author_url>http://www.linalis.com</author_url>
-        <documentation_url>https://linalis.atlassian.net/wiki/x/AoAFAQ</documentation_url>
-        <license_name>Apache License, Version 2.0</license_name>
-        <license_text>For more details see:
-http://www.apache.org/licenses/LICENSE-2.0</license_text>
-        <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-        <support_message>Support by Linalis. Please call +33 1 53 16 45 19 for further information.</support_message>
-<support_organization>Linalis</support_organization>
-<support_url>http://www.linalis.fr/fr/linalis/contact</support_url>
-        <versions>
-            <version>
-                <version>1.0.0</version>
-                <package_url>https://drive.google.com/uc?export=download&amp;id=0B4rmkV4ykvQaai01c1cyOWRRMUU</package_url>
-<development_stage>
-<lane>Community</lane>
-<phase>3</phase>
-</development_stage>
-            </version>
-        </versions>
-    </market_entry>
-
-  <market_entry>
-    <id>ParquetOutput</id>
-    <type>Step</type>
-    <name>Parquet Output Plugin</name>
-    <category>
-      <name>Big Data</name>
-      <parent>
-        <name>PDI Plugins</name>
-      </parent>
-    </category>
-    <description>The Parquet Plugin for Pentaho Data Integration allows you to output Parquet files using Kettle. Parquet files are a columnar oriented file format commonly used in Hadoop. Using Parquet files in Hadoop as opposed to CSV files can produce orders of magnitude compression and query performance improvement.
-
-This Plugin is tightly integrated with Hadoop. It is recommended this plugin only be used when writing to files in HDFS.
-
-Additional installation steps available in the README must be followed in order for this plugin to work.  https://github.com/inquidia/ParquetPlugin/blob/master/README.md/
-    </description>
-    <author>Inquidia Consulting</author>
-    <author_url>http://www.inquidia.com</author_url>
-    <author_logo>http://inquidia.com/sites/default/files/inquidia-web-logo.png</author_logo>
-    <installation_notes>
-Pentaho currently does not provide a mechanism allowing for plugin steps to be dependent on the Pentaho Big Data Plugin shims. Due to this, the following steps must be followed to use this plugin.
-
-1. Copy the following files from the data-integration/plugins/pentaho-big-data-plugin/hadoop-configurations/{environment}/lib/client folder to the data-integration/lib folder.
-  1.1. commons-cli.jar
-  1.2. commons-configuration.jar
-  1.3. hadoop*.jar
-  1.4. protobuf-java.jar
-2. It is recommended you copy your Hadoop configuration files (hdfs-site.xml, core-site.xml, etc.) to the data-integration folder.
-3. Restart PDI
-    </installation_notes>
-    <documentation_url>https://github.com/inquidia/ParquetPlugin/blob/master/README.md/</documentation_url>
-    <versions>
-      <version>
-        <branch>TRUNK</branch>
-        <version>1.0.0</version>
-        <build_id>173</build_id>
-        <name>Version 1.0.0</name>
-        <package_url>https://github.com/inquidia/ParquetPlugin/releases/download/v1.0.0/ParquetPlugin-1.0.0.zip</package_url>
-        <source_url>https://github.com/inquidia/ParquetPlugin</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-    </versions>
-    <cases_url>https://github.com/inquidia/ParquetPlugin/issues</cases_url>
->>>>>>> upstream/master
     <license_name>Apache License 2.0</license_name>
     <license_text>For more details see:
       http://www.apache.org/licenses/LICENSE-2.0.html
     </license_text>
-<<<<<<< HEAD
     <support_level>PROFESSIONALLY_SUPPORTED</support_level>
   </market_entry>
   
-=======
-    <support_level>COMMUNITY_SUPPORTED</support_level>
-  </market_entry>
-  
-  <market_entry>
-     <id>EssbaseSpoonPlugin</id>
-     <type>SpoonPlugin</type>
-     <name>PDI Essbase Plugin</name>
-     <category>
-       <name>EssBase</name>
-       <parent>
-         <name>PDI Plugins</name>
-       </parent>
-     </category>
-     <description>This plugin (for PDI 5.2+) allows to connect to Essbase server, load data to cubes and read data through MDX queries.</description>
-     <author>Benoit COLAS</author> 
-     <forum_url>http://forums.pentaho.com/showthread.php?169809-Oracle-Essbase-Plugin-Development</forum_url>
-     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
-     <license_name>Apache License 2.0</license_name>
-     <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
-     <support_level>COMMUNITY_SUPPORTED</support_level>
-     <support_message>Supported by a community of volunteers</support_message>
-     <support_organization>none</support_organization>
-     <support_url>https://github.com/bcolas/PDIEssbasePlugin/wiki</support_url>
-     <versions>
-        <version>
-         <branch>master</branch>
-         <version>1.0</version>
-         <name>1.0</name>
-         <package_url>https://github.com/bcolas/PDIEssbasePlugin/releases/download/1.0/kettle-essbase-plugin-5.2.zip</package_url>
-         <source_url>https://github.com/bcolas/PDIEssbasePlugin</source_url>
-         <min_parent_version>5.2</min_parent_version>
-       </version>
-     </versions>
-   </market_entry>
-
->>>>>>> upstream/master
 </market>
