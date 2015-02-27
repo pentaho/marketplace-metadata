@@ -6141,8 +6141,8 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     <author_url>https://anotherreeshu.wordpress.com/about/</author_url>
     <author_logo></author_logo>
     <installation_notes>
-	The Installation notes is available at: 
-     https://github.com/rishuatgithub/Pentaho/blob/master/SpecialCharacterRemover/SpecialCharacterRemover-ver-1.1.0/README.txt
+	The Installation notes is available at:
+	https://github.com/rishuatgithub/Pentaho/blob/master/SpecialCharacterRemover/pentaho-kettle-step-spchr/README.md
     </installation_notes>
     <documentation_url></documentation_url>
     <versions>
@@ -6151,8 +6151,7 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <version>1.1.0</version>
         <build_id/>
         <name>Version 1.1.0</name>
-		<min_parent_version>4.8</min_parent_version> 
-		<max_parent_version>5.2</max_parent_version>
+		<min_parent_version>4.8</min_parent_version>
         <package_url>https://github.com/rishuatgithub/Pentaho/blob/master/SpecialCharacterRemover/marketplace/SpecialCharacterRemover-ver-1.1.0.zip
         </package_url>
         <source_url>https://github.com/rishuatgithub/Pentaho/tree/master/SpecialCharacterRemover/pentaho-kettle-step-spchr</source_url>
