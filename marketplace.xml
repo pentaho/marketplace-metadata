@@ -3877,6 +3877,7 @@ any translation issues or suggestions for improvement
     <documentation_url>http://wiki.pentaho.com/display/EAI/MySQL</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>TRUNK-SNAPSHOT</version>
         <package_url>https://pentaho.box.com/shared/static/qllv3c2bo1eiv0o5f468.zip</package_url>
         <source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
@@ -3914,6 +3915,7 @@ any translation issues or suggestions for improvement
     <documentation_url>http://wiki.pentaho.com/display/EAI/NuoDB</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0-SNAPSHOT</version>
         <package_url>
           https://github.com/nuodb/pdi-nuodb-plugin/releases/download/1.0/pdi-nuodb-plugin-1.0-SNAPSHOT-assembly.zip
@@ -3969,6 +3971,7 @@ any translation issues or suggestions for improvement
     <support_url>https://github.com/latinojoel/pdi-apple-pushnotifications/issues</support_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0.1</version>
         <package_url>
           http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Apple%20Push%20Notifications/1.0.1/ApplePushNotification.zip/download
@@ -4015,6 +4018,7 @@ any translation issues or suggestions for improvement
     <support_url>https://github.com/latinojoel/pdi-android-pushnotifications/issues</support_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0.1</version>
         <package_url>
           http://sourceforge.net/projects/pentaho-plugins/files/Pentaho%20Data%20Integration/PDI%20Android%20Push%20Notifications/1.0.1/AndroidPushNotification.zip/download
@@ -4080,6 +4084,7 @@ any translation issues or suggestions for improvement
     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>5.2.0.1-216</version>
         <package_url>https://pentaho.box.com/shared/static/u5b0ai3shvot41f4g2a6.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-vertica-bulkloader</source_url>
@@ -4119,6 +4124,7 @@ any translation issues or suggestions for improvement
     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>4.4</version>
         <package_url>http://wiki.pentaho.com/download/attachments/23531011/DummyPlugin.zip</package_url>
         <source_url>http://source.pentaho.org/svnkettleroot/plugins/DummyPlugin/trunk/</source_url>
@@ -4155,6 +4161,7 @@ any translation issues or suggestions for improvement
     </description>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>5.x</version>
         <package_url>
           http://ci.pentaho.com/view/Data%20Mining/job/pdi-arff-output-plugin/lastSuccessfulBuild/artifact/dist/pdi-arffoutput-plugin-TRUNK-SNAPSHOT-deploy.zip
@@ -4200,6 +4207,7 @@ any translation issues or suggestions for improvement
     </description>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>4.x</version>
         <package_url>http://kettle-franchise.googlecode.com/files/kff-plugins4.zip</package_url>
         <source_url>http://kettle-franchise.googlecode.com/svn/trunk/</source_url>
@@ -4246,6 +4254,7 @@ With this plugin you can:
     </description>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>3.7</version>
         <min_parent_version>5.0.0</min_parent_version>
         <package_url>http://datacleaner.org/resources/pentaho_plugin/DataCleaner-PDI-plugin-3.7-20141126.zip</package_url>
@@ -4304,6 +4313,7 @@ With this plugin you can:
     <documentation_url>http://www.easydq.com/pentaho</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.19</version>
         <package_url>http://sourceforge.net/projects/easydq-kettle/files/EasyDQ-PDI-plugin-1.19.zip/download
         </package_url>
@@ -4340,6 +4350,7 @@ https://www.easydq.com/register
     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>TRUNK-SNAPSHOT</version>
         <package_url>
           http://ci.pentaho.com/job/Kettle/lastSuccessfulBuild/artifact/Kettle/src-plugins/market/dist/market.zip
@@ -4418,6 +4429,7 @@ https://www.easydq.com/register
     <description>Partitions rows based on the quotient (rather than the remainder)</description>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/fcvlirqac4k6semj6q7d.zip</package_url>
         <source_url>https://github.com/mattyb149/BucketPartitioner</source_url>
@@ -4569,6 +4581,7 @@ https://www.easydq.com/register
     <documentation_url>http://www.melissadata.com/dqt/contact-zone/index.htm</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>4.4.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
         <development_stage>
@@ -4612,6 +4625,7 @@ https://www.easydq.com/register
     <documentation_url>http://www.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>4.4.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
         <development_stage>
@@ -4659,6 +4673,7 @@ https://www.easydq.com/register
     <documentation_url>http://www.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>4.4.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
         <development_stage>
@@ -4692,6 +4707,7 @@ https://www.easydq.com/register
     </description>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.2</version>
         <package_url>http://downloads.sourceforge.net/project/civicrm-data-integration/1.2/civicrm-data-integration-1.2-bin-input.zip?r=&amp;ts=1421146417&amp;use_mirror=master</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
@@ -4729,6 +4745,7 @@ https://www.easydq.com/register
     </description>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.2</version>
         <package_url>http://downloads.sourceforge.net/project/civicrm-data-integration/1.2/civicrm-data-integration-1.2-bin-input.zip?r=&amp;ts=1421146528&amp;use_mirror=master</package_url>
         <source_url>https://github.com/amnesty/civicrm-data-integration/</source_url>
@@ -4769,6 +4786,7 @@ https://www.easydq.com/register
     <documentation_url>https://github.com/mattyb149/load-text-from-file-plugin/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.1</version>
         <package_url>https://pentaho.box.com/shared/static/i9z811v11h1wtwf7v6ku.zip</package_url>
         <development_stage>
@@ -4777,6 +4795,7 @@ https://www.easydq.com/register
         </development_stage>
       </version>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
         <development_stage>
@@ -4811,6 +4830,7 @@ https://www.easydq.com/register
     <documentation_url>https://github.com/mattyb149/pdi-superlative-plugin/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/t39m1n3rwbmix38wshy5.zip</package_url>
         <development_stage>
@@ -4843,6 +4863,7 @@ https://www.easydq.com/register
     <documentation_url>https://github.com/mattyb149/pdi-valuemeta-map/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/mcjdlfp3s5z30wxnx04u.zip</package_url>
         <development_stage>
@@ -4940,6 +4961,7 @@ https://www.easydq.com/register
     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>5.0.1</version>
         <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/idh</source_url>
@@ -4980,6 +5002,7 @@ https://www.easydq.com/register
     <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>5.0.1</version>
         <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/cdh3u4</source_url>
@@ -5019,6 +5042,7 @@ https://www.easydq.com/register
     <documentation_url>https://github.com/mattyb149/csv-jdbc-plugin/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/1pnvur1jkjaukvuqx91b.zip</package_url>
         <development_stage>
@@ -5055,6 +5079,7 @@ https://www.easydq.com/register
     <documentation_url>https://github.com/mattyb149/pdi-neo4j-query/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/e8kua9axb616dfvmdhzu.zip</package_url>
         <development_stage>
@@ -5091,6 +5116,7 @@ https://www.easydq.com/register
     <documentation_url>https://github.com/mattyb149/pdi-html-to-xml-plugin/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/i009upass9f2iip4fit5.zip</package_url>
         <development_stage>
@@ -5299,6 +5325,7 @@ https://www.easydq.com/register
     <documentation_url>https://code.google.com/p/legstar-pdi/wiki/GetStarted</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>0.6</version>
         <package_url>https://googledrive.com/host/0B0Jhkz53SgUXTElZSHh4NUM2Tm8/legstar.pdi.zosfile-0.6.zip</package_url>
         <source_url>https://code.google.com/p/legstar-pdi/source/checkout</source_url>
@@ -5348,6 +5375,7 @@ https://www.easydq.com/register
     </license_text>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>0.0.1</version>
         <package_url>http://dekarlab.de/download/PRScript.zip</package_url>
         <development_stage>
@@ -5382,6 +5410,7 @@ https://www.easydq.com/register
     </license_text>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.1.0</version>
         <package_url>https://pentaho.box.com/shared/static/0wq4a5u4dtkdcvsb8h17.zip</package_url>
         <min_parent_version>5.0.0</min_parent_version>
@@ -5412,6 +5441,7 @@ https://www.easydq.com/register
     </license_text>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>2.0.2</version>
         <name>Version 2.0.2 (Stable)</name>
         <package_url>
@@ -5423,6 +5453,7 @@ https://www.easydq.com/register
         </development_stage>
       </version>
       <version>
+        <branch>Stable</branch>
         <version>1.0.0</version>
         <name>Version 1.0.0</name>
         <package_url>
@@ -5455,6 +5486,7 @@ https://www.easydq.com/register
     </license_text>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.1.2</version>
         <package_url>
           https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.1.2-SNAPSHOT.zip
@@ -5465,6 +5497,7 @@ https://www.easydq.com/register
         </development_stage>
       </version>
       <version>
+        <branch>Stable</branch>
         <version>1.1.1</version>
         <package_url>
           https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.1.1-SNAPSHOT.zip
@@ -5498,6 +5531,7 @@ https://www.easydq.com/register
     </license_text>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.8.1</version>
         <package_url>
           https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-filter-plugin-pdi-1.8.1-SNAPSHOT.zip
@@ -5557,6 +5591,7 @@ https://www.easydq.com/register
     </license_text>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0.0</version>
         <package_url>https://github.com/uwegeercken/jareplugin/archive/master.zip</package_url>
         <min_parent_version>4.3.0</min_parent_version>
@@ -5587,8 +5622,8 @@ https://www.easydq.com/register
     <documentation_url>https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
-        <branch>1.0</branch>
         <package_url>
           https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/blob/1.0/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip?raw=true
         </package_url>
@@ -5634,6 +5669,7 @@ https://www.easydq.com/register
     <documentation_url>https://github.com/mattyb149/pdi-memcached-plugin/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/wkk3i8wblpl4py1ht85j.zip</package_url>
         <development_stage>
@@ -5704,6 +5740,7 @@ https://www.easydq.com/register
     </license_text>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0.0</version>
         <package_url>
           http://sourceforge.net/projects/lookuptimedimension/files/LookupTimeDimensionStep-1.0.0.zip/download
@@ -5733,6 +5770,7 @@ https://www.easydq.com/register
     <documentation_url>http://wiki.pentaho.com/display/EAI/Teradata+TPT+Insert+Upsert+Bulk+Loader</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0 Beta</version>
         <package_url>https://pentaho.box.com/shared/static/ksd8kr7zazd9ymc4rjbo.zip</package_url>
         <development_stage>
@@ -5769,6 +5807,7 @@ https://www.easydq.com/register
     <author>Brian Zoetewey</author>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0.1</version>
         <package_url>https://maven.gcx.org/org/ccci/gto/pdi-google-spreadsheet-plugin/1.0.1/pdi-google-spreadsheet-plugin-1.0.1.zip</package_url>
         <source_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin</source_url>
@@ -5801,6 +5840,7 @@ https://www.easydq.com/register
     <author>Tom Barber</author>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0.0</version>
         <package_url>https://dl.dropboxusercontent.com/u/8503756/nlp-TRUNK-SNAPSHOT.zip</package_url>
         <source_url>https://github.com/OSBI/pdi-sentiment</source_url>
@@ -5846,6 +5886,7 @@ https://www.easydq.com/register
     </description>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/p65t49w1nizstw3kx89t.zip</package_url>
         <source_url>https://github.com/mattyb149/pdi-random-row-distributions</source_url>
@@ -5924,6 +5965,7 @@ https://www.easydq.com/register
     <documentation_url>https://github.com/mattyb149/pdi-graph-computing/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/zzoi8egt5pbd9zabct88.zip</package_url>
         <development_stage>
@@ -6195,6 +6237,7 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
     <documentation_url>https://github.com/mattyb149/pdi-script-extension-points/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.1</version>
         <package_url>https://pentaho.box.com/shared/static/m2p0ryd69ra9xvlxzzvv.zip</package_url>
         <development_stage>
@@ -6351,7 +6394,8 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <support_url>http://www.linalis.fr/fr/linalis/contact</support_url>
         <versions>
             <version>
-                <version>1.0.2</version>
+              <branch>Stable</branch>
+              <version>1.0.2</version>
                 <package_url>https://docs.google.com/uc?export=download&amp;id=0B4rmkV4ykvQabFhyMTdXOERFQ1k</package_url>
                 <development_stage>
                     <lane>Community</lane>
@@ -6431,6 +6475,7 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     <documentation_url>https://github.com/mattyb149/pdi-scriptengine-plugin/wiki</documentation_url>
     <versions>
       <version>
+        <branch>Stable</branch>
         <version>1.0</version>
         <package_url>https://pentaho.box.com/shared/static/pmxvmkjbsl6cirsyzfwf.zip</package_url>
         <development_stage>
@@ -6472,7 +6517,8 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
 <support_url>http://www.linalis.fr/fr/linalis/contact</support_url>
         <versions>
             <version>
-                <version>1.0.0</version>
+              <branch>Stable</branch>
+              <version>1.0.0</version>
                 <package_url>https://drive.google.com/uc?export=download&amp;id=0B4rmkV4ykvQaai01c1cyOWRRMUU</package_url>
 <development_stage>
 <lane>Community</lane>
