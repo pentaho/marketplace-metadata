@@ -791,8 +791,6 @@
         <package_url>
           http://ci.pentaho.com/job/webdetails-cte/lastSuccessfulBuild/artifact/dist/cte-TRUNK-SNAPSHOT.zip
         </package_url>
-        <samples_url>
-        </samples_url>
         <description>
           Build for Pentaho 5.1 and above
         </description>
