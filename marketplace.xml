@@ -761,6 +761,56 @@
   </market_entry>
 
   <market_entry>
+    <id>cte</id>
+    <type>Platform</type>
+    <img>http://www.webdetails.pt/ficheiros/cte_logo.png</img>
+    <small_img>http://www.webdetails.pt/ficheiros/cte_logo_plugin.png</small_img>
+    <name>Community Text Editor</name>
+    <category>
+      <name>Development</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/webdetails/cte/blob/master/README.md</documentation_url>
+    <description>
+      Community Text Editor (CTE) is a Pentaho plugin to edit the contents of a file 
+      (be it within the JCR repository, a mondrian schema, or from the file system) directly 
+      from the Pentaho User Console.
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <dependencies></dependencies>
+    <license>MPL 2.0</license>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <name>Trunk</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-cte/lastSuccessfulBuild/artifact/dist/cte-TRUNK-SNAPSHOT.zip
+        </package_url>
+        <samples_url>
+        </samples_url>
+        <description>
+          Build for Pentaho 5.1 and above
+        </description>
+        <build_id>1</build_id>
+        <min_parent_version>5.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-01.png</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-02.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
     <id>sparkl</id>
     <type>Platform</type>
     <img>http://www.webdetails.pt/ficheiros/sparkl2.png</img>
