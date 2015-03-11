@@ -578,7 +578,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>93</build_id>
+        <build_id>94</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -599,7 +599,7 @@
         <description>
           Build for Pentaho 5.x
         </description>
-        <build_id>401</build_id>
+        <build_id>402</build_id>
         <min_parent_version>5.1</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -781,7 +781,7 @@
     <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-    <dependencies></dependencies>
+    <dependencies/>
     <license>MPL 2.0</license>
     <versions>
       <version>
@@ -2496,7 +2496,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>31</build_id>
+        <build_id>35</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -2514,7 +2514,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>31</build_id>
+        <build_id>35</build_id>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version/>
         <development_stage>
