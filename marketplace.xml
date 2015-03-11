@@ -6817,7 +6817,7 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
        </version>
      </versions>
    </market_entry>
-    </market_entry>
+   
     <market_entry>
         <id>localizedmondrian</id>
         <type>Platform</type>
@@ -6852,4 +6852,5 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
             <screenshot>https://linalis.atlassian.net/wiki/download/attachments/17137680/MondrianTranslator.jpg</screenshot>
         </screenshots>
     </market_entry>
+
 </market>
