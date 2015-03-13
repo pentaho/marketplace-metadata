@@ -252,7 +252,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>195</build_id>
+        <build_id>197</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -273,7 +273,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>588</build_id>
+        <build_id>590</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -578,7 +578,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>96</build_id>
+        <build_id>99</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -599,7 +599,7 @@
         <description>
           Build for Pentaho 5.x
         </description>
-        <build_id>404</build_id>
+        <build_id>407</build_id>
         <min_parent_version>5.1</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -732,7 +732,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>70</build_id>
+        <build_id>71</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -750,7 +750,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>49</build_id>
+        <build_id>50</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
@@ -887,7 +887,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>88</build_id>
+        <build_id>91</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
