@@ -757,7 +757,6 @@
     </versions>
   </market_entry>
 
-
   <market_entry>
     <id>sparkl</id>
     <type>Platform</type>
@@ -1035,6 +1034,8 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-01.png</screenshot>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-02.png</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-03.png</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-04.png</screenshot>
     </screenshots>
   </market_entry>
 
