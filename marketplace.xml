@@ -4277,6 +4277,41 @@ any translation issues or suggestions for improvement
   </market_entry>
   
   <market_entry>
+    <id>IvyMongoDBSteps</id>
+    <type>Step</type>
+    <name>Ivy PDI MongoDB Steps</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>Pentaho data integration plugin for MongoDB.</description>
+    <documentation_url>https://github.com/ivylabs/ivy-pdi-mongodb-steps/blob/master/README.md</documentation_url>
+    <author>Ivy Information Systems Ltd.</author>
+    <license_name>AGPL</license_name>
+    <license_text>For more details see:
+      https://www.gnu.org/licenses/agpl-3.0.html</license_text>
+    <support_level>PROFESSIONALLY_SUPPORTED</support_level> 
+    <support_message>Supported by Ivy Information Systems Ltd.</support_message>
+    <support_url>http://www.ivy-is.co.uk/contact-us/</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0.0</version>
+        <name>1.0.0</name>
+        <package_url>http://sourceforge.net/projects/ivylabs/files/Pentaho/Data%20Integration/PDI%20MongoDB%20Steps/1.0.0/IvyMongoDBSteps.zip/download</package_url>
+        <min_parent_version>5.0</min_parent_version>
+        <source_url>https://github.com/ivylabs/ivy-pdi-mongodb-steps/tree/1.0.0</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+  
+  <market_entry>
     <id>IvyGitSteps</id>
     <type>Step</type>
     <name>Ivy PDI Git Steps</name>
