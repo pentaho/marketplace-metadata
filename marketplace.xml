@@ -1465,10 +1465,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
 	</version>
       <version>
         <branch>STABLE</branch>
-        <version>3.0.9.9</version>
+        <version>3.1</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.0.9.9.zip</package_url>
-        <description>3.0.9 release for the Saiku Plugin - Improved filtering, drill across, measures menu, fixed exports</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.1.zip</package_url>
+        <description>3.1 release for the Saiku Plugin - Performance Improvements, fixed chart export</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
           <development_stage>
