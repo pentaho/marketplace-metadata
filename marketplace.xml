@@ -2299,10 +2299,34 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <license>ASL 2.0</license>
     <versions>
       <version>
-        <branch>BETA</branch>
+        <branch>master</branch>
+        <version>EDGE</version>
+        <name>Active Development Version</name>
+        <package_url>https://github.com/rpbouman/pash/raw/master/bin/pash.zip</package_url>
+        <description>Pash - Active Development version</description>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>MONDRIAN-2263</branch>
+        <version>0.14 / MONDRIAN-2263</version>
+        <name>Beta</name>
+        <package_url>https://github.com/rpbouman/pash/raw/MONDRIAN-2263/bin/pash.zip</package_url>
+        <description>Pash version 0.14 / MONDRIAN-2263</description>
+        <min_parent_version>5.3</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>0.12</branch>
         <version>0.12</version>
         <name>Beta</name>
-        <package_url>https://github.com/rpbouman/pash/raw/master/bin/pash.zip</package_url>
+        <package_url>https://github.com/rpbouman/pash/raw/0.12/bin/pash.zip</package_url>
         <description>Pash version 0.12 (beta)</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
@@ -2311,6 +2335,9 @@ A landing tab can optionally be presented, which can be used to any of the prede
         </development_stage>
       </version>
     </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/rpbouman/pash/master/images/screenshot.png</screenshot>
+    </screenshots>
   </market_entry>
 
   <market_entry>
