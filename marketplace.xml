@@ -2817,10 +2817,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
       <version>
         <branch>MONDRIAN-2263</branch>
-        <version>0.14 / MONDRIAN-2263</version>
+        <version>0.14 - MONDRIAN-2263</version>
         <name>Beta</name>
         <package_url>https://github.com/rpbouman/pash/raw/MONDRIAN-2263/bin/pash.zip</package_url>
-        <description>Pash version 0.14 / MONDRIAN-2263</description>
+        <description>Pash version 0.14 - MONDRIAN-2263</description>
         <min_parent_version>5.3</min_parent_version>
         <development_stage>
           <lane>Community</lane>
