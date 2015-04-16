@@ -355,10 +355,9 @@
       </xsd:documentation>
     </xsd:annotation>
     <xsd:all>
-     <xsd:element name="branch" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
-     <xsd:element name="version" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
+     <xsd:element name="branch" minOccurs="1" maxOccurs="1" type="xsd:normalizedString"/>
+     <xsd:element name="version" minOccurs="1" maxOccurs="1" type="xsd:normalizedString"/>
      <xsd:element name="build_id" minOccurs="0" maxOccurs="1" type="xsd:string"/>
-     <!-- development stage is temporarily not mandatory -->
      <xsd:element name="development_stage" minOccurs="0" maxOccurs="1" type="development_stage"/>
      <xsd:element name="name" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
      <xsd:element name="package_url" minOccurs="0" maxOccurs="1" type="xsd:anyURI"/>
