@@ -6710,6 +6710,13 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
     <versions>
       <version>
         <branch>Stable</branch>
+        <version>0.6</version>
+        <name>0.6</name>
+        <package_url>http://sourceforge.net/projects/pdijira/files/pdi-jira-0.6.zip/download</package_url>
+        <min_parent_version>5.0</min_parent_version>
+      </version>
+      <version>
+        <branch>Stable</branch>
         <version>0.5</version>
         <name>0.5</name>
         <package_url>http://sourceforge.net/projects/pdijira/files/pdi-jira-0.5.zip/download</package_url>
