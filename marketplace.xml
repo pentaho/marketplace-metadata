@@ -48,7 +48,7 @@
       </parent>
     </category>
     <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
-    <description>2
+    <description>
       Pentaho Marketplace allows users to explore and test the plugins
       that are most relevant to them. This means high quality and useful
       plugins that users can use to get the most out of their business.
