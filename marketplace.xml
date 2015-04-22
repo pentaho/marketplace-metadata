@@ -48,7 +48,7 @@
       </parent>
     </category>
     <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
-    <description>
+    <description>2
       Pentaho Marketplace allows users to explore and test the plugins
       that are most relevant to them. This means high quality and useful
       plugins that users can use to get the most out of their business.
@@ -1498,7 +1498,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <branch>STABLE</branch>
         <version>3.1.7</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.1.6.zip</package_url>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.1.7.zip</package_url>
         <description>3.1.7 release for the Saiku Plugin - Fix for Server Side Filtering, Dimensions with .(periods) in.</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
