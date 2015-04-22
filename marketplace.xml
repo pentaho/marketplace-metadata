@@ -1496,10 +1496,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
 	</version>
       <version>
         <branch>STABLE</branch>
-        <version>3.1</version>
+        <version>3.1.6</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.1.zip</package_url>
-        <description>3.1 release for the Saiku Plugin - Performance Improvements, fixed chart export</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.1.6.zip</package_url>
+        <description>3.1.6 release for the Saiku Plugin - Fix for Server Side Filtering, Dimensions with .(periods) in.</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
           <development_stage>
