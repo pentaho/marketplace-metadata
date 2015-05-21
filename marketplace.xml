@@ -867,7 +867,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>107</build_id>
+        <build_id>108</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
