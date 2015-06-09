@@ -2871,7 +2871,19 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <name>Active Development Version</name>
         <package_url>https://github.com/rpbouman/pash/raw/master/bin/pash.zip</package_url>
         <description>Pash - Active Development version</description>
-        <min_parent_version>5.0</min_parent_version>
+        <min_parent_version>5.4</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>1.0</branch>
+        <version>1.0 Stable</version>
+        <name>Stable 1.0 Version</name>
+        <package_url>https://github.com/rpbouman/pash/raw/1.0/bin/pash.zip</package_url>
+        <description>Pash 1.0 - Stable</description>
+        <min_parent_version>5.4</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -2896,6 +2908,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <package_url>https://github.com/rpbouman/pash/raw/0.12/bin/pash.zip</package_url>
         <description>Pash version 0.12 (beta)</description>
         <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.2</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
