@@ -1874,7 +1874,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
 For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.<br>
 Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyBC'>GitHub</a>
 <br/><br/>
-<a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Any question copyright question contact <a target='NO_BLANK' href='http://www.ivy-is.co.uk/contact-us/'>Ivy Information Systems Ltd</a>.
+<a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Any question copyright question contact <a target='NO_BLANK' href='http://www.ivy-is.co.uk/contact-us/'>Ivy Information Systems</a>.
 
 </article>
 
@@ -1940,7 +1940,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
 For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-dashboard-designer/'>visit our site</a>.<br>
 Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyDD'>GitHub</a>
 <br/><br/>
-<a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Any question copyright question contact <a target='NO_BLANK' href='http://www.ivy-is.co.uk/contact-us/'>Ivy Information Systems Ltd</a>.
+<a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Any question copyright question contact <a target='NO_BLANK' href='http://www.ivy-is.co.uk/contact-us/'>Ivy Information Systems</a>.
       ]]>
     </description>
     <author>Ivy Information Systems</author>
@@ -4443,12 +4443,17 @@ any translation issues or suggestions for improvement
     </category>
     <description>Pentaho data integration plugin for MongoDB.</description>
     <documentation_url>https://github.com/ivylabs/ivy-pdi-mongodb-steps/blob/master/README.md</documentation_url>
-    <author>Ivy Information Systems Ltd.</author>
+    <author>Ivy Information Systems.</author>
     <license_name>AGPL</license_name>
     <license_text>For more details see:
       https://www.gnu.org/licenses/agpl-3.0.html</license_text>
+<<<<<<< HEAD
     <support_level>COMMUNITY_SUPPORTED</support_level> 
     <support_message>Supported by Ivy Information Systems Ltd.</support_message>
+=======
+    <support_level>PROFESSIONALLY_SUPPORTED</support_level> 
+    <support_message>Supported by Ivy Information Systems.</support_message>
+>>>>>>> Update marketplace.xml
     <support_url>http://www.ivy-is.co.uk/contact-us/</support_url>
     <versions>
       <version>
@@ -4478,12 +4483,12 @@ any translation issues or suggestions for improvement
     </category>
     <description>Pentaho Data Integration plugin for Git repositories.</description>
     <documentation_url>https://github.com/ivylabs/ivy-pdi-git-steps/blob/master/README.md</documentation_url>
-    <author>Ivy Information Systems Ltd</author>
+    <author>Ivy Information Systems</author>
     <license_name>MIT</license_name>
     <license_text>For more details see:
       http://opensource.org/licenses/MIT</license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level> 
-    <support_message>Supported by Ivy Information Systems Ltd.</support_message>
+    <support_message>Supported by Ivy Information Systems.</support_message>
     <support_url>https://github.com/ivylabs/ivy-pdi-git-steps/issues</support_url>
     <versions>
       <version>
