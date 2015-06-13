@@ -1846,7 +1846,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
@@ -2022,7 +2022,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <min_parent_version>5.2</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
       
@@ -2117,7 +2117,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
 <iframe width="560" height="315" src="http://goo.gl/izzxNU" frameborder="0" allowfullscreen></iframe>
 <br>
 
-<h2>Some of the features in this 0.0.5 release:</h2>
+<h2>Some of the features in this 0.0.6 release:</h2>
 
 <ul>
 <li>New template</li>
@@ -2154,16 +2154,16 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>0.0.5</version>
-        <name>Stable 0.0.5</name>
+        <version>0.0.6</version>
+        <name>Stable 0.0.6</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.5/IvyDC.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.6/IvyDC.zip/download
         </package_url>
-        <description>Release 0.0.5</description>
+        <description>Release 0.0.6</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
