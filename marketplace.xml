@@ -1489,8 +1489,8 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <branch>STABLE</branch>
         <version>3.1.8</version>
         <name>Stable</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.1.8.zip</package_url>
-        <description>3.1.8 release for the Saiku Plugin - Fix for Server Side Filtering.</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.2.5.zip</package_url>
+        <description>3.2.5 release for the Saiku Plugin.</description>
         <max_parent_version>6.0</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
           <development_stage>
@@ -1498,7 +1498,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <phase>4</phase>
         </development_stage>
       </version>
-      <version>
+      <!--<version>
         <branch>TESTING</branch>
         <version>3.2-RC2</version>
         <name>Testing</name>
@@ -1510,7 +1510,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <lane>Community</lane>
           <phase>3</phase>
         </development_stage>
-      </version>
+      </version>-->
       <!--<version>
         <branch>TRUNK</branch>
         <version>Trunk</version>
