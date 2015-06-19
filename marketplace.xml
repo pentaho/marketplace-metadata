@@ -3206,7 +3206,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <license_name>Apache License, Version 2.0</license_name>
         <license_text>For more details see:
 http://www.apache.org/licenses/LICENSE-2.0</license_text>
-        <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+        <support_level>COMMUNITY_SUPPORTED</support_level>
         <support_message>Support by Linalis. Please call +33 1 53 16 45 19 for further information.</support_message>
 <support_organization>Linalis</support_organization>
 <support_url>http://www.linalis.fr/fr/linalis/contact</support_url>
@@ -4229,7 +4229,7 @@ any translation issues or suggestions for improvement
         <source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
         <development_stage>
           <lane>Customer</lane>
-          <phase>4</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
@@ -4239,7 +4239,7 @@ any translation issues or suggestions for improvement
     <license_text>For more details see:
       http://www.gnu.org/licenses/gpl-2.0.txt
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
     <support_organization>Pentaho</support_organization>
     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
@@ -4279,7 +4279,7 @@ any translation issues or suggestions for improvement
     <license_text>For more details see:
       http://opensource.org/licenses/BSD-2-Clause
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Supported by a NuoDB Enterprise Edition support contract.</support_message>
     <support_organization>NuoDB</support_organization>
     <support_url>http://www.nuodb.com/</support_url>
@@ -4394,7 +4394,7 @@ any translation issues or suggestions for improvement
     <license_name>AGPL</license_name>
     <license_text>For more details see:
       https://www.gnu.org/licenses/agpl-3.0.html</license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level> 
+    <support_level>COMMUNITY_SUPPORTED</support_level> 
     <support_message>Supported by Ivy Information Systems Ltd.</support_message>
     <support_url>http://www.ivy-is.co.uk/contact-us/</support_url>
     <versions>
@@ -4654,7 +4654,7 @@ With this plugin you can:
     <license_text>For more details about the GNU General Lesser Public License v2.0 see:
       http://www.gnu.org/licenses/lgpl-2.0.html
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Professional support, extended functionality, training and consultancy for DataCleaner is offered via the commercial editions of DataCleaner.</support_message>
     <support_organization>Neopost Customer Information Management</support_organization>
     <support_url>http://datacleaner.org/editions</support_url>
@@ -4709,7 +4709,7 @@ With this plugin you can:
 https://www.easydq.com/register
     </license_text>
 
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Please contact Human Inference Support at +31 (0)26 3550600 or email support@humaninference.com</support_message>
     <support_organization>Human Inference</support_organization>
     <support_url>http://www.easydq.com/faq</support_url>
@@ -4977,7 +4977,7 @@ https://www.easydq.com/register
     <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
     </license_text>
 
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
@@ -5020,7 +5020,7 @@ https://www.easydq.com/register
     <license_name>MD licensing</license_name>
     <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
@@ -5070,7 +5070,7 @@ https://www.easydq.com/register
     <license_name>MD licensing</license_name>
     <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
@@ -5384,7 +5384,7 @@ https://www.easydq.com/register
     <license_text>For more details see:
       http://www.apache.org/licenses/LICENSE-2.0.html
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
     <support_organization>Pentaho</support_organization>
     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
@@ -5425,7 +5425,7 @@ https://www.easydq.com/register
     <license_text>For more details see:
       http://www.apache.org/licenses/LICENSE-2.0.html
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
     <support_organization>Pentaho</support_organization>
     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
@@ -6197,7 +6197,7 @@ https://www.easydq.com/register
         <package_url>https://pentaho.box.com/shared/static/ksd8kr7zazd9ymc4rjbo.zip</package_url>
         <development_stage>
           <lane>Customer</lane>
-          <phase>4</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
@@ -6722,7 +6722,7 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
    <cases_url>https://github.com/SPECUSA/MongoDBGridfs</cases_url>
    <license_name>GNU General Public License</license_name>
    <license_text>For more details see: http://www.gnu.org/licenses/</license_text>
-   <support_level>PROFESSIONALY_SUPPORTED</support_level>
+   <support_level>COMMUNITY_SUPPORTED</support_level>
    <support_message>Supported by SPEC-INDIA BI Developer Team.</support_message>
    <support_organization>SPEC-INDIA</support_organization>
    <support_url>https://github.com/SPECUSA/MongoDBGridfs</support_url>
@@ -6817,7 +6817,7 @@ API as well as a connector API. See the documentation for more information.</des
         <license_name>Apache License, Version 2.0</license_name>
         <license_text>For more details see:
 http://www.apache.org/licenses/LICENSE-2.0</license_text>
-        <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+        <support_level>COMMUNITY_SUPPORTED</support_level>
         <support_message>Support by Linalis. Please call +33 1 53 16 45 19 for further information.</support_message>
         <support_organization>Linalis</support_organization>
         <support_url>http://www.linalis.fr/fr/linalis/contact</support_url>
@@ -6947,7 +6947,7 @@ a step which outputs to a redis server. See the documentation for more informati
         <license_name>Apache License, Version 2.0</license_name>
         <license_text>For more details see:
 http://www.apache.org/licenses/LICENSE-2.0</license_text>
-        <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+        <support_level>COMMUNITY_SUPPORTED</support_level>
         <support_message>Support by Linalis. Please call +33 1 53 16 45 19 for further information.</support_message>
 <support_organization>Linalis</support_organization>
 <support_url>http://www.linalis.fr/fr/linalis/contact</support_url>
