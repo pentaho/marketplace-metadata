@@ -56,7 +56,7 @@
     <author>Pentaho</author>
     <author_url>http://pentaho.com</author_url>
     <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
-    <license>GLPL v2</license>
+    <license>LGPL v2</license>
     <dependencies/>
     <versions>
       <version>
