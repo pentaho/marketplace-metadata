@@ -6409,6 +6409,12 @@ https://www.easydq.com/register
     <id>AvroOutputPlugin</id>
     <type>Step</type>
     <name>Avro Output Plugin</name>
+	<category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>The Avro Output Plugin for Pentaho Data Integration allows you to output Avro files using Kettle. Avro files are commonly used in Hadoop allowing for schema evolution and truly separating the write schema from the read schema.</description>
     <author>Inquidia Consulting</author>
     <author_url>http://www.inquidia.com</author_url>
@@ -6547,6 +6553,12 @@ https://www.easydq.com/register
     <id>pentaho-mongodb-delete-plugin</id>
     <type>Step</type>
     <name>MongoDB Delete Plugin</name>
+    <category>
+      <name>Big Data</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Delete document inside a MongoDB collection</description>
     <author>Maas Dianto</author>
     <author_url>https://github.com/maasdi</author_url>
@@ -6577,6 +6589,12 @@ https://www.easydq.com/register
 		<small_img/>
 		<installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
 		<name>ARS Server (BMC Remedy)</name>
+        <category>
+          <name>Connectivity</name>
+           <parent>
+            <name>PDI Plugins</name>
+          </parent>
+    </category>
 		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
 		<description><![CDATA[This plugin is required for the "ARS Output (BMC Remedy)" step plugin.
 It's not working with other database based plugins. 
@@ -6613,6 +6631,12 @@ in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installati
 		<small_img/>
 		<installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
 		<name>ARS Output (BMC Remedy)</name>
+		<category>
+          <name>Connectivity</name>
+          <parent>
+            <name>PDI Plugins</name>
+          </parent>
+        </category>
 		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
 		<description><![CDATA[This plugin allow to write to a BMC Remedy AR System server.
 		
@@ -6713,6 +6737,12 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
    <id>MongogridfsOutput</id>
    <type>Step</type>
    <name>mongoDB Gridfs Output</name>
+    <category>
+      <name>Big Data</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
    <description>Import the any file from folder , RDBMS to mongoDB Gridfs</description>
    <documentation_url>https://github.com/SPECUSA/MongoDBGridfs/raw/master/Mongogridfs_1.3/MongogridfsOutput/InstalltionGuide.doc</documentation_url>
    <author>SPEC INDIA</author>
@@ -6746,6 +6776,12 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
     <id>pdi-jira</id>
     <type>Step</type>
     <name>JIRA Plugin</name>
+	<category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Get information from JIRA server</description>
     <documentation_url>https://sourceforge.net/p/pdijira/wiki/Home/</documentation_url>
     <author>Neyko Neykov</author>
@@ -6777,6 +6813,12 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
     <id>pdi-zookeeper</id>
     <type>Step</type>
     <name>ZooKeeper Input/Output</name>
+	<category>
+      <name>Big Data</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Retrieves information from, and writes information to, ZooKeeper server(s)
     As of version 1.1, ZooKeeper Output supports variable and field substitution.
     </description>
@@ -6837,6 +6879,12 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     <id>kettle-ftl-plugin</id>
     <type>Step</type>
     <name>FTL Plugin</name>
+	<category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>Processes the incoming row as well as variables against a user specified Freemarker template to facilitate arbitrary output generation</description>
     <documentation_url>https://github.com/brosander/kettle-plugins</documentation_url>
     <author>Bryan Rosander</author>
@@ -6868,6 +6916,12 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     <id>TokenReplacementPlugin</id>
     <type>Step</type>
     <name>Token Replacement</name>
+	<category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
     <description>The Token Replacement plugin allows you to replace tokens in strings or files. This plugin can read the string to replace from text entered into the step, a field on the stream, or even a file. The step can output the result to a string field or to a file.</description>
     <author>Inquidia Consulting</author>
     <author_url>http://www.inquidia.com</author_url>
