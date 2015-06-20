@@ -851,30 +851,48 @@
         </package_url>
         <description>5.2 Release</description>
         <build_id/>
-        <min_parent_version>5.2</min_parent_version>
+        <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.2.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>3</phase>
         </development_stage>
       </version>
-    
-    
+
       <version>
-        <branch>RELEASE</branch>
-        <version>14.05.06</version>
-        <name>Release 14.05.06</name>
-        <package_url>http://ci.pentaho.com/job/sparkl-release/lastSuccessfulBuild/artifact/dist/sparkl-14.05.06.zip
+        <branch>5.3</branch>
+        <version>5.3.0.2-261</version>
+        <name>5.3 Release</name>
+        <package_url>
+          http://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/5.3.0.2-261/sparkl-5.3.0.2-261.zip
         </package_url>
-        <description>Release 14.05.06</description>
+        <description>5.3 Release</description>
         <build_id/>
-        <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.0.99</max_parent_version>
+        <min_parent_version>5.3</min_parent_version>
+        <max_parent_version>5.3.99</max_parent_version>
         <development_stage>
-          <lane>Community</lane>
+          <lane>Customer</lane>
           <phase>3</phase>
         </development_stage>
       </version>
+
+      <version>
+        <branch>5.4</branch>
+        <version>5.4.0.0-128</version>
+        <name>5.4 Release</name>
+        <package_url>
+          http://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/5.4.0.0-128/sparkl-5.4.0.0-128.zip
+        </package_url>
+        <description>5.4 Release</description>
+        <build_id/>
+        <min_parent_version>5.4</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
       <version>
     	    <branch>TRUNK</branch>
 	    	<version>TRUNK-SNAPSHOT</version>
