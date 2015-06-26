@@ -4447,18 +4447,8 @@ any translation issues or suggestions for improvement
     <license_name>AGPL</license_name>
     <license_text>For more details see:
       https://www.gnu.org/licenses/agpl-3.0.html</license_text>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <support_level>COMMUNITY_SUPPORTED</support_level> 
-    <support_message>Supported by Ivy Information Systems Ltd.</support_message>
-=======
     <support_level>PROFESSIONALLY_SUPPORTED</support_level> 
     <support_message>Supported by Ivy Information Systems.</support_message>
->>>>>>> Update marketplace.xml
-=======
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level> 
-    <support_message>Supported by Ivy Information Systems.</support_message>
->>>>>>> e32deda30b6979c65bfb4d1f35852e7aff575f17
     <support_url>http://www.ivy-is.co.uk/contact-us/</support_url>
     <versions>
       <version>
