@@ -468,7 +468,7 @@
       </version>
       <version>
         <branch>TRUNK</branch>
-        <version>6.0-SNAPSHOT</version>
+        <version>TRUNK-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
           http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-TRUNK-SNAPSHOT.zip
@@ -479,7 +479,7 @@
         <description>
           Build for Pentaho 5.0
         </description>
-        <build_id>312</build_id>
+        <build_id>313</build_id>
         <min_parent_version>5.1</min_parent_version>
         <development_stage>
           <lane>Customer</lane>
