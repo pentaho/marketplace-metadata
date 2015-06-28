@@ -7169,7 +7169,7 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
    </market_entry>
    
    <market_entry>
-    <id>CM4</id>
+    <id>cm4</id>
     <type>Platform</type>
     <img>http://www.meteorite.bi/sites/default/files/meteorite__bi_logo_hor_300dpi.png</img>
     <small_img></small_img>
