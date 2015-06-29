@@ -7180,4 +7180,44 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
      </versions>
    </market_entry>
    
+   <market_entry>
+    <id>cm4</id>
+    <type>Platform</type>
+    <img>http://www.meteorite.bi/sites/default/files/meteorite__bi_logo_hor_300dpi.png</img>
+    <small_img></small_img>
+    <name>Community Mondrian 4</name>
+   <category>
+      <name>Analysis</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>http://www.meteorite.bi/products/plugins/cm4</documentation_url>
+    <description>Mondrian 4 as a BI Server plugin, great for Saiku 3 and other OLAP platforms. WARNING, this will make changes to your 
+    pentaho-solutions/system directory so read the docs before proceeding if you'd rather do a manual installation.
+    </description>
+    <author>Meteorite BI</author>
+    <author_url>http://meteorite.bi</author_url>
+    <author_logo>http://www.meteorite.bi/sites/default/files/meteorite__bi_logo_hor_300dpi.png</author_logo>
+    <dependencies></dependencies>
+    <license>Apache 2.0</license>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>1.0</version>
+        <name>Stable</name>
+        <package_url>http://meteorite.bi/downloads/cm4-plugin-p5-1.0-SNAPSHOT.zip
+        </package_url>
+        <description>1.0 Release, Mondrian 4 on the Pentaho BI Server CE</description>
+        <build_id>1.0</build_id>
+        <max_parent_version>5.4</max_parent_version>
+        <min_parent_version>5.3</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+
 </market>
