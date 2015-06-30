@@ -5327,7 +5327,7 @@ any translation issues or suggestions for improvement
 			<changelog>Changes</changelog>
 			<build_id>1</build_id>
 			<min_parent_version>5.0</min_parent_version>
-			<max_parent_version>5.2</max_parent_version>
+			<max_parent_version>5.4</max_parent_version>
     </version>
   </versions>
   <screenshots> 
