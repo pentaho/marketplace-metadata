@@ -5765,7 +5765,9 @@ https://www.easydq.com/register
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau server from PDI. It can perform a full refresh of any extract, update an incremental extract from a database, or append new files to an existing extract.</description>
+    <description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau server from PDI. It can perform a full refresh of any extract, update an incremental extract from a database, or append new files to an existing extract.  The version installed from the marketplace supports PDI 5.0 to 5.3.
+
+      A version of the plugin that supports PDI 5.4 and above may be downloaded and manually installed from https://github.com/cdeptula/refreshtableauextract/releases/tag/2.0.1a</description>
     <author>Inquidia Consulting</author>
     <author_url>http://www.inquidia.com</author_url>
     <author_logo>http://inquidia.com/sites/default/files/inquidia-web-logo.png</author_logo>
@@ -5781,6 +5783,7 @@ https://www.easydq.com/register
         </package_url>
         <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
         <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.3</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -5795,6 +5798,7 @@ https://www.easydq.com/register
           https://github.com/cdeptula/refreshtableauextract/releases/download/2.0.0/refreshtableauextract.zip
         </package_url>
         <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
+        <max_parent_version>5.3</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -5811,6 +5815,7 @@ https://www.easydq.com/register
         </package_url>
         <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
         <min_parent_version>1.0</min_parent_version>
+        <max_parent_version>5.3</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
