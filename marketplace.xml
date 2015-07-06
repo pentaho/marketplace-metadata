@@ -1179,7 +1179,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <version>TRUNK-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-cte/lastSuccessfulBuild/artifact/dist/cte-TRUNK-SNAPSHOT.zip
+          http://ci.pentaho.com/job/webdetails-cte/lastSuccessfulBuild/artifact/dist/cte-6.0-SNAPSHOT.zip
         </package_url>
         <description>
           Build for Pentaho 5.1 and above
