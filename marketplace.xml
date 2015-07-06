@@ -1918,15 +1918,9 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
       <![CDATA[
                <article>
                <img src="http://ivy-is.co.uk/images/logos/ivybc-small-full.png" />
-
                <center><img src="http://www.ivy-is.co.uk/wp-content/uploads/2014/07/ivybc_components1.png" /></center>
-
-
-
 <p>The Ivy BC is a suite of additional CDE Components that allow you to quickly and easily create responsive bootstrap dashboards. Each of these components comes with many options that allow you advanced control on their look and behaviour</p>
-
 <h2>Included Bootstrap Components - Free</h2>
-
 <ul>
 <li>Bootstrap Input <b>New</b></li>
 <li>Bootstrap Panel</li>
@@ -1936,35 +1930,24 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
 <li>Bootstrap Select</li>
 <li>Bootstrap Data Table</li>
 </ul>
-
 <h2>Samples & Documentation</h2>
-
 <p>The IvyBC Plugin also includes extensive component samples and coumentation that you can open in the CDE and edit as you like</p>
-
 <h2>IvyBC - Professional</h2>
-
 <p>We also offer a professional version of IvyBC that can be purchased from the Ivy IS Website. This version includes various other components and features</p>
-
 <center><a target='NO_BLANK' style="color:#8cc63f;font-size:28px;font-weight:bold;text-decoration: underline;" href='http://www.ivy-is.co.uk/ivy-labs/pentaho-bootstrap-dashboards/'>Buy Now</a></center>
-
-
 <br>
 <br>
 <iframe width="560" height="315" src="http://goo.gl/qxRjHq" frameborder="0" allowfullscreen></iframe>
 <br>
-
-
 <br><br>
 For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.<br>
 Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyBC'>GitHub</a>
 <br/><br/>
-<a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Any question copyright question contact <a target='NO_BLANK' href='http://www.ivy-is.co.uk/contact-us/'>Ivy Information Systems Ltd</a>.
-
+<a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Any question copyright question contact <a target='NO_BLANK' href='http://www.ivy-is.co.uk/contact-us/'>Ivy Information Systems</a>.
 </article>
-
       ]]>
     </description>
-    <author>Ivy Information Systems Ltd</author>
+    <author>Ivy Information Systems</author>
     <author_url>http://www.ivy-is.co.uk/</author_url>
     <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
     <license>CC BY-NC-ND 4.0</license>
@@ -1983,7 +1966,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
@@ -2011,23 +1994,19 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <![CDATA[
                <article>
                <img src="http://ivy-is.co.uk/images/logos/ivydd-small-full.png" />
-
 <p>The IvyDD or Ivy Dashboard Designer is a Pentaho Plugin that allows you to quickly and easily create responsive, mobile dashboards using either Saiku or Community Data Access (CDA) files. Use the IvyDD to create dashboards in minutes instead of hours.</p>
-
 <br>
 <iframe width="560" height="315" src="http://bit.ly/XE1x1R" frameborder="0" allowfullscreen></iframe>
 <br>
-
 </article>
-
 <br><br>
 For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-dashboard-designer/'>visit our site</a>.<br>
 Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyDD'>GitHub</a>
 <br/><br/>
-<a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Any question copyright question contact <a target='NO_BLANK' href='http://www.ivy-is.co.uk/contact-us/'>Ivy Information Systems Ltd</a>.
+<a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target='NO_BLANK' href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Any question copyright question contact <a target='NO_BLANK' href='http://www.ivy-is.co.uk/contact-us/'>Ivy Information Systems</a>.
       ]]>
     </description>
-    <author>Ivy Information Systems Ltd</author>
+    <author>Ivy Information Systems</author>
     <author_url>http://www.ivy-is.co.uk/</author_url>
     <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
     <license>CC BY-NC-ND 4.0</license>
@@ -2089,15 +2068,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <![CDATA[
                <article>
                <img src="http://ivy-is.co.uk/images/logos/ivyse-small-full.png" />
-
 <p>This web based mondrian schema editor is developed on the new Bootstrap framework which means it has a responsive UI that will work on mobile devices ('have a look in your mobile').</p>
-
 <br>
 <iframe width="560" height="315" src="http://goo.gl/UNmJri" frameborder="0" allowfullscreen></iframe>
 <br>
-
 <h2>Some of the features in this 0.0.5 release for Pentaho 5.2:</h2>
-
 <ul>
 <li>New template</li>
 <li>XML schema validation</li>
@@ -2109,14 +2084,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
 <li>Create new schema</li>
 <li>Live preview with Penatho Analyser and/or Saiku pluigns</li>
 </ul>
-
 <h2>What is the road map for the next version?</h2>
-
 <ul>
 <li>...</li>
 </ul>
 </article>
-
 <br><br>
 For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.<br>
 Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvySE'>GitHub</a>
@@ -2148,18 +2120,18 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       
       <version>
         <branch>STABLE</branch>
-        <version>0.0.5</version>
+        <version>0.0.6</version>
         <name>Stable</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.5/IvySE.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.6/IvySE.zip/download
         </package_url>
-        <description>Release 0.0.5</description>
+        <description>Release 0.0.6</description>
         <build_id/>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
         <min_parent_version>5.2</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
       
@@ -2187,22 +2159,14 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <![CDATA[
                <article>
                <img src="http://ivy-is.co.uk/images/logos/ivyud-small-full.png" />
-
-
-
-
                <br /><p>The Ivy UD is a sample plugin that has been developed to serve two purposes. The first purpose is to simply add some extra meta data for users that are logged into the Pentaho Server. The other purpose is to act as a sample for others to create persistent Sparkl applications.</p>
-
 <p>Please remember that this plugin requires the IvyBC Free edition to be installed as a minimum!</p>
-
 <p>For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.</p>
 <p>Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyUD'>GitHub</a></p>
-
 </article>
-
       ]]>
     </description>
-    <author>Ivy Information Systems Ltd</author>
+    <author>Ivy Information Systems</author>
     <author_url>http://www.ivy-is.co.uk/</author_url>
     <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
     <license>MPL 2.0</license>
@@ -2247,15 +2211,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <![CDATA[
                <article>
                <img src="http://ivy-is.co.uk/images/logos/ivydc-small-full.png" />
-
 <p>This is a plugin with custom CDE Components to use in your dashboards.</p>
-
 <br>
 <iframe width="560" height="315" src="http://goo.gl/izzxNU" frameborder="0" allowfullscreen></iframe>
 <br>
-
-<h2>Some of the features in this 0.0.5 release:</h2>
-
+<h2>Some of the features in this 0.0.6 release:</h2>
 <ul>
 <li>New template</li>
 <li>Comparison / Pyramid Chart</li>
@@ -2270,14 +2230,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
 <li>Samples</li>
 <li>Documentation</li>
 </ul>
-
 <h2>What is the road map for the next version?</h2>
-
 <ul>
 <li>...</li>
 </ul>
 </article>
-
 <br><br>
 For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs/ivy-software/'>visit our site</a>.<br>
 Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyDC'>GitHub</a>
@@ -2291,16 +2248,16 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>0.0.5</version>
-        <name>Stable 0.0.5</name>
+        <version>0.0.6</version>
+        <name>Stable 0.0.6</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.5/IvyDC.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.6/IvyDC.zip/download
         </package_url>
-        <description>Release 0.0.5</description>
+        <description>Release 0.0.6</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
@@ -2336,7 +2293,7 @@ For more information <a target='NO_BLANK' href='http://www.ivy-is.co.uk/ivy-labs
 Having trouble with this project? Feel free to report a issue on <a target='NO_BLANK' href='https://github.com/ivylabs/IvyGS'>GitHub</a>
       ]]>
     </description>
-    <author>Ivy Information Systems Ltd</author>
+    <author>Ivy Information Systems</author>
     <author_url>http://www.ivy-is.co.uk/</author_url>
     <author_logo>http://www.ivy-is.co.uk/wp-content/uploads/2014/03/logo_175px_wide.png</author_logo>
     <license>MIT</license>
