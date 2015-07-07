@@ -319,7 +319,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>6</build_id>
+        <build_id>7</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -340,7 +340,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>6</build_id>
+        <build_id>7</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -696,7 +696,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>2</build_id>
+        <build_id>3</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -717,9 +717,9 @@
         <description>
           Build for Pentaho 5.x
         </description>
-        <build_id>2</build_id>
+        <build_id>3</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>        
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -874,7 +874,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>1</build_id>
+        <build_id>2</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -1275,7 +1275,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>2</build_id>
+        <build_id>3</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -1293,9 +1293,9 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>2</build_id>
+        <build_id>3</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.99</max_parent_version>
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -1377,7 +1377,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>1</build_id>
+        <build_id>2</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -1395,9 +1395,9 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>1</build_id>
+        <build_id>2</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.99</max_parent_version>
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -1457,7 +1457,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>3</build_id>
+        <build_id>4</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -1475,9 +1475,9 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>3</build_id>
+        <build_id>4</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.99</max_parent_version>
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
