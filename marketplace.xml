@@ -7267,7 +7267,7 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
   </market_entry>
   
   <market_entry>
-  <id>spchr_v110</id>
+  <id>SpecialCharacterRemover-ver-1.1.0</id>
   <type>Step</type>
   <name>Special Character Remover</name>
   <category> 
@@ -7277,9 +7277,10 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
     </parent>
   </category>
 
-  <description>Special Character Remover is a Pentaho DI Step Plugin which aims at cleaning your input data off the Special Characters or junk values. Use pre-defined algorithms in the Step to remove special characters. Users can also use his/her custom regular expression codes to work with the input stream.
+  <description>Special Character Remover is a Pentaho DI Step Plugin which aims at cleaning your input data off the Special Characters or junk values.
+  Use pre-defined algorithms in the Step to remove special characters. Users can also use his/her custom regular expression codes to work with the input stream.
 	
-	More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remover-version-1-1-0-pentaho-kettle-step-plugin/
+More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remover-version-1-1-0-pentaho-kettle-step-plugin/
 	
   </description>
   <documentation_url>https://anotherreeshu.wordpress.com/2015/01/13/special-character-remover-version-1-1-0-pentaho-kettle-step-plugin/</documentation_url>
