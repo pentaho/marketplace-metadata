@@ -7269,5 +7269,51 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
       </version>
     </versions>
   </market_entry>
+  
+  <market_entry>
+  <id>SpecialCharacterRemover-ver-1.1.0</id>
+  <type>Step</type>
+  <name>Special Character Remover</name>
+  <category> 
+    <name>Experimental</name>
+    <parent>
+      <name>PDI Plugins</name>
+    </parent>
+  </category>
+
+  <description>Special Character Remover is a Pentaho DI Step Plugin which aims at cleaning your input data off the Special Characters or junk values.
+  Use pre-defined algorithms in the Step to remove special characters. Users can also use his/her custom regular expression codes to work with the input stream.
+	
+More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remover-version-1-1-0-pentaho-kettle-step-plugin/
+	
+  </description>
+  <documentation_url>https://anotherreeshu.wordpress.com/2015/01/13/special-character-remover-version-1-1-0-pentaho-kettle-step-plugin/</documentation_url>
+  <author>Rishu Shrivastava</author>
+  <author_url>https://anotherreeshu.wordpress.com/about/</author_url>
+  <forum_url>https://anotherreeshu.wordpress.com/2015/01/13/special-character-remover-version-1-1-0-pentaho-kettle-step-plugin/</forum_url>
+  <cases_url>https://github.com/rishuatgithub/Special-Character-Remover/issues</cases_url>
+  <license_name>Apache License 2.0</license_name>
+  <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+  <support_level>PROFESSIONALY_SUPPORTED</support_level> 
+  <support_message>Supported by rishu.shrivastava@gmail.com</support_message>
+  <support_organization>Rishu Shrivastava</support_organization>
+  
+  <versions>
+    <version>
+      <branch>Stable</branch>
+      <version>1.1.0</version>
+      <package_url>https://github.com/rishuatgithub/Special-Character-Remover/releases/download/SpecialCharacterRemover_v1.1.0/SpecialCharacterRemover-ver-1.1.0.zip</package_url>
+      <samples_url>https://github.com/rishuatgithub/Special-Character-Remover/releases/download/SpecialCharacterRemover_v1.1.0/SpecialCharacterRemover-ver-1.1.0.zip</samples_url>
+      <build_id>1.1.0</build_id>
+      <min_parent_version>4.2</min_parent_version>
+      <max_parent_version>5.4</max_parent_version>
+      <development_stage>
+        <lane>Community</lane>
+        <phase>1</phase>
+      </development_stage>
+    </version>
+  </versions>
+</market_entry>
+  
 
 </market>
