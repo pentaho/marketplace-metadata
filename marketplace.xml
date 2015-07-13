@@ -1241,8 +1241,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         </package_url>
         <samples_url>
           http://ctools.pentaho.com/files/cdv/15.06.30/5.x/cdv-samples-15.06.30.zip
-        </samples_url>
-        <description>        
+        </samples_url>    
         <description>15.06.30 release</description>
         <build_id/>
         <max_parent_version>5.4.99</max_parent_version>
