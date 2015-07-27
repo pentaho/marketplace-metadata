@@ -2492,6 +2492,58 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp2.PNG</screenshot>
     </screenshots>
   </market_entry>
+  
+  <market_entry>
+    <id>integrator</id>
+    <type>Platform</type>
+    <name>Integrator plugin</name>
+    <category>
+      <name>Development</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <description><![CDATA[
+		It is a Pentaho plugin that allows you to access from other applications, any resource from the Pentaho BA Server,
+		such as report/dashboard/etc, without providing a userid/password but keeping the security of a logged user.<br/>
+    ]]>
+    </description>
+    <documentation_url>https://github.com/kleysonr/pentaho-integrator-plugin/blob/master/README.md</documentation_url>
+    <author>Kleyson Rios</author>
+    <author_url>http://kleysonrios.blogspot.com.br/</author_url>
+    <author_logo>http://4.bp.blogspot.com/-xO0YdnrqN0g/Uj9iVM8ulhI/AAAAAAAAAmM/i8UZzpIkGW0/s220-h/kleyson.png
+    </author_logo>
+    <dependencies/>
+    <license>MPL 2.0</license>
+    <img/>
+    <small_img/>
+    <installation_notes/>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>0.1.0</version>
+        <name>Stable</name>
+        <package_url>https://github.com/kleysonr/pentaho-integrator-plugin/releases/download/v0.1.0/integrator-0.1.0.zip</package_url>
+        <samples_url/>
+        <description><![CDATA[
+        Initial release<br/>
+        ]]>
+        </description>
+        <changelog><![CDATA[
+        Initial release.
+        ]]>
+        </changelog>
+        <build_id/>
+        <min_parent_version>5.4</min_parent_version>
+        <max_parent_version/>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots/>
+  </market_entry>  
 
   <market_entry>
     <id>BTable</id>
