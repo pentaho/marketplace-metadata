@@ -1537,7 +1537,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <changelog/>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.3.99</max_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -4224,7 +4224,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Spanish language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Thai language in Pentaho 5 <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
