@@ -3152,9 +3152,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <version>
         <branch>Release</branch>
         <version>3.0.7</version>
-        <name>Latest</name>
-        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip</package_url>
-        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip</samples_url>
+        <name>3.0.7</name>
+        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip-3.0.7</package_url>
+        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip-3.0.7</samples_url>
         <max_parent_version>5.1.99</max_parent_version>
         <min_parent_version>5.0.0</min_parent_version>
         <development_stage>
@@ -3162,14 +3162,27 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
           <phase>3</phase>
         </development_stage>
       </version>
-	  <version>
+      <version>
         <branch>Release</branch>
         <version>3.0.7</version>
-        <name>Latest</name>
-        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip</package_url>
-        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip</samples_url>
+        <name>3.0.7</name>
+        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip-3.0.7</package_url>
+        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples.zip-3.0.7</samples_url>
         <max_parent_version>5.2.99</max_parent_version>
         <min_parent_version>5.2.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>Release</branch>
+        <version>3.0.8</version>
+        <name>Latest</name>
+        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin.zip-3.0.8</package_url>
+        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_samples.zip-3.0.8</samples_url>
+        <max_parent_version>5.4.99</max_parent_version>
+        <min_parent_version>5.3.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
