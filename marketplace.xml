@@ -1129,10 +1129,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>14.12.10.1</version>
+        <version>15.06.30</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cst/14.12.10.1/cst-14.12.10.1.zip
+          http://ctools.pentaho.com/files/cst/15.06.30/cst-15.06.30.zip
         </package_url>
         <description>Stable Release</description>
         <build_id/>
