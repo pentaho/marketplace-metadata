@@ -7547,6 +7547,51 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     </version>
   </versions>
 </market_entry>
+<market_entry>
+  <id>SelfServiceBI</id>
+  <type>Platform</type>
+  <name>Self Service BI</name>
+  <category>
+    <name>Dashboards</name>
+    <parent>
+      <name>Apps</name>
+    </parent>
+  </category>    
+  <description>
+    Pentaho self service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc. 
 
+    Here, user can create or use existing saiku analysis view or CDA data sources to access the data.
+  </description>
+  <author>SPEC-INDIA</author>
+  <author_url>http://www.spec-india.com/</author_url>
+  <dependencies>CDA, CCC, Saiku Analytics</dependencies>
+  <forum_url>https://github.com/SPECUSA/SelfServiceBI</forum_url>
+  <cases_url>https://github.com/SPECUSA/SelfServiceBI</cases_url>
+  <license_name>GNU General Public License</license_name>
+  <license_text>For more details see: http://www.gnu.org/licenses/</license_text>
+  <support_level>PROFESSIONALY_SUPPORTED</support_level>
+  <versions>
+    <version>
+        <branch>STABLE</branch>
+        <version>1.0.0</version>
+        <name>SelfServiceBI</name>
+        <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-1.0.0.zip</package_url>
+         <description>
+            It has the features like reusable widget(PIN), Dashboard(PINBOARD), Dynamic Rich visualization, Data Filter, Easily Embeddable, Responsive etc.
+         </description>
+      <max_parent_version>5.4</max_parent_version>
+      <min_parent_version>5.0</min_parent_version>
+      <development_stage>
+        <lane>Community</lane>
+        <phase>1</phase>
+      </development_stage>
+    </version>
+  </versions>
+  <screenshots>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/screenshot1.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/screenshot2.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/screenshot3.png</screenshot>
+  </screenshots>
+</market_entry>
 
 </market>
