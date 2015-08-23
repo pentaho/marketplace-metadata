@@ -7595,7 +7595,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
 </market_entry>
 
   <market_entry>
-    <id>sanmargar-sdtt-kettle-nip_pesel_regon_validator</id>
+    <id>sanmargar-sdtt-kettle-pesel_nip_regon_validator</id>
     <type>Step</type>
     <name>Sanmargar NIP, PESEL, REGON Validator</name>
     <category>
@@ -7623,5 +7623,5 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     <support_organization>Sanmargar Team sp. z o. o.</support_organization>
     <support_url>http://sanmargar.pl</support_url>
   </market_entry>
-  
+    
 </market>
