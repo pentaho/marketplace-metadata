@@ -7594,4 +7594,34 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   </screenshots>
 </market_entry>
 
+  <market_entry>
+    <id>sanmargar-sdtt-kettle-pesel_nip_regon_validator</id>
+    <type>Step</type>
+    <name>Sanmargar NIP, PESEL, REGON Validator</name>
+    <category>
+      <name>Sanmargar</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin offers validation and extract additional information from NIP, REGON, PESEL (Polish tax numbers)
+    </description>
+    <author>Rafal Jastrzebski</author>
+    <documentation_url>https://github.com/Sanmargar/sdtt/tree/master/sanmargar-sdtt-kettle-nip_pesel_regon_validator</documentation_url>
+    <versions>
+      <version>
+        <branch>Master</branch>
+        <version>1.0</version>
+        <package_url>https://github.com/Sanmargar/sdtt/raw/master/sanmargar-sdtt-kettle-nip_pesel_regon_validator/dist/sanmargar-sdtt-kettle-pesel_nip_regon_validator.zip</package_url>
+      </version>
+    </versions>
+    <license_name>Apache 2.0</license_name>
+    <license_text>For more details about the Apache v2.0 license see: http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>PROFESSIONALY_SUPPORTED</support_level>
+    <support_message>Supported by Sanmargar Team sp. z o. o.</support_message>
+    <support_organization>Sanmargar Team sp. z o. o.</support_organization>
+    <support_url>http://sanmargar.pl</support_url>
+  </market_entry>
+    
 </market>
