@@ -7595,7 +7595,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
 </market_entry>
 
   <market_entry>
-    <id>sanmargar-sdtt-kettle-pesel_nip_regon_validator</id>
+    <id>SanmargarPeselNipRegonValidator</id>
     <type>Step</type>
     <name>Sanmargar NIP, PESEL, REGON Validator</name>
     <category>
