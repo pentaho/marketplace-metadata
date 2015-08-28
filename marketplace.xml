@@ -7612,7 +7612,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
       <version>
         <branch>Master</branch>
         <version>1.0</version>
-        <package_url>https://github.com/Sanmargar/sdtt/raw/master/sanmargar-sdtt-kettle-nip_pesel_regon_validator/dist/sanmargar-sdtt-kettle-pesel_nip_regon_validator.zip</package_url>
+        <package_url>https://github.com/Sanmargar/sdtt/raw/master/sanmargar-sdtt-kettle-nip_pesel_regon_validator/dist/SanmargarPeselNipRegonValidator.zip</package_url>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
