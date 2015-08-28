@@ -7611,7 +7611,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
       <version>
         <branch>Stable</branch>
         <version>1.0.0</version>
-        <package_url>https://github.com/SequoiaDB/pentaho-sequoiadb-plugin</package_url>
+        <package_url>https://github.com/SequoiaDB/pentaho-sequoiadb-plugin/releases/download/v1.0.0/pentaho-sequoiadb-plugin.zip</package_url>
         <source_url>https://github.com/SequoiaDB/pentaho-sequoiadb-plugin</source_url>
         <development_stage>
           <lane>Customer</lane>
