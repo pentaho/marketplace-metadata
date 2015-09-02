@@ -7812,4 +7812,40 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   </versions>
 </market_entry>  
 
+  <market_entry>
+    <id>StreamSchemaStep</id>
+    <type>Step</type>
+    <name>Stream Schema Merge</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/graphiq-data/pdi-streamschemamerge-plugin/blob/master/README.md</documentation_url>
+    <description>Takes the union of streams with different schemas and merges them into a single stream. Allows you to merge streams without first changing the order of fields and adding constants for missing fields. If data types conflict, a new value meta will be created with a String type</description>
+    <author>Andrew Overton</author>
+    <author_url>https://team.graphiq.com/l/232/Andrew-Overton</author_url>
+    <license>MIT</license>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by Graphiq.com Inc.</support_message>
+    <support_organization>Graphiq</support_organization>
+    <dependencies/>
+    <versions>
+      <version>
+        <branch>BETA</branch>
+        <version>1.0.0</version>
+        <name>Beta</name>
+        <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/StreamSchemaMerge.zip</package_url>
+        <source_url>https://github.com/graphiq-data/pdi-streamschemamerge-plugin</source_url>
+        <description>First version of step. Functional tests written, but has not yet been tested extensively in production environment</description>
+        <build_id/>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+
 </market>
