@@ -5008,15 +5008,17 @@ With this plugin you can:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>TRUNK-SNAPSHOT</version>
+        <version>5.4.0.4-144</version>
         <package_url>
-          http://ci.pentaho.com/job/Kettle/lastSuccessfulBuild/artifact/Kettle/src-plugins/market/dist/market.zip
+          http://nexus.pentaho.org/content/groups/omni/pentaho-kettle/market/5.4.0.4-144/market-5.4.0.4-144.zip
         </package_url>
-        <source_url>http://source.pentaho.org/svnkettleroot/Kettle/trunk/src-plugins/market/</source_url>
+        <source_url>https://github.com/pentaho/pentaho-kettle/tree/5.4.0.4/plugins/market</source_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
+        <min_parent_version>5.0.0</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
       </version>
     </versions>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
