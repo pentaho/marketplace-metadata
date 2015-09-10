@@ -3226,7 +3226,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <name>Visualizations</name>
       </parent>
     </category>
-    <documentation_url>https://code.google.com/p/pentaho-fc-plugin/wiki/Main</documentation_url>
+    <documentation_url>https://github.com/xpandit/pentaho-fc-plugin/wiki</documentation_url>
     <description>
       <![CDATA[
                Pentaho FusionCharts plugin allows creating Killer Data Visualizations on Pentaho Business
@@ -3238,7 +3238,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
                <b>Note:</b> This plugin requires Pentaho version 5.0 or higher. To start using this plugin for free,
                you need to fill the form at the <a href="http://www.xpand-it.com/en/technology/fusioncharts">Xpand IT website</a> and request your license. Once you get the key you
                just need to insert it on the Pentaho User Console through the menu entry "Tools" -> "FusionChartsManager"
-               and start using Pentaho FusionCharts Plugin. For more information you can check the <a href="https://code.google.com/p/pentaho-fc-plugin/wiki/Main">wiki</a>.
+               and start using Pentaho FusionCharts Plugin. For more information you can check the <a href="https://github.com/xpandit/pentaho-fc-plugin/wiki">wiki</a>.
       ]]>
     </description>
     <author>Xpand IT</author>
@@ -3278,8 +3278,8 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <branch>Release</branch>
         <version>3.0.8</version>
         <name>Latest</name>
-        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-3.0.8.zip</package_url>
-        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_samples-3.0.8.zip</samples_url>
+        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-3.0.9.zip</package_url>
+        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_samples-3.0.9.zip</samples_url>
         <max_parent_version>5.4.99</max_parent_version>
         <min_parent_version>5.3.0</min_parent_version>
         <development_stage>
