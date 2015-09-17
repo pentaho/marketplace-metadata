@@ -7506,9 +7506,11 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     </parent>
   </category>    
   <description>
-    Pentaho self service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc. 
-
+    Pentaho self service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc.
     Here, user can create or use existing saiku analysis view or CDA data sources to access the data.
+    User Guide for plugin:  
+    https://github.com/SPECUSA/SelfServiceBI/raw/master/User%20Guide%20-%20Self%20Service%20BI.pdf
+
   </description>
   <author>SPEC-INDIA</author>
   <author_url>http://www.spec-india.com/</author_url>
