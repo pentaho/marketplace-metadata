@@ -5239,7 +5239,7 @@ With this plugin you can:
 
     </description>
     <author>Melissa Data</author>
-    <documentation_url>http://www.melissadata.com/dqt/contact-zone/index.htm</documentation_url>
+    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -5251,15 +5251,15 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <license_name>MD licensing</license_name>
+    <license_name>Product licensing provided by Melissa Data</license_name>
     <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
     </license_text>
 
-    <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
+    <support_level>3rd Party Supported by Melissa Data</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
-    <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+    <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
   </market_entry>
 
 
@@ -5283,7 +5283,7 @@ With this plugin you can:
 
     </description>
     <author>Melissa Data</author>
-    <documentation_url>http://www.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
+    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -5295,14 +5295,14 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <license_name>MD licensing</license_name>
+    <license_name>Product licensing provided by Melissa Data</license_name>
     <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
     </license_text>
-    <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
+    <support_level>3rd Party Supported by Melissa Data</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
-    <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+    <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
   </market_entry>
 
 
@@ -5333,7 +5333,7 @@ With this plugin you can:
 
     </description>
     <author>Melissa Data</author>
-    <documentation_url>http://www.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
+    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -5345,14 +5345,14 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <license_name>MD licensing</license_name>
+    <license_name>Product licensing provided by Melissa Data</license_name>
     <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
     </license_text>
-    <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
+    <support_level>3rd Party Supported by Melissa Data</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
-    <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+    <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
   </market_entry>
 
 
