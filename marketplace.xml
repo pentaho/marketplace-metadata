@@ -7663,10 +7663,9 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     <support_message>Supported by a SequoiaDB Enterprise Edition support contract.</support_message>
     <support_organization>SequoiaDB</support_organization>
     <support_url>http://bbs.sequoiadb.com/cn/forum.php?mod=forumdisplay&amp;fid=2</support_url>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/lijianhua-sdb/sequoiadbscreenshots/master/screenshot_1.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/lijianhua-sdb/sequoiadbscreenshots/master/screenshot_2.png</screenshot>
+    </screenshots>
   </market_entry>
-  <screenshots>
-    <screenshot>https://raw.githubusercontent.com/lijianhua-sdb/sequoiadbscreenshots/master/screenshot_1.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/lijianhua-sdb/sequoiadbscreenshots/master/screenshot_2.png</screenshot>
-  </screenshots>
-
 </market>
