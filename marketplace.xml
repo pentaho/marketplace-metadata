@@ -36,6 +36,55 @@
   -->
 
   <market_entry>
+    <id>pentaho-marketplace</id>
+    <type>Platform</type>
+    <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
+    <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+    <name>Pentaho Marketplace </name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <description>
+      Pentaho Marketplace allows users to explore and test the plugins
+      that are most relevant to them. This means high quality and useful
+      plugins that users can use to get the most out of their business.
+    </description>
+    <author>Pentaho</author>
+    <author_url>http://pentaho.com</author_url>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+    <license>LGPL v2</license>
+    <dependencies/>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>6.0.0.0-349</version>
+        <name>Latest snapshot build</name>
+        <package_url>
+          http://nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pentaho-marketplace/6.0.0.0-349/pentaho-marketplace-6.0.0.0-349.kar
+        </package_url>
+        <description>Build for Pentaho 6.0</description>
+        <build_id/>
+        <min_parent_version>6.0.0</min_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
     <id>marketplace</id>
     <type>Platform</type>
     <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
@@ -60,6 +109,38 @@
     <dependencies/>
     <versions>
       <version>
+        <branch>5.0</branch>
+        <version>5.0.9</version>
+        <build_id>1</build_id>
+        <name>Build for Pentaho 5.0</name>
+        <package_url>
+          http://nexus.pentaho.org/content/groups/omni/pentaho/marketplace/5.0.9/marketplace-5.0.9.zip
+        </package_url>
+        <description>Build for Pentaho 5.0</description>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.0.99</max_parent_version>
+      </version>
+      <version>
+        <branch>5.1</branch>
+        <version>5.1.2.1</version>
+        <build_id>1</build_id>
+        <name>Build for Pentaho 5.0</name>
+        <package_url>
+          http://nexus.pentaho.org/content/groups/omni/pentaho/marketplace/5.1.2.1-137/marketplace-5.1.2.1-137.zip
+        </package_url>
+        <description>Build for Pentaho 5.0</description>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+        <min_parent_version>5.1</min_parent_version>
+        <max_parent_version>5.1.99</max_parent_version>
+      </version>
+      <version>
         <branch>5.2</branch>
         <version>5.2.0.0-209</version>
         <name>Build for Pentaho 5.2</name>
@@ -75,7 +156,6 @@
           <phase>2</phase>
         </development_stage>
       </version>
-
       <version>
         <branch>5.3</branch>
         <version>5.3.0.0-213</version>
@@ -92,15 +172,15 @@
           <phase>2</phase>
         </development_stage>
       </version>
-
       <version>
         <branch>5.4</branch>
-        <version>5.4.0.0-130</version>
+        <version>5.4.0.4</version>
+        <build_id/>
         <name>Build for Pentaho 5.4</name>
         <package_url>
-          http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/marketplace/5.4.0.1-130/marketplace-5.4.0.1-130.zip       </package_url>
+          http://nexus.pentaho.org/content/groups/omni/pentaho/marketplace/5.4.0.4-149/marketplace-5.4.0.4-149.zip
+        </package_url>
         <description>Build for Pentaho 5.4</description>
-        <build_id/>
         <min_parent_version>5.4</min_parent_version>
         <max_parent_version>5.4.99</max_parent_version>
         <development_stage>
@@ -108,7 +188,6 @@
           <phase>2</phase>
         </development_stage>
       </version>
-
       <version>
         <branch>TRUNK</branch>
         <version>TRUNK-SNAPSHOT</version>
@@ -117,8 +196,8 @@
         <package_url>
           http://ci.pentaho.com/job/marketplace-4.8/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip
         </package_url>
-        <description>The latest development snapshot
-          build.
+        <description>
+          The latest development snapshot build.
         </description>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
@@ -127,40 +206,7 @@
           <phase>2</phase>
         </development_stage>
       </version>
-      <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <build_id>49</build_id>
-        <name>Build for Pentaho 5.0</name>
-        <package_url>
-          http://nexus.pentaho.org/content/groups/omni/pentaho/marketplace/5.1.0.0-752/marketplace-5.1.0.0-752.zip
-        </package_url>
-        <description>Build for Pentaho 5.0</description>
-        <development_stage>
-          <lane>Customer</lane>
-          <phase>2</phase>
-        </development_stage>
-        <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.1.99</max_parent_version>
-      </version>
-
-      <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <name>Latest snapshot build</name>
-        <package_url>
-          http://ci.pentaho.com/job/marketplace/lastSuccessfulBuild/artifact/dist/marketplace-6.0-SNAPSHOT.zip
-        </package_url>
-        <description>Build for Pentaho 6.0</description>
-        <build_id>95</build_id>
-        <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.99</max_parent_version>
-        <development_stage>
-          <lane>Customer</lane>
-          <phase>2</phase>
-        </development_stage>
-      </version>
-      </versions>
+    </versions>
     <screenshots>
       <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png</screenshot>
       <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png</screenshot>
@@ -319,7 +365,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>25</build_id>
+        <build_id>35</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -340,7 +386,7 @@
         <description>
           Build for Pentaho 5
         </description>
-        <build_id>25</build_id>
+        <build_id>35</build_id>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
@@ -531,7 +577,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>7</build_id>
+        <build_id>8</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -552,7 +598,7 @@
         <description>
           Build for Pentaho 5
         </description>
-        <build_id>7</build_id>
+        <build_id>8</build_id>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.9</max_parent_version>        
         <development_stage>
@@ -750,7 +796,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>20</build_id>
+        <build_id>31</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -771,7 +817,7 @@
         <description>
           Build for Pentaho 5.x
         </description>
-        <build_id>20</build_id>
+        <build_id>31</build_id>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.9</max_parent_version>        
         <development_stage>
@@ -1560,7 +1606,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>4</build_id>
+        <build_id>5</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -1578,7 +1624,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>4</build_id>
+        <build_id>5</build_id>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
@@ -2760,7 +2806,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         ]]>
         </changelog>
         <build_id>1</build_id>
-        <max_parent_version/>
+        <max_parent_version>5.4.99</max_parent_version>
         <min_parent_version>5.3</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -3226,7 +3272,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <name>Visualizations</name>
       </parent>
     </category>
-    <documentation_url>https://code.google.com/p/pentaho-fc-plugin/wiki/Main</documentation_url>
+    <documentation_url>https://github.com/xpandit/pentaho-fc-plugin/wiki</documentation_url>
     <description>
       <![CDATA[
                Pentaho FusionCharts plugin allows creating Killer Data Visualizations on Pentaho Business
@@ -3238,7 +3284,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
                <b>Note:</b> This plugin requires Pentaho version 5.0 or higher. To start using this plugin for free,
                you need to fill the form at the <a href="http://www.xpand-it.com/en/technology/fusioncharts">Xpand IT website</a> and request your license. Once you get the key you
                just need to insert it on the Pentaho User Console through the menu entry "Tools" -> "FusionChartsManager"
-               and start using Pentaho FusionCharts Plugin. For more information you can check the <a href="https://code.google.com/p/pentaho-fc-plugin/wiki/Main">wiki</a>.
+               and start using Pentaho FusionCharts Plugin. For more information you can check the <a href="https://github.com/xpandit/pentaho-fc-plugin/wiki">wiki</a>.
       ]]>
     </description>
     <author>Xpand IT</author>
@@ -3276,10 +3322,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
       <version>
         <branch>Release</branch>
-        <version>3.0.8</version>
+        <version>3.0.9</version>
         <name>Latest</name>
-        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-3.0.8.zip</package_url>
-        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_samples-3.0.8.zip</samples_url>
+        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-3.0.9.zip</package_url>
+        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_samples-3.0.9.zip</samples_url>
         <max_parent_version>5.4.99</max_parent_version>
         <min_parent_version>5.3.0</min_parent_version>
         <development_stage>
@@ -4819,7 +4865,7 @@ any translation issues or suggestions for improvement
   </market_entry>
 
   <market_entry>
-    <id>DummyPlugin</id>
+    <id>kettle-dummy-plugin</id>
     <type>Step</type>
     <name>Dummy step plugin</name>
     <category>
@@ -4860,7 +4906,7 @@ any translation issues or suggestions for improvement
 
 
   <market_entry>
-    <id>ArffOutput</id>
+    <id>arff-output</id>
     <type>Step</type>
     <name>ARFF Output</name>
     <category>
@@ -4993,59 +5039,43 @@ With this plugin you can:
 
 
   <market_entry>
-    <id>EasyDQ</id>
-    <type>Step</type>
-    <name>EasyDataQuality for Pentaho</name>
+    <id>pdi-marketplace</id>
+    <type>Mixed</type>
+    <name>PDI Marketplace </name>
     <category>
-      <name>Data Quality</name>
+      <name>Enhancements</name>
       <parent>
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>
-      Combine the leading open source ETL tool with the leading data cleansing functions!
-
-      EasyDQ.com delivers on demand Data Quality functions that are fully integrated with Pentaho Data Integration / Kettle.
-
-      Data Quality functions by Human Inference and EasyDQ.com available in Pentaho Data Integration:
-
-      * Data profiling (through DataCleaner)
-      * Name cleansing
-      * Address cleansing
-      * Phone cleansing
-      * Email cleansing
-      * Detect and merge duplicates (through DataCleaner)
-
-      Register now at www.easydq.com and start increasing the quality of your data.
-
-    </description>
-    <img>http://www.easydq.com/media/120433/teaser_pentaho_screenshots.png</img>
-    <author>EasyDQ - Human Inference</author>
-    <author_url>http://www.easydq.com</author_url>
-    <documentation_url>http://www.easydq.com/pentaho</documentation_url>
+    <description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
+    <author>Pentaho</author>
+    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>1.19</version>
-        <package_url>http://sourceforge.net/projects/easydq-kettle/files/EasyDQ-PDI-plugin-1.19.zip/download
+        <version>6.0.0.0-349</version>
+        <package_url>
+          http://nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pdi-marketplace/6.0.0.0-349/pdi-marketplace-6.0.0.0-349.kar
         </package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
+        <min_parent_version>6.0.0</min_parent_version>
       </version>
     </versions>
-    <license_name>Proprietary</license_name>
-    <license_text>To get access to EasyDQ.com and the data quality services, please register at
-https://www.easydq.com/register
+    <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
     </license_text>
-
-    <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Please contact Human Inference Support at +31 (0)26 3550600 or email support@humaninference.com</support_message>
-    <support_organization>Human Inference</support_organization>
-    <support_url>http://www.easydq.com/faq</support_url>
+    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
+    <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
+    <support_organization>Pentaho</support_organization>
+    <support_url>http://www.pentaho.com/services/support/pdi</support_url>
   </market_entry>
-
 
   <market_entry>
     <id>market</id>
@@ -5063,15 +5093,17 @@ https://www.easydq.com/register
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>TRUNK-SNAPSHOT</version>
+        <version>5.4.0.4-144</version>
         <package_url>
-          http://ci.pentaho.com/job/Kettle/lastSuccessfulBuild/artifact/Kettle/src-plugins/market/dist/market.zip
+          http://nexus.pentaho.org/content/groups/omni/pentaho-kettle/market/5.4.0.4-144/market-5.4.0.4-144.zip
         </package_url>
-        <source_url>http://source.pentaho.org/svnkettleroot/Kettle/trunk/src-plugins/market/</source_url>
+        <source_url>https://github.com/pentaho/pentaho-kettle/tree/5.4.0.4/plugins/market</source_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
+        <min_parent_version>5.0.0</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
       </version>
     </versions>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
@@ -5085,7 +5117,6 @@ https://www.easydq.com/register
     <support_organization>Pentaho</support_organization>
     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
   </market_entry>
-
 
   <market_entry>
     <id>CmisInput</id>
@@ -5292,7 +5323,7 @@ https://www.easydq.com/register
 
     </description>
     <author>Melissa Data</author>
-    <documentation_url>http://www.melissadata.com/dqt/contact-zone/index.htm</documentation_url>
+    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -5304,15 +5335,15 @@ https://www.easydq.com/register
         </development_stage>
       </version>
     </versions>
-    <license_name>MD licensing</license_name>
+    <license_name>Product licensing provided by Melissa Data</license_name>
     <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
     </license_text>
 
-    <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
+    <support_level>3rd Party Supported by Melissa Data</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
-    <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+    <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
   </market_entry>
 
 
@@ -5336,7 +5367,7 @@ https://www.easydq.com/register
 
     </description>
     <author>Melissa Data</author>
-    <documentation_url>http://www.melissadata.com/dqt/contact-zone/global-verify-component.htm</documentation_url>
+    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -5348,14 +5379,14 @@ https://www.easydq.com/register
         </development_stage>
       </version>
     </versions>
-    <license_name>MD licensing</license_name>
+    <license_name>Product licensing provided by Melissa Data</license_name>
     <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
     </license_text>
-    <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
+    <support_level>3rd Party Supported by Melissa Data</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
-    <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+    <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
   </market_entry>
 
 
@@ -5386,7 +5417,7 @@ https://www.easydq.com/register
 
     </description>
     <author>Melissa Data</author>
-    <documentation_url>http://www.melissadata.com/dqt/contact-zone/personator-component.htm</documentation_url>
+    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -5398,14 +5429,14 @@ https://www.easydq.com/register
         </development_stage>
       </version>
     </versions>
-    <license_name>MD licensing</license_name>
+    <license_name>Product licensing provided by Melissa Data</license_name>
     <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
     </license_text>
-    <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Please contact Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
+    <support_level>3rd Party Supported by Melissa Data</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
-    <support_url>http://www.melissadata.com/webhelp/pentaho/index.htm#Pentaho.htm</support_url>
+    <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
   </market_entry>
 
 
@@ -6524,7 +6555,7 @@ https://www.easydq.com/register
   </market_entry>
 
   <market_entry>
-    <id>TeraDataBulkLoader</id>
+    <id>teradata-tpt-bulk-loader</id>
     <type>Step</type>
     <name>Teradata TPT Insert Upsert Bulk Loader</name>
     <category>
@@ -7153,6 +7184,7 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
         <name>0.5</name>
         <package_url>http://sourceforge.net/projects/pdijira/files/pdi-jira-0.5.zip/download</package_url>
         <min_parent_version>4.4</min_parent_version>
+        <max_parent_version>4.99</max_parent_version>
       </version>
     </versions>
   </market_entry>
@@ -7558,9 +7590,12 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     </parent>
   </category>    
   <description>
-    Pentaho self service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc. 
-
-    Here, user can create or use existing saiku analysis view or CDA data sources to access the data.
+          <![CDATA[
+<p>Pentaho Self Service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc.</p>
+<br/>
+<p>Here User can create or use existing Saiku Analysis view or CDA data sources to access the data.</p><br />
+<p><a target='NO_BLANK' href='https://github.com/SPECUSA/SelfServiceBI/raw/master/User_Guide-Self_Service_BI.pdf/'>Click here</a> to download User Guide for this plugin.</p><br/>
+      ]]>
   </description>
   <author>SPEC-INDIA</author>
   <author_url>http://www.spec-india.com/</author_url>
