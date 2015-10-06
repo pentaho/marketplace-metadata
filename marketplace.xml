@@ -397,13 +397,13 @@
       
       <version>
         <branch>TRUNK</branch>
-        <version>6.0-SNAPSHOT</version>
+        <version>6.1-SNAPSHOT</version>
         <name>TRUNK</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-6.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-6.1-SNAPSHOT.zip
         </package_url>
         <samples_url>
-          http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-samples-6.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-samples-6.1-SNAPSHOT.zip
         </samples_url>
         <description>
           Build for Pentaho 6
@@ -609,13 +609,13 @@
       
       <version>
         <branch>TRUNK</branch>
-        <version>6.0-SNAPSHOT</version>
+        <version>6.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-6.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-6.1-SNAPSHOT.zip
         </package_url>
         <samples_url>
-          http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-6.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-6.1-SNAPSHOT.zip
         </samples_url>
         <description>
           Build for Pentaho 6
@@ -828,13 +828,13 @@
       
       <version>
         <branch>TRUNK</branch>
-        <version>6.0-SNAPSHOT</version>
+        <version>6.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-6.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-6.1-SNAPSHOT.zip
         </package_url>
         <samples_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-6.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-6.1-SNAPSHOT.zip
         </samples_url>
         <description>
           Build for Pentaho 6
@@ -1028,10 +1028,10 @@
       
     <version>
         <branch>TRUNK</branch>
-        <version>6.0-SNAPSHOT</version>
+        <version>6.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cgg/lastSuccessfulBuild/artifact/cgg-pentaho5/dist/cgg-6.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cgg/lastSuccessfulBuild/artifact/cgg-pentaho5/dist/cgg-6.1-SNAPSHOT.zip
         </package_url>
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
