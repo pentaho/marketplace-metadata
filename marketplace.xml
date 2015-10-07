@@ -1763,8 +1763,8 @@ A landing tab can optionally be presented, which can be used to any of the prede
 		<branch>ENTERPRISE</branch>
 		<version>3.3-EE</version>
 		<name>Stable</name>
-		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.3.zip</package_url>
-		<description>3.3 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.6.zip</package_url>
+		<description>3.6 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
 		<max_parent_version>6.0</max_parent_version>
