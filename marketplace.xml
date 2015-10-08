@@ -7776,4 +7776,40 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
       </version>
     </versions>
   </market_entry>
+<market_entry>
+  <id>SlackBotJobEntry</id>
+  <type>JobEntry</type>
+  <name>SlackBot</name>
+  <category>
+    <name>Enhancements</name>
+    <parent>
+      <name>PDI Plugins</name>
+    </parent>
+  </category>
+  <documentation_url>https://github.com/graphiq-data/pdi-slackbot-plugin/blob/master/README.md</documentation_url>
+  <description>Allows sending messages to Slack groups or channels using the Slack web API. Can be used to replace email for notification of job success/failure.</description>
+  <author>Andrew Overton, Matt Rybak</author>
+  <author_url>https://team.graphiq.com/compare/232-270/Andrew-Overton-vs-Matthew-Rybak</author_url>
+  <license>MIT</license>
+  <support_level>COMMUNITY_SUPPORTED</support_level>
+  <support_message>Supported by Graphiq.com Inc.</support_message>
+  <support_organization>Graphiq</support_organization>
+  <dependencies/>
+  <versions>
+    <version>
+      <branch>BETA</branch>
+      <version>1.0.0</version>
+      <name>Beta</name>
+      <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/SlackBot.zip</package_url>
+      <source_url>https://github.com/graphiq-data/pdi-slackbot-plugin</source_url>
+      <description>First version of step. Functional tests written, but has not yet been tested extensively in production environment</description>
+      <build_id/>
+      <development_stage>
+        <lane>Community</lane>
+        <phase>1</phase>
+      </development_stage>
+    </version>
+  </versions>
+</market_entry>  
+
 </market>
