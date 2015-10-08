@@ -7766,7 +7766,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/FastJsonInput.zip</package_url>
         <build_id></build_id>
         <development_stage>
