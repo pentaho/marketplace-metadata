@@ -7668,4 +7668,41 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
       <screenshot>https://raw.githubusercontent.com/lijianhua-sdb/sequoiadbscreenshots/master/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
+
+  <market_entry>
+    <id>pdi-drill-jdbc</id>
+    <type>Database</type>
+    <name>Apache Drill JDBC Connector</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This PDI 6.0+ plugin provides a database dialect for Apache Drill. Note that the only steps/entries this will 
+      work with are the ones where you can specify the full query, as the JDBC API is not fully implemented by the driver.
+    </description>
+    <author>Matt Burgess</author>
+    <documentation_url>https://github.com/mattyb149/pdi-drill-jdbc/wiki</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>0.9</version>
+        <package_url>https://pentaho.box.com/shared/static/bm3trmjs4lm98h6bqmfe4kgt3u0gvftv.kar</package_url>
+        <description>Plugin for Pentaho 6.0</description>
+        <min_parent_version>6.0.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <license>Apache 2.0</license>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+    <support_organization>Pentaho Developer Community</support_organization>
+    <support_url>http://kettle.pentaho.com</support_url>
+  </market_entry>
 </market>
