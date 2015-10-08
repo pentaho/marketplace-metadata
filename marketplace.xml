@@ -394,7 +394,7 @@
           <phase>2</phase>
         </development_stage>
       </version>
-      
+
       <version>
         <branch>TRUNK</branch>
         <version>6.1-SNAPSHOT</version>
@@ -417,13 +417,13 @@
         </development_stage>
       </version>
 
-      
-      
-      
+
+
+
     </versions>
-    
-    
-    
+
+
+
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-1.png</screenshot>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdf/cdf-2.png</screenshot>
@@ -600,13 +600,13 @@
         </description>
         <build_id>8</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
         </development_stage>
       </version>
-      
+
       <version>
         <branch>TRUNK</branch>
         <version>6.1-SNAPSHOT</version>
@@ -622,15 +622,15 @@
         </description>
         <build_id>331</build_id>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.9</max_parent_version>        
+        <max_parent_version>6.0.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
         </development_stage>
       </version>
-      
-      
-      
+
+
+
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cda/cda-01.png</screenshot>
@@ -819,13 +819,13 @@
         </description>
         <build_id>35</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
         </development_stage>
       </version>
-      
+
       <version>
         <branch>TRUNK</branch>
         <version>6.1-SNAPSHOT</version>
@@ -841,14 +841,14 @@
         </description>
         <build_id>517</build_id>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.9</max_parent_version>        
+        <max_parent_version>6.0.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
         </development_stage>
-      </version>      
-      
-      
+      </version>
+
+
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cde/cde-1.png</screenshot>
@@ -1018,14 +1018,14 @@
         </description>
         <build_id>2</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
         </development_stage>
       </version>
-      
-      
+
+
     <version>
         <branch>TRUNK</branch>
         <version>6.1-SNAPSHOT</version>
@@ -1038,13 +1038,13 @@
         </description>
         <build_id>87</build_id>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.9</max_parent_version>        
+        <max_parent_version>6.0.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
         </development_stage>
-      </version>      
-      
+      </version>
+
     </versions>
   </market_entry>
 
@@ -1134,7 +1134,7 @@
 	    	<description/>
 		    <build_id>20</build_id>
             <max_parent_version>4.9</max_parent_version>
-	    	<min_parent_version>1.0</min_parent_version>		
+	    	<min_parent_version>1.0</min_parent_version>
 		</version>
       <version>
         <branch>master</branch>
@@ -7588,7 +7588,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     <parent>
       <name>Apps</name>
     </parent>
-  </category>    
+  </category>
   <description>
           <![CDATA[
 <p>Pentaho Self Service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc.</p>
@@ -7679,7 +7679,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>This PDI 6.0+ plugin provides a database dialect for Apache Drill. Note that the only steps/entries this will 
+    <description>This PDI 6.0+ plugin provides a database dialect for Apache Drill. Note that the only steps/entries this will
       work with are the ones where you can specify the full query, as the JDBC API is not fully implemented by the driver.
     </description>
     <author>Matt Burgess</author>
@@ -7716,7 +7716,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>This PDI 6.0+ plugin provides a database dialect for Presto (https://prestodb.io/). Note that the only steps/entries this will 
+    <description>This PDI 6.0+ plugin provides a database dialect for Presto (https://prestodb.io/). Note that the only steps/entries this will
       work with are the ones where you can specify the full query, as the JDBC API is not fully implemented by the driver.
     </description>
     <author>Matt Burgess</author>
@@ -7741,5 +7741,39 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
+  </market_entry>
+
+  <market_entry>
+    <id>FastJsonInput</id>
+    <type>Step</type>
+    <name>Fast JSON Input</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>Alternate version of the "JSON Input" step that uses Jayway JsonPath instead of a parser based on JavaScript.</description>
+    <documentation_url>https://github.com/graphiq-data/pdi-fastjsoninput-plugin/blob/master/README.md</documentation_url>
+    <author>Etienne Dube, Jesse Adametz</author>
+    <cases_url>https://github.com/graphiq-data/pdi-fastjsoninput-plugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by Graphiq.com Inc.</support_message>
+    <support_organization>Graphiq</support_organization>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0.1</version>
+        <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/FastJsonInput.zip</package_url>
+        <build_id></build_id>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
   </market_entry>
 </market>
