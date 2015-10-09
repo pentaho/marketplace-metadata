@@ -600,7 +600,7 @@
         </description>
         <build_id>8</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>
+        <max_parent_version>5.4.9</max_parent_version>        
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -796,7 +796,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>35</build_id>
+        <build_id>36</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -817,9 +817,9 @@
         <description>
           Build for Pentaho 5.x
         </description>
-        <build_id>35</build_id>
+        <build_id>36</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>
+        <max_parent_version>5.4.9</max_parent_version>        
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -1018,7 +1018,7 @@
         </description>
         <build_id>2</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>
+        <max_parent_version>5.4.9</max_parent_version>        
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -1134,7 +1134,7 @@
 	    	<description/>
 		    <build_id>20</build_id>
             <max_parent_version>4.9</max_parent_version>
-	    	<min_parent_version>1.0</min_parent_version>
+	    	<min_parent_version>1.0</min_parent_version>		
 		</version>
       <version>
         <branch>master</branch>
@@ -7768,7 +7768,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
         <branch>Stable</branch>
         <version>1.0.2</version>
         <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/FastJsonInput.zip</package_url>
-        <build_id></build_id>
+        <build_id/>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
