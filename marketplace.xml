@@ -1978,6 +1978,77 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
   </market_entry>
 
   <market_entry>
+    <id>tapa</id>
+    <type>Platform</type>
+    <img>http://oncase.com.br/tapa.svg</img>
+    <small_img>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/small_img.png</small_img>
+    <name>Tapa</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/marpontes/tapa</documentation_url>
+    <description><![CDATA[
+    <p>
+      Tapa is the easiest way to chcange the appearance of your BI Server.
+    </p>
+    It a <strong>non-invasive</strong> plugin that allows you to:
+      <ul>
+        <li>Quickly <strong>change your login page</strong> for one of our templates;</li>
+        <li><strong>Customize text</strong> from the existing templates from the UI;</li>
+        <li><strong>Customize images</strong> in the existing templates from the UI;</li>
+        <li>Place the <strong>logo of your company on the header</strong> of PUC;</li>
+        <li>Replace Pentaho's <strong>welcome page</strong> for your custom HTML page;</li>
+        <li><strong>Develop your own template</strong> and keep all into one package;</li>
+        <li>Easily <strong>migrate</strong> your server's Tapa-like UI customizations;</li>
+        <li>Easily <strong>inject css/js</strong> files into User Console's ui contexts;</li>
+      </ul>
+      <p>
+        For demo video, repository and more documentation, please visit <a target="_blank" href="https://github.com/marpontes/tapa">github.com/marpontes/tapa</a>.
+      </p>
+    ]]>
+      
+    </description>
+    <author>Oncase</author>
+    <author_url>http://oncase.com.br/</author_url>
+    <author_logo>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/oncase.png</author_logo>
+    <license>MIT</license>
+    <dependencies/>
+    <versions>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>0.3.1</version>
+        <name>Latest snapshot build</name>
+        <package_url>
+          https://github.com/marpontes/tapa/releases/download/v0.3.1/tapa-0.3.1.zip
+        </package_url>
+        <description>Works for both - Pentaho 5.3+ and 6.0</description>
+        <build_id/>
+        <min_parent_version>5.3.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot001.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot002.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot003.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot004.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot005.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot006.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot007.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot008.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
     <id>pentaho-performance-monitoring</id>
     <type>Platform</type>
     <img>
