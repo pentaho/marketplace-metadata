@@ -5575,7 +5575,7 @@ With this plugin you can:
     <type>Step</type>
 	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s96.png</img>
     <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s32.png</small_img>
-    <name>MDPersonator -- US & CA Contact Verficiation and Append</name>
+    <name>MDPersonator -- US and CA Contact Verficiation and Append</name>
     <category>
       <name>Data Quality</name>
       <parent>
