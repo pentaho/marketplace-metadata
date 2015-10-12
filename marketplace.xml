@@ -304,6 +304,29 @@
         </development_stage>
       </version>
 
+
+      <version>
+        <branch>6.0</branch>
+        <version>6.0.0.0-353</version>
+        <name>6.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf/6.0.0.0-353/pentaho-cdf-6.0.0.0-353.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-samples/6.0.0.0-353/pentaho-cdf-samples-6.0.0.0-353.zip
+        </samples_url>
+        <description>6.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+
       <version>
         <branch>STABLE</branch>
         <version>15.06.30</version>
@@ -515,6 +538,28 @@
           <phase>4</phase>
         </development_stage>
       </version>
+
+
+      <version>
+        <branch>6.0</branch>
+        <version>6.0.0.0-353</version>
+        <name>6.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cda/6.0.0.0-353/cda-6.0.0.0-353.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cda-samples/6.0.0.0-353/cda-samples-6.0.0.0-353.zip
+        </samples_url>
+        <description>6.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
 
       <version>
@@ -732,6 +777,28 @@
 
 
       <version>
+        <branch>6.0</branch>
+        <version>6.0.0.0-353</version>
+        <name>6.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-dd/6.0.0.0-353/pentaho-cdf-dd-6.0.0.0-353.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/pentaho-cdf-dd-solution/6.0.0.0-353/pentaho-cdf-dd-solution-6.0.0.0-353.zip
+        </samples_url>
+        <description>6.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+
+      <version>
         <branch>STABLE</branch>
         <version>15.06.30</version>
         <name>Stable</name>
@@ -939,6 +1006,22 @@
       </version>
 
 
+      <version>
+        <branch>6.0</branch>
+        <version>6.0.0.0-353</version>
+        <name>6.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho/cgg/6.0.0.0-353/cgg-6.0.0.0-353.zip
+        </package_url>
+        <description>6.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
 
 
 
