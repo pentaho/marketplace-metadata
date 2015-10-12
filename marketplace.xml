@@ -5430,58 +5430,70 @@ With this plugin you can:
     </versions>
   </market_entry>
 
-
   <market_entry>
     <id>MDCheckPlugin</id>
     <type>Step</type>
-    <name>MDCheck</name>
+	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_ContactVerify_s96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_ContactVerify_s32.png</small_img>
+    <name>MDCheck - Name, Address, Phone, Email, IP validation and record consolidation</name>
     <category>
       <name>Data Quality</name>
       <parent>
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Melissa Data Contact Verification Tools:
-
-      Contact Verify Component
-      • Standardize, verify, and correct U.S. and Canadian addresses
-      • Add County and census information.
-      • Verify and normalize U.S. and Canadian phones on a 7-10 digit level
-      • Parse names, genderize, and detect suspicious words or companies in name field
-      • Geocode addresses by assigning rooftop lat/long coordinates
-      • USPS CASS certified engine
-
-      Processing Options - (Local)(Cloud)(Dedicated Cloud)
-
-      SmartMover Component
-      • U.S./Canadian change of address processing to update addresses of people or
-      businesses that have moved
-      • USPS Certified NCOA (National Change of Address)
-
-      Processing Options -(Cloud Only)
-
-      MatchUp Component
-      • Identify duplicate records with domain specific knowledge of contact information
-      • Allows users to define and customize powerful matching algorithms based on their data.
-      • Choose the unique or winning record -- known as the "Golden Record" (Recently added)
-      • Consolidate records and data with survivorship rules (Recently added)
-
-      Processing Options -(Local Only)
-
-      IP Locator Component
-      • Identify web visitor's geographic location
-      • Append Latitude, longitude, ISP, City, State, Country
-      • Reduce fraud and geo target
-
-      Processing Options -(Local)(Cloud)(Dedicated Cloud)
-
+    <description>
+	<h1>Data Quality Components for Pentaho by Melissa Data:</h1>
+      <hr>
+      <h2>Contact Verify Component</h2>
+	  <ul>
+         <li>Standardize, verify, and correct U.S. and Canadian addresses</li>
+         <li>Add County and census information.</li>
+         <li>Verify and normalize U.S. and Canadian phones on a 7-10 digit level</li>
+         <li>Parse names, genderize, and detect suspicious words or companies in name field</li>
+         <li>Geocode addresses by assigning rooftop lat/long coordinates</li>
+         <li>USPS CASS certified engine</li>
+	 </ul>
+      <h3>Processing Options - (Local,Cloud,Dedicated Cloud)</h3>
+	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+     <hr>
+      <h2>SmartMover Component</h2>
+	  <ul>
+		<li>U.S./Canadian change of address processing to update addresses of people or businesses that have moved</li>
+		<li>USPS&#0169 NCOALink&#0153 Certified</li>
+		<li>Canada Post Certified Change of Address</li>
+      </ul>
+      <h3>Processing Options -(Cloud)</h3>
+	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+     <hr>
+      <h2>MatchUp Component</h2>
+	  <ul>
+		<li>Identify duplicate records with domain specific knowledge of contact information</li>
+		<li>Match records even with data inconsistencies </li>
+		<li>Allows users to define, customize , and cascade powerful match codes </li>
+		<li>Supports 16 State of the art Fuzzy Match Algorithms</li>
+		<li>Choose the unique or winning record -- known as the "Golden Record" (Recently added)</li>
+		<li>Consolidate duplicate records and data with “Survivorship” techniques</li>
+      </ul>
+      <h3>Processing Options -(Local)</h3>
+	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+     <hr>
+      <h2>IP Locator Component</h2>
+	  <ul>
+		<li>Identify web visitor's geographic location</li>
+		<li>Contains comprehensive mobile IP location</li>
+		<li>Append Latitude, longitude, ISP, City, State, Country</li>
+      </ul>
+      <h3>Processing Options -(Cloud)</h3>
+	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+    <hr>
     </description>
     <author>Melissa Data</author>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.2.0</version>
+        <version>5.4.1</version>
         <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -5490,43 +5502,55 @@ With this plugin you can:
       </version>
     </versions>
     <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
-    </license_text>
-
+    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
     <support_level>3rd Party Supported by Melissa Data</support_level>
-    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
-    </support_message>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
+	<screenshots>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_ContactVerify_Address1.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_ContactVerify_Phone1.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_MatchUp_Options.png</screenshot>
+	</screenshots>
   </market_entry>
 
 
   <market_entry>
-    <id>MDGlobalAddressPlugin</id>
+    <id>MDGlobalVerifyPlugin</id>
     <type>Step</type>
-    <name>MDGlobalVerify</name>
+	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_GlobalVerify_s96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_GlobalVerify_s32.png</small_img>
+    <name>MDGlobalVerify -- Cleanse Worldwide Contact Records</name>
     <category>
       <name>Data Quality</name>
       <parent>
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Global Verify Component
-      • Address verification for over 240 countries
-      • Parses and Standardizes data based on country specific rules
-      • Transliteration of many major character sets and display output in either native or Roman characters
-      • Append Geographic coordinates for many worldwide postal addresses.
-
-      Processing Options -(Cloud Only)
-
+    <description>
+	  <h1>Global Data Quality Component for Pentaho by Melissa Data:</h1>
+      <hr>
+      <h2>Global Verify Component</h2>
+	  <ul>
+		<li>Verify and correct postal addresses for over 240 countries</li>
+		<li>Parse address hierarchies and return mailing format</li>
+		<li>Transliterate major character sets and display output in either native or Latin characters</li>
+		<li>Geocode coordinates</li>
+		<li>Verify emails to the box level</li>
+		<li>Verify Phones world wide</li>
+		<li>Parse names with country specific rulesets</li>
+	 </ul>
+      <h3>Processing Options - (Cloud)</h3>
+	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+     <hr>
     </description>
     <author>Melissa Data</author>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>4.4.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDGlobalAddress.zip</package_url>
+        <version>5.4.1</version>
+        <package_url>http://update2.melissadata.com/pentaho/MDGlobalVerify.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -5534,48 +5558,51 @@ With this plugin you can:
       </version>
     </versions>
     <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
-    </license_text>
+    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
     <support_level>3rd Party Supported by Melissa Data</support_level>
-    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
-    </support_message>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
+	<screenshots>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_GlobalVerify_AddressInput.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_GlobalVerify_Email.png</screenshot>
+	</screenshots>
   </market_entry>
 
 
   <market_entry>
     <id>MDPersonatorPlugin</id>
     <type>Step</type>
-    <name>MDPersonator</name>
+	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s32.png</small_img>
+    <name>MDPersonator -- US & CA Contact Verficiation and Append</name>
     <category>
       <name>Data Quality</name>
       <parent>
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Melissa Data Personator Component - Offering Melissa Data's flagship service
-      in an easy to use Pentaho Component
-
-      • Verifies name corresponds to address, email, and phone data
-      • Appends missing name and company name, phone number, and/or email address
-      • Append Latitude, Longitude along with County and Census data.
-      • Free-form input allows for unparsed or un-delimited data. The service then can parse,
-      standardize, correct, verify and append missing information.
-      • Move update - Identifies moves with up to a 10 year history.
-      • Append DEMOGRAPHIC data such as Date of Birth, Household Income, Occupation,
-        Length of Residence and more! (Recently Added)
-
-      Processing Options -(Cloud Only)
-
-
+    <description>
+	<h1>Personator Component for Pentaho by Melissa Data:</h1>
+      <hr>
+      <h2>Personator Component</h2>
+	  <ul>
+		<li>Verifies name corresponds to address, email, and phone data</li>
+		<li>Append missing names, companies, phone number, and/or email address</li>
+		<li>Append Latitude, Longitude along with County and Census data.</li>
+		<li>Free-form input allows for unparsed or un-delimited data. </li>
+		<li>Move update - Identifies moves with up to a 10 year history.</li>
+		<li>Append Demographic attributes like: Date of Birth, Household Income, Occupation,Length of Residence and more!</li>
+	 </ul>
+      <h3>Processing Options - (Cloud)</h3>
+     <hr>
     </description>
     <author>Melissa Data</author>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.2.0</version>
+        <version>5.4.1</version>
         <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -5584,15 +5611,70 @@ With this plugin you can:
       </version>
     </versions>
     <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm
-    </license_text>
+    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
     <support_level>3rd Party Supported by Melissa Data</support_level>
     <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
     </support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
+	<screenshots>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_Personator_Input.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_Personator_Output.png</screenshot>
+	</screenshots>
   </market_entry>
-
+  
+  <market_entry>
+    <id>MDProfilerPlugin</id>
+    <type>Step</type>
+	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Profiler_s96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Profiler_s32.png</small_img>
+    <name>MDProfiler -- Data Profiler</name>
+    <category>
+      <name>Data Quality</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>
+	<h1>Profiler Component for Pentaho by Melissa Data:</h1>
+      <hr>
+      <h2>Profiler Component</h2>
+	  <ul>
+		<li>Supports building a target schema dynamically with sizes, nulls, unique counts, length, and field identification</li>
+		<li>Over 100 Column and Table level metrics</li>
+		<li>Profile for Nulls, Blanks, Patterns</li>
+		<li>Allows regexes and error thresholds to be set for monitoring</li>
+		<li>Uses sophisticated matching to output fuzzy and exact match counts</li>
+	 </ul>
+      <h3>Processing Options - (Cloud)</h3>
+	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+     <hr>
+    </description>
+    <author>Melissa Data</author>
+    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>5.4.1</version>
+        <package_url>http://update2.melissadata.com/pentaho/MDProfiler.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <license_name>Product licensing provided by Melissa Data</license_name>
+    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+    <support_level>3rd Party Supported by Melissa Data</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
+    </support_message>
+    <support_organization>Melissa Data</support_organization>
+    <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
+	<screenshots>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_Profiler_Input.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_Profiler_Output.png</screenshot>
+	</screenshots>
+  </market_entry>
 
   <market_entry>
     <id>CiviCrmInput</id>
