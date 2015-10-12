@@ -7291,6 +7291,64 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
       </version>
     </versions>
   </market_entry>
+  <market_entry>
+    <id>kettle-docker</id>
+    <type>Step</type>
+    <name>Docker Plugin</name>
+	<category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>Executes a subtransformation inside a Docker container, reading rows from and writing rows to the Docker Trans Executor step in the parent</description>
+    <documentation_url>https://github.com/brosander/kettle-docker</documentation_url>
+    <author>Bryan Rosander</author>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+    <support_url>https://github.com/brosander/kettle-docker/issues</support_url>
+    <versions>
+      <version>
+        <branch>Development</branch>
+        <version>0.0.1</version>
+        <name>0.0.1</name>
+        <package_url>https://dl.bintray.com/brosander/maven/com/github/brosander/kettle/docker/0.0.1/kettle-docker-0.0.1.zip</package_url>
+        <min_parent_version>6.0</min_parent_version>
+      </version>
+    </versions>
+  </market_entry>
+  <market_entry>
+    <id>kettle-socket-io</id>
+    <type>Step</type>
+    <name>Socket IO Plugin</name>
+	<category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>Adds steps oriented around reading/writing rows via sockets</description>
+    <documentation_url>https://github.com/brosander/kettle-socket-io</documentation_url>
+    <author>Bryan Rosander</author>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
+    <support_url>https://github.com/brosander/kettle-socket-io/issues</support_url>
+    <versions>
+      <version>
+        <branch>Development</branch>
+        <version>0.0.1</version>
+        <name>0.0.1</name>
+        <package_url>https://dl.bintray.com/brosander/maven/com/github/brosander/kettle/socket/io/0.0.1/kettle-socket-io-0.0.1.zip</package_url>
+        <min_parent_version>6.0</min_parent_version>
+      </version>
+    </versions>
+  </market_entry>
 
   <market_entry>
     <id>TokenReplacementPlugin</id>
