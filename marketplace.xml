@@ -8086,7 +8086,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
         <version>1.0.0</version>
         <name>Beta</name>
         <build_id/>
-        <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/UniqueList.zip</package_url>
+        <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/UniqueListStep.zip</package_url>
         <source_url>https://github.com/graphiq-data/pdi-uniquelist-plugin</source_url>
         <description>First version of step. Functional tests written, but has not yet been tested extensively in production environment</description>
         <build_id>1</build_id>
