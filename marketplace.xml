@@ -5443,6 +5443,7 @@ With this plugin you can:
       </parent>
     </category>
     <description>
+	<![CDATA[
 	<h1>Data Quality Components for Pentaho by Melissa Data:</h1>
       <hr>
       <h2>Contact Verify Component</h2>
@@ -5487,6 +5488,7 @@ With this plugin you can:
       <h3>Processing Options -(Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
     <hr>
+	]]>
     </description>
     <author>Melissa Data</author>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
@@ -5528,6 +5530,7 @@ With this plugin you can:
       </parent>
     </category>
     <description>
+	<![CDATA[
 	  <h1>Global Data Quality Component for Pentaho by Melissa Data:</h1>
       <hr>
       <h2>Global Verify Component</h2>
@@ -5543,6 +5546,7 @@ With this plugin you can:
       <h3>Processing Options - (Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
      <hr>
+	 ]]>
     </description>
     <author>Melissa Data</author>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
@@ -5583,6 +5587,7 @@ With this plugin you can:
       </parent>
     </category>
     <description>
+	<![CDATA[
 	<h1>Personator Component for Pentaho by Melissa Data:</h1>
       <hr>
       <h2>Personator Component</h2>
@@ -5596,6 +5601,7 @@ With this plugin you can:
 	 </ul>
       <h3>Processing Options - (Cloud)</h3>
      <hr>
+	 ]]>
     </description>
     <author>Melissa Data</author>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
@@ -5636,6 +5642,7 @@ With this plugin you can:
       </parent>
     </category>
     <description>
+	<![CDATA[
 	<h1>Profiler Component for Pentaho by Melissa Data:</h1>
       <hr>
       <h2>Profiler Component</h2>
@@ -5649,6 +5656,7 @@ With this plugin you can:
       <h3>Processing Options - (Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
      <hr>
+	 ]]>
     </description>
     <author>Melissa Data</author>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
