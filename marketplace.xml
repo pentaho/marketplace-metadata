@@ -2075,16 +2075,16 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
     <documentation_url>https://github.com/marpontes/tapa</documentation_url>
     <description><![CDATA[
     <p>
-      Tapa is the easiest way to chcange the appearance of your BI Server.
+      Tapa is the easiest way to change the appearance of your BI Server.
     </p>
-    It a <strong>non-invasive</strong> plugin that allows you to:
+    It's a <strong>non-invasive</strong> plugin that allows you to:
       <ul>
         <li>Quickly <strong>change your login page</strong> for one of our templates;</li>
-        <li><strong>Customize text</strong> from the existing templates from the UI;</li>
-        <li><strong>Customize images</strong> in the existing templates from the UI;</li>
+        <li><strong>Customize text</strong> tags from the UI;</li>
+        <li><strong>Upload images</strong> to the existing templates from the UI;</li>
         <li>Place the <strong>logo of your company on the header</strong> of PUC;</li>
         <li>Replace Pentaho's <strong>welcome page</strong> for your custom HTML page;</li>
-        <li><strong>Develop your own template</strong> and keep all into one package;</li>
+        <li><strong>Develop your own template</strong> and keep it into one package;</li>
         <li>Easily <strong>migrate</strong> your server's Tapa-like UI customizations;</li>
         <li>Easily <strong>inject css/js</strong> files into User Console's ui contexts;</li>
       </ul>
