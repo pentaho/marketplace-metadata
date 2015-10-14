@@ -2126,7 +2126,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
           https://github.com/marpontes/tapa/releases/download/v0.3.1/tapa-0.3.1-pentaho6.zip
         </package_url>
         <description>Works for Pentaho 6.0.X</description>
-        <build_id/>
+        <build_id>pentaho6</build_id>
         <min_parent_version>6.0.0</min_parent_version>
         <max_parent_version>6.0.99</max_parent_version>
         <development_stage>
