@@ -1850,7 +1850,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
 		<description>3.6 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
-		<max_parent_version>6.0</max_parent_version>
+		<max_parent_version>5.9</max_parent_version>
 		<min_parent_version>5.0</min_parent_version>
 		<development_stage>
 		<lane>Community</lane>
@@ -1863,7 +1863,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <name>Stable</name>
         <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.6.3.zip</package_url>
         <description>3.6 release for the Saiku Plugin.</description>
-        <max_parent_version>6.0</max_parent_version>
+        <max_parent_version>5.9</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
           <development_stage>
           <lane>Community</lane>
