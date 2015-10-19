@@ -7663,6 +7663,14 @@ Capabilities:
     <author_logo/>
 	<license>GPL v3</license>
 	<dependencies>CDE, CDA, CDF</dependencies>
+	<installation_notes>
+      <![CDATA[
+	  Once WAQE is installed, you can run WAQE from the Tools menu. 
+	  <br />
+	  The installation process will make some en environment configurations. So, after first run it's needed to restart the ba-server in order to load the configuration.  
+	  <br />
+      ]]>
+	</installation_notes>
     <versions>
       <version>
         <branch>TRUNK</branch>
