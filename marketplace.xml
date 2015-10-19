@@ -7950,6 +7950,80 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
 </market_entry>
 
   <market_entry>
+    <id>waqe</id>
+    <type>Platform</type>
+    <img/>
+    <small_img/>
+    <name>Web Adhoc Query Executor</name>
+    <category>
+      <name>Analysis</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+        <description>
+<![CDATA[
+<p>WAQE (Web Adhoc Query Executor) is a query executor based on Pentaho Metadata.
+</p>
+<p>
+Since WAQR is no longer supported / mantained in CE, WAQE is a tool to interact with database and query it throuhgt the metadata layer.  It is not a report designer. It is just a tool to can ask and interact with the database thought the metadata layer.
+</p>
+<p>
+Capabilities:
+<ul>
+<li>Query the database using the metadata layer</li>
+<li>Filter the query</li>
+</ul>
+</p>
+   ]]>
+    </description>
+	<documentation_url>http://www.jortilles.com/waqe/</documentation_url>
+    <author>Jortilles</author>
+    <author_url>http://www.jortilles.com</author_url>
+    <author_logo/>
+	<license>GPL v3</license>
+	<dependencies>CDE, CDA, CDF</dependencies>
+	<installation_notes>
+      <![CDATA[
+	  Once WAQE is installed, you can run WAQE from the Tools menu. 
+	  <br />
+	  The installation process will make some en environment configurations. So, after first run it's needed to restart the ba-server in order to load the configuration.  
+	  <br />
+      ]]>
+	</installation_notes>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <build_id/>
+        <name>Alpha version</name>
+        <package_url>http://www.jortilles.com/wp-content/uploads/2015/09/waqe_v_0.2.zip</package_url>
+        <description><![CDATA[
+<p>WAQE (Web Adhoc Query Executor) is a query executor based on Pentaho Metadata.
+</p>
+<p>
+Since WAQR is no longer supported / mantained in CE, WAQE is a tool to interact with database and query it throuhgt the metadata layer.  It is not a report designer. It is just a tool to can ask and interact with the database thought the metadata layer.
+</p>
+<p>
+Capabilities:
+<ul>
+<li>Query the database using the metadata layer</li>
+<li>Filter the query</li>
+</ul>
+</p>
+   ]]></description>
+        <min_parent_version>5.4</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots/>
+  </market_entry>
+ 
+
+  <market_entry>
     <id>pdi-sequoiadb-plugin</id>
     <type>Step</type>
     <name>PDI SequoiaDB Plugin</name>
