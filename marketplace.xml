@@ -1309,7 +1309,7 @@
         <description>15.06.30 release.</description>
         <build_id/>
         <min_parent_version>5.3</min_parent_version>
-        <max_parent_version/>
+        <max_parent_version>5.4.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
