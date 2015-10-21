@@ -1874,7 +1874,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <branch>PENTAHO6</branch>
         <version>3.7</version>
         <name>Pentaho 6 Compatible</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.7-SNAPSHOT.zip</package_url>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p6-3.7-SNAPSHOT.zip</package_url>
         <description>3.7 release for the Saiku Plugin.</description>
         <max_parent_version>6.9</max_parent_version>
         <min_parent_version>6.0</min_parent_version>
