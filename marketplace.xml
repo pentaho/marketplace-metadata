@@ -5178,14 +5178,14 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>kettle5-profiling-datacleaner</id>
     <type>Mixed</type>
-    <name>DataCleaner Data Profiling for Kettle version 5 or higher</name>
+    <name>DataCleaner Data Quality for Kettle version 5 or higher</name>
     <category>
-      <name>Data Profiling</name>
+      <name>Data Quality</name>
       <parent>
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Use DataCleaner - the premier open source data quality solution - to profile the data that you work with in Pentaho Data Integration.
+    <description>Use DataCleaner - the premier open source data quality solution - to profile, analyze, clean and deduplicate the data that you work with in Pentaho Data Integration.
 
 DataCleaner provides strong functionality in the area of Data Profiling and Data Quality analysis. This includes discovering patterns and anomalies, standardizing data as well as detecting duplicate records.
 
@@ -5198,9 +5198,9 @@ With this plugin you can:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>4.0</version>
+        <version>4.5</version>
         <min_parent_version>5.0.0</min_parent_version>
-        <package_url>http://datacleaner.org/resources/pentaho_plugin/DataCleaner-PDI-plugin-4.0-20150414.zip</package_url>
+        <package_url>http://repo1.maven.org/maven2/org/eobjects/datacleaner/pdi-datacleaner/4.5.1/pdi-datacleaner-4.5.1-plugin.zip</package_url>
         <source_url>https://github.com/datacleaner/pdi-datacleaner</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -5208,7 +5208,7 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <author>Neopost Customer Information Management</author>
+    <author>Human Inference and Neopost Customer Information Management</author>
     <documentation_url>http://datacleaner.org/docs</documentation_url>
     <forum_url>http://datacleaner.org/forum</forum_url>
     <cases_url>https://github.com/datacleaner/DataCleaner/issues</cases_url>
@@ -5216,9 +5216,9 @@ With this plugin you can:
     <license_text>For more details about the GNU General Lesser Public License v2.0 see:
       http://www.gnu.org/licenses/lgpl-2.0.html
     </license_text>
-    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
     <support_message>Professional support, extended functionality, training and consultancy for DataCleaner is offered via the commercial editions of DataCleaner.</support_message>
-    <support_organization>Neopost Customer Information Management</support_organization>
+    <support_organization>Human Inference and Neopost Customer Information Management</support_organization>
     <support_url>http://datacleaner.org/editions</support_url>
   </market_entry>
 
