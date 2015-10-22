@@ -1870,7 +1870,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <phase>4</phase>
         </development_stage>
       </version>
-       <version>
+    <!--   <version>
         <branch>PENTAHO6</branch>
         <version>3.7</version>
         <name>Pentaho 6 Compatible</name>
@@ -1882,7 +1882,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
-      </version>
+      </version>-->
       <!--<version>
         <branch>TESTING</branch>
         <version>3.2-RC2</version>
