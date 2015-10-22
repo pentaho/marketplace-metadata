@@ -2744,14 +2744,30 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>Development</branch>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT-BI-5.x</version>
         <build_id>379</build_id>
-        <name>Latest snapshot build</name>
+        <name>Latest snapshot for BI 5.x</name>
         <package_url>
           http://ci.greencatsoft.com/job/Pivot4J/379/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip
         </package_url>
-        <description>The latest development snapshot build.</description>
+        <description>The latest development snapshot build for old Pentaho BI 5.x.</description>
+        <max_parent_version>5.4.99</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>Development</branch>
+        <version>1.0-SNAPSHOT</version>
+        <build_id>385</build_id>
+        <name>Latest snapshot</name>
+        <package_url>
+          http://ci.greencatsoft.com/job/Pivot4J/385/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip
+        </package_url>
+        <description>The latest development snapshot build.</description>
+        <min_parent_version>6.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
