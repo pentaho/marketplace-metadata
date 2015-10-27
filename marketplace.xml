@@ -1841,6 +1841,12 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <author_url>http://meteorite.bi</author_url>
     <author_logo>http://www.webdetails.pt/ficheiros/saiku.png</author_logo>
     <license>ASL 2.0</license>
+    <installation_notes>
+      <![CDATA[ <strong>Pentaho 6 users</strong><br/>
+      To make Saiku work (for now) you need to copy <a href="http://meteorite.bi/downloads/saiku-olap-util-3.7-SNAPSHOT.jar">this file</a> to tomcat/webapps/pentaho/WEB-INF/lib before restarting your BI Server.<br/>
+      Pentaho 5 users can ignore this message.
+      ]]>
+    </installation_notes>
     <versions>
     	<version>
 		<branch>ENTERPRISE</branch>
@@ -1870,7 +1876,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <phase>4</phase>
         </development_stage>
       </version>
-    <!--   <version>
+      <version>
         <branch>PENTAHO6</branch>
         <version>3.7</version>
         <name>Pentaho 6 Compatible</name>
@@ -1882,7 +1888,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
-      </version>-->
+      </version>
       <!--<version>
         <branch>TESTING</branch>
         <version>3.2-RC2</version>
