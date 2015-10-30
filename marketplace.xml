@@ -1315,6 +1315,22 @@
           <phase>3</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>RELEASE</branch>
+        <version>15.10.21</version>
+        <name>Latest Release</name>
+        <package_url>
+          http://ctools.pentaho.com/files/repositorySynchronizer/15.10.21/repositorySynchronizer-15.10.21.zip
+        </package_url>
+        <samples_url/>
+        <description>15.10.21 release.</description>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/prs/prs-1.png</screenshot>
