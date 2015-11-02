@@ -8509,5 +8509,91 @@ Capabilities:
     <support_organization>Atol Conseils et Développements</support_organization>
     <support_url>https://github.com/atolcd/pentaho-gis-plugins/issues</support_url>
   </market_entry>
+
+	<market_entry>
+		<id>PentahoTransparentAuthentication</id>
+		<type>Platform</type>
+		<name>Pentaho Transparent Authentication</name>
+		<category>
+			<name>Analysis</name>
+			<parent>
+				<name>Apps</name>
+			</parent>
+		</category>
+		<description><![CDATA[
+    Plugin for Pentaho BA Server that provides the platform with additional authentication and login capabilities.<br/>
+    <br/>
+    The goal of this project is to provide a transparent authentication and autologin mechanism to let users switch between a different web application and Pentaho in an "Single Sign On fashion".
+    ]]>
+    </description>
+		<documentation_url>http://fcorti.com/pentaho-transparent-authentication/</documentation_url>
+		<author>Alberto Mercati and Francesco Corti</author>
+		<author_url>https://codevomit.wordpress.com/</author_url>
+		<dependencies>CDF, CDA, CDE, CGG</dependencies>
+		<license>GPL v3</license>
+		<img>http://fcorti.com/wp-content/uploads/2015/09/PentahoTA_logo.png</img>
+		<small_img />
+		<installation_notes><![CDATA[
+    This plugin requires CDA and CDE installed in the Pentaho BA Server and has been developed using Sparkl.
+    ]]>
+    </installation_notes>
+		<versions>
+			<version>
+				<branch>STABLE</branch>
+				<version>1.1</version>
+				<name>Stable</name>
+				<package_url>https://github.com/Rospaccio/pentaho-transparent-authentication/releases/download/v1.1.0/PentahoTransparentAuthentication-1.1.zip</package_url>
+				<samples_url />
+				<description><![CDATA[
+        <description><![CDATA[
+        Plugin for Pentaho BA Server that provides the platform with additional authentication and login capabilities.<br/>
+        <br/>
+        The goal of this project is to provide a transparent authentication and autologin mechanism to let users switch between a different web application and Pentaho in an "Single Sign On fashion".
+        ]]>
+        </description>
+				<changelog><![CDATA[
+        - Porting for Pentaho 6 of version 1.0.
+        ]]>
+        </changelog>
+				<build_id>1</build_id>
+				<max_parent_version>6.0.99</max_parent_version>
+				<min_parent_version>6.0</min_parent_version>
+				<development_stage>
+					<lane>Community</lane>
+					<phase>3</phase>
+				</development_stage>
+			</version>
+			<version>
+				<branch>STABLE</branch>
+				<version>1.0</version>
+				<name>Stable</name>
+				<package_url>https://github.com/Rospaccio/pentaho-transparent-authentication/releases/download/v1.0.0/PentahoTransparentAuthentication-1.0.zip</package_url>
+				<samples_url />
+				<description><![CDATA[
+        <description><![CDATA[
+        Plugin for Pentaho BA Server that provides the platform with additional authentication and login capabilities.<br/>
+        <br/>
+        The goal of this project is to provide a transparent authentication and autologin mechanism to let users switch between a different web application and Pentaho in an "Single Sign On fashion".
+        ]]>
+        </description>
+				<changelog><![CDATA[
+        - First stable release.
+        ]]>
+        </changelog>
+				<build_id>1</build_id>
+				<max_parent_version>5.4.99</max_parent_version>
+				<min_parent_version>5.4</min_parent_version>
+				<development_stage>
+					<lane>Community</lane>
+					<phase>3</phase>
+				</development_stage>
+			</version>
+		</versions>
+		<screenshots>
+			<screenshot>http://fcorti.com/wp-content/uploads/2015/09/install_1.png</screenshot>
+			<screenshot>http://fcorti.com/wp-content/uploads/2015/09/install_2.png</screenshot>
+			<screenshot>http://fcorti.com/wp-content/uploads/2015/09/PentahoTA_about.png</screenshot>
+		</screenshots>
+	</market_entry>
   
 </market>
