@@ -1415,6 +1415,55 @@ A landing tab can optionally be presented, which can be used to any of the prede
 
 
   <market_entry>
+    <id>CLP</id>
+    <type>Platform</type>
+    <img></img>
+    <small_img></small_img>
+    <name>Community Launch Pad</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/webdetails/CLP/blob/master/README.md</documentation_url>
+    <description>
+      CLP (Community Launch Pad) is a new CTool Plugin that lists the contents of a folder in the Pentaho Repository 
+      (accessible via the Pentaho User Console), allowing for the selection and display of these contents.
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <dependencies/>
+    <license>MPL 2.0</license>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>15.10.21</version>
+        <name>Stable</name>
+        <package_url>
+          http://www.webdetails.pt/ficheiros/CLP/CLP-15.10.21.zip      
+        </package_url>
+        <samples_url>
+          http://www.webdetails.pt/ficheiros/CLP/CLP-samples-15.10.21.zip       
+        </samples_url>
+        <description>
+          Build for Pentaho 6.0 and above
+        </description>
+        <build_id>1</build_id>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+    </screenshots>
+  </market_entry>
+
+
+  <market_entry>
     <id>cte</id>
     <type>Platform</type>
     <img>http://www.webdetails.pt/ficheiros/cte_logo.png</img>
