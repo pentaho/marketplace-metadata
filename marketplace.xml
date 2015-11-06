@@ -4187,7 +4187,7 @@ any translation issues or suggestions for improvement
       </screenshot>
     </screenshots>
   </market_entry>
-  
+
   <market_entry>
     <id>languagePack_de</id>
     <type>Platform</type>
@@ -4197,13 +4197,13 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the German language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the German language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
-    <documentation_url>This plugin installs language definitions for the German language in Pentaho 5
+    <documentation_url>This plugin installs language definitions for the German language in Pentaho
     </documentation_url>
     <author>Thomas Starl</author>
     <author_url/>
@@ -4262,6 +4262,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_de-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_1.png
@@ -4270,6 +4287,7 @@ any translation issues or suggestions for improvement
       </screenshot>
     </screenshots>
   </market_entry>
+  
   <market_entry>
     <id>languagePack_hi</id>
     <type>Platform</type>
