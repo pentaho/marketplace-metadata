@@ -1415,6 +1415,55 @@ A landing tab can optionally be presented, which can be used to any of the prede
 
 
   <market_entry>
+    <id>CLP</id>
+    <type>Platform</type>
+    <img></img>
+    <small_img></small_img>
+    <name>Community Launch Pad</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/webdetails/CLP/blob/master/README.md</documentation_url>
+    <description>
+      CLP (Community Launch Pad) is a new CTool Plugin that lists the contents of a folder in the Pentaho Repository 
+      (accessible via the Pentaho User Console), allowing for the selection and display of these contents.
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <dependencies/>
+    <license>MPL 2.0</license>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>15.10.21</version>
+        <name>Stable</name>
+        <package_url>
+          http://www.webdetails.pt/ficheiros/CLP/CLP-15.10.21.zip      
+        </package_url>
+        <samples_url>
+          http://www.webdetails.pt/ficheiros/CLP/CLP-samples-15.10.21.zip       
+        </samples_url>
+        <description>
+          Build for Pentaho 6.0 and above
+        </description>
+        <build_id>1</build_id>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+    </screenshots>
+  </market_entry>
+
+
+  <market_entry>
     <id>cte</id>
     <type>Platform</type>
     <img>http://www.webdetails.pt/ficheiros/cte_logo.png</img>
@@ -3849,13 +3898,13 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Catalan language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Catalan language in Pentaho <br /><br />
                Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
                any translation issues or suggestions for improvement
       ]]>
-      This plugin installs language definitions for the Catalan language in Pentaho 5
+      This plugin installs language definitions for the Catalan language in Pentaho
     </description>
-    <documentation_url>This plugin installs language definitions for the Catalan language in Pentaho 5
+    <documentation_url>This plugin installs language definitions for the Catalan language in Pentaho
     </documentation_url>
     <author>Blau Advisors Strategic Partners,S.L.</author>
     <author_url>http://www.blauadvisors.com</author_url>
@@ -3914,6 +3963,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_ca-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_1.png
@@ -3932,13 +3998,13 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Dutch language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Dutch language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
-    <documentation_url>This plugin installs language definitions for the Dutch language in Pentaho 5</documentation_url>
+    <documentation_url>This plugin installs language definitions for the Dutch language in Pentaho</documentation_url>
     <author>C. van Kemenade</author>
     <author_url>http://www.vinzi.nl</author_url>
     <author_logo/>
@@ -3996,6 +4062,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_nl-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_1.png
@@ -4004,6 +4087,7 @@ any translation issues or suggestions for improvement
       </screenshot>
     </screenshots>
   </market_entry>
+
   <market_entry>
     <id>languagePack_fr</id>
     <type>Platform</type>
@@ -4013,13 +4097,13 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the French language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the French language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
-    <documentation_url>This plugin installs language definitions for the French language in Pentaho 5
+    <documentation_url>This plugin installs language definitions for the French language in Pentaho
     </documentation_url>
     <author>Sylvain Decloix</author>
     <author_url>http://www.atolcd.com</author_url>
@@ -4078,6 +4162,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_fr-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_1.png
@@ -4086,6 +4187,7 @@ any translation issues or suggestions for improvement
       </screenshot>
     </screenshots>
   </market_entry>
+
   <market_entry>
     <id>languagePack_de</id>
     <type>Platform</type>
@@ -4095,13 +4197,13 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the German language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the German language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
-    <documentation_url>This plugin installs language definitions for the German language in Pentaho 5
+    <documentation_url>This plugin installs language definitions for the German language in Pentaho
     </documentation_url>
     <author>Thomas Starl</author>
     <author_url/>
@@ -4160,6 +4262,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_de-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_1.png
@@ -4168,6 +4287,7 @@ any translation issues or suggestions for improvement
       </screenshot>
     </screenshots>
   </market_entry>
+
   <market_entry>
     <id>languagePack_hi</id>
     <type>Platform</type>
@@ -4177,13 +4297,13 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Hindi language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Hindi language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
-    <documentation_url>This plugin installs language definitions for the Hindi language in Pentaho 5</documentation_url>
+    <documentation_url>This plugin installs language definitions for the Hindi language in Pentaho</documentation_url>
     <author>InfoAxon Technologies</author>
     <author_url>http://www.infoaxon.com</author_url>
     <author_logo/>
@@ -4241,6 +4361,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_hi-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>      
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_1.png
@@ -4249,6 +4386,7 @@ any translation issues or suggestions for improvement
       </screenshot>
     </screenshots>
   </market_entry>
+
   <market_entry>
     <id>languagePack_it</id>
     <type>Platform</type>
@@ -4258,12 +4396,12 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Italian language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Italian language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
-      This plugin installs language definitions for the Italian language in Pentaho 5
+      This plugin installs language definitions for the Italian language in Pentaho
     </description>
     <documentation_url>This plugin installs language definitions for the Italian language in Pentaho 5
     </documentation_url>
@@ -4324,6 +4462,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_it-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>       
     </versions>
     <screenshots>
       <screenshot>
@@ -4334,6 +4489,7 @@ any translation issues or suggestions for improvement
       </screenshot>
     </screenshots>
   </market_entry>
+
   <market_entry>
     <id>languagePack_ja</id>
     <type>Platform</type>
@@ -4343,13 +4499,13 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Japanese language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Japanese language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
-    <documentation_url>This plugin installs language definitions for the Japanese language in Pentaho 5
+    <documentation_url>This plugin installs language definitions for the Japanese language in Pentaho
     </documentation_url>
     <author>Akito Tanaka</author>
     <author_url>http://ksk-anl.com/</author_url>
@@ -4408,6 +4564,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_ja-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>       
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_1.png
@@ -4426,13 +4599,13 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Korean language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Korean language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
-    <documentation_url>This plugin installs language definitions for the Korean language in Pentaho 5
+    <documentation_url>This plugin installs language definitions for the Korean language in Pentaho
     </documentation_url>
     <author>Xavier Cho</author>
     <author_url>http://github.com/mysticfall</author_url>
@@ -4491,6 +4664,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_ko-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>         
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_1.png
@@ -4499,6 +4689,7 @@ any translation issues or suggestions for improvement
       </screenshot>
     </screenshots>
   </market_entry>
+
   <market_entry>
     <id>languagePack_pt_BR</id>
     <type>Platform</type>
@@ -4508,14 +4699,14 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
     <documentation_url>This plugin installs language definitions for the Portuguese language (Brazilian variant) in
-      Pentaho 5
+      Pentaho
     </documentation_url>
     <author>Oncase, Open Consulting, IT4biz</author>
     <author_url>http://br.groups.yahoo.com/neo/groups/pentahobr/info</author_url>
@@ -4575,6 +4766,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_pt_BR-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>       
     </versions>
     <screenshots>
       <screenshot>
@@ -4585,6 +4793,7 @@ any translation issues or suggestions for improvement
       </screenshot>
     </screenshots>
   </market_entry>
+
   <market_entry>
     <id>languagePack_pt_PT</id>
     <type>Platform</type>
@@ -4599,10 +4808,10 @@ any translation issues or suggestions for improvement
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
-      This plugin installs language definitions for the Portuguese language (European variant) in Pentaho 5
+      This plugin installs language definitions for the Portuguese language (European variant) in Pentaho
     </description>
     <documentation_url>This plugin installs language definitions for the Portuguese language (European variant) in
-      Pentaho 5
+      Pentaho
     </documentation_url>
     <author>Xpand-IT</author>
     <author_url>http://www.xpand-it.com</author_url>
@@ -4662,6 +4871,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_pt_PT-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>       
     </versions>
     <screenshots>
       <screenshot>
@@ -4682,13 +4908,13 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Thai language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Thai language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
-    <documentation_url>This plugin installs language definitions for the Spanish language in Pentaho 5
+    <documentation_url>This plugin installs language definitions for the Spanish language in Pentaho
     </documentation_url>
     <author>Domingo Lavin</author>
     <author_url>http://www.pentaho.com</author_url>
@@ -4747,6 +4973,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_es-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>        
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_1.png
@@ -4765,13 +5008,13 @@ any translation issues or suggestions for improvement
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Spanish language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Spanish language in Pentaho <br /><br />
 
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
     </description>
-    <documentation_url>This plugin installs language definitions for the Thai language in Pentaho 5
+    <documentation_url>This plugin installs language definitions for the Thai language in Pentaho
     </documentation_url>
     <author>Panicha Sriarj</author>
     <author_url>http://goingjesse.com</author_url>
@@ -4812,6 +5055,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_th-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>         
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/th/resources/img/screenshot_1.png
@@ -4821,6 +5081,133 @@ any translation issues or suggestions for improvement
     </screenshots>
   </market_entry>
 
+  <market_entry>
+    <id>languagePack_sv</id>
+    <type>Platform</type>
+    <name>Swedish Language Pack Installer</name>
+    <category>
+      <name>Language Packs</name>
+    </category>
+    <description>
+      <![CDATA[
+               This plugin installs language definitions for the Swedish language in Pentaho <br /><br />
+
+Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+any translation issues or suggestions for improvement
+      ]]>
+    </description>
+    <documentation_url>This plugin installs language definitions for the Swedish language in Pentaho
+    </documentation_url>
+    <author>Kenneth Wrife, Omicron Ceti AB</author>
+    <author_url>http://www.omicron.se</author_url>
+    <author_logo/>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE, CGG</dependencies>
+    <img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/sv/resources/img/flag.png</img>
+    <small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/sv/resources/img/flag.png</small_img>
+    <installation_notes>
+      <![CDATA[You can run the Language Pack Installer as an administrator from
+               the Tools menu. The installer will then copy the language packs over your
+               installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
+
+Please note that if you upgrade one of the translated plugins, you will
+need to run the Language Pack Installer again. <br /><br/>
+
+Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+any translation issues or suggestions for improvement
+
+      ]]>
+    </installation_notes>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_sv-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>         
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/sv/resources/img/screenshot_1.png
+      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/sv/resources/img/screenshot_2.png
+      </screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>languagePack_zh_CN</id>
+    <type>Platform</type>
+    <name>Simplified Chinese Language Pack Installer</name>
+    <category>
+      <name>Language Packs</name>
+    </category>
+    <description>
+      <![CDATA[
+               This plugin installs language definitions for the Simplified Chinese language in Pentaho <br /><br />
+
+Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+any translation issues or suggestions for improvement
+      ]]>
+    </description>
+    <documentation_url>This plugin installs language definitions for the Simplified Chinese language in Pentaho
+    </documentation_url>
+    <author>Shanghai Datafor</author>
+    <author_url>http://www.datafor.com.cn</author_url>
+    <author_logo/>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE, CGG</dependencies>
+    <img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/zh_CN/resources/img/flag.png</img>
+    <small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/zh_CN/resources/img/flag.png</small_img>
+    <installation_notes>
+      <![CDATA[You can run the Language Pack Installer as an administrator from
+               the Tools menu. The installer will then copy the language packs over your
+               installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
+
+Please note that if you upgrade one of the translated plugins, you will
+need to run the Language Pack Installer again. <br /><br/>
+
+Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+any translation issues or suggestions for improvement
+
+      ]]>
+    </installation_notes>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_zh_CN-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>         
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/zh_CN/resources/img/screenshot_1.png
+      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/zh_CN/resources/img/screenshot_2.png
+      </screenshot>
+    </screenshots>
+  </market_entry>
 
   <market_entry>
     <id>pentaho-emerald-theme</id>
