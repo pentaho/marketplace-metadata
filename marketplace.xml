@@ -3898,13 +3898,13 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     </category>
     <description>
       <![CDATA[
-               This plugin installs language definitions for the Catalan language in Pentaho 5 <br /><br />
+               This plugin installs language definitions for the Catalan language in Pentaho <br /><br />
                Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
                any translation issues or suggestions for improvement
       ]]>
-      This plugin installs language definitions for the Catalan language in Pentaho 5
+      This plugin installs language definitions for the Catalan language in Pentaho
     </description>
-    <documentation_url>This plugin installs language definitions for the Catalan language in Pentaho 5
+    <documentation_url>This plugin installs language definitions for the Catalan language in Pentaho
     </documentation_url>
     <author>Blau Advisors Strategic Partners,S.L.</author>
     <author_url>http://www.blauadvisors.com</author_url>
@@ -3958,6 +3958,23 @@ any translation issues or suggestions for improvement
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>6.0-15.11.06</version>
+        <name>STABLE</name>
+        <package_url>
+          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_ca-6.0-15.11.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>6.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
