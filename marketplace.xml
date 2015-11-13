@@ -6327,16 +6327,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.1</version>
-        <package_url>https://pentaho.box.com/shared/static/i9z811v11h1wtwf7v6ku.zip</package_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>Stable</branch>
-        <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/lg3yh7fupujhl2gb9vxj.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/bgwzc7214kqv3bp/load-text-from-file-plugin-1.1.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -6371,16 +6362,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.1</version>
-        <package_url>https://pentaho.box.com/shared/static/8u9yzuf26wbnbrca3wh79cvj525m7sx0.zip</package_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>Stable</branch>
-        <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/t39m1n3rwbmix38wshy5.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/v3zpwsk109suv8d/pdi-superlative-plugin-1.1.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -6413,7 +6395,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/mcjdlfp3s5z30wxnx04u.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/k7zdxvfj7ag3h1w/pdi-valuemeta-map.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -6605,7 +6587,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/1pnvur1jkjaukvuqx91b.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/9fun9bw11fhjvxz/csv-jdbc-plugin.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -6642,7 +6624,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/e8kua9axb616dfvmdhzu.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/xzsvpfjcp9qgp3h/pdi-neo4j-query.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -6679,7 +6661,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/i009upass9f2iip4fit5.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/7vvj7via62d5byp/pdi-html-to-xml-plugin.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -7300,7 +7282,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/wkk3i8wblpl4py1ht85j.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/jto5anvttqrxoze/pdi-memcached-plugin.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -7517,7 +7499,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/p65t49w1nizstw3kx89t.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/5qg0uf0pg10dfja/pdi-random-row-distributions.zip?dl=0</package_url>
         <source_url>https://github.com/mattyb149/pdi-random-row-distributions</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -7566,7 +7548,7 @@ With this plugin you can:
         <branch>master</branch>
         <version>2.0</version>
         <name>2.0</name>
-        <package_url>https://pentaho.box.com/shared/static/09jfpshf5tgcgo0so8la.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/ox0exc1ku48yoq5/GroovyConsoleSpoonPlugin.zip?dl=0</package_url>
         <source_url>https://github.com/mattyb149/GroovyConsoleSpoonPlugin</source_url>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
@@ -7596,7 +7578,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/zzoi8egt5pbd9zabct88.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/3y9ju00a371fxjf/gremlin-script-plugin.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -7889,7 +7871,7 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
       <version>
         <branch>Stable</branch>
         <version>1.1</version>
-        <package_url>https://pentaho.box.com/shared/static/m2p0ryd69ra9xvlxzzvv.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/ojc41g95j8kojmd/pdi-script-extension-points-1.1.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -8040,7 +8022,8 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
         <branch>Stable</branch>
         <version>1.1.1</version>
         <name>1.1.1</name>
-        <package_url>https://pentaho.box.com/shared/static/exp060vlm0fkoozq6n2z.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/2hbwo2lhtn2bbb0/pdi-zookeeper-1.1.1.zip?dl=0</package_url>
+        <source_url>https://github.com/mattyb149/pdi-zookeeper</source_url>
         <min_parent_version>5.0</min_parent_version>
       </version>
     </versions>
@@ -8241,7 +8224,7 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/pmxvmkjbsl6cirsyzfwf.zip</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/dhept59ecf0fg4b/pdi-scriptengine-plugin-1.0.zip?dl=0</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -8656,7 +8639,7 @@ Capabilities:
       <version>
         <branch>Stable</branch>
         <version>0.9</version>
-        <package_url>https://pentaho.box.com/shared/static/bm3trmjs4lm98h6bqmfe4kgt3u0gvftv.kar</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/78xlvpormf22zeb/pdi-drill-jdbc-0.9.kar?dl=0</package_url>
         <description>Plugin for Pentaho 6.0</description>
         <min_parent_version>6.0.0</min_parent_version>
         <development_stage>
@@ -8693,7 +8676,7 @@ Capabilities:
       <version>
         <branch>Stable</branch>
         <version>0.9</version>
-        <package_url>https://pentaho.box.com/shared/static/up84vivnjhkxp05eursc9uko4ek8o7ko.kar</package_url>
+        <package_url>http://dl.dropboxusercontent.com/s/1md62nwgyhcawm3/pentaho-presto-0.9.kar?dl=0</package_url>
         <description>Plugin for Pentaho 6.0</description>
         <min_parent_version>6.0.0</min_parent_version>
         <development_stage>
