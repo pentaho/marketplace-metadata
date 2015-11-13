@@ -7629,13 +7629,24 @@ With this plugin you can:
     <installation_notes/>
     <documentation_url>https://github.com/cdeptula/AvroOutputPlugin/blob/master/README.md</documentation_url>
     <versions>
+    <version>
+        <branch>trunk</branch>
+        <version>2.2.0</version>
+        <build_id>141</build_id>
+        <name>Version 2.2.0 (Stable)</name>
+        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.2.0/AvroOutputPlugin.zip</package_url>
+        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
+        <min_parent_version>6.0</min_parent_version>
+      </version>
       <version>
         <branch>trunk</branch>
         <version>2.1.2</version>
         <build_id>139</build_id>
-        <name>Version 2.1.2 (Stable)</name>
+        <name>Version 2.1.2</name>
         <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.2/AvroOutputPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.4</max_parent_version>
       </version>
       <version>
         <branch>trunk</branch>
@@ -7644,22 +7655,8 @@ With this plugin you can:
         <name>Version 2.1.1</name>
         <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.1/AvroOutputPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
-      </version>
-      <version>
-        <branch>trunk</branch>
-        <version>2.1.0</version>
-        <build_id>116</build_id>
-        <name>Version 2.1.0</name>
-        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.0/AvroOutputPlugin.zip</package_url>
-        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
-      </version>
-      <version>
-        <branch>trunk</branch>
-        <version>2.0.0</version>
-        <build_id>99</build_id>
-        <name>Version 2.0.0</name>
-        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.0.0/AvroOutputPlugin.zip</package_url>
-        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.4</max_parent_version>
       </version>
     </versions>
     <cases_url>https://github.com/cdeptula/AvroOutputPlugin/issues</cases_url>
@@ -8197,11 +8194,22 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
     <versions>
       <version>
         <branch>trunk</branch>
+        <version>2.0.0</version>
+        <build_id>33</build_id>
+        <name>Version 2.0.0 (Stable)</name>
+        <package_url>https://github.com/cdeptula/TokenReplacementPlugin/releases/download/2.0.0/TokenReplacementPlugin.zip</package_url>
+        <source_url>https://github.com/cdeptula/TokenReplacementPlugin</source_url>
+        <min_parent_version>6.0</min_parent_version>
+      </version>
+      <version>
+        <branch>trunk</branch>
         <version>1.0.0</version>
         <build_id>29</build_id>
-        <name>Version 1.0.0 (Stable)</name>
+        <name>Version 1.0.0</name>
         <package_url>https://github.com/cdeptula/TokenReplacementPlugin/releases/download/1.0.0/TokenReplacementPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/TokenReplacementPlugin</source_url>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.4</max_parent_version>
       </version>
     </versions>
     <cases_url>https://github.com/cdeptula/TokenReplacementPlugin/issues</cases_url>
