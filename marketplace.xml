@@ -622,8 +622,8 @@
         <branch>STABLE</branch>
         <version>6.0-15.10.26</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cda/6.0-15.10.26/6.x/cda-6.0-15.10.26.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cda/6.0-15.10.26/6.x/cda-samples-6.0-15.10.26.zip</samples_url>
+        <package_url>http://ctools.pentaho.com/files/cda/6.x/cda-6.0-15.10.26.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cda/6.x/cda-samples-6.0-15.10.26.zip</samples_url>
         <description>15.10.26 release.</description>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
@@ -1586,17 +1586,40 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <dependencies>CDE, CDA, CDF, CGG</dependencies>
     <versions>
 
+
       <version>
         <branch>STABLE</branch>
-        <version>15.06.30</version>
+        <version>6.0-15.10.26</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cdv/15.06.30/5.x/cdv-15.06.30.zip
+          http://ctools.pentaho.com/files/cdv/15.10.26/6.x/cdv-6.0-15.10.26.zip
         </package_url>
         <samples_url>
-          http://ctools.pentaho.com/files/cdv/15.06.30/5.x/cdv-samples-15.06.30.zip
+          http://ctools.pentaho.com/files/cdv/15.10.26/6.x/cdv-samples-6.0-15.10.26.zip
         </samples_url>
-        <description>15.06.30 release</description>
+        <description>6.0-15.10.26 release</description>
+        <build_id/>
+        <max_parent_version>6.0.99</max_parent_version>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
+
+      <version>
+        <branch>STABLE</branch>
+        <version>15.10.26</version>
+        <name>Stable</name>
+        <package_url>
+          http://ctools.pentaho.com/files/cdv/15.10.26/5.x/cdv-15.10.26.zip
+        </package_url>
+        <samples_url>
+          http://ctools.pentaho.com/files/cdv/15.10.26/5.x/cdv-samples-15.10.26.zip
+        </samples_url>
+        <description>15.10.26 release</description>
         <build_id/>
         <max_parent_version>5.4.99</max_parent_version>
         <min_parent_version>5.1</min_parent_version>
@@ -1609,12 +1632,12 @@ A landing tab can optionally be presented, which can be used to any of the prede
 
       <version>
         <branch>STABLE</branch>
-        <version>15.06.30</version>
+        <version>15.10.26</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cdv/15.06.30/4.x/cdv-15.06.30.zip
+          http://ctools.pentaho.com/files/cdv/15.10.26/4.x/cdv-15.10.26.zip
         </package_url>
-        <description>15.06.30 release</description>
+        <description>15.10.26 release</description>
         <build_id/>
         <max_parent_version>4.9</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
