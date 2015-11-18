@@ -7119,17 +7119,6 @@ With this plugin you can:
           <phase>4</phase>
         </development_stage>
       </version>
-      <version>
-        <branch>Stable</branch>
-        <version>1.1.1</version>
-        <package_url>
-          https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.1.1-SNAPSHOT.zip
-        </package_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
     </versions>
   </market_entry>
 
