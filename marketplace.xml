@@ -6567,19 +6567,6 @@ With this plugin you can:
           <phase>4</phase>
         </development_stage>
       </version>
-      <version>
-        <branch>TRUNK</branch>
-        <version>1.0.2</version>
-        <build_id/>
-        <name>Version 1.0.2</name>
-        <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.0.2/TDEOutputPlugin_1.0.2.zip
-        </package_url>
-        <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
     </versions>
     <cases_url>https://github.com/cdeptula/tdeoutputplugin/issues</cases_url>
     <license_name>Apache License 2.0</license_name>
@@ -6810,7 +6797,6 @@ With this plugin you can:
         <samples_url/>
         <description>Latest build from the development branch.</description>
         <build_id>20140609-1000</build_id>
-        <max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -6848,7 +6834,6 @@ With this plugin you can:
         <samples_url/>
         <description>Latest build from the development branch.</description>
         <build_id>20140811-1900</build_id>
-        <max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -6894,22 +6879,6 @@ With this plugin you can:
       </version>
       <version>
         <branch>TRUNK</branch>
-        <version>2.0</version>
-        <build_id>89</build_id>
-        <name>Version 2.0</name>
-        <package_url>
-          https://github.com/cdeptula/refreshtableauextract/releases/download/2.0.0/refreshtableauextract.zip
-        </package_url>
-        <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
-        <max_parent_version>5.3</max_parent_version>
-        <min_parent_version>5.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>TRUNK</branch>
         <version>1.0</version>
         <build_id/>
         <name>Version 1.0</name>
@@ -6918,7 +6887,7 @@ With this plugin you can:
         </package_url>
         <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
         <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>5.3</max_parent_version>
+        <max_parent_version>4.8.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -6966,7 +6935,6 @@ With this plugin you can:
         <samples_url/>
         <description>Latest build from the trunk development branch.</description>
         <build_id>20140101-1603</build_id>
-        <max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -7119,30 +7087,6 @@ With this plugin you can:
           <phase>4</phase>
         </development_stage>
       </version>
-      <version>
-        <branch>Stable</branch>
-        <version>2.0.2</version>
-        <name>Version 2.0.2 (Stable)</name>
-        <package_url>
-          https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-riak-plugin-pdi-2.0.2-SNAPSHOT.zip
-        </package_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>Stable</branch>
-        <version>1.0.0</version>
-        <name>Version 1.0.0</name>
-        <package_url>
-          https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-riak-plugin-pdi-1.0.0-SNAPSHOT.zip
-        </package_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
     </versions>
   </market_entry>
 
@@ -7169,17 +7113,6 @@ With this plugin you can:
         <version>1.1.2</version>
         <package_url>
           https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.1.2-SNAPSHOT.zip
-        </package_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>Stable</branch>
-        <version>1.1.1</version>
-        <package_url>
-          https://raw.github.com/instaclick/pdi-marketplace-packages/master/ic-amqp-plugin-pdi-1.1.1-SNAPSHOT.zip
         </package_url>
         <development_stage>
           <lane>Community</lane>
@@ -7724,26 +7657,6 @@ With this plugin you can:
         <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
         <min_parent_version>6.0</min_parent_version>
       </version>
-      <version>
-        <branch>trunk</branch>
-        <version>2.1.2</version>
-        <build_id>139</build_id>
-        <name>Version 2.1.2</name>
-        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.2/AvroOutputPlugin.zip</package_url>
-        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
-        <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.4</max_parent_version>
-      </version>
-      <version>
-        <branch>trunk</branch>
-        <version>2.1.1</version>
-        <build_id>135</build_id>
-        <name>Version 2.1.1</name>
-        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.1.1/AvroOutputPlugin.zip</package_url>
-        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
-        <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.4</max_parent_version>
-      </version>
     </versions>
     <cases_url>https://github.com/cdeptula/AvroOutputPlugin/issues</cases_url>
     <license_name>Apache License 2.0</license_name>
@@ -8057,7 +7970,6 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
          <changelog>1.0</changelog>
          <build_id>1.0</build_id>
          <min_parent_version>3.8</min_parent_version>
-         <max_parent_version>5.1</max_parent_version>
       </version>
    </versions>
   </market_entry>
@@ -8192,13 +8104,6 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <version>0.1.3.1</version>
         <name>0.1.3.1</name>
         <package_url>http://dl.bintray.com/brosander/maven/com/github/brosander/kettle-ftl-plugin/0.1.3.1/kettle-ftl-plugin-0.1.3.1-plugin.zip</package_url>
-        <min_parent_version>5.0</min_parent_version>
-      </version>
-      <version>
-        <branch>Stable</branch>
-        <version>0.1.2</version>
-        <name>0.1.2</name>
-        <package_url>http://dl.bintray.com/brosander/maven/com/github/brosander/kettle-ftl-plugin/0.1.2/kettle-ftl-plugin-0.1.2-plugin.zip</package_url>
         <min_parent_version>5.0</min_parent_version>
       </version>
     </versions>
@@ -8423,18 +8328,6 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
           <phase>3</phase>
         </development_stage>
       </version>
-      <version>
-        <branch>TRUNK</branch>
-        <version>1.0.0</version>
-        <build_id>173</build_id>
-        <name>Version 1.0.0</name>
-        <package_url>https://github.com/inquidia/ParquetPlugin/releases/download/v1.0.0/ParquetPlugin-1.0.0.zip</package_url>
-        <source_url>https://github.com/inquidia/ParquetPlugin</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
     </versions>
     <cases_url>https://github.com/inquidia/ParquetPlugin/issues</cases_url>
     <license_name>Apache License 2.0</license_name>
@@ -8517,7 +8410,7 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
   </market_entry>
 
   <market_entry>
-  <id>SpecialCharacterRemover-ver-1.1.0</id>
+  <id>SpecialCharacterRemover</id>
   <type>Step</type>
   <name>Special Character Remover</name>
   <category>
@@ -8552,7 +8445,6 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
       <samples_url>https://github.com/rishuatgithub/Special-Character-Remover/releases/download/SpecialCharacterRemover_v1.1.0/SpecialCharacterRemover-ver-1.1.0.zip</samples_url>
       <build_id>1.1.0</build_id>
       <min_parent_version>4.2</min_parent_version>
-      <max_parent_version>5.4</max_parent_version>
       <development_stage>
         <lane>Community</lane>
         <phase>1</phase>
