@@ -8548,7 +8548,6 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
       <samples_url>https://github.com/rishuatgithub/Special-Character-Remover/releases/download/SpecialCharacterRemover_v1.1.0/SpecialCharacterRemover-ver-1.1.0.zip</samples_url>
       <build_id>1.1.0</build_id>
       <min_parent_version>4.2</min_parent_version>
-      <max_parent_version>5.4</max_parent_version>
       <development_stage>
         <lane>Community</lane>
         <phase>1</phase>
