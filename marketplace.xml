@@ -6847,7 +6847,6 @@ With this plugin you can:
         <samples_url/>
         <description>Latest build from the development branch.</description>
         <build_id>20140811-1900</build_id>
-        <max_parent_version>4.8</max_parent_version>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
