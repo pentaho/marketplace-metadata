@@ -6884,23 +6884,6 @@ With this plugin you can:
         </package_url>
         <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
         <min_parent_version>5.0</min_parent_version>
-        <max_parent_version>5.3</max_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>TRUNK</branch>
-        <version>2.0</version>
-        <build_id>89</build_id>
-        <name>Version 2.0</name>
-        <package_url>
-          https://github.com/cdeptula/refreshtableauextract/releases/download/2.0.0/refreshtableauextract.zip
-        </package_url>
-        <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
-        <max_parent_version>5.3</max_parent_version>
-        <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -6916,7 +6899,7 @@ With this plugin you can:
         </package_url>
         <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
         <min_parent_version>1.0</min_parent_version>
-        <max_parent_version>5.3</max_parent_version>
+        <max_parent_version>4.8.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
