@@ -8513,7 +8513,7 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
   </market_entry>
 
   <market_entry>
-  <id>SpecialCharacterRemover-ver-1.1.0</id>
+  <id>SpecialCharacterRemover</id>
   <type>Step</type>
   <name>Special Character Remover</name>
   <category>
