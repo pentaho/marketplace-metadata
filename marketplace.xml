@@ -8054,7 +8054,6 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
          <changelog>1.0</changelog>
          <build_id>1.0</build_id>
          <min_parent_version>3.8</min_parent_version>
-         <max_parent_version>5.1</max_parent_version>
       </version>
    </versions>
   </market_entry>
