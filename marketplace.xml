@@ -6582,12 +6582,27 @@ With this plugin you can:
     <versions>
       <version>
         <branch>TRUNK</branch>
+        <version>1.2.0</version>
+        <build_id>28</build_id>
+        <name>Version 1.2.0 (Stable)</name>
+        <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.2.0/TDEOutputPlugin.zip</package_url>
+        <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
         <version>1.1.0</version>
         <build_id>23</build_id>
-        <name>Version 1.1.0 (Stable)</name>
+        <name>Version 1.1.0</name>
         <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.1.0/TDEOutputPlugin.zip
         </package_url>
         <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
+        <min_parent_version>4.0</min_parent_version>
+        <max_parent_version>5.4</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
