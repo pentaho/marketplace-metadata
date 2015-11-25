@@ -5657,6 +5657,182 @@ any translation issues or suggestions for improvement
     </versions>
   </market_entry>
 
+
+  <market_entry>
+    <id>ssh2-plugin</id>
+    <type>JobEntry</type>
+    <name>SSH2 Plugin (deprecated)</name>
+    <category>
+      <name>Deprecated</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin contains the SSH2 Get and SSH2 Put job entries which were removed from PDI in 6.0</description>
+    <author>Pentaho</author>
+    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Job+Entries</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>6.0.0.0-353</version>
+        <package_url>http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho-kettle/ssh2-plugin/6.0.0.0-353/ssh2-plugin-6.0.0.0-353.zip</package_url>
+        <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/ssh2-plugin</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
+
+
+  <market_entry>
+    <id>aggregate-rows-plugin</id>
+    <type>Step</type>
+    <name>Aggregate Rows Step (deprecated)</name>
+    <category>
+      <name>Deprecated</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin contains the Aggregate Rows step which was removed from PDI in 6.0</description>
+    <author>Pentaho</author>
+    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>6.0.0.0-353</version>
+        <package_url>http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho-kettle/aggregate-rows-plugin/6.0.0.0-353/aggregate-rows-plugin-6.0.0.0-353.zip</package_url>
+        <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/aggregate-rows</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
+
+
+  <market_entry>
+    <id>get-previous-row-field-plugin</id>
+    <type>Step</type>
+    <name>Get Previous (deprecated)</name>
+    <category>
+      <name>Deprecated</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin contains the Get Previous Row Fields step which was removed from PDI in 6.0</description>
+    <author>Pentaho</author>
+    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>6.0.0.0-353</version>
+        <package_url>http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho-kettle/get-previous-row-field-plugin/6.0.0.0-353/get-previous-row-field-plugin-6.0.0.0-353.zip</package_url>
+        <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/get-previous-row-field</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
+
+
+  <market_entry>
+    <id>xml-input-stream-plugin</id>
+    <type>Step</type>
+    <name>Streaming XML Input (deprecated)</name>
+    <category>
+      <name>Deprecated</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin contains the Streaming XML Input step which was removed from PDI in 6.0</description>
+    <author>Pentaho</author>
+    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>6.0.0.0-353</version>
+        <package_url>http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho-kettle/xml-input-stream-plugin/6.0.0.0-353/xml-input-stream-plugin-6.0.0.0-353.zip</package_url>
+        <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/xml-input-stream</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
+
+
+  <market_entry>
+    <id>xml-input-plugin</id>
+    <type>Step</type>
+    <name>XML Input (deprecated)</name>
+    <category>
+      <name>Deprecated</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin contains the XML Input step which was removed from PDI in 6.0</description>
+    <author>Pentaho</author>
+    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>6.0.0.0-353</version>
+        <package_url>http://nexus.pentaho.org/content/repositories/pentaho-public-release-repos/pentaho-kettle/xml-input-plugin/6.0.0.0-353/xml-input-plugin-6.0.0.0-353.zip</package_url>
+        <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/xml-input</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
+
+
 <market_entry>
     <id>VerticaBulkLoader</id>
     <type>Step</type>
