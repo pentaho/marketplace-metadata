@@ -9066,4 +9066,53 @@ Capabilities:
     <support_organization>Pentaho</support_organization>
     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
   </market_entry>
+
+  <market_entry>
+    <id>acldash</id>
+    <type>Platform</type>
+
+    <name>ACL Dashboards</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+	<name>Apps</name>
+      </parent>
+    </category>
+
+    <description>Admin-only dashboards for quickly reviewing and toggling user and role permissions in Pentaho.</description>
+    <documentation_url>https://github.com/bluezio/acldash/blob/master/README.md</documentation_url>
+    <author>Antonio Garcia-Dominguez</author>
+    <author_url>http://github.com/bluezio</author_url>
+    <author_logo>http://bluezio.github.io/acldash/square_screenshot.png</author_logo>
+
+    <dependencies>pentaho-cdf-dd,pentaho-cdf,cda</dependencies>
+
+    <license_name>MIT</license_name>
+    <img>http://bluezio.github.io/acldash/square_screenshot.png</img>
+    <small_img>http://bluezio.github.io/acldash/square_screenshot.png</small_img>
+    <installation_notes>To enable visibility toggling, please consult the pentaho-solutions/system/acldash/config.yaml file.</installation_notes>
+
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.0</version>
+        <name>1.0.0</name>
+        <package_url>https://github.com/bluezio/acldash/raw/gh-pages/acldash-1.0.0.zip</package_url>
+        <description>First release</description>
+        <build_id>1</build_id>
+
+	<min_parent_version>5.4</min_parent_version>
+	<development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+	</development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>http://bluezio.github.io/acldash/full_screenshot_main.png</screenshot>
+      <screenshot>http://bluezio.github.io/acldash/full_screenshot_user.png</screenshot>
+      <screenshot>http://bluezio.github.io/acldash/full_screenshot_role.png</screenshot>
+    </screenshots>
+  </market_entry>
+
 </market>
