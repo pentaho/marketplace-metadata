@@ -7873,6 +7873,10 @@ With this plugin you can:
         <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.2.0/AvroOutputPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
         <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <cases_url>https://github.com/cdeptula/AvroOutputPlugin/issues</cases_url>
@@ -7992,6 +7996,10 @@ With this plugin you can:
         <build_id>20141022-2338</build_id>
         <name>1.0.0-RELEASE</name>
         <package_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/releases/download/1.0.0-RELEASE/pentaho-mongodb-delete-plugin-1.0.0-RELEASE.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <cases_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/issues</cases_url>
@@ -8036,6 +8044,10 @@ in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installati
 				<version>0.7.0</version>
 				<package_url>http://sourceforge.net/projects/arsoutputplugin/files/arsdatabase/arsdatabase-0.7.0-SNAPSHOT.zip/download</package_url>
 				<description>Trunk Snapshot. Install at your own risk...</description>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
 			</version>
 		</versions>
 		<license_name>GPL 3.0</license_name>
@@ -8074,6 +8086,10 @@ in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installati
 				<version>0.9.0</version>
 				<package_url>http://sourceforge.net/projects/arsoutputplugin/files/arsoutput/arsoutput-0.9.0-SNAPSHOT.zip/download</package_url>
 				<description>Trunk Snapshot. Install at your own risk...</description>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
 			</version>
 		</versions>
 		<license_name>GPL 3.0</license_name>
@@ -8149,6 +8165,10 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
          <package_url>https://github.com/bcolas/PDISforceBulkPlugin/releases/download/1.0/SforceBulkSpoonInput.zip</package_url>
          <source_url>https://github.com/bcolas/PDISforceBulkPlugin</source_url>
          <min_parent_version>5.1</min_parent_version>
+          <development_stage>
+            <lane>Community</lane>
+            <phase>3</phase>
+          </development_stage>
        </version>
      </versions>
    </market_entry>
@@ -8187,6 +8207,10 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
          <changelog>1.0</changelog>
          <build_id>1.0</build_id>
          <min_parent_version>3.8</min_parent_version>
+          <development_stage>
+            <lane>Community</lane>
+            <phase>3</phase>
+          </development_stage>
       </version>
    </versions>
   </market_entry>
@@ -8217,6 +8241,10 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
         <name>0.6.1</name>
         <package_url>http://sourceforge.net/projects/pdijira/files/pdi-jira-0.6.1.zip/download</package_url>
         <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
       <version>
         <branch>Stable</branch>
@@ -8225,6 +8253,10 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
         <package_url>http://sourceforge.net/projects/pdijira/files/pdi-jira-0.5.zip/download</package_url>
         <min_parent_version>4.4</min_parent_version>
         <max_parent_version>4.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -8258,9 +8290,14 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
         <package_url>http://dl.dropboxusercontent.com/s/2hbwo2lhtn2bbb0/pdi-zookeeper-1.1.1.zip?dl=0</package_url>
         <source_url>https://github.com/mattyb149/pdi-zookeeper</source_url>
         <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
+
     <market_entry>
         <id>importio.plugin</id>
         <type>Mixed</type>
@@ -8322,9 +8359,14 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <name>0.1.3.1</name>
         <package_url>http://dl.bintray.com/brosander/maven/com/github/brosander/kettle-ftl-plugin/0.1.3.1/kettle-ftl-plugin-0.1.3.1-plugin.zip</package_url>
         <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
+
   <market_entry>
     <id>kettle-docker</id>
     <type>Step</type>
@@ -8351,9 +8393,14 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <name>0.0.1</name>
         <package_url>https://dl.bintray.com/brosander/maven/com/github/brosander/kettle/docker/0.0.1/kettle-docker-0.0.1.zip</package_url>
         <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
+
   <market_entry>
     <id>kettle-socket-io</id>
     <type>Step</type>
@@ -8380,6 +8427,10 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <name>0.0.1</name>
         <package_url>https://dl.bintray.com/brosander/maven/com/github/brosander/kettle/socket/io/0.0.1/kettle-socket-io-0.0.1.zip</package_url>
         <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
   </market_entry>
@@ -8409,6 +8460,10 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <package_url>https://github.com/cdeptula/TokenReplacementPlugin/releases/download/2.0.0/TokenReplacementPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/TokenReplacementPlugin</source_url>
         <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
       <version>
         <branch>trunk</branch>
@@ -8419,6 +8474,10 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
         <source_url>https://github.com/cdeptula/TokenReplacementPlugin</source_url>
         <min_parent_version>5.0</min_parent_version>
         <max_parent_version>5.4</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <cases_url>https://github.com/cdeptula/TokenReplacementPlugin/issues</cases_url>
@@ -8582,6 +8641,10 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
          <package_url>https://github.com/bcolas/PDIEssbasePlugin/releases/download/1.0/kettle-essbase-plugin-5.2.zip</package_url>
          <source_url>https://github.com/bcolas/PDIEssbasePlugin</source_url>
          <min_parent_version>5.2</min_parent_version>
+          <development_stage>
+            <lane>Community</lane>
+            <phase>3</phase>
+          </development_stage>
        </version>
      </versions>
    </market_entry>
@@ -9068,6 +9131,10 @@ Capabilities:
         <branch>Master</branch>
         <version>1.0</version>
         <package_url>https://github.com/Sanmargar/sdtt/raw/master/sanmargar-sdtt-kettle-nip_pesel_regon_validator/dist/SanmargarPeselNipRegonValidator.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <license_name>Apache 2.0</license_name>
