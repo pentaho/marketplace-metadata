@@ -7983,7 +7983,6 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Delete document inside a MongoDB collection</description>
     <description><![CDATA[A Pentaho Data Integration Plugin to delete MongoDB document]]></description>
     <author>Maas Dianto</author>
     <author_url>https://github.com/maasdi</author_url>
