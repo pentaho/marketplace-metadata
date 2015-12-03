@@ -8000,6 +8000,10 @@ With this plugin you can:
           <lane>Community</lane>
           <phase>3</phase>
         </development_stage>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
       </version>
     </versions>
     <cases_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/issues</cases_url>
