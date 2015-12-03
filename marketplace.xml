@@ -7979,19 +7979,19 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Delete document inside a MongoDB collection</description>
+    <description><![CDATA[A Pentaho Data Integration Plugin to delete MongoDB document]]></description>
     <author>Maas Dianto</author>
     <author_url>https://github.com/maasdi</author_url>
     <author_logo/>
-    <installation_notes/>
-    <documentation_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/wiki/MongoDB-Delete</documentation_url>
+    <installation_notes><![CDATA[If there's new version, recomended to unistall first, restart then install again.]]></installation_notes>
+    <documentation_url>http://maasdi.github.io/pentaho-mongodb-delete-plugin/</documentation_url>
     <versions>
       <version>
         <branch>master</branch>
-        <version>1.0.0-RELEASE</version>
-        <build_id>20141022-2338</build_id>
-        <name>1.0.0-RELEASE</name>
-        <package_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/releases/download/1.0.0-RELEASE/pentaho-mongodb-delete-plugin-1.0.0-RELEASE.zip</package_url>
+        <version>1.0.1-RELEASE</version>
+        <build_id>20151203-0342</build_id>
+        <name>1.0.1-RELEASE</name>
+        <package_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/releases/download/1.0.1-RELEASE/pentaho-mongodb-delete-plugin-1.0.1-RELEASE.zip</package_url>
       </version>
     </versions>
     <cases_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/issues</cases_url>
