@@ -9358,4 +9358,55 @@ Capabilities:
     </screenshots>
   </market_entry>
 
+    
+  <market_entry>
+    <id>weka-analyzer-viz</id>
+    <type>Platform</type>
+    <img>https://github.com/bennychow/weka-analyzer-viz/raw/master/resources/weka_analyzer.png</img>
+    <small_img>https://github.com/bennychow/weka-analyzer-viz/raw/master/resources/weka_analyzer.png</small_img>
+    <name>Weka Analyzer Visualizations</name>
+    <category>
+      <name />
+      <parent>
+        <name>Visualizations</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/bennychow/weka-analyzer-viz/raw/master/tutorial/Weka%20Visualizations%20Tutorial.docx</documentation_url>
+    <description>
+<![CDATA[
+
+<p>For tutorials and developer guide see: <a href="https://github.com/bennychow/weka-analyzer-viz/raw/master/tutorial/Weka%20Visualizations%20Tutorial.docx">Weka Visualizations Tutorial</a><p>
+
+<p>Includes three easy to use Analyzer visualizations that allow you to run machine learning algorithms in Weka.  The following algorithms are included:</p>
+
+<ul>
+	<li>Decision Tree - Use this classification algorithm to find rules that predict an outcome.</li>
+	<li>Clustering - Find similiar groups of instances and optionally test against a desired outcome.</li>
+	<li>Attribute Selection - Identify which attributes are most predictive for an outcome.</li>
+</ul>
+
+<p><b>This plugin adds visualizations to Analyzer and thus requires Pentaho Enterprise Edition.</b></p>
+]]>
+    </description>
+    <author>Benny Chow</author>
+    <license>ASL 2.0</license>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <name>Trunk</name>
+        <package_url>https://github.com/bennychow/weka-analyzer-viz/raw/master/bin/weka-analyzer-viz.zip</package_url>
+        <description>BA Server Plugin for Weka Analyzer Visualizations</description>
+        <min_parent_version>6.1</min_parent_version>
+          <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+		<screenshots>
+			<screenshot>https://github.com/bennychow/weka-analyzer-viz/raw/master/resources/screenshot.png</screenshot>
+		</screenshots>
+  </market_entry>
+  
 </market>
