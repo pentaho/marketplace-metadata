@@ -8594,15 +8594,30 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
     <versions>
       <version>
         <branch>TRUNK</branch>
+        <version>2.0.0</version>
+        <build_id>180</build_id>
+        <name>Version 2.0.0 (Stable)</name>
+        <package_url>https://github.com/inquidia/ParquetPlugin/releases/download/v2.0.0/ParquetOutput.zip</package_url>
+        <source_url>https://github.com/inquidia/ParquetPlugin</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+        <min_parent_version>6.0</min_parent_version>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
         <version>1.0.1</version>
         <build_id>175</build_id>
-        <name>Version 1.0.1 (Stable)</name>
+        <name>Version 1.0.1</name>
         <package_url>https://github.com/inquidia/ParquetPlugin/releases/download/1.0.1/ParquetPlugin.zip</package_url>
         <source_url>https://github.com/inquidia/ParquetPlugin</source_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
         </development_stage>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.4</max_parent_version>
       </version>
     </versions>
     <cases_url>https://github.com/inquidia/ParquetPlugin/issues</cases_url>
