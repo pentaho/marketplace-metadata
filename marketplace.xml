@@ -9008,7 +9008,7 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
         <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/FastJsonInput.zip</package_url>
         <build_id/>
         <development_stage>
