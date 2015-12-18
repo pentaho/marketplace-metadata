@@ -406,7 +406,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>54</build_id>
+        <build_id>55</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -427,7 +427,7 @@
         <description>
           Build for Pentaho 5
         </description>
-        <build_id>54</build_id>
+        <build_id>55</build_id>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
@@ -900,7 +900,7 @@
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
         </description>
-        <build_id>60</build_id>
+        <build_id>61</build_id>
         <min_parent_version>1.0</min_parent_version>
         <max_parent_version>4.9</max_parent_version>
         <development_stage>
@@ -921,7 +921,7 @@
         <description>
           Build for Pentaho 5.x
         </description>
-        <build_id>60</build_id>
+        <build_id>61</build_id>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.9</max_parent_version>        
         <development_stage>
