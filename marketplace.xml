@@ -440,10 +440,10 @@
         <version>6.1-SNAPSHOT</version>
         <name>TRUNK</name>
         <package_url>
-          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&g=pentaho&a=pentaho-cdf&v=6.1-SNAPSHOT&p=zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf&amp;v=6.1-SNAPSHOT&amp;p=zip
         </package_url>
         <samples_url>
-          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&g=pentaho&a=pentaho-cdf-samples&v=6.1-SNAPSHOT&p=zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf-samples&amp;v=6.1-SNAPSHOT&amp;p=zip
         </samples_url>
         <description>
           Build for Pentaho 6
@@ -682,10 +682,10 @@
         <version>6.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&g=pentaho&a=cda&v=6.1-SNAPSHOT&p=zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda&amp;v=6.1-SNAPSHOT&amp;p=zip
         </package_url>
         <samples_url>
-          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&g=pentaho&a=cda-samples&v=6.1-SNAPSHOT&p=zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda-samples&amp;v=6.1-SNAPSHOT&amp;p=zip
         </samples_url>
         <description>
           Build for Pentaho 6
