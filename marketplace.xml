@@ -440,15 +440,15 @@
         <version>6.1-SNAPSHOT</version>
         <name>TRUNK</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-6.1-SNAPSHOT.zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&g=pentaho&a=pentaho-cdf&v=6.1-SNAPSHOT&p=zip
         </package_url>
         <samples_url>
-          http://ci.pentaho.com/job/pentaho-cdf/lastSuccessfulBuild/artifact/cdf-pentaho5/dist/pentaho-cdf-samples-6.1-SNAPSHOT.zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&g=pentaho&a=pentaho-cdf-samples&v=6.1-SNAPSHOT&p=zip
         </samples_url>
         <description>
           Build for Pentaho 6
         </description>
-        <build_id>729</build_id>
+        <build_id>31</build_id>
         <min_parent_version>6.0</min_parent_version>
         <max_parent_version>6.0.9</max_parent_version>
         <development_stage>
@@ -679,18 +679,18 @@
       </version>
       <version>
         <branch>TRUNK</branch>
-        <version>6.0-SNAPSHOT</version>
+        <version>6.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-6.0-SNAPSHOT.zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&g=pentaho&a=cda&v=6.1-SNAPSHOT&p=zip
         </package_url>
         <samples_url>
-          http://ci.pentaho.com/job/pentaho-cda/lastSuccessfulBuild/artifact/cda-pentaho5/dist/cda-samples-6.0-SNAPSHOT.zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&g=pentaho&a=cda-samples&v=6.1-SNAPSHOT&p=zip
         </samples_url>
         <description>
           Build for Pentaho 6
         </description>
-        <build_id>331</build_id>
+        <build_id>33</build_id>
         <min_parent_version>6.0</min_parent_version>
         <max_parent_version>6.0.9</max_parent_version>
         <development_stage>
