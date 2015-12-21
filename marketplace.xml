@@ -7451,11 +7451,26 @@ With this plugin you can:
     <documentation_url>https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/wiki</documentation_url>
     <versions>
       <version>
-        <branch>Stable</branch>
+        <branch>pdi-6.0</branch>
+        <version>1.1</version>
+        <package_url>
+          https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/raw/pdi-6.0/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip
+        </package_url>
+        <description>Build for PDI 6.0</description>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>Pre pdi-6.0</branch>
         <version>1.0</version>
         <package_url>
           https://github.com/rpbouman/pentaho-pdi-plugin-jdbc-metadata/blob/1.0/dist/steps/pentaho-pdi-plugin-jdbc-metadata/pentaho-pdi-plugin-jdbc-metadata.zip?raw=true
         </package_url>
+        <description>Build for PDI &lt; 6.0</description>
+        <max_parent_version>5.4.0</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
