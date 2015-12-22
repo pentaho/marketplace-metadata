@@ -4092,10 +4092,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_ca-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_ca-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4110,10 +4110,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_ca-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_ca-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4191,10 +4191,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-         http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_nl-15.07.15.zip
+         http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_nl-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4209,10 +4209,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_nl-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_nl-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4291,10 +4291,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_fr-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_fr-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4309,10 +4309,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_fr-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_fr-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4391,10 +4391,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_de-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_de-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4409,10 +4409,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_de-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_de-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4490,10 +4490,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_hi-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_hi-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4508,10 +4508,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_hi-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_hi-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4591,10 +4591,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_it-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_it-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4609,10 +4609,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_it-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_it-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4693,10 +4693,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_ja-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_ja-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4711,10 +4711,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_ja-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_ja-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4793,10 +4793,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-         http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_ko-15.07.15.zip
+         http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_ko-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4811,10 +4811,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_ko-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_ko-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4895,10 +4895,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_pt_BR-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_pt_BR-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -4913,10 +4913,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_pt_BR-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_pt_BR-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -5000,10 +5000,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_pt_PT-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_pt_PT-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -5018,10 +5018,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_pt_PT-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_pt_PT-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -5102,10 +5102,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_es-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_es-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -5120,10 +5120,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_es-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_es-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -5184,10 +5184,10 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>RELEASE</branch>
-        <version>15.07.15</version>
+        <version>15.12.21</version>
         <name>RELEASE</name>
         <package_url>
-          http://ctools.pentaho.com/files/languagePacks/15.07.15/languagePack_th-15.07.15.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_th-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -5202,10 +5202,10 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_th-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_th-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -5265,11 +5265,29 @@ any translation issues or suggestions for improvement
     </installation_notes>
     <versions>
       <version>
+        <branch>RELEASE</branch>
+        <version>15.12.21</version>
+        <name>RELEASE</name>
+        <package_url>
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_sv-15.12.21.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>5.1</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_sv-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_sv-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
@@ -5329,11 +5347,29 @@ any translation issues or suggestions for improvement
     </installation_notes>
     <versions>
       <version>
+        <branch>RELEASE</branch>
+        <version>15.12.21</version>
+        <name>RELEASE</name>
+        <package_url>
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/5.x/languagePack_zh_CN-15.12.21.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>5.1</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
         <branch>STABLE</branch>
-        <version>6.0-15.11.06</version>
+        <version>6.0-15.12.21</version>
         <name>STABLE</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-languagepackinstallers/17/artifact/dist/languagePack_zh_CN-6.0-15.11.06.zip
+          http://ctools.pentaho.com/files/languagePacks/15.12.21/6.x/languagePack_zh_CN-6.0-15.12.21.zip
         </package_url>
         <samples_url/>
         <description>Latest Release</description>
