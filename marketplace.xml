@@ -9486,5 +9486,46 @@ Capabilities:
 			<screenshot>https://github.com/bennychow/weka-analyzer-viz/raw/master/resources/screenshot.png</screenshot>
 		</screenshots>
   </market_entry>
+
+  <market_entry>
+    <id>CPythonScriptExecutor</id>
+    <type>Step</type> 
+    
+    <name>CPython Script Executor</name>
+    
+    <category> 
+      <name>Statistics</name>
+      <parent>
+	<name>PDI Plugins</name>
+      </parent>
+    </category>
+    
+    <description>This plugin provides the ability to execute a Python script (via the CPython environment) within the context of a transformation.</description>
+    <documentation_url>https://github.com/pentaho-labs/pentaho-cpython-plugin</documentation_url>
+    <author>Mark Hall</author>
+    
+    <!--  <forum_url>http://forums.me.com</forum_url>  a link to the forum related to this plugin (PDI only) -->
+    <!--  <cases_url>http://jira.me.com</cases_url>  a link to the bug tracking system related to this plugin (Kettle only) -->
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by Pentaho Labs</support_message>
+    <support_organization>Pentaho Labs</support_organization>
+    <support_url>https://github.com/pentaho-labs/pentaho-cpython-plugin</support_url>
+    
+    <versions>
+      <version>
+	<branch>Trunk</branch>
+	<version>1.0</version>
+      <package_url>https://github.com/pentaho-labs/pentaho-cpython-plugin/releases/download/v1.0/pentaho-cpython-plugin-package-1.0-SNAPSHOT.zip</package_url>
+      
+      <development_stage>
+        <lane>Customer</lane>
+        <phase>2</phase>
+      </development_stage>
+      </version>
+    </versions>
+  </market_entry>
   
 </market>
