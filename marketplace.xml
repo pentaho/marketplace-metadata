@@ -3816,10 +3816,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
       <version>
         <branch>Release</branch>
-        <version>3.0.10</version>
+        <version>3.0.11</version>
         <name>Latest</name>
-        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-3.0.10.zip</package_url>
-        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_samples-3.0.10.zip</samples_url>
+        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-3.0.11.zip</package_url>
+        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_samples-3.0.11.zip</samples_url>
         <max_parent_version>5.4.99</max_parent_version>
         <min_parent_version>5.3.0</min_parent_version>
         <development_stage>
