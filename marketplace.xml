@@ -306,7 +306,7 @@
 
 
       <version>
-        <branch>6.0</branch>
+        <branch>6.0.0.0</branch>
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
@@ -550,7 +550,7 @@
 
 
       <version>
-        <branch>6.0</branch>
+        <branch>6.0.0.0</branch>
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
@@ -798,7 +798,7 @@
 
 
       <version>
-        <branch>6.0</branch>
+        <branch>6.0.0.0</branch>
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
@@ -1040,7 +1040,7 @@
 
 
       <version>
-        <branch>6.0</branch>
+        <branch>6.0.0.0</branch>
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
