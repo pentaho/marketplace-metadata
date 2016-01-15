@@ -6323,7 +6323,7 @@ With this plugin you can:
         <branch>Stable</branch>
         <version>4.x</version>
         <name>4.x</name>
-        <package_url>https://pentaho.box.com/shared/static/1rcyaet2tceprebejldg.zip</package_url>
+        <package_url>http://ci.pentaho.com/view/Data%20Mining/job/pdi-weka-scoring-plugin/lastSuccessfulBuild/artifact/dist/pdi-wekascoring-plugin-package-6.1-SNAPSHOT.zip</package_url>
         <source_url>http://source.pentaho.org/svnkettleroot/plugins/WekaScoring/</source_url>
         <min_parent_version>4.2</min_parent_version>
         <development_stage>
