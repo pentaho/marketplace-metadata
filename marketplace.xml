@@ -5507,7 +5507,7 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>CPythonScriptExecutor</id>
     <type>Step</type> 
-    <img>https://raw.githubusercontent.com/pentaho-labs/pentaho-cpython-plugin/master/screenshot/pdi_python.png</img>    
+    <img>https://raw.githubusercontent.com/pentaho-labs/pentaho-cpython-plugin/master/screenshot/pdi_python.png</img>
     <name>CPython Script Executor</name>
     
     <category> 
@@ -5543,6 +5543,9 @@ any translation issues or suggestions for improvement
       </development_stage>
       </version>
     </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/pentaho-labs/pentaho-cpython-plugin/master/screenshot/pdi_python.png</screenshot>
+    </screenshots>
   </market_entry>
 
   <market_entry>
