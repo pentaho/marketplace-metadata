@@ -61,10 +61,10 @@
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>6.0.0.0-349</version>
+        <version>6.0.0.0-353</version>
         <name>Latest snapshot build</name>
         <package_url>
-          http://nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pentaho-marketplace/6.0.0.0-349/pentaho-marketplace-6.0.0.0-349.kar
+          http://nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pentaho-marketplace/6.0.0.0-353/pentaho-marketplace-6.0.0.0-353.kar
         </package_url>
         <description>Build for Pentaho 6.0</description>
         <build_id/>
