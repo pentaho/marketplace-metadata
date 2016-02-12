@@ -1741,7 +1741,8 @@ A landing tab can optionally be presented, which can be used to any of the prede
         </package_url>
         <description>16.01.22 release.</description>
         <build_id/>
-        <min_parent_version>5.0</min_parent_version>
+        <min_parent_version>5.1</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>        
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -1840,6 +1841,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>16.01.22 release.</description>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
+        <max_parent_version>5.4.99</max_parent_version>                
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
