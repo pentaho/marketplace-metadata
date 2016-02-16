@@ -9591,5 +9591,51 @@ Capabilities:
 			<screenshot>https://github.com/bennychow/weka-analyzer-viz/raw/master/resources/screenshot.png</screenshot>
 		</screenshots>
   </market_entry>
-  
+
+  <market_entry>
+    <id>artifactCatalog</id>
+    <type>Platform</type>
+
+    <name>Curated Artifact Catalog</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+	<name>Apps</name>
+      </parent>
+    </category>
+
+    <description>Adds an alternative web UI for organizing Pentaho artifacts into a catalog.</description>
+    <documentation_url>https://github.com/bluezio/pentaho-artifactCatalog/blob/master/README.md</documentation_url>
+    <author>Antonio Garcia-Dominguez</author>
+    <author_url>http://github.com/bluezio</author_url>
+    <author_logo>http://bluezio.github.io/pentaho-artifactCatalog/square_screenshot.png</author_logo>
+
+    <dependencies>pentaho-cdf-dd,pentaho-cdf,cda,cfr</dependencies>
+
+    <license_name>Apache License 2.0</license_name>
+    <img>http://bluezio.github.io/pentaho-artifactCatalog/square_screenshot.png</img>
+    <small_img>http://bluezio.github.io/pentaho-artifactCatalog/square_screenshot.png</small_img>
+    <installation_notes>To use the default HSQLDB database included with Pentaho, edit the SampleData data source and change the user to "pentaho_admin". To use other databases (MySQL, Postgres), please consult the README.</installation_notes>
+
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.0</version>
+        <name>1.0.0</name>
+        <package_url>https://github.com/bluezio/pentaho-artifactCatalog/raw/gh-pages/artifactCatalog-1.0.0.zip</package_url>
+        <description>First release</description>
+        <build_id>1</build_id>
+
+	<min_parent_version>5.4</min_parent_version>
+	<development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+	</development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>http://bluezio.github.io/pentaho-artifactCatalog/full_screenshot.png</screenshot>
+      <screenshot>http://bluezio.github.io/pentaho-artifactCatalog/full_screenshot2.png</screenshot>
+    </screenshots>
+  </market_entry>
 </market>
