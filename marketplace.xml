@@ -7946,7 +7946,7 @@ With this plugin you can:
     </description>
     <author>Matt Burgess</author>
     <forum_url>http://forums.pentaho.com/forumdisplay.php?269-Data-Integration-Kettle</forum_url>
-    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <cases_url>https://github.com/mattyb149/GroovyConsoleSpoonPlugin/issues</cases_url>
     <license_name>Apache License 2.0</license_name>
     <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
@@ -8305,8 +8305,8 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
      </category>
      <description>This plugin (for PDI 5.1+) allows you to use Salesforce Bulk API to get data from SObjects.</description>
      <author>Benoit COLAS</author>
-     <forum_url/>
-     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+     <forum_url>https://github.com/bcolas/PDISforceBulkPlugin/wiki</forum_url>
+     <cases_url>https://github.com/bcolas/PDISforceBulkPlugin/issues</cases_url>
      <license_name>Apache License 2.0</license_name>
      <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
      <support_level>COMMUNITY_SUPPORTED</support_level>
@@ -8797,7 +8797,7 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
      <description>This plugin (for PDI 5.2+) allows to connect to Essbase server, load data to cubes and read data through MDX queries.</description>
      <author>Benoit COLAS</author>
      <forum_url>http://forums.pentaho.com/showthread.php?169809-Oracle-Essbase-Plugin-Development</forum_url>
-     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+     <cases_url>https://github.com/bcolas/PDIEssbasePlugin/issues</cases_url>
      <license_name>Apache License 2.0</license_name>
      <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
      <support_level>COMMUNITY_SUPPORTED</support_level>
