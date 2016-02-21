@@ -3214,9 +3214,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>4.1</version>
+        <version>4.2</version>
         <name>Stable</name>
-        <package_url>http://sourceforge.net/projects/aaar/files/v4.1/AAAR_v4.1.zip/download</package_url>
+        <package_url>http://sourceforge.net/projects/aaar/files/v4.2/AAAR_v4.2.zip/download</package_url>
         <samples_url/>
         <description><![CDATA[
         Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
@@ -3225,8 +3225,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         ]]>
         </description>
         <changelog><![CDATA[
-        - Porting to Pentaho 6.0 (bye bye Pentaho 5 from here ahead).
-        - Transparent authentication from Alfresco to Pentaho v1.1.
+        - Custom properties extraction using REST services instead of CMIS calls.
+        - Added a custom properties setup in the AAAR wizard.
+        - Issue 30 solution. https://github.com/fcorti/alfresco-audit-analysis-reporting/issues/30
         - Bugfixes.
         ]]>
         </changelog>
