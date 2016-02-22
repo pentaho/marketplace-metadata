@@ -3243,7 +3243,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <branch>STABLE</branch>
         <version>4.0</version>
         <name>Stable</name>
-        <package_url>https://sourceforge.net/projects/aaar/files/v4.0/AAAR_v4.0.zip/download</package_url>
+        <package_url>https://raw.githubusercontent.com/fcorti/alfresco-audit-analysis-reporting/master/build/v4.0/AAAR_v4.0.zip</package_url>
         <samples_url/>
         <description><![CDATA[
         Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
@@ -3271,7 +3271,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <branch>STABLE</branch>
         <version>3.1</version>
         <name>Stable</name>
-        <package_url>https://sourceforge.net/projects/aaar/files/v3.1/AAAR_v3.1.zip/download</package_url>
+        <package_url>https://raw.githubusercontent.com/fcorti/alfresco-audit-analysis-reporting/master/build/v3.1/AAAR_v3.1.zip</package_url>
         <samples_url/>
         <description><![CDATA[
         Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
@@ -3294,198 +3294,6 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
           <phase>3</phase>
         </development_stage>
       </version>
-      <version>
-        <branch>STABLE</branch>
-        <version>3.0</version>
-        <name>Stable</name>
-        <package_url>https://sourceforge.net/projects/aaar/files/v3.0/AAAR_v3.0.zip/download</package_url>
-        <samples_url/>
-        <description><![CDATA[
-        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-        <br/>
-        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-        ]]>
-        </description>
-        <changelog><![CDATA[
-        - Repository dashboards for folders and documents (3 new dashboards).
-        - Non blocking management in case of CMIS duplication (sometimes happens with Alfresco CMIS).
-        - GET_PARENT flag set to true by default.
-        - Changed the Pentaho menu item to link to analysis dashboard instead of admin dashboard.
-        - Refactoring with Pentaho 5.3 sparkl plugin.
-        - Configuration dashboard for report publishing.
-        - Choice of the Alfresco version during installation process (5.0.x or 4.2.x, EE or CE).
-        - Bugfixes
-          - Dashboards queries for MySql.
-          - Query for MySql on admin dashboard for Alfresco instances.
-        ]]>
-        </changelog>
-        <build_id>1</build_id>
-        <max_parent_version>5.3.99</max_parent_version>
-        <min_parent_version>5.3</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>STABLE</branch>
-        <version>2.4.1</version>
-        <name>Stable</name>
-        <package_url>https://sourceforge.net/projects/aaar/files/v2.4.1/AAAR_v2.4.1.zip/download</package_url>
-        <samples_url/>
-        <description><![CDATA[
-        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-        <br/>
-        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-        ]]>
-        </description>
-        <changelog><![CDATA[
-        - Pentaho 5.3 compliance.
-        ]]>
-        </changelog>
-        <build_id>1</build_id>
-        <max_parent_version>5.3.99</max_parent_version>
-        <min_parent_version>5.3</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>STABLE</branch>
-        <version>2.4</version>
-        <name>Stable</name>
-        <package_url>https://sourceforge.net/projects/aaar/files/v2.4/AAAR_v2.4.zip/download</package_url>
-        <samples_url/>
-        <description><![CDATA[
-        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-        <br/>
-        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-        ]]>
-        </description>
-        <changelog><![CDATA[
-        - Bootstrap restyle for all the installation wizard and dashboards.
-        - Bugfixes.
-        ]]>
-        </changelog>
-        <build_id>1</build_id>
-        <max_parent_version>5.2.99</max_parent_version>
-        <min_parent_version>5.2</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>STABLE</branch>
-        <version>2.3</version>
-        <name>Stable</name>
-        <package_url>https://sourceforge.net/projects/aaar/files/v2.3/AAAR_v2.3.zip/download</package_url>
-        <samples_url/>
-        <description><![CDATA[
-        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-        <br/>
-        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-        ]]>
-        </description>
-        <changelog><![CDATA[
-        - Multiple installations of Alfresco.
-        - Bugfixes.
-        ]]>
-        </changelog>
-        <build_id>1</build_id>
-        <max_parent_version>5.2.99</max_parent_version>
-        <min_parent_version>5.2</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>STABLE</branch>
-        <version>2.2</version>
-        <name>Stable</name>
-        <package_url>https://sourceforge.net/projects/aaar/files/v2.2/AAAR_v2.2.zip/download</package_url>
-        <samples_url/>
-        <description><![CDATA[
-        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-        <br/>
-        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-        ]]>
-        </description>
-        <changelog><![CDATA[
-        - Dashboard on audit trail.
-        - Free analysis on Saiku and Pivot4j.
-        - Brand new report on documents per site.
-        - CMIS Input plugin with the Open CMIS v0.12.
-        - Bugfixes.
-        ]]>
-        </changelog>
-        <build_id>1</build_id>
-        <max_parent_version>5.2.99</max_parent_version>
-        <min_parent_version>5.2</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>TRUNK</branch>
-        <version>2.1</version>
-        <name>Trunk</name>
-        <package_url>https://sourceforge.net/projects/aaar/files/v2.1/AAAR_v2.1.zip/download</package_url>
-        <samples_url/>
-        <description><![CDATA[
-        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-        <br/>
-        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-        ]]>
-        </description>
-        <changelog><![CDATA[
-        - Custom metadata are imported into the data mart with the purpose to be analyzed (wokflow comprised).
-        - CMIS Input plugin improved in performance.
-        - Bugfix of the AAAR_Extract.
-        - Bugfix of the port of the installation dashboard.
-        - Bugfix of the postgresql extraction on a CMIS query.
-        ]]>
-        </changelog>
-        <build_id>1</build_id>
-        <max_parent_version>5.2.99</max_parent_version>
-        <min_parent_version>5.1</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-      <version>
-        <branch>LIMITED</branch>
-        <version>2.0</version>
-        <name>Stable</name>
-        <package_url>https://sourceforge.net/projects/aaar/files/v2.0/AAAR_v2.0.zip/download</package_url>
-        <samples_url/>
-        <description><![CDATA[
-        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
-        <br/>
-        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
-        ]]>
-        </description>
-        <changelog><![CDATA[
-        - Developed the dashboards used as installation wizard and instructions on how to use the solution.
-        - Added the repository structure in the Pentaho containing dashboards and reports.
-        - Developed the main dashboard as hub of reports.
-        - Added the configuration file for the installation, extraction and publication processes.
-        - Added the log file for the installation, extraction and publication processes.
-        - Updated the script file with sevarl feature like: log file, silent parameter, configuration file.
-        ]]>
-        </changelog>
-        <build_id>1</build_id>
-        <max_parent_version>5.0.99</max_parent_version>
-        <min_parent_version>1.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-      </version>
     </versions>
     <screenshots>
       <screenshot>http://fcorti.com/wp-content/uploads/2015/01/aaar_marketplace_1.jpg</screenshot>
@@ -3493,7 +3301,6 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <screenshot>http://fcorti.com/wp-content/uploads/2015/01/aaar_marketplace_3.jpg</screenshot>
     </screenshots>
   </market_entry>
-
 
   <market_entry>
     <id>logManager</id>
