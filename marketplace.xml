@@ -6680,6 +6680,9 @@ With this plugin you can:
       capabilities to generate a Tableau Data Extract (tde) file. You can then publish the TDE file to a
       Tableau server or use the TDE in Tableau Desktop.
 
+      Version 2.x+ is compatible with Tableau 9.1 and above.
+      Version 1.x- is compatible with Tableau 9.0 and below please see the readme for further information.
+
       Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace
       and requires additional installation. Instructions to download and install the Tableau Data Extract
       API are available in the README or at: https://github.com/cdeptula/tdeoutputplugin
@@ -6689,27 +6692,30 @@ With this plugin you can:
     <author_logo>http://inquidia.com/sites/default/files/inquidia-web-logo.png</author_logo>
     <installation_notes>
       Due to licensing the Tableau Data Extract API is not distributed through the Pentaho Marketplace and must be
-      separately downloaded and installed using the instructions below.
+      separately downloaded and installed.
 
-      1. Install the Tableau Data Exract Output plugin from the Pentaho marketplace.
-      2. Download the "C/C++/Java" data extract API from Tableau for your environment. Choose the 32 bit or 64 bit
-      version based on your Java JDK. - http://www.tableausoftware.com/data-extract-api
-      3. Unzip the downloaded zip.
-      4. For PDI 5.0 and above - Copy the contents of the Java directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin
-      directory.
-      5. For PDI 4.8 and below - Copy the contents of the Java6 directory to ${PDI_HOME}/plugins/steps/TDEOutputPlugin
-      directory.
-      6. For Windows - Add the bin folder from the downloaded Tableau API zip to your system path variable.
-      7. For Linux - Add the lib folder from the downloaded Tableau API zip to the LD_LIBRARY_PATH variable.
-      8. Restart PDI
+      See https://github.com/cdeptula/tdeoutputplugin/blob/master/README.md for detailed installation instructions.
     </installation_notes>
     <documentation_url>https://github.com/cdeptula/tdeoutputplugin/wiki</documentation_url>
     <versions>
       <version>
         <branch>TRUNK</branch>
+        <version>2.0.0</version>
+        <build_id>39</build_id>
+        <name>Version 2.0.0 (Stable)</name>
+        <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/2.0.0/TDEOutputPlugin2.0.0.zip</package_url>
+        <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
         <version>1.2.0</version>
         <build_id>28</build_id>
-        <name>Version 1.2.0 (Stable)</name>
+        <name>Version 1.2.0</name>
         <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/1.2.0/TDEOutputPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
         <min_parent_version>6.0</min_parent_version>
