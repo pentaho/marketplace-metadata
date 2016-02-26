@@ -6092,17 +6092,16 @@ With this plugin you can:
     <documentation_url>http://fcorti.com/pdi-cmis-input/</documentation_url>
     <author>Francesco Corti</author>
     <author_url>http://fcorti.com</author_url>
-    <author_logo>http://francescocorti.files.wordpress.com/2012/12/copy-francescosmall1.jpg</author_logo>
-    <img>http://francescocorti.files.wordpress.com/2013/01/cmisinput.png</img>
-    <small_img>http://francescocorti.files.wordpress.com/2013/04/cmisinput.png</small_img>
+    <author_logo>http://www.gravatar.com/avatar/7d8758b63c7b2a873b3b925267ba912d.png</author_logo>
+    <img>http://fcorti.com/wp-content/uploads/2013/11/cmisinput.png</img>
+    <small_img>http://fcorti.com/wp-content/uploads/2013/11/cmisinput.png</small_img>
     <license_name>LGPL v3</license_name>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>1.3</version>
         <name>1.3</name>
-        <package_url>http://sourceforge.net/projects/cmisinputplugin/files/v1.3/CMIS-Input-plugin-v1.3.zip/download
-        </package_url>
+        <package_url>https://github.com/fcorti/CMIS-Input-plugin/releases/download/v1.3/CMIS-Input-plugin-v1.3.zip</package_url>
         <description>Release v1.3 of the plugin.</description>
         <changelog>Apache Chemistry CMIS for java v0.12.</changelog>
         <build_id>1</build_id>
