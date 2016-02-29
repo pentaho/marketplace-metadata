@@ -6356,7 +6356,7 @@ With this plugin you can:
     <type>Step</type>
 	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_GlobalVerify_s96.png</img>
     <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_GlobalVerify_s32.png</small_img>
-    <name>Enterprise Data Verification and Enrichment for Pentaho - Global Data Quality</name>
+    <name>Enterprise Data Verification &amp; Enrichment for Pentaho - Global Data Quality</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6429,7 +6429,7 @@ With this plugin you can:
     <type>Step</type>
 	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s96.png</img>
     <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s32.png</small_img>
-    <name>Enterprise Data Verificatoin & Enrichment for Pentaho US and Canada</name>
+    <name>Enterprise Data Verification &amp; Enrichment for Pentaho US and Canada</name>
     <category>
       <name>Data Quality</name>
       <parent>
