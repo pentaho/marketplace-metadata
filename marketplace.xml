@@ -6237,7 +6237,7 @@ With this plugin you can:
     <type>Step</type>
 	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_ContactVerify_s96.png</img>
     <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_ContactVerify_s32.png</small_img>
-    <name>MDCheck - Name, Address, Phone, Email, IP validation and record consolidation</name>
+    <name>Enterprise Data Quality for Pentaho - Name, Address, Phone, Email, IP Validation and Record Consolidation</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6246,7 +6246,10 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>Data Quality Components for Pentaho by Melissa Data:</h1>
+	<h1>Contact Verify</h1>
+	<h1>MatchUp</h1>
+	<h1>SmartMover</h1>
+	<h1>IPLocator</h1>
       <hr>
       <h2>Contact Verify Component</h2>
 	  <ul>
@@ -6290,6 +6293,16 @@ With this plugin you can:
       <h3>Processing Options -(Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
     <hr>
+	<h1>Support</h1>
+	  <ul>
+		<li>All Enterprise Components are professionaly supported by Melissa Data</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+      </ul>
+	  <h1>License</h1>
+	  <ul>
+		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+	  </ul>	
 	]]>
     </description>
     <author>Melissa Data</author>
@@ -6297,7 +6310,7 @@ With this plugin you can:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.4.1</version>
+        <version>5.4.4</version>
         <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6312,9 +6325,28 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_ContactVerify_Address1.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_ContactVerify_Phone1.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_MatchUp_Options.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_03.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_04.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_05.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_06.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_07.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_08.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_09.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_10.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_11.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_12.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_13.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_14.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_15.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_16.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_17.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_18.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_19.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_20.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_21.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_22.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -6324,7 +6356,7 @@ With this plugin you can:
     <type>Step</type>
 	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_GlobalVerify_s96.png</img>
     <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_GlobalVerify_s32.png</small_img>
-    <name>MDGlobalVerify -- Cleanse Worldwide Contact Records</name>
+    <name>Enterprise Data Verification &amp; Enrichment for Pentaho - Global Data Quality</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6333,7 +6365,7 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	  <h1>Global Data Quality Component for Pentaho by Melissa Data:</h1>
+	  <h1>Worldwide Name, Address, Phone and Email Validation and Cleansing</h1>
       <hr>
       <h2>Global Verify Component</h2>
 	  <ul>
@@ -6348,6 +6380,16 @@ With this plugin you can:
       <h3>Processing Options - (Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
      <hr>
+	<h1>Support</h1>
+	  <ul>
+		<li>All Enterprise Components are professionaly supported by Melissa Data</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+      </ul>
+	  <h1>License</h1>
+	  <ul>
+		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+	  </ul>	
 	 ]]>
     </description>
     <author>Melissa Data</author>
@@ -6355,7 +6397,7 @@ With this plugin you can:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.4.1</version>
+        <version>5.4.4</version>
         <package_url>http://update2.melissadata.com/pentaho/MDGlobalVerify.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6370,8 +6412,14 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_GlobalVerify_AddressInput.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_GlobalVerify_Email.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_25.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_26.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_27.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_28.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_29.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_30.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -6381,7 +6429,7 @@ With this plugin you can:
     <type>Step</type>
 	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s96.png</img>
     <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s32.png</small_img>
-    <name>MDPersonator -- US and CA Contact Verficiation and Append</name>
+    <name>Enterprise Data Verification &amp; Enrichment for Pentaho US and Canada</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6390,7 +6438,7 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>Personator Component for Pentaho by Melissa Data:</h1>
+	<h1>Cleanse, Verify and Append Missing Contact Data</h1>
       <hr>
       <h2>Personator Component</h2>
 	  <ul>
@@ -6403,6 +6451,16 @@ With this plugin you can:
 	 </ul>
       <h3>Processing Options - (Cloud)</h3>
      <hr>
+	<h1>Support</h1>
+	  <ul>
+		<li>All Enterprise Components are professionaly supported by Melissa Data</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+      </ul>
+	  <h1>License</h1>
+	  <ul>
+		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+	  </ul>	
 	 ]]>
     </description>
     <author>Melissa Data</author>
@@ -6410,7 +6468,7 @@ With this plugin you can:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.4.1</version>
+        <version>5.4.4</version>
         <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6426,8 +6484,11 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_Personator_Input.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_Personator_Output.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_37.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_38.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_39.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -6436,7 +6497,7 @@ With this plugin you can:
     <type>Step</type>
 	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Profiler_s96.png</img>
     <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Profiler_s32.png</small_img>
-    <name>MDProfiler -- Data Profiler</name>
+    <name>Enterprise Data Quality Profiler for Pentaho</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6445,7 +6506,7 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>Profiler Component for Pentaho by Melissa Data:</h1>
+	<h1>Data Profiler</h1>
       <hr>
       <h2>Profiler Component</h2>
 	  <ul>
@@ -6457,15 +6518,25 @@ With this plugin you can:
 	 </ul>
       <h3>Processing Options - (Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
-     <hr>
-	 ]]>
+    <hr>
+	<h1>Support</h1>
+	  <ul>
+		<li>All Enterprise Components are professionaly supported by Melissa Data</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+      </ul>
+	  <h1>License</h1>
+	  <ul>
+		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+	  </ul>	
+	  ]]>
     </description>
     <author>Melissa Data</author>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.4.1</version>
+        <version>5.4.4</version>
         <package_url>http://update2.melissadata.com/pentaho/MDProfiler.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6481,8 +6552,10 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_Profiler_Input.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PENT_Profiler_Output.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_33.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_34.png</screenshot>
 	</screenshots>
   </market_entry>
 
