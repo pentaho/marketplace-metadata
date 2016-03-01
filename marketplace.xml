@@ -9575,7 +9575,7 @@ Capabilities:
     <author>Bulletin.Net (NZ) Limited</author>
     <documentation_url>https://github.com/bulletinopensource/pdi-xero/blob/master/README.md</documentation_url>
     <cases_url>https://github.com/bulletinopensource/pdi-xero/issues</cases_url>
-    <license_name>Apache License 2.0</license_name>
+    <license>Apache License 2.0</license>
     <versions>
       <version>
         <branch>Stable</branch>
