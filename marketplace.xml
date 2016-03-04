@@ -2813,7 +2813,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>0.0.6</version>
         <name>Stable 0.0.6</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.6/IvyDC.zip/download
+          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.6/IvyDC.zip
         </package_url>
         <description>Release 0.0.6</description>
         <min_parent_version>5.0</min_parent_version>
