@@ -6101,7 +6101,7 @@ With this plugin you can:
         <branch>Stable</branch>
         <version>1.3</version>
         <name>1.3</name>
-        <package_url>https://github.com/fcorti/CMIS-Input-plugin/releases/download/v1.3/CMIS-Input-plugin-v1.3.zip</package_url>
+        <package_url>http://downloads.sourceforge.net/project/cmisinputplugin/v1.3/CMIS-Input-plugin-v1.3.zip</package_url>
         <description>Release v1.3 of the plugin.</description>
         <changelog>Apache Chemistry CMIS for java v0.12.</changelog>
         <build_id>1</build_id>
