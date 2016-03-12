@@ -934,10 +934,10 @@
         <version>6.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-6.1-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-7.0-SNAPSHOT.zip
         </package_url>
         <samples_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-6.1-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-7.0-SNAPSHOT.zip
         </samples_url>
         <description>
           Build for Pentaho 6
