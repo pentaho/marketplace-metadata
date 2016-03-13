@@ -3216,7 +3216,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <branch>STABLE</branch>
         <version>4.2</version>
         <name>Stable</name>
-        <package_url>https://raw.githubusercontent.com/fcorti/alfresco-audit-analysis-reporting/master/build/v4.2/AAAR_v4.2.zip</package_url>
+        <package_url>http://downloads.sourceforge.net/project/aaar/v4.2/AAAR_v4.2.zip</package_url>
         <samples_url/>
         <description><![CDATA[
         Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
@@ -3243,7 +3243,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <branch>STABLE</branch>
         <version>4.0</version>
         <name>Stable</name>
-        <package_url>https://raw.githubusercontent.com/fcorti/alfresco-audit-analysis-reporting/master/build/v4.0/AAAR_v4.0.zip</package_url>
+        <package_url>http://downloads.sourceforge.net/project/aaar/v4.0/AAAR_v4.0.zip</package_url>
         <samples_url/>
         <description><![CDATA[
         Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
@@ -3271,7 +3271,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <branch>STABLE</branch>
         <version>3.1</version>
         <name>Stable</name>
-        <package_url>https://raw.githubusercontent.com/fcorti/alfresco-audit-analysis-reporting/master/build/v3.1/AAAR_v3.1.zip</package_url>
+        <package_url>http://downloads.sourceforge.net/project/aaar/v3.1/AAAR_v3.1.zip</package_url>
         <samples_url/>
         <description><![CDATA[
         Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
