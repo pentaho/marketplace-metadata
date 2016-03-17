@@ -9063,7 +9063,7 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
         <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/FastJsonInput.zip</package_url>
         <build_id/>
         <max_parent_version>5.4</max_parent_version>
