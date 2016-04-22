@@ -9668,6 +9668,20 @@ Capabilities:
     <versions>
       <version>
         <branch>master</branch>
+        <version>1.0.1</version>
+        <name>1.0.1</name>
+        <package_url>https://github.com/bluezio/pentaho-artifactCatalog/raw/gh-pages/artifactCatalog-1.0.1.zip</package_url>
+        <description>Second release (2 bugfixes)</description>
+        <build_id>1</build_id>
+
+	<min_parent_version>5.4</min_parent_version>
+	<development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+	</development_stage>
+      </version>
+      <version>
+        <branch>master</branch>
         <version>1.0.0</version>
         <name>1.0.0</name>
         <package_url>https://github.com/bluezio/pentaho-artifactCatalog/raw/gh-pages/artifactCatalog-1.0.0.zip</package_url>
