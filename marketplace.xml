@@ -1333,7 +1333,7 @@
 
    <version>
         <branch>6.1.0.1</branch>
-        <version>6.1.0.1-196</version>
+        <version>6.1.0.1-6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
             http://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/6.1.0.1-196/sparkl-6.1.0.1-196.zip
