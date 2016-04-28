@@ -9834,4 +9834,45 @@ Capabilities:
     </versions>
   </market_entry>
 
+  <market_entry>
+   <id>inter-repository-object-transfer</id>
+   <type>Step</type>
+   <name>Inter Repository Object Transfer</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+   <description>To transfer the object (job/Transformation) from DB to DB , DB to file, File to DB, File to File based repository. This step useful for deployment on the live environment from QA environment.</description>
+   <documentation_url>https://github.com/SPECUSA/InterRepoObjectTransfer/blob/master/InstalltionGuide.doc</documentation_url>
+   <author>SPEC INDIA</author>
+   <author_url>http://www.spec-india.com/business-intelligence-big-data.htm</author_url>
+   <author_logo>http://www.spec-india.com/images/spec-logo.png</author_logo>
+   <forum_url>https://github.com/SPECUSA/InterRepoObjectTransfer</forum_url>
+   <cases_url>https://github.com/SPECUSA/InterRepoObjectTransfer</cases_url>
+   <license_name>GNU General Public License</license_name>
+   <license_text>For more details see: http://www.gnu.org/licenses/</license_text>
+   <support_level>COMMUNITY_SUPPORTED</support_level>
+   <support_message>Supported by SPEC-INDIA BI Developer Team</support_message>
+   <support_organization>SPEC-INDIA</support_organization>
+   <support_url>https://github.com/SPECUSA/InterRepoObjectTransfer</support_url>
+   <versions>
+      <version>
+         <branch>Stable</branch>
+         <version>1.0</version>
+         <name>1.0</name>
+         <package_url>https://github.com/SPECUSA/InterRepoObjectTransfer/raw/master/InterRepoObjectTransfer.zip</package_url>
+         <description>Inter Repository Object Transfer</description>
+         <changelog>1.0</changelog>
+         <build_id>1.0</build_id>
+         <min_parent_version>5.0</min_parent_version>
+          <development_stage>
+            <lane>Community</lane>
+            <phase>3</phase>
+          </development_stage>
+      </version>
+   </versions>
+  </market_entry>
+
 </market>
