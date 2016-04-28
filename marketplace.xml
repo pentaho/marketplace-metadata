@@ -8929,13 +8929,13 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   <versions>
     <version>
         <branch>STABLE</branch>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
         <name>SelfServiceBI</name>
-        <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-1.0.0.zip</package_url>
+        <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-1.1.0.zip</package_url>
          <description>
             It has the features like reusable widget(PIN), Dashboard(PINBOARD), Dynamic Rich visualization, Data Filter, Easily Embeddable, Responsive etc.
          </description>
-      <max_parent_version>5.4</max_parent_version>
+      <max_parent_version>6.0</max_parent_version>
       <min_parent_version>5.0</min_parent_version>
       <development_stage>
         <lane>Community</lane>
@@ -8944,9 +8944,10 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     </version>
   </versions>
   <screenshots>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/screenshot1.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/screenshot2.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/screenshot3.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb1.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb2.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb3.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb4.png</screenshot>
   </screenshots>
 </market_entry>
 
