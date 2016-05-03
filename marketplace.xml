@@ -2618,7 +2618,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>1.0.4 free version</version>
         <name>Stable</name>
         <package_url>
-          http://downloads.sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.4%20%28free%20version%29/IvyBC.zip/download
+          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.4%20%28free%20version%29/IvyBC.zip
         </package_url>
         <description>1.0.4 (free version)</description>
         <build_id/>
