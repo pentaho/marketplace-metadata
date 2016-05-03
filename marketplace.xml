@@ -2677,7 +2677,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>0.0.4-POC</version>
         <name>Stable</name>
         <package_url>
-          http://sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.4-POC/IvyDD.zip/download
+          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.4-POC/IvyDD.zip
         </package_url>
         <description>Proof of Concept release 0.0.4</description>
         <build_id/>
@@ -2693,7 +2693,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>0.0.3-POC</version>
         <name>Stable</name>
         <package_url>
-          http://downloads.sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.3-POC/IvyDD.zip/download
+          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Designer/0.0.3-POC/IvyDD.zip
         </package_url>
         <description>Proof of Concept release 0.0.3 for Saiku 2.6</description>
         <build_id/>
@@ -2766,7 +2766,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>0.0.3</version>
         <name>Stable</name>
         <package_url>
-          http://downloads.sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.3/IvySE.zip/download
+          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.3/IvySE.zip
         </package_url>
         <description>Release 0.0.3</description>
         <build_id/>
@@ -2783,7 +2783,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>0.0.6</version>
         <name>Stable</name>
         <package_url>
-          http://downloads.sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.6/IvySE.zip/download
+          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Schema%20Editor/0.0.6/IvySE.zip
         </package_url>
         <description>Release 0.0.6</description>
         <build_id/>
@@ -2965,7 +2965,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>2.0.0</version>
         <name>Stable</name>
         <package_url>
-          http://downloads.sourceforge.net/projects/ivylabs/files/Pentaho/BI%20Server/Ivy%20IS%20Git%20Sync/2.0.0/IvyGS.zip/download
+          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Git%20Sync/2.0.0/IvyGS.zip
         </package_url>
         <description>Release 2.0.0</description>
         <build_id/>
