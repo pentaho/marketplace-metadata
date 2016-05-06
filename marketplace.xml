@@ -1513,10 +1513,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>15.06.30</version>
+        <version>16.04.06</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cst/15.06.30/cst-15.06.30.zip
+          http://ctools.pentaho.com/files/cst/16.04.06/cst-16.04.06.zip
         </package_url>
         <description>Stable Release</description>
         <build_id/>
@@ -1529,10 +1529,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>15.10.21</version>
+        <version>16.04.06</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cst/15.10.21/cst-15.10.21.zip
+          http://ctools.pentaho.com/files/cst/16.04.06/cst-16.04.06.zip
         </package_url>
         <description>Stable Release</description>
         <build_id/>
