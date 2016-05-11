@@ -9014,7 +9014,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
          <description>
             It has the features like reusable widget(PIN), Dashboard(PINBOARD), Dynamic Rich visualization, Data Filter, Easily Embeddable, Responsive etc.
          </description>
-      <max_parent_version>6.0</max_parent_version>
+      <max_parent_version>6.1</max_parent_version>
       <min_parent_version>5.0</min_parent_version>
       <development_stage>
         <lane>Community</lane>
