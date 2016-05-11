@@ -1333,7 +1333,7 @@
 
    <version>
         <branch>6.1.0.1</branch>
-        <version>6.1.0.1-196</version>
+        <version>6.1.0.1-6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
             http://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/6.1.0.1-196/sparkl-6.1.0.1-196.zip
@@ -3312,6 +3312,35 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
+        <version>4.3</version>
+        <name>Stable</name>
+        <package_url>http://downloads.sourceforge.net/project/aaar/v4.3/AAAR_v4.3.zip</package_url>
+        <samples_url/>
+        <description><![CDATA[
+        Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
+        <br/>
+        With A.A.A.R. is provided a solution to extract, store and analyze audit data together with the document/folder informations at a very detailed level, with the goal to be useful to the end-user in a very easy way.
+        ]]>
+        </description>
+        <changelog><![CDATA[
+        - Porting on Pentaho 6.1.
+        - Added flag ‘CLEAN_NODES_DELETED’ in ETL to avoid removed nodes extraction (default = false).
+        - Improvements in terms of execution time (and stability) on huge repositories (tested in production environment with +2 Milion documents and +180.000 instances of workflows).
+        - Separation of Alfresco extraction and data mart import in ETL.
+        - Bugfix on Audit dashoboard not showing charts.
+        - Various bugfixes.
+        ]]>
+        </changelog>
+        <build_id>1</build_id>
+        <max_parent_version>6.1.99</max_parent_version>
+        <min_parent_version>6.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
         <version>4.2</version>
         <name>Stable</name>
         <package_url>http://downloads.sourceforge.net/project/aaar/v4.2/AAAR_v4.2.zip</package_url>
@@ -3424,19 +3453,37 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <license_name>MPL 2.0</license_name>
     <dependencies>CDE, CDA, CDF, CGG</dependencies>
     <versions>
-	  <version>
-	    <branch>TRUNK</branch>
-		<version>SPARKL-1.1</version>
-		<name>Version 1.1</name>
-		<package_url>https://github.com/cdeptula/logManager/releases/download/v1.1/logManager-SPARKL-1.1.zip</package_url>
-		<description><![CDATA[
+      <version>
+        <branch>TRUNK</branch>
+        <version>2.0</version>
+        <name>Version 2.0</name>
+        <package_url>https://github.com/cdeptula/logManager/releases/download/2.0.0/logManager.zip</package_url>
+        <description><![CDATA[
         Pentaho Log Manager allows you to view, download, and delete
         Pentaho BI Server logs in the Pentaho User Console.
         ]]></description>
-		<build_id>manual-20141001</build_id>
-		<changelog/>
-        <min_parent_version>5.0</min_parent_version>
+       <build_id>1</build_id>
+       <changelog/>
+        <min_parent_version>6.0</min_parent_version>
         <max_parent_version/>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
+        <version>SPARKL-1.1</version>
+        <name>Version 1.1</name>
+        <package_url>https://github.com/cdeptula/logManager/releases/download/v1.1/logManager-SPARKL-1.1.zip</package_url>
+        <description><![CDATA[
+        Pentaho Log Manager allows you to view, download, and delete
+        Pentaho BI Server logs in the Pentaho User Console.
+        ]]></description>
+       <build_id>manual-20141001</build_id>
+       <changelog/>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.4</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -3457,7 +3504,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <changelog/>
         <build_id/>
         <min_parent_version>5.0</min_parent_version>
-        <max_parent_version/>
+        <max_parent_version>5.4</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -7195,9 +7242,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau server from PDI. It can perform a full refresh of any extract, update an incremental extract from a database, or append new files to an existing extract.  The version installed from the marketplace supports PDI 5.0 to 5.3.
-
-      A version of the plugin that supports PDI 5.4 and above may be downloaded and manually installed from https://github.com/cdeptula/refreshtableauextract/releases/tag/2.0.1a</description>
+    <description>The Refresh Tableau Extract plugin allows you to refresh an extract on a Tableau server from PDI. It can perform a full refresh of any extract, update an incremental extract from a database, or append new files to an existing extract.</description>
     <author>Inquidia Consulting</author>
     <author_url>http://www.inquidia.com</author_url>
     <author_logo>http://inquidia.com/sites/default/files/inquidia-web-logo.png</author_logo>
@@ -7205,9 +7250,41 @@ With this plugin you can:
     <versions>
       <version>
         <branch>TRUNK</branch>
+        <version>2.1.0</version>
+        <build_id>96</build_id>
+        <name>Version 2.1.0</name>
+        <package_url>
+          https://github.com/cdeptula/refreshtableauextract/releases/download/2.1.0/refreshtableauextract.zip
+        </package_url>
+        <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version/>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
+        <version>2.0.1</version>
+        <build_id>94</build_id>
+        <name>Version 2.0.1 for Pentaho 5.4</name>
+        <package_url>
+          https://github.com/cdeptula/refreshtableauextract/releases/download/2.0.1a/refreshtableauextract_kettle54support.zip
+        </package_url>
+        <source_url>https://github.com/cdeptula/refreshtableauextract</source_url>
+        <min_parent_version>5.4</min_parent_version>
+        <max_parent_version>5.4</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
         <version>2.0.1</version>
         <build_id>91</build_id>
-        <name>Version 2.0.1 (Stable)</name>
+        <name>Version 2.0.1</name>
         <package_url>
           https://github.com/cdeptula/refreshtableauextract/releases/download/2.0.1/refreshtableauextract.zip
         </package_url>
@@ -7243,6 +7320,8 @@ With this plugin you can:
     </license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
+
+
 
   <market_entry>
     <id>pentaho-protobuf-decode</id>
@@ -9618,6 +9697,20 @@ Capabilities:
     <versions>
       <version>
         <branch>master</branch>
+        <version>1.0.1</version>
+        <name>1.0.1</name>
+        <package_url>https://github.com/bluezio/pentaho-artifactCatalog/raw/gh-pages/artifactCatalog-1.0.1.zip</package_url>
+        <description>Second release (2 bugfixes)</description>
+        <build_id>1</build_id>
+
+	<min_parent_version>5.4</min_parent_version>
+	<development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+	</development_stage>
+      </version>
+      <version>
+        <branch>master</branch>
         <version>1.0.0</version>
         <name>1.0.0</name>
         <package_url>https://github.com/bluezio/pentaho-artifactCatalog/raw/gh-pages/artifactCatalog-1.0.0.zip</package_url>
@@ -9739,6 +9832,47 @@ Capabilities:
         </development_stage>
       </version>
     </versions>
+  </market_entry>
+
+  <market_entry>
+   <id>inter-repository-object-transfer</id>
+   <type>Step</type>
+   <name>Inter Repository Object Transfer</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+   <description>To transfer the object (job/Transformation) from DB to DB , DB to file, File to DB, File to File based repository. This step useful for deployment on the live environment from QA environment.</description>
+   <documentation_url>https://github.com/SPECUSA/InterRepoObjectTransfer/blob/master/InstalltionGuide.doc</documentation_url>
+   <author>SPEC INDIA</author>
+   <author_url>http://www.spec-india.com/business-intelligence-big-data.htm</author_url>
+   <author_logo>http://www.spec-india.com/images/spec-logo.png</author_logo>
+   <forum_url>https://github.com/SPECUSA/InterRepoObjectTransfer</forum_url>
+   <cases_url>https://github.com/SPECUSA/InterRepoObjectTransfer</cases_url>
+   <license_name>GNU General Public License</license_name>
+   <license_text>For more details see: http://www.gnu.org/licenses/</license_text>
+   <support_level>COMMUNITY_SUPPORTED</support_level>
+   <support_message>Supported by SPEC-INDIA BI Developer Team</support_message>
+   <support_organization>SPEC-INDIA</support_organization>
+   <support_url>https://github.com/SPECUSA/InterRepoObjectTransfer</support_url>
+   <versions>
+      <version>
+         <branch>Stable</branch>
+         <version>1.0</version>
+         <name>1.0</name>
+         <package_url>https://github.com/SPECUSA/InterRepoObjectTransfer/raw/master/InterRepoObjectTransfer.zip</package_url>
+         <description>Inter Repository Object Transfer</description>
+         <changelog>1.0</changelog>
+         <build_id>1.0</build_id>
+         <min_parent_version>5.0</min_parent_version>
+          <development_stage>
+            <lane>Community</lane>
+            <phase>3</phase>
+          </development_stage>
+      </version>
+   </versions>
   </market_entry>
 
 </market>
