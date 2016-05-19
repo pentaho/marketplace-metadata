@@ -95,7 +95,7 @@
 	</market_entry>
 
 <market_entry>
-    <id>pentaho-ce-audit</id>
+    <id>pentaho-ce-audit2</id>
     <type>Platform</type>
     <img>
       http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
@@ -103,7 +103,7 @@
     <small_img>
       http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
     </small_img>
-    <name>Pentaho CE Audit</name>
+    <name>Pentaho CE Audit v2</name>
     <category>
       <name>Admin</name>
       <parent>
