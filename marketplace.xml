@@ -2379,7 +2379,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
         <version>2015.02.03</version>
         <name>Stable</name>
         <package_url>
-          http://sourceforge.net/projects/pentahoceaudit/files/2.0/pentaho-ce-audit-2.0-stable.zip/download
+          https://github.com/it4biz/pentaho-ce-audit/releases/download/2016.05.19/pentaho-ce-audit-2016.05.19.zip
         </package_url>
         <description>2015.02.03 (STABLE)</description>
         <min_parent_version>5.0</min_parent_version>
