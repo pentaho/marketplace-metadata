@@ -232,7 +232,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
         <version>0.3.1</version>
         <name>Latest stable build</name>
         <package_url>
-          https://github.com/marpontes/tapa/releases/download/v0.3.1/tapa-0.3.1-pentaho6.zip
+          https://github.com/it4biz/pentaho-ce-audit/releases/download/2016.05.19/pentaho-ce-audit-2016.05.19.zip
         </package_url>
         <description>Works for Pentaho 6.X</description>
         <build_id>pentaho6</build_id>
