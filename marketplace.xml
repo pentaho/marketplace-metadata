@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mark+          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.4%20%28free%20version%29/IvyBC.zip
-et xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
+<market xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
 
   <!-- ***************** -->
   <!-- BA Server Plugins -->
