@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<market xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
+<mark+          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.4%20%28free%20version%29/IvyBC.zip
+et xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
 
   <!-- ***************** -->
   <!-- BA Server Plugins -->
-  <!-- ***************** -->
-
+  <!-- *****************
+  	http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.4%20%28free%20version%29/IvyBC.zip
+	http://downloads.sourceforge.net/project/saikuchartplus/SaikuChartPlus3/saiku-chart-plus-vSaiku3-plugin-pentaho.zip
+	https://sourceforge.net/projects/saikuchartplus/files/SaikuChartPlus3/saiku-chart-plus-vSaiku3-plugin-pentaho.zip/download-->
   <!--
   <market_entry>
     <id>marketplace</id>
@@ -103,7 +106,7 @@
     <small_img>
       http://www.it4biz.com.br/extras/logo-it4biz-wordpress.png
     </small_img>
-    <name>Pentaho CE Audit v2</name>
+    <name>Pentaho CE Audit v3</name>
     <category>
       <name>Admin</name>
       <parent>
@@ -153,7 +156,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
         <version>2015.02.03</version>
         <name>Stable</name>
         <package_url>
-          https://github.com/it4biz/pentaho-ce-audit/releases/download/2016.05.19/pentaho-ce-audit-2016.05.19.zip
+          http://downloads.sourceforge.net/project/saikuchartplus/SaikuChartPlus3/saiku-chart-plus-vSaiku3-plugin-pentaho.zip
         </package_url>
         <description>2015.02.03 (STABLE)</description>
         <min_parent_version>5.0</min_parent_version>
@@ -232,7 +235,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
         <version>0.3.1</version>
         <name>Latest stable build</name>
         <package_url>
-          https://github.com/it4biz/pentaho-ce-audit/releases/download/2016.05.19/pentaho-ce-audit-2016.05.19.zip
+          https://github.com/marpontes/tapa/releases/download/v0.3.1/tapa-0.3.1-pentaho6.zip
         </package_url>
         <description>Works for Pentaho 6.X</description>
         <build_id>pentaho6</build_id>
