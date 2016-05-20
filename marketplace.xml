@@ -2305,7 +2305,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
 				<package_url>http://downloads.sourceforge.net/project/saikuchartplus/SaikuChartPlus3/saiku-chart-plus-vSaiku3-plugin-pentaho.zip</package_url>
 				<description>ChartPlusStable for the Saiku 3 plugin</description>
 				<min_parent_version>5.0</min_parent_version>
-				<build_id>20141119</build_id>
+				<build_id>20160519</build_id>
         <development_stage>
           <lane>Community</lane>
           <phase>1</phase>
@@ -2375,11 +2375,12 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
       <version>
         <branch>TRUNK</branch>
         <version>2016.05.19</version>
+        <build_id>20160519</build_id>
         <name>Stable</name>
         <package_url>
           http://downloads.sourceforge.net/project/pentahoceaudit/2.0/pentaho-ce-audit-2.0-stable.zip
         </package_url>
-        <description>2015.02.03 (STABLE)</description>
+        <description>2016.05.19 (TRUNK)</description>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -2453,7 +2454,8 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
         <package_url>
           http://downloads.sourceforge.net/project/pentaho-performance-monitoring/1.0/pentaho-performance-monitoring-2015.02.06-TRUNK.zip
         </package_url>
-        <description>2015.02.09 (TRUNK)</description>
+        <description>2016.05.19 (TRUNK)</description>
+        <build_id>20160519</build_id>
         <min_parent_version>5.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
