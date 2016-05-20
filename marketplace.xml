@@ -80,7 +80,7 @@ et xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLo
 				<branch>vSaiku3</branch>
 				<version>ChartPlusStable</version>
 				<name>vSaiku3</name>
-				<package_url>https://github.com/it4biz/pentaho-ce-audit/releases/download/2016.05.19/pentaho-ce-audit-2016.05.19.zip</package_url>
+				<package_url>http://downloads.sourceforge.net/project/saikuchartplus/SaikuChartPlus3/saiku-chart-plus-vSaiku3-plugin-pentaho.zip</package_url>
 				<description>ChartPlusStable for the Saiku 3 plugin</description>
 				<min_parent_version>5.0</min_parent_version>
 				<build_id>20141119</build_id>
