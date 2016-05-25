@@ -9246,17 +9246,6 @@ Capabilities:
           <phase>3</phase>
         </development_stage>
       </version>
-      <version>
-        <branch>Stable</branch>
-        <version>2.0.0</version>
-        <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/FastJsonInput_PDI6.zip</package_url>
-        <build_id/>
-        <min_parent_version>6.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
     </versions>
   </market_entry>
 <market_entry>
