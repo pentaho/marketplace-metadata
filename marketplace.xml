@@ -6112,9 +6112,9 @@ With this plugin you can:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>4.5.2</version>
+        <version>4.5.3</version>
         <min_parent_version>6.0.0</min_parent_version>
-        <package_url>http://repo1.maven.org/maven2/org/eobjects/datacleaner/pdi-datacleaner/4.5.2/pdi-datacleaner-4.5.2-plugin.zip</package_url>
+        <package_url>http://repo1.maven.org/maven2/org/eobjects/datacleaner/pdi-datacleaner/4.5.3/pdi-datacleaner-4.5.3-plugin.zip</package_url>
         <source_url>https://github.com/datacleaner/pdi-datacleaner</source_url>
         <development_stage>
           <lane>Community</lane>
