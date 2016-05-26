@@ -2164,12 +2164,42 @@ A landing tab can optionally be presented, which can be used to any of the prede
 		<phase>4</phase>
 		</development_stage>
 	</version>
+	<version>
+		<branch>ENTERPRISE6</branch>
+		<version>3.9-RC1-EE</version>
+		<name>Development (Pentaho 6 - Enterprise)</name>
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p6-3.9-RC1.zip</package_url>
+		<description>3.9-RC1 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
+			For more information contact info@meteorite.bi.
+		</description>
+		<max_parent_version>6.9</max_parent_version>
+		<min_parent_version>6.0</min_parent_version>
+		<development_stage>
+		<lane>Community</lane>
+		<phase>4</phase>
+		</development_stage>
+	</version>
     	<version>
 		<branch>ENTERPRISE</branch>
 		<version>3.8.2-EE</version>
 		<name>Stable</name>
 		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.8.3.zip</package_url>
 		<description>3.7 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
+			For more information contact info@meteorite.bi.
+		</description>
+		<max_parent_version>5.9</max_parent_version>
+		<min_parent_version>5.0</min_parent_version>
+		<development_stage>
+		<lane>Community</lane>
+		<phase>4</phase>
+		</development_stage>
+	</version>
+		<version>
+		<branch>ENTERPRISE</branch>
+		<version>3.9-RC1-EE</version>
+		<name>Development</name>
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.9-RC1.zip</package_url>
+		<description>3.9 RC1 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
 		<max_parent_version>5.9</max_parent_version>
@@ -2192,12 +2222,38 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <phase>4</phase>
         </development_stage>
       </version>
+       <version>
+        <branch>STABLE</branch>
+        <version>3.9-RC1</version>
+        <name>Stable (Community)</name>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.9-RC1.zip</package_url>
+        <description>3.9 RC1 release for the Saiku Plugin.</description>
+        <max_parent_version>5.9</max_parent_version>
+        <min_parent_version>5.0</min_parent_version>
+          <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
       <version>
         <branch>PENTAHO6</branch>
         <version>3.8.8</version>
         <name>Stable (Community - Pentaho 6)</name>
         <package_url>http://meteorite.bi/downloads/saiku-plugin-p6-3.8.8.zip</package_url>
         <description>3.8 release for the Saiku Plugin.</description>
+        <max_parent_version>6.9</max_parent_version>
+        <min_parent_version>6.0</min_parent_version>
+          <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>PENTAHO6</branch>
+        <version>3.9 RC1</version>
+        <name>Stable (Community - Pentaho 6)</name>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p6-3.9-RC1.zip</package_url>
+        <description>3.9 RC1 release for the Saiku Plugin.</description>
         <max_parent_version>6.9</max_parent_version>
         <min_parent_version>6.0</min_parent_version>
           <development_stage>
