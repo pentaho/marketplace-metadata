@@ -2165,7 +2165,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
 		</development_stage>
 	</version>
 	<version>
-		<branch>ENTERPRISE6</branch>
+		<branch>ENTERPRISE6RC</branch>
 		<version>3.9-RC1-EE</version>
 		<name>Development (Pentaho 6 - Enterprise)</name>
 		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p6-3.9-RC1.zip</package_url>
@@ -2195,7 +2195,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
 		</development_stage>
 	</version>
 		<version>
-		<branch>ENTERPRISE</branch>
+		<branch>ENTERPRISERC</branch>
 		<version>3.9-RC1-EE</version>
 		<name>Development</name>
 		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.9-RC1.zip</package_url>
