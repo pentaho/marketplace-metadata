@@ -9748,8 +9748,8 @@ Capabilities:
     <versions>
       <version>
         <branch>master</branch>
-        <version>1.0.0-BETA</version>
-        <name>BETA</name>
+        <version>1.1</version>
+        <name>1.1</name>
         <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/CoalescePlugin.zip</package_url>
         <source_url>https://github.com/graphiq-data/pdi-coalesce-plugin/</source_url>
         <description>First version of step. Functional tests written, but has not yet been tested extensively in production environment</description>
