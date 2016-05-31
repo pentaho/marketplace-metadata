@@ -2223,7 +2223,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         </development_stage>
       </version>
        <version>
-        <branch>STABLE</branch>
+        <branch>STABLERC</branch>
         <version>3.9-RC1</version>
         <name>Stable (Community)</name>
         <package_url>http://meteorite.bi/downloads/saiku-plugin-p5-3.9-RC1.zip</package_url>
@@ -2249,7 +2249,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         </development_stage>
       </version>
       <version>
-        <branch>PENTAHO6</branch>
+        <branch>PENTAHO6RC</branch>
         <version>3.9 RC1</version>
         <name>Stable (Community - Pentaho 6)</name>
         <package_url>http://meteorite.bi/downloads/saiku-plugin-p6-3.9-RC1.zip</package_url>
