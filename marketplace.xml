@@ -9320,21 +9320,21 @@ Capabilities:
   <author_url>https://team.graphiq.com/compare/232-270/Andrew-Overton-vs-Matthew-Rybak</author_url>
   <license>MIT</license>
   <support_level>COMMUNITY_SUPPORTED</support_level>
-  <support_message>Supported by Graphiq.com Inc.</support_message>
+  <support_message>Used in production and supported by Graphiq.com Inc.</support_message>
   <support_organization>Graphiq</support_organization>
   <dependencies/>
   <versions>
     <version>
-      <branch>BETA</branch>
+      <branch>Master</branch>
       <version>1.0.0</version>
-      <name>Beta</name>
+      <name>1.0.0</name>
       <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/SlackBotJobEntry.zip</package_url>
       <source_url>https://github.com/graphiq-data/pdi-slackbot-plugin</source_url>
-      <description>First version of step. Functional tests written, but has not yet been tested extensively in production environment</description>
+      <description>Has been tested in a production environment</description>
       <build_id/>
       <development_stage>
         <lane>Community</lane>
-        <phase>1</phase>
+        <phase>3</phase>
       </development_stage>
     </version>
   </versions>
@@ -9356,21 +9356,21 @@ Capabilities:
     <author_url>https://team.graphiq.com/l/232/Andrew-Overton</author_url>
     <license>MIT</license>
     <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Supported by Graphiq.com Inc.</support_message>
+    <support_message>Used in production and supported by Graphiq.com Inc.</support_message>
     <support_organization>Graphiq</support_organization>
     <dependencies/>
     <versions>
       <version>
-        <branch>BETA</branch>
-        <version>1.0.0</version>
-        <name>Beta</name>
+        <branch>Master</branch>
+        <version>1.0.1</version>
+        <name>1.0.1</name>
         <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/StreamSchemaStep.zip</package_url>
         <source_url>https://github.com/graphiq-data/pdi-streamschemamerge-plugin</source_url>
-        <description>First version of step. Functional tests written, but has not yet been tested extensively in production environment</description>
+        <description>Has been tested in a production environment</description>
         <build_id/>
         <development_stage>
           <lane>Community</lane>
-          <phase>1</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
@@ -9393,21 +9393,21 @@ Capabilities:
     <cases_url>https://github.com/graphiq-data/pdi-uniquelist-plugin/issues</cases_url>
     <license>MIT</license>
     <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Supported by Graphiq.com Inc.</support_message>
+    <support_message>Used in production and supported by Graphiq.com Inc.</support_message>
     <support_organization>Graphiq</support_organization>
     <dependencies/>
     <versions>
       <version>
-        <branch>BETA</branch>
+        <branch>Master</branch>
         <version>1.0.0</version>
-        <name>Beta</name>
+        <name>1.0.0</name>
         <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/UniqueListStep.zip</package_url>
         <source_url>https://github.com/graphiq-data/pdi-uniquelist-plugin</source_url>
-        <description>First version of step. Functional tests written, but has not yet been tested extensively in production environment</description>
+        <description>Has been tested in a production environment</description>
         <build_id>1</build_id>
         <development_stage>
           <lane>Community</lane>
-          <phase>1</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
