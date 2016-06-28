@@ -3842,7 +3842,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <name>Latest</name>
         <package_url>http://www.xpand-it.com/images/Docs/fusion_plugin-4.2.1.zip</package_url>
         <samples_url>http://www.xpand-it.com/images/Docs/fusion_samples-4.2.1.zip</samples_url>
-        <max_parent_version>6.0.99</max_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
         <min_parent_version>6.0.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
