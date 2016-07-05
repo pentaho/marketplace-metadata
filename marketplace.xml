@@ -3190,7 +3190,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <branch>STABLE</branch>
         <version>1.0.0</version>
         <name>Stable</name>
-        <package_url>http://sourceforge.net/projects/pentaho5changepassword/files/cpp-1.0.0.zip/download</package_url>
+        <package_url>http://downloads.sourceforge.net/project/pentaho5changepassword/cpp-1.0.0.zip</package_url>
         <samples_url/>
         <description><![CDATA[
         Initial release<br/>
