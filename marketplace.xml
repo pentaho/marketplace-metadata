@@ -2166,10 +2166,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
 	</version>
 	<version>
 		<branch>ENTERPRISE6RC</branch>
-		<version>3.9-RC2-EE</version>
+		<version>3.9-RC3-EE</version>
 		<name>Development (Pentaho 6 - Enterprise)</name>
-		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p6-3.9-RC2.zip</package_url>
-		<description>3.9-RC2 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p6-3.9-RC3.zip</package_url>
+		<description>3.9-RC3 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
 		<max_parent_version>6.9</max_parent_version>
@@ -2196,10 +2196,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
 	</version>
 		<version>
 		<branch>ENTERPRISERC</branch>
-		<version>3.9-RC2-EE</version>
+		<version>3.9-RC3-EE</version>
 		<name>Development</name>
-		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.9-RC2.zip</package_url>
-		<description>3.9 RC1 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p5-3.9-RC3.zip</package_url>
+		<description>3.9 RC3 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
 		<max_parent_version>5.9</max_parent_version>
