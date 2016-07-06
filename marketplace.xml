@@ -8138,7 +8138,7 @@ With this plugin you can:
     <documentation_url>https://github.com/cdeptula/AvroOutputPlugin/blob/master/README.md</documentation_url>
     <versions>
       <version>
-        <branch>trunk</branch>
+        <branch>master</branch>
         <version>3.0.0</version>
         <build_id/>
         <name>Version 3.0.0 (Stable)</name>
