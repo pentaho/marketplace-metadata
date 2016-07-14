@@ -3365,9 +3365,9 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>4.3</version>
+        <version>4.4</version>
         <name>Stable</name>
-        <package_url>http://downloads.sourceforge.net/project/aaar/v4.3/AAAR_v4.3.zip</package_url>
+        <package_url>http://downloads.sourceforge.net/project/aaar/v4.4/AAAR_v4.4.zip</package_url>
         <samples_url/>
         <description><![CDATA[
         Plugin that allows you to install and use Alfresco Audit Analysis and Reporting (A.A.A.R.).<br/>
@@ -3376,12 +3376,11 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         ]]>
         </description>
         <changelog><![CDATA[
-        - Porting on Pentaho 6.1.
-        - Added flag ‘CLEAN_NODES_DELETED’ in ETL to avoid removed nodes extraction (default = false).
-        - Improvements in terms of execution time (and stability) on huge repositories (tested in production environment with +2 Milion documents and +180.000 instances of workflows).
-        - Separation of Alfresco extraction and data mart import in ETL.
-        - Bugfix on Audit dashoboard not showing charts.
-        - Various bugfixes.
+        - Data quality features into the tables: dm_logs, dm_data_quality.
+        - Added the Data Quality dashboard.
+        - Refactoring of the dates creation (bugfixing the old versions).
+        - Flag ‘CLEAN_NODES_DELETED’ turned into ‘true’ by default.
+        - Various bugfixes (especially on custom metadata extraction).
         ]]>
         </changelog>
         <build_id>1</build_id>
