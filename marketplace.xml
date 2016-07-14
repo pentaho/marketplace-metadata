@@ -712,7 +712,7 @@
         </description>
         <build_id>10</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -984,7 +984,7 @@
         </description>
         <build_id>67</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -1226,7 +1226,7 @@
         </description>
         <build_id>2</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -1357,7 +1357,7 @@
 	    	<description/>
 		    <build_id>20</build_id>
             <max_parent_version>4.9</max_parent_version>
-	    	<min_parent_version>1.0</min_parent_version>		
+	    	<min_parent_version>1.0</min_parent_version>
 		</version>
       <version>
         <branch>master</branch>
@@ -1568,7 +1568,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
     </category>
     <documentation_url>https://github.com/webdetails/CLP/blob/master/README.md</documentation_url>
     <description>
-      CLP (Community Launch Pad) is a new CTool Plugin that lists the contents of a folder in the Pentaho Repository 
+      CLP (Community Launch Pad) is a new CTool Plugin that lists the contents of a folder in the Pentaho Repository
       (accessible via the Pentaho User Console), allowing for the selection and display of these contents.
     </description>
     <author>Webdetails</author>
@@ -1582,10 +1582,10 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <version>15.10.21</version>
         <name>Stable</name>
         <package_url>
-          http://www.webdetails.pt/ficheiros/CLP/CLP-15.10.21.zip      
+          http://www.webdetails.pt/ficheiros/CLP/CLP-15.10.21.zip
         </package_url>
         <samples_url>
-          http://www.webdetails.pt/ficheiros/CLP/CLP-samples-15.10.21.zip       
+          http://www.webdetails.pt/ficheiros/CLP/CLP-samples-15.10.21.zip
         </samples_url>
         <description>
           Build for Pentaho 6.0 and above
@@ -1837,7 +1837,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>16.01.22 release.</description>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.99</max_parent_version>        
+        <max_parent_version>5.4.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -1936,7 +1936,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>16.01.22 release.</description>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.99</max_parent_version>                
+        <max_parent_version>5.4.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -1953,7 +1953,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>16.01.22 release.</description>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.99</max_parent_version>        
+        <max_parent_version>6.0.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -2140,7 +2140,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <author_logo>http://www.webdetails.pt/ficheiros/saiku.png</author_logo>
     <license>ASL 2.0</license>
     <installation_notes>
-      <![CDATA[ 
+      <![CDATA[
       <strong>Obtaining a license</strong>
       All versions of Saiku Analytics require a license to function. To download your EE trial license or Community Edition Free license please visit <a href="http://licensing.meteorite.bi">http://licensing.meteorite.bi</a>
       <strong>Pentaho 6 users</strong><br/>
@@ -2556,7 +2556,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
         For demo video, repository and more documentation, please visit <a target="_blank" href="https://github.com/marpontes/tapa">github.com/marpontes/tapa</a>.
       </p>
     ]]>
-      
+
     </description>
     <author>Oncase</author>
     <author_url>http://oncase.com.br/</author_url>
@@ -4544,7 +4544,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>      
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_1.png
@@ -4645,7 +4645,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>       
+      </version>
     </versions>
     <screenshots>
       <screenshot>
@@ -4747,7 +4747,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>       
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_1.png
@@ -4847,7 +4847,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>         
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_1.png
@@ -4949,7 +4949,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>       
+      </version>
     </versions>
     <screenshots>
       <screenshot>
@@ -5054,7 +5054,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>       
+      </version>
     </versions>
     <screenshots>
       <screenshot>
@@ -5156,7 +5156,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>        
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_1.png
@@ -5238,7 +5238,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>         
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/th/resources/img/screenshot_1.png
@@ -5320,7 +5320,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>         
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/sv/resources/img/screenshot_1.png
@@ -5402,7 +5402,7 @@ any translation issues or suggestions for improvement
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
-      </version>         
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/zh_CN/resources/img/screenshot_1.png
@@ -5514,21 +5514,21 @@ any translation issues or suggestions for improvement
 
   <market_entry>
     <id>CPythonScriptExecutor</id>
-    <type>Step</type> 
+    <type>Step</type>
     <img>https://raw.githubusercontent.com/pentaho-labs/pentaho-cpython-plugin/master/screenshot/pdi_python.png</img>
     <name>CPython Script Executor</name>
-    
-    <category> 
+
+    <category>
       <name>Statistics</name>
       <parent>
 	<name>PDI Plugins</name>
       </parent>
     </category>
-    
+
     <description>This plugin provides the ability to execute a Python script (via the CPython environment) within the context of a transformation.</description>
     <documentation_url>https://github.com/pentaho-labs/pentaho-cpython-plugin</documentation_url>
     <author>Mark Hall</author>
-    
+
     <!--  <forum_url>http://forums.me.com</forum_url>  a link to the forum related to this plugin (PDI only) -->
     <!--  <cases_url>http://jira.me.com</cases_url>  a link to the bug tracking system related to this plugin (Kettle only) -->
     <license_name>Apache License 2.0</license_name>
@@ -5538,13 +5538,13 @@ any translation issues or suggestions for improvement
     <support_message>Supported by Pentaho Labs</support_message>
     <support_organization>Pentaho Labs</support_organization>
     <support_url>https://github.com/pentaho-labs/pentaho-cpython-plugin</support_url>
-    
+
     <versions>
       <version>
 	<branch>Trunk</branch>
 	<version>1.0</version>
       <package_url>https://github.com/pentaho-labs/pentaho-cpython-plugin/releases/download/v1.0/pentaho-cpython-plugin-package-1.0-SNAPSHOT.zip</package_url>
-      
+
       <development_stage>
         <lane>Customer</lane>
         <phase>2</phase>
@@ -6145,7 +6145,7 @@ With this plugin you can:
     <support_organization>Human Inference and Neopost Customer Information Management</support_organization>
     <support_url>http://datacleaner.org/editions</support_url>
   </market_entry>
-  
+
    <market_entry>
     <id>kettle6-profiling-datacleaner</id>
     <type>Mixed</type>
@@ -6192,7 +6192,7 @@ With this plugin you can:
     <support_organization>Human Inference and Neopost Customer Information Management</support_organization>
     <support_url>http://datacleaner.org/editions</support_url>
   </market_entry>
-  
+
   <market_entry>
     <id>pdi-marketplace</id>
     <type>Mixed</type>
@@ -6457,6 +6457,7 @@ With this plugin you can:
          <li>Parse names, genderize, and detect suspicious words or companies in name field</li>
          <li>Geocode addresses by assigning rooftop lat/long coordinates</li>
          <li>USPS CASS certified engine</li>
+         <li>Works on PDI Servers, Clusters, and in Hadoop</li>
 	 </ul>
       <h3>Processing Options - (Local,Cloud,Dedicated Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
@@ -6466,6 +6467,7 @@ With this plugin you can:
 		<li>U.S./Canadian change of address processing to update addresses of people or businesses that have moved</li>
 		<li>USPS&#0169 NCOALink&#0153 Certified</li>
 		<li>Canada Post Certified Change of Address</li>
+    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
       </ul>
       <h3>Processing Options -(Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
@@ -6474,10 +6476,11 @@ With this plugin you can:
 	  <ul>
 		<li>Identify duplicate records with domain specific knowledge of contact information</li>
 		<li>Match records even with data inconsistencies </li>
-		<li>Allows users to define, customize , and cascade powerful match codes </li>
+		<li>Allows users to define, customize, and cascade powerful match codes </li>
 		<li>Supports 16 State of the art Fuzzy Match Algorithms</li>
-		<li>Choose the unique or winning record -- known as the "Golden Record" (Recently added)</li>
+		<li>Choose the unique or winning record - known as the "Golden Record" (Recently added)</li>
 		<li>Consolidate duplicate records and data with “Survivorship” techniques</li>
+    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
       </ul>
       <h3>Processing Options -(Local)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
@@ -6487,6 +6490,7 @@ With this plugin you can:
 		<li>Identify web visitor's geographic location</li>
 		<li>Contains comprehensive mobile IP location</li>
 		<li>Append Latitude, longitude, ISP, City, State, Country</li>
+    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
       </ul>
       <h3>Processing Options -(Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
@@ -6500,15 +6504,16 @@ With this plugin you can:
 	  <h1>License</h1>
 	  <ul>
 		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
-	  </ul>	
+	  </ul>
 	]]>
     </description>
     <author>Melissa Data</author>
+    <author_url>http://www.melissadata.com/</author_url>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.4.4</version>
+        <version>6.0.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6523,6 +6528,7 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
+    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Check_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_03.png</screenshot>
@@ -6574,6 +6580,7 @@ With this plugin you can:
 		<li>Verify emails to the box level</li>
 		<li>Verify Phones world wide</li>
 		<li>Parse names with country specific rulesets</li>
+    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
 	 </ul>
       <h3>Processing Options - (Cloud)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
@@ -6587,15 +6594,16 @@ With this plugin you can:
 	  <h1>License</h1>
 	  <ul>
 		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
-	  </ul>	
+	  </ul>
 	 ]]>
     </description>
     <author>Melissa Data</author>
+    <author_url>http://www.melissadata.com/</author_url>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.4.4</version>
+        <version>6.0.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDGlobalVerify.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6610,6 +6618,7 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
+    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Global_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_25.png</screenshot>
@@ -6646,6 +6655,7 @@ With this plugin you can:
 		<li>Free-form input allows for unparsed or un-delimited data. </li>
 		<li>Move update - Identifies moves with up to a 10 year history.</li>
 		<li>Append Demographic attributes like: Date of Birth, Household Income, Occupation,Length of Residence and more!</li>
+    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
 	 </ul>
       <h3>Processing Options - (Cloud)</h3>
      <hr>
@@ -6658,15 +6668,16 @@ With this plugin you can:
 	  <h1>License</h1>
 	  <ul>
 		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
-	  </ul>	
+	  </ul>
 	 ]]>
     </description>
     <author>Melissa Data</author>
+    <author_url>http://www.melissadata.com/</author_url>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.4.4</version>
+        <version>6.0.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6682,6 +6693,7 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
+    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Personator_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_37.png</screenshot>
@@ -6713,8 +6725,9 @@ With this plugin you can:
 		<li>Profile for Nulls, Blanks, Patterns</li>
 		<li>Allows regexes and error thresholds to be set for monitoring</li>
 		<li>Uses sophisticated matching to output fuzzy and exact match counts</li>
+    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
 	 </ul>
-      <h3>Processing Options - (Cloud)</h3>
+      <h3>Processing Options - (Local)</h3>
 	  <h3>Only Available in Pentaho Enterprise Edition</h3>
     <hr>
 	<h1>Support</h1>
@@ -6726,15 +6739,16 @@ With this plugin you can:
 	  <h1>License</h1>
 	  <ul>
 		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
-	  </ul>	
+	  </ul>
 	  ]]>
     </description>
     <author>Melissa Data</author>
+    <author_url>http://www.melissadata.com/</author_url>
     <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>5.4.4</version>
+        <version>6.0.0</version>
         <package_url>http://update2.melissadata.com/pentaho/MDProfiler.zip</package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6750,10 +6764,151 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
+    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Profiler_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_33.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_34.png</screenshot>
+	</screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>MDPropertyPlugin</id>
+    <type>Step</type>
+	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s32.png</small_img>
+    <name>Enterprise Data Enrichment for Pentaho - US Property Data</name>
+    <category>
+      <name>Data Quality</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>
+	<![CDATA[
+	<h1>Append US Property Data</h1>
+      <hr>
+      <h2>Property Component</h2>
+	  <ul>
+		<li>Comprehensive US property and mortgage data, with over 140 million records.</li>
+		<li>12 main categories and 165 information fields available</li>
+		<li>Weekly data updates</li>
+    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+	 </ul>
+      <h3>Processing Options - (Cloud)</h3>
+     <hr>
+	<h1>Support</h1>
+	  <ul>
+		<li>All Enterprise Components are professionaly supported by Melissa Data</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+      </ul>
+	  <h1>License</h1>
+	  <ul>
+		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+	  </ul>
+	 ]]>
+    </description>
+    <author>Melissa Data</author>
+    <author_url>http://www.melissadata.com/</author_url>
+    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>6.0.0</version>
+        <package_url>http://update2.melissadata.com/pentaho/MDProperty.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <license_name>Product licensing provided by Melissa Data</license_name>
+    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+    <support_level>3rd Party Supported by Melissa Data</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
+    </support_message>
+    <support_organization>Melissa Data</support_organization>
+    <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
+	<screenshots>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_42.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_43.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_44.png</screenshot>
+    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_45.png</screenshot>
+    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_46.png</screenshot>
+    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_47.png</screenshot>
+    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_48.png</screenshot>
+	</screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>MDBusinessCoderPlugin</id>
+    <type>Step</type>
+	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s32.png</small_img>
+    <name>Enterprise Data Enrichment for Pentaho - US Business Data</name>
+    <category>
+      <name>Data Quality</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>
+	<![CDATA[
+	<h1>Append and Enrich US Business Data</h1>
+      <hr>
+      <h2>Business Coder Component</h2>
+	  <ul>
+		<li>Comprehensive US Business Data</li>
+    <li>Append or Cleanse missing Business Names based on Address</li>
+		<li>Search for Businesses using the phone number, stock ticker, web address</li>
+		<li>Discover Business SIC codes, sales volumes, employee sizes, phone numbers, NAICS Codes and more.</li>
+    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+	 </ul>
+      <h3>Processing Options - (Cloud)</h3>
+     <hr>
+	<h1>Support</h1>
+	  <ul>
+		<li>All Enterprise Components are professionaly supported by Melissa Data</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+      </ul>
+	  <h1>License</h1>
+	  <ul>
+		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+	  </ul>
+	 ]]>
+    </description>
+    <author>Melissa Data</author>
+    <author_url>http://www.melissadata.com/</author_url>
+    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>6.0.0</version>
+        <package_url>http://update2.melissadata.com/pentaho/MDBusinessCoder.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <license_name>Product licensing provided by Melissa Data</license_name>
+    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
+    <support_level>3rd Party Supported by Melissa Data</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
+    </support_message>
+    <support_organization>Melissa Data</support_organization>
+    <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
+	<screenshots>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_51.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_52.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_53.png</screenshot>
+    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_54.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -9119,9 +9274,9 @@ Capabilities:
 	<dependencies>CDE, CDA, CDF</dependencies>
 	<installation_notes>
       <![CDATA[
-	  Once WAQE is installed, you can run WAQE from the Tools menu. 
+	  Once WAQE is installed, you can run WAQE from the Tools menu.
 	  <br />
-	  The installation process will make some en environment configurations. So, after first run it's needed to restart the ba-server in order to load the configuration.  
+	  The installation process will make some en environment configurations. So, after first run it's needed to restart the ba-server in order to load the configuration.
 	  <br />
       ]]>
 	</installation_notes>
@@ -9155,7 +9310,7 @@ Capabilities:
     </versions>
     <screenshots/>
   </market_entry>
- 
+
 
   <market_entry>
     <id>pdi-sequoiadb-plugin</id>
@@ -9413,7 +9568,7 @@ Capabilities:
       </version>
     </versions>
   </market_entry>
-  
+
   <market_entry>
     <id>SanmargarPeselNipRegonValidator</id>
     <type>Step</type>
@@ -9447,7 +9602,7 @@ Capabilities:
     <support_organization>Sanmargar Team sp. z o. o.</support_organization>
     <support_url>http://sanmargar.pl</support_url>
   </market_entry>
-  
+
   <market_entry>
     <id>pentaho-gis-plugins</id>
     <type>Step</type>
@@ -9570,7 +9725,7 @@ Capabilities:
 			<screenshot>http://fcorti.com/wp-content/uploads/2015/09/PentahoTA_about.png</screenshot>
 		</screenshots>
 	</market_entry>
-  
+
 
   <market_entry>
     <id>hadoop-20</id>
@@ -9660,7 +9815,7 @@ Capabilities:
     </screenshots>
   </market_entry>
 
-    
+
   <market_entry>
     <id>weka-analyzer-viz</id>
     <type>Platform</type>
