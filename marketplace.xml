@@ -10143,9 +10143,8 @@ Capabilities:
       </version>
     </versions>
   </market_entry>
-</market>
-
-  <market_entry>
+  
+ <market_entry>
     <id>BayInspect</id>
     <type>Platform</type>
     <img/>
@@ -10179,7 +10178,16 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <version>1.0-SNAPSHOT</version>
         <package_url>https://github.com/BahiaSoftware/BayInspect/archive/master.zip</package_url>
         <min_parent_version>5.4</min_parent_version>
+        <source_url>https://github.com/BahiaSoftware/BayInspect/archive/master.zip</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>        
       </version>
     </versions>
     <screenshots/>
-  </market_entry>	
+  </market_entry>
+  	  
+</market>
+
+ 
