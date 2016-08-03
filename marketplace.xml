@@ -2115,6 +2115,52 @@ A landing tab can optionally be presented, which can be used to any of the prede
     </versions>
   </market_entry>
 
+<market_entry>
+    <id>BayInspect</id>
+    <type>Platform</type>
+    <img>http://bahiasoftware.es/fotos/1418733840_j5MA.png</img>
+    <small_img>http://bahiasoftware.es/fotos/1418733840_j5MA.png</small_img>
+    <name>BayInspect Plugin</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+	<description>
+<![CDATA[
+<p>BayInspect Plugin
+</p>
+<p>
+Plugin for analyze Pentaho audit logs. BayInspect shows information of solutions deployed on the platform (reports, views, OLAP, dashboards, etc ..). 
+</p>
+<p>
+It represents runtimes and detail of the busiest periods of the platform, also allow to select on users who execute solutions to show graphs and tables with their information.
+</p>
+   ]]>
+    </description>
+    <author>Bahia Software</author>
+    <author_url>http://bahiasoftware.es/</author_url>
+    <author_logo>http://bahiasoftware.es/fotos/1418733840_j5MA.png</author_logo>
+	<dependencies>CDF, CDA, CDE</dependencies>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>1.0-SNAPSHOT</version>
+        <package_url>https://github.com/BahiaSoftware/BayInspect/releases/tag/1.0-SNAPSHOT</package_url>
+        <min_parent_version>5.4</min_parent_version>
+        <source_url>https://github.com/BahiaSoftware/BayInspect/archive/master.zip</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>        
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://cloud.githubusercontent.com/assets/19727764/17365604/4e622868-5987-11e6-85ff-c3f6aec9536d.PNG</screenshot>
+    </screenshots>
+  </market_entry>  
+  
   <market_entry>
     <id>saiku</id>
     <type>Platform</type>
@@ -10142,50 +10188,6 @@ Capabilities:
         </development_stage>
       </version>
     </versions>
-  </market_entry>
-  
- <market_entry>
-    <id>BayInspect</id>
-    <type>Platform</type>
-    <img/>
-    <small_img/>
-    <name>BayInspect Plugin</name>
-    <category>
-      <name>Admin</name>
-      <parent>
-        <name>Apps</name>
-      </parent>
-    </category>
-	<description>
-<![CDATA[
-<p>BayInspect Plugin
-</p>
-<p>
-Plugin for analyze Pentaho audit logs. BayAudit shows information of solutions deployed on the platform (reports, views, OLAP, dashboards, etc ..). 
-</p>
-<p>
-It represents runtimes and detail of the busiest periods of the platform, also allow to select on users who execute solutions to show graphs and tables with their information.
-</p>
-   ]]>
-    </description>
-    <author>Bahia Software</author>
-    <author_url>www.bahiasoftware.es/</author_url>
-    <author_logo>http://bahiasoftware.es/fotos/1418733840_j5MA.png</author_logo>
-	<dependencies>CDF, CDA, CDE</dependencies>
-    <versions>
-      <version>
-        <branch>TRUNK</branch>
-        <version>1.0-SNAPSHOT</version>
-        <package_url>https://github.com/BahiaSoftware/BayInspect/releases/tag/1.0-SNAPSHOT</package_url>
-        <min_parent_version>5.4</min_parent_version>
-        <source_url>https://github.com/BahiaSoftware/BayInspect/archive/master.zip</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>        
-      </version>
-    </versions>
-    <screenshots/>
   </market_entry>
   	  
 </market>
