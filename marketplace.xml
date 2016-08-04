@@ -8338,10 +8338,23 @@ With this plugin you can:
     <documentation_url>https://github.com/cdeptula/AvroOutputPlugin/blob/master/README.md</documentation_url>
     <versions>
       <version>
+        <branch>master</branch>
+        <version>3.0.0</version>
+        <build_id/>
+        <name>Version 3.0.0 (Stable)</name>
+        <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/3.0.0/AvroOutputPlugin-package-3.0.0.zip</package_url>
+        <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
+        <min_parent_version>6.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
         <branch>trunk</branch>
         <version>2.2.1</version>
         <build_id>149</build_id>
-        <name>Version 2.2.1 (Stable)</name>
+        <name>Version 2.2.1</name>
         <package_url>https://github.com/cdeptula/AvroOutputPlugin/releases/download/2.2.1/AvroOutputPlugin.zip</package_url>
         <source_url>https://github.com/cdeptula/AvroOutputPlugin</source_url>
         <min_parent_version>6.0</min_parent_version>
