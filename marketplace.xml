@@ -6573,7 +6573,7 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Check_MD.PNG</screenshot>
+        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Check_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_03.png</screenshot>
@@ -6663,7 +6663,7 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Global_MD.PNG</screenshot>
+        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Global_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_25.png</screenshot>
@@ -6738,7 +6738,7 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Personator_MD.PNG</screenshot>
+        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Personator_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_37.png</screenshot>
@@ -6809,7 +6809,7 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Profiler_MD.PNG</screenshot>
+        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Profiler_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_33.png</screenshot>
@@ -6820,8 +6820,8 @@ With this plugin you can:
   <market_entry>
     <id>MDPropertyPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s32.png</small_img>
+	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Property_s96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Property_s32.png</small_img>
     <name>Enterprise Data Enrichment for Pentaho - US Property Data</name>
     <category>
       <name>Data Quality</name>
@@ -6876,23 +6876,24 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
+	    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Property_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_42.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_43.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_44.png</screenshot>
-    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_45.png</screenshot>
-    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_46.png</screenshot>
-    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_47.png</screenshot>
-    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_48.png</screenshot>
+        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_45.png</screenshot>
+        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_46.png</screenshot>
+        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_47.png</screenshot>
+        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_48.png</screenshot>
 	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDBusinessCoderPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s32.png</small_img>
+	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Business_s96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Business_s32.png</small_img>
     <name>Enterprise Data Enrichment for Pentaho - US Business Data</name>
     <category>
       <name>Data Quality</name>
@@ -6948,6 +6949,7 @@ With this plugin you can:
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
+	    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Business_MD.PNG</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
 		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_51.png</screenshot>
