@@ -9276,11 +9276,11 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   <versions>
     <version>
         <branch>STABLE</branch>
-        <version>1.1.0</version>
+        <version>1.2.0</version>
         <name>SelfServiceBI</name>
-        <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-1.1.0.zip</package_url>
+        <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-1.2.0.zip</package_url>
          <description>
-            It has the features like reusable widget(PIN), Dashboard(PINBOARD), Dynamic Rich visualization, Data Filter, Easily Embeddable, Responsive etc.
+            It has new features like Draggable - Resizable Pins in Pinboard, New table grid with Conditional Formatting, filter support for Saiku files, etc.
          </description>
       <max_parent_version>6.1</max_parent_version>
       <min_parent_version>5.0</min_parent_version>
