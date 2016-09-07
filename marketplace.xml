@@ -7437,10 +7437,10 @@ With this plugin you can:
         <branch>master</branch>
         <version>1.4</version>
         <name>Latest</name>
-        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.4/pentaho-kafka-consumer-v1.4.zip</package_url>
+        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.5/pentaho-kafka-consumer-v1.5.zip</package_url>
         <samples_url/>
         <description>Latest release</description>
-        <build_id>20151224-0600</build_id>
+        <build_id>20160907-0820</build_id>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -7474,10 +7474,10 @@ With this plugin you can:
         <branch>master</branch>
         <version>1.6</version>
         <name>Latest</name>
-        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.6/pentaho-kafka-producer-v1.6.zip</package_url>
+        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.7/pentaho-kafka-producer-v1.7.zip</package_url>
         <samples_url/>
         <description>Latest release</description>
-        <build_id>20160206-0900</build_id>
+        <build_id>20160907-0820</build_id>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
