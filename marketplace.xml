@@ -276,10 +276,10 @@
 
       <version>
         <branch>STABLE</branch>
-        <version>16.01.22</version>
+        <version>16.08.18</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cdf/16.01.22/5.x/pentaho-cdf-16.01.22.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cdf/16.01.22/5.x/pentaho-cdf-samples-16.01.22.zip</samples_url>
+        <package_url>http://ctools.pentaho.com/files/cdf/16.08.18/5.x/pentaho-cdf-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cdf/16.08.18/5.x/pentaho-cdf-samples-16.08.18.zip</samples_url>
         <description>Stable Release</description>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.99</max_parent_version>
@@ -292,13 +292,13 @@
 
       <version>
         <branch>STABLE</branch>
-        <version>6.0-16.01.22</version>
+        <version>6.1-16.08.18</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cdf/16.01.22/6.x/pentaho-cdf-6.0-16.01.22.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cdf/16.01.22/6.x/pentaho-cdf-samples-6.0-16.01.22.zip</samples_url>
+        <package_url>http://ctools.pentaho.com/files/cdf/16.08.18/6.x/pentaho-cdf-6.1-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cdf/16.08.18/6.x/pentaho-cdf-samples-6.1-16.08.18.zip</samples_url>
         <description>Stable Release</description>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.99</max_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>3</phase>
@@ -365,7 +365,7 @@
         </description>
         <build_id>31</build_id>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.1.9</max_parent_version>
+        <max_parent_version>7.0.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -500,11 +500,11 @@
 
       <version>
         <branch>STABLE</branch>
-        <version>16.01.22</version>
+        <version>16.08.18</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cda/16.01.22/5.x/cda-16.01.22.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cda/16.01.22/5.x/cda-samples-16.01.22.zip</samples_url>
-        <description>16.01.22 release.</description>
+        <package_url>http://ctools.pentaho.com/files/cda/16.08.18/5.x/cda-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cda/16.08.18/5.x/cda-samples-16.08.18.zip</samples_url>
+        <description>stable release.</description>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.99</max_parent_version>
@@ -516,14 +516,14 @@
 
       <version>
         <branch>STABLE</branch>
-        <version>6.0-16.01.22</version>
+        <version>6.1-16.08.18</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cda/16.01.22/6.x/cda-6.0-16.01.22.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cda/16.01.22/6.x/cda-samples-6.0-16.01.22.zip</samples_url>
-        <description>16.01.22 release.</description>
+        <package_url>http://ctools.pentaho.com/files/cda/16.08.18/6.x/cda-6.1-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cda/16.08.18/6.x/cda-samples-6.1-16.08.18.zip</samples_url>
+        <description>Stable release.</description>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.99</max_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>3</phase>
@@ -588,7 +588,7 @@
         </description>
         <build_id>33</build_id>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.1.9</max_parent_version>
+        <max_parent_version>7.0.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -731,12 +731,12 @@
 
       <version>
         <branch>STABLE</branch>
-        <version>16.01.22</version>
+        <version>16.08.18</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cde/16.01.22/5.x/pentaho-cdf-dd-16.01.22.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cde/16.01.22/5.x/pentaho-cdf-dd-solution-16.01.22.zip
+        <package_url>http://ctools.pentaho.com/files/cde/16.08.18/5.x/pentaho-cdf-dd-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/16.08.18/5.x/pentaho-cdf-dd-solution-16.08.18.zip
         </samples_url>
-        <description>Release 16.01.22</description>
+        <description>Stable Release</description>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.99</max_parent_version>
@@ -747,15 +747,15 @@
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>6.0-16.01.22</version>
+        <version>6.1-16.08.18</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cde/16.01.22/6.x/pentaho-cdf-dd-6.0-16.01.22.zip</package_url>
-        <samples_url>http://ctools.pentaho.com/files/cde/16.01.22/6.x/pentaho-cdf-dd-solution-6.0-16.01.22.zip
+        <package_url>http://ctools.pentaho.com/files/cde/16.08.18/6.x/pentaho-cdf-dd-6.1-16.08.18.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/16.08.18/6.x/pentaho-cdf-dd-solution-6.1-16.08.18.zip
         </samples_url>
-        <description>Release 16.01.22</description>
+        <description>Stable Release</description>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.99</max_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>3</phase>
@@ -820,7 +820,7 @@
         </description>
         <build_id>517</build_id>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.1.9</max_parent_version>
+        <max_parent_version>7.0.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -949,10 +949,10 @@
 
       <version>
         <branch>STABLE</branch>
-        <version>16.01.22</version>
+        <version>16.08.18</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cgg/16.01.22/5.x/cgg-16.01.22.zip</package_url>
-        <description>16.01.22 release.</description>
+        <package_url>http://ctools.pentaho.com/files/cgg/16.08.18/5.x/cgg-16.08.18.zip</package_url>
+        <description>Stable release.</description>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.99</max_parent_version>
         <development_stage>
@@ -964,12 +964,12 @@
 
       <version>
         <branch>STABLE</branch>
-        <version>6.0-16.01.22</version>
+        <version>6.1-16.08.18</version>
         <name>Stable</name>
-        <package_url>http://ctools.pentaho.com/files/cgg/16.01.22/6.x/cgg-6.0-16.01.22.zip</package_url>
-        <description>16.01.22 release.</description>
+        <package_url>http://ctools.pentaho.com/files/cgg/16.08.18/6.x/cgg-6.1-16.08.18.zip</package_url>
+        <description>Stable release.</description>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.99</max_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>3</phase>
@@ -1026,7 +1026,7 @@
         </description>
         <build_id>87</build_id>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.1.9</max_parent_version>
+        <max_parent_version>7.0.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -1433,17 +1433,17 @@ A landing tab can optionally be presented, which can be used to any of the prede
 
       <version>
         <branch>STABLE</branch>
-        <version>6.0-16.01.22</version>
+        <version>6.1-16.08.18</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cdv/16.01.22/6.x/cdv-6.0-16.01.22.zip
+          http://ctools.pentaho.com/files/cdv/16.08.18/6.x/cdv-6.1-16.08.18.zip
         </package_url>
         <samples_url>
-          http://ctools.pentaho.com/files/cdv/16.01.22/6.x/cdv-samples-6.0-16.01.22.zip
+          http://ctools.pentaho.com/files/cdv/16.08.18/6.x/cdv-samples-6.1-16.08.18.zip
         </samples_url>
-        <description>6.0-16.01.22 release</description>
+        <description>Stable release</description>
         <build_id/>
-        <max_parent_version>6.0.99</max_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
         <min_parent_version>6.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -1455,15 +1455,15 @@ A landing tab can optionally be presented, which can be used to any of the prede
 
       <version>
         <branch>STABLE</branch>
-        <version>16.01.22</version>
+        <version>16.08.18</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cdv/16.01.22/5.x/cdv-16.01.22.zip
+          http://ctools.pentaho.com/files/cdv/16.08.18/5.x/cdv-16.08.18.zip
         </package_url>
         <samples_url>
-          http://ctools.pentaho.com/files/cdv/16.01.22/5.x/cdv-samples-16.01.22.zip
+          http://ctools.pentaho.com/files/cdv/16.08.18/5.x/cdv-samples-16.08.18.zip
         </samples_url>
-        <description>16.01.22 release</description>
+        <description>Stable release</description>
         <build_id/>
         <max_parent_version>5.4.99</max_parent_version>
         <min_parent_version>5.1</min_parent_version>
@@ -1578,12 +1578,12 @@ A landing tab can optionally be presented, which can be used to any of the prede
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>16.01.22</version>
+        <version>16.08.18</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cdc/16.01.22/5.x/cdc-16.01.22.zip
+          http://ctools.pentaho.com/files/cdc/16.08.18/5.x/cdc-16.08.18.zip
         </package_url>
-        <description>16.01.22 release.</description>
+        <description>Stable release.</description>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.99</max_parent_version>
@@ -1595,14 +1595,15 @@ A landing tab can optionally be presented, which can be used to any of the prede
 
       <version>
         <branch>STABLE</branch>
-        <version>6.0-16.01.22</version>
+        <version>6.1-16.08.18</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cdc/16.01.22/6.x/cdc-6.0-16.01.22.zip
+          http://ctools.pentaho.com/files/cdc/16.08.18/6.x/cdc-6.1-16.08.18.zip
         </package_url>
-        <description>16.01.22 release.</description>
+        <description>Stable release.</description>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -1677,12 +1678,12 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>16.01.22</version>
+        <version>16.08.18</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cfr/16.01.22/5.x/cfr-16.01.22.zip
+          http://ctools.pentaho.com/files/cfr/16.08.18/5.x/cfr-16.08.18.zip
         </package_url>
-        <description>16.01.22 release.</description>
+        <description>Stable release.</description>
         <build_id/>
         <min_parent_version>5.1</min_parent_version>
         <max_parent_version>5.4.99</max_parent_version>
@@ -1694,15 +1695,15 @@ A landing tab can optionally be presented, which can be used to any of the prede
 
       <version>
         <branch>STABLE</branch>
-        <version>6.0-16.01.22</version>
+        <version>6.1-16.08.18</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/cfr/16.01.22/6.x/cfr-6.0-16.01.22.zip
+          http://ctools.pentaho.com/files/cfr/16.08.18/6.x/cfr-6.1-16.08.18.zip
         </package_url>
-        <description>16.01.22 release.</description>
+        <description>Stable release.</description>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.0.99</max_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
