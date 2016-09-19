@@ -7251,7 +7251,7 @@ With this plugin you can:
     <versions>
       <version>
         <branch>master</branch>
-        <version>1.4</version>
+        <version>1.5</version>
         <name>Latest</name>
         <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.5/pentaho-kafka-consumer-v1.5.zip</package_url>
         <samples_url/>
@@ -7288,7 +7288,7 @@ With this plugin you can:
     <versions>
       <version>
         <branch>master</branch>
-        <version>1.6</version>
+        <version>1.7</version>
         <name>Latest</name>
         <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.7/pentaho-kafka-producer-v1.7.zip</package_url>
         <samples_url/>
