@@ -3633,10 +3633,10 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
       <version>
         <branch>Release</branch>
-        <version>5.0.0</version>
+        <version>4.2.2</version>
         <name>Latest</name>
-        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-5.0.0.zip</package_url>
-        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_samples-5.0.0.zip</samples_url>
+        <package_url>http://www.xpand-it.com/wp-content/uploads/2016/10/fusion_plugin-4.2.2.zip</package_url>
+        <samples_url>http://www.xpand-it.com/wp-content/uploads/2016/10/fusion_samples-4.2.2.zip</samples_url>
         <max_parent_version>6.1.99</max_parent_version>
         <min_parent_version>6.0.0</min_parent_version>
         <development_stage>
