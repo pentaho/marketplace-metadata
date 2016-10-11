@@ -9092,9 +9092,9 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   <versions>
     <version>
         <branch>STABLE</branch>
-        <version>1.2.0</version>
+        <version>1.2.1</version>
         <name>SelfServiceBI</name>
-        <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-1.2.0.zip</package_url>
+        <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-1.2.1.zip</package_url>
          <description>
             It has new features like Draggable - Resizable Pins in Pinboard, New table grid with Conditional Formatting, filter support for Saiku files, etc.
          </description>
