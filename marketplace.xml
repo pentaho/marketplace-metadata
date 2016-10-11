@@ -10028,7 +10028,9 @@ Capabilities:
     <small_img></small_img>
     <name>Change Role Name</name>
     <documentation_url>http://www.data-assist.nl/change-role-name-plugin/</documentation_url>
-    <description>Change the name of the role (keep permissions and associated users). It aborts when destination role already exist (not case sensitive).</description>
+    <description>Change the name of the role (keep permissions and associated users). 
+	It aborts when destination role already exist (not case sensitive). 
+	The plugin needs a admin access to the bi-server. Add the variables P_LOGIN and P_PASSWORD with the credentials of an useraccount with admin rights to ~/.kettle/kettle.properties.</description>
     <author>Jaap-Andre de Hoop</author>
     <author_url>http://www.data=assist.nl</author_url>
     <author_logo>http://www.data-assist.nl/wp-content/uploads/2014/09/logo_kl5.jpg</author_logo>
