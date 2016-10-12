@@ -10020,5 +10020,35 @@ Capabilities:
       </version>
     </versions>
   </market_entry>
+
+  <market_entry>
+    <id>changeRoleName</id>
+    <type>Platform</type>
+    <img>http://www.data-assist.nl/wp-content/uploads/2016/10/changeRoleName-300x149.png</img>
+    <small_img></small_img>
+    <name>Change Role Name</name>
+    <documentation_url>http://www.data-assist.nl/change-role-name-plugin/</documentation_url>
+    <description>Change the name of the role (keep permissions and associated users). 
+	It aborts when destination role already exist (not case sensitive). 
+	The plugin needs a admin access to the bi-server. Add the variables P_LOGIN and P_PASSWORD with the credentials of an useraccount with admin rights to ~/.kettle/kettle.properties.</description>
+    <author>Jaap-Andre de Hoop</author>
+    <author_url>http://www.data=assist.nl</author_url>
+    <author_logo>http://www.data-assist.nl/wp-content/uploads/2014/09/logo_kl5.jpg</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE</dependencies>
+    <versions>
+      <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <name>Trunk</name>
+        <package_url>http://www.data-assist.nl/wp-content/uploads/2016/10/changeRoleName1.zip</package_url>
+        <description>Trunk Snapshot. Install at your own risk...</description>
+        <build_id>1</build_id>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot></screenshot>
+    </screenshots>
+  </market_entry>
    	  
 </market>
