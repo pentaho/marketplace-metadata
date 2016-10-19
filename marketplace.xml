@@ -8966,10 +8966,10 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
      <support_url>https://github.com/bcolas/PDIEssbasePlugin/wiki</support_url>
      <versions>
         <version>
-         <branch>master</branch>
-         <version>1.0</version>
-         <name>1.0</name>
-         <package_url>https://github.com/bcolas/PDIEssbasePlugin/releases/download/1.0/kettle-essbase-plugin-5.2.zip</package_url>
+         <branch>5.2</branch>
+         <version>1.1</version>
+         <name>1.1</name>
+         <package_url>https://github.com/bcolas/PDIEssbasePlugin/releases/download/1.1/kettle-essbase-plugin-5.2.zip</package_url>
          <source_url>https://github.com/bcolas/PDIEssbasePlugin</source_url>
          <min_parent_version>5.2</min_parent_version>
           <development_stage>
