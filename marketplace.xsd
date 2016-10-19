@@ -50,7 +50,7 @@
           <xsd:complexType>
             <xsd:all>
 
-              <xsd:element name="id" minOccurs="1" maxOccurs="1" type="xsd:normalizedString">
+              <xsd:element name="id" minOccurs="1" maxOccurs="1" type="market_entry_id_type">
                 <xsd:annotation>
                   <xsd:documentation>
                     A string that uniquely identifies each marketplace entry. (mandatory)
@@ -355,8 +355,8 @@
       </xsd:documentation>
     </xsd:annotation>
     <xsd:all>
-     <xsd:element name="branch" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
-     <xsd:element name="version" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
+     <xsd:element name="branch" minOccurs="1" maxOccurs="1" type="xsd:normalizedString"/>
+     <xsd:element name="version" minOccurs="1" maxOccurs="1" type="version_data_type"/>
      <xsd:element name="build_id" minOccurs="0" maxOccurs="1" type="xsd:string"/>
      <xsd:element name="development_stage" minOccurs="0" maxOccurs="1" type="development_stage"/>
      <xsd:element name="name" minOccurs="0" maxOccurs="1" type="xsd:normalizedString"/>
@@ -415,5 +415,33 @@
       <xsd:element name="name" minOccurs="1" maxOccurs="1" type="xsd:normalizedString"/>
     </xsd:all>
   </xsd:complexType>
+
+  <xsd:simpleType name="version_data_type">
+    <xsd:annotation>
+      <xsd:documentation>
+        A version data must have at least one character.
+        The allowed characters are letters, numbers, "_", "-", ".", and whitespaces.
+        The first character cannot be a whitespace.
+      </xsd:documentation>
+    </xsd:annotation>
+
+    <xsd:restriction base="xsd:token">
+      <xsd:pattern value='[\p{L}\p{N}\.\s_-]+'/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <xsd:simpleType name="market_entry_id_type">
+    <xsd:annotation>
+      <xsd:documentation>
+        A market entry id must have at least one character and start with a letter.
+        The remaining character must either be a letter, number, "_", "-" or ".".
+      </xsd:documentation>
+    </xsd:annotation>
+
+    <xsd:restriction base="xsd:token">
+      <xsd:pattern value='\p{L}{1}[\p{L}\p{N}\._-]*'/>
+    </xsd:restriction>
+  </xsd:simpleType>
 
 </xsd:schema>
