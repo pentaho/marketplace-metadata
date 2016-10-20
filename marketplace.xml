@@ -8470,12 +8470,12 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
      <support_url>https://github.com/bcolas/PDISforceBulkPlugin/wiki</support_url>
      <versions>
         <version>
-         <branch>5.1</branch>
-         <version>1.0</version>
-         <name>1.0</name>
-         <package_url>https://github.com/bcolas/PDISforceBulkPlugin/releases/download/1.0/SforceBulkSpoonInput.zip</package_url>
+         <branch>6.1</branch>
+         <version>1.1</version>
+         <name>1.1</name>
+         <package_url>https://github.com/bcolas/PDISforceBulkPlugin/releases/download/1.1/kettle-sforcebulk-input-6.1.zip</package_url>
          <source_url>https://github.com/bcolas/PDISforceBulkPlugin</source_url>
-         <min_parent_version>5.1</min_parent_version>
+         <min_parent_version>6.1</min_parent_version>
           <development_stage>
             <lane>Community</lane>
             <phase>3</phase>
