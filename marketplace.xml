@@ -139,11 +139,9 @@
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-01.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-02.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-03.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-04.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/pentaho/marketplace/master/marketplace-resources/marketplace-05.png</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-01.jpg</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-02.jpg</screenshot>
+      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-03.jpg</screenshot>
     </screenshots>
   </market_entry>
 
@@ -1288,12 +1286,8 @@ A landing tab can optionally be presented, which can be used to any of the prede
       </version>
     </versions>
     <screenshots>
-      <screenshot>
-        http://www.webdetails.pt/ficheiros/cst/screenshots/cst-launcher.png
-      </screenshot>
-      <screenshot>
-        http://www.webdetails.pt/ficheiros/cst/screenshots/cst-settings-editor.png
-      </screenshot>
+      <screenshot>http://www.webdetails.pt/ficheiros/cst/screenshots/cst-launcher.png</screenshot>
+      <screenshot>http://www.webdetails.pt/ficheiros/cst/screenshots/cst-settings-editor.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -1412,7 +1406,6 @@ A landing tab can optionally be presented, which can be used to any of the prede
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-01.png</screenshot>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-02.png</screenshot>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-03.png</screenshot>
-      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-04.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -1545,7 +1538,6 @@ A landing tab can optionally be presented, which can be used to any of the prede
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-1.png</screenshot>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-2.png</screenshot>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-3.png</screenshot>
-      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cdv/cdv-4.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -2252,11 +2244,11 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
           <lane>Community</lane>
           <phase>1</phase>
         </development_stage>
-	 </version>
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/screen_dashboard-1.png</screenshot>
-	  <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/analysis_one_ok.png</screenshot>
+      <screenshot>https://a.fsdn.com/con/app/proj/pentahoceaudit/screenshots/analysis_one_ok.png</screenshot>
     </screenshots>
   </market_entry>
   <market_entry>
@@ -2413,12 +2405,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
     </versions>
     <screenshots>
       <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot001.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot002.png</screenshot>
       <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot003.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot004.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot005.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot006.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot007.png</screenshot>
       <screenshot>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/screenshot008.png</screenshot>
     </screenshots>
   </market_entry>
@@ -2788,7 +2775,6 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_samples.png</screenshot>
       <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/04/ivydc_docs1.png</screenshot>
       <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/09/comparison_chart.png</screenshot>
-      <screenshot>http://www.ivy-is.co.uk/wp-content/uploads/2014/09/funnel_chart.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -3139,7 +3125,6 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       <screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-01.png</screenshot>
       <screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-02.png</screenshot>
       <screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-03.png</screenshot>
-      <screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-04.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -3444,9 +3429,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
     </versions>
     <screenshots>
-      <screenshot>
-        https://raw.githubusercontent.com/webdetails/environmentDisplay/release/resources/img/screenshot_1.png
-      </screenshot>
+      <screenshot>https://raw.githubusercontent.com/webdetails/environmentDisplay/release/resources/img/screenshot_1.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -3735,12 +3718,8 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
     </versions>
     <screenshots>
-      <screenshot>
-        https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-admin-page.png
-      </screenshot>
-      <screenshot>
-        https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-main-page.png
-      </screenshot>
+      <screenshot>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-admin-page.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/diethardsteiner/bissolTableDataEditor/master/notes/img/btde-main-page.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -3958,10 +3937,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4057,10 +4034,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4157,10 +4132,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/fr/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4257,10 +4230,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/de/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4356,10 +4327,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/hi/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4457,12 +4426,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>
-        https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>
-        https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/it/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4559,10 +4524,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ja/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4659,10 +4622,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ko/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4761,12 +4722,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>
-        https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>
-        https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_BR/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4866,12 +4823,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>
-        https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>
-        https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -4968,10 +4921,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -5050,10 +5001,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/th/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/th/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/th/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/th/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -5132,10 +5081,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/sv/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/sv/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/sv/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/sv/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -5214,10 +5161,8 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/zh_CN/resources/img/screenshot_1.png
-      </screenshot>
-      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/zh_CN/resources/img/screenshot_2.png
-      </screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/zh_CN/resources/img/screenshot_1.png</screenshot>
+      <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/zh_CN/resources/img/screenshot_2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -5263,18 +5208,9 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>
-        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-01.png
-      </screenshot>
-      <screenshot>
-        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-02.png
-      </screenshot>
-      <screenshot>
-        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-03.png
-      </screenshot>
-      <screenshot>
-        http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-04.png
-      </screenshot>
+      <screenshot>http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-01.png</screenshot>
+      <screenshot>http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-02.png</screenshot>
+      <screenshot>http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-04.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -6336,31 +6272,11 @@ With this plugin you can:
     <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-	<screenshots>
-        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Check_MD.PNG</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_03.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_04.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_05.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_06.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_07.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_08.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_09.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_10.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_11.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_12.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_13.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_14.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_15.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_16.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_17.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_18.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_19.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_20.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_21.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_22.png</screenshot>
-	</screenshots>
+    <screenshots>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Check_MD.PNG</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
+    </screenshots>
   </market_entry>
 
 
@@ -6426,17 +6342,11 @@ With this plugin you can:
     <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-	<screenshots>
-        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Global_MD.PNG</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_25.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_26.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_27.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_28.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_29.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_30.png</screenshot>
-	</screenshots>
+    <screenshots>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Global_MD.PNG</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
+    </screenshots>
   </market_entry>
 
 
@@ -6501,14 +6411,11 @@ With this plugin you can:
     </support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-	<screenshots>
-        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Personator_MD.PNG</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_37.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_38.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_39.png</screenshot>
-	</screenshots>
+    <screenshots>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Personator_MD.PNG</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
+    </screenshots>
   </market_entry>
 
   <market_entry>
@@ -6572,13 +6479,11 @@ With this plugin you can:
     </support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-	<screenshots>
-        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Profiler_MD.PNG</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_33.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_34.png</screenshot>
-	</screenshots>
+    <screenshots>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Profiler_MD.PNG</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
+    </screenshots>
   </market_entry>
 
   <market_entry>
@@ -6639,18 +6544,11 @@ With this plugin you can:
     </support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-	<screenshots>
-	    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Property_MD.PNG</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_42.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_43.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_44.png</screenshot>
-        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_45.png</screenshot>
-        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_46.png</screenshot>
-        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_47.png</screenshot>
-        <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_48.png</screenshot>
-	</screenshots>
+    <screenshots>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Property_MD.PNG</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
+    </screenshots>
   </market_entry>
 
   <market_entry>
@@ -6712,15 +6610,11 @@ With this plugin you can:
     </support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-	<screenshots>
-	    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Business_MD.PNG</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_51.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_52.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_53.png</screenshot>
-    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_54.png</screenshot>
-	</screenshots>
+    <screenshots>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Business_MD.PNG</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
+    </screenshots>
   </market_entry>
   
     <market_entry>
@@ -6781,12 +6675,11 @@ With this plugin you can:
     </support_message>
     <support_organization>Melissa Data</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-	<screenshots>
-	    <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_GeneralCleansing_MD.PNG</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_55.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_56.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_57.png</screenshot>
-	</screenshots>
+    <screenshots>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_GeneralCleansing_MD.PNG</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_55.png</screenshot>
+      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_56.png</screenshot>
+    </screenshots>
   </market_entry>
 
   <market_entry>
@@ -9123,7 +9016,6 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   <screenshots>
     <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb1.png</screenshot>
     <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb2.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb3.png</screenshot>
     <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb4.png</screenshot>
   </screenshots>
 </market_entry>
