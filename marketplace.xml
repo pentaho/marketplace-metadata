@@ -233,6 +233,26 @@
       </version>
 
 
+   <version>
+        <branch>7.0.0.0</branch>
+        <version>7.0.0.0-25</version>
+        <name>7.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.0.0.0-25/pentaho-cdf-7.0.0.0-25.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.0.0.0-25/pentaho-cdf-samples-7.0.0.0-25.zip
+        </samples_url>
+        <description>7.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
 
       <version>
@@ -345,16 +365,16 @@
       </version>
       <version>
         <branch>TRUNK</branch>
-        <version>7.0-SNAPSHOT</version>
+        <version>7.1-SNAPSHOT</version>
         <name>TRUNK</name>
         <package_url>
-          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf&amp;v=7.0-SNAPSHOT&amp;p=zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf&amp;v=7.1-SNAPSHOT&amp;p=zip
         </package_url>
         <samples_url>
-          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf-samples&amp;v=7.0-SNAPSHOT&amp;p=zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
         </samples_url>
         <description>
-          Build for Pentaho 6
+          Build for Pentaho 6/7
         </description>
         <build_id>31</build_id>
         <min_parent_version>6.0</min_parent_version>
@@ -453,6 +473,27 @@
         <build_id/>
         <min_parent_version>6.1</min_parent_version>
         <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+      <version>
+        <branch>7.0.0.0</branch>
+        <version>7.0.0.0-25</version>
+        <name>7.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.0.0.0-25/cda-7.0.0.0-25.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.0.0.0-25/cda-samples-7.0.0.0-25.zip
+        </samples_url>
+        <description>7.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.0.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>4</phase>
@@ -568,16 +609,16 @@
       </version>
       <version>
         <branch>TRUNK</branch>
-        <version>7.0-SNAPSHOT</version>
+        <version>7.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda&amp;v=7.0-SNAPSHOT&amp;p=zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda&amp;v=7.1-SNAPSHOT&amp;p=zip
         </package_url>
         <samples_url>
-          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda-samples&amp;v=7.0-SNAPSHOT&amp;p=zip
+          http://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
         </samples_url>
         <description>
-          Build for Pentaho 6
+          Build for Pentaho 6/7
         </description>
         <build_id>33</build_id>
         <min_parent_version>6.0</min_parent_version>
@@ -686,6 +727,28 @@
           <phase>4</phase>
         </development_stage>
       </version>
+
+
+      <version>
+        <branch>7.0.0.0</branch>
+        <version>7.0.0.0-25</version>
+        <name>7.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.0.0.0-25/pentaho-cdf-dd-7.0.0.0-25.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.0.0.0-25/pentaho-cdf-dd-solution-7.0.0.0-25.zip
+        </samples_url>
+        <description>7.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
 
       <version>
@@ -800,16 +863,16 @@
       </version>
       <version>
         <branch>TRUNK</branch>
-        <version>7.0-SNAPSHOT</version>
+        <version>7.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-7.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-7.1-SNAPSHOT.zip
         </package_url>
         <samples_url>
-          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-7.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cde/lastSuccessfulBuild/artifact/cde-pentaho5/dist/pentaho-cdf-dd-solution-7.1-SNAPSHOT.zip
         </samples_url>
         <description>
-          Build for Pentaho 6
+          Build for Pentaho 6/7
         </description>
         <build_id>517</build_id>
         <min_parent_version>6.0</min_parent_version>
@@ -910,6 +973,24 @@
         </development_stage>
       </version>
 
+   <version>
+        <branch>7.0.0.0</branch>
+        <version>7.0.0.0-25</version>
+        <name>7.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.0.0.0-25/cgg-7.0.0.0-25.zip
+        </package_url>
+        <description>7.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
       <version>
         <branch>STABLE</branch>
         <version>15.10.26</version>
@@ -1009,10 +1090,10 @@
       </version>
     <version>
         <branch>TRUNK</branch>
-        <version>7.0-SNAPSHOT</version>
+        <version>7.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/pentaho-cgg/lastSuccessfulBuild/artifact/cgg-pentaho5/dist/cgg-7.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/pentaho-cgg/lastSuccessfulBuild/artifact/cgg-pentaho5/dist/cgg-7.1-SNAPSHOT.zip
         </package_url>
         <description>
           Trunk Snapshot. Get the latest, edgy, still work in progress features here...
@@ -1091,6 +1172,25 @@
       </version>
 
 
+   <version>
+        <branch>7.0.0.0</branch>
+        <version>7.0.0.0-7.0.0.0-25</version>
+        <name>6.1</name>
+        <package_url>
+            http://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/6.1.0.1-196/sparkl-6.1.0.1-196.zip
+        </package_url>
+        <description>6.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>6.1</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+
       <version>
     	    <branch>TRUNK</branch>
 	    	<version>TRUNK-SNAPSHOT</version>
@@ -1103,10 +1203,10 @@
 		</version>
       <version>
         <branch>master</branch>
-        <version>7.0-SNAPSHOT</version>
+        <version>7.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-7.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/Sparkl/lastSuccessfulBuild/artifact/dist/sparkl-7.1-SNAPSHOT.zip
         </package_url>
         <description>
           Trunk Snapshot. Get the latest,edgy,still work in progress features here...
