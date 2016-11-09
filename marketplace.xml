@@ -1112,9 +1112,9 @@
   <market_entry>
     <id>sparkl</id>
     <type>Platform</type>
-    <img>http://www.webdetails.pt/ficheiros/sparkl2.png</img>
-    <small_img>http://www.webdetails.pt/ficheiros/sparkl2.png</small_img>
-    <name>Sparkl - Pentaho Application Builder</name>
+    <img>http://www.webdetails.pt/ficheiros/AppBuilder.png</img>
+    <small_img>http://www.webdetails.pt/ficheiros/AppBuilder.png</small_img>
+    <name>Pentaho Application Builder</name>
     <category>
       <name>Development</name>
       <parent>
@@ -1123,7 +1123,7 @@
     </category>
     <documentation_url>http://www.webdetails.pt/ctools.html</documentation_url>
     <description>
-      Sparkl, or Pentaho Application Builder, is a plugin creator
+      Pentaho Application Builder is a plugin creator
       instrument that sits on 2 major cornerstones of the Pentaho
       ecosystem: Ctools and PDI. Aiming to leverage as much as possible
       of our existing stack, anyone familiar with those tools will be
@@ -1181,8 +1181,8 @@
         </package_url>
         <description>6.1 Platform Release</description>
         <build_id/>
-        <min_parent_version>6.1</min_parent_version>
-        <max_parent_version>6.1.99</max_parent_version>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.0.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>4</phase>
