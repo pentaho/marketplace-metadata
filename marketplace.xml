@@ -601,7 +601,7 @@
         </description>
         <build_id>10</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -664,7 +664,7 @@
     <license>MPL 2.0</license>
     <versions>
 
-   
+
       <version>
         <branch>5.4</branch>
         <version>5.4.0.0-130</version>
@@ -855,7 +855,7 @@
         </description>
         <build_id>67</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -1082,7 +1082,7 @@
         </description>
         <build_id>2</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -1136,7 +1136,7 @@
     <dependencies>CDF, CDA, CDE, CGG</dependencies>
     <versions>
 
-  
+
       <version>
         <branch>5.4</branch>
         <version>5.4.0.0-128</version>
@@ -1499,8 +1499,8 @@ A landing tab can optionally be presented, which can be used to any of the prede
           <phase>2</phase>
         </development_stage>
       </version>
-      
-      
+
+
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/cte/cte-01.png</screenshot>
@@ -1988,7 +1988,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
 <p>BayInspect Plugin
 </p>
 <p>
-Plugin for analyze Pentaho audit logs. BayInspect shows information of solutions deployed on the platform (reports, views, OLAP, dashboards, etc ..). 
+Plugin for analyze Pentaho audit logs. BayInspect shows information of solutions deployed on the platform (reports, views, OLAP, dashboards, etc ..).
 </p>
 <p>
 It represents runtimes and detail of the busiest periods of the platform, also allow to select on users who execute solutions to show graphs and tables with their information.
@@ -2009,14 +2009,14 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
-        </development_stage>        
+        </development_stage>
       </version>
     </versions>
     <screenshots>
       <screenshot>https://cloud.githubusercontent.com/assets/19727764/17365604/4e622868-5987-11e6-85ff-c3f6aec9536d.PNG</screenshot>
     </screenshots>
-  </market_entry>  
-  
+  </market_entry>
+
   <market_entry>
     <id>saiku</id>
     <type>Platform</type>
@@ -6716,7 +6716,7 @@ With this plugin you can:
       <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
     </screenshots>
   </market_entry>
-  
+
     <market_entry>
     <id>MDCleanserPlugin</id>
     <type>Step</type>
@@ -10034,8 +10034,8 @@ Capabilities:
     <small_img/>
     <name>Change Role Name</name>
     <documentation_url>http://www.data-assist.nl/change-role-name-plugin/</documentation_url>
-    <description>Change the name of the role (keep permissions and associated users). 
-	It aborts when destination role already exist (not case sensitive). 
+    <description>Change the name of the role (keep permissions and associated users).
+	It aborts when destination role already exist (not case sensitive).
 	The plugin needs a admin access to the bi-server. Add the variables P_LOGIN and P_PASSWORD with the credentials of an useraccount with admin rights to ~/.kettle/kettle.properties.</description>
     <author>Jaap-Andre de Hoop</author>
     <author_url>http://www.data=assist.nl</author_url>
@@ -10056,5 +10056,44 @@ Capabilities:
       <screenshot/>
     </screenshots>
   </market_entry>
-   	  
+
+  <market_entry>
+    <id>agile-bi</id>
+    <type>SpoonPlugin</type>
+    <name>Agile BI</name>
+    <category>
+      <name>Business Intelligence</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>
+    	Agile Bi is the application plugin that allows you to visualize, model, and publish your data in an efficient manner.
+    </description>
+    <author>Pentaho</author>
+    <author_url>http://www.pentaho.com</author_url>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.png</author_logo>
+    <license>LGPL v2</license>
+    <support_level>NOT_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>7.0.0.0-25</version>
+        <name>7.0</name>
+        <package_url>https://pentaho.box.com/shared/static/x5omr2f0xtlnjiq7w64k5rqolnzr5810.zip</package_url>
+        <source_url>https://github.com/pentaho/pdi-agile-bi-plugin</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/pentaho/pdi-agile-bi-plugin/master/screenshots/agilebi-01.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/pdi-agile-bi-plugin/master/screenshots/agilebi-02.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/pdi-agile-bi-plugin/master/screenshots/agilebi-03.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho/pdi-agile-bi-plugin/master/screenshots/agilebi-04.png</screenshot>
+     </screenshots>
+  </market_entry>
+
 </market>
