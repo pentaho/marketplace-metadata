@@ -10123,5 +10123,43 @@ Capabilities:
       </version>
     </versions>
   </market_entry>
+  <market_entry>
+    <id>LogHelperPlugin</id>
+    <type>Mixed</type>
+    <name>PDI Log Helper Plugin</name>
+	<category>
+      <name>Logging</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The Log Helper plugin for Pentaho Data Integration provides several steps and job entries to assist with common logging tasks.  These include writing parameters to the log, writing result rows to the log, writing result files to the log, and capturing the log to be included in emails or other notification solutions.</description>
+    <author>Inquidia Consulting</author>
+    <author_url>http://www.inquidia.com</author_url>
+    <author_logo>http://inquidia.com/sites/default/files/inquidia-web-logo.png</author_logo>
+    <installation_notes/>
+    <documentation_url>https://github.com/inquidia/LogHelper</documentation_url>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.0</version>
+        <build_id/>
+        <name>Version 1.0.0 (Stable)</name>
+        <package_url>https://github.com/inquidia/LogHelper/releases/download/1.0.0/log-helper-plugin-package-1.0.0.zip</package_url>
+        <source_url>https://github.com/inquidia/LogHelper</source_url>
+        <min_parent_version>5.4</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <cases_url>https://github.com/inquidia/LogHelper/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+  </market_entry>
 
 </market>
