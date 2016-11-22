@@ -601,7 +601,7 @@
         </description>
         <build_id>10</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -855,7 +855,7 @@
         </description>
         <build_id>67</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -1082,7 +1082,7 @@
         </description>
         <build_id>2</build_id>
         <min_parent_version>5.1</min_parent_version>
-        <max_parent_version>5.4.9</max_parent_version>        
+        <max_parent_version>5.4.9</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>2</phase>
@@ -10107,9 +10107,9 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>7.0.0.0-25</version>
+        <version>7.0-QAT-435</version>
         <name>7.0</name>
-        <package_url>https://pentaho.box.com/shared/static/x5omr2f0xtlnjiq7w64k5rqolnzr5810.zip</package_url>
+        <package_url>https://pentaho.box.com/shared/static/3b6258qlb78beajczxx2widjsb09o7z6.zip</package_url>
         <source_url>https://github.com/pentaho/pdi-agile-bi-plugin</source_url>
         <development_stage>
           <lane>Community</lane>
