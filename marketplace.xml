@@ -5402,6 +5402,50 @@ any translation issues or suggestions for improvement
   </market_entry>
 
   <market_entry>
+    <id>pdi-mqtt-plugins</id>
+    <type>Step</type>
+    <img>https://raw.githubusercontent.com/pentaho-labs/pentaho-mqtt-plugin/master/screenshot/pdi_mqtt.png</img>
+    <name>PDI MQTT Steps</name>
+
+    <category>
+      <name>IoT</name>
+      <parent>
+	<name>PDI Plugins</name>
+      </parent>
+    </category>
+
+    <description>This plugin provides input and output steps to, respectively, read from and write to topics at an MQTT broker.</description>
+    <documentation_url>https://github.com/pentaho-labs/pentaho-mqtt-plugin</documentation_url>
+    <author>Mark Hall</author>
+
+    <!--  <forum_url>http://forums.me.com</forum_url>  a link to the forum related to this plugin (PDI only) -->
+    <!--  <cases_url>http://jira.me.com</cases_url>  a link to the bug tracking system related to this plugin (Kettle only) -->
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by Pentaho Labs</support_message>
+    <support_organization>Pentaho Labs</support_organization>
+    <support_url>https://github.com/pentaho-labs/pentaho-mqtt-plugin</support_url>
+
+    <versions>
+      <version>
+	<branch>Trunk</branch>
+	<version>1.0</version>
+      <package_url>https://github.com/pentaho-labs/pentaho-mqtt-plugin/releases/download/v1.0-beta/pentaho-mqtt-1.0.zip</package_url>
+
+      <development_stage>
+        <lane>Customer</lane>
+        <phase>2</phase>
+      </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://github.com/pentaho-labs/pentaho-mqtt-plugin/raw/master/screenshot/pdi_mqtt.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
     <id>pdi-nuodb-plugin</id>
     <type>Database</type>
     <name>PDI NuoDB Plugin</name>
