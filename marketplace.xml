@@ -109,7 +109,7 @@
         <build_id/>
         <name>Build for Pentaho 5.4</name>
         <package_url>
-          http://nexus.pentaho.org/content/groups/omni/pentaho/marketplace/5.4.0.4-149/marketplace-5.4.0.4-149.zip
+          http://ctools.pentaho.com/files/marketplace/marketplace-5.4.0.1-130.zip
         </package_url>
         <description>Build for Pentaho 5.4</description>
         <min_parent_version>5.4</min_parent_version>
