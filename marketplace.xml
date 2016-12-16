@@ -119,24 +119,6 @@
           <phase>2</phase>
         </development_stage>
       </version>
-      <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <build_id>1</build_id>
-        <name>Latest snapshot build</name>
-        <package_url>
-          http://ci.pentaho.com/job/marketplace-4.8/lastSuccessfulBuild/artifact/dist/marketplace-plugin-TRUNK-SNAPSHOT.zip
-        </package_url>
-        <description>
-          The latest development snapshot build.
-        </description>
-        <max_parent_version>4.9</max_parent_version>
-        <min_parent_version>1.0</min_parent_version>
-        <development_stage>
-          <lane>Customer</lane>
-          <phase>2</phase>
-        </development_stage>
-      </version>
     </versions>
     <screenshots>
       <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-01.jpg</screenshot>
