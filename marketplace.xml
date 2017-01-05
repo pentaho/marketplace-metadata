@@ -7226,12 +7226,12 @@ Note for Pentaho 7: Copy the file 'commons-vfs2-2.1-20150824.jar' from Pentaho '
     <versions>
       <version>
         <branch>master</branch>
-        <version>1.5</version>
+        <version>1.6</version>
         <name>Latest</name>
-        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.5/pentaho-kafka-consumer-v1.5.zip</package_url>
+        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-consumer/releases/download/v1.6/pentaho-kafka-consumer-v1.6.zip</package_url>
         <samples_url/>
         <description>Latest release</description>
-        <build_id>20160907-0820</build_id>
+        <build_id>20170105-0900</build_id>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -7263,12 +7263,12 @@ Note for Pentaho 7: Copy the file 'commons-vfs2-2.1-20150824.jar' from Pentaho '
     <versions>
       <version>
         <branch>master</branch>
-        <version>1.7</version>
+        <version>1.8</version>
         <name>Latest</name>
-        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.7/pentaho-kafka-producer-v1.7.zip</package_url>
+        <package_url>https://github.com/RuckusWirelessIL/pentaho-kafka-producer/releases/download/v1.8/pentaho-kafka-producer-v1.8.zip</package_url>
         <samples_url/>
         <description>Latest release</description>
-        <build_id>20160907-0820</build_id>
+        <build_id>20170105-0900</build_id>
         <min_parent_version>1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
