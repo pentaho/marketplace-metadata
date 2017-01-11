@@ -9676,7 +9676,7 @@ Capabilities:
         <package_url>https://pentaho.box.com/shared/static/sc18b11tdrsoeymwn8dznit0swms7kuu.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/60.2015.10.00-R/hadoop-20</source_url>
         <development_stage>
-          <lane>Customer</lane>
+          <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
       </version>
@@ -9687,10 +9687,6 @@ Capabilities:
     <license_text>For more details see:
       http://www.apache.org/licenses/LICENSE-2.0.html
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-    <support_message>Supported by a Pentaho Data Integration Enterprise Edition support contract.</support_message>
-    <support_organization>Pentaho</support_organization>
-    <support_url>http://www.pentaho.com/services/support/pdi</support_url>
   </market_entry>
 
   <market_entry>
