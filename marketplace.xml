@@ -3097,8 +3097,17 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
     </parent>
   </category>
   <documentation_url>http://www.biztech.it/btable</documentation_url>
-  <description>BTable is a component for the Community Dashboard Designer (CDE) that extends the standard Table
-    Component with OLAP functionalities and provides a new drill experience... drill anywhere!
+  <description><![CDATA[BTable is a component for the Community Dashboard Designer (CDE) that extends the standard Table
+    Component with OLAP functionalities and provides a new drill experience... drill anywhere!.
+    <br />
+	<br />
+	<b>IMPORTANT NOTES:</b><br />
+	<br />
+	<ul>
+	<li>Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation.html" target="_blank">pre-installation steps</a> are required in order to let all samples work perfectly</li>
+	<li>In case your Pentaho uses JDK and not JRE you may experience error during plugin download. In that case you can download it manually from <a href="https://sourceforge.net/projects/btable/files/?source=navbar" target="_blank">here</a></li>
+	</ul>
+	]]>
   </description>
   <author>Biz Tech</author>
   <author_url>http://www.biztech.it</author_url>
