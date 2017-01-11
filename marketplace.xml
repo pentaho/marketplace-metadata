@@ -2488,7 +2488,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>1.0.4 free version</version>
         <name>Stable</name>
         <package_url>
-          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.4%20%28free%20version%29/IvyBC.zip
+         http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Bootstrap%20Components%20%28free%20version%29/1.0.4%20%28free%20version%29/IvyBC.zip?r=&ts=1484146424&use_mirror=vorboss
         </package_url>
         <description>1.0.4 (free version)</description>
         <build_id/>
@@ -2709,7 +2709,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>15.01.13</version>
         <name>Stable</name>
         <package_url>
-		  http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/IvyUD%20User%20Details/0.0.1/IvyUD.zip
+		 http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/IvyUD%20User%20Details/0.0.1/IvyUD.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fivylabs%2Ffiles%2FPentaho%2FBI%2520Server%2FIvyUD%2520User%2520Details%2F0.0.1%2F&ts=1484146842&use_mirror=netix
         </package_url>
         <description>15.01.13</description>
         <build_id/>
@@ -2782,7 +2782,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>0.0.6</version>
         <name>Stable 0.0.6</name>
         <package_url>
-          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.6/IvyDC.zip
+         http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Dashboard%20Components/0.0.6/IvyDC.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fivylabs%2Ffiles%2FPentaho%2FBI%2520Server%2FIvy%2520IS%2520Dashboard%2520Components%2F0.0.6%2F&ts=1484146649&use_mirror=netix
         </package_url>
         <description>Release 0.0.6</description>
         <min_parent_version>5.0</min_parent_version>
@@ -2835,7 +2835,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <version>2.0.0</version>
         <name>Stable</name>
         <package_url>
-          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Git%20Sync/2.0.0/IvyGS.zip
+          http://downloads.sourceforge.net/project/ivylabs/Pentaho/BI%20Server/Ivy%20IS%20Git%20Sync/2.0.0/IvyGS.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fivylabs%2Ffiles%2FPentaho%2FBI%2520Server%2FIvy%2520IS%2520Git%2520Sync%2F2.0.0%2F&ts=1484146743&use_mirror=netix
         </package_url>
         <description>Release 2.0.0</description>
         <build_id/>
