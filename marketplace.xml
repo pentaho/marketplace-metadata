@@ -2021,10 +2021,10 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 	</version>
        <version>
         <branch>STABLEP7</branch>
-        <version>3.11</version>
+        <version>3.11.1</version>
         <name>Stable (Community)</name>
         <package_url>https://dl.dropboxusercontent.com/u/8503756/saiku-plugin-p7-3.11-SNAPSHOT.zip</package_url>
-        <description>3.11 release for the Saiku Plugin.</description>
+        <description>3.11.1 release for the Saiku Plugin.</description>
         <max_parent_version>7.9</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
           <development_stage>
