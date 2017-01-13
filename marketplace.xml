@@ -1379,7 +1379,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <version>7.0-SNAPSHOT</version>
         <name>7.x</name>
         <package_url>
-          http://ci.pentaho.com/job/webdetails-cte/lastSuccessfulBuild/artifact/dist/cte-7.0-SNAPSHOT.zip
+          http://ci.pentaho.com/job/webdetails-cte/lastSuccessfulBuild/artifact/dist/cte-7.1-SNAPSHOT.zip
         </package_url>
         <description>
           Build for Pentaho 7.x
