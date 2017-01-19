@@ -3761,8 +3761,8 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <branch>Release</branch>
         <version>4.2.3</version>
         <name>Latest</name>
-        <package_url>http://www.xpand-it.com/wp-content/uploads/2016/12/fusion_plugin-4.2.3.zip</package_url>
-        <samples_url>http://www.xpand-it.com/wp-content/uploads/2016/12/fusion_samples-4.2.3.zip</samples_url>
+        <package_url>http://www.xpand-it.com/wp-content/uploads/2017/01/fusion_plugin-4.2.3.zip</package_url>
+        <samples_url>http://www.xpand-it.com/wp-content/uploads/2017/01/fusion_samples-4.2.3.zip</samples_url>
         <max_parent_version>7.0.99</max_parent_version>
         <min_parent_version>6.0.0</min_parent_version>
         <development_stage>
