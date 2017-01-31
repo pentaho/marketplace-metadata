@@ -1896,7 +1896,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
       <version>
         <branch>TRUNK</branch>
         <version>1.0-SNAPSHOT</version>
-        <package_url>https://github.com/BahiaSoftware/BayInspect/releases/tag/1.0-SNAPSHOT</package_url>
+        <package_url>https://github.com/BahiaSoftware/BayInspect/releases/download/1.0-SNAPSHOT/BayInspect.zip</package_url>
         <min_parent_version>5.4</min_parent_version>
         <source_url>https://github.com/BahiaSoftware/BayInspect/archive/master.zip</source_url>
         <development_stage>
@@ -2941,7 +2941,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <build_id>379</build_id>
         <name>Latest snapshot for BI 5.x</name>
         <package_url>
-          http://ci.greencatsoft.com/job/Pivot4J/379/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip
+          https://ci.greencatsoft.com/job/Pivot4J/379/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip
         </package_url>
         <description>The latest development snapshot build for old Pentaho BI 5.x.</description>
         <max_parent_version>5.4.99</max_parent_version>
@@ -2957,7 +2957,7 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
         <build_id>397</build_id>
         <name>Latest snapshot</name>
         <package_url>
-          http://ci.greencatsoft.com/job/Pivot4J/397/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip
+          https://ci.greencatsoft.com/job/Pivot4J/397/artifact/pivot4j-pentaho/target/pivot4j-pentaho-1.0-SNAPSHOT-plugin.zip
         </package_url>
         <description>The latest development snapshot build.</description>
         <min_parent_version>6.0</min_parent_version>
@@ -3937,6 +3937,7 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
     </versions>
   </market_entry>
 
+<!-- Broken Link
     <market_entry>
         <id>localizedmondrian</id>
         <type>Platform</type>
@@ -3971,7 +3972,7 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
             <screenshot>https://linalis.atlassian.net/wiki/download/attachments/17137680/MondrianTranslator.jpg</screenshot>
         </screenshots>
     </market_entry>
-
+-->
 
   <market_entry>
     <id>languagePack_ca</id>
