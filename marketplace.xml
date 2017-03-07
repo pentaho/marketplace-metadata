@@ -734,12 +734,30 @@
         <description>Stable Release</description>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.1.0.9</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>6.1-16.08.18.1</version>
+        <name>Stable</name>
+        <package_url>http://ctools.pentaho.com/files/cde/16.08.18.1/6.x/pentaho-cdf-dd-6.1-16.08.18.1.zip</package_url>
+        <samples_url>http://ctools.pentaho.com/files/cde/16.08.18.1/6.x/pentaho-cdf-dd-solution-6.1-16.08.18.1.zip
+        </samples_url>
+        <description>Stable Release</description>
+        <build_id/>
+        <min_parent_version>6.1.0.10</min_parent_version>
         <max_parent_version>6.1.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>3</phase>
         </development_stage>
       </version>
+
 
 
       <version>
