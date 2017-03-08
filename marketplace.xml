@@ -10213,4 +10213,54 @@ Capabilities:
     <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
 
+  <market_entry>
+    <id>djiko</id>
+    <type>Platform</type>
+    <img>https://www.atolcd.com/fileadmin/Actualites/Djiko/logo-djiko.png</img>
+    <small_img/>
+    <name>Djiko plugin</name>
+    <category>
+      <name>Analysis</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <description>
+    <![CDATA[
+		Djiko is a modular user-friendly plugin for self-service dashboard based on existing OLAP systems developped by <a target='NO_BLANK' href='https://www.atolcd.com/'>Atol CD</a> BI team.
+		<br>
+		Dashboards widgets are connected by a filter system which provide intuitive analytics.
+		<br>
+		<br>
+		<b>Video sample : </b><a target='NO_BLANK' href='https://www.youtube.com/watch?v=ToUPvunbUDs'>here</a>.<br>
+		]]>
+    </description>
+    <author>Atol CD</author>
+    <author_url>https://www.atolcd.com/</author_url>
+    <author_logo>http://docs.atolcd.com/docs/alfresco/guide_share/4.2/assets/images/logoAtolCD.png</author_logo>
+    <license>ASL 2.0</license>
+    <dependencies/>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>v0.0.0-alpha</version>
+        <name/>
+        <package_url>https://github.com/atolcd/djiko/releases/download/v0.0.0-alpha/djiko-plugin-tk-snapshot.zip</package_url>
+        <description>Experimental version of djiko a Pentaho self-service dashboard plugin</description>
+        <build_id>0</build_id>
+        <min_parent_version>6.1</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://www.atolcd.com/fileadmin/Actualites/Djiko/djiko_screenshot_01.png</screenshot>
+      <screenshot>https://www.atolcd.com/fileadmin/Actualites/Djiko/djiko_screenshot_02.png</screenshot>
+      <screenshot>https://www.atolcd.com/fileadmin/Actualites/Djiko/djiko_screenshot_03.png</screenshot>
+    </screenshots>
+  </market_entry>
+
 </market>
