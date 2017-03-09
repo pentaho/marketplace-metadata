@@ -742,7 +742,7 @@
       </version>
 
       <version>
-        <branch>STABLE</branch>
+        <branch>STABLE_6.1.0.10</branch>
         <version>6.1-16.08.18.1</version>
         <name>Stable</name>
         <package_url>http://ctools.pentaho.com/files/cde/16.08.18.1/6.x/pentaho-cdf-dd-6.1-16.08.18.1.zip</package_url>
