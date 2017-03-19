@@ -3245,7 +3245,7 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <branch>STABLE</branch>
         <version>4.5</version>
         <name>Stable</name>
-        <package_url>https://heanet.dl.sourceforge.net/project/aaar/v4.5/AAAR_v4.5.zip</package_url>
+        <package_url>https://netcologne.dl.sourceforge.net/project/aaar/v4.5/AAAR_v4.5.zip</package_url>
 	<!-- <package_url>http://downloads.sourceforge.net/project/aaar/v4.5/AAAR_v4.5.zip</package_url> -->
         <samples_url/>
         <description><![CDATA[
