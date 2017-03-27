@@ -10406,7 +10406,7 @@ Capabilities:
         <source_url>https://github.com/saschagrebe/kettle-splunk-plugin/archive/v1.0.0.zip</source_url>
         <description>Initial version of the splunk plugin</description>
         <changelog>Initial Version</changelog>
-        <build_id>1<build_id>
+        <build_id>1</build_id>
         <min_parent_version>7.0.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
