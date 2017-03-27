@@ -10373,4 +10373,46 @@ Capabilities:
     </screenshots>
   </market_entry>
 
+
+
+  <market_entry>
+    <id>de.sagr.kettle-splunk-plugin</id>
+    <type>Step</type>
+    <name>Splunk Plugin</name>
+    <category> 
+      <name>Lookup</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+
+    <description>The plugin connects to a splunk server. It provides a step to execute a search and export the result.</description>
+    <documentation_url>https://github.com/saschagrebe/kettle-splunk-plugin</documentation_url>
+    <author>Sascha Grebe</author>
+    <author_url>https://github.com/saschagrebe/</author_url>
+    <dependencies/>
+    <installation_notes/>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <cases_url>https://github.com/saschagrebe/kettle-splunk-plugin/issues</cases_url>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.0</version>
+        <name>Version 1.0.0 (Stable)</name>
+        <package_url>https://github.com/saschagrebe/kettle-splunk-plugin/releases/download/v1.0.0/splunk-plugin-1.0.0-bin.zip</package_url>
+        <source_url>https://github.com/saschagrebe/kettle-splunk-plugin/archive/v1.0.0.zip</source_url>
+        <description>Initial version of the splunk plugin</description>
+        <changelog>Initial Version</changelog>
+        <build_id>1<build_id>
+        <min_parent_version>7.0.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
 </market>
