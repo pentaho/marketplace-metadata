@@ -2043,8 +2043,8 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <branch>STABLEP7</branch>
         <version>3.11.1</version>
         <name>Stable (Community)</name>
-        <package_url>https://dl.dropboxusercontent.com/u/8503756/saiku-plugin-p7-3.11-SNAPSHOT.zip</package_url>
-        <description>3.11.1 release for the Saiku Plugin.</description>
+        <package_url>https://dl.dropboxusercontent.com/u/8503756/saiku-plugin-p7-3.14.zip</package_url>
+        <description>3.14 release for the Saiku Plugin.</description>
         <max_parent_version>7.9</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
           <development_stage>
@@ -2069,8 +2069,8 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <branch>PENTAHO6</branch>
         <version>3.8.8</version>
         <name>Stable (Community - Pentaho 6)</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p6-3.8.8.zip</package_url>
-        <description>3.8 release for the Saiku Plugin.</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p6-3.14.zip</package_url>
+        <description>3.14 release for the Saiku Plugin.</description>
         <max_parent_version>6.9</max_parent_version>
         <min_parent_version>6.0</min_parent_version>
           <development_stage>
