@@ -10462,4 +10462,121 @@ Capabilities:
       </version>
     </versions>
   </market_entry>
+  
+  <market_entry>
+    <id>ims-reader</id>
+    <type>Step</type>
+    <name>IMS Reader</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The plugin step IMS Reader for Pentaho Data Integration (PDI) enables reading of IMS files.</description>
+    <documentation_url>-</documentation_url>
+    <author>Proventa AG</author>
+    <author_url>http://proventa.de/assets</author_url>
+    <author_logo>https://www.proventa.de/fileadmin/user_upload/logos/proventa_logo_gross.png</author_logo>
+    <img>-</img>
+    <small_img>-</small_img>
+    <forum_url>-</forum_url>
+    <cases_url>-</cases_url>
+    <license_name>Commercial License</license_name>
+    <license_text>Terms of use are included in the zipfile.</license_text>
+    <support_level>PROFESSIONALY_SUPPORTED</support_level>
+    <support_message>The free version of the plugin is offered with no technical support. If you require technical support or you are interested in a full or customized version of the plugin, please contact pdi-sales@proventa.de.</support_message>
+    <support_organization>Proventa AG</support_organization>
+    <support_url>-</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0</version>
+        <package_url>https://www.proventa.de/fileadmin/user_upload/assets/files/IMSReader-v1.0.zip</package_url>
+        <source_url>-</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+
+  <market_entry>
+    <id>websphere-mq-reader</id>
+    <type>Step</type>
+    <name>Websphere MQ Reader</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The plugin step WebSphere MQ Reader for Pentaho Data Integration (PDI) enables receiving messages of IBM’s WebSphere MQ. It supports various configuration options, including handling of header properties of the messages.</description>
+    <documentation_url>-</documentation_url>
+    <author>Proventa AG</author>
+    <author_url>http://proventa.de/assets</author_url>
+    <author_logo>https://www.proventa.de/fileadmin/user_upload/logos/proventa_logo_gross.png</author_logo>
+    <img>-</img>
+    <small_img>-</small_img>
+    <forum_url>-</forum_url>
+    <cases_url>-</cases_url>
+    <license_name>Commercial License</license_name>
+    <license_text>Terms of use are included in the zipfile.</license_text>
+    <support_level>PROFESSIONALY_SUPPORTED</support_level>
+    <support_message>The free version of the plugin is offered with no technical support. If you require technical support or you are interested in a full or customized version of the plugin, please contact pdi-sales@proventa.de.</support_message>
+    <support_organization>Proventa AG</support_organization>
+    <support_url>-</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0</version>
+        <package_url>https://www.proventa.de/fileadmin/user_upload/assets/files/MQReader-v1.0.zip</package_url>
+        <source_url>-</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+  
+  <market_entry>
+    <id>websphere-mq-writer</id>
+    <type>Step</type>
+    <name>Websphere MQ writer</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The plugin step WebSphere MQ Writer for Pentaho Data Integration (PDI) enables sending messages via IBM’s WebSphere MQ. It supports various configuration options, including handling of header properties of the messages.</description>
+    <documentation_url>-</documentation_url>
+    <author>Proventa AG</author>
+    <author_url>http://proventa.de/assets</author_url>
+    <author_logo>https://www.proventa.de/fileadmin/user_upload/logos/proventa_logo_gross.png</author_logo>
+    <img>-</img>
+    <small_img>-</small_img>
+    <forum_url>-</forum_url>
+    <cases_url>-</cases_url>
+    <license_name>Commercial License</license_name>
+    <license_text>Terms of use are included in the zipfile.</license_text>
+    <support_level>PROFESSIONALY_SUPPORTED</support_level>
+    <support_message>The free version of the plugin is offered with no technical support. If you require technical support or you are interested in a full or customized version of the plugin, please contact pdi-sales@proventa.de.</support_message>
+    <support_organization>Proventa AG</support_organization>
+    <support_url>-</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0</version>
+        <package_url>https://www.proventa.de/fileadmin/user_upload/assets/files/MQWriter-v1.0.zip</package_url>
+        <source_url>-</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
 </market>
