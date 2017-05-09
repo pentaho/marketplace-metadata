@@ -7632,7 +7632,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   <market_entry>
     <id>waqe</id>
     <type>Platform</type>
-    <img/>
+    <img>http://www.jortilles.com/wp-content/uploads/2017/05/WAQE.png</img>
     <small_img/>
     <name>Web Adhoc Query Executor</name>
     <category>
@@ -7660,7 +7660,7 @@ Capabilities:
 	<documentation_url>http://www.jortilles.com/waqe/</documentation_url>
     <author>Jortilles</author>
     <author_url>http://www.jortilles.com</author_url>
-    <author_logo/>
+    <author_logo>http://www.jortilles.com/wp-content/uploads/2017/05/logo-transparent_pq.png</author_logo>
 	<license>GPL v3</license>
 	<dependencies>CDE, CDA, CDF</dependencies>
 	<installation_notes>
@@ -7673,36 +7673,68 @@ Capabilities:
 	</installation_notes>
     <versions>
       <version>
-        <branch>TRUNK</branch>
-        <version>TRUNK-SNAPSHOT</version>
-        <build_id/>
+        <branch>5.4</branch>
+        <version>5.4</version>
+         <build_id>1</build_id>
         <name>Alpha version</name>
         <package_url>http://www.jortilles.com/wp-content/uploads/2015/09/waqe_v_0.2.zip</package_url>
         <description><![CDATA[
-<p>WAQE (Web Adhoc Query Executor) is a query executor based on Pentaho Metadata.
-</p>
-<p>
-Since WAQR is no longer supported / mantained in CE, WAQE is a tool to interact with database and query it throuhgt the metadata layer.  It is not a report designer. It is just a tool to can ask and interact with the database thought the metadata layer.
-</p>
-<p>
-Capabilities:
-<ul>
-<li>Query the database using the metadata layer</li>
-<li>Filter the query</li>
-</ul>
-</p>
-   ]]></description>
+		<p>WAQE (Web Adhoc Query Executor) is a query executor based on Pentaho Metadata.
+		</p>
+		<p>
+		Since WAQR is no longer supported / mantained in CE, WAQE is a tool to interact with database and query it throuhgt the metadata layer.  It is not a report designer. It is just a tool to can ask and interact with the database thought the metadata layer.
+		</p>
+		<p>
+		Capabilities:
+		<ul>
+		<li>Query the database using the metadata layer</li>
+		<li>Filter the query</li>
+		</ul>
+		</p>
+		<p><b>Version for Pentaho 5.4</b></p>
+		]]>
+		</description>
         <min_parent_version>5.4</min_parent_version>
+        <max_parent_version>5.4</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+	  <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <build_id>5</build_id>
+        <name>Alpha version</name>
+        <package_url>http://www.jortilles.com/wp-content/uploads/2017/05/waqe_0.5.zip</package_url>
+        <description><![CDATA[
+		<p>WAQE (Web Adhoc Query Executor) is a query executor based on Pentaho Metadata.
+		</p>
+		<p>
+		Since WAQR is no longer supported / mantained in CE, WAQE is a tool to interact with database and query it throuhgt the metadata layer.  It is not a report designer. It is just a tool to can ask and interact with the database thought the metadata layer.
+		</p>
+		<p>
+		Capabilities:
+		<ul>
+		<li>Query the database using the metadata layer</li>
+		<li>Filter the query</li>
+		</ul>
+		</p>
+		<p><b>Version updated for Pentaho 7.X</b></p>
+		]]>
+		</description>
+        <min_parent_version>7</min_parent_version>
+        <max_parent_version>7</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>1</phase>
         </development_stage>
       </version>
     </versions>
-    <screenshots/>
+    <screenshots>
+	      <screenshot>http://www.jortilles.com/wp-content/uploads/2017/05/Waqe_sample.png</screenshot>
+	</screenshots>
   </market_entry>
- 
-
   <market_entry>
     <id>pdi-sequoiadb-plugin</id>
     <type>Step</type>
