@@ -9299,8 +9299,8 @@ Capabilities:
         <name>Alpha version</name>
         <package_url>http://www.jortilles.com/wp-content/uploads/2017/05/waqe_0.5.zip</package_url>
         <description> Version updated for Pentaho 7.X	</description>
-        <min_parent_version>7</min_parent_version>
-        <max_parent_version>7</max_parent_version>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>8.0</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>1</phase>
