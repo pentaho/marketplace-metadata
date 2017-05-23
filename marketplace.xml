@@ -1466,6 +1466,49 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <versions>
 
 
+   <version>
+        <branch>STABLE</branch>
+        <version>7.0-17.05.12</version>
+        <name>Stable</name>
+        <package_url>
+          http://ctools.pentaho.com/files/cdv/17.05.12/7.x/cdv-7.0-17.05.12.zip
+        </package_url>
+        <samples_url>
+          http://ctools.pentaho.com/files/cdv/17.05.12/7.x/cdv-samples-7.0-17.05.12.zip
+        </samples_url>
+        <description>Stable release</description>
+        <build_id/>
+        <max_parent_version>7.0.99</max_parent_version>
+        <min_parent_version>7.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+   <version>
+        <branch>STABLE</branch>
+        <version>7.1-17.05.12</version>
+        <name>Stable</name>
+        <package_url>
+          http://ctools.pentaho.com/files/cdv/17.05.12/7.x/cdv-7.1-17.05.12.zip
+        </package_url>
+        <samples_url>
+          http://ctools.pentaho.com/files/cdv/17.05.12/7.x/cdv-samples-7.1-17.05.12.zip
+        </samples_url>
+        <description>Stable release</description>
+        <build_id/>
+        <max_parent_version>7.1.99</max_parent_version>
+        <min_parent_version>7.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
+
+
       <version>
         <branch>STABLE</branch>
         <version>6.1-16.08.18</version>
@@ -1644,6 +1687,22 @@ A landing tab can optionally be presented, which can be used to any of the prede
         </development_stage>
       </version>
 
+      <version>
+        <branch>STABLE</branch>
+        <version>7.1-17.05.12</version>
+        <name>Stable</name>
+        <package_url>
+          http://ctools.pentaho.com/files/cdc/17.05.12/7.x/cdc-7.1-17.05.12.zip
+        </package_url>
+        <description>Stable release.</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
 
 
       <version>
@@ -1738,6 +1797,23 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
         <max_parent_version>6.1.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>7.1-17.05.12</version>
+        <name>Stable</name>
+        <package_url>
+          http://ctools.pentaho.com/files/cfr/17.05.12/7.x/cfr-7.0-17.05.12.zip
+        </package_url>
+        <description>Stable release.</description>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
