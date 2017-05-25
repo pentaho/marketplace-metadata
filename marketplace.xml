@@ -2059,7 +2059,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 		<branch>ENTERPRISE7</branch>
 		<version>3.10-EE</version>
 		<name>Stable (Pentaho 7 - Enterprise)</name>
-		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p7-3.10.zip</package_url>
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p7-3.11.zip</package_url>
 		<description>3.9 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
