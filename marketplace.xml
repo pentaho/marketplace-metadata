@@ -4,7 +4,6 @@
   <!-- ***************** -->
   <!-- BA Server Plugins -->
   <!-- ***************** -->
-
   <!--
   <market_entry>
     <id>marketplace</id>
@@ -3286,6 +3285,74 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
     <screenshot>http://www.biztech.it/btable/img/BTable-Screenshot-03.png</screenshot>
   </screenshots>
 </market_entry>
+
+  <market_entry>
+    <id>Alflytics</id>
+    <type>Platform</type>
+    <name>Alflytics - The Alfresco analytics.</name>
+    <category>
+      <name>Analysis</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <description><![CDATA[
+    The Open Source Business Intelligence solution over the Alfresco platform.<br/>
+    <br/>
+    With Alflytics is provided a solution to extract, store and analyze data from Alfresco with the goal to be useful to the end-user in a very easy way.
+    ]]>
+    </description>
+    <documentation_url>https://github.com/fcorti/Alflytics</documentation_url>
+    <author>Francesco Corti</author>
+    <author_url>http://fcorti.com</author_url>
+    <author_logo>http://www.gravatar.com/avatar/7d8758b63c7b2a873b3b925267ba912d.png</author_logo>
+    <dependencies>CDF, CDA, CDE, CGG</dependencies>
+    <license>LGPL v2.1</license>
+    <img>https://github.com/fcorti/Alflytics/blob/master/endpoints/kettle/src/logo/Alflytics.png</img>
+    <small_img/>
+    <installation_notes><![CDATA[
+    This plugin requires CDA and CDE installed in the Pentaho Analytics platform and has been developed using Sparkl.
+    All the configurations, logs, sources and scripts are stored in the Alflytics folder.
+    ]]>
+    </installation_notes>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>5.0</version>
+        <name>Stable</name>
+        <package_url>https://github.com/fcorti/Alflytics/releases/download/5.0.EA/Alflytics_v5.0.EA.zip</package_url>
+        <samples_url/>
+        <description><![CDATA[
+        The Open Source Business Intelligence solution over the Alfresco platform.<br/>
+        <br/>
+        With Alflytics is provided a solution to extract, store and analyze data from Alfresco with the goal to be useful to the end-user in a very easy way.
+        ]]>
+        </description>
+        <changelog><![CDATA[
+        - Rebranding from A.A.A.R. to Alflytics.
+        - Complete rewrite of the whole solution.
+        - HyperSQL, PostgreSql and MySql support.
+        - Multivalue properties support.
+        - Support for categories and tags analytics.
+        - Alfresco custom models support.
+        - Does not require any installation or customization on Alfresco.
+        - Supports Alfresco v5.2+.
+        - Requires Pentaho Analytics platform 7.1.
+        ]]>
+        </changelog>
+        <build_id>1</build_id>
+        <max_parent_version>7.1.99</max_parent_version>
+        <min_parent_version>7.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://github.com/fcorti/Alflytics/blob/master/endpoints/kettle/src/logo/Alflytics.png</screenshot>
+    </screenshots>
+  </market_entry>
 
   <market_entry>
     <id>AAAR</id>
