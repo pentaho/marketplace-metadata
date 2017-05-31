@@ -3308,7 +3308,7 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
     <author_logo>http://www.gravatar.com/avatar/7d8758b63c7b2a873b3b925267ba912d.png</author_logo>
     <dependencies>CDF, CDA, CDE, CGG</dependencies>
     <license>LGPL v2.1</license>
-    <img>https://github.com/fcorti/Alflytics/blob/master/endpoints/kettle/src/logo/Alflytics.png</img>
+    <img>https://github.com/fcorti/Alflytics/raw/master/endpoints/kettle/src/logo/Alflytics.png</img>
     <small_img/>
     <installation_notes><![CDATA[
     This plugin requires CDA and CDE installed in the Pentaho Analytics platform and has been developed using Sparkl.
@@ -3350,7 +3350,11 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://github.com/fcorti/Alflytics/blob/master/endpoints/kettle/src/logo/Alflytics.png</screenshot>
+      <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_1.png</screenshot>
+      <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_2.png</screenshot>
+      <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_3.png</screenshot>
+      <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_4.png</screenshot>
+      <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_9.png</screenshot>
     </screenshots>
   </market_entry>
 
