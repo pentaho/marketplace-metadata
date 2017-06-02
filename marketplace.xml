@@ -9198,6 +9198,7 @@ Pentaho currently does not provide a mechanism allowing for plugin steps to be d
           <phase>3</phase>
         </development_stage>
         <min_parent_version>6.0</min_parent_version>
+		<max_parent_version>6.0</max_parent_version>
       </version>
       <version>
         <branch>TRUNK</branch>
