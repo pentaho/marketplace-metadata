@@ -3353,8 +3353,6 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
       <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_1.png</screenshot>
       <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_2.png</screenshot>
       <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_3.png</screenshot>
-      <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_4.png</screenshot>
-      <screenshot>https://github.com/fcorti/Alflytics/raw/master/documentation/screenshot_9.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -10275,8 +10273,20 @@ Capabilities:
     <versions>
       <version>
         <branch>Master</branch>
+        <version>1.1.1</version>
+        <name>1.1.1 (Stable)</name>
+        <package_url>https://github.com/inquidia/PentahoSnowflakePlugin/releases/download/1.1.1/snowflake-plugin-package-1.1.1.zip</package_url>
+        <min_parent_version>7.0</min_parent_version>
+        <source_url>https://github.com/inquidia/PentahoSnowflakePlugin/archive/1.1.1.zip</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>Master</branch>
         <version>1.1.0</version>
-        <name>1.1.0 (Stable)</name>
+        <name>1.1.0</name>
         <package_url>https://github.com/inquidia/PentahoSnowflakePlugin/releases/download/1.1.0/snowflake-plugin-package-1.1.0.zip</package_url>
         <min_parent_version>6.0</min_parent_version>
         <source_url>https://github.com/inquidia/PentahoSnowflakePlugin/archive/1.1.0.zip</source_url>
