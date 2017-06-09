@@ -216,6 +216,27 @@
       </version>
 
 
+   <version>
+        <branch>7.1.0.0</branch>
+        <version>7.1.0.0-12</version>
+        <name>7.1</name>
+        <package_url>
+            http://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.1.0.0-12/pentaho-cdf-7.1.0.0-12.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.1.0.0-12/pentaho-cdf-samples-7.1.0.0-12.zip
+        </samples_url>
+        <description>7.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.1</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
 
       <version>
         <branch>STABLE</branch>
@@ -442,6 +463,27 @@
           <phase>4</phase>
         </development_stage>
       </version>
+
+   <version>
+        <branch>7.1.0.0</branch>
+        <version>7.1.0.0-12</version>
+        <name>7.1</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.1.0.0-12/cda-7.1.0.0-12.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.1.0.0-12/cda-samples-7.1.0.0-12.zip
+        </samples_url>
+        <description>7.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.1</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
 
       <version>
@@ -670,6 +712,27 @@
           <phase>4</phase>
         </development_stage>
       </version>
+
+    <version>
+        <branch>7.1.0.0</branch>
+        <version>7.1.0.0-12</version>
+        <name>7.1</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.1.0.0-12/pentaho-cdf-dd-7.1.0.0-12.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.1.0.0-12/pentaho-cdf-dd-solution-7.1.0.0-12.zip
+        </samples_url>
+        <description>7.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.1</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
 
 
@@ -908,6 +971,23 @@
         <build_id/>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version>7.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+  <version>
+        <branch>7.1.0.0</branch>
+        <version>7.1.0.0-12</version>
+        <name>7.1</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.1.0.0-12/cgg-7.1.0.0-12.zip
+        </package_url>
+        <description>7.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>7.1</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>4</phase>
