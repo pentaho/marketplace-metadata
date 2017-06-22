@@ -10854,7 +10854,7 @@ Capabilities:
     <description>The CKAN DataStore writer plugin allows users to upload tabular data to a CKAN data portal.</description>
     <author>OpenGov Open Data</author>
     <author_url>https://ckan.org/</author_url>
-    <author_logo>https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/blob/master/steps/ckan-datastore-plugin/ckan_logo.png</author_logo>
+    <author_logo>https://raw.githubusercontent.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/steps/ckan-datastore-plugin/ckan_logo.png</author_logo>
     <img>-</img>
     <small_img>-</small_img>
     <forum_url>-</forum_url>	  
