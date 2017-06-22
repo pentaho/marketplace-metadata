@@ -10844,6 +10844,7 @@ Capabilities:
   <market_entry>
     <id>ckan-datastore-plugin</id>
     <type>Step</type>
+	<img>https://raw.githubusercontent.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/steps/ckan-datastore-plugin/ckan_logo.png</img>
     <name>CKAN DataStore Upload</name>
     <category> 
       <name>Enhancements</name>
@@ -10873,5 +10874,8 @@ Capabilities:
         </development_stage>
       </version>
     </versions>
-   </market_entry>	
+	<screenshots>
+      <screenshot>https://raw.githubusercontent.com/caiomsouza/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/pdi-example/img/CKAN01.PNG</screenshot>
+    </screenshots>
+</market_entry>	
 </market>
