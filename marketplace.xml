@@ -10841,4 +10841,35 @@ Capabilities:
       </version>
     </versions>
   </market_entry>
+  <market_entry>
+    <id>ckan-datastore-plugin</id>
+    <type>Step</type>
+    <name>CKAN DataStore Upload</name>
+    <category> 
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The CKAN DataStore writer plugin allows users to upload tabular data to a CKAN data portal.</description>
+    <author>OpenGov Open Data</author>
+    <documentation_url>https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration</documentation_url>
+    <cases_url>https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/issues</cases_url>
+    <license_name>Apache License 2.0 - Need confirmation from the author</license_name> <!-- the license used by the plugin (Kettle only) --> 
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text> <!-- the license text of the plugin (Kettle only) -->
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>20170622</version>
+        <name>20170622</name>
+        <package_url>https://github.com/caiomsouza/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/releases/download/ckan-datastore-plugin-v20170622/ckan-datastore-plugin.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+   </market_entry>	
 </market>
