@@ -10855,9 +10855,6 @@ Capabilities:
     <author>OpenGov Open Data</author>
     <author_url>https://ckan.org/</author_url>
     <author_logo>https://raw.githubusercontent.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/steps/ckan-datastore-plugin/ckan_logo.png</author_logo>
-    <img>-</img>
-    <small_img>-</small_img>
-    <forum_url>-</forum_url>	  
     <documentation_url>https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration</documentation_url>
     <cases_url>https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/issues</cases_url>
     <license_name>Apache License 2.0 - Need confirmation from the author</license_name> <!-- the license used by the plugin (Kettle only) --> 
