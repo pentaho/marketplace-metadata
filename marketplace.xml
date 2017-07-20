@@ -10365,7 +10365,7 @@ Capabilities:
     <support_url>https://github.com/inquidia/PentahoSnowflakePlugin/issues</support_url>
     <versions>
 	  <version>
-        <branch/>
+        <branch>master</branch>
         <version>1.1.2</version>
         <name>1.1.2 (Stable)</name>
         <package_url>https://github.com/inquidia/PentahoSnowflakePlugin/releases/download/1.1.2/snowflake-plugin-package-1.1.2.zip</package_url>
@@ -10377,7 +10377,7 @@ Capabilities:
         </development_stage>
       </version>
       <version>
-        <branch/>
+        <branch>master</branch>
         <version>1.1.1</version>
         <name>1.1.1</name>
         <package_url>https://github.com/inquidia/PentahoSnowflakePlugin/releases/download/1.1.1/snowflake-plugin-package-1.1.1.zip</package_url>
