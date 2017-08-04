@@ -2053,7 +2053,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         </development_stage>
       </version>
       <version>
-        <branch>RELEASE</branch>
+        <branch>PENTAHO5</branch>
         <version>14.06.18</version>
         <name>RELEASE</name>
         <package_url>
