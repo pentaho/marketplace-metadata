@@ -9868,6 +9868,42 @@ Capabilities:
     <versions>
       <version>
         <branch>master</branch>
+        <version>1.2.1</version>
+        <package_url>https://github.com/atolcd/pentaho-gis-plugins/releases/download/v1.2.1/pentaho-gis-plugins-1.2.1-bin-5.zip</package_url>
+        <source_url>https://github.com/atolcd/pentaho-gis-plugins/tree/v1.2.1</source_url>
+        <min_parent_version>5.0</min_parent_version>
+        <max_parent_version>5.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>master</branch>
+        <version>1.2.1</version>
+        <package_url>https://github.com/atolcd/pentaho-gis-plugins/releases/download/v1.2.1/pentaho-gis-plugins-1.2.1-bin-6.zip</package_url>
+        <source_url>https://github.com/atolcd/pentaho-gis-plugins/tree/v1.2.1</source_url>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>master</branch>
+        <version>1.2.1</version>
+        <package_url>https://github.com/atolcd/pentaho-gis-plugins/releases/download/v1.2.1/pentaho-gis-plugins-1.2.1-bin-7.zip</package_url>
+        <source_url>https://github.com/atolcd/pentaho-gis-plugins/tree/v1.2.1</source_url>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>7.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>master</branch>
         <version>1.1-SNAPSHOT</version>
         <package_url>https://github.com/atolcd/pentaho-gis-plugins/releases/download/v1.1-snapshot/pentaho-gis-plugins-1.1-SNAPSHOT-bin.zip</package_url>
         <source_url>https://github.com/atolcd/pentaho-gis-plugins/tree/v1.1-snapshot</source_url>
@@ -9877,8 +9913,22 @@ Capabilities:
         </development_stage>
       </version>
     </versions>
+    <img>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_00.png</img>
+    <small_img>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_00.png</small_img>
+    <screenshots>
+      <screenshot>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_01.png</screenshot>
+      <screenshot>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_02.png</screenshot>
+      <screenshot>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_03.png</screenshot>
+      <screenshot>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_04.png</screenshot>
+      <screenshot>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_05.png</screenshot>
+      <screenshot>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_06.png</screenshot>
+      <screenshot>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_07.png</screenshot>
+      <screenshot>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_08.png</screenshot>
+      <screenshot>https://blog.atolcd.com/wp-content/uploads/sites/2/2015/06/pdi_gis_09.png</screenshot>
+    </screenshots>
     <author>Atol CD</author>
-    <author_url>http://www.atolcd.com</author_url>
+    <author_url>https://www.atolcd.com</author_url>
+    <author_logo>http://docs.atolcd.com/docs/alfresco/guide_share/4.2/assets/images/logoAtolCD.png</author_logo>
     <documentation_url>https://github.com/atolcd/pentaho-gis-plugins/blob/master/pentaho-gis-plugins/README.md</documentation_url>
     <cases_url>https://github.com/atolcd/pentaho-gis-plugins/issues</cases_url>
     <license_name>LGPL v3</license_name>
