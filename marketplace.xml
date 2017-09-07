@@ -10858,7 +10858,7 @@ Capabilities:
     <author_logo>https://raw.githubusercontent.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/steps/ckan-datastore-plugin/ckan_logo.png</author_logo>
     <documentation_url>https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration</documentation_url>
     <cases_url>https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/issues</cases_url>
-    <license_name>Apache License 2.0 - Need confirmation from the author</license_name> <!-- the license used by the plugin (Kettle only) --> 
+    <license_name>MIT</license_name> <!-- the license used by the plugin (Kettle only) --> 
     <license_text>For more details see:
       http://www.apache.org/licenses/LICENSE-2.0.html</license_text> <!-- the license text of the plugin (Kettle only) -->
     <support_level>COMMUNITY_SUPPORTED</support_level>
