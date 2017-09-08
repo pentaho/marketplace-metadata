@@ -10937,7 +10937,7 @@ Capabilities:
   </market_entry>
   <market_entry>
     <id>pentaho-pdi-neo4j-output</id>
-    <type>Steptype>
+		<type>Step</type>
     <name>Neo4J Output</name>
     <category>
       <name>Output</name>
