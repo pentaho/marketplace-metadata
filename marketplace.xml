@@ -10968,5 +10968,75 @@ Capabilities:
         </development_stage>
       </version>
     </versions>
-  </market_entry>  
+  </market_entry>
+
+  <market_entry>
+    <id>TypeExitRubyStep</id>
+    <type>Mixed</type>
+    <img>https://raw.githubusercontent.com/twineworks/ruby-for-pentaho-kettle/releases/1.3.4/images/marketplace_ruby_icon_96.png</img>
+    <small_img>https://raw.githubusercontent.com/twineworks/ruby-for-pentaho-kettle/releases/1.3.4/images/marketplace_ruby_icon_32.png</small_img>
+    <name>Ruby scripting</name>
+    <category>
+      <name>Scripting</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>
+	<![CDATA[
+
+  This plugin provides a <a href="https://www.ruby-lang.org/en/">ruby</a> scripting step similar to the javascript and user defined java class steps.
+  <br><br>
+  A comprehensive set of samples is available in the step dialog.
+  <br><br>
+  The implementation is based on <a href="http://jruby.org/">JRuby</a>. Thanks to JRuby's Java interop, the scripting step also enables easy Java scripting in kettle.
+  <br><br>
+  The source code is available at <a href="https://github.com/twineworks/ruby-for-pentaho-kettle">https://github.com/twineworks/ruby-for-pentaho-kettle</a>.
+  <hr>
+  <h2>Supported versions of PDI</h2>
+
+  The plugin is built and <a href="https://travis-ci.org/twineworks/ruby-for-pentaho-kettle">tested</a> against the most recent versions of PDI <strong>5.x</strong>, <strong>6.x</strong> and <strong>7.x</strong>.
+
+  <hr>
+  <h2>Features at a glance</h2>
+
+  <ul>
+    <li>rows are represented as hashes, indexed by field name</li>
+    <li>automatic conversion between all kettle data types and ruby types</li>
+    <li>steps with no input can be used as row generators</li>
+    <li>can redirect rows to an error handling stream</li>
+    <li>can read from specific info steps</li>
+    <li>can write to specific target steps</li>
+    <li>can call your favorite Java libraries</li>
+    <li>can use ruby gems</li>
+    <li>kettle's step <code>$step</code> and transformation <code>$trans</code> objects are available in ruby scope for advanced scripting</li>
+  </ul>
+	 ]]>
+    </description>
+    <author>Twineworks GmbH</author>
+    <author_url>http://twineworks.com/</author_url>
+    <documentation_url>https://github.com/twineworks/ruby-for-pentaho-kettle/wiki/Step</documentation_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.3.4</version>
+        <package_url>https://github.com/twineworks/ruby-for-pentaho-kettle/releases/download/releases/1.3.4/ruby-for-pentaho-kettle-1.3.4-plugin.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <license_name>LGPL 2.1</license_name>
+    <license_text>For more details see: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</license_text>
+    <support_level>3rd party supported by Twineworks GmbH</support_level>
+    <support_message>To obtain commercial support for this plugin, contact Twineworks GmbH at support@twineworks.com</support_message>
+    <support_organization>Twineworks GmbH</support_organization>
+    <support_url>http://twineworks.com</support_url>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/twineworks/ruby-for-pentaho-kettle/releases/1.3.4/images/screenshot_stream.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/twineworks/ruby-for-pentaho-kettle/releases/1.3.4/images/screenshot.png</screenshot>
+    </screenshots>
+  </market_entry>
+
 </market>
