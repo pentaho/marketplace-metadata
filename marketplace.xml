@@ -11082,15 +11082,15 @@ Capabilities:
     <id>stpivot4-analytic-plugin</id>
     <type>Step</type>
 	<img>https://github.com/stratebi/STPivot4/releases/download/v1.7.1/stratebi-logo.png</img>
-    <name>STPivot4 Analytic Plugin</name>
+    <name>STPivot4 Analytics</name>
     <category> 
       <name>Analysis</name>
       <parent>
         <name>Apps</name>
       </parent>
     </category>
-    <description>The STPivot4 Plugin make easy analytics over your mondria olap cubes.</description>
-    <author>StrateBI</author>
+    <description>The STPivot4 Plugin make easy analytics over your mondrian olap cubes.</description>
+    <author>Stratebi</author>
     <author_url>http://www.stratebi.com/</author_url>
     <author_logo>https://github.com/stratebi/STPivot4/releases/download/v1.7.1/stratebi-logo.png</author_logo>
     <documentation_url>https://github.com/stratebi/STPivot4</documentation_url>
