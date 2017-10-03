@@ -11076,6 +11076,44 @@ Capabilities:
       <screenshot>https://raw.githubusercontent.com/caiomsouza/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/pdi-example/img/CKAN01.PNG</screenshot>
     </screenshots>
 </market_entry>	
+
 	
+<market_entry>
+    <id>stpivot4-analytic-plugin</id>
+    <type>Step</type>
+	<img>https://raw.githubusercontent.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/steps/ckan-datastore-plugin/ckan_logo.png</img>
+    <name>STPivot4 Analytic Plugin</name>
+    <category> 
+      <name>Analytic</name>
+      <parent>
+        <name>Analytic Plugins</name>
+      </parent>
+    </category>
+    <description>The STPivot4 Plugin make easy analytics over your mondria olap cubes.</description>
+    <author>StrateBI</author>
+    <author_url>http://www.stratebi.com/</author_url>
+    <author_logo>http://www.stratebi.com/image/layout_set_logo?img_id=21615&t=1486381163544</author_logo>
+    <documentation_url>https://github.com/stratebi/STPivot4</documentation_url>
+    <cases_url>https://github.com/stratebi/STPivot4</cases_url>
+    <license_name>MIT</license_name> <!-- the license used by the plugin (Kettle only) --> 
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text> <!-- the license text of the plugin (Kettle only) -->
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.7.1</version>
+        <name>20170622</name>
+        <package_url>https://github.com/stratebi/STPivot4/releases/download/v1.7.1/stpivot4-pentaho-1.0-SNAPSHOT-plugin.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+      <screenshots>
+      	<screenshot>http://www.stratebi.com/documents/71480/0/express_macbook_content1/24087149-c743-4d0b-97ac-8fd49b508370?t=1456490979985?version=1.0</screenshot>
+      </screenshots>
+</market_entry>		
 
 </market>
