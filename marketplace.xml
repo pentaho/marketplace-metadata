@@ -2150,9 +2150,9 @@ It represents runtimes and detail of the busiest periods of the platform, also a
     <versions>
 	 <version>
 		<branch>ENTERPRISE7</branch>
-		<version>3.10-EE</version>
+		<version>3.11-EE</version>
 		<name>Stable (Pentaho 7 - Enterprise)</name>
-		<package_url>https://meteorite.bi/downloads/saikuee-plugin-p7-3.11.zip</package_url>
+		<package_url>https://www.dropbox.com/s/anm3dngr0dlu0y4/saikuee-plugin-p7-3.11.zip?dl=1</package_url>
 		<description>3.9 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
@@ -2165,9 +2165,9 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 	</version>
     	<version>
 		<branch>ENTERPRISE6</branch>
-		<version>3.10-EE</version>
+		<version>3.11-EE</version>
 		<name>Stable (Pentaho 6 - Enterprise)</name>
-		<package_url>https://www.meteorite.bi/downloads/saikuee-plugin-p6-3.11.zip</package_url>
+		<package_url>https://www.dropbox.com/s/5b147n84kujnen6/saikuee-plugin-p6-3.11.zip?dl=1</package_url>
 		<description>3.7 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
@@ -2210,9 +2210,9 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 	</version>
        <version>
         <branch>STABLEP7</branch>
-        <version>3.11.1</version>
+        <version>3.15</version>
         <name>Stable (Community)</name>
-        <package_url>https://meteorite.bi/downloads/saiku-plugin-p7-3.15.zip</package_url>
+        <package_url>https://www.dropbox.com/s/1j0symkdtpwb0g6/saiku-plugin-p7-3.15.zip?dl=1</package_url>
         <description>3.14 release for the Saiku Plugin.</description>
         <max_parent_version>7.9</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
@@ -2225,7 +2225,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <branch>STABLE</branch>
         <version>3.8.8</version>
         <name>Stable (Community)</name>
-        <package_url>https://meteorite.bi/downloads/saiku-plugin-p5-3.8.8.zip</package_url>
+        <package_url>https://www.dropbox.com/s/ou1ldbynx4zqm0m/saiku-plugin-p5-3.8.8.zip?dl=1</package_url>
         <description>3.8 release for the Saiku Plugin.</description>
         <max_parent_version>5.9</max_parent_version>
         <min_parent_version>5.0</min_parent_version>
@@ -2236,9 +2236,9 @@ It represents runtimes and detail of the busiest periods of the platform, also a
       </version>
       <version>
         <branch>PENTAHO6</branch>
-        <version>3.8.8</version>
+        <version>3.15</version>
         <name>Stable (Community - Pentaho 6)</name>
-        <package_url>https://meteorite.bi/downloads/saiku-plugin-p6-3.15.zip</package_url>
+        <package_url>https://www.dropbox.com/s/pzwqmfsn4prqr9h/saiku-plugin-p6-3.15.zip?dl=1</package_url>
         <description>3.14 release for the Saiku Plugin.</description>
         <max_parent_version>6.9</max_parent_version>
         <min_parent_version>6.0</min_parent_version>
