@@ -5608,8 +5608,8 @@ any translation issues or suggestions for improvement
         <branch>RELEASE</branch>
         <version>1.0</version>
         <name>Stable</name>
-        <package_url>https://github.com/p-jbarbosa/svg-component/files/1391487/svg-component-cdf.zip</package_url>
-        <samples_url>https://github.com/p-jbarbosa/svg-component/files/1391486/sample-svg-component.zip</samples_url>
+        <package_url>https://github.com/webdetails/svg-component/files/1391561/svg-component-cdf.zip</package_url>
+        <samples_url>https://github.com/webdetails/svg-component/files/1391560/sample-svg-component.zip</samples_url>
         <description>Release 1.0</description>
         <build_id>1</build_id>
         <min_parent_version>7.0</min_parent_version>
