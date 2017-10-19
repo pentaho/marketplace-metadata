@@ -5609,7 +5609,6 @@ any translation issues or suggestions for improvement
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
     <dependencies>CDE, CDF, CDA</dependencies>
-    <license>MPL 2.0</license>
     <versions>
       <version>
         <branch>RELEASE</branch>
