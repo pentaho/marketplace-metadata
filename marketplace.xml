@@ -5630,47 +5630,6 @@ any translation issues or suggestions for improvement
       <screenshot>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/screenshot_red.png</screenshot>
     </screenshots>
   </market_entry> 
-  <market_entry>
-    <id>svg-kar</id>
-    <type>Platform</type>
-    <img>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/logo_SVG.jpg</img>
-    <small_img>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/logo_SVG.jpg</small_img>
-    <name>VizAPI SVG - kar</name>
-    <category>  
-      <name>Dashboards</name>
-      <parent>
-        <name>Apps</name>
-      </parent>
-    </category>
-    <documentation_url>https://github.com/webdetails/svg-component/raw/master/README.md</documentation_url>
-    <description>VizAPI .kar that allows testing on svg visualizations in conjunction with VizAPI.</description>
-    <author>Webdetails</author>
-    <author_url>http://webdetails.pt</author_url>
-    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
-    <license>MPL 2.0</license>
-    <dependencies>CDE, CDF, CDA</dependencies>
-    <license>MPL 2.0</license>
-    <versions>
-      <version>
-        <branch>RELEASE</branch>
-        <version>1.0</version>
-        <name>Stable</name>
-        <package_url>https://github.com/p-jbarbosa/svg-component/raw/master/svg-samples.kar</package_url>
-        <samples_url>https://github.com/webdetails/svg-component/files/1391560/sample-svg-component.zip</samples_url>
-        <description>Release 1.0</description>
-        <build_id>1</build_id>
-        <min_parent_version>7.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-      </version>
-    </versions>
-    <screenshots>
-      <screenshot>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/screenshot_orange.png</screenshot>
-      <screenshot>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/screenshot_red.png</screenshot>
-    </screenshots>
-  </market_entry>
 
 
 
