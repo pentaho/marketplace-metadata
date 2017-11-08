@@ -3543,11 +3543,24 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
       <version>
         <branch>Release</branch>
         <version>4.2.3</version>
-        <name>Latest</name>
+        <name>4.2.3</name>
         <package_url>http://www.xpand-it.com/wp-content/uploads/2017/01/fusion_plugin-4.2.3.zip</package_url>
         <samples_url>http://www.xpand-it.com/wp-content/uploads/2017/01/fusion_samples-4.2.3.zip</samples_url>
         <max_parent_version>7.0.99</max_parent_version>
         <min_parent_version>6.0.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>Release</branch>
+        <version>5.0.0</version>
+        <name>Latest</name>
+        <package_url>https://www.xpand-it.com/wp-content/uploads/2017/11/fusion_plugin-5.0.0.zip</package_url>
+        <samples_url>https://www.xpand-it.com/wp-content/uploads/2017/11/fusion_samples-5.0.0.zip </samples_url>
+        <max_parent_version>7.9.99</max_parent_version>
+        <min_parent_version>7.1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -5184,14 +5197,14 @@ any translation issues or suggestions for improvement
       <screenshot>http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-02.png</screenshot>
       <screenshot>http://ctools.pentaho.com/files/pentaho-emerald-theme/screenshots/pentaho-emerald-theme-04.png</screenshot>
     </screenshots>
-  </market_entry>  
+  </market_entry>
   <market_entry>
     <id>svg-component-cdf</id>
     <type>Platform</type>
     <img>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/logo_SVG.jpg</img>
     <small_img>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/logo_SVG.jpg</small_img>
     <name>SVG Component</name>
-    <category>  
+    <category>
       <name>Dashboards</name>
       <parent>
         <name>Apps</name>
@@ -5224,7 +5237,7 @@ any translation issues or suggestions for improvement
       <screenshot>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/screenshot_orange.png</screenshot>
       <screenshot>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/screenshot_red.png</screenshot>
     </screenshots>
-  </market_entry> 
+  </market_entry>
 
 
 
@@ -10649,13 +10662,13 @@ Capabilities:
       <screenshot>https://raw.githubusercontent.com/twineworks/ruby-for-pentaho-kettle/releases/1.3.4/images/screenshot.png</screenshot>
     </screenshots>
   </market_entry>
-	
+
 <market_entry>
     <id>ckan-datastore-plugin</id>
     <type>Step</type>
 	<img>https://raw.githubusercontent.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/steps/ckan-datastore-plugin/ckan_logo.png</img>
     <name>CKAN DataStore Upload</name>
-    <category> 
+    <category>
       <name>Enhancements</name>
       <parent>
         <name>PDI Plugins</name>
@@ -10667,7 +10680,7 @@ Capabilities:
     <author_logo>https://raw.githubusercontent.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/steps/ckan-datastore-plugin/ckan_logo.png</author_logo>
     <documentation_url>https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration</documentation_url>
     <cases_url>https://github.com/OpenGov-OpenData/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/issues</cases_url>
-    <license_name>MIT</license_name> <!-- the license used by the plugin (Kettle only) --> 
+    <license_name>MIT</license_name> <!-- the license used by the plugin (Kettle only) -->
     <license_text>For more details see:
       http://www.apache.org/licenses/LICENSE-2.0.html</license_text> <!-- the license text of the plugin (Kettle only) -->
     <support_level>COMMUNITY_SUPPORTED</support_level>
@@ -10686,7 +10699,7 @@ Capabilities:
 	<screenshots>
       <screenshot>https://raw.githubusercontent.com/caiomsouza/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/pdi-example/img/CKAN01.PNG</screenshot>
     </screenshots>
-</market_entry>	
-	
+</market_entry>
+
 
 </market>
