@@ -3492,8 +3492,8 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <branch>Release</branch>
         <version>3.0.7</version>
         <name>3.0.7</name>
-        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-3.0.7.zip</package_url>
-        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples-3.0.7.zip</samples_url>
+        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v3.0.7/fusion_plugin-3.0.7.zip</package_url>
+        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v3.0.7/fusion-samples-3.0.7.zip</samples_url>
         <max_parent_version>5.1.99</max_parent_version>
         <min_parent_version>5.0.0</min_parent_version>
         <development_stage>
@@ -3505,8 +3505,8 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <branch>Release</branch>
         <version>3.0.7</version>
         <name>3.0.7</name>
-        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-3.0.7.zip</package_url>
-        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion-samples-3.0.7.zip</samples_url>
+        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v3.0.7/fusion_plugin-3.0.7.zip</package_url>
+        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v3.0.7/fusion-samples-3.0.7.zip</samples_url>
         <max_parent_version>5.2.99</max_parent_version>
         <min_parent_version>5.2.0</min_parent_version>
         <development_stage>
@@ -3518,8 +3518,8 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <branch>Release</branch>
         <version>3.0.11</version>
         <name>3.0.11</name>
-        <package_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_plugin-3.0.11.zip</package_url>
-        <samples_url>http://www.xpand-it.com/images/files/fusioncharts/fusion_samples-3.0.11.zip</samples_url>
+        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v3.0.11/fusion_plugin-3.0.11.zip</package_url>
+        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v3.0.11/fusion_samples-3.0.11.zip</samples_url>
         <max_parent_version>5.4.99</max_parent_version>
         <min_parent_version>5.3.0</min_parent_version>
         <development_stage>
@@ -3531,8 +3531,8 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <branch>Release</branch>
         <version>4.2.2</version>
         <name>4.2.2</name>
-        <package_url>http://www.xpand-it.com/wp-content/uploads/2016/10/fusion_plugin-4.2.2.zip</package_url>
-        <samples_url>http://www.xpand-it.com/wp-content/uploads/2016/10/fusion_samples-4.2.2.zip</samples_url>
+        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v4.2.2/fusion_plugin-4.2.2.zip</package_url>
+        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v4.2.2/fusion_samples-4.2.2.zip</samples_url>
         <max_parent_version>6.1.99</max_parent_version>
         <min_parent_version>6.0.0</min_parent_version>
         <development_stage>
@@ -3544,8 +3544,8 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <branch>Release</branch>
         <version>4.2.3</version>
         <name>4.2.3</name>
-        <package_url>http://www.xpand-it.com/wp-content/uploads/2017/01/fusion_plugin-4.2.3.zip</package_url>
-        <samples_url>http://www.xpand-it.com/wp-content/uploads/2017/01/fusion_samples-4.2.3.zip</samples_url>
+        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v4.2.3/fusion_plugin-4.2.3.zip</package_url>
+        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v4.2.3/fusion_samples-4.2.3.zip</samples_url>
         <max_parent_version>7.0.99</max_parent_version>
         <min_parent_version>6.0.0</min_parent_version>
         <development_stage>
@@ -3557,8 +3557,8 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <branch>Release</branch>
         <version>5.0.0</version>
         <name>Latest</name>
-        <package_url>http://www.xpand-it.com/wp-content/uploads/2017/11/fusion_plugin-5.0.0.zip</package_url>
-        <samples_url>http://www.xpand-it.com/wp-content/uploads/2017/11/fusion_samples-5.0.0.zip </samples_url>
+        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v5.0.0/fusion_plugin-5.0.0.zip</package_url>
+        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v5.0.0/fusion_samples-5.0.0.zip </samples_url>
         <max_parent_version>7.9.99</max_parent_version>
         <min_parent_version>7.1.0</min_parent_version>
         <development_stage>
