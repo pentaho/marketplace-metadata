@@ -238,6 +238,27 @@
 
 
 
+   <version>
+        <branch>8.0.0.0</branch>
+        <version>8.0.0.0-28</version>
+        <name>8.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.0.0.0-28/pentaho-cdf-8.0.0.0-28.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.0.0.0-28/pentaho-cdf-samples-8.0.0.0-28.zip
+        </samples_url>
+        <description>8.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
       <version>
         <branch>STABLE</branch>
         <version>15.10.26</version>
@@ -442,7 +463,25 @@
         </development_stage>
       </version>
 
-
+   <version>
+        <branch>8.0.0.0</branch>
+        <version>8.0.0.0-28</version>
+        <name>8.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.0.0.0-28/cda-8.0.0.0-28.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.0.0.0-28/cda-samples-8.0.0.0-28.zip
+        </samples_url>
+        <description>8.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
 
       <version>
         <branch>STABLE</branch>
@@ -649,7 +688,25 @@
         </development_stage>
       </version>
 
-
+    <version>
+        <branch>8.0.0.0</branch>
+        <version>8.0.0.0-28</version>
+        <name>8.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.0.0.0-28/pentaho-cdf-dd-8.0.0.0-28.zip
+        </package_url>
+        <samples_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.0.0.0-28/pentaho-cdf-dd-solution-8.0.0.0-28.zip
+        </samples_url>
+        <description>8.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
 
 
       <version>
@@ -848,6 +905,24 @@
       </version>
 
 
+	  <version>
+        <branch>8.0.0.0</branch>
+        <version>8.0.0.0-28</version>
+        <name>8.0</name>
+        <package_url>
+            http://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.0.0.0-28/cgg-8.0.0.0-28.zip
+        </package_url>
+        <description>8.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
       <version>
         <branch>STABLE</branch>
         <version>15.10.26</version>
@@ -988,6 +1063,23 @@
         <build_id/>
         <min_parent_version>7.1</min_parent_version>
         <max_parent_version>7.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+   <version>
+        <branch>8.0.0.0</branch>
+        <version>8.0.0.0-8.0.0.0-28</version>
+        <name>8.0</name>
+        <package_url>
+                http://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/8.0.0.0-28/sparkl-8.0.0.0-28.zip
+        </package_url>
+        <description>8.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>4</phase>
