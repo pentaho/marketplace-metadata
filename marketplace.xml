@@ -3948,6 +3948,23 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>
+          https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_ca-8.0-17.11.17.zip
+        </package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -4045,6 +4062,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_nl-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -4143,6 +4175,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_fr-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -4202,9 +4249,24 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_gl-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
         </development_stage>
       </version>
     </versions>
@@ -4300,6 +4362,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_de-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -4397,6 +4474,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_hi-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -4496,6 +4588,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_it-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -4594,6 +4701,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_ja-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -4692,6 +4814,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_ko-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -4792,6 +4929,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_pt_BR-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -4893,11 +5045,27 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_pt_PT-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/pt_PT/resources/img/screenshot_1.png</screenshot>
@@ -4991,6 +5159,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_es-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -5000,6 +5183,71 @@ any translation issues or suggestions for improvement
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_1.png</screenshot>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/es/resources/img/screenshot_2.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>languagePack_ta</id>
+    <type>Platform</type>
+    <name>Tamil Language Pack Installer</name>
+    <category>
+      <name>Language Pack</name>
+    </category>
+    <description>
+      <![CDATA[
+      This plugin installs language definitions for the Tamil language in Pentaho <br /><br />
+
+      Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+      any translation issues or suggestions for improvement
+      ]]>
+      This plugin installs language definitions for the Tamil language in Pentaho
+    </description>
+    <documentation_url>This plugin installs language definitions for the Tamil language in Pentaho</documentation_url>
+    <author>SARA IT Services</author>
+    <author_url>http://www.saraitservices.com</author_url>
+    <author_logo/>
+    <license>MPL 2.0</license>
+    <dependencies>CDF, CDA, CDE, CGG</dependencies>
+    <img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ta/resources/img/flag.png</img>
+    <small_img>https://github.com/webdetails/pentahoLanguagePacks/raw/master/data/ta/resources/img/flag.png
+    </small_img>
+    <installation_notes>
+      <![CDATA[You can run the Language Pack Installer as an administrator from
+      the Tools menu. The installer will then copy the language packs over your
+      installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
+      Please note that if you upgrade one of the translated plugins, you will
+      need to run the Language Pack Installer again. <br /><br/>
+
+      Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
+      any translation issues or suggestions for improvement
+
+      ]]>
+    </installation_notes>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_ta-8.0-17.11.17.zip</package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version/>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot id="1">
+        https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ta/resources/img/screenshot_1.png
+      </screenshot>
+      <screenshot id="2">
+        https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ta/resources/img/screenshot_2.png
+      </screenshot>
     </screenshots>
   </market_entry>
 
@@ -5071,11 +5319,27 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
         </development_stage>
       </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_th-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/th/resources/img/screenshot_1.png</screenshot>
@@ -5151,6 +5415,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_sv-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -5231,6 +5510,21 @@ any translation issues or suggestions for improvement
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.9</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>STABLE</branch>
+        <version>8.0-17.11.17</version>
+        <name>STABLE</name>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_zh_CN-8.0-17.11.17.zip</package_url>
+        <description>Latest Release</description>
+        <build_id>manual-20171120</build_id>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version />
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
