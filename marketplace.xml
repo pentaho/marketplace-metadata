@@ -10833,4 +10833,44 @@ Capabilities:
       </screenshots>
 </market_entry>
 
+<market_entry>
+    <id>closeit-sas-reader</id>
+    <type>Step</type>
+    <name>CloseIT PDI SAS Reader</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    
+        <description>
+            CloseIT SAS reader is a PDI step plugin for reading data from SAS files (sas7bdat), based on the Parso library. 
+            Support for compressed SAS files.
+            Plugin provides column order independent reading, so SAS columns order can be changed without any additional configuration in the sas step.
+            You can also set custom column names for PDI or set proper PDI data types (types are auto-detected).
+            Plugin is tested with PDI 7.0.
+        </description>
+    <documentation_url>https://github.com/CloseITsro/pdi-sas-reader/wiki/CloseIT-SAS-reader-(PDI-plugin)</documentation_url>
+    <author>CloseIT s.r.o.</author>
+    <cases_url>https://github.com/CloseITsro/pdi-sas-reader/issues</cases_url>
+    <license_name>GPL 3</license_name>
+    <license_text>For more details see:
+      https://www.gnu.org/licenses/gpl-3.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by CloseIT s.r.o.</support_message>
+    <support_url>https://github.com/CloseITsro/pdi-sas-reader/blob/master/README.md</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.1.0</version>
+        <package_url>https://github.com/CloseITsro/pdi-sas-reader/releases/download/v1.1.0/pdi-sas-reader.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+</market_entry>
+
 </market>
