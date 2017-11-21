@@ -5242,10 +5242,10 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot id="1">
+      <screenshot>
         https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ta/resources/img/screenshot_1.png
       </screenshot>
-      <screenshot id="2">
+      <screenshot>
         https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ta/resources/img/screenshot_2.png
       </screenshot>
     </screenshots>
