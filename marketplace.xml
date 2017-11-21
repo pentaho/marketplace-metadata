@@ -9123,7 +9123,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   </category>
   <description>
           <![CDATA[
-<p>Pentaho Self Service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc.</p>
+<p>Pentaho Self Service BI Plugin allows Business users and Analyst to create reusable widgets(PIN) and Dashboard(PIN BOARD) with  Dynamic Rich visualization using the CCC Chart, High Chart, Fusion Chart and Saiku Chart Library, Data Filter, Easily Embeddable, Responsive etc.</p>
 <br/>
 <p>Here User can create or use existing Saiku Analysis view or CDA data sources to access the data.</p><br />
 <p><a target='NO_BLANK' href='https://github.com/SPECUSA/SelfServiceBI/raw/master/User_Guide-Self_Service_BI.pdf/'>Click here</a> to download User Guide for this plugin.</p><br/>
@@ -9139,25 +9139,37 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   <support_level>PROFESSIONALY_SUPPORTED</support_level>
   <versions>
     <version>
-        <branch>STABLE</branch>
-        <version>1.2.1</version>
-        <name>SelfServiceBI</name>
-        <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-1.2.1.zip</package_url>
-         <description>
-            It has new features like Draggable - Resizable Pins in Pinboard, New table grid with Conditional Formatting, filter support for Saiku files, etc.
-         </description>
-      <max_parent_version>6.1</max_parent_version>
-      <min_parent_version>5.0</min_parent_version>
-      <development_stage>
+      <branch>STABLEP6</branch>
+      <version>2.0.0</version>
+      <name>Stable (Community)</name>
+      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.0.0-p6.zip</package_url>
+      <description>New charting library support for Highchart,Fusionchart and Echarts with new Pin settings wizard</description>
+      <max_parent_version>6.9</max_parent_version>
+      <min_parent_version>5.4</min_parent_version>
+        <development_stage>
         <lane>Community</lane>
-        <phase>1</phase>
+        <phase>4</phase>
+      </development_stage>
+    </version>
+    <version>
+      <branch>STABLEP7</branch>
+      <version>2.0.0</version>
+      <name>Stable (Community)</name>
+      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.0.0-p7.zip</package_url>
+      <description>New charting library support for Highchart,Fusionchart and Echarts with new Pin settings wizard</description>
+      <max_parent_version>7.9</max_parent_version>
+      <min_parent_version>7.0</min_parent_version>
+        <development_stage>
+        <lane>Community</lane>
+        <phase>4</phase>
       </development_stage>
     </version>
   </versions>
   <screenshots>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb1.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb2.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/dashb4.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-1.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-2.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-3.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/SPECUSA/SelfServiceBI/master/Screenshots/ssbi-ss-2.0.0-4.png</screenshot>
   </screenshots>
 </market_entry>
   <market_entry>
