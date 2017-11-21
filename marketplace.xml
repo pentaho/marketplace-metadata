@@ -11138,6 +11138,45 @@ Capabilities:
       </screenshots>
 </market_entry>
 
+
+  <market_entry>
+    <id>pdi-git-plugin</id>
+    <type>SpoonPlugin</type>
+    <name>SpoonGit</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin allows you to manage versions of local Kettle files without leaving Spoon. In addition to Git, Subversion is also supported.</description>
+    <author>Hiromu Hota at Hitachi America, Ltd.</author>
+    <author_url>http://www.hitachi-america.us/rd</author_url>
+    <documentation_url>https://github.com/HiromuHota/pdi-git-plugin</documentation_url>
+    <cases_url>https://github.com/HiromuHota/pdi-git-plugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.0</version>
+        <name>1.0.0</name>
+        <package_url>https://github.com/HiromuHota/pdi-git-plugin/releases/download/1.0.0/pdi-git-plugin-1.0.0-jar-with-dependencies.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://github.com/HiromuHota/pdi-git-plugin/raw/master/images/screenshot-1.png</screenshot>
+      <screenshot>https://github.com/HiromuHota/pdi-git-plugin/raw/master/images/screenshot-2.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+
 <market_entry>
     <id>closeit-sas-reader</id>
     <type>Step</type>
@@ -11148,7 +11187,6 @@ Capabilities:
         <name>PDI Plugins</name>
       </parent>
     </category>
-
         <description>
             CloseIT SAS reader is a PDI step plugin for reading data from SAS files (sas7bdat), based on the Parso library.
             Support for compressed SAS files.
@@ -11176,6 +11214,7 @@ Capabilities:
         </development_stage>
       </version>
     </versions>
+
 </market_entry>
 
 </market>
