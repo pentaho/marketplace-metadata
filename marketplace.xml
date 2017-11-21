@@ -3651,7 +3651,7 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <name>Latest</name>
         <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v5.0.0/fusion_plugin-5.0.0.zip</package_url>
         <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v5.0.0/fusion_samples-5.0.0.zip </samples_url>
-        <max_parent_version>7.9.99</max_parent_version>
+        <max_parent_version>8.0.1</max_parent_version>
         <min_parent_version>7.1.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -10791,15 +10791,15 @@ Capabilities:
 	<screenshots>
       <screenshot>https://raw.githubusercontent.com/caiomsouza/CKAN-DataStore-Writer-for-Pentaho-Data-Integration/master/pdi-example/img/CKAN01.PNG</screenshot>
     </screenshots>
-</market_entry>	
+</market_entry>
 
-	
+
 <market_entry>
     <id>stpivot4-analytic-plugin</id>
     <type>Step</type>
 	<img>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-7.1/stpivot4-logo.png</img>
     <name>STPivot4 Analytics</name>
-    <category> 
+    <category>
       <name>Analysis</name>
       <parent>
         <name>Apps</name>
@@ -10811,7 +10811,7 @@ Capabilities:
     <author_logo>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-7.1/stratebi-logo.png</author_logo>
     <documentation_url>https://github.com/stratebi/STPivot4</documentation_url>
     <cases_url>https://github.com/stratebi/STPivot4</cases_url>
-    <license_name>MIT</license_name> <!-- the license used by the plugin (Kettle only) --> 
+    <license_name>MIT</license_name> <!-- the license used by the plugin (Kettle only) -->
     <license_text>For more details see:
       http://www.apache.org/licenses/LICENSE-2.0.html</license_text> <!-- the license text of the plugin (Kettle only) -->
     <support_level>COMMUNITY_SUPPORTED</support_level>
@@ -10843,9 +10843,9 @@ Capabilities:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    
+
         <description>
-            CloseIT SAS reader is a PDI step plugin for reading data from SAS files (sas7bdat), based on the Parso library. 
+            CloseIT SAS reader is a PDI step plugin for reading data from SAS files (sas7bdat), based on the Parso library.
             Support for compressed SAS files.
             Plugin provides column order independent reading, so SAS columns order can be changed without any additional configuration in the sas step.
             You can also set custom column names for PDI or set proper PDI data types (types are auto-detected).
