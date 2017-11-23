@@ -5629,7 +5629,7 @@ any translation issues or suggestions for improvement
         <![CDATA[
             Set of visualizations created to illustrate Viz-API potentialities in conjunction with SVG images. This two technologies together will allow you to create very specific visualizations that will be available on Pentaho Analyzer, CTools and Pentaho Data Integration (DET).
              <br><br>
-            This installation will make available some custom visualizations: SVG Product Line, SVG Office, SVG Map and SVG Office. To imediatly see, test and validate you can open analyzer, select Steelwheels mondrian schema, and use SVG Product Line (selecting Product Line and Sales), or SVG Map (selecting ...).
+            This installation will make available some custom visualizations: SVG Product Line, SVG Office, SVG Map and SVG Office. To imediatly see, test and validate you can open Pentaho Analyzer, select Steelwheels mondrian schema, and use SVG Product Line (selecting Product Line and Sales from dimensions and Measures), or SVG Map (selecting any Market level and Sales measure).
         ]]>
     </description>
     <author>Webdetails</author>
@@ -5642,13 +5642,28 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>RELEASE</branch>
-        <version>1.5</version>
+        <version>1.0</version>
         <name>Stable</name>
         <package_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/Pentaho-7.1.kar</package_url>
         <samples_url/>
         <description>Release 1.0</description>
         <build_id>1</build_id>
         <min_parent_version>7.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>RELEASE</branch>
+        <version>1.0</version>
+        <name>Stable</name>
+        <package_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/Pentaho-8.0.kar</package_url>
+        <samples_url/>
+        <description>Release 1.0</description>
+        <build_id>1</build_id>
+        <min_parent_version>8.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
