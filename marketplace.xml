@@ -5611,13 +5611,13 @@ any translation issues or suggestions for improvement
       <screenshot>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/screenshot_red.png</screenshot>
     </screenshots>
   </market_entry>
-  
+
   <market_entry>
-    <id>viz-svg</id>
+    <id>viz-svg-kar</id>
     <type>Platform</type>
     <img>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/logo_SVG.jpg</img>
     <small_img>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/logo_SVG.jpgg</small_img>
-    <name>Viz-SVG</name>
+    <name>Viz-SVG kar</name>
     <category>
       <name/>
       <parent>
@@ -5628,7 +5628,8 @@ any translation issues or suggestions for improvement
     <description>
         <![CDATA[
             Set of visualizations created to illustrate Viz-API potentialities in conjunction with SVG images. This two technologies together will allow you to create very specific visualizations that will be available on Pentaho Analyzer, CTools and Pentaho Data Integration (DET).
-            The current installation will allow immediately tests with SteelWheels schema, showing sales relation between Product Lines.
+             <br><br>
+            This installation will make available some custom visualizations: SVG Product Line, SVG Office, SVG Map and SVG Office. To imediatly see, test and validate you can open analyzer, select Steelwheels mondrian schema, and use SVG Product Line (selecting Product Line and Sales), or SVG Map (selecting ...).
         ]]>
     </description>
     <author>Webdetails</author>
@@ -5643,12 +5644,11 @@ any translation issues or suggestions for improvement
         <branch>RELEASE</branch>
         <version>1.0</version>
         <name>Stable</name>
-        <package_url>https://github.com/webdetails/Viz-SVG/releases/download/untagged-4c2a42dc80bc99506d3d/Pentaho-7.x.kar</package_url>
+        <package_url>https://github.com/webdetails/Viz-SVG/releases/download/untagged-f65fd0b6f08c3dd2b992/pentaho-visual-samples-svg-assembly-0.0.1.kar</package_url>
         <samples_url/>
         <description>Release 1.0</description>
         <build_id>1</build_id>
-        <max_parent_version>7.1</max_parent_version>
-        <min_parent_version>7.0</min_parent_version>
+        <min_parent_version>7.1</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
