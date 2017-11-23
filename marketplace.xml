@@ -5642,9 +5642,9 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>RELEASE</branch>
-        <version>1.0</version>
+        <version>1.5</version>
         <name>Stable</name>
-        <package_url>https://github.com/webdetails/Viz-SVG/releases/download/untagged-f65fd0b6f08c3dd2b992/pentaho-visual-samples-svg-assembly-0.0.1.kar</package_url>
+        <package_url>https://github.com/p-jbarbosa/svg-component/raw/master/pentaho-visual-samples-svg-assembly-0.0.1.kar</package_url>
         <samples_url/>
         <description>Release 1.0</description>
         <build_id>1</build_id>
