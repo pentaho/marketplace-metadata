@@ -5655,21 +5655,6 @@ any translation issues or suggestions for improvement
         </development_stage>
       </version>
 
-      <version>
-        <branch>RELEASE</branch>
-        <version>1.0</version>
-        <name>Stable</name>
-        <package_url>https://github.com/webdetails/Viz-SVG/releases/download/untagged-4c2a42dc80bc99506d3d/Pentaho-8.0.kar</package_url>
-        <samples_url/>
-        <description>Release 1.0</description>
-        <build_id>1</build_id>
-        <min_parent_version>8.0</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>2</phase>
-        </development_stage>
-      </version>
-
     </versions>
 
     <screenshots>
