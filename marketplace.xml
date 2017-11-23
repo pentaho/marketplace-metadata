@@ -5642,7 +5642,7 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>RELEASE</branch>
-        <version>1.0</version>
+        <version>1.7</version>
         <name>Stable</name>
         <package_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/Pentaho-7.1.kar</package_url>
         <samples_url/>
@@ -5657,7 +5657,7 @@ any translation issues or suggestions for improvement
 
       <version>
         <branch>RELEASE</branch>
-        <version>1.0</version>
+        <version>1.8</version>
         <name>Stable</name>
         <package_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/Pentaho-8.0.kar</package_url>
         <samples_url/>
