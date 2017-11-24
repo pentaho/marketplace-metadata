@@ -3943,13 +3943,13 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
         <package_url>
-          https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_ca-8.0-17.11.17.zip
+          https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_ca-8.0-17.11.24.zip
         </package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -4057,11 +4057,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_nl-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_nl-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -4170,11 +4170,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_fr-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_fr-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -4244,11 +4244,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_gl-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_gl-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -4357,11 +4357,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_de-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_de-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -4469,11 +4469,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_hi-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_hi-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -4583,11 +4583,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_it-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_it-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -4696,11 +4696,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_ja-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_ja-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -4809,11 +4809,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_ko-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_ko-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -4924,11 +4924,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_pt_BR-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_pt_BR-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -5040,11 +5040,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_pt_PT-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_pt_PT-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -5154,11 +5154,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_es-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_es-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -5213,9 +5213,9 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_ta-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_ta-8.0-17.11.24.zip</package_url>
         <samples_url/>
         <description>Latest Release</description>
         <changelog/>
@@ -5314,11 +5314,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_th-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_th-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -5410,11 +5410,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_sv-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_sv-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
@@ -5505,11 +5505,11 @@ any translation issues or suggestions for improvement
       </version>
       <version>
         <branch>STABLE</branch>
-        <version>8.0-17.11.17</version>
+        <version>8.0-17.11.24</version>
         <name>STABLE</name>
-        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.17/languagePack_zh_CN-8.0-17.11.17.zip</package_url>
+        <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.0-17.11.24/languagePack_zh_CN-8.0-17.11.24.zip</package_url>
         <description>Latest Release</description>
-        <build_id>manual-20171120</build_id>
+        <build_id>manual-20171124</build_id>
         <min_parent_version>7.0</min_parent_version>
         <max_parent_version />
         <development_stage>
