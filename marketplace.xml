@@ -5712,7 +5712,7 @@ any translation issues or suggestions for improvement
         <version>1.0</version>
         <name>Stable</name>
         <package_url/>
-        <samples_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/SVG-Samples.zip<samples_url>
+        <samples_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/SVG-Samples.zip</samples_url>
         <description>Release 1.0</description>
         <build_id>1</build_id>
         <min_parent_version>7.1</min_parent_version>
