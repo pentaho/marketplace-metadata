@@ -5705,6 +5705,8 @@ any translation issues or suggestions for improvement
     <dependencies>Viz-SVG kar, CDE, CDF, CDA and Pentaho Analyzer</dependencies>
     <license>MPL 2.0</license>
 
+    <versions>
+
       <version>
         <branch>RELEASE</branch>
         <version>1.0</version>
