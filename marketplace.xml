@@ -5615,8 +5615,8 @@ any translation issues or suggestions for improvement
   <market_entry>
     <id>viz-svg-kar</id>
     <type>Platform</type>
-    <img>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/logo_SVG.jpg</img>
-    <small_img>https://github.com/webdetails/svg-component/raw/master/marketplace_assets/logo_SVG.jpgg</small_img>
+    <img>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/SVG_VizAPI.png</img>
+    <small_img>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/SVG_VizAPI.png</small_img>
     <name>Viz-SVG kar</name>
     <category>
       <name/>
@@ -5664,6 +5664,56 @@ any translation issues or suggestions for improvement
         <description>Release 1.0</description>
         <build_id>1</build_id>
         <min_parent_version>8.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+    </versions>
+
+    <screenshots>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_available_visualizations.png</screenshot>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_prdLine_visualization.png</screenshot>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/cde_prdLine.png</screenshot>
+    </screenshots>
+
+  </market_entry>
+
+    <market_entry>
+    <id>viz-svg-samples</id>
+    <type>Platform</type>
+    <img>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/SVG_VizAPI.png</img>
+    <small_img>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/SVG_VizAPI.png</small_img>
+    <name>Viz-SVG Samples</name>
+    <category>
+      <name/>
+      <parent>
+        <name>Visualizations</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/webdetails/Viz-SVG/blob/master/README.md</documentation_url>
+    <description>
+        <![CDATA[
+            Viz-API samples.
+        ]]>
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>Viz-SVG kar, CDE, CDF, CDA and Pentaho Analyzer</dependencies>
+    <license>MPL 2.0</license>
+
+      <version>
+        <branch>RELEASE</branch>
+        <version>1.0</version>
+        <name>Stable</name>
+        <package_url/>
+        <samples_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/SVG-Samples.zip<samples_url>
+        <description>Release 1.0</description>
+        <build_id>1</build_id>
+        <min_parent_version>7.1</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
