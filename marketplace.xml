@@ -5695,7 +5695,7 @@ any translation issues or suggestions for improvement
     <documentation_url>https://github.com/webdetails/Viz-SVG/blob/master/README.md</documentation_url>
     <description>
         <![CDATA[
-            Viz-API samples on test phase.
+            Viz-API samples to test installation.
         ]]>
     </description>
     <author>Webdetails</author>
@@ -5711,7 +5711,7 @@ any translation issues or suggestions for improvement
         <branch>RELEASE</branch>
         <version>1.0</version>
         <name>Stable</name>
-        <2>https://github.com/webdetails/svg-component/files/1391561/svg-component-cdf.zip</package_url>
+        <package_url>https://github.com/webdetails/svg-component/files/1391561/svg-component-cdf.zip</package_url>
         <samples_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/SVG-Samples.zip</samples_url>
         <description>Release 1.0</description>
         <build_id>1</build_id>
