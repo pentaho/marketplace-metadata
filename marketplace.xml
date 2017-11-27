@@ -5630,6 +5630,8 @@ any translation issues or suggestions for improvement
             Set of visualizations created to illustrate Viz-API potentialities in conjunction with SVG images. This two technologies together will allow you to create very specific visualizations that will be available on Pentaho Analyzer, CTools and Pentaho Data Integration (DET).
              <br><br>
             This installation will make available some custom visualizations: SVG Product Line, SVG Office, SVG Map and SVG Office. To imediatly see, test and validate you can open Pentaho Analyzer, select Steelwheels mondrian schema, and use SVG Product Line (selecting Product Line and Sales from dimensions and Measures), or SVG Map (selecting any Market level and Sales measure).
+            <br><br>
+            For more reference and documentation about these visualizations, please go to <a target='NO_BLANK' href='https://github.com/webdetails/Viz-SVG'>Viz-SVG on github.</a>
         ]]>
     </description>
     <author>Webdetails</author>
@@ -5696,7 +5698,9 @@ any translation issues or suggestions for improvement
     <documentation_url>https://github.com/webdetails/Viz-SVG/blob/master/README.md</documentation_url>
     <description>
         <![CDATA[
-            Viz-API samples to test installation.
+            Viz-API samples to test and evaluate Viz-API kar.
+            <br><br>
+            For more reference and documentation about these visualizations, please visit <a target='NO_BLANK' href='https://github.com/webdetails/Viz-SVG'>Viz-SVG on github.</a>
         ]]>
     </description>
     <author>Webdetails</author>
