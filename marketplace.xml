@@ -5699,6 +5699,15 @@ any translation issues or suggestions for improvement
         <![CDATA[
             Viz-API samples to test and evaluate Viz-API kar.
             <br><br>
+            After installing these samples you will be able to explore Office and Car visualizations, both on Analyzer and CTools. To use it please observe the following steps:
+            <ul>
+               <li>Run the two jobs available under viz-svg-samples/ktrs</li>
+               <li>Those jobs will create two schemas that will allow you to use the associated visualizations, both on Analyzer and CTools</li>
+               <li>To use Car visualization on Analyzer you need to choose: Sensor for Rows, value for Measures, and you can use Year to filter the information.</li>
+               <li>To use Office visualization on Analyzer you need to choose: Room for Rows, light usage as measure, and you can filter the information using Department.</li>
+               <li>to see the visualization, choose SVG Office or SVG Car, under Analyzer visualization options.</li>
+           </ul>
+           <br><br>
             For more reference and documentation about these visualizations, please visit <a target='NO_BLANK' href='https://github.com/webdetails/Viz-SVG'>Viz-SVG on github.</a>
         ]]>
     </description>
@@ -5731,6 +5740,8 @@ any translation issues or suggestions for improvement
     <screenshots>
       <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_available_visualizations.png</screenshot>
       <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_prdLine_visualization.png</screenshot>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_office_visualization.png</screenshot>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/cde_office.png</screenshot>
       <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/cde_prdLine.png</screenshot>
     </screenshots>
 
