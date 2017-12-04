@@ -5699,7 +5699,7 @@ any translation issues or suggestions for improvement
     <documentation_url>https://github.com/webdetails/Viz-SVG/blob/master/README.md</documentation_url>
     <description>
         <![CDATA[
-            Viz-API samples to test and evaluate Viz-API kar.
+            Viz-API samples to test and evaluate Viz-API kar visualizations that were not immediatly available after his installation (Car and Office visualizations).
             <br><br>
             After installing these samples you will be able to explore Office and Car visualizations, both on Analyzer and CTools. To use it please observe the following steps:
             <ul>
