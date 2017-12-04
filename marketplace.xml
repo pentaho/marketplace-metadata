@@ -5612,7 +5612,140 @@ any translation issues or suggestions for improvement
     </screenshots>
   </market_entry>
 
+  <market_entry>
+    <id>viz-svg-kar</id>
+    <type>Platform</type>
+    <img>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/SVG_VizAPI.png</img>
+    <small_img>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/SVG_VizAPI.png</small_img>
+    <name>Viz-SVG kar</name>
+    <category>
+      <name/>
+      <parent>
+        <name>Visualizations</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/webdetails/Viz-SVG/blob/master/README.md</documentation_url>
+    <description>
+        <![CDATA[
+            Set of visualizations created to illustrate Viz-API potentialities in conjunction with SVG images. This two technologies together allow you to create very specific visualizations that will be available on Pentaho Analyzer, CTools and Pentaho Data Integration (DET).
+            <br><br>
+            This installation will make available some custom visualizations: SVG Product Line, SVG Office, SVG Map and SVG Office. To imediatly see, test and validate you can open Pentaho Analyzer, select Steelwheels schema, and use SVG Product Line visualization (selecting Product Line and Sales from dimensions and Measures), or SVG Map (selecting any Market level and Sales measure).
+            <br><br>
+            To access and see the remain visualizations please install Viz-SVG Samples from Pentaho Markeplace.
+            <br><br>
+            For more reference and documentation about these visualizations, please go to <a target='NO_BLANK' href='https://github.com/webdetails/Viz-SVG'>Viz-SVG on github.</a>
+        ]]>
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>CDE, CDF, CDA and Pentaho Analyzer</dependencies>
 
+    <versions>
+      <version>
+        <branch>RELEASE</branch>
+        <version>1.0</version>
+        <name>Stable</name>
+        <package_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/Pentaho-7.1.kar</package_url>
+        <samples_url/>
+        <description>Release 1.0</description>
+        <build_id>1</build_id>
+        <max_parent_version>7.1</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>RELEASE</branch>
+        <version>1.0</version>
+        <name>Stable</name>
+        <package_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/Pentaho-8.0.kar</package_url>
+        <samples_url/>
+        <description>Release 1.0</description>
+        <build_id>1</build_id>
+        <min_parent_version>8.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+    </versions>
+
+    <screenshots>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_available_visualizations.png</screenshot>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_prdLine_visualization.png</screenshot>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/cde_prdLine.png</screenshot>
+    </screenshots>
+
+  </market_entry>
+
+  <market_entry>
+    <id>viz-svg-samples</id>
+    <type>Platform</type>
+    <img>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/SVG_VizAPI.png</img>
+    <small_img>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/SVG_VizAPI.png</small_img>
+    <name>Viz-SVG Samples</name>
+    <category>
+      <name/>
+      <parent>
+        <name>Visualizations</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/webdetails/Viz-SVG/blob/master/README.md</documentation_url>
+    <description>
+        <![CDATA[
+            Viz-API samples to test and evaluate Viz-API kar visualizations that were not immediatly available after his installation (Car and Office visualizations).
+            <br><br>
+            After installing these samples you will be able to explore Office and Car visualizations, both on Analyzer and on CTools, and access CTools dashboards where these and the remaining visualizations are utilized. 
+            <br><br>
+            To use it please observe the following steps:
+            <ul>
+               <li>Run the two jobs available under viz-svg-samples/ktrs</li>
+               <li>Those jobs will create two schemas that will allow you to use the associated visualizations, both on Analyzer and CTools</li>
+               <li>To use Car visualization on Analyzer you need to choose: Sensor for Rows, value for Measures, (you can use Year to filter the information)</li>
+               <li>To use Office visualization on Analyzer you need to choose: Room for Rows, light usage as measure (use Department dimension to filter the information)</li>
+               <li>After one of those configurations, to see the correspondent visualization, please choose SVG Office or SVG Car, under Analyzer visualization options</li>
+           </ul>
+           <br><br>
+            For more reference and documentation about these visualizations, please visit <a target='NO_BLANK' href='https://github.com/webdetails/Viz-SVG'>Viz-SVG on github.</a>
+        ]]>
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <license>MPL 2.0</license>
+    <dependencies>Viz-SVG kar, SVG Component, CDE, CDF, CDA and Pentaho Analyzer</dependencies>
+
+    <versions>
+
+      <version>
+        <branch>RELEASE</branch>
+        <version>1.0</version>
+        <name>Stable</name>
+        <package_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/viz-svg-samples.zip</package_url>
+        <samples_url>https://github.com/webdetails/Viz-SVG/releases/download/1.0/samples-viz-svg.zip</samples_url>
+        <description>Release 1.0</description>
+        <build_id>1</build_id>
+        <min_parent_version>7.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+    </versions>
+
+    <screenshots>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_prdLine_visualization.png</screenshot>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_office_visualization.png</screenshot>
+      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/cde_office.png</screenshot>
+    </screenshots>
+
+  </market_entry>
 
   <!-- ***************** -->
   <!-- Kettle Plugins    -->
