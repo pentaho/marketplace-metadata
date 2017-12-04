@@ -5629,7 +5629,9 @@ any translation issues or suggestions for improvement
         <![CDATA[
             Set of visualizations created to illustrate Viz-API potentialities in conjunction with SVG images. This two technologies together will allow you to create very specific visualizations that will be available on Pentaho Analyzer, CTools and Pentaho Data Integration (DET).
             <br><br>
-            This installation will make available some custom visualizations: SVG Product Line, SVG Office, SVG Map and SVG Office. To imediatly see, test and validate you can open Pentaho Analyzer, select Steelwheels mondrian schema, and use SVG Product Line (selecting Product Line and Sales from dimensions and Measures), or SVG Map (selecting any Market level and Sales measure).
+            This installation will make available some custom visualizations: SVG Product Line, SVG Office, SVG Map and SVG Office. To imediatly see, test and validate you can open Pentaho Analyzer, select Steelwheels schema, and use SVG Product Line visualization (selecting Product Line and Sales from dimensions and Measures), or SVG Map (selecting any Market level and Sales measure).
+            <br><br>
+            To access and see the remain visualizations please install Viz-SVG Samples from Pentaho Markeplace.
             <br><br>
             For more reference and documentation about these visualizations, please go to <a target='NO_BLANK' href='https://github.com/webdetails/Viz-SVG'>Viz-SVG on github.</a>
         ]]>
@@ -5704,7 +5706,7 @@ any translation issues or suggestions for improvement
                <li>Run the two jobs available under viz-svg-samples/ktrs</li>
                <li>Those jobs will create two schemas that will allow you to use the associated visualizations, both on Analyzer and CTools</li>
                <li>To use Car visualization on Analyzer you need to choose: Sensor for Rows, value for Measures, (you can use Year to filter the information)</li>
-               <li>To use Office visualization on Analyzer you need to choose: Room for Rows, light usage as measure, and you can filter the information using Department.</li>
+               <li>To use Office visualization on Analyzer you need to choose: Room for Rows, light usage as measure (use Department dimension to filter the information)</li>
                <li>After one of those configurations, to see the correspondent visualization, please choose SVG Office or SVG Car, under Analyzer visualization options</li>
            </ul>
            <br><br>
