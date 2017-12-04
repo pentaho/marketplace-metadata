@@ -5641,7 +5641,6 @@ any translation issues or suggestions for improvement
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
     <dependencies>CDE, CDF, CDA and Pentaho Analyzer</dependencies>
-    <license>MPL 2.0</license>
 
     <versions>
       <version>
@@ -5720,7 +5719,6 @@ any translation issues or suggestions for improvement
     <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
     <license>MPL 2.0</license>
     <dependencies>Viz-SVG kar, SVG Component, CDE, CDF, CDA and Pentaho Analyzer</dependencies>
-    <license>MPL 2.0</license>
 
     <versions>
 
@@ -5742,11 +5740,9 @@ any translation issues or suggestions for improvement
     </versions>
 
     <screenshots>
-      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_available_visualizations.png</screenshot>
       <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_prdLine_visualization.png</screenshot>
       <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/analyzer_office_visualization.png</screenshot>
       <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/cde_office.png</screenshot>
-      <screenshot>https://github.com/webdetails/Viz-SVG/raw/master/marketplace-assets/cde_prdLine.png</screenshot>
     </screenshots>
 
   </market_entry>
