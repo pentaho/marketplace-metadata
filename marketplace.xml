@@ -5703,9 +5703,9 @@ any translation issues or suggestions for improvement
             <ul>
                <li>Run the two jobs available under viz-svg-samples/ktrs</li>
                <li>Those jobs will create two schemas that will allow you to use the associated visualizations, both on Analyzer and CTools</li>
-               <li>To use Car visualization on Analyzer you need to choose: Sensor for Rows, value for Measures, and you can use Year to filter the information.</li>
+               <li>To use Car visualization on Analyzer you need to choose: Sensor for Rows, value for Measures, (you can use Year to filter the information)</li>
                <li>To use Office visualization on Analyzer you need to choose: Room for Rows, light usage as measure, and you can filter the information using Department.</li>
-               <li>to see the visualization, choose SVG Office or SVG Car, under Analyzer visualization options.</li>
+               <li>After one of those configurations, to see the correspondent visualization, please choose SVG Office or SVG Car, under Analyzer visualization options</li>
            </ul>
            <br><br>
             For more reference and documentation about these visualizations, please visit <a target='NO_BLANK' href='https://github.com/webdetails/Viz-SVG'>Viz-SVG on github.</a>
