@@ -1966,7 +1966,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <name>Stable (Community)</name>
         <package_url>https://www.dropbox.com/s/1j0symkdtpwb0g6/saiku-plugin-p7-3.15.zip?dl=1</package_url>
         <description>3.14 release for the Saiku Plugin.</description>
-        <max_parent_version>7.9</max_parent_version>
+        <max_parent_version>8.1</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
           <development_stage>
           <lane>Community</lane>
