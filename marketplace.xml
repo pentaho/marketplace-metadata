@@ -1905,11 +1905,26 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 		<version>3.11-EE</version>
 		<name>Stable (Pentaho 7 - Enterprise)</name>
 		<package_url>https://www.dropbox.com/s/anm3dngr0dlu0y4/saikuee-plugin-p7-3.11.zip?dl=1</package_url>
-		<description>3.9 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
+		<description>3.11Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
-		<max_parent_version>7.9</max_parent_version>
+		<max_parent_version>7.0</max_parent_version>
 		<min_parent_version>7.0</min_parent_version>
+		<development_stage>
+		<lane>Community</lane>
+		<phase>4</phase>
+		</development_stage>
+	</version>
+	 <version>
+		<branch>ENTERPRISE71</branch>
+		<version>3.11-EE-P71</version>
+		<name>Stable (Pentaho 7.1 - Enterprise)</name>
+		<package_url>https://www.dropbox.com/s/jjv3q80nbawxmbf/saiku-plugin.zip?dl=1</package_url>
+		<description>3.11 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
+			For more information contact info@meteorite.bi.
+		</description>
+		<max_parent_version>8.9</max_parent_version>
+		<min_parent_version>7.1</min_parent_version>
 		<development_stage>
 		<lane>Community</lane>
 		<phase>4</phase>
