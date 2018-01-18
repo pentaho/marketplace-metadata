@@ -246,7 +246,7 @@
                 </xsd:annotation>
                 <xsd:complexType>
                   <xsd:sequence>
-                    <xsd:element name="screenshot" minOccurs="0" maxOccurs="unbounded" type="xsd:anyURI"/>
+                    <xsd:element name="screenshot" minOccurs="0" maxOccurs="3" type="xsd:anyURI"/>
                   </xsd:sequence>
                 </xsd:complexType>
               </xsd:element>
