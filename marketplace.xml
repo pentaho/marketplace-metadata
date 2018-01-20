@@ -11365,7 +11365,7 @@ Capabilities:
         <package_url>https://github.com/atolcd/pentaho-cde-atolcd-plugins/releases/download/v1.0/pentaho-cde-atolcd-plugins-1.0.zip</package_url>
         <description></description>
         <changelog></changelog>
-        <build_id>1<build_id>
+        <build_id>1</build_id>
         <min_parent_version>6.0</min_parent_version>
         <max_parent_version>8.0</max_parent_version>
         <development_stage>
