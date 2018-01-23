@@ -91,7 +91,7 @@ this time there are some feature differences.  Each element below specifies whet
       </development_stage>
     </version>
   </versions>
-  <screenshots> <!-- list of screenshots (BA Server Only) -->
+  <screenshots> <!-- List of screenshots (up to 3) - BA Server Only -->
     <screenshot>screenshot_1.png</screenshot>
     <screenshot>screenshot_2.png</screenshot>
   </screenshots>
