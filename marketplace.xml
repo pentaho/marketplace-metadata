@@ -6776,12 +6776,10 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>Contact Verify</h1>
-	<h1>MatchUp</h1>
-	<h1>SmartMover</h1>
-	<h1>IPLocator</h1>
+	<p>Achieve data quality effortlessly with our Melissa Contact Data Verify solution. This comprehensive bundle provides verification for global or North American addresses, names, phone numbers, and emails; duplicate identification, and adds IP location information to your data.</p>
       <hr>
       <h2>Contact Verify Component</h2>
+	  <p>Our Contact Verify Component can standardize, verify, and correct U.S. and Canadian addresses, phone numbers, names, and email addresses, to ensure your database contains accurate, trusted, and actionable information. </p>
 	  <ul>
          <li>USPS&#0169 CASS&#0153 and Canada Post® SERP certified engine for increased accuracy</li>
          <li>Add county and census information to gain better insights</li>
@@ -6792,6 +6790,7 @@ With this plugin you can:
       <h3>Processing Options: Local, Cloud, Dedicated Cloud</h3>
      <hr>
       <h2>SmartMover Component</h2>
+	  <p>This component provides change-of-address processing for U.S. and Canadian addresses. Stay in touch with businesses and consumers that have moved to eliminate the costs associated with undeliverable-as-addressed mail.</p>
 	  <ul>
 		<li>Match your customer records against the USPS full NCOALink&#0153 data file of 160 million moves going back 48 months to update address data</li>
 		<li>Satisfy the USPS Move Update requirement to qualify for postal discounts</li>
@@ -6800,6 +6799,7 @@ With this plugin you can:
       <h3>Processing Options: Cloud</h3>
      <hr>
       <h2>MatchUp Component</h2>
+	  <p>Duplicate records result in waste, inefficiencies and cloud your ability to gain a single, accurate view of the customer. MatchUp uses over 16 advanced fuzzy matching algorithms and deep domain knowledge to find even the hardest-to-detect U.S. and international duplicate records.</p>
 	  <ul>
 		<li>Identify duplicate records with domain specific knowledge of contact information to eliminate clutter </li>
 		<li>Match records even with data inconsistencies to increase database accuracy</li>
@@ -6810,6 +6810,7 @@ With this plugin you can:
       <h3>Processing Options: Local</h3>
      <hr>
       <h2>IP Locator Component</h2>
+	  <p>Identify where your web visitors are coming from – very useful for e-commerce sites looking to prepopulate country code on forms, display a different language, filter access from countries you don’t do business with, and/or reduce credit card fraud based on geographic location.</p>
 	  <ul>
 		<li>Access the geographic location of an Internet Protocol (IP) address, including latitude, longitude, city, state, ZIP Code™/Postal Code, region</li>
 		<li>Append Latitude, longitude, ISP, City, State, Country to geotarget and analyze traffic for enhanced sales</li>
@@ -6872,7 +6873,9 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
+	  <p>Did you know that there are over 247 countries and territories in the world, with 131 different address formats? Some countries don’t have an established set of postal rules, while most countries do not follow the U.S. standard of street address, city, state, and ZIP Code™. This can be a big, and costly concern for companies shipping across borders. Melissa’s Global Data Verification solution for Pentaho can help standardize your global database into a consistent, accurate format.</p>
       <h2>Global Contact Data Verify Component</h2>
+	  <p>Clean, verify, standardize, and format all of your global People Data – name, address, email, and phone – to ensure your international database contains the most accurate, trustworthy information.</p>
 	  <ul>
 		<li>Verify and correct postal addresses for over 240 countries</li>
 		<li>Correct international addresses by adding missing components like postal codes, region, etc.</li>
@@ -6941,7 +6944,9 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
+	  <p>Is your customer truly who they say they are? Our Melissa ID Verify solution can help authenticate their identity by validating each contact data element, and matching name-to-address – to prevent fraud and meet compliance.</p>
       <h2>Personator Component</h2>
+	  <p>The Personator Component taps a multisource dataset containing billions of records to validate each element of a contact record – name, address, phone, and/or email – and match name-to-address – to verify true identity.</p>
 	  <ul>
 		<li>Fill in missing contact information like business/consumer emails, addresses, phones, and names to complete your contact data</li>
 		<li>Add current addresses for customers and prospects that have moved in the U.S. and Canada – matching your records against a proprietary database of address changes going back 20+ years</li>
@@ -7005,7 +7010,9 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
+	  <p>Imagine taking a statistical analysis “snapshot” of your data to quickly see where the problems are. That’s what Melissa’s Profiler does. Data profiling is a critical first step for data modeling, data quality, and master data management initiatives to help ensure the consistency of reference data. Profiling helps identify data inconsistencies before it’s used for reporting and business intelligence purposes.<p>
       <h2>Profiler Component</h2>
+	  <p>Generate simple-to-advanced profiling information, including basic data statistics (mean, median, frequency, variation, etc.) and details (structure, content, classifications, etc.) to identify data errors at their source.</p>
 	  <ul>
 		<li>Support building a target schema dynamically with sizes, nulls, unique counts, length, and field identification</li>
 		<li>Over 100 column and table level metrics</li>
@@ -7070,7 +7077,9 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
+	  <p>Melissa can return comprehensive property and mortgage data on over 140 million U.S. properties, including parcel information, owner information, calculated value, sales information, and building information.</p>
       <h2>Property Component</h2>
+	  <p>Access variables from over 165 fields in categories such as: parcel, property address; owner; owner mail address; property values; current sale and trust deed; prior sale; lot/land square footage, and more. Ideal for developers, risk management, real estate professionals, investors, and more.</p>
 	  <ul>
 		<li>Access variables from over 165 fields in categories such as:</li>
 		<li>Parcel, property address, owner, owner mail address, property values, current sale and trust deed, prior sale, lot/land square footage, and more</li>
@@ -7133,7 +7142,9 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
+	  <p>Get the full picture of your B2B clients and prospects with Melissa BusinessCoder. Our firmographic append solution easily verifies, standardizes and enriches your business records with 30 unique data elements from 25 million business across the U.S. </p>
       <h2>BusinessCoder Component</h2>
+	  <p>This component helps you resolve business entities for standardization and record consolidation, plus it provides a wealth of fundamental characteristics about a business that can be utilized for decision making, lead scoring and optimized B2B marketing and sales efforts.</p>
 	  <ul>
 		<li>Add comprehensive firmographics from more than 25 million businesses for better insight and analytics</li>
 		<li>Update outdated contact information to improve customer retention and prevent lost opportunities</li>
@@ -7198,7 +7209,9 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
+	  <p>Eliminate errors and fix inconsistencies within databases with Melissa Data Quality Cleanser. Our data quality cleansing tool gives data stewards the ability to standardize and validate inventory lists to better prep and cleanse data prior to analysis.</p>
       <h2>Generalized Cleansing Component</h2>
+	  <p>Build your own data cleansing scripts that cleans, standardizes, and reformats any data type. Change casing or capitalization, add or remove punctuation, expand or contract abbreviations, and search then replace any parts of a string for clean and useful data.</p>
 	  <ul>
 		<li>Cleanse any type of data and achieve a higher standard of data quality for integration, warehousing and analytics</li>
 		<li>Gain greater control of your data when optimized, saving your business time, money  and resources</li>
