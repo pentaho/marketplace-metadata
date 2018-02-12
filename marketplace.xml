@@ -6455,11 +6455,10 @@ any translation issues or suggestions for improvement
     <support_url/>
   </market_entry>
 
-
   <market_entry>
-    <id>kettle5-profiling-datacleaner</id>
+    <id>pdi-datacleaner</id>
     <type>Mixed</type>
-    <name>DataCleaner Data Quality for Kettle version 5</name>
+    <name>DataCleaner Data Quality for Kettle</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6468,7 +6467,8 @@ any translation issues or suggestions for improvement
     </category>
     <description>Use DataCleaner - the premier open source data quality solution - to profile, analyze, clean and deduplicate the data that you work with in Pentaho Data Integration.
 
-DataCleaner provides strong functionality in the area of Data Profiling and Data Quality analysis. This includes discovering patterns and anomalies, standardizing data as well as detecting duplicate records.
+DataCleaner provides strong functionality in the area of Data Profiling and Data Quality analysis.
+This includes discovering patterns and anomalies, standardizing data as well as detecting duplicate records.
 
 With this plugin you can:
 
@@ -6479,9 +6479,9 @@ With this plugin you can:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>4.5.1</version>
+        <version>5.4.0</version>
         <min_parent_version>5.0.0</min_parent_version>
-        <package_url>http://repo1.maven.org/maven2/org/eobjects/datacleaner/pdi-datacleaner/4.5.1/pdi-datacleaner-4.5.1-plugin.zip</package_url>
+        <package_url>https://github.com/datacleaner/pdi-datacleaner/releases/download/pdi-datacleaner-5.4.0/DataCleaner-PDI-plugin.zip</package_url>
         <source_url>https://github.com/datacleaner/pdi-datacleaner</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6489,68 +6489,15 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <author>Human Inference and Neopost Customer Information Management</author>
-    <documentation_url>http://datacleaner.org/docs</documentation_url>
-    <forum_url>http://datacleaner.org/forum</forum_url>
+    <author>The DataCleaner open source community</author>
+    <documentation_url>https://datacleaner.github.io/documentation</documentation_url>
+    <forum_url>https://datacleaner.github.io/discuss</forum_url>
     <cases_url>https://github.com/datacleaner/DataCleaner/issues</cases_url>
     <license_name>GNU LGPL</license_name>
     <license_text>For more details about the GNU General Lesser Public License v2.0 see:
       http://www.gnu.org/licenses/lgpl-2.0.html
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-    <support_message>Professional support, extended functionality, training and consultancy for DataCleaner is offered via the commercial editions of DataCleaner.</support_message>
-    <support_organization>Human Inference and Neopost Customer Information Management</support_organization>
-    <support_url>http://datacleaner.org/editions</support_url>
-  </market_entry>
-
-   <market_entry>
-    <id>kettle6-profiling-datacleaner</id>
-    <type>Mixed</type>
-    <name>DataCleaner Data Quality for Kettle version 6 and 7</name>
-    <category>
-      <name>Data Quality</name>
-      <parent>
-        <name>PDI Plugins</name>
-      </parent>
-    </category>
-    <description>Use DataCleaner - the premier open source data quality solution - to profile, analyze, clean and deduplicate the data that you work with in Pentaho Data Integration.
-
-DataCleaner provides strong functionality in the area of Data Profiling and Data Quality analysis. This includes discovering patterns and anomalies, standardizing data as well as detecting duplicate records.
-
-With this plugin you can:
-
- * Launch data profiling for any transformation step in PDI, effectively allowing you to inspect and discover the shape of data at any point in your transformation pipeline.
- * Apply DataCleaner to your database from the database explorer of PDI. This allows you to investigate the data at it's source.
- * Include and launch DataCleaner jobs as part of your PDI jobs. This allows you to merge the ongoing workflow of data quality and data integration.
-
-
- * Note for Pentaho 7: Copy the file 'commons-vfs2-2.1-20150824.jar' from Pentaho 'data-integration/lib' installation folder to DataCleaner 'lib' installation folder and remove 'commons-vfs2-2.0.jar'.
-    </description>
-    <versions>
-      <version>
-        <branch>Stable</branch>
-        <version>5.1.7</version>
-        <min_parent_version>6.0.0</min_parent_version>
-        <package_url>http://repo1.maven.org/maven2/org/eobjects/datacleaner/pdi-datacleaner/5.1.7/pdi-datacleaner-5.1.7-plugin.zip</package_url>
-        <source_url>https://github.com/datacleaner/pdi-datacleaner</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
-    </versions>
-    <author>Human Inference and Neopost Customer Information Management</author>
-    <documentation_url>http://datacleaner.org/docs</documentation_url>
-    <forum_url>http://datacleaner.org/forum</forum_url>
-    <cases_url>https://github.com/datacleaner/DataCleaner/issues</cases_url>
-    <license_name>GNU LGPL</license_name>
-    <license_text>For more details about the GNU General Lesser Public License v2.0 see:
-      http://www.gnu.org/licenses/lgpl-2.0.html
-    </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-    <support_message>Professional support, extended functionality, training and consultancy for DataCleaner is offered via the commercial editions of DataCleaner.</support_message>
-    <support_organization>Human Inference and Neopost Customer Information Management</support_organization>
-    <support_url>http://datacleaner.org/editions</support_url>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
 
   <market_entry>
