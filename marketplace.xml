@@ -11324,4 +11324,43 @@ Capabilities:
     </versions>
   </market_entry>
 
+  <market_entry>
+    <id>atolcd-cde-plugin</id>
+    <type>Platform</type>
+    <name>Pentaho CDE Atol CD Plugins</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <description>Provides an SVG Component for Community Dashboard Editor.</description>
+    <documentation_url>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/README.md</documentation_url>
+    <author>Atol CD</author>
+    <author_url>http://www.atolcd.com</author_url>
+    <author_logo>http://docs.atolcd.com/docs/alfresco/guide_share/4.2/assets/images/logoAtolCD.png</author_logo>
+    <img>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/depPopulation.png</img>
+    <small_img>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/depPopulation.png</small_img>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.1</version>
+        <name>1.0.1</name>
+        <package_url>https://github.com/atolcd/pentaho-cde-atolcd-plugins/releases/download/v1.0.1/pentaho-cde-atolcd-plugins-1.0.1.zip</package_url>
+        <description></description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>8.0</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/legendInputInterface.png</screenshot>
+      <screenshot>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/dynamicSelectors.png</screenshot>
+    </screenshots>
+  </market_entry>
 </market>
