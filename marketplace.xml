@@ -11341,10 +11341,10 @@ Capabilities:
   </market_entry>
 
   <market_entry>
-    <id>pentaho-cde-atolcd-plugins</id>
+    <id>atolcd-cde-plugin</id>
     <type>Platform</type>
     <name>Pentaho CDE Atol CD Plugins</name>
-    <category> 
+    <category>
       <name>Dashboards</name>
       <parent>
         <name>Apps</name>
@@ -11360,9 +11360,9 @@ Capabilities:
     <versions>
       <version>
         <branch>master</branch>
-        <version>1.0</version>
-        <name>1.0</name>
-        <package_url>https://github.com/atolcd/pentaho-cde-atolcd-plugins/releases/download/v1.0/pentaho-cde-atolcd-plugins-1.0.zip</package_url>
+        <version>1.0.1</version>
+        <name>1.0.1</name>
+        <package_url>https://github.com/atolcd/pentaho-cde-atolcd-plugins/releases/download/v1.0.1/pentaho-cde-atolcd-plugins-1.0.1.zip</package_url>
         <description></description>
         <changelog></changelog>
         <build_id>1</build_id>
