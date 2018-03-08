@@ -2252,6 +2252,12 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
     <type>Platform</type>
     <img>http://oncase.com.br/tapa.svg</img>
     <small_img>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/small_img.png</small_img>
+    <installation_notes><![CDATA[
+    After installation, you must restart your server twice for the plugin to work.
+    Backup versions of your files are stored so that you can roll back.
+    The files changed are: PUCLogin.jsp and applicationContext-spring-security.xml.
+    ]]>
+    </installation_notes>
     <name>Tapa</name>
     <category>
       <name>Admin</name>
@@ -2287,6 +2293,40 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
     <license>MIT</license>
     <dependencies/>
     <versions>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>0.3.2</version>
+        <name>Latest stable build</name>
+        <package_url>
+          https://github.com/marpontes/tapa/releases/download/v0.3.2/tapa-0.3.2.zip
+        </package_url>
+        <description>Works for Pentaho 5.2.X till 5.4.XX</description>
+        <build_id/>
+        <min_parent_version>8.0.0</min_parent_version>
+        <max_parent_version>8.99.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>0.3.2</version>
+        <name>Latest stable build</name>
+        <package_url>
+          https://github.com/marpontes/tapa/releases/download/v0.3.2/tapa-0.3.2-pentaho71.zip
+        </package_url>
+        <description>Works for Pentaho 5.2.X till 5.4.XX</description>
+        <build_id/>
+        <min_parent_version>7.1.0</min_parent_version>
+        <max_parent_version>7.99.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
 
       <version>
         <branch>STABLE</branch>
