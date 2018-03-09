@@ -1756,11 +1756,33 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>6.1.99</max_parent_version>        
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
         </development_stage>
       </version>
+      
+      <version>
+        <branch>RELEASE</branch>
+        <version>18.02.06</version>
+        <name>RELEASE</name>
+        <package_url>
+			https://github.com/webdetails/startupRuleEngine/releases/download/untagged-b88926dfdff17a916770/startupRuleEngine-18.02.06.zip
+        </package_url>
+        <samples_url/>
+        <description>Latest Release</description>
+        <changelog/>
+        <build_id/>
+        <min_parent_version>7.0</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>        
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      
+      
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
@@ -2230,6 +2252,12 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
     <type>Platform</type>
     <img>http://oncase.com.br/tapa.svg</img>
     <small_img>https://raw.githubusercontent.com/marpontes/tapa/master/static/marketplace/img/small_img.png</small_img>
+    <installation_notes><![CDATA[
+    After installation, you must restart your server twice for the plugin to work.
+    Backup versions of your files are stored so that you can roll back.
+    The files changed are: PUCLogin.jsp and applicationContext-spring-security.xml.
+    ]]>
+    </installation_notes>
     <name>Tapa</name>
     <category>
       <name>Admin</name>
@@ -2265,6 +2293,40 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
     <license>MIT</license>
     <dependencies/>
     <versions>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>0.3.2</version>
+        <name>Latest stable build</name>
+        <package_url>
+          https://github.com/marpontes/tapa/releases/download/v0.3.2/tapa-0.3.2.zip
+        </package_url>
+        <description>Works for Pentaho 5.2.X till 5.4.XX</description>
+        <build_id/>
+        <min_parent_version>8.0.0</min_parent_version>
+        <max_parent_version>8.99.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+      <version>
+        <branch>STABLE</branch>
+        <version>0.3.2</version>
+        <name>Latest stable build</name>
+        <package_url>
+          https://github.com/marpontes/tapa/releases/download/v0.3.2/tapa-0.3.2-pentaho71.zip
+        </package_url>
+        <description>Works for Pentaho 5.2.X till 5.4.XX</description>
+        <build_id/>
+        <min_parent_version>7.1.0</min_parent_version>
+        <max_parent_version>7.99.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
 
       <version>
         <branch>STABLE</branch>
@@ -5848,6 +5910,48 @@ any translation issues or suggestions for improvement
   </market_entry>
 
   <market_entry>
+    <id>pmi</id>
+    <type>Step</type>    
+    <img>https://github.com/pentaho-labs/pentaho-machine-intelligence/raw/master/screenshot/pdi_pmi.png</img>
+    <name>Plugin Machine Intelligence</name>
+
+    <category>
+      <name>Data Mining</name>
+      <parent>
+	<name>PDI Plugins</name>
+      </parent>
+    </category>
+
+    <description>This plugin provides drag-and-drop machine learning capabilities based on four separate execution engines: python, R, Weka and Spark MLlib..</description>
+    <documentation_url>https://github.com/pentaho-labs/pentaho-machine-intelligence</documentation_url>
+    <author>Mark Hall</author>
+
+    <license_name>GPL 3.0</license_name>
+    <license_text>For more details see:
+      http://www.gnu.org/licenses/</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Supported by Hitachi Vantara Labs</support_message>
+    <support_organization>Hitachi Vantara Labs</support_organization>
+    <support_url>https://github.com/pentaho-labs/pentaho-machine-intelligence</support_url>
+
+    <versions>
+      <version>
+	<branch>Trunk</branch>
+	<version>1.0</version>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.0/plugin-machine-intelligence-package-1.0.zip</package_url>
+
+      <development_stage>
+        <lane>Customer</lane>
+        <phase>2</phase>
+      </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://github.com/pentaho-labs/pentaho-machine-intelligence/raw/master/screenshot/pdi_pmi.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
     <id>pdi-mqtt-plugins</id>
     <type>Step</type>
     <img>https://raw.githubusercontent.com/pentaho-labs/pentaho-mqtt-plugin/master/screenshot/pdi_mqtt.png</img>
@@ -6433,11 +6537,10 @@ any translation issues or suggestions for improvement
     <support_url/>
   </market_entry>
 
-
   <market_entry>
-    <id>kettle5-profiling-datacleaner</id>
+    <id>pdi-datacleaner</id>
     <type>Mixed</type>
-    <name>DataCleaner Data Quality for Kettle version 5</name>
+    <name>DataCleaner Data Quality for Kettle</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6446,7 +6549,8 @@ any translation issues or suggestions for improvement
     </category>
     <description>Use DataCleaner - the premier open source data quality solution - to profile, analyze, clean and deduplicate the data that you work with in Pentaho Data Integration.
 
-DataCleaner provides strong functionality in the area of Data Profiling and Data Quality analysis. This includes discovering patterns and anomalies, standardizing data as well as detecting duplicate records.
+DataCleaner provides strong functionality in the area of Data Profiling and Data Quality analysis.
+This includes discovering patterns and anomalies, standardizing data as well as detecting duplicate records.
 
 With this plugin you can:
 
@@ -6457,9 +6561,9 @@ With this plugin you can:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>4.5.1</version>
+        <version>5.4.0</version>
         <min_parent_version>5.0.0</min_parent_version>
-        <package_url>http://repo1.maven.org/maven2/org/eobjects/datacleaner/pdi-datacleaner/4.5.1/pdi-datacleaner-4.5.1-plugin.zip</package_url>
+        <package_url>https://github.com/datacleaner/pdi-datacleaner/releases/download/pdi-datacleaner-5.4.0/DataCleaner-PDI-plugin.zip</package_url>
         <source_url>https://github.com/datacleaner/pdi-datacleaner</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6467,68 +6571,15 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <author>Human Inference and Neopost Customer Information Management</author>
-    <documentation_url>http://datacleaner.org/docs</documentation_url>
-    <forum_url>http://datacleaner.org/forum</forum_url>
+    <author>The DataCleaner open source community</author>
+    <documentation_url>https://datacleaner.github.io/documentation</documentation_url>
+    <forum_url>https://datacleaner.github.io/discuss</forum_url>
     <cases_url>https://github.com/datacleaner/DataCleaner/issues</cases_url>
     <license_name>GNU LGPL</license_name>
     <license_text>For more details about the GNU General Lesser Public License v2.0 see:
       http://www.gnu.org/licenses/lgpl-2.0.html
     </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-    <support_message>Professional support, extended functionality, training and consultancy for DataCleaner is offered via the commercial editions of DataCleaner.</support_message>
-    <support_organization>Human Inference and Neopost Customer Information Management</support_organization>
-    <support_url>http://datacleaner.org/editions</support_url>
-  </market_entry>
-
-   <market_entry>
-    <id>kettle6-profiling-datacleaner</id>
-    <type>Mixed</type>
-    <name>DataCleaner Data Quality for Kettle version 6 and 7</name>
-    <category>
-      <name>Data Quality</name>
-      <parent>
-        <name>PDI Plugins</name>
-      </parent>
-    </category>
-    <description>Use DataCleaner - the premier open source data quality solution - to profile, analyze, clean and deduplicate the data that you work with in Pentaho Data Integration.
-
-DataCleaner provides strong functionality in the area of Data Profiling and Data Quality analysis. This includes discovering patterns and anomalies, standardizing data as well as detecting duplicate records.
-
-With this plugin you can:
-
- * Launch data profiling for any transformation step in PDI, effectively allowing you to inspect and discover the shape of data at any point in your transformation pipeline.
- * Apply DataCleaner to your database from the database explorer of PDI. This allows you to investigate the data at it's source.
- * Include and launch DataCleaner jobs as part of your PDI jobs. This allows you to merge the ongoing workflow of data quality and data integration.
-
-
- * Note for Pentaho 7: Copy the file 'commons-vfs2-2.1-20150824.jar' from Pentaho 'data-integration/lib' installation folder to DataCleaner 'lib' installation folder and remove 'commons-vfs2-2.0.jar'.
-    </description>
-    <versions>
-      <version>
-        <branch>Stable</branch>
-        <version>5.1.7</version>
-        <min_parent_version>6.0.0</min_parent_version>
-        <package_url>http://repo1.maven.org/maven2/org/eobjects/datacleaner/pdi-datacleaner/5.1.7/pdi-datacleaner-5.1.7-plugin.zip</package_url>
-        <source_url>https://github.com/datacleaner/pdi-datacleaner</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
-    </versions>
-    <author>Human Inference and Neopost Customer Information Management</author>
-    <documentation_url>http://datacleaner.org/docs</documentation_url>
-    <forum_url>http://datacleaner.org/forum</forum_url>
-    <cases_url>https://github.com/datacleaner/DataCleaner/issues</cases_url>
-    <license_name>GNU LGPL</license_name>
-    <license_text>For more details about the GNU General Lesser Public License v2.0 see:
-      http://www.gnu.org/licenses/lgpl-2.0.html
-    </license_text>
-    <support_level>PROFESSIONALLY_SUPPORTED</support_level>
-    <support_message>Professional support, extended functionality, training and consultancy for DataCleaner is offered via the commercial editions of DataCleaner.</support_message>
-    <support_organization>Human Inference and Neopost Customer Information Management</support_organization>
-    <support_url>http://datacleaner.org/editions</support_url>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
 
   <market_entry>
@@ -6765,9 +6816,9 @@ With this plugin you can:
   <market_entry>
     <id>MDCheckPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_ContactVerify_s96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_ContactVerify_s32.png</small_img>
-    <name>Enterprise Data Quality for Pentaho - Name, Address, Phone, Email, IP Validation and Record Consolidation</name>
+	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-96x96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-32x32.png</small_img>
+    <name>Melissa Contact Data Verify (Verification, Duplicate Identification, and Data Enhancement)</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6776,72 +6827,64 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>Contact Verify</h1>
-	<h1>MatchUp</h1>
-	<h1>SmartMover</h1>
-	<h1>IPLocator</h1>
+	<p>Achieve data quality effortlessly with our Melissa Contact Data Verify solution. This comprehensive bundle provides verification for global or North American addresses, names, phone numbers, and emails; duplicate identification, and adds IP location information to your data.</p>
       <hr>
       <h2>Contact Verify Component</h2>
+	  <p>Our Contact Verify Component can standardize, verify, and correct U.S. and Canadian addresses, phone numbers, names, and email addresses, to ensure your database contains accurate, trusted, and actionable information. </p>
 	  <ul>
-         <li>Standardize, verify, and correct U.S. and Canadian addresses</li>
-         <li>Add County and census information.</li>
-         <li>Verify and normalize U.S. and Canadian phones on a 7-10 digit level</li>
-         <li>Parse names, genderize, and detect suspicious words or companies in name field</li>
-         <li>Geocode addresses by assigning rooftop lat/long coordinates</li>
-         <li>USPS CASS certified engine</li>
-         <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+         <li>USPS&#0169 CASS&#0153 and Canada Post® SERP certified engine for increased accuracy</li>
+         <li>Add county and census information to gain better insights</li>
+         <li>Verify and normalize U.S. and Canadian phones on a 7-10 digit level to ensure numbers are live and callable</li>
+         <li>Parse names, genderize, and detect suspicious words or companies in name field to reduce fraud</li>
+         <li>Geocode addresses by assigning rooftop lat/long coordinates for enhanced location intelligence</li>
 	 </ul>
-      <h3>Processing Options - (Local,Cloud,Dedicated Cloud)</h3>
-	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+      <h3>Processing Options: Local, Cloud, Dedicated Cloud</h3>
      <hr>
       <h2>SmartMover Component</h2>
+	  <p>This component provides change-of-address processing for U.S. and Canadian addresses. Stay in touch with businesses and consumers that have moved to eliminate the costs associated with undeliverable-as-addressed mail.</p>
 	  <ul>
-		<li>U.S./Canadian change of address processing to update addresses of people or businesses that have moved</li>
-		<li>USPS&#0169 NCOALink&#0153 Certified</li>
-		<li>Canada Post Certified Change of Address</li>
-    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Match your customer records against the USPS full NCOALink&#0153 data file of 160 million moves going back 48 months to update address data</li>
+		<li>Satisfy the USPS Move Update requirement to qualify for postal discounts</li>
+		<li>Match your address file against the Canada Post NCOA database containing over 11 million records for the last 72 months </li>
       </ul>
-      <h3>Processing Options -(Cloud)</h3>
-	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+      <h3>Processing Options: Cloud</h3>
      <hr>
       <h2>MatchUp Component</h2>
+	  <p>Duplicate records result in waste, inefficiencies and cloud your ability to gain a single, accurate view of the customer. MatchUp uses over 16 advanced fuzzy matching algorithms and deep domain knowledge to find even the hardest-to-detect U.S. and international duplicate records.</p>
 	  <ul>
-		<li>Identify duplicate records with domain specific knowledge of contact information</li>
-		<li>Match records even with data inconsistencies </li>
-		<li>Allows users to define, customize, and cascade powerful match codes </li>
-		<li>Supports 16 State of the art Fuzzy Match Algorithms</li>
-		<li>Choose the unique or winning record - known as the "Golden Record" (Recently added)</li>
-		<li>Consolidate duplicate records and data with “Survivorship” techniques</li>
-    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Identify duplicate records with domain specific knowledge of contact information to eliminate clutter </li>
+		<li>Match records even with data inconsistencies to increase database accuracy</li>
+		<li>Allow users to define, customize, and cascade powerful match codes </li>
+		<li>Consolidate duplicates and identify the "Golden Record" using survivorship techniques for a single, accurate view of the customer</li>
+		<li>Identify and consolidate records that are members of the same household to eliminate multiple mailings</li>
       </ul>
-      <h3>Processing Options -(Local)</h3>
-	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+      <h3>Processing Options: Local</h3>
      <hr>
       <h2>IP Locator Component</h2>
+	  <p>Identify where your web visitors are coming from – very useful for e-commerce sites looking to prepopulate country code on forms, display a different language, filter access from countries you don’t do business with, and/or reduce credit card fraud based on geographic location.</p>
 	  <ul>
-		<li>Identify web visitor's geographic location</li>
-		<li>Contains comprehensive mobile IP location</li>
-		<li>Append Latitude, longitude, ISP, City, State, Country</li>
-    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Access the geographic location of an Internet Protocol (IP) address, including latitude, longitude, city, state, ZIP Code™/Postal Code, region</li>
+		<li>Append Latitude, longitude, ISP, City, State, Country to geotarget and analyze traffic for enhanced sales</li>
       </ul>
-      <h3>Processing Options -(Cloud)</h3>
-	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+      <h3>Processing Options: Cloud, Local, Dedicated Cloud</h3>
     <hr>
 	<h1>Support</h1>
 	  <ul>
-		<li>All Enterprise Components are professionally supported by Melissa Data</li>
-		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
-		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+	    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Only Available in Pentaho Enterprise Edition</li>
+		<li>All Enterprise Components are professionally supported by Melissa</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
       </ul>
 	  <h1>License</h1>
 	  <ul>
-		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+		<li>To obtain a Melissa license please visit <a target='_blank' href='https://www.melissa.com/data-integration/pentaho.html'>Melissa</a> or call 1-800-635-4772</li>
 	  </ul>
 	]]>
     </description>
-    <author>Melissa Data</author>
-    <author_url>http://www.melissadata.com/</author_url>
-    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <author>Melissa</author>
+    <author_url>http://www.melissa.com/</author_url>
+    <documentation_url>http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -6853,26 +6896,26 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-    <support_level>3rd Party Supported by Melissa Data</support_level>
-    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
-    <support_organization>Melissa Data</support_organization>
+    <license_name>Product licensing provided by Melissa</license_name>
+    <license_text>To obtain a Melissa license please visit: https://www.melissa.com/data-integration/pentaho.html</license_text>
+    <support_level>3rd Party Supported by Melissa</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email tech@melissadata.com</support_message>
+    <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-    <screenshots>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Check_MD.PNG</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
-    </screenshots>
+	<screenshots>
+    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
+	</screenshots>
   </market_entry>
 
 
   <market_entry>
     <id>MDGlobalVerifyPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_GlobalVerify_s96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_GlobalVerify_s32.png</small_img>
-    <name>Enterprise Data Verification &amp; Enrichment for Pentaho - Global Data Quality</name>
+	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-96x96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-32x32.png</small_img>
+    <name>Melissa Global Contact Data Verify</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6881,37 +6924,38 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	  <h1>Worldwide Name, Address, Phone and Email Validation and Cleansing</h1>
-      <hr>
-      <h2>Global Verify Component</h2>
+	  <p>Did you know that there are over 247 countries and territories in the world, with 131 different address formats? Some countries don’t have an established set of postal rules, while most countries do not follow the U.S. standard of street address, city, state, and ZIP Code™. This can be a big, and costly concern for companies shipping across borders. Melissa’s Global Data Verification solution for Pentaho can help standardize your global database into a consistent, accurate format.</p>
+      <h2>Global Contact Data Verify Component</h2>
+	  <p>Clean, verify, standardize, and format all of your global People Data – name, address, email, and phone – to ensure your international database contains the most accurate, trustworthy information.</p>
 	  <ul>
 		<li>Verify and correct postal addresses for over 240 countries</li>
-		<li>Parse address hierarchies and return mailing format</li>
-		<li>Transliterate major character sets and display output in either native or Latin characters</li>
-		<li>Geocode coordinates</li>
-		<li>Verify emails to the box level</li>
-		<li>Verify Phones world wide</li>
+		<li>Correct international addresses by adding missing components like postal codes, region, etc.</li>
+		<li>Standardize addresses to meet local country formatting rules</li>
+		<li>Transliterate many popular native character sets into Latin</li>
+		<li>Add precise lat/long coordinates to addresses for 40+ countries</li>
+		<li>Verify email addresses to the box level in real-time; email syntax and domain correction</li>
+		<li>Verify phone numbers in real-time; distinguish between global landlines and mobile numbers</li>
 		<li>Parse names with country specific rulesets</li>
-    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
-	 </ul>
-      <h3>Processing Options - (Cloud)</h3>
-	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+	  </ul>
+      <h3>Processing Options: Cloud, Local, Hybrid (allowing you to choose which countries get sent to the cloud, and which go local)</h3>
      <hr>
 	<h1>Support</h1>
 	  <ul>
-		<li>All Enterprise Components are professionally supported by Melissa Data</li>
-		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
-		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+		<li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Only Available in Pentaho Enterprise Edition</li>
+		<li>All Enterprise Components are professionally supported by Melissa</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
       </ul>
 	  <h1>License</h1>
 	  <ul>
-		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+		<li>To obtain a Melissa license please visit <a target='_blank' href='https://www.melissa.com/data-integration/pentaho.html'>Melissa</a> or call 1-800-635-4772</li>
 	  </ul>
 	 ]]>
     </description>
-    <author>Melissa Data</author>
-    <author_url>http://www.melissadata.com/</author_url>
-    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <author>Melissa</author>
+    <author_url>http://www.melissa.com/</author_url>
+    <documentation_url>http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -6923,26 +6967,26 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-    <support_level>3rd Party Supported by Melissa Data</support_level>
-    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com</support_message>
-    <support_organization>Melissa Data</support_organization>
+    <license_name>Product licensing provided by Melissa</license_name>
+    <license_text>To obtain a Melissa license please visit: https://www.melissa.com/data-integration/pentaho.html</license_text>
+    <support_level>3rd Party Supported by Melissa</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email tech@melissadata.com</support_message>
+    <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-    <screenshots>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Global_MD.PNG</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
-    </screenshots>
+	<screenshots>
+    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
+	</screenshots>
   </market_entry>
 
 
   <market_entry>
     <id>MDPersonatorPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Personator_s32.png</small_img>
-    <name>Enterprise Data Verification &amp; Enrichment for Pentaho US and Canada</name>
+	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-96x96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-32x32.png</small_img>
+    <name>Melissa ID Verify, Complete &amp; Enrich</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -6951,35 +6995,34 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>Cleanse, Verify and Append Missing Contact Data</h1>
-      <hr>
+	  <p>Is your customer truly who they say they are? Our Melissa ID Verify solution can help authenticate their identity by validating each contact data element, and matching name-to-address – to prevent fraud and meet compliance.</p>
       <h2>Personator Component</h2>
+	  <p>The Personator Component taps a multisource dataset containing billions of records to validate each element of a contact record – name, address, phone, and/or email – and match name-to-address – to verify true identity.</p>
 	  <ul>
-		<li>Verifies name corresponds to address, email, and phone data</li>
-		<li>Append missing names, companies, phone number, and/or email address</li>
-		<li>Append Latitude, Longitude along with County and Census data.</li>
-		<li>Free-form input allows for unparsed or un-delimited data. </li>
-		<li>Move update - Identifies moves with up to a 10 year history.</li>
-		<li>Append Demographic attributes like: Date of Birth, Household Income, Occupation,Length of Residence and more!</li>
-    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Fill in missing contact information like business/consumer emails, addresses, phones, and names to complete your contact data</li>
+		<li>Add current addresses for customers and prospects that have moved in the U.S. and Canada – matching your records against a proprietary database of address changes going back 20+ years</li>
+		<li>Append detailed consumer demographics including marital status, date of birth, gender, presence of children, occupation, income, and more for deeper customer insights</li>
+		<li>Add lat/long coordinates at the rooftop level for 95% of U.S. addresses, along with county and census data, and Core Based Statistical Area (CBSA) and Metropolitan/Micropolitan areas for location intelligence</li>
 	 </ul>
-      <h3>Processing Options - (Cloud)</h3>
+      <h3>Processing Options: Cloud</h3>
      <hr>
 	<h1>Support</h1>
 	  <ul>
-		<li>All Enterprise Components are professionally supported by Melissa Data</li>
-		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
-		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+		<li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Only Available in Pentaho Enterprise Edition</li>
+		<li>All Enterprise Components are professionally supported by Melissa</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
       </ul>
 	  <h1>License</h1>
 	  <ul>
-		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+		<li>To obtain a Melissa license please visit <a target='_blank' href='https://www.melissa.com/data-integration/pentaho.html'>Melissa</a> or call 1-800-635-4772</li>
 	  </ul>
 	 ]]>
     </description>
-    <author>Melissa Data</author>
-    <author_url>http://www.melissadata.com/</author_url>
-    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <author>Melissa</author>
+    <author_url>http://www.melissa.com/</author_url>
+    <documentation_url>http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -6991,26 +7034,25 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-    <support_level>3rd Party Supported by Melissa Data</support_level>
-    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
-    </support_message>
-    <support_organization>Melissa Data</support_organization>
+    <license_name>Product licensing provided by Melissa</license_name>
+    <license_text>To obtain a Melissa license please visit: https://www.melissa.com/data-integration/pentaho.html</license_text>
+    <support_level>3rd Party Supported by Melissa</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email tech@melissadata.com</support_message>
+    <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-    <screenshots>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Personator_MD.PNG</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
-    </screenshots>
+	<screenshots>
+    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
+	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDProfilerPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Profiler_s96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Profiler_s32.png</small_img>
-    <name>Enterprise Data Quality Profiler for Pentaho</name>
+	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-96x96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-32x32.png</small_img>
+    <name>Melissa Profiler</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -7019,35 +7061,35 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>Data Profiler</h1>
-      <hr>
+	  <p>Imagine taking a statistical analysis “snapshot” of your data to quickly see where the problems are. That’s what Melissa’s Profiler does. Data profiling is a critical first step for data modeling, data quality, and master data management initiatives to help ensure the consistency of reference data. Profiling helps identify data inconsistencies before it’s used for reporting and business intelligence purposes.<p>
       <h2>Profiler Component</h2>
+	  <p>Generate simple-to-advanced profiling information, including basic data statistics (mean, median, frequency, variation, etc.) and details (structure, content, classifications, etc.) to identify data errors at their source.</p>
 	  <ul>
-		<li>Supports building a target schema dynamically with sizes, nulls, unique counts, length, and field identification</li>
-		<li>Over 100 Column and Table level metrics</li>
-		<li>Profile for Nulls, Blanks, Patterns</li>
-		<li>Allows regexes and error thresholds to be set for monitoring</li>
-		<li>Uses sophisticated matching to output fuzzy and exact match counts</li>
-    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Support building a target schema dynamically with sizes, nulls, unique counts, length, and field identification</li>
+		<li>Over 100 column and table level metrics</li>
+		<li>Profile for nulls, blanks and patterns</li>
+		<li>Allow regexes and error thresholds to be set for monitoring</li>
+		<li>Utilize sophisticated matching to output fuzzy and exact match counts</li>
 	 </ul>
-      <h3>Processing Options - (Local)</h3>
-	  <h3>Only Available in Pentaho Enterprise Edition</h3>
+      <h3>Processing Options: Local</h3>
     <hr>
 	<h1>Support</h1>
 	  <ul>
-		<li>All Enterprise Components are professionally supported by Melissa Data</li>
-		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
-		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+		<li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Only Available in Pentaho Enterprise Edition</li>
+		<li>All Enterprise Components are professionally supported by Melissa</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
       </ul>
 	  <h1>License</h1>
 	  <ul>
-		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+		<li>To obtain a Melissa license please visit <a target='_blank' href='https://www.melissa.com/data-integration/pentaho.html'>Melissa</a> or call 1-800-635-4772</li>
 	  </ul>
 	  ]]>
     </description>
-    <author>Melissa Data</author>
-    <author_url>http://www.melissadata.com/</author_url>
-    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <author>Melissa</author>
+    <author_url>http://www.melissa.com/</author_url>
+    <documentation_url>http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7059,26 +7101,25 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-    <support_level>3rd Party Supported by Melissa Data</support_level>
-    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
-    </support_message>
-    <support_organization>Melissa Data</support_organization>
+    <license_name>Product licensing provided by Melissa</license_name>
+    <license_text>To obtain a Melissa license please visit: https://www.melissa.com/data-integration/pentaho.html</license_text>
+    <support_level>3rd Party Supported by Melissa</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email tech@melissadata.com</support_message>
+    <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-    <screenshots>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Profiler_MD.PNG</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
-    </screenshots>
+	<screenshots>
+    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
+	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDPropertyPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Property_s96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Property_s32.png</small_img>
-    <name>Enterprise Data Enrichment for Pentaho - US Property Data</name>
+	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-96x96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-32x32.png</small_img>
+    <name>Melissa Property Data Enrichment</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -7087,32 +7128,33 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>Append US Property Data</h1>
-      <hr>
+	  <p>Melissa can return comprehensive property and mortgage data on over 140 million U.S. properties, including parcel information, owner information, calculated value, sales information, and building information.</p>
       <h2>Property Component</h2>
+	  <p>Access variables from over 165 fields in categories such as: parcel, property address; owner; owner mail address; property values; current sale and trust deed; prior sale; lot/land square footage, and more. Ideal for developers, risk management, real estate professionals, investors, and more.</p>
 	  <ul>
-		<li>Comprehensive US property and mortgage data, with over 140 million records.</li>
-		<li>12 main categories and 165 information fields available</li>
-		<li>Weekly data updates</li>
-    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Access variables from over 165 fields in categories such as:</li>
+		<li>Parcel, property address, owner, owner mail address, property values, current sale and trust deed, prior sale, lot/land square footage, and more</li>
+		<li>Ideal for developers, risk management, real estate professionals, investors, and more</li>
 	 </ul>
-      <h3>Processing Options - (Cloud)</h3>
+      <h3>Processing Options: Cloud</h3>
      <hr>
 	<h1>Support</h1>
 	  <ul>
-		<li>All Enterprise Components are professionally supported by Melissa Data</li>
-		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
-		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+		<li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Only Available in Pentaho Enterprise Edition</li>
+		<li>All Enterprise Components are professionally supported by Melissa</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
       </ul>
 	  <h1>License</h1>
 	  <ul>
-		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+		<li>To obtain a Melissa license please visit <a target='_blank' href='https://www.melissa.com/data-integration/pentaho.html'>Melissa</a> or call 1-800-635-4772</li>
 	  </ul>
 	 ]]>
     </description>
-    <author>Melissa Data</author>
-    <author_url>http://www.melissadata.com/</author_url>
-    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <author>Melissa</author>
+    <author_url>http://www.melissa.com/</author_url>
+    <documentation_url>http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7124,26 +7166,25 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-    <support_level>3rd Party Supported by Melissa Data</support_level>
-    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
-    </support_message>
-    <support_organization>Melissa Data</support_organization>
+    <license_name>Product licensing provided by Melissa</license_name>
+    <license_text>To obtain a Melissa license please visit: https://www.melissa.com/data-integration/pentaho.html</license_text>
+    <support_level>3rd Party Supported by Melissa</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email tech@melissadata.com</support_message>
+    <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-    <screenshots>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Property_MD.PNG</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
-    </screenshots>
+	<screenshots>
+	  <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
+	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDBusinessCoderPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_Business_s96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_Business_s32.png</small_img>
-    <name>Enterprise Data Enrichment for Pentaho - US Business Data</name>
+	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-96x96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-32x32.png</small_img>
+    <name>Melissa BusinessCoder</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -7152,33 +7193,35 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>Append and Enrich US Business Data</h1>
-      <hr>
-      <h2>Business Coder Component</h2>
+	  <p>Get the full picture of your B2B clients and prospects with Melissa BusinessCoder. Our firmographic append solution easily verifies, standardizes and enriches your business records with 30 unique data elements from 25 million business across the U.S. </p>
+      <h2>BusinessCoder Component</h2>
+	  <p>This component helps you resolve business entities for standardization and record consolidation, plus it provides a wealth of fundamental characteristics about a business that can be utilized for decision making, lead scoring and optimized B2B marketing and sales efforts.</p>
 	  <ul>
-		<li>Comprehensive US Business Data</li>
-    <li>Append or Cleanse missing Business Names based on Address</li>
-		<li>Search for Businesses using the phone number, stock ticker, web address</li>
-		<li>Discover Business SIC codes, sales volumes, employee sizes, phone numbers, NAICS Codes and more.</li>
-    <li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Add comprehensive firmographics from more than 25 million businesses for better insight and analytics</li>
+		<li>Update outdated contact information to improve customer retention and prevent lost opportunities</li>
+		<li>Standardize business names and acronyms (TWC – Time Warner Cable) to prevent duplicate accounts</li>
+		<li>Discover valuable characteristics including SIC/NAICS, sales volume, number of employees and more for deeper segmentation</li>
+		<li>Search for businesses using phone number, stock ticker, web address and more to find ideal prospects</li>
 	 </ul>
-      <h3>Processing Options - (Cloud)</h3>
+      <h3>Processing Options: Cloud</h3>
      <hr>
 	<h1>Support</h1>
 	  <ul>
-		<li>All Enterprise Components are professionally supported by Melissa Data</li>
-		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
-		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+		<li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Only Available in Pentaho Enterprise Edition</li>
+		<li>All Enterprise Components are professionally supported by Melissa</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
       </ul>
 	  <h1>License</h1>
 	  <ul>
-		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+		<li>To obtain a Melissa license please visit <a target='_blank' href='https://www.melissa.com/data-integration/pentaho.html'>Melissa</a> or call 1-800-635-4772</li>
 	  </ul>
 	 ]]>
     </description>
-    <author>Melissa Data</author>
-    <author_url>http://www.melissadata.com/</author_url>
-    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <author>Melissa</author>
+    <author_url>http://www.melissa.com/</author_url>
+    <documentation_url>http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7190,26 +7233,25 @@ With this plugin you can:
         </development_stage>
       </version>
     </versions>
-    <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-    <support_level>3rd Party Supported by Melissa Data</support_level>
-    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
-    </support_message>
-    <support_organization>Melissa Data</support_organization>
+    <license_name>Product licensing provided by Melissa</license_name>
+    <license_text>To obtain a Melissa license please visit: https://www.melissa.com/data-integration/pentaho.html</license_text>
+    <support_level>3rd Party Supported by Melissa</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email tech@melissadata.com</support_message>
+    <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-    <screenshots>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_Business_MD.PNG</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
-    </screenshots>
+	<screenshots>
+	  <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
+	</screenshots>
   </market_entry>
 
     <market_entry>
     <id>MDCleanserPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/PDI_MD_GeneralCleanser_s96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/PDI_MD_GeneralCleanser_s32.png</small_img>
-    <name>Enterprise Data Quality for Pentaho - General Cleanser</name>
+	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-96x96.png</img>
+    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-32x32.png</small_img>
+    <name>Melissa General Cleanser</name>
     <category>
       <name>Data Quality</name>
       <parent>
@@ -7218,32 +7260,33 @@ With this plugin you can:
     </category>
     <description>
 	<![CDATA[
-	<h1>General Cleansing For All Data Types</h1>
-      <hr>
-      <h2>Cleansing Component</h2>
+	  <p>Eliminate errors and fix inconsistencies within databases with Melissa Data Quality Cleanser. Our data quality cleansing tool gives data stewards the ability to standardize and validate inventory lists to better prep and cleanse data prior to analysis.</p>
+      <h2>Generalized Cleansing Component</h2>
+	  <p>Build your own data cleansing scripts that cleans, standardizes, and reformats any data type. Change casing or capitalization, add or remove punctuation, expand or contract abbreviations, and search then replace any parts of a string for clean and useful data.</p>
 	  <ul>
-		<li>Cleansing for all general data</li>
-		<li>Cleansing based on casing, punctuation, abbreviation, boolean expressions, regular expressions, search and replace</li>
-		<li>Create and save different combinations of cleansing rules</li>
-		<li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Cleanse any type of data and achieve a higher standard of data quality for integration, warehousing and analytics</li>
+		<li>Gain greater control of your data when optimized, saving your business time, money  and resources</li>
+		<li>Customize and create simple or complex rules to standardize data, and then save for future use and convenience</li>
 	 </ul>
-      <h3>Processing Options - (On-Premise)</h3>
+      <h3>Processing Options: Local</h3>
      <hr>
 	<h1>Support</h1>
 	  <ul>
-		<li>All Enterprise Components are professionally supported by Melissa Data</li>
-		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
-		<li>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
+		<li>Works on PDI Servers, Clusters, and in Hadoop</li>
+		<li>Only Available in Pentaho Enterprise Edition</li>
+		<li>All Enterprise Components are professionally supported by Melissa</li>
+		<li>For Infomation or Tutorials please visit our <a target='_blank' href='http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho'>wiki</a></li>
+		<li>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email <a href="mailto:tech@melissadata.com?Subject=Pentaho%20Plugin%20Support" target="_top">tech@melissadata.com</a></li>
       </ul>
 	  <h1>License</h1>
 	  <ul>
-		<li>To obtain a Melissa Data license please visit <a target='_blank' href='http://www.melissadata.com/free-trials/pentaho.htm'>Melissa Data</a> or call 1-800-800-6245 x3</li>
+		<li>To obtain a Melissa license please visit <a target='_blank' href='https://www.melissa.com/data-integration/pentaho.html'>Melissa</a> or call 1-800-635-4772</li>
 	  </ul>
 	 ]]>
     </description>
-    <author>Melissa Data</author>
-    <author_url>http://www.melissadata.com/</author_url>
-    <documentation_url>http://wiki.melissadata.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
+    <author>Melissa</author>
+    <author_url>http://www.melissa.com/</author_url>
+    <documentation_url>http://wiki.melissa.com/index.php?title=Data_Quality_Components_for_Pentaho</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7251,22 +7294,21 @@ With this plugin you can:
         <package_url>http://update2.melissadata.com/pentaho/MDCleanser.zip</package_url>
         <development_stage>
           <lane>Community</lane>
-          <phase>3</phase>
+          <phase>4</phase>
         </development_stage>
       </version>
     </versions>
-    <license_name>Product licensing provided by Melissa Data</license_name>
-    <license_text>To obtain a Melissa Data license please visit: http://www.melissadata.com/free-trials/pentaho.htm</license_text>
-    <support_level>3rd Party Supported by Melissa Data</support_level>
-    <support_message>To obtain technical support on this plugin, contact Melissa Data Technical Support at 1-800-800-6245 x4 or email tech@melissadata.com
-    </support_message>
-    <support_organization>Melissa Data</support_organization>
+    <license_name>Product licensing provided by Melissa</license_name>
+    <license_text>To obtain a Melissa license please visit: https://www.melissa.com/data-integration/pentaho.html</license_text>
+    <support_level>3rd Party Supported by Melissa</support_level>
+    <support_message>To obtain technical support on this plugin, contact Melissa Technical Support at 1-800-635-4772 x4 or email tech@melissadata.com</support_message>
+    <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
-    <screenshots>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_Tile_GeneralCleansing_MD.PNG</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_55.png</screenshot>
-      <screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_56.png</screenshot>
-    </screenshots>
+	<screenshots>
+	  <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_55.png</screenshot>
+		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_56.png</screenshot>
+	</screenshots>
   </market_entry>
 
   <market_entry>
@@ -9847,54 +9889,6 @@ Capabilities:
   </versions>
 </market_entry>
 
-  <market_entry>
-    <id>StreamSchemaStep</id>
-    <type>Step</type>
-    <name>Stream Schema Merge</name>
-    <category>
-      <name>Enhancements</name>
-      <parent>
-        <name>PDI Plugins</name>
-      </parent>
-    </category>
-    <documentation_url>https://github.com/graphiq-data/pdi-streamschemamerge-plugin/blob/master/README.md</documentation_url>
-    <description>Takes the union of streams with different schemas and merges them into a single stream. Allows you to merge streams without first changing the order of fields and adding constants for missing fields. If data types conflict, a new value meta will be created with a String type</description>
-    <author>Andrew Overton</author>
-    <author_url>https://team.graphiq.com/l/232/Andrew-Overton</author_url>
-    <license>MIT</license>
-    <support_level>COMMUNITY_SUPPORTED</support_level>
-    <support_message>Used in production and supported by Graphiq.com Inc.</support_message>
-    <support_organization>Graphiq</support_organization>
-    <dependencies/>
-    <versions>
-      <version>
-      <branch>Master</branch>
-      <version>1.2.0</version>
-      <name>1.2.0</name>
-      <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/StreamSchemaStep.zip</package_url>
-      <source_url>https://github.com/graphiq-data/pdi-streamschemamerge-plugin</source_url>
-      <description>Has been tested in a production environment</description>
-      <build_id/>
-      <development_stage>
-        <lane>Community</lane>
-        <phase>3</phase>
-      </development_stage>
-    </version>
-    <version>
-      <branch>pdi6</branch>
-      <version>1.2.0</version>
-      <name>1.2.0</name>
-      <package_url>https://s3-us-west-1.amazonaws.com/pdi-graphiq-marketplace/StreamSchemaStep_pdi6.zip</package_url>
-      <source_url>https://github.com/graphiq-data/pdi-streamschemamerge-plugin</source_url>
-      <description>Has been tested in a production environment</description>
-      <build_id/>
-      <development_stage>
-        <lane>Community</lane>
-        <phase>3</phase>
-      </development_stage>
-    </version>
-    </versions>
-  </market_entry>
 
   <market_entry>
     <id>UniqueListStep</id>
@@ -10719,9 +10713,9 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>1.2.1</version>
-        <package_url>https://github.com/matthewtckr/pdi-zendesk-plugin/releases/download/v1.2.1/pdi-zendesk-plugin-1.2.1.zip</package_url>
-        <source_url>https://github.com/matthewtckr/pdi-zendesk-plugin/tree/v1.2.1</source_url>
+        <version>1.3.0</version>
+        <package_url>https://github.com/matthewtckr/pdi-zendesk-plugin/releases/download/pdi-zendesk-plugin-1.3.0/pdi-zendesk-plugin-1.3.0.zip</package_url>
+        <source_url>https://github.com/matthewtckr/pdi-zendesk-plugin/tree/pdi-zendesk-plugin-1.3.0</source_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -11388,4 +11382,80 @@ Capabilities:
     </versions>
   </market_entry>
 
+  <market_entry>
+    <id>AWS-SNS-Notify</id>
+    <type>Step</type>
+    <name>AWS SNS Notify</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The AWS-SNS Plugin enables you to send Notifications from a PDI Transformation via AWS SNS to subscribed users.</description>
+    <documentation_url>https://freddyffm.github.io/PDIPlugin-AWS-SNS/</documentation_url>
+    <author>Michael Fraedrich</author>
+    <author_url>https://github.com/FreddyFFM</author_url>
+    <img>-</img>
+    <small_img>-</small_img>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Support by author and/or GitHub community</support_message>
+    <support_organization>Author</support_organization>
+    <support_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS/issues</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>0.9</version>
+        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS/releases/download/0.9/Pentaho-AWS-SNS-Notify-Plugin.zip</package_url>
+        <source_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS</source_url>
+	<min_parent_version>6.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+
+  <market_entry>
+    <id>atolcd-cde-plugin</id>
+    <type>Platform</type>
+    <name>Pentaho CDE Atol CD Plugins</name>
+    <category>
+      <name>Dashboards</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <description>Provides an SVG Component for Community Dashboard Editor.</description>
+    <documentation_url>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/README.md</documentation_url>
+    <author>Atol CD</author>
+    <author_url>http://www.atolcd.com</author_url>
+    <author_logo>http://docs.atolcd.com/docs/alfresco/guide_share/4.2/assets/images/logoAtolCD.png</author_logo>
+    <img>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/depPopulation.png</img>
+    <small_img>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/depPopulation.png</small_img>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.1</version>
+        <name>1.0.1</name>
+        <package_url>https://github.com/atolcd/pentaho-cde-atolcd-plugins/releases/download/v1.0.1/pentaho-cde-atolcd-plugins-1.0.1.zip</package_url>
+        <description></description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>8.0</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/legendInputInterface.png</screenshot>
+      <screenshot>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/dynamicSelectors.png</screenshot>
+    </screenshots>
+  </market_entry>
 </market>
