@@ -5895,8 +5895,8 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
 	<branch>Trunk</branch>
-	<version>1.3</version>
-      <package_url>https://github.com/pentaho-labs/pentaho-cpython-plugin/releases/download/v1.3/pentaho-cpython-plugin-package-1.3-SNAPSHOT.zip</package_url>
+	<version>1.4</version>
+      <package_url>https://github.com/pentaho-labs/pentaho-cpython-plugin/releases/download/v1.4/pentaho-cpython-plugin-package-1.4.zip</package_url>
 
       <development_stage>
         <lane>Customer</lane>
