@@ -9676,7 +9676,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
 <p>WAQE (Web Adhoc Query Executor) is a query executor based on Pentaho Metadata.
 </p>
 <p>
-Since WAQR is no longer supported / mantained in CE, WAQE is a tool to interact with database and query it throuhgt the metadata layer.  It is not a report designer. It is just a tool to can ask and interact with the database thought the metadata layer.
+Since WAQR is no longer supported / mantained in CE, WAQE is a tool to interact with database and query it throuhgt the metadata layer.  It is not a report designer. It is a query executor thought the metadata layer.
 </p>
 <p>
 Capabilities:
@@ -9698,28 +9698,28 @@ Capabilities:
         <branch>5.4</branch>
         <version>5.4</version>
          <build_id>1</build_id>
-        <name>Alpha version</name>
-        <package_url>http://www.jortilles.com/wp-content/uploads/2015/09/waqe_v_0.2.zip</package_url>
-        <description>Version for Pentaho 5.4</description>
+        <name>Beta version</name>
+        <package_url>http://www.jortilles.com/wp-content/uploads/2018/03/waqe_0.5.4.zip</package_url>
+        <description>Version for Pentaho 5.4 to 7.0</description>
         <min_parent_version>5.4</min_parent_version>
-        <max_parent_version>5.4</max_parent_version>
+        <max_parent_version>7.0</max_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>1</phase>
+          <phase>2</phase>
         </development_stage>
       </version>
 	  <version>
         <branch>TRUNK</branch>
         <version>TRUNK-SNAPSHOT</version>
         <build_id>5</build_id>
-        <name>Alpha version</name>
-        <package_url>http://www.jortilles.com/wp-content/uploads/2017/05/waqe_0.5.zip</package_url>
-        <description> Version updated for Pentaho 7.X	</description>
-        <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>8.0</max_parent_version>
+        <name>Beta version</name>
+        <package_url>http://www.jortilles.com/wp-content/uploads/2018/03/waqe_1.0.zip</package_url>
+        <description> Version updated for Pentaho 7.1 and beyond	</description>
+        <min_parent_version>7.0.1</min_parent_version>
+        <max_parent_version>8.1</max_parent_version>
         <development_stage>
           <lane>Community</lane>
-          <phase>1</phase>
+          <phase>2</phase>
         </development_stage>
       </version>
     </versions>
