@@ -11480,4 +11480,43 @@ Capabilities:
       <screenshot>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/dynamicSelectors.png</screenshot>
     </screenshots>
   </market_entry>
+  
+  <market_entry>
+    <id>pdi-streamschemamerge-plugin</id>
+    <type>Step</type>
+    <name>PDI Stream Schema Merge Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>Merges the schema among multiple streams. Leaves fields blank where they don't exist in the source schema.</description>
+    <documentation_url>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/README.md</documentation_url>
+    <author>Atol CD</author>
+    <author_url>http://www.pentaho.com</author_url>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+    <img>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/src/main/java/com/graphiq/kettle/steps/streamschemamerge/resources/icon.png</img>
+    <small_img>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/src/main/java/com/graphiq/kettle/steps/streamschemamerge/resources/icon.png</small_img>
+    <versions>
+      <version>
+        <branch>develop</branch>
+        <version>8.0-pre1</version>
+        <name>8.0-pre1</name>
+        <package_url>https://github.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/releases/download/v8.0-pre1/pdi-streamschemamerge-plugin-8.0-SNAPSHOT-distribution.zip</package_url>
+        <description></description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.1</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/documentation/screenshot-test-transformation.png</screenshot>
+    </screenshots>
+  </market_entry>
 </market>
