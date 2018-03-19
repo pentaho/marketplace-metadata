@@ -11493,7 +11493,7 @@ Capabilities:
     </category>
     <description>Merges the schema among multiple streams. Leaves fields blank where they don't exist in the source schema.</description>
     <documentation_url>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/README.md</documentation_url>
-    <author>Atol CD</author>
+    <author>Pentaho Sales Engineering</author>
     <author_url>http://www.pentaho.com</author_url>
     <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
     <img>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/src/main/java/com/graphiq/kettle/steps/streamschemamerge/resources/icon.png</img>
