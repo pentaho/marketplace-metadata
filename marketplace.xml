@@ -11486,7 +11486,7 @@ Capabilities:
     <type>Step</type>
     <name>PDI Stream Schema Merge Plugin</name>
     <category>
-      <name>Connectivity</name>
+      <name>Enhancements</name>
       <parent>
         <name>PDI Plugins</name>
       </parent>
@@ -11494,7 +11494,7 @@ Capabilities:
     <description>Merges the schema among multiple streams. Leaves fields blank where they don't exist in the source schema.</description>
     <documentation_url>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/README.md</documentation_url>
     <author>Pentaho Sales Engineering</author>
-    <author_url>http://www.pentaho.com</author_url>
+    <author_url>https://github.com/Pentaho-SE-EMEA-APAC</author_url>
     <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
     <img>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/src/main/java/com/graphiq/kettle/steps/streamschemamerge/resources/icon.png</img>
     <small_img>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/src/main/java/com/graphiq/kettle/steps/streamschemamerge/resources/icon.png</small_img>
@@ -11519,4 +11519,159 @@ Capabilities:
       <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/documentation/screenshot-test-transformation.png</screenshot>
     </screenshots>
   </market_entry>
+  
+  <market_entry>
+    <id>pdi-arangodb</id>
+    <type>Mixed</type>
+    <name>PDI ArangoDB NoSQL database support Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>	
+<![CDATA[
+Provides connectivity to the ArangoDB NoSQL database. Provides a database connection wizard as well as document write, document read, collection scan, and Foxx service invoke steps.
+<br><br>
+Uses asynchronous database connection for speed. A collection scan step is provided but this is still in development.
+!]]>
+    </description>
+    <documentation_url>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/README.md</documentation_url>
+    <author>Pentaho Sales Engineering</author>
+    <author_url>https://github.com/Pentaho-SE-EMEA-APAC</author_url>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+    <img>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/src/main/resources/ArangoDB-input.png</img>
+    <small_img>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/src/main/resources/ArangoDB-input.png</small_img>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0</version>
+        <name>1.0</name>
+        <package_url>https://github.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/releases/download/v1.0/pdi-arangodb.zip</package_url>
+        <description></description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.1</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-pdi-steps.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-input-sample.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-output-sample.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-foxx-invoke.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+
+  
+  <market_entry>
+    <id>pdi-presales-collection</id>
+    <type>Mixed</type>
+    <name>A collection of PDI plugins from the Pentaho Sales Engineering team</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>	
+<![CDATA[
+Provides a variety of plugins that have been created by pre-sales engineers in Pentaho.
+<br><br>
+These are all Alpha release, with no official support. Please engage Pentaho services for extensions and support of these plugins.
+!]]>
+    </description>
+    <documentation_url>https://github.com/Pentaho-SE-EMEA-APAC</documentation_url>
+    <author>Pentaho Sales Engineering</author>
+    <author_url>https://github.com/Pentaho-SE-EMEA-APAC</author_url>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+    <dependencies>pdi-arangodb, pdi-streamschemamerge-plugin, pdi-marklogic</dependencies>
+    <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
+    <small_img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</small_img>
+    <versions>
+      <version>
+        <branch>develop</branch>
+        <version>latest</version>
+        <name>latest</name>
+        <package_url>https://github.com/Pentaho-SE-EMEA-APAC/pdi-presales-collection/archive/v1.0.zip</package_url>
+        <description></description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.1</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-pdi-steps.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-input-sample.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-output-sample.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-foxx-invoke.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/documentation/screenshot-test-transformation.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-marklogic/develop/documentation/screenshot-pdi-marklogic-input.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-marklogic/develop/documentation/screenshot-pdi-marklogic-output.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>pdi-marklogic</id>
+    <type>Mixed</type>
+    <name>PDI MarkLogic Server NoSQL database support Plugin</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>	
+<![CDATA[
+Provides connectivity to the MarkLogic Server NoSQL database. Provides a database connection wizard as well as document write, document read and collection scan steps.
+<br><br>
+Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above only.
+!]]>
+    </description>
+    <documentation_url>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-marklogic/develop/README.md</documentation_url>
+    <author>Pentaho Sales Engineering</author>
+    <author_url>https://github.com/Pentaho-SE-EMEA-APAC</author_url>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>UNSUPPORTED</support_level>
+    <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
+    <small_img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</small_img>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0</version>
+        <name>1.0</name>
+        <package_url>https://github.com/Pentaho-SE-EMEA-APAC/pdi-marklogic/releases/download/v1.0/pdi-marklogic.zip</package_url>
+        <description></description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.1</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-marklogic/develop/documentation/screenshot-pdi-marklogic-input.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-marklogic/develop/documentation/screenshot-pdi-marklogic-output.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+
+  
 </market>
