@@ -9602,9 +9602,9 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   <versions>
     <version>
       <branch>STABLEP6</branch>
-      <version>2.1.0</version>
+      <version>2.1.1</version>
       <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.0-p6.zip</package_url>
+      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.1-p6.zip</package_url>
       <description>New charting library support for Highchart,Fusionchart and Echarts with new Pin settings wizard</description>
       <max_parent_version>6.9</max_parent_version>
       <min_parent_version>5.4</min_parent_version>
@@ -9615,9 +9615,9 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     </version>
     <version>
       <branch>STABLEP7</branch>
-      <version>2.1.0</version>
+      <version>2.1.1</version>
       <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.0-p7.zip</package_url>
+      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.1-p7.zip</package_url>
       <description>New charting library support for Highchart,Fusionchart and Echarts with new Pin settings wizard</description>
       <max_parent_version>7.0</max_parent_version>
       <min_parent_version>7.0</min_parent_version>
@@ -9628,9 +9628,9 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     </version>
     <version>
       <branch>STABLEP7_1</branch>
-      <version>2.1.0</version>
+      <version>2.1.1</version>
       <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.0-p7_1.zip</package_url>
+      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.1-p7_1.zip</package_url>
       <description>New charting library support for Highchart,Fusionchart and Echarts with new Pin settings wizard</description>
       <max_parent_version>7.1</max_parent_version>
       <min_parent_version>7.1</min_parent_version>
@@ -9641,9 +9641,9 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
     </version>
     <version>
       <branch>STABLEP8</branch>
-      <version>2.1.0</version>
+      <version>2.1.1</version>
       <name>Stable (Community)</name>
-      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.0-p8.zip</package_url>
+      <package_url>https://github.com/SPECUSA/SelfServiceBI/raw/master/SelfServiceBI-ce-2.1.1-p8.zip</package_url>
       <description>New charting library support for Highchart,Fusionchart and Echarts with new Pin settings wizard</description>
       <max_parent_version>8.1</max_parent_version>
       <min_parent_version>8.0</min_parent_version>
