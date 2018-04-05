@@ -11307,9 +11307,9 @@ Capabilities:
     <versions>
       <version>
         <branch>master</branch>
-        <version>1.0.0</version>
-        <name>1.0.0</name>
-        <package_url>https://github.com/HiromuHota/pdi-git-plugin/releases/download/1.0.0/pdi-git-plugin-1.0.0-jar-with-dependencies.zip</package_url>
+        <version>1.0.1</version>
+        <name>1.0.1</name>
+        <package_url>https://github.com/HiromuHota/pdi-git-plugin/releases/download/1.0.1/pdi-git-plugin-1.0.1-jar-with-dependencies.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
