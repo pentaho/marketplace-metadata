@@ -11564,7 +11564,6 @@ Uses asynchronous database connection for speed. A collection scan step is provi
       <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-pdi-steps.png</screenshot>
       <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-input-sample.png</screenshot>
       <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-output-sample.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-foxx-invoke.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -11613,12 +11612,8 @@ These are all Alpha release, with no official support. Please engage Pentaho ser
     </versions>
     <screenshots>
       <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-pdi-steps.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-input-sample.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-output-sample.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-arangodb/develop/documentation/screenshot-arangodb-foxx-invoke.png</screenshot>
       <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/documentation/screenshot-test-transformation.png</screenshot>
       <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-marklogic/develop/documentation/screenshot-pdi-marklogic-input.png</screenshot>
-      <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-marklogic/develop/documentation/screenshot-pdi-marklogic-output.png</screenshot>
     </screenshots>
   </market_entry>
 
