@@ -2989,8 +2989,8 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp1.PNG</screenshot>
-      <screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp2.PNG</screenshot>
+      <screenshot>https://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp1.PNG</screenshot>
+      <screenshot>https://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp2.PNG</screenshot>
     </screenshots>
   </market_entry>
 
@@ -3746,9 +3746,9 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/1.pentaho%20marketplace.png</screenshot>
-      <screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/2.pentaho%20marketplace.png</screenshot>
-      <screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/3.pentaho%20marketplace.png</screenshot>
+      <screenshot>https://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/1.pentaho%20marketplace.png</screenshot>
+      <screenshot>https://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/2.pentaho%20marketplace.png</screenshot>
+      <screenshot>https://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/3.pentaho%20marketplace.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -6838,8 +6838,8 @@ With this plugin you can:
   <market_entry>
     <id>MDCheckPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-32x32.png</small_img>
     <name>Melissa Contact Data Verify (Verification, Duplicate Identification, and Data Enhancement)</name>
     <category>
       <name>Data Quality</name>
@@ -6911,7 +6911,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -6925,9 +6925,9 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -6935,8 +6935,8 @@ With this plugin you can:
   <market_entry>
     <id>MDGlobalVerifyPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-32x32.png</small_img>
     <name>Melissa Global Contact Data Verify</name>
     <category>
       <name>Data Quality</name>
@@ -6982,7 +6982,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDGlobalVerify.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDGlobalVerify.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -6996,9 +6996,9 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -7006,8 +7006,8 @@ With this plugin you can:
   <market_entry>
     <id>MDPersonatorPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-32x32.png</small_img>
     <name>Melissa ID Verify, Complete &amp; Enrich</name>
     <category>
       <name>Data Quality</name>
@@ -7049,7 +7049,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7063,17 +7063,17 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
 	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDProfilerPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-32x32.png</small_img>
     <name>Melissa Profiler</name>
     <category>
       <name>Data Quality</name>
@@ -7116,7 +7116,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDProfiler.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDProfiler.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7130,17 +7130,17 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
 	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDPropertyPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-32x32.png</small_img>
     <name>Melissa Property Data Enrichment</name>
     <category>
       <name>Data Quality</name>
@@ -7181,7 +7181,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDProperty.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDProperty.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7195,17 +7195,17 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-	  <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
 	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDBusinessCoderPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-32x32.png</small_img>
     <name>Melissa BusinessCoder</name>
     <category>
       <name>Data Quality</name>
@@ -7248,7 +7248,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDBusinessCoder.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDBusinessCoder.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7262,17 +7262,17 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-	  <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
 	</screenshots>
   </market_entry>
 
     <market_entry>
     <id>MDCleanserPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-32x32.png</small_img>
     <name>Melissa General Cleanser</name>
     <category>
       <name>Data Quality</name>
@@ -7313,7 +7313,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDCleanser.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDCleanser.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7327,9 +7327,9 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-	  <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_55.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_56.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_55.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_56.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -10236,9 +10236,9 @@ Capabilities:
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://bluezio.github.io/acldash/full_screenshot_main.png</screenshot>
-      <screenshot>http://bluezio.github.io/acldash/full_screenshot_user.png</screenshot>
-      <screenshot>http://bluezio.github.io/acldash/full_screenshot_role.png</screenshot>
+      <screenshot>https://bluezio.github.io/acldash/full_screenshot_main.png</screenshot>
+      <screenshot>https://bluezio.github.io/acldash/full_screenshot_user.png</screenshot>
+      <screenshot>https://bluezio.github.io/acldash/full_screenshot_role.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -10349,8 +10349,8 @@ Capabilities:
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://bluezio.github.io/pentaho-artifactCatalog/full_screenshot.png</screenshot>
-      <screenshot>http://bluezio.github.io/pentaho-artifactCatalog/full_screenshot2.png</screenshot>
+      <screenshot>https://bluezio.github.io/pentaho-artifactCatalog/full_screenshot.png</screenshot>
+      <screenshot>https://bluezio.github.io/pentaho-artifactCatalog/full_screenshot2.png</screenshot>
     </screenshots>
   </market_entry>
 
