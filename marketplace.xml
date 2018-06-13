@@ -63,7 +63,7 @@
         <version>6.0.0.0-353</version>
         <name>Latest snapshot build</name>
         <package_url>
-          https://nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pentaho-marketplace/6.0.0.0-353/pentaho-marketplace-6.0.0.0-353.kar
+          https://public.nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pentaho-marketplace/6.0.0.0-353/pentaho-marketplace-6.0.0.0-353.kar
         </package_url>
         <description>Build for Pentaho 6.0</description>
         <build_id/>
@@ -158,10 +158,10 @@
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf/6.0.0.0-353/pentaho-cdf-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf/6.0.0.0-353/pentaho-cdf-6.0.0.0-353.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.0.0.0-353/pentaho-cdf-samples-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.0.0.0-353/pentaho-cdf-samples-6.0.0.0-353.zip
         </samples_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -179,10 +179,10 @@
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/6.1.0.1-196/pentaho-cdf-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/6.1.0.1-196/pentaho-cdf-6.1.0.1-196.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.1.0.1-196/pentaho-cdf-samples-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.1.0.1-196/pentaho-cdf-samples-6.1.0.1-196.zip
         </samples_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -200,10 +200,10 @@
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.0.0.0-25/pentaho-cdf-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.0.0.0-25/pentaho-cdf-7.0.0.0-25.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.0.0.0-25/pentaho-cdf-samples-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.0.0.0-25/pentaho-cdf-samples-7.0.0.0-25.zip
         </samples_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -221,10 +221,10 @@
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.1.0.0-12/pentaho-cdf-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.1.0.0-12/pentaho-cdf-7.1.0.0-12.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.1.0.0-12/pentaho-cdf-samples-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.1.0.0-12/pentaho-cdf-samples-7.1.0.0-12.zip
         </samples_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -243,10 +243,10 @@
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.0.0.0-28/pentaho-cdf-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.0.0.0-28/pentaho-cdf-8.0.0.0-28.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.0.0.0-28/pentaho-cdf-samples-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.0.0.0-28/pentaho-cdf-samples-8.0.0.0-28.zip
         </samples_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -263,10 +263,10 @@
         <version>8.1.0.0-365</version>
         <name>8.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.1.0.0-365/pentaho-cdf-8.1.0.0-365.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.1.0.0-365/pentaho-cdf-8.1.0.0-365.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.1.0.0-365/pentaho-cdf-samples-8.1.0.0-365.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.1.0.0-365/pentaho-cdf-samples-8.1.0.0-365.zip
         </samples_url>
         <description>8.1 Platform Release</description>
         <build_id/>
@@ -351,10 +351,10 @@
         <version>7.1-SNAPSHOT</version>
         <name>TRUNK</name>
         <package_url>
-          https://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf&amp;v=7.1-SNAPSHOT&amp;p=zip
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf&amp;v=7.1-SNAPSHOT&amp;p=zip
         </package_url>
         <samples_url>
-          https://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
         </samples_url>
         <description>
           Build for Pentaho 6/7
@@ -408,10 +408,10 @@
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.0.0.0-353/cda-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.0.0.0-353/cda-6.0.0.0-353.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.0.0.0-353/cda-samples-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.0.0.0-353/cda-samples-6.0.0.0-353.zip
         </samples_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -428,10 +428,10 @@
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.1.0.1-196/cda-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.1.0.1-196/cda-6.1.0.1-196.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.1.0.1-196/cda-samples-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.1.0.1-196/cda-samples-6.1.0.1-196.zip
         </samples_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -449,10 +449,10 @@
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.0.0.0-25/cda-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.0.0.0-25/cda-7.0.0.0-25.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.0.0.0-25/cda-samples-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.0.0.0-25/cda-samples-7.0.0.0-25.zip
         </samples_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -469,10 +469,10 @@
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.1.0.0-12/cda-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.1.0.0-12/cda-7.1.0.0-12.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.1.0.0-12/cda-samples-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.1.0.0-12/cda-samples-7.1.0.0-12.zip
         </samples_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -489,10 +489,10 @@
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.0.0.0-28/cda-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.0.0.0-28/cda-8.0.0.0-28.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.0.0.0-28/cda-samples-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.0.0.0-28/cda-samples-8.0.0.0-28.zip
         </samples_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -509,10 +509,10 @@
         <version>8.1.0.0-365</version>
         <name>8.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.1.0.0-365/cda-8.1.0.0-365.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.1.0.0-365/cda-8.1.0.0-365.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.1.0.0-365/cda-samples-8.1.0.0-365.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.1.0.0-365/cda-samples-8.1.0.0-365.zip
         </samples_url>
         <description>8.1 Platform Release</description>
         <build_id/>
@@ -594,10 +594,10 @@
         <version>7.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          https://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda&amp;v=7.1-SNAPSHOT&amp;p=zip
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda&amp;v=7.1-SNAPSHOT&amp;p=zip
         </package_url>
         <samples_url>
-          https://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
         </samples_url>
         <description>
           Build for Pentaho 6/7
@@ -653,10 +653,10 @@
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.0.0.0-353/pentaho-cdf-dd-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.0.0.0-353/pentaho-cdf-dd-6.0.0.0-353.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.0.0.0-353/pentaho-cdf-dd-solution-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.0.0.0-353/pentaho-cdf-dd-solution-6.0.0.0-353.zip
         </samples_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -674,10 +674,10 @@
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.1.0.1-196/pentaho-cdf-dd-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.1.0.1-196/pentaho-cdf-dd-6.1.0.1-196.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.1.0.1-196/pentaho-cdf-dd-solution-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.1.0.1-196/pentaho-cdf-dd-solution-6.1.0.1-196.zip
         </samples_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -695,10 +695,10 @@
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.0.0.0-25/pentaho-cdf-dd-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.0.0.0-25/pentaho-cdf-dd-7.0.0.0-25.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.0.0.0-25/pentaho-cdf-dd-solution-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.0.0.0-25/pentaho-cdf-dd-solution-7.0.0.0-25.zip
         </samples_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -715,10 +715,10 @@
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.1.0.0-12/pentaho-cdf-dd-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.1.0.0-12/pentaho-cdf-dd-7.1.0.0-12.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.1.0.0-12/pentaho-cdf-dd-solution-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.1.0.0-12/pentaho-cdf-dd-solution-7.1.0.0-12.zip
         </samples_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -735,10 +735,10 @@
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.0.0.0-28/pentaho-cdf-dd-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.0.0.0-28/pentaho-cdf-dd-8.0.0.0-28.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.0.0.0-28/pentaho-cdf-dd-solution-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.0.0.0-28/pentaho-cdf-dd-solution-8.0.0.0-28.zip
         </samples_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -755,10 +755,10 @@
         <version>8.1.0.0-365</version>
         <name>8.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.1.0.0-365/pentaho-cdf-dd-8.1.0.0-365.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.1.0.0-365/pentaho-cdf-dd-8.1.0.0-365.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.1.0.0-365/pentaho-cdf-dd-solution-8.1.0.0-365.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.1.0.0-365/pentaho-cdf-dd-solution-8.1.0.0-365.zip
         </samples_url>
         <description>8.1 Platform Release</description>
         <build_id/>
@@ -904,7 +904,7 @@
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.0.0.0-353/cgg-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.0.0.0-353/cgg-6.0.0.0-353.zip
         </package_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -922,7 +922,7 @@
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.1.0.1-196/cgg-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.1.0.1-196/cgg-6.1.0.1-196.zip
         </package_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -939,7 +939,7 @@
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.0.0.0-25/cgg-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.0.0.0-25/cgg-7.0.0.0-25.zip
         </package_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -956,7 +956,7 @@
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.1.0.0-12/cgg-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.1.0.0-12/cgg-7.1.0.0-12.zip
         </package_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -974,7 +974,7 @@
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.0.0.0-28/cgg-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.0.0.0-28/cgg-8.0.0.0-28.zip
         </package_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -992,7 +992,7 @@
         <version>8.1.0.0-365</version>
         <name>8.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.1.0.0-365/cgg-8.1.0.0-365.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.1.0.0-365/cgg-8.1.0.0-365.zip
         </package_url>
         <description>8.1 Platform Release</description>
         <build_id/>
@@ -1104,7 +1104,7 @@
         <version>6.1.0.1-6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/6.1.0.1-196/sparkl-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/sparkl/6.1.0.1-196/sparkl-6.1.0.1-196.zip
         </package_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -1122,7 +1122,7 @@
         <version>7.0.0.0-7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/7.0.0.0-25/sparkl-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/sparkl/7.0.0.0-25/sparkl-7.0.0.0-25.zip
         </package_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -1140,7 +1140,7 @@
         <version>7.1.0.0-7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-                https://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/7.1.0.0-12/sparkl-7.1.0.0-12.zip
+                https://public.nexus.pentaho.org/content/groups/omni/pentaho/sparkl/7.1.0.0-12/sparkl-7.1.0.0-12.zip
         </package_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -1157,7 +1157,7 @@
         <version>8.0.0.0-8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-                https://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/8.0.0.0-28/sparkl-8.0.0.0-28.zip
+                https://public.nexus.pentaho.org/content/groups/omni/pentaho/sparkl/8.0.0.0-28/sparkl-8.0.0.0-28.zip
         </package_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -6320,7 +6320,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/ssh2-plugin/6.0.0.0-353/ssh2-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/ssh2-plugin/6.0.0.0-353/ssh2-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/ssh2-plugin</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6355,7 +6355,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/aggregate-rows-plugin/6.0.0.0-353/aggregate-rows-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/aggregate-rows-plugin/6.0.0.0-353/aggregate-rows-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/aggregate-rows</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6390,7 +6390,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/get-previous-row-field-plugin/6.0.0.0-353/get-previous-row-field-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/get-previous-row-field-plugin/6.0.0.0-353/get-previous-row-field-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/get-previous-row-field</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6425,7 +6425,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-stream-plugin/6.0.0.0-353/xml-input-stream-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-stream-plugin/6.0.0.0-353/xml-input-stream-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/xml-input-stream</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6460,7 +6460,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-plugin/6.0.0.0-353/xml-input-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-plugin/6.0.0.0-353/xml-input-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/xml-input</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6705,7 +6705,7 @@ With this plugin you can:
         <branch>Stable</branch>
         <version>6.0.0.0-349</version>
         <package_url>
-          https://nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pdi-marketplace/6.0.0.0-349/pdi-marketplace-6.0.0.0-349.kar
+          https://public.nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pdi-marketplace/6.0.0.0-349/pdi-marketplace-6.0.0.0-349.kar
         </package_url>
         <development_stage>
           <lane>Community</lane>
