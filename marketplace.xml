@@ -11541,8 +11541,8 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>0.9</version>
-        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS/releases/download/0.9/Pentaho-AWS-SNS-Notify-Plugin.zip</package_url>
+        <version>0.9.1</version>
+        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS/releases/download/0.9.1/Pentaho-AWS-SNS-Notify-Plugin-0.9.1.zip</package_url>
         <source_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS</source_url>
 	<min_parent_version>6.1</min_parent_version>
         <development_stage>
@@ -11779,6 +11779,41 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </screenshots>
   </market_entry>
 
-
+  <market_entry>
+    <id>AWS-SQS-Reader</id>
+    <type>Step</type>
+    <name>AWS SQS Reader</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The AWS-SQS Plugin enables you receive messages from Amazon Webservices Simple Queue Service within a PDI Transformation.</description>
+    <documentation_url>https://freddyffm.github.io/PDIPlugin-AWS-SQS-Reader/</documentation_url>
+    <author>Michael Fraedrich</author>
+    <author_url>https://github.com/FreddyFFM</author_url>
+    <img>-</img>
+    <small_img>-</small_img>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Support by author and/or GitHub community</support_message>
+    <support_organization>Author</support_organization>
+    <support_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SQS-Reader/issues</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>0.9</version>
+        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SQS-Reader/releases/download/0.9/AWS-SQS-Reader-0.9.zip</package_url>
+        <source_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SQS-Reader</source_url>
+	<min_parent_version>6.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
   
 </market>
