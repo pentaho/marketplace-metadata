@@ -1169,6 +1169,22 @@
         </development_stage>
       </version>
 
+   <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+                http://ctools.pentaho.com/files//sparkl/8.1/sparkl-8.1.0.0-365.zip
+        </package_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
 
     </versions>
     <screenshots>
