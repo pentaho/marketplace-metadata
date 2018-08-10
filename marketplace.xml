@@ -2060,10 +2060,10 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 	</version>
 	 <version>
 		<branch>ENTERPRISE71</branch>
-		<version>3.11-EE-P71</version>
+		<version>3.17-EE-P71</version>
 		<name>Stable (Pentaho 7.1 - Enterprise)</name>
-		<package_url>https://www.dropbox.com/s/jjv3q80nbawxmbf/saiku-plugin.zip?dl=1</package_url>
-		<description>3.11 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p7-3.17.zip</package_url>
+		<description>3.17 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
 		<max_parent_version>8.9</max_parent_version>
