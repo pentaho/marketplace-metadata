@@ -1877,13 +1877,13 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.1.99</max_parent_version>        
+        <max_parent_version>6.1.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
         </development_stage>
       </version>
-      
+
       <version>
         <branch>RELEASE</branch>
         <version>18.02.06</version>
@@ -1896,14 +1896,14 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <changelog/>
         <build_id/>
         <min_parent_version>7.0</min_parent_version>
-        <max_parent_version>8.1.99</max_parent_version>        
+        <max_parent_version>8.1.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
         </development_stage>
       </version>
-      
-      
+
+
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
@@ -5917,7 +5917,7 @@ any translation issues or suggestions for improvement
         <![CDATA[
             Viz-API samples to test and evaluate Viz-API kar visualizations that were not immediatly available after his installation (Car and Office visualizations).
             <br><br>
-            After installing these samples you will be able to explore Office and Car visualizations, both on Analyzer and on CTools, and access CTools dashboards where these and the remaining visualizations are utilized. 
+            After installing these samples you will be able to explore Office and Car visualizations, both on Analyzer and on CTools, and access CTools dashboards where these and the remaining visualizations are utilized.
             <br><br>
             To use it please observe the following steps:
             <ul>
@@ -6051,7 +6051,7 @@ any translation issues or suggestions for improvement
 
   <market_entry>
     <id>pmi</id>
-    <type>Step</type>    
+    <type>Step</type>
     <img>https://github.com/pentaho-labs/pentaho-machine-intelligence/raw/master/screenshot/pdi_pmi.png</img>
     <name>Plugin Machine Intelligence</name>
 
@@ -10704,10 +10704,23 @@ Capabilities:
     <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_url>https://github.com/inquidia/PentahoSnowflakePlugin/issues</support_url>
     <versions>
-	  <version>
+      <version>
+        <branch>master</branch>
+        <version>1.1.4</version>
+        <name>1.1.4 (Stable)</name>
+        <build_id>20180820-1509</build_id>
+        <package_url>https://github.com/inquidia/PentahoSnowflakePlugin/releases/download/v1.1.4/SnowflakePlugin-1.1.4.zip</package_url>
+        <min_parent_version>7.1</min_parent_version>
+        <source_url>https://github.com/inquidia/PentahoSnowflakePlugin/archive/v1.1.4.zip</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+	    <version>
         <branch>master</branch>
         <version>1.1.3</version>
-        <name>1.1.3 (Stable)</name>
+        <name>1.1.3</name>
         <package_url>https://github.com/inquidia/PentahoSnowflakePlugin/releases/download/1.1.3/snowflake-plugin-package-1.1.3.zip</package_url>
         <min_parent_version>6.1</min_parent_version>
         <source_url>https://github.com/inquidia/PentahoSnowflakePlugin/archive/1.1.3.zip</source_url>
@@ -11639,7 +11652,7 @@ Capabilities:
       <screenshot>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/dynamicSelectors.png</screenshot>
     </screenshots>
   </market_entry>
-  
+
   <market_entry>
     <id>pdi-streamschemamerge-plugin</id>
     <type>Step</type>
@@ -11678,7 +11691,7 @@ Capabilities:
       <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/documentation/screenshot-test-transformation.png</screenshot>
     </screenshots>
   </market_entry>
-  
+
   <market_entry>
     <id>pdi-arangodb</id>
     <type>Mixed</type>
@@ -11689,7 +11702,7 @@ Capabilities:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>	
+    <description>
 <![CDATA[
 Provides connectivity to the ArangoDB NoSQL database. Provides a database connection wizard as well as document write, document read, collection scan, and Foxx service invoke steps.
 <br><br>
@@ -11727,7 +11740,7 @@ Uses asynchronous database connection for speed. A collection scan step is provi
   </market_entry>
 
 
-  
+
   <market_entry>
     <id>pdi-presales-collection</id>
     <type>Mixed</type>
@@ -11738,7 +11751,7 @@ Uses asynchronous database connection for speed. A collection scan step is provi
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>	
+    <description>
 <![CDATA[
 Provides a variety of plugins that have been created by pre-sales engineers in Pentaho.
 <br><br>
@@ -11786,7 +11799,7 @@ These are all Alpha release, with no official support. Please engage Pentaho ser
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>	
+    <description>
 <![CDATA[
 Provides connectivity to the MarkLogic Server NoSQL database. Provides a database connection wizard as well as document write, document read and collection scan steps.
 <br><br>
@@ -11827,5 +11840,5 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
   </market_entry>
 
 
-  
+
 </market>
