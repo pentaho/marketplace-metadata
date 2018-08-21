@@ -6077,8 +6077,8 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
 	<branch>Trunk</branch>
-	<version>1.1</version>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.1/plugin-machine-intelligence-package-1.1.zip</package_url>
+	<version>1.3</version>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.3/plugin-machine-intelligence-package-1.3.zip</package_url>
 
       <development_stage>
         <lane>Customer</lane>
