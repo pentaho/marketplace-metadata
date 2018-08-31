@@ -2141,7 +2141,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <branch>STABLEP7</branch>
         <version>3.90</version>
         <name>Stable (Community)</name>
-        <package_url>http://meteorite.bi/downloads/saiku-server-foodmart-3.90.zip</package_url>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p7.1-3.90.zip</package_url>
         <description>3.90 release for the Saiku Plugin.</description>
         <max_parent_version>8.1</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
