@@ -11721,7 +11721,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
         <branch>master</branch>
         <version>1.0.1</version>
         <name>1.0</name>                     
-        <package_url>https://github.com/nadment/pdi-as400-plugin/releases/download/1.0.0/pdi-as400-plugin-1.0.1.zip</package_url>
+        <package_url>https://github.com/nadment/pdi-as400-plugin/releases/download/1.0.1/pdi-as400-plugin-1.0.1.zip</package_url>
         <description></description>
         <changelog></changelog>
         <build_id>1</build_id>
