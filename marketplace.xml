@@ -5985,7 +5985,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>TRUNK-SNAPSHOT</version>
-        <package_url>https://pentaho.box.com/shared/static/qllv3c2bo1eiv0o5f468.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pdi-mysql-plugin/pdi-mysql-plugin-TRUNK-SNAPSHOT.zip</package_url>
         <source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
         <development_stage>
           <lane>Customer</lane>
@@ -6532,7 +6532,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>5.2.0.1-216</version>
-        <package_url>https://pentaho.box.com/shared/static/u5b0ai3shvot41f4g2a6.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-vertica-bulkloader/VerticaBulkLoader-5.2.0.1-216.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-vertica-bulkloader</source_url>
         <development_stage>
 <lane>Community</lane>
@@ -6817,7 +6817,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/fcvlirqac4k6semj6q7d.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/BucketPartitioner/BucketPartitioner.zip</package_url>
         <source_url>https://github.com/mattyb149/BucketPartitioner</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6866,7 +6866,7 @@ With this plugin you can:
         <branch>Stable</branch>
         <version>1.0</version>
         <name>1.0</name>
-        <package_url>https://pentaho.box.com/shared/static/sz6y7m04slzxy93brg3d.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/MaxMindGeoIPLookup/MaxMindGeoIPLookup.zip</package_url>
         <source_url>https://github.com/mattcasters/MaxMindGeoIPLookup</source_url>
         <description>First stable release, supports running in Map/Reduce, handles VFS URLs for database files
         </description>
@@ -7733,7 +7733,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>5.0.1</version>
-        <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-hadoop-shims-idh23-package/pentaho-hadoop-shims-idh23-package-5.0.1.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/idh</source_url>
         <development_stage>
           <lane>Customer</lane>
@@ -7774,7 +7774,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>5.0.1</version>
-        <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-hadoop-shims-idh34-package/pentaho-hadoop-shims-idh34-package-5.0.1.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/cdh3u4</source_url>
         <development_stage>
           <lane>Customer</lane>
@@ -8215,7 +8215,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/0wq4a5u4dtkdcvsb8h17.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-kettle-compare-fields-plugin/pentaho-kettle-compare-fields-plugin-1.1.0.zip</package_url>
         <min_parent_version>5.0.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -8572,7 +8572,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0 Beta</version>
-        <package_url>https://pentaho.box.com/shared/static/ksd8kr7zazd9ymc4rjbo.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/TeraDataBulkLoader/TeraDataBulkLoader.zip</package_url>
         <development_stage>
           <lane>Customer</lane>
           <phase>3</phase>
@@ -10325,7 +10325,7 @@ Capabilities:
       <version>
         <branch>Stable</branch>
         <version>6.0</version>
-        <package_url>https://pentaho.box.com/shared/static/sc18b11tdrsoeymwn8dznit0swms7kuu.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-hadoop-shims-hadoop-20-package/pentaho-hadoop-shims-hadoop-20-package-60.2015.10.00-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/60.2015.10.00-R/hadoop-20</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -10862,7 +10862,7 @@ Capabilities:
         <branch>Stable</branch>
         <version>7.0-QAT-435</version>
         <name>7.0</name>
-        <package_url>https://pentaho.box.com/shared/static/3b6258qlb78beajczxx2widjsb09o7z6.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/groups/omni/pentaho/agile-bi-package/7.0.0.0-25/agile-bi-package-7.0.0.0-25.zip</package_url>
         <source_url>https://github.com/pentaho/pdi-agile-bi-plugin</source_url>
         <development_stage>
           <lane>Community</lane>
