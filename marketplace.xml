@@ -8962,12 +8962,12 @@ With this plugin you can:
     <installation_notes><![CDATA[If there's new version, recomended to unistall first, restart then install again.]]></installation_notes>
     <documentation_url>http://maasdi.github.io/pentaho-mongodb-delete-plugin/</documentation_url>
     <versions>
-      <version>
+	  <version>
         <branch>master</branch>
-        <version>1.0.1-RELEASE</version>
-        <build_id>20151203-0342</build_id>
-        <name>1.0.1-RELEASE</name>
-        <package_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/releases/download/1.0.1-RELEASE/pentaho-mongodb-delete-plugin-1.0.1-RELEASE.zip</package_url>
+        <version>2.0.0-RELEASE</version>
+		<build_id/>
+        <name>2.0.0-RELEASE</name>
+        <package_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/releases/download/2.0.0-RELEASE/pentaho-mongodb-delete-plugin-2.0.0-RELEASE.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
