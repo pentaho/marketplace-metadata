@@ -11738,5 +11738,45 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
       <screenshot>https://raw.githubusercontent.com/nadment/pdi-as400-plugin/master/doc/screenshot-pdi-as400-dialog.png</screenshot>
     </screenshots>
   </market_entry>
+
+  <market_entry>
+    <id>pdi-coalesce-plugin</id>
+    <type>Step</type>
+    <name>PDI Coalesce</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin provide PDI step to return the first non-null value from a set of fields.</description>
+    <documentation_url>https://github.com/nadment/pdi-coalesce-plugin/wiki</documentation_url>
+    <author>Nicolas ADMENT</author>
+    <author_url>https://github.com/nadment</author_url>
+	<license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>    
+    <img>https://raw.githubusercontent.com/nadment/pdi-coalesce-plugin/master/src/main/resources/coalesce.png</img>
+    <small_img>https://raw.githubusercontent.com/nadment/pdi-coalesce-plugin/master/src/main/resources/coalesce.png</small_img>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.0</version>
+        <name>1.0</name>                     
+        <package_url>https://github.com/nadment/pdi-coalesce-plugin/releases/download/1.0.0/pdi-coalesce-plugin-1.0.0.zip</package_url>
+        <description></description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>8.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/nadment/pdi-coalesce-plugin/master/doc/screenshot-pdi-coalesce-dialog.png</screenshot>
+    </screenshots>
+  </market_entry>
   
 </market>
