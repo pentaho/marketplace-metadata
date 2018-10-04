@@ -11287,7 +11287,7 @@ Capabilities:
         <branch>Stable</branch>
         <version>3.11.0</version>
         <name>3.11.0</name>
-        <package_url>https://github.com/knowbi/knowbi-pentaho-pdi-neo4j-output/releases/download/3.11.0/Neo4JOutput-3.11.0.zip</package_url>
+        <package_url>https://github.com/knowbi/knowbi-pentaho-pdi-neo4j-output/releases/download/3.13.3/Neo4JOutput-3.13.3.zip</package_url>
         <samples_url>https://github.com/knowbi/knowbi-pentaho-pdi-neo4j-output/releases/download/1.0/beer_graph.zip</samples_url>
         <development_stage>
           <lane>Community</lane>
