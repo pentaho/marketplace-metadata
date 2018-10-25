@@ -11288,7 +11288,7 @@ Capabilities:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Builld Neo4J graph databases. This plugin allows to create nodes (including labels and properties) and relationship (including relationship properties) without having to go through the hassle of building and uploading CSV files.</description>
+    <description>With these plugins you can build Neo4j graph databases. They allow you to create nodes (including labels and properties) and relationships (including relationship properties) without having to go through the hassle of building and uploading CSV files.  A Cypher step is provided so you can execute any statement, query or procedure directly on the database.</description>
     <author>know.bi</author>
     <author_url>http://www.know.bi</author_url>
     <author_logo>https://www.know-bi.be/images/interface/logo.svg</author_logo>
@@ -11301,13 +11301,13 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>0.1</version>
-        <name>0.1</name>
-        <package_url>https://github.com/knowbi/knowbi-pentaho-pdi-neo4j-output/releases/download/1.0/neo4j-output.zip</package_url>
+        <version>3.11.0</version>
+        <name>3.11.0</name>
+        <package_url>https://github.com/knowbi/knowbi-pentaho-pdi-neo4j-output/releases/download/3.13.3/Neo4JOutput-3.13.3.zip</package_url>
         <samples_url>https://github.com/knowbi/knowbi-pentaho-pdi-neo4j-output/releases/download/1.0/beer_graph.zip</samples_url>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
