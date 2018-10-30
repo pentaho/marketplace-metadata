@@ -7680,9 +7680,22 @@ With this plugin you can:
     <versions>
       <version>
         <branch>TRUNK</branch>
+        <version>2.0.1</version>
+        <build_id>39</build_id>
+        <name>Version 2.0.1 (Stable)</name>
+        <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/2.0.1/tde-output-plugin.zip</package_url>
+        <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
+        <min_parent_version>8.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
         <version>2.0.0</version>
         <build_id>39</build_id>
-        <name>Version 2.0.0 (Stable)</name>
+        <name>Version 2.0.0</name>
         <package_url>https://github.com/cdeptula/tdeoutputplugin/releases/download/2.0.0/TDEOutputPlugin2.0.0.zip</package_url>
         <source_url>https://github.com/cdeptula/tdeoutputplugin</source_url>
         <min_parent_version>6.0</min_parent_version>
@@ -11891,8 +11904,8 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
       </version>
     </versions>
   </market_entry>
-    
-    
+
+
 
  <market_entry>
     <id>pdi-as400-plugin</id>
@@ -11909,7 +11922,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <author>Nicolas ADMENT</author>
     <author_url>https://github.com/nadment</author_url>
 	<license_name>Apache License 2.0</license_name>
-    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>    
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
     <img>https://raw.githubusercontent.com/nadment/pdi-as400-plugin/master/src/main/resources/as400command.png</img>
     <small_img>https://raw.githubusercontent.com/nadment/pdi-as400-plugin/master/src/main/resources/as400command.png</small_img>
     <support_level>COMMUNITY_SUPPORTED</support_level>
@@ -11917,12 +11930,12 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
       <version>
         <branch>master</branch>
         <version>1.0.1</version>
-        <name>1.0</name>                     
+        <name>1.0</name>
         <package_url>https://github.com/nadment/pdi-as400-plugin/releases/download/1.0.1/pdi-as400-plugin-1.0.1.zip</package_url>
         <description></description>
         <changelog></changelog>
         <build_id>1</build_id>
-        <min_parent_version>7.0</min_parent_version>        
+        <min_parent_version>7.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>1</phase>
@@ -11950,7 +11963,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <author>Nicolas ADMENT</author>
     <author_url>https://github.com/nadment</author_url>
 	<license_name>Apache License 2.0</license_name>
-    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>    
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
     <img>https://raw.githubusercontent.com/nadment/pdi-coalesce-plugin/master/src/main/resources/coalesce.png</img>
     <small_img>https://raw.githubusercontent.com/nadment/pdi-coalesce-plugin/master/src/main/resources/coalesce.png</small_img>
     <support_level>COMMUNITY_SUPPORTED</support_level>
@@ -11958,7 +11971,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
       <version>
         <branch>master</branch>
         <version>1.0.1</version>
-        <name>1.0</name>                     
+        <name>1.0</name>
         <package_url>https://github.com/nadment/pdi-coalesce-plugin/releases/download/1.0.1/pdi-coalesce-plugin-1.0.1.zip</package_url>
         <description></description>
         <changelog></changelog>
