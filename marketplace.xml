@@ -63,7 +63,7 @@
         <version>6.0.0.0-353</version>
         <name>Latest snapshot build</name>
         <package_url>
-          https://nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pentaho-marketplace/6.0.0.0-353/pentaho-marketplace-6.0.0.0-353.kar
+          https://public.nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pentaho-marketplace/6.0.0.0-353/pentaho-marketplace-6.0.0.0-353.kar
         </package_url>
         <description>Build for Pentaho 6.0</description>
         <build_id/>
@@ -158,10 +158,10 @@
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf/6.0.0.0-353/pentaho-cdf-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf/6.0.0.0-353/pentaho-cdf-6.0.0.0-353.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.0.0.0-353/pentaho-cdf-samples-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.0.0.0-353/pentaho-cdf-samples-6.0.0.0-353.zip
         </samples_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -179,10 +179,10 @@
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/6.1.0.1-196/pentaho-cdf-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/6.1.0.1-196/pentaho-cdf-6.1.0.1-196.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.1.0.1-196/pentaho-cdf-samples-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/6.1.0.1-196/pentaho-cdf-samples-6.1.0.1-196.zip
         </samples_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -200,10 +200,10 @@
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.0.0.0-25/pentaho-cdf-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.0.0.0-25/pentaho-cdf-7.0.0.0-25.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.0.0.0-25/pentaho-cdf-samples-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.0.0.0-25/pentaho-cdf-samples-7.0.0.0-25.zip
         </samples_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -221,10 +221,10 @@
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.1.0.0-12/pentaho-cdf-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/7.1.0.0-12/pentaho-cdf-7.1.0.0-12.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.1.0.0-12/pentaho-cdf-samples-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/7.1.0.0-12/pentaho-cdf-samples-7.1.0.0-12.zip
         </samples_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -243,10 +243,10 @@
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.0.0.0-28/pentaho-cdf-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.0.0.0-28/pentaho-cdf-8.0.0.0-28.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.0.0.0-28/pentaho-cdf-samples-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.0.0.0-28/pentaho-cdf-samples-8.0.0.0-28.zip
         </samples_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -257,6 +257,27 @@
           <phase>4</phase>
         </development_stage>
       </version>
+
+ <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.1.0.0-365/pentaho-cdf-8.1.0.0-365.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.1.0.0-365/pentaho-cdf-samples-8.1.0.0-365.zip
+        </samples_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
 
       <version>
@@ -330,10 +351,10 @@
         <version>7.1-SNAPSHOT</version>
         <name>TRUNK</name>
         <package_url>
-          https://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf&amp;v=7.1-SNAPSHOT&amp;p=zip
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf&amp;v=7.1-SNAPSHOT&amp;p=zip
         </package_url>
         <samples_url>
-          https://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=pentaho-cdf-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
         </samples_url>
         <description>
           Build for Pentaho 6/7
@@ -387,10 +408,10 @@
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.0.0.0-353/cda-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.0.0.0-353/cda-6.0.0.0-353.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.0.0.0-353/cda-samples-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.0.0.0-353/cda-samples-6.0.0.0-353.zip
         </samples_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -407,10 +428,10 @@
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.1.0.1-196/cda-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/6.1.0.1-196/cda-6.1.0.1-196.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.1.0.1-196/cda-samples-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/6.1.0.1-196/cda-samples-6.1.0.1-196.zip
         </samples_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -428,10 +449,10 @@
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.0.0.0-25/cda-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.0.0.0-25/cda-7.0.0.0-25.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.0.0.0-25/cda-samples-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.0.0.0-25/cda-samples-7.0.0.0-25.zip
         </samples_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -448,10 +469,10 @@
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.1.0.0-12/cda-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/7.1.0.0-12/cda-7.1.0.0-12.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.1.0.0-12/cda-samples-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/7.1.0.0-12/cda-samples-7.1.0.0-12.zip
         </samples_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -468,10 +489,10 @@
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.0.0.0-28/cda-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.0.0.0-28/cda-8.0.0.0-28.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.0.0.0-28/cda-samples-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.0.0.0-28/cda-samples-8.0.0.0-28.zip
         </samples_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -482,6 +503,27 @@
           <phase>4</phase>
         </development_stage>
       </version>
+
+ <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.1.0.0-365/cda-8.1.0.0-365.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.1.0.0-365/cda-samples-8.1.0.0-365.zip
+        </samples_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
       <version>
         <branch>STABLE</branch>
@@ -552,10 +594,10 @@
         <version>7.1-SNAPSHOT</version>
         <name>Trunk</name>
         <package_url>
-          https://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda&amp;v=7.1-SNAPSHOT&amp;p=zip
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda&amp;v=7.1-SNAPSHOT&amp;p=zip
         </package_url>
         <samples_url>
-          https://nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
+          https://public.nexus.pentaho.org/service/local/artifact/maven/redirect?r=omni&amp;g=pentaho&amp;a=cda-samples&amp;v=7.1-SNAPSHOT&amp;p=zip
         </samples_url>
         <description>
           Build for Pentaho 6/7
@@ -611,10 +653,10 @@
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.0.0.0-353/pentaho-cdf-dd-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.0.0.0-353/pentaho-cdf-dd-6.0.0.0-353.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.0.0.0-353/pentaho-cdf-dd-solution-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.0.0.0-353/pentaho-cdf-dd-solution-6.0.0.0-353.zip
         </samples_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -632,10 +674,10 @@
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.1.0.1-196/pentaho-cdf-dd-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/6.1.0.1-196/pentaho-cdf-dd-6.1.0.1-196.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.1.0.1-196/pentaho-cdf-dd-solution-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/6.1.0.1-196/pentaho-cdf-dd-solution-6.1.0.1-196.zip
         </samples_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -653,10 +695,10 @@
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.0.0.0-25/pentaho-cdf-dd-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.0.0.0-25/pentaho-cdf-dd-7.0.0.0-25.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.0.0.0-25/pentaho-cdf-dd-solution-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.0.0.0-25/pentaho-cdf-dd-solution-7.0.0.0-25.zip
         </samples_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -673,10 +715,10 @@
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.1.0.0-12/pentaho-cdf-dd-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/7.1.0.0-12/pentaho-cdf-dd-7.1.0.0-12.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.1.0.0-12/pentaho-cdf-dd-solution-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/7.1.0.0-12/pentaho-cdf-dd-solution-7.1.0.0-12.zip
         </samples_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -693,10 +735,10 @@
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.0.0.0-28/pentaho-cdf-dd-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.0.0.0-28/pentaho-cdf-dd-8.0.0.0-28.zip
         </package_url>
         <samples_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.0.0.0-28/pentaho-cdf-dd-solution-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.0.0.0-28/pentaho-cdf-dd-solution-8.0.0.0-28.zip
         </samples_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -707,6 +749,28 @@
           <phase>4</phase>
         </development_stage>
       </version>
+
+    <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.1.0.0-365/pentaho-cdf-dd-8.1.0.0-365.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.1.0.0-365/pentaho-cdf-dd-solution-8.1.0.0-365.zip
+        </samples_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
 
 
       <version>
@@ -840,7 +904,7 @@
         <version>6.0.0.0-353</version>
         <name>6.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.0.0.0-353/cgg-6.0.0.0-353.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.0.0.0-353/cgg-6.0.0.0-353.zip
         </package_url>
         <description>6.0 Platform Release</description>
         <build_id/>
@@ -858,7 +922,7 @@
         <version>6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.1.0.1-196/cgg-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/6.1.0.1-196/cgg-6.1.0.1-196.zip
         </package_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -875,7 +939,7 @@
         <version>7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.0.0.0-25/cgg-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.0.0.0-25/cgg-7.0.0.0-25.zip
         </package_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -892,7 +956,7 @@
         <version>7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.1.0.0-12/cgg-7.1.0.0-12.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/7.1.0.0-12/cgg-7.1.0.0-12.zip
         </package_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -910,7 +974,7 @@
         <version>8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.0.0.0-28/cgg-8.0.0.0-28.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.0.0.0-28/cgg-8.0.0.0-28.zip
         </package_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -921,6 +985,25 @@
           <phase>4</phase>
         </development_stage>
       </version>
+
+
+	  <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.1.0.0-365/cgg-8.1.0.0-365.zip
+        </package_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
 
       <version>
@@ -1021,7 +1104,7 @@
         <version>6.1.0.1-6.1.0.1-196</version>
         <name>6.1</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/6.1.0.1-196/sparkl-6.1.0.1-196.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/sparkl/6.1.0.1-196/sparkl-6.1.0.1-196.zip
         </package_url>
         <description>6.1 Platform Release</description>
         <build_id/>
@@ -1039,7 +1122,7 @@
         <version>7.0.0.0-7.0.0.0-25</version>
         <name>7.0</name>
         <package_url>
-            https://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/7.0.0.0-25/sparkl-7.0.0.0-25.zip
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/sparkl/7.0.0.0-25/sparkl-7.0.0.0-25.zip
         </package_url>
         <description>7.0 Platform Release</description>
         <build_id/>
@@ -1057,7 +1140,7 @@
         <version>7.1.0.0-7.1.0.0-12</version>
         <name>7.1</name>
         <package_url>
-                https://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/7.1.0.0-12/sparkl-7.1.0.0-12.zip
+                https://public.nexus.pentaho.org/content/groups/omni/pentaho/sparkl/7.1.0.0-12/sparkl-7.1.0.0-12.zip
         </package_url>
         <description>7.1 Platform Release</description>
         <build_id/>
@@ -1074,7 +1157,7 @@
         <version>8.0.0.0-8.0.0.0-28</version>
         <name>8.0</name>
         <package_url>
-                https://nexus.pentaho.org/content/groups/omni/pentaho/sparkl/8.0.0.0-28/sparkl-8.0.0.0-28.zip
+                https://public.nexus.pentaho.org/content/groups/omni/pentaho/sparkl/8.0.0.0-28/sparkl-8.0.0.0-28.zip
         </package_url>
         <description>8.0 Platform Release</description>
         <build_id/>
@@ -1086,6 +1169,22 @@
         </development_stage>
       </version>
 
+   <version>
+        <branch>8.1.0.0</branch>
+        <version>8.1.0.0-8.1.0.0-365</version>
+        <name>8.1</name>
+        <package_url>
+                http://ctools.pentaho.com/files//sparkl/8.1/sparkl-8.1.0.0-365.zip
+        </package_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.1</min_parent_version>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
 
     </versions>
     <screenshots>
@@ -1702,7 +1801,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>Stable release.</description>
         <build_id/>
         <min_parent_version>8.0</min_parent_version>
-        <max_parent_version>8.1.99</max_parent_version>
+        <max_parent_version>8.0.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -1778,13 +1877,13 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <changelog/>
         <build_id/>
         <min_parent_version>6.0</min_parent_version>
-        <max_parent_version>6.1.99</max_parent_version>        
+        <max_parent_version>6.1.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
         </development_stage>
       </version>
-      
+
       <version>
         <branch>RELEASE</branch>
         <version>18.02.06</version>
@@ -1797,14 +1896,14 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <changelog/>
         <build_id/>
         <min_parent_version>7.0</min_parent_version>
-        <max_parent_version>8.1.99</max_parent_version>        
+        <max_parent_version>8.1.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
         </development_stage>
       </version>
-      
-      
+
+
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/startupRuleEngine/master/resources/img/screenshot_1.png</screenshot>
@@ -1832,6 +1931,25 @@ A landing tab can optionally be presented, which can be used to any of the prede
     <license>MPL 2.0</license>
     <dependencies>CDF, CDA, CDE, CGG</dependencies>
     <versions>
+
+      <version>
+        <branch>RELEASE</branch>
+        <version>18.07.18</version>
+        <name>RELEASE</name>
+        <package_url>
+          http://ctools.pentaho.com/files/d3ComponentLibrary/18.07.18/d3ComponentLibrary-18.07.18.zip
+        </package_url>
+        <description>Latest Release</description>
+        <build_id/>
+        <max_parent_version>8.1</max_parent_version>
+        <min_parent_version>9.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+
       <version>
         <branch>RELEASE</branch>
         <version>17.07.24</version>
@@ -1961,10 +2079,10 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 	</version>
 	 <version>
 		<branch>ENTERPRISE71</branch>
-		<version>3.11-EE-P71</version>
+		<version>3.17-EE-P71</version>
 		<name>Stable (Pentaho 7.1 - Enterprise)</name>
-		<package_url>https://www.dropbox.com/s/jjv3q80nbawxmbf/saiku-plugin.zip?dl=1</package_url>
-		<description>3.11 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
+		<package_url>http://meteorite.bi/downloads/saikuee-plugin-p7-3.17.zip</package_url>
+		<description>3.17 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
 		<max_parent_version>8.9</max_parent_version>
@@ -2021,10 +2139,10 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 	</version>
        <version>
         <branch>STABLEP7</branch>
-        <version>3.15</version>
+        <version>3.90</version>
         <name>Stable (Community)</name>
-        <package_url>https://www.dropbox.com/s/1j0symkdtpwb0g6/saiku-plugin-p7-3.15.zip?dl=1</package_url>
-        <description>3.14 release for the Saiku Plugin.</description>
+        <package_url>http://meteorite.bi/downloads/saiku-plugin-p7.1-3.90.zip</package_url>
+        <description>3.90 release for the Saiku Plugin.</description>
         <max_parent_version>8.1</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
           <development_stage>
@@ -2989,8 +3107,8 @@ Having trouble with this project? Feel free to report a issue on <a target='NO_B
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp1.PNG</screenshot>
-      <screenshot>http://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp2.PNG</screenshot>
+      <screenshot>https://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp1.PNG</screenshot>
+      <screenshot>https://a.fsdn.com/con/app/proj/pentaho5changepassword/screenshots/cp2.PNG</screenshot>
     </screenshots>
   </market_entry>
 
@@ -3746,9 +3864,9 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/1.pentaho%20marketplace.png</screenshot>
-      <screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/2.pentaho%20marketplace.png</screenshot>
-      <screenshot>http://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/3.pentaho%20marketplace.png</screenshot>
+      <screenshot>https://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/1.pentaho%20marketplace.png</screenshot>
+      <screenshot>https://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/2.pentaho%20marketplace.png</screenshot>
+      <screenshot>https://www.xpand-it.com/images/xpand_it/fusioncharts-plugin/3.pentaho%20marketplace.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -5799,7 +5917,7 @@ any translation issues or suggestions for improvement
         <![CDATA[
             Viz-API samples to test and evaluate Viz-API kar visualizations that were not immediatly available after his installation (Car and Office visualizations).
             <br><br>
-            After installing these samples you will be able to explore Office and Car visualizations, both on Analyzer and on CTools, and access CTools dashboards where these and the remaining visualizations are utilized. 
+            After installing these samples you will be able to explore Office and Car visualizations, both on Analyzer and on CTools, and access CTools dashboards where these and the remaining visualizations are utilized.
             <br><br>
             To use it please observe the following steps:
             <ul>
@@ -5867,7 +5985,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>TRUNK-SNAPSHOT</version>
-        <package_url>https://pentaho.box.com/shared/static/qllv3c2bo1eiv0o5f468.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pdi-mysql-plugin/pdi-mysql-plugin-TRUNK-SNAPSHOT.zip</package_url>
         <source_url>https://github.com/mattcasters/pdi-mysql-plugin</source_url>
         <development_stage>
           <lane>Customer</lane>
@@ -5917,9 +6035,25 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
 	<branch>Trunk</branch>
+	<version>1.5</version>
+	<name>8.2 or later</name>
+      <package_url>https://github.com/pentaho-labs/pentaho-cpython-plugin/releases/download/v1.5/pentaho-cpython-plugin-package-1.5.zip</package_url>
+
+      <min_parent_version>8.2</min_parent_version>
+      <development_stage>
+        <lane>Customer</lane>
+        <phase>2</phase>
+      </development_stage>
+      </version>
+
+      <version>
+	<branch>Trunk</branch>
 	<version>1.4</version>
+	<name>Pre 8.2</name>
       <package_url>https://github.com/pentaho-labs/pentaho-cpython-plugin/releases/download/v1.4/pentaho-cpython-plugin-package-1.4.zip</package_url>
 
+      <min_parent_version>7.0</min_parent_version>
+      <max_parent_version>8.1.99</max_parent_version>
       <development_stage>
         <lane>Customer</lane>
         <phase>2</phase>
@@ -5933,7 +6067,7 @@ any translation issues or suggestions for improvement
 
   <market_entry>
     <id>pmi</id>
-    <type>Step</type>    
+    <type>Step</type>
     <img>https://github.com/pentaho-labs/pentaho-machine-intelligence/raw/master/screenshot/pdi_pmi.png</img>
     <name>Plugin Machine Intelligence</name>
 
@@ -5959,8 +6093,8 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
 	<branch>Trunk</branch>
-	<version>1.0</version>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.0/plugin-machine-intelligence-package-1.0.zip</package_url>
+	<version>1.3</version>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.3/plugin-machine-intelligence-package-1.3.zip</package_url>
 
       <development_stage>
         <lane>Customer</lane>
@@ -6237,7 +6371,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/ssh2-plugin/6.0.0.0-353/ssh2-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/ssh2-plugin/6.0.0.0-353/ssh2-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/ssh2-plugin</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6272,7 +6406,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/aggregate-rows-plugin/6.0.0.0-353/aggregate-rows-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/aggregate-rows-plugin/6.0.0.0-353/aggregate-rows-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/aggregate-rows</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6307,7 +6441,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/get-previous-row-field-plugin/6.0.0.0-353/get-previous-row-field-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/get-previous-row-field-plugin/6.0.0.0-353/get-previous-row-field-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/get-previous-row-field</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6342,7 +6476,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-stream-plugin/6.0.0.0-353/xml-input-stream-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-stream-plugin/6.0.0.0-353/xml-input-stream-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/xml-input-stream</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6377,7 +6511,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>6.0.0.0-353</version>
-        <package_url>https://nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-plugin/6.0.0.0-353/xml-input-plugin-6.0.0.0-353.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/pentaho-kettle/xml-input-plugin/6.0.0.0-353/xml-input-plugin-6.0.0.0-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/xml-input</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6414,7 +6548,7 @@ any translation issues or suggestions for improvement
       <version>
         <branch>Stable</branch>
         <version>5.2.0.1-216</version>
-        <package_url>https://pentaho.box.com/shared/static/u5b0ai3shvot41f4g2a6.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-vertica-bulkloader/VerticaBulkLoader-5.2.0.1-216.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-vertica-bulkloader</source_url>
         <development_stage>
 <lane>Community</lane>
@@ -6622,7 +6756,7 @@ With this plugin you can:
         <branch>Stable</branch>
         <version>6.0.0.0-349</version>
         <package_url>
-          https://nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pdi-marketplace/6.0.0.0-349/pdi-marketplace-6.0.0.0-349.kar
+          https://public.nexus.pentaho.org/service/local/repositories/public-6.0-release/content/org/pentaho/pdi-marketplace/6.0.0.0-349/pdi-marketplace-6.0.0.0-349.kar
         </package_url>
         <development_stage>
           <lane>Community</lane>
@@ -6699,7 +6833,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/fcvlirqac4k6semj6q7d.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/BucketPartitioner/BucketPartitioner.zip</package_url>
         <source_url>https://github.com/mattyb149/BucketPartitioner</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -6748,7 +6882,7 @@ With this plugin you can:
         <branch>Stable</branch>
         <version>1.0</version>
         <name>1.0</name>
-        <package_url>https://pentaho.box.com/shared/static/sz6y7m04slzxy93brg3d.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/MaxMindGeoIPLookup/MaxMindGeoIPLookup.zip</package_url>
         <source_url>https://github.com/mattcasters/MaxMindGeoIPLookup</source_url>
         <description>First stable release, supports running in Map/Reduce, handles VFS URLs for database files
         </description>
@@ -6838,8 +6972,8 @@ With this plugin you can:
   <market_entry>
     <id>MDCheckPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon-32x32.png</small_img>
     <name>Melissa Contact Data Verify (Verification, Duplicate Identification, and Data Enhancement)</name>
     <category>
       <name>Data Quality</name>
@@ -6911,7 +7045,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDCheck.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -6925,9 +7059,9 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-contact-data-verify-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_01.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_02.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -6935,8 +7069,8 @@ With this plugin you can:
   <market_entry>
     <id>MDGlobalVerifyPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon-32x32.png</small_img>
     <name>Melissa Global Contact Data Verify</name>
     <category>
       <name>Data Quality</name>
@@ -6982,7 +7116,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDGlobalVerify.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDGlobalVerify.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -6996,9 +7130,9 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-global-contact-data-verify-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_23.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_24.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -7006,8 +7140,8 @@ With this plugin you can:
   <market_entry>
     <id>MDPersonatorPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon-32x32.png</small_img>
     <name>Melissa ID Verify, Complete &amp; Enrich</name>
     <category>
       <name>Data Quality</name>
@@ -7049,7 +7183,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDPersonator.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7063,17 +7197,17 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-id-verify-complete-enrich-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_35.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_36.png</screenshot>
 	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDProfilerPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon-32x32.png</small_img>
     <name>Melissa Profiler</name>
     <category>
       <name>Data Quality</name>
@@ -7116,7 +7250,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDProfiler.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDProfiler.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7130,17 +7264,17 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-    <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-profiler-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_31.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_32.png</screenshot>
 	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDPropertyPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon-32x32.png</small_img>
     <name>Melissa Property Data Enrichment</name>
     <category>
       <name>Data Quality</name>
@@ -7181,7 +7315,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDProperty.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDProperty.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7195,17 +7329,17 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-	  <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-property-data-enrichment-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_40.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_41.png</screenshot>
 	</screenshots>
   </market_entry>
 
   <market_entry>
     <id>MDBusinessCoderPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon-32x32.png</small_img>
     <name>Melissa BusinessCoder</name>
     <category>
       <name>Data Quality</name>
@@ -7248,7 +7382,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDBusinessCoder.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDBusinessCoder.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7262,17 +7396,17 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-	  <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-businesscoder-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_49.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_50.png</screenshot>
 	</screenshots>
   </market_entry>
 
     <market_entry>
     <id>MDCleanserPlugin</id>
     <type>Step</type>
-	<img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-96x96.png</img>
-    <small_img>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-32x32.png</small_img>
+	<img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-96x96.png</img>
+    <small_img>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon-32x32.png</small_img>
     <name>Melissa General Cleanser</name>
     <category>
       <name>Data Quality</name>
@@ -7313,7 +7447,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>6.0.0</version>
-        <package_url>http://update2.melissadata.com/pentaho/MDCleanser.zip</package_url>
+        <package_url>https://update2.melissadata.com/pentaho/MDCleanser.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -7327,9 +7461,9 @@ With this plugin you can:
     <support_organization>Melissa</support_organization>
     <support_url>https://support.melissadata.com/index.php?/Tickets/Submit</support_url>
 	<screenshots>
-	  <screenshot>http://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_55.png</screenshot>
-		<screenshot>http://update2.melissadata.com/pentaho/images/PDI_MD_56.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/MarketplaceIcons2017/melissa-pentaho-general-cleanser-icon.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_55.png</screenshot>
+	  <screenshot>https://update2.melissadata.com/pentaho/images/PDI_MD_56.png</screenshot>
 	</screenshots>
   </market_entry>
 
@@ -7615,7 +7749,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>5.0.1</version>
-        <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-hadoop-shims-idh23-package/pentaho-hadoop-shims-idh23-package-5.0.1.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/idh</source_url>
         <development_stage>
           <lane>Customer</lane>
@@ -7656,7 +7790,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>5.0.1</version>
-        <package_url>https://pentaho.box.com/shared/static/b8c7xsyuvrz0yk4mnmel.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-hadoop-shims-idh34-package/pentaho-hadoop-shims-idh34-package-5.0.1.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/5.0.1-R/cdh3u4</source_url>
         <development_stage>
           <lane>Customer</lane>
@@ -8097,7 +8231,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.1.0</version>
-        <package_url>https://pentaho.box.com/shared/static/0wq4a5u4dtkdcvsb8h17.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-kettle-compare-fields-plugin/pentaho-kettle-compare-fields-plugin-1.1.0.zip</package_url>
         <min_parent_version>5.0.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -8454,7 +8588,7 @@ With this plugin you can:
       <version>
         <branch>Stable</branch>
         <version>1.0 Beta</version>
-        <package_url>https://pentaho.box.com/shared/static/ksd8kr7zazd9ymc4rjbo.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/TeraDataBulkLoader/TeraDataBulkLoader.zip</package_url>
         <development_stage>
           <lane>Customer</lane>
           <phase>3</phase>
@@ -8471,6 +8605,38 @@ With this plugin you can:
     </support_message>
     <support_organization>Pentaho</support_organization>
     <support_url>http://www.pentaho.com/services/support/pdi</support_url>
+  </market_entry>
+
+
+  <market_entry>
+    <id>pdi-google-plugin</id>
+    <type>Step</type>
+    <name>PDI Google Plugin Steps</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/ProgInnova/pdi-google-plugin/blob/master/README.md</documentation_url>
+    <description>Pentaho Data Integration Google Plugin Steps</description>
+    <author>ProgInnova</author>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>0.0.1</version>
+        <package_url>https://raw.githubusercontent.com/ProgInnova/pdi-google-plugin/master/target/pdi-google-plugin-0.0.1-SNAPSHOT.zip</package_url>
+        <source_url>https://github.com/ProgInnova/pdi-google-plugin</source_url>
+        <min_parent_version>7.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <cases_url>https://github.com/ProgInnova/pdi-google-plugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
   </market_entry>
 
 
@@ -8505,9 +8671,6 @@ With this plugin you can:
       https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/blob/master/LICENSE</license_text>
     <support_level>NOT_SUPPORTED</support_level>
   </market_entry>
-
-
-
 
   <market_entry>
     <id>pdi-random-row-distributions</id>
@@ -8815,12 +8978,12 @@ With this plugin you can:
     <installation_notes><![CDATA[If there's new version, recomended to unistall first, restart then install again.]]></installation_notes>
     <documentation_url>http://maasdi.github.io/pentaho-mongodb-delete-plugin/</documentation_url>
     <versions>
-      <version>
+	  <version>
         <branch>master</branch>
-        <version>1.0.1-RELEASE</version>
-        <build_id>20151203-0342</build_id>
-        <name>1.0.1-RELEASE</name>
-        <package_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/releases/download/1.0.1-RELEASE/pentaho-mongodb-delete-plugin-1.0.1-RELEASE.zip</package_url>
+        <version>2.0.0-RELEASE</version>
+		<build_id/>
+        <name>2.0.0-RELEASE</name>
+        <package_url>https://github.com/maasdi/pentaho-mongodb-delete-plugin/releases/download/2.0.0-RELEASE/pentaho-mongodb-delete-plugin-2.0.0-RELEASE.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -10191,7 +10354,7 @@ Capabilities:
       <version>
         <branch>Stable</branch>
         <version>6.0</version>
-        <package_url>https://pentaho.box.com/shared/static/sc18b11tdrsoeymwn8dznit0swms7kuu.zip</package_url>
+        <package_url>http://ctools.pentaho.com/files/pentaho-hadoop-shims-hadoop-20-package/pentaho-hadoop-shims-hadoop-20-package-60.2015.10.00-353.zip</package_url>
         <source_url>https://github.com/pentaho/pentaho-hadoop-shims/tree/60.2015.10.00-R/hadoop-20</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -10249,9 +10412,9 @@ Capabilities:
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://bluezio.github.io/acldash/full_screenshot_main.png</screenshot>
-      <screenshot>http://bluezio.github.io/acldash/full_screenshot_user.png</screenshot>
-      <screenshot>http://bluezio.github.io/acldash/full_screenshot_role.png</screenshot>
+      <screenshot>https://bluezio.github.io/acldash/full_screenshot_main.png</screenshot>
+      <screenshot>https://bluezio.github.io/acldash/full_screenshot_user.png</screenshot>
+      <screenshot>https://bluezio.github.io/acldash/full_screenshot_role.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -10362,8 +10525,8 @@ Capabilities:
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://bluezio.github.io/pentaho-artifactCatalog/full_screenshot.png</screenshot>
-      <screenshot>http://bluezio.github.io/pentaho-artifactCatalog/full_screenshot2.png</screenshot>
+      <screenshot>https://bluezio.github.io/pentaho-artifactCatalog/full_screenshot.png</screenshot>
+      <screenshot>https://bluezio.github.io/pentaho-artifactCatalog/full_screenshot2.png</screenshot>
     </screenshots>
   </market_entry>
 
@@ -10570,10 +10733,23 @@ Capabilities:
     <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_url>https://github.com/inquidia/PentahoSnowflakePlugin/issues</support_url>
     <versions>
-	  <version>
+      <version>
+        <branch>master</branch>
+        <version>1.1.4</version>
+        <name>1.1.4 (Stable)</name>
+        <build_id>20180820-1509</build_id>
+        <package_url>https://github.com/inquidia/PentahoSnowflakePlugin/releases/download/v1.1.4/SnowflakePlugin-1.1.4.zip</package_url>
+        <min_parent_version>7.1</min_parent_version>
+        <source_url>https://github.com/inquidia/PentahoSnowflakePlugin/archive/v1.1.4.zip</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+	    <version>
         <branch>master</branch>
         <version>1.1.3</version>
-        <name>1.1.3 (Stable)</name>
+        <name>1.1.3</name>
         <package_url>https://github.com/inquidia/PentahoSnowflakePlugin/releases/download/1.1.3/snowflake-plugin-package-1.1.3.zip</package_url>
         <min_parent_version>6.1</min_parent_version>
         <source_url>https://github.com/inquidia/PentahoSnowflakePlugin/archive/1.1.3.zip</source_url>
@@ -10715,7 +10891,7 @@ Capabilities:
         <branch>Stable</branch>
         <version>7.0-QAT-435</version>
         <name>7.0</name>
-        <package_url>https://pentaho.box.com/shared/static/3b6258qlb78beajczxx2widjsb09o7z6.zip</package_url>
+        <package_url>https://public.nexus.pentaho.org/content/groups/omni/pentaho/agile-bi-package/7.0.0.0-25/agile-bi-package-7.0.0.0-25.zip</package_url>
         <source_url>https://github.com/pentaho/pdi-agile-bi-plugin</source_url>
         <development_stage>
           <lane>Community</lane>
@@ -10748,9 +10924,9 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>1.3.0</version>
-        <package_url>https://github.com/matthewtckr/pdi-zendesk-plugin/releases/download/pdi-zendesk-plugin-1.3.0/pdi-zendesk-plugin-1.3.0.zip</package_url>
-        <source_url>https://github.com/matthewtckr/pdi-zendesk-plugin/tree/pdi-zendesk-plugin-1.3.0</source_url>
+        <version>1.3.1</version>
+        <package_url>https://github.com/matthewtckr/pdi-zendesk-plugin/releases/download/pdi-zendesk-plugin-1.3.1/pdi-zendesk-plugin-1.3.1.zip</package_url>
+        <source_url>https://github.com/matthewtckr/pdi-zendesk-plugin/tree/pdi-zendesk-plugin-1.3.1</source_url>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
@@ -11125,7 +11301,7 @@ Capabilities:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>Builld Neo4J graph databases. This plugin allows to create nodes (including labels and properties) and relationship (including relationship properties) without having to go through the hassle of building and uploading CSV files.</description>
+    <description>With these plugins you can build Neo4j graph databases. They allow you to create nodes (including labels and properties) and relationships (including relationship properties) without having to go through the hassle of building and uploading CSV files.  A Cypher step is provided so you can execute any statement, query or procedure directly on the database.</description>
     <author>know.bi</author>
     <author_url>http://www.know.bi</author_url>
     <author_logo>https://www.know-bi.be/images/interface/logo.svg</author_logo>
@@ -11138,13 +11314,13 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>0.1</version>
-        <name>0.1</name>
-        <package_url>https://github.com/knowbi/knowbi-pentaho-pdi-neo4j-output/releases/download/1.0/neo4j-output.zip</package_url>
+        <version>3.11.0</version>
+        <name>3.11.0</name>
+        <package_url>https://github.com/knowbi/knowbi-pentaho-pdi-neo4j-output/releases/download/3.13.3/Neo4JOutput-3.13.3.zip</package_url>
         <samples_url>https://github.com/knowbi/knowbi-pentaho-pdi-neo4j-output/releases/download/1.0/beer_graph.zip</samples_url>
         <development_stage>
           <lane>Community</lane>
-          <phase>2</phase>
+          <phase>3</phase>
         </development_stage>
       </version>
     </versions>
@@ -11257,11 +11433,10 @@ Capabilities:
     </screenshots>
 </market_entry>
 
-
-<market_entry>
+  <market_entry>
     <id>stpivot4-analytic-plugin</id>
     <type>Step</type>
-	<img>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-7.1/stpivot4-logo.png</img>
+    <img>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-8.1/stpivot4-logo.png</img>
     <name>STPivot4 Analytics</name>
     <category>
       <name>Analysis</name>
@@ -11272,30 +11447,43 @@ Capabilities:
     <description>The STPivot4 Plugin make easy analytics over your mondrian olap cubes.</description>
     <author>Stratebi</author>
     <author_url>http://www.stratebi.com/</author_url>
-    <author_logo>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-7.1/stratebi-logo.png</author_logo>
+    <author_logo>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-8.1/stratebi-logo.png</author_logo>
     <documentation_url>https://github.com/stratebi/STPivot4</documentation_url>
     <cases_url>https://github.com/stratebi/STPivot4</cases_url>
-    <license_name>MIT</license_name> <!-- the license used by the plugin (Kettle only) -->
-    <license_text>For more details see:
-      http://www.apache.org/licenses/LICENSE-2.0.html</license_text> <!-- the license text of the plugin (Kettle only) -->
+    <license_name>MIT</license_name>
+    <license_text>For more details see: https://opensource.org/licenses/MIT</license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
     <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.8.1</version>
+        <name>20180723</name>
+        <package_url>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-8.1/stpivot4-pentaho-1.0-SNAPSHOT-plugin.zip</package_url>
+        <min_parent_version>8.0</min_parent_version>
+        <max_parent_version>8.1</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
       <version>
         <branch>Stable</branch>
         <version>1.7.1</version>
         <name>20170817</name>
         <package_url>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-7.1/stpivot4-pentaho-1.0-SNAPSHOT-plugin.zip</package_url>
+        <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>7.1</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>1</phase>
         </development_stage>
       </version>
     </versions>
-      <screenshots>
-        <screenshot>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-7.1/stpivot4-slide-1.png</screenshot>
-	      <screenshot>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-7.1/stpivot4-slide-2.png</screenshot>
-      </screenshots>
-</market_entry>
+    <screenshots>
+      <screenshot>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-8.1/stpivot4-slide-1.png</screenshot>
+      <screenshot>https://github.com/stratebi/STPivot4/releases/download/v1.0.0-8.1/stpivot4-slide-2.png</screenshot>
+    </screenshots>
+  </market_entry>
 
 
   <market_entry>
@@ -11442,8 +11630,8 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>0.9</version>
-        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS/releases/download/0.9/Pentaho-AWS-SNS-Notify-Plugin.zip</package_url>
+        <version>0.9.1</version>
+        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS/releases/download/0.9.1/Pentaho-AWS-SNS-Notify-Plugin-0.9.1.zip</package_url>
         <source_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS</source_url>
 	<min_parent_version>6.1</min_parent_version>
         <development_stage>
@@ -11493,7 +11681,7 @@ Capabilities:
       <screenshot>https://github.com/atolcd/pentaho-cde-atolcd-plugins/blob/master/docs/SVG%20Component/images/dynamicSelectors.png</screenshot>
     </screenshots>
   </market_entry>
-  
+
   <market_entry>
     <id>pdi-streamschemamerge-plugin</id>
     <type>Step</type>
@@ -11532,7 +11720,7 @@ Capabilities:
       <screenshot>https://raw.githubusercontent.com/Pentaho-SE-EMEA-APAC/pdi-streamschemamerge-plugin/develop/documentation/screenshot-test-transformation.png</screenshot>
     </screenshots>
   </market_entry>
-  
+
   <market_entry>
     <id>pdi-arangodb</id>
     <type>Mixed</type>
@@ -11543,7 +11731,7 @@ Capabilities:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>	
+    <description>
 <![CDATA[
 Provides connectivity to the ArangoDB NoSQL database. Provides a database connection wizard as well as document write, document read, collection scan, and Foxx service invoke steps.
 <br><br>
@@ -11581,7 +11769,7 @@ Uses asynchronous database connection for speed. A collection scan step is provi
   </market_entry>
 
 
-  
+
   <market_entry>
     <id>pdi-presales-collection</id>
     <type>Mixed</type>
@@ -11592,7 +11780,7 @@ Uses asynchronous database connection for speed. A collection scan step is provi
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>	
+    <description>
 <![CDATA[
 Provides a variety of plugins that have been created by pre-sales engineers in Pentaho.
 <br><br>
@@ -11640,7 +11828,7 @@ These are all Alpha release, with no official support. Please engage Pentaho ser
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>	
+    <description>
 <![CDATA[
 Provides connectivity to the MarkLogic Server NoSQL database. Provides a database connection wizard as well as document write, document read and collection scan steps.
 <br><br>
@@ -11680,6 +11868,198 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </screenshots>
   </market_entry>
 
+ <market_entry>
+    <id>AWS-SQS-Reader</id>
+    <type>Step</type>
+    <name>AWS SQS Reader</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The AWS-SQS Plugin enables you receive messages from Amazon Webservices Simple Queue Service within a PDI Transformation.</description>
+    <documentation_url>https://freddyffm.github.io/PDIPlugin-AWS-SQS-Reader/</documentation_url>
+    <author>Michael Fraedrich</author>
+    <author_url>https://github.com/FreddyFFM</author_url>
+    <img>-</img>
+    <small_img>-</small_img>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Support by author and/or GitHub community</support_message>
+    <support_organization>Author</support_organization>
+    <support_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SQS-Reader/issues</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>0.9</version>
+        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SQS-Reader/releases/download/0.9/AWS-SQS-Reader-0.9.zip</package_url>
+        <source_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SQS-Reader</source_url>
+	<min_parent_version>6.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+    
+    
 
-  
+ <market_entry>
+    <id>pdi-as400-plugin</id>
+    <type>JobEntry</type>
+    <name>PDI AS/400 CL Commands</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin provide PDI job entrie for executing a AS/400 CL Commands.</description>
+    <documentation_url>https://github.com/nadment/pdi-as400-plugin/wiki</documentation_url>
+    <author>Nicolas ADMENT</author>
+    <author_url>https://github.com/nadment</author_url>
+	<license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>    
+    <img>https://raw.githubusercontent.com/nadment/pdi-as400-plugin/master/src/main/resources/as400command.png</img>
+    <small_img>https://raw.githubusercontent.com/nadment/pdi-as400-plugin/master/src/main/resources/as400command.png</small_img>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.1</version>
+        <name>1.0</name>                     
+        <package_url>https://github.com/nadment/pdi-as400-plugin/releases/download/1.0.1/pdi-as400-plugin-1.0.1.zip</package_url>
+        <description></description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>7.0</min_parent_version>        
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/nadment/pdi-as400-plugin/master/doc/screenshot-pdi-as400-job.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/nadment/pdi-as400-plugin/master/doc/screenshot-pdi-as400-dialog.png</screenshot>
+    </screenshots>
+  </market_entry>
+
+  <market_entry>
+    <id>pdi-coalesce-plugin</id>
+    <type>Step</type>
+    <name>PDI Coalesce</name>
+    <category>
+      <name>Enhancements</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin provide PDI step to return the first non-null value from a set of fields.</description>
+    <documentation_url>https://github.com/nadment/pdi-coalesce-plugin/wiki</documentation_url>
+    <author>Nicolas ADMENT</author>
+    <author_url>https://github.com/nadment</author_url>
+	<license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>    
+    <img>https://raw.githubusercontent.com/nadment/pdi-coalesce-plugin/master/src/main/resources/coalesce.png</img>
+    <small_img>https://raw.githubusercontent.com/nadment/pdi-coalesce-plugin/master/src/main/resources/coalesce.png</small_img>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0.1</version>
+        <name>1.0</name>                     
+        <package_url>https://github.com/nadment/pdi-coalesce-plugin/releases/download/1.0.1/pdi-coalesce-plugin-1.0.1.zip</package_url>
+        <description></description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>5.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://raw.githubusercontent.com/nadment/pdi-coalesce-plugin/master/doc/screenshot-pdi-coalesce-dialog.png</screenshot>
+    </screenshots>
+  </market_entry>
+  <market_entry>
+    <id>Box</id>
+    <type>Step</type>
+    <name>Box.com Connector</name>
+    <category>
+      <name>Lookup</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This connector uses the Box.com library to retrieve information about a Box.com account. Not created, affiliated, or supported by the Box.com company
+    </description>
+    <author>Matt Tucker</author>
+    <forum_url>https://forums.pentaho.com/forums/135-Pentaho-Data-Integration-Kettle/</forum_url>
+    <cases_url>https://github.com/matthewtckr/pdi-box-plugin/issues/</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+    <support_message>Not Supported</support_message>
+    <support_organization>none</support_organization>
+    <support_url>https://github.com/matthewtckr/pdi-box-plugin/issues/</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0.2</version>
+        <name>1.0.2</name>
+        <package_url>https://github.com/matthewtckr/pdi-box-plugin/releases/download/pdi-box-plugin-1.0.2/pdi-box-plugin-1.0.2.zip</package_url>
+        <source_url>https://github.com/matthewtckr/pdi-box-plugin/tree/pdi-box-plugin-1.0.2</source_url>
+        <description>
+        </description>
+        <changelog></changelog>
+        <build_id>1</build_id>
+        <min_parent_version>6.0.00</min_parent_version>
+        <max_parent_version>8.9.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+  <market_entry>
+    <id>SocrataOutput</id>
+    <type>Step</type>
+    <name>Socrata Output</name>
+    <category>
+      <name>Connectivity</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>The Socrata Output Plugin enables you to publish data to your Socrata dataset within a PDI Transformation.</description>
+    <documentation_url>https://github.com/socrata/socrata-kettle/wiki</documentation_url>
+    <author>Socrata, Inc.</author>
+    <author_url>https://github.com/socrata</author_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Support by author and/or GitHub community</support_message>
+    <support_organization>Socrata, Inc.</support_organization>
+    <support_url>https://github.com/socrata/socrata-kettle/issues</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.3</version>
+        <package_url>https://github.com/socrata/socrata-kettle/releases/download/1.3/SocrataOutput.zip</package_url>
+        <source_url>https://github.com/socrata/socrata-kettle</source_url>
+        <min_parent_version>6.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
 </market>
