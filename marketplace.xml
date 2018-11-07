@@ -6066,7 +6066,7 @@ any translation issues or suggestions for improvement
   </market_entry>
 
   <market_entry>
-    <id>pmi</id>
+    <id>plugin-machine-intelligence</id>
     <type>Step</type>
     <img>https://github.com/pentaho-labs/pentaho-machine-intelligence/raw/master/screenshot/pdi_pmi.png</img>
     <name>Plugin Machine Intelligence</name>
