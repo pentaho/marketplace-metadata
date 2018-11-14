@@ -6066,7 +6066,7 @@ any translation issues or suggestions for improvement
   </market_entry>
 
   <market_entry>
-    <id>pmi</id>
+    <id>plugin-machine-intelligence</id>
     <type>Step</type>
     <img>https://github.com/pentaho-labs/pentaho-machine-intelligence/raw/master/screenshot/pdi_pmi.png</img>
     <name>Plugin Machine Intelligence</name>
@@ -6078,7 +6078,7 @@ any translation issues or suggestions for improvement
       </parent>
     </category>
 
-    <description>This plugin provides drag-and-drop machine learning capabilities based on four separate execution engines: python, R, Weka and Spark MLlib..</description>
+    <description>This plugin provides drag-and-drop machine learning capabilities based on five separate execution engines: python, R, Weka, Spark MLlib and DL4J.</description>
     <documentation_url>https://github.com/pentaho-labs/pentaho-machine-intelligence</documentation_url>
     <author>Mark Hall</author>
 
@@ -6093,9 +6093,22 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
 	<branch>Trunk</branch>
-	<version>1.3</version>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.3/plugin-machine-intelligence-package-1.3.zip</package_url>
-
+	<version>1.4</version>
+	<name>PDI 8.2 or later</name>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.4-post-PDI-8.2/plugin-machine-intelligence-1.4.zip</package_url>
+      <min_parent_version>8.2</min_parent_version>
+      <development_stage>
+        <lane>Customer</lane>
+        <phase>2</phase>
+      </development_stage>
+      </version>
+      <version>
+	<branch>Trunk</branch>
+	<version>1.4</version>
+	<name>Pre PDI 8.2</name>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.4-pre-PDI-8.2/plugin-machine-intelligence-1.4.zip</package_url>
+      <min_parent_version>7.0</min_parent_version>
+      <max_parent_version>8.1.99</max_parent_version>
       <development_stage>
         <lane>Customer</lane>
         <phase>2</phase>
