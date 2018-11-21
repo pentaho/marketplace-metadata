@@ -12088,4 +12088,51 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
       </version>
     </versions>
   </market_entry>
+<market_entry>
+    <id>CLE</id>
+    <type>Platform</type>
+    <img/>
+    <small_img/>
+    <name>Community Layout Editor</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>...</documentation_url>
+    <description>
+      Layout Editor is a new CTools Plugin that allows any user to create CTools dashboards based on pre-built widgets.
+      These widgets are CTools dashboards that contain one ore more components.  
+    </description>
+    <author>Webdetails</author>
+    <author_url>http://webdetails.pt</author_url>
+    <author_logo>http://www.webdetails.pt/ficheiros/wd_logo.png</author_logo>
+    <dependencies/>
+    <license>MPL 2.0</license>
+    <versions>
+      <version>
+        <branch>STABLE</branch>
+        <version>1.0</version>
+        <name>Stable</name>
+        <package_url>
+          http://ctools.pentaho.com/files/LayoutEditor/layoutEditor.zip
+        </package_url>
+        <samples_url>
+          http://ctools.pentaho.com/files/LayoutEditor/LayoutEditorSamples.zip
+        </samples_url>
+        <description>
+          Build for Pentaho 8.0 and above
+        </description>
+        <build_id>1</build_id>
+        <min_parent_version>8.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots>
+    </screenshots>
+  </market_entry>
 </market>
