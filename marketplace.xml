@@ -12089,7 +12089,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </versions>
   </market_entry>
 <market_entry>
-    <id>CLE</id>
+    <id>layoutEditor</id>
     <type>Platform</type>
     <img/>
     <small_img/>
