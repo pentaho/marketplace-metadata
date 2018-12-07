@@ -279,6 +279,27 @@
       </version>
 
 
+ <version>
+        <branch>8.2.0.0</branch>
+        <version>8.2.0.0-342</version>
+        <name>8.2</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.2.0.0-342/pentaho-cdf-8.2.0.0-342.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.2.0.0-342/pentaho-cdf-samples-8.2.0.0-342.zip
+        </samples_url>
+        <description>8.2 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.2</min_parent_version>
+        <max_parent_version>8.2.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
 
       <version>
         <branch>STABLE</branch>
@@ -504,7 +525,7 @@
         </development_stage>
       </version>
 
- <version>
+	 <version>
         <branch>8.1.0.0</branch>
         <version>8.1.0.0-365</version>
         <name>8.1</name>
@@ -524,6 +545,26 @@
         </development_stage>
       </version>
 
+
+	 <version>
+        <branch>8.2.0.0</branch>
+        <version>8.2.0.0-342</version>
+        <name>8.2</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.2.0.0-342/cda-8.2.0.0-342.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.2.0.0-342/cda-samples-8.2.0.0-342.zip
+        </samples_url>
+        <description>8.1 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.2</min_parent_version>
+        <max_parent_version>8.2.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
 
       <version>
         <branch>STABLE</branch>
@@ -758,12 +799,33 @@
             https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.1.0.0-365/pentaho-cdf-dd-8.1.0.0-365.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-solution/8.1.0.0-365/pentaho-cdf-dd-solution-8.1.0.0-365.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-samples/8.1.0.0-365/pentaho-cdf-dd-samples-8.1.0.0-365.zip
         </samples_url>
         <description>8.1 Platform Release</description>
         <build_id/>
         <min_parent_version>8.1</min_parent_version>
         <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
+    <version>
+        <branch>8.2.0.0</branch>
+        <version>8.2.0.0-342</version>
+        <name>8.2</name>
+        <package_url>
+https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-cdf-dd/8.2.0.0-342/pentaho-cdf-dd-8.2.0.0-342.zip
+        </package_url>
+        <samples_url>
+					https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-cdf-dd-samples/8.2.0.0-342/pentaho-cdf-dd-samples-8.2.0.0-342.zip
+        </samples_url>
+        <description>8.2 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.2</min_parent_version>
+        <max_parent_version>8.2.99</max_parent_version>
         <development_stage>
           <lane>Customer</lane>
           <phase>4</phase>
@@ -992,7 +1054,7 @@
         <version>8.1.0.0-365</version>
         <name>8.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cgg/8.1.0.0-365/cgg-8.1.0.0-365.zip
+            https://public.nexus.pentaho.org/content/repositories/omni/org/pentaho/ctools/cgg/8.1.0.0-365/cgg-8.1.0.0-365.zip
         </package_url>
         <description>8.1 Platform Release</description>
         <build_id/>
@@ -1004,7 +1066,22 @@
         </development_stage>
       </version>
 
-
+	  <version>
+        <branch>8.2.0.0</branch>
+        <version>8.2.0.0-342</version>
+        <name>8.2</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/org/pentaho/ctools/cgg/8.2.0.0-342/cgg-8.2.0.0-342.zip
+        </package_url>
+        <description>8.2 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.2</min_parent_version>
+        <max_parent_version>8.2.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
 
       <version>
         <branch>STABLE</branch>
@@ -1185,6 +1262,27 @@
           <phase>3</phase>
         </development_stage>
       </version>
+
+
+   <version>
+        <branch>8.2.0.0</branch>
+        <version>8.2.0.0-8.2.0.0-342</version>
+        <name>8.2</name>
+        <package_url>
+https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/8.2.0.0-342/sparkl-8.2.0.0-342.zip
+        </package_url>
+        <description>8.2 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.2</min_parent_version>
+        <max_parent_version>8.2.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
+
 
     </versions>
     <screenshots>
