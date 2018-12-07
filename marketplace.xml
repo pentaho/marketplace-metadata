@@ -12225,6 +12225,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
         </description>
         <build_id>1</build_id>
         <min_parent_version>8.0</min_parent_version>
+		<max_parent_version>8.1</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>1</phase>
