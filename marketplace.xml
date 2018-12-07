@@ -12201,7 +12201,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <documentation_url>...</documentation_url>
     <description>
       Layout Editor is a new CTools Plugin that allows any user to create CTools dashboards based on pre-built widgets.
-      These widgets are CTools dashboards that contain one ore more components.  
+      These widgets are CTools dashboards that contain one ore more components. For Pentaho 8.2 and higher, you need to install sparkl plugin https://github.com/webdetails/sparkl.
     </description>
     <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
