@@ -1461,7 +1461,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <description>Stable Release</description>
         <build_id/>
         <min_parent_version>7.0</min_parent_version>
-        <max_parent_version/>
+        <max_parent_version>7.1.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -1994,7 +1994,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         <changelog/>
         <build_id/>
         <min_parent_version>7.0</min_parent_version>
-        <max_parent_version>8.1.99</max_parent_version>
+        <max_parent_version>8.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
@@ -2039,7 +2039,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
         </package_url>
         <description>Latest Release</description>
         <build_id/>
-        <max_parent_version>8.1</max_parent_version>
+        <max_parent_version>8.2.99</max_parent_version>
         <min_parent_version>9.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
@@ -3769,6 +3769,7 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
         <description>Latest Release</description>
         <changelog/>
         <min_parent_version>6.0</min_parent_version>
+        <max_parent_version>7.1.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
