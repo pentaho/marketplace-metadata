@@ -4273,6 +4273,23 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      
+	<version>
+	  <branch>STABLE</branch>
+	  <version>8.2-18.12.06</version>
+	  <name>STABLE</name>
+	  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_ca-8.2-18.12.06.zip</package_url>
+	  <description>Latest Release</description>
+	  <build_id>manual-20181210</build_id>
+	  <min_parent_version>8.2.0.0</min_parent_version>
+	  <max_parent_version>8.2.99.99</max_parent_version>
+	  <development_stage>
+	    <lane>Community</lane>
+	    <phase>2</phase>
+	  </development_stage>
+	</version>
+      
+      
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_1.png</screenshot>
@@ -4385,6 +4402,24 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
+      
+      
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_nl-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+      
+      
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_1.png</screenshot>
@@ -4430,6 +4465,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_fr-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>0.6.2</version>
@@ -4540,6 +4592,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_gl-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>STABLE</branch>
         <version>6.0-17.02.28</version>
@@ -4617,6 +4686,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_de-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>0.7.2</version>
@@ -4729,6 +4815,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_hi-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>0.6.3</version>
@@ -4843,6 +4946,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_it-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>0.5.2</version>
@@ -4956,6 +5076,24 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_ja-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>0.7</version>
@@ -5069,6 +5207,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_ko-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>0.7</version>
@@ -5184,6 +5339,22 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_pt_BR-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>0.7.3</version>
@@ -5300,6 +5471,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_pt_PT-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>0.5.2</version>
@@ -5414,6 +5602,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_es-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>0.7.2</version>
@@ -5527,6 +5732,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_ta-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>STABLE</branch>
         <version>8.0-17.11.24</version>
@@ -5592,6 +5814,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+<version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_th-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+    
+    
       <version>
         <branch>RELEASE</branch>
         <version>16.05.04</version>
@@ -5688,6 +5927,23 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    
+   <version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_sv-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+ 
+    
       <version>
         <branch>RELEASE</branch>
         <version>16.05.04</version>
@@ -5783,6 +6039,22 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
+    <version>
+  <branch>STABLE</branch>
+  <version>8.2-18.12.06</version>
+  <name>STABLE</name>
+  <package_url>https://github.com/webdetails/pentahoLanguagePacks/releases/download/8.2-18.12.06/languagePack_zh_CN-8.2-18.12.06.zip</package_url>
+  <description>Latest Release</description>
+  <build_id>manual-20181210</build_id>
+  <min_parent_version>8.2.0.0</min_parent_version>
+  <max_parent_version>8.2.99.99</max_parent_version>
+  <development_stage>
+    <lane>Community</lane>
+    <phase>2</phase>
+  </development_stage>
+</version>
+
+    
       <version>
         <branch>RELEASE</branch>
         <version>16.05.04</version>
