@@ -12117,7 +12117,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
         <version>1.0</version>
         <name>Stable</name>
         <package_url>
-          http://ctools.pentaho.com/files/LayoutEditor/layoutEditor.zip
+          https://github.com/webdetails/layoutEditor/releases/download/8.2-18.12.11/layoutEditor-8.2-18.12.11.zip
         </package_url>
         <samples_url>
           http://ctools.pentaho.com/files/LayoutEditor/LayoutEditorSamples.zip
