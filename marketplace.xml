@@ -12130,8 +12130,8 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
           <lane>Community</lane>
           <phase>1</phase>
         </development_stage>
-      </version>
-      <version>
+	</version>
+	    <version>
         <branch>STABLE</branch>
         <version>1.0</version>
         <name>Stable</name>
@@ -12150,7 +12150,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
           <lane>Community</lane>
           <phase>1</phase>
         </development_stage>
-      </version>
+	</version>
     </versions>
     <screenshots>
     </screenshots>
