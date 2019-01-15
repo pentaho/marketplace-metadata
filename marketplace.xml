@@ -11521,9 +11521,9 @@ Capabilities:
     <documentation_url>http://wiki.pentaho.com/display/EAI</documentation_url>
     <author>West IT Solutions</author>
     <author_url>https://www.west.nl/</author_url>
-    <author_logo>https://www.west.nl/logo.png</author_logo>
-    <img>https://www.west.nl/web/image/734</img>
-    <small_img>https://www.west.nl/logo.png</small_img>
+    <author_logo>https://www.west.nl/pentaho-marketplace/West-logo-small.png</author_logo>
+    <img>https://www.west.nl/pentaho-marketplace/West-logo.png</img>
+    <small_img>https://www.west.nl/pentaho-marketplace/West-logo-small.png</small_img>
     <forum_url>http://forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
     <license_name>LGPL v3</license_name>
