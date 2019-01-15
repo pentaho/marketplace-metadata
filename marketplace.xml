@@ -796,10 +796,10 @@
         <version>8.1.0.0-365</version>
         <name>8.1</name>
         <package_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd/8.1.0.0-365/pentaho-cdf-dd-8.1.0.0-365.zip
+https://public.nexus.pentaho.org/repository/omni/org/pentaho/ctools/pentaho-cdf-dd/8.1.0.0-365/pentaho-cdf-dd-8.1.0.0-365.zip
         </package_url>
         <samples_url>
-            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-dd-samples/8.1.0.0-365/pentaho-cdf-dd-samples-8.1.0.0-365.zip
+https://public.nexus.pentaho.org/repository/omni/org/pentaho/ctools/pentaho-cdf-dd-samples/8.1.0.0-365/pentaho-cdf-dd-samples-8.1.0.0-365.zip
         </samples_url>
         <description>8.1 Platform Release</description>
         <build_id/>
