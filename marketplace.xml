@@ -4312,7 +4312,7 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
-      
+
 	<version>
 	  <branch>STABLE</branch>
 	  <version>8.2-18.12.06</version>
@@ -4327,8 +4327,8 @@ any translation issues or suggestions for improvement
 	    <phase>2</phase>
 	  </development_stage>
 	</version>
-      
-      
+
+
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/ca/resources/img/screenshot_1.png</screenshot>
@@ -4441,8 +4441,8 @@ any translation issues or suggestions for improvement
           <phase>2</phase>
         </development_stage>
       </version>
-      
-      
+
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -4457,8 +4457,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-      
-      
+
+
     </versions>
     <screenshots>
       <screenshot>https://raw.github.com/webdetails/pentahoLanguagePacks/master/data/nl/resources/img/screenshot_1.png</screenshot>
@@ -4504,7 +4504,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -4519,8 +4519,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>0.6.2</version>
@@ -4631,7 +4631,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -4646,8 +4646,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>STABLE</branch>
         <version>6.0-17.02.28</version>
@@ -4725,7 +4725,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -4740,8 +4740,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>0.7.2</version>
@@ -4854,7 +4854,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -4869,8 +4869,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>0.6.3</version>
@@ -4985,7 +4985,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -5000,8 +5000,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>0.5.2</version>
@@ -5115,7 +5115,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -5130,9 +5130,9 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
-    
+
+
+
       <version>
         <branch>RELEASE</branch>
         <version>0.7</version>
@@ -5246,7 +5246,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -5261,8 +5261,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>0.7</version>
@@ -5392,8 +5392,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>0.7.3</version>
@@ -5510,7 +5510,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -5525,8 +5525,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>0.5.2</version>
@@ -5641,7 +5641,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -5656,8 +5656,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>0.7.2</version>
@@ -5771,7 +5771,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -5786,8 +5786,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>STABLE</branch>
         <version>8.0-17.11.24</version>
@@ -5853,7 +5853,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
 <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -5868,8 +5868,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
-    
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>16.05.04</version>
@@ -5966,7 +5966,7 @@ any translation issues or suggestions for improvement
       ]]>
     </installation_notes>
     <versions>
-    
+
    <version>
   <branch>STABLE</branch>
   <version>8.2-18.12.06</version>
@@ -5981,8 +5981,8 @@ any translation issues or suggestions for improvement
     <phase>2</phase>
   </development_stage>
 </version>
- 
-    
+
+
       <version>
         <branch>RELEASE</branch>
         <version>16.05.04</version>
@@ -6093,7 +6093,7 @@ any translation issues or suggestions for improvement
   </development_stage>
 </version>
 
-    
+
       <version>
         <branch>RELEASE</branch>
         <version>16.05.04</version>
@@ -12498,6 +12498,74 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
       </version>
     </versions>
   </market_entry>
+  <market_entry>
+    <id>quick-search</id>
+    <type>Platform</type>
+    <name>Quick Search</name>
+    <category>
+      <name>Admin</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://github.com/bmorrise/quick-search/wiki</documentation_url>
+    <description>
+      The Quick Search plugin makes finding your repository files easily by indexing them into ElasticSearch
+    </description>
+    <author>Benjamin Morrise</author>
+    <author_url>http://www.github.com/bmorrise</author_url>
+    <author_logo></author_logo>
+    <license>Apache 2.0</license>
+    <dependencies/>
+    <versions>
+      <version>
+        <branch>master</branch>
+        <version>1.0-SNAPSHOT</version>
+        <build_id/>
+        <name></name>
+        <package_url>https://github.com/bmorrise/quick-search/releases/download/v1.0-SNAPSHOT/quick-search-server-plugin-1.0-SNAPSHOT.zip</package_url>
+        <min_parent_version>8.0.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+  <market_entry>
+    <id>QuickSearchClient</id>
+    <type>SpoonPlugin</type>
+    <name>Quick Search</name>
+    <category>
+      <name>Search</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>Quick Search allows you to quickly find files saved to your repository by name as well as quickly add steps and job entries to your transformations and jobs</description>
+    <documentation_url>https://github.com/bmorrise/quick-search/wiki</documentation_url>
+    <author>Benjamin Morrise</author>
+    <author_url>https://github.com/bmorrise</author_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Support by author and/or GitHub community</support_message>
+    <support_organization>Benjamin Morrise</support_organization>
+    <support_url>https://github.com/bmorrise/quick-search/issues</support_url>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0-SNAPSHOT</version>
+        <package_url>https://github.com/bmorrise/quick-search/releases/download/v1.0-SNAPSHOT/quick-search-client-plugin-1.0-SNAPSHOT.kar</package_url>
+        <source_url>https://github.com/bmorrise/quick-search</source_url>
+        <min_parent_version>8.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
 <market_entry>
     <id>layoutEditor</id>
     <type>Platform</type>
@@ -12513,7 +12581,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <documentation_url>...</documentation_url>
     <description>
       Layout Editor is a new CTools Plugin that allows any user to create CTools dashboards based on pre-built widgets.
-      Widgets are CTools dashboards that contain one ore more components. 
+      Widgets are CTools dashboards that contain one ore more components.
     </description>
     <author>Webdetails</author>
     <author_url>http://webdetails.pt</author_url>
@@ -12536,7 +12604,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
         </description>
         <build_id>1</build_id>
         <min_parent_version>8.2.0</min_parent_version>
-        <max_parent_version>8.2.99</max_parent_version>        
+        <max_parent_version>8.2.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>1</phase>
