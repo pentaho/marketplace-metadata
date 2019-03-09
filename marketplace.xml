@@ -9441,18 +9441,12 @@ With this plugin you can:
 		<small_img/>
 		<installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
 		<name>ARS Server (BMC Remedy)</name>
-        <category>
-          <name>Connectivity</name>
-           <parent>
-            <name>PDI Plugins</name>
-          </parent>
-    </category>
 		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
 		<description><![CDATA[This plugin is required for the "ARS Output (BMC Remedy)" step plugin.
-It's not working with other database based plugins.
-
-** THE AR SYSTEM API JARS ARE NOT INCLUDED, YOU NEED TO **
-** COPY THE JARS INTO THE DATA-INTEGRATION LIB DIRECTORY. **
+It's not working with other database based plugins. 
+		
+** THE AR SYSTEM API JARS ARE NOT INCLUDED, YOU NEED TO ** 
+** COPY THE JARS INTO THE DATA-INTEGRATION LIB DIRECTORY. **  
 If you use api < 7.5 or running the plugin against a remedy version < 7.5, you need to copy the native libs
 in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installation notes.
 ( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
@@ -9466,19 +9460,31 @@ in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installati
 			<version>
 				<branch>TRUNK</branch>
 				<version>0.7.0</version>
-				<package_url>http://sourceforge.net/projects/arsoutputplugin/files/arsdatabase/arsdatabase-0.7.0-SNAPSHOT.zip/download</package_url>
+				<package_url>https://github.com/seschmid/PDIARSystemPlugins/releases/download/pdiplugins/arsdatabase-0.7.0-SNAPSHOT.zip</package_url>
 				<description>Trunk Snapshot. Install at your own risk...</description>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
+			    <min_parent_version>5.0</min_parent_version>
+      			<max_parent_version>8.1</max_parent_version> 
+			    <development_stage>
+			    	<lane>Community</lane>
+        			<phase>3</phase>
+			    </development_stage> 
+			</version>
+			<version>
+				<branch>TRUNK</branch>
+				<version>0.7.2</version>
+				<package_url>https://github.com/seschmid/PDIARSystemPlugins/releases/download/pdiplugins/arsdatabase-0.7.2-SNAPSHOT.zip</package_url>
+				<description>Trunk Snapshot. Install at your own risk...</description>
+			    <min_parent_version>8.2</min_parent_version>
+			    <development_stage>
+			    	<lane>Community</lane>
+        			<phase>3</phase>
+			    </development_stage> 
 			</version>
 		</versions>
 		<license_name>GPL 3.0</license_name>
 		<license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.txt</license_text>
 		<support_level>NOT_SUPPORTED</support_level>
 	</market_entry>
-
 
 	<market_entry>
 		<id>pdi-arsystem-output-plugin</id>
@@ -9487,16 +9493,10 @@ in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installati
 		<small_img/>
 		<installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
 		<name>ARS Output (BMC Remedy)</name>
-		<category>
-          <name>Connectivity</name>
-          <parent>
-            <name>PDI Plugins</name>
-          </parent>
-        </category>
 		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
 		<description><![CDATA[This plugin allow to write to a BMC Remedy AR System server.
-
-** THIS PLUGIN REQURIES THE AR-SYSTEM DATABASE PLUGIN "ARS Server (BMC Remedy)" **
+		
+** THIS PLUGIN REQURIES THE AR-SYSTEM DATABASE PLUGIN "ARS Server (BMC Remedy)" ** 
 ( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
 ]]></description>
 		<author>Sebastian Schmidt</author>
@@ -9507,21 +9507,56 @@ in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installati
 		<versions>
 			<version>
 				<branch>TRUNK</branch>
-				<version>0.9.0</version>
-				<package_url>http://sourceforge.net/projects/arsoutputplugin/files/arsoutput/arsoutput-0.9.0-SNAPSHOT.zip/download</package_url>
+				<version>0.9.2</version>
+				<package_url>https://github.com/seschmid/PDIARSystemPlugins/releases/download/pdiplugins/arsoutput-0.9.2-SNAPSHOT.zip</package_url>
 				<description>Trunk Snapshot. Install at your own risk...</description>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
+			    <min_parent_version>5.0</min_parent_version>
+			    <development_stage>
+			    	<lane>Community</lane>
+        			<phase>3</phase>
+			    </development_stage> 
 			</version>
 		</versions>
 		<license_name>GPL 3.0</license_name>
 		<license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.txt</license_text>
-		<support_level>NOT_SUPPORTED</support_level>
+		<support_level>NOT_SUPPORTED</support_level> 
+  </market_entry>
+
+	<market_entry>
+		<id>pdi-arsystem-input-plugin</id>
+		<type>Step</type>
+		<img/>
+		<small_img/>
+		<installation_notes>https://sourceforge.net/p/arsoutputplugin/wiki/Installation/</installation_notes>
+		<name>ARS Input (BMC Remedy)</name>
+		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
+		<description><![CDATA[This plugin allow to read fromo a BMC Remedy AR System server.
+		
+** THIS PLUGIN REQURIES THE AR-SYSTEM DATABASE PLUGIN "ARS Server (BMC Remedy)" ** 
+( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
+]]></description>
+		<author>Sebastian Schmidt</author>
+		<author_url/>
+		<author_logo/>
+		<license>GNU General Public License version 3.0 (GPLv3)</license>
+		<dependencies>pdi-arsystem-database-plugin</dependencies>
+		<versions>
+			<version>
+				<branch>TRUNK</branch>
+				<version>0.3.0</version>
+				<package_url>https://github.com/seschmid/PDIARSystemPlugins/releases/download/pdiplugins/arsinput-0.3.0-SNAPSHOT.zip</package_url>
+				<description>Trunk Snapshot. Install at your own risk...</description>
+			    <min_parent_version>5.0</min_parent_version>
+			    <development_stage>
+			    	<lane>Community</lane>
+        			<phase>3</phase>
+			    </development_stage> 
+			</version>
+		</versions>
+		<license_name>GPL 3.0</license_name>
+		<license_text>For more details see: http://www.gnu.org/licenses/gpl-3.0.txt</license_text>
+		<support_level>NOT_SUPPORTED</support_level> 
 	</market_entry>
-
-
 
   <market_entry>
     <id>pdi-script-extension-points</id>
