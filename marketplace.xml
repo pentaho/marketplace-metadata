@@ -12689,4 +12689,39 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <screenshots>
     </screenshots>
   </market_entry>
+  <market_entry>
+    <id>kettle-openerp-plugin</id>
+    <type>Step</type>
+    <name>PDI Openerp Plugin</name>
+    <category>
+      <name>Deprecated</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin is for Pentaho Data integration (ETL) a.k.a kettle. Loads as: OpenERPInput, OpenERPOutput, OpenERPDelete</description>
+    <author>Pentaho</author>
+    <documentation_url>https://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <versions>
+      <version>
+        <branch>8.2</branch>
+        <version>8.2.0.0-342</version>
+        <build_id/>
+        <name>Build for Pentaho 8.2</name>
+        <package_url>https://public.nexus.pentaho.org/content/repositories/omni/org/pentaho/di/plugins/kettle-openerp-plugin/8.2.0.0-342/kettle-openerp-plugin-8.2.0.0-342.zip</package_url>
+        <source_url>https://github.com/pentaho/pentaho-kettle/tree/master/plugins/openerp</source_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
+    <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html
+    </license_text>
+    <support_level>NOT_SUPPORTED</support_level>
+  </market_entry>
 </market>
