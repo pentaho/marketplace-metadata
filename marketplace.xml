@@ -1907,7 +1907,22 @@ A landing tab can optionally be presented, which can be used to any of the prede
       </version>
 
 
-
+   <version>
+        <branch>STABLE</branch>
+        <version>19.05.02</version>
+        <name>Stable</name>
+        <package_url>
+          	https://github.com/webdetails/cfr/releases/download/19.05.02/cfr-19.05.02.zip
+        </package_url>
+        <description>Stable release.</description>
+        <build_id/>
+        <min_parent_version>8.2</min_parent_version>
+        <max_parent_version>8.2.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
     </versions>
   </market_entry>
 
