@@ -10963,7 +10963,20 @@ Capabilities:
         <package_url>https://github.com/bennychow/weka-analyzer-viz/raw/master/bin/weka-analyzer-viz.zip</package_url>
         <description>BA Server Plugin for Weka Analyzer Visualizations</description>
         <min_parent_version>6.1</min_parent_version>
-          <development_stage>
+        <max_parent_version>8.1.99</max_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>1</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>TRUNK</branch>
+        <version>TRUNK-SNAPSHOT</version>
+        <name>Trunk</name>
+        <package_url>https://github.com/bennychow/weka-analyzer-viz/raw/master/bin/weka-analyzer-viz-1.1.zip</package_url>
+        <description>BA Server Plugin for Weka Analyzer Visualizations</description>
+        <min_parent_version>8.2</min_parent_version>
+        <development_stage>
           <lane>Community</lane>
           <phase>1</phase>
         </development_stage>
