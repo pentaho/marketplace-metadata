@@ -7305,16 +7305,16 @@ With this plugin you can:
     <description>This step uses the MaxMind GeoIP library to look up Countries, region and city information with an IP
       address.
     </description>
-    <documentation_url>https://raw.github.com/pmalves/MaxMindGeoIPLookup/master/README.txt</documentation_url>
+    <documentation_url>https://github.com/matthewtckr/MaxMindGeoIPLookup/blob/master/README.txt</documentation_url>
     <author>Daniel Einspanjer, Doug Moran, Pedro Alves, Matt Casters</author>
-    <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
-    <cases_url>https://github.com/mattcasters/MaxMindGeoIPLookup/issues/</cases_url>
+    <forum_url>https://forums.pentaho.com/forums/135-Pentaho-Data-Integration-Kettle/</forum_url>
+    <cases_url>https://github.com/matthewtckr/MaxMindGeoIPLookup/issues</cases_url>
     <license_name>Apache License 2.0</license_name>
     <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
     <support_level>COMMUNITY_SUPPORTED</support_level>
     <support_message>Supported by a community of volunteers</support_message>
     <support_organization>none</support_organization>
-    <support_url>https://github.com/mattcasters/MaxMindGeoIPLookup</support_url>
+    <support_url>https://github.com/matthewtckr/MaxMindGeoIPLookup/issues</support_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7357,6 +7357,22 @@ With this plugin you can:
 	<package_url>https://github.com/matthewtckr/MaxMindGeoIPLookup/releases/download/pdi-maxmind-plugin-2.1.1/pdi-maxmind-plugin-2.1.1.zip</package_url>
         <source_url>https://github.com/matthewtckr/MaxMindGeoIPLookup/releases/tag/pdi-maxmind-plugin-2.1.1</source_url>
         <description>Updated for Pentaho 6 and 7, supports running in Map/Reduce, handles VFS URLs for database files
+        </description>
+        <changelog>Updated to Pentaho 6+</changelog>
+        <build_id>3</build_id>
+        <min_parent_version>6.1</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>Stable</branch>
+        <version>3.0.1</version>
+        <name>3.0.1</name>
+	<package_url>https://github.com/matthewtckr/MaxMindGeoIPLookup/releases/download/pdi-maxmind-plugin-3.0.1/pdi-maxmind-plugin-3.0.1.zip</package_url>
+        <source_url>https://github.com/matthewtckr/MaxMindGeoIPLookup/releases/tag/pdi-maxmind-plugin-3.0.1</source_url>
+        <description>Updated for GeoIP2 format databases (*.mmdb files)
         </description>
         <changelog>Updated to Pentaho 6+</changelog>
         <build_id>3</build_id>
