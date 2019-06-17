@@ -4004,12 +4004,38 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
       </version>
       <version>
         <branch>Release</branch>
-        <version>5.0.0</version>
-        <name>Latest</name>
-        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v5.0.0/fusion_plugin-5.0.0.zip</package_url>
-        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v5.0.0/fusion_samples-5.0.0.zip </samples_url>
-        <max_parent_version>8.0.1</max_parent_version>
+        <version>5.2.0</version>
+        <name>5.2.0</name>
+        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v5.2.0/fusion_plugin-5.2.0.zip</package_url>
+        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v5.2.0/fusion_samples-5.2.0.zip</samples_url>
+        <max_parent_version>8.0.99</max_parent_version>
         <min_parent_version>7.1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>Release</branch>
+        <version>6.0.0</version>
+        <name>6.0.0</name>
+        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v6.0.0/fusion_plugin-6.0.0.zip</package_url>
+        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v6.0.0/fusion_samples-6.0.0.zip</samples_url>
+        <max_parent_version>8.1.99</max_parent_version>
+        <min_parent_version>8.1.0</min_parent_version>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+      <version>
+        <branch>Release</branch>
+        <version>6.1.0</version>
+        <name>Latest</name>
+        <package_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v6.1.0/fusion_plugin-6.1.0.zip</package_url>
+        <samples_url>https://raw.githubusercontent.com/xpandit/pentaho-fc-plugin/gh-pages/releases/v6.1.0/fusion_samples-6.1.0.zip</samples_url>
+        <max_parent_version>8.2.99</max_parent_version>
+        <min_parent_version>8.2.0</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
