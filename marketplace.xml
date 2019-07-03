@@ -38,7 +38,7 @@
     <id>pentaho-marketplace</id>
     <type>Platform</type>
     <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
-    <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+    <small_img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</small_img>
     <name>Pentaho Marketplace </name>
     <category>
       <name>Admin</name>
@@ -82,7 +82,7 @@
     <id>marketplace</id>
     <type>Platform</type>
     <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
-    <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
+    <small_img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</small_img>
     <name>Pentaho Marketplace</name>
     <category>
       <name>Admin</name>
@@ -120,9 +120,6 @@
       </version>
     </versions>
     <screenshots>
-      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-01.jpg</screenshot>
-      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-02.jpg</screenshot>
-      <screenshot>http://www.webdetails.pt/resources/marketplace-screenshots/marketplace/marketplace-03.jpg</screenshot>
     </screenshots>
   </market_entry>
 
