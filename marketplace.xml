@@ -301,6 +301,27 @@
 
 
 
+	 <version>
+        <branch>8.3.0.0</branch>
+        <version>8.3.0.0-371</version>
+        <name>8.3</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/groups/omni/pentaho/pentaho-cdf/8.3.0.0-371/pentaho-cdf-8.3.0.0-371.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/pentaho-cdf-samples/8.3.0.0-371/pentaho-cdf-samples-8.3.0.0-371.zip
+        </samples_url>
+        <description>8.3 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.3</min_parent_version>
+        <max_parent_version>8.3.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
+
       <version>
         <branch>STABLE</branch>
         <version>15.10.26</version>
@@ -556,7 +577,7 @@
         <samples_url>
             https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.2.0.0-342/cda-samples-8.2.0.0-342.zip
         </samples_url>
-        <description>8.1 Platform Release</description>
+        <description>8.2 Platform Release</description>
         <build_id/>
         <min_parent_version>8.2</min_parent_version>
         <max_parent_version>8.2.99</max_parent_version>
@@ -565,6 +586,28 @@
           <phase>4</phase>
         </development_stage>
       </version>
+
+
+	 <version>
+        <branch>8.3.0.0</branch>
+        <version>8.3.0.0-371</version>
+        <name>8.3</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda/8.3.0.0-371/cda-8.3.0.0-371.zip
+        </package_url>
+        <samples_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/pentaho/cda-samples/8.3.0.0-371/cda-samples-8.3.0.0-371.zip
+        </samples_url>
+        <description>8.3 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.3</min_parent_version>
+        <max_parent_version>8.3.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
       <version>
         <branch>STABLE</branch>
@@ -832,7 +875,25 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         </development_stage>
       </version>
 
-
+    <version>
+        <branch>8.3.0.0</branch>
+        <version>8.3.0.0-371</version>
+        <name>8.3</name>
+        <package_url>
+https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-cdf-dd/8.3.0.0-371/pentaho-cdf-dd-8.3.0.0-371.zip
+        </package_url>
+        <samples_url>
+					https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-cdf-dd-samples/8.3.0.0-371/pentaho-cdf-dd-samples-8.3.0.0-371.zip
+        </samples_url>
+        <description>8.3 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.3</min_parent_version>
+        <max_parent_version>8.3.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
 
 
       <version>
@@ -1082,6 +1143,24 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
           <phase>4</phase>
         </development_stage>
       </version>
+
+	  <version>
+        <branch>8.3.0.0</branch>
+        <version>8.3.0.0-371</version>
+        <name>8.3</name>
+        <package_url>
+            https://public.nexus.pentaho.org/content/repositories/omni/org/pentaho/ctools/cgg/8.3.0.0-371/cgg-8.3.0.0-371.zip
+        </package_url>
+        <description>8.3 Platform Release</description>
+        <build_id/>
+        <min_parent_version>8.3</min_parent_version>
+        <max_parent_version>8.3.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>4</phase>
+        </development_stage>
+      </version>
+
 
       <version>
         <branch>STABLE</branch>
