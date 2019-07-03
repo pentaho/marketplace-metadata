@@ -37,7 +37,7 @@
   <market_entry>
     <id>pentaho-marketplace</id>
     <type>Platform</type>
-    <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
+    <img>http://www.webdetails.pt/ficheiros/marketplace_logo.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/marketplace_logo.png</small_img>
     <name>Pentaho Marketplace </name>
     <category>
@@ -81,7 +81,7 @@
   <market_entry>
     <id>marketplace</id>
     <type>Platform</type>
-    <img>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</img>
+    <img>http://www.webdetails.pt/ficheiros/marketplace_logo.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/marketplace_logo.png</small_img>
     <name>Pentaho Marketplace</name>
     <category>
