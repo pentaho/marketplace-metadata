@@ -1327,7 +1327,7 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/pentaho-
         <version>8.1.0.0-8.1.0.0-365</version>
         <name>8.1</name>
         <package_url>
-                https://ctools.pentaho.com/files//sparkl/8.1/sparkl-8.1.0.0-365.zip
+                https://ctools.pentaho.com/files/sparkl/8.1/sparkl-8.1.0.0-365.zip
         </package_url>
         <description>8.1 Platform Release</description>
         <build_id/>
