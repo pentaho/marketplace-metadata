@@ -2326,7 +2326,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 		<branch>ENTERPRISE71</branch>
 		<version>3.17-EE-P71</version>
 		<name>Stable (Pentaho 7.1 - Enterprise)</name>
-		<package_url>https://www.meteorite.bi/downloads/saikuee-plugin-p7-3.17.zip</package_url>
+		<package_url>https://downloads.meteorite.bi/saiku3/saikuee-plugin-p7-3.17.zip</package_url>
 		<description>3.17 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
@@ -2356,7 +2356,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 		<branch>ENTERPRISE</branch>
 		<version>3.10-EE</version>
 		<name>Stable</name>
-		<package_url>https://www.meteorite.bi/downloads/saikuee-plugin-p5-3.11.zip</package_url>
+		<package_url>https://downloads.meteorite.bi/saiku3/saikuee-plugin-p5-3.11.zip</package_url>
 		<description>3.7 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
@@ -2371,7 +2371,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 		<branch>ENTERPRISERC</branch>
 		<version>3.9-RC5-EE</version>
 		<name>Development</name>
-		<package_url>https://meteorite.bi/downloads/saikuee-plugin-p5-3.9-RC5.zip</package_url>
+		<package_url>https://downloads.meteorite.bi/saiku3/saikuee-plugin-p5-3.9-RC5.zip</package_url>
 		<description>3.9 RC5 Enterprise Release for Pentaho BI Server. Enhanced Charting, Date Filters, Maps, Dashboards and Support.
 			For more information contact info@meteorite.bi.
 		</description>
@@ -2386,7 +2386,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <branch>STABLEP7</branch>
         <version>3.90</version>
         <name>Stable (Community)</name>
-        <package_url>http://meteorite.bi/downloads/saiku-plugin-p7.1-3.90.zip</package_url>
+        <package_url>http://downloads.meteorite.bi/saiku3/saiku-plugin-p7.1-3.90.zip</package_url>
         <description>3.90 release for the Saiku Plugin.</description>
         <max_parent_version>8.1</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
