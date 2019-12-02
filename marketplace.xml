@@ -6664,9 +6664,9 @@ any translation issues or suggestions for improvement
     </screenshots>
   </market_entry>
 
- <market_entry>
-    <id>plugin-machine-intelligence-visualization</id>
-    <type>Spoon</type>
+  <market_entry>
+    <id>pmi-visualization</id>
+    <type>SpoonPlugin</type>
     <img>https://github.com/pentaho-labs/pentaho-machine-intelligence/raw/master/screenshot/pdi_pmi.png</img>
     <name>PMI Visualization</name>
 
@@ -6703,7 +6703,7 @@ any translation issues or suggestions for improvement
       </version>
     </versions>
     <screenshots>
-      <screenshot>https://github.com/pentaho-labs/pentaho-machine-intelligence/raw/master/screenshot/pdi_pmi.png</screenshot>
+      <screenshot>https://raw.githubusercontent.com/pentaho-labs/pmi-visualization/master/screenshot/pmi-vis.png</screenshot>
     </screenshots>
   </market_entry>
 
