@@ -9279,38 +9279,6 @@ With this plugin you can:
 
 
   <market_entry>
-    <id>pdi-google-spreadsheet-plugin</id>
-    <type>Step</type>
-    <name>Google Spreadsheet Input/Output</name>
-    <category>
-      <name>Connectivity</name>
-      <parent>
-        <name>PDI Plugins</name>
-      </parent>
-    </category>
-    <documentation_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/blob/master/README.md</documentation_url>
-    <description>This plugin offers Input/Output steps for reading from or writing to Google Docs/Drive spreadsheets.</description>
-    <author>Brian Zoetewey</author>
-    <versions>
-      <version>
-        <branch>Stable</branch>
-        <version>1.0.1</version>
-        <package_url>https://maven.gcx.org/org/ccci/gto/pdi-google-spreadsheet-plugin/1.0.1/pdi-google-spreadsheet-plugin-1.0.1.zip</package_url>
-        <source_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin</source_url>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>3</phase>
-        </development_stage>
-      </version>
-    </versions>
-    <cases_url>https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/issues</cases_url>
-    <license_name>Modified BSD</license_name>
-    <license_text>For more details see:
-      https://github.com/GlobalTechnology/pdi-google-spreadsheet-plugin/blob/master/LICENSE</license_text>
-    <support_level>NOT_SUPPORTED</support_level>
-  </market_entry>
-
-  <market_entry>
     <id>pdi-random-row-distributions</id>
     <type>Mixed</type>
     <name>Probabilistic Row Distributions for PDI</name>
