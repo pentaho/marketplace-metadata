@@ -705,7 +705,13 @@
 
     <name>Pentaho Platform JPivot Plugin</name>
     <description>
-      This is a port of the JPivot functionality that existed in Pentaho Platform 4.8 into a stand alone plugin.
+      The legacy and deprecated JPivot plugin.
+
+      This plugin is no longer supported. Furthermore, it is vulnerable to known security vulnerabilities.
+      Hitachi Vantara advises strongly against installing this plugin.
+      Install this plugin at your own risk.
+
+      See the installation instructions, for more information.
     </description>
 
     <img/>
@@ -721,12 +727,12 @@
     <license>CPL-1.0</license>
 
     <installation_notes>
-      This plugin requires a jar (JavaServer Faces API) that was removed form the Pentaho Server.
+      To function, this plugin requires that a JAR dependency is installed in the Pentaho Server - the JavaServer Faces API.
+      This dependency has known security vulnerabilities, which are described in the security issue CVE-2008-1285.
+      Installing this dependency in the Pentaho Server compromises its security.
 
-      In order to be able to execute the plugin, download it from 'https://mvnrepository.com/artifact/javax.faces/jsf-api/1.1'
-      and place it in the 'tomcat/webapps/pentaho/WEB-INF/lib' folder and restart the server.
-
-      Note: The server will become vulnerable to the security vulnerability exposed by JavaServer Faces API v1.1.
+      To install the JAR dependency, download it from 'https://mvnrepository.com/artifact/javax.faces/jsf-api/1.1',
+      place it in the 'tomcat/webapps/pentaho/WEB-INF/lib' folder and finally restart the Pentaho Server.
     </installation_notes>
 
     <documentation_url>
