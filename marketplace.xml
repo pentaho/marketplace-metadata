@@ -698,6 +698,73 @@
     </screenshots>
   </market_entry>
 
+
+  <market_entry>
+    <id>pentaho-jpivot-plugin</id>
+    <type>Platform</type>
+
+    <name>Pentaho Platform JPivot Plugin</name>
+    <description>
+      JPivot is a JSP custom tag library that renders an OLAP table and let users
+      perform typical OLAP navigations like slice and dice, drill down and roll up.
+      It uses Mondrian as its OLAP Server. JPivot also supports XMLA datasource access.
+
+      This plugin is no longer supported and has some security vulnerabilities. See the installation instructions, for more information.
+    </description>
+
+    <img/>
+    <small_img/>
+
+    <category>
+      <name>Analysis</name>
+      <parent>
+        <name>Apps</name>
+      </parent>
+    </category>
+
+    <license>CPL-1.0</license>
+
+    <installation_notes>
+      To function, this plugin requires that a JAR dependency is installed in the Pentaho Server - the JavaServer Faces API.
+      This dependency has known security vulnerabilities, which are described in the security issue CVE-2008-1285.
+      Installing this dependency in the Pentaho Server compromises its security.
+
+      To install the JAR dependency, download it from 'https://mvnrepository.com/artifact/javax.faces/jsf-api/1.1',
+      place it in the 'tomcat/webapps/pentaho/WEB-INF/lib' folder and finally restart the Pentaho Server.
+    </installation_notes>
+
+    <documentation_url>
+      https://help.pentaho.com/Documentation/9.0/Setup/Manage_the_Pentaho_Server#Enable_JPivot_in_the_User_Console
+    </documentation_url>
+
+    <author>Pentaho</author>
+    <author_url>http://pentaho.com</author_url>
+    <author_logo>http://pentaho.com/sites/all/themes/pentaho/_media/logo-pentaho.svg</author_logo>
+
+    <versions>
+      <version>
+        <branch>9.0.0.0</branch>
+        <version>9.0.0.0-423</version>
+
+        <name>9.0</name>
+        <description>9.0 Platform Release</description>
+
+        <package_url>
+          https://public.nexus.pentaho.org/repository/proxy-pentaho-public-release-group/org/pentaho/jpivot-plugin/9.0.0.0-423/jpivot-plugin-9.0.0.0-423.zip
+        </package_url>
+
+        <min_parent_version>9.0</min_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
+
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
+
+
   <market_entry>
     <id>pentaho-cdf-dd</id>
     <type>Platform</type>
@@ -2230,7 +2297,7 @@ A landing tab can optionally be presented, which can be used to any of the prede
     </versions>
   </market_entry>
 
-<market_entry>
+  <market_entry>
     <id>BayInspect</id>
     <type>Platform</type>
     <img>http://bahiasoftware.es/fotos/1418733840_j5MA.png</img>
@@ -2483,7 +2550,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 		</screenshots>
 	</market_entry>
 
-<market_entry>
+  <market_entry>
     <id>pentaho-ce-audit</id>
     <type>Platform</type>
     <img>
@@ -2632,7 +2699,7 @@ It is mandatory to click on the "Refresh Button" on the Pentaho Performance Moni
       <screenshot>https://a.fsdn.com/con/app/proj/pentaho-performance-monitoring/screenshots/dashboard_screen2.png</screenshot>
     </screenshots>
  </market_entry>
- <market_entry>
+  <market_entry>
     <id>tapa</id>
     <type>Platform</type>
     <img>http://oncase.com.br/tapa.svg</img>
