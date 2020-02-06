@@ -705,13 +705,11 @@
 
     <name>Pentaho Platform JPivot Plugin</name>
     <description>
-      The legacy and deprecated JPivot plugin.
+      JPivot is a JSP custom tag library that renders an OLAP table and let users
+      perform typical OLAP navigations like slice and dice, drill down and roll up.
+      It uses Mondrian as its OLAP Server. JPivot also supports XMLA datasource access.
 
-      This plugin is no longer supported. Furthermore, it is vulnerable to known security vulnerabilities.
-      Hitachi Vantara advises strongly against installing this plugin.
-      Install this plugin at your own risk.
-
-      See the installation instructions, for more information.
+      This plugin is no longer supported and has some security vulnerabilities. See the installation instructions, for more information.
     </description>
 
     <img/>
