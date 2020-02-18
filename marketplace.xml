@@ -700,7 +700,7 @@
 
 
   <market_entry>
-    <id>pentaho-jpivot-plugin</id>
+    <id>jpivot</id>
     <type>Platform</type>
 
     <name>Pentaho Platform JPivot Plugin</name>
@@ -729,7 +729,7 @@
       This dependency has known security vulnerabilities, which are described in the security issue CVE-2008-1285.
       Installing this dependency in the Pentaho Server compromises its security.
 
-      To install the JAR dependency, download it from 'https://mvnrepository.com/artifact/javax.faces/jsf-api/1.1',
+      To install the JAR dependency, download it from 'https://mvnrepository.com/artifact/javax.faces/jsf-api/1.1_02',
       place it in the 'tomcat/webapps/pentaho/WEB-INF/lib' folder and finally restart the Pentaho Server.
     </installation_notes>
 
@@ -743,14 +743,15 @@
 
     <versions>
       <version>
-        <branch>9.0.0.0</branch>
-        <version>9.0.0.0-423</version>
+        <branch>9.0.0.1</branch>
+        <version>9.0.0.1-445</version>
 
         <name>9.0</name>
         <description>9.0 Platform Release</description>
 
+        <!-- TODO update this link when the final build for 9.0.0.1 SP is done -->
         <package_url>
-          https://public.nexus.pentaho.org/repository/proxy-pentaho-public-release-group/org/pentaho/jpivot-plugin/9.0.0.0-423/jpivot-plugin-9.0.0.0-423.zip
+          https://pentaho.box.com/shared/static/n6rh1xlxd9kcmjka6dxr4guhvmj0e9p1.zip
         </package_url>
 
         <min_parent_version>9.0</min_parent_version>
