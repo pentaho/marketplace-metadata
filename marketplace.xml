@@ -13057,4 +13057,39 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </version>
   </versions>
 </market_entry>
+  <market_entry>
+    <id>PentahoGoogleSheetsPlugin</id>
+		<type>Step</type>
+    <name>Pentaho Google Sheets Plugin APIV4</name>
+    <category>
+      <name>Input/Output</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>With these plugins you can read/write from/to Google Spreadsheets. This plugin uses the latest Google API's since others are deprecated March 2020</description>
+    <author>jfmonteil@gmail.com</author>
+    <author_url></author_url>
+    <author_logo>https://avatars0.githubusercontent.com/u/8617022?s=460&v=4</author_logo>
+    <documentation_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/blob/master/README.md</documentation_url>
+    <cases_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+	<img>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/blob/master/screenshots/PentahoGoogleSheetInput-Spreadsheet.png?raw=true</img>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>4.0</version>
+        <name>4.0</name>
+        <package_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/blob/master/delivery/PentahoGoogleSheetsPlugin-4.0-distribution.zip</package_url>
+        <samples_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/tree/master/samples</samples_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+  </market_entry>
 </market>
