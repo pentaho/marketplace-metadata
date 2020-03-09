@@ -13081,9 +13081,9 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>4.0</version>
-        <name>4.0</name>
-        <package_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/blob/master/delivery/PentahoGoogleSheetsPlugin-4.0-distribution.zip</package_url>
+        <version>4.1</version>
+        <name>4.1</name>
+        <package_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/blob/master/delivery/PentahoGoogleSheetsPlugin-4.1-distribution.zip</package_url>
         <samples_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/tree/master/samples</samples_url>
         <development_stage>
           <lane>Community</lane>
