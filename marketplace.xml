@@ -13057,7 +13057,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </version>
   </versions>
 </market_entry>
-  <market_entry>
+ <market_entry>
     <id>PentahoGoogleSheetsPlugin</id>
 		<type>Step</type>
     <name>Pentaho Google Sheets Plugin APIV4</name>
@@ -13074,8 +13074,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <documentation_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/blob/master/README.md</documentation_url>
     <cases_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/issues</cases_url>
     <license_name>Apache License 2.0</license_name>
-    <license_text>For more details see:
-      http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
 	<img>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/blob/master/screenshots/PentahoGoogleSheetInput-Spreadsheet.png?raw=true</img>
     <support_level>COMMUNITY_SUPPORTED</support_level>
     <versions>
@@ -13083,7 +13082,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
         <branch>Stable</branch>
         <version>4.1</version>
         <name>4.1</name>
-        <package_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/blob/master/delivery/PentahoGoogleSheetsPlugin-4.1-distribution.zip</package_url>
+        <package_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/raw/master/delivery/PentahoGoogleSheetsPlugin-4.1-distribution.zip</package_url>
         <samples_url>https://github.com/jfmonteil/Pentaho-Google-Sheet-Plugin/tree/master/samples</samples_url>
         <development_stage>
           <lane>Community</lane>
