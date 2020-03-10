@@ -13061,16 +13061,17 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
 <market_entry>
     <id>generatechart</id>
     <type>Step</type>
-    <name>Generate charts</name>
+    <name>Generate Charts</name>
     <category>
       <name>Enhancements</name>
       <parent>
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <description>This plugin allow to generate charts with javascript libraries like Google chart.This plugin has been developed as a final project of computer engineerin at the university of Alicante,Spain.
+    <description>This plugin allow to generate charts with javascript libraries like Google chart.This plugin has been developed as a final project of computer engineering at the university of Alicante,Spain.
     </description>
     <author>Daniel Pascual Parrondo</author>
+    <img>https://raw.githubusercontent.com/danielpascual95/GenerateChart-wiki/master/step-foto2.PNG</img>
     <documentation_url>https://github.com/danielpascual95/GenerateChart-wiki/blob/master/wiki</documentation_url>
     <versions>
       <version>
@@ -13090,6 +13091,10 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
+     <screenshots> 
+    <screenshot>https://raw.githubusercontent.com/danielpascual95/GenerateChart-wiki/master/step-foto.PNG</screenshot>
+    <screenshot>https://raw.githubusercontent.com/danielpascual95/GenerateChart-wiki/master/step-foto2.PNG</screenshot>
+  </screenshots>
   </market_entry>
   
 <market_entry>
