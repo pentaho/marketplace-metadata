@@ -13048,8 +13048,8 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
  <versions>
     <version>
       <branch>Stable</branch>
-      <version>1.0.2</version>
-      <package_url>https://github.com/kleineroscar/ReadExcelHeader/releases/download/v1.0.2/ReadExcelHeader-1.0.2.zip</package_url>
+      <version>1.0.3</version>
+      <package_url>https://github.com/kleineroscar/ReadExcelHeader/releases/download/v1.0.3/ReadExcelHeader-1.0.3.zip</package_url>
       <development_stage>
         <lane>Community</lane>
         <phase>1</phase>
