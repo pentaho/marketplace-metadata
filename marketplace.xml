@@ -12419,10 +12419,10 @@ Capabilities:
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>0.9.1</version>
-        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS/releases/download/0.9.1/Pentaho-AWS-SNS-Notify-Plugin-0.9.1.zip</package_url>
+        <version>0.9.2</version>
+        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS/releases/download/0.9.2/AWS-SNS-Notify-Plugin-0.9.2.zip</package_url>
         <source_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SNS</source_url>
-	<min_parent_version>6.1</min_parent_version>
+	<min_parent_version>7.1</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -12682,8 +12682,8 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <versions>
       <version>
         <branch>Stable</branch>
-        <version>0.9.1</version>
-        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SQS-Reader/releases/download/0.9.1/AWS-SQS-Reader-0.9.1.zip</package_url>
+        <version>0.9.2</version>
+        <package_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SQS-Reader/releases/download/0.9.2/AWS-SQS-Reader-Plugin-0.9.2.zip</package_url>
         <source_url>https://github.com/FreddyFFM/PDIPlugin-AWS-SQS-Reader</source_url>
 	<min_parent_version>7.1</min_parent_version>
         <development_stage>
