@@ -10484,7 +10484,7 @@ More on: https://anotherreeshu.wordpress.com/2015/01/13/special-character-remove
   </description>
   <author>SPEC-INDIA</author>
   <author_url>http://www.spec-india.com/</author_url>
-  <dependencies>CDA, CCC, Saiku Analytics</dependencies>
+  <dependencies>CDA, CCC, Saiku Analytics, Pentaho 8.0/8.1</dependencies>
   <forum_url>https://github.com/SPECUSA/SelfServiceBI</forum_url>
   <cases_url>https://github.com/SPECUSA/SelfServiceBI</cases_url>
   <license_name>GNU General Public License</license_name>
