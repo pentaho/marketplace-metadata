@@ -13071,7 +13071,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <description>This plugin allow to generate charts with javascript libraries like Google chart.This plugin has been developed as a final project of computer engineering at the university of Alicante,Spain.
     </description>
     <author>Daniel Pascual Parrondo</author>
-    <img>https://raw.githubusercontent.com/danielpascual95/GenerateChart-wiki/master/step-foto2.PNG</img>
+    <img>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matrculados_por_genero_grafica.PNG</img>
     <documentation_url>https://github.com/danielpascual95/GenerateChart-wiki/blob/master/wiki</documentation_url>
     <versions>
       <version>
@@ -13092,9 +13092,10 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
      <screenshots> 
-    <screenshot>https://raw.githubusercontent.com/danielpascual95/GenerateChart-wiki/master/step-foto.PNG</screenshot>
-    <screenshot>https://raw.githubusercontent.com/danielpascual95/GenerateChart-wiki/master/step-foto2.PNG</screenshot>
-  </screenshots>
+    <screenshot>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matriculados_por_genero.PNG</screenshot>
+    <screenshot>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matriculados_por_genero_ETL.PNG</screenshot>
+    <screenshot>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matrculados_por_genero_grafica.PNG</screenshot>
+	</screenshots>
   </market_entry>
   
 <market_entry>
