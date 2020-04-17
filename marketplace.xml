@@ -13196,7 +13196,43 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
       <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case3.jpg</screenshot>
     </screenshots>
   </market_entry>
-  
-  
-  
+
+  <market_entry>
+    <id>rocketchat-message-client</id>
+    <type>Step</type>
+    <name>Rocketchat Message Client</name>
+    <category>
+        <name>Enhancements</name>
+        <parent>
+            <name>PDI Plugins</name>
+        </parent>
+    </category>
+
+    <description>Send messages to a rocketchat server. Target channel, sender alias and sender icon are customizable.</description>
+    <documentation_url>https://github.com/Talon24/kettle-rocketchat</documentation_url>
+    <author>Talon24</author>
+    <forum_url>https://github.com/Talon24/kettle-rocketchat</forum_url>
+    <cases_url>https://github.com/Talon24/kettle-rocketchat/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+    http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Support by author and/or GitHub community</support_message>
+    <support_organization>none</support_organization>
+    <support_url>https://github.com/Talon24/kettle-rocketchat/issues</support_url>
+    <versions>
+    <version>
+        <branch>Stable</branch>
+        <version>1.0.0</version>
+        <package_url>https://github.com/Talon24/kettle-rocketchat/releases/download/1.0.0/rocketchat-plugin.zip</package_url>
+        <development_stage>
+            <lane>Community</lane>
+            <phase>3</phase>
+        </development_stage>
+    </version>
+    </versions>
+  </market_entry>
+
+
+
 </market>
