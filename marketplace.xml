@@ -1444,6 +1444,24 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/8
       </version>
 
 
+   <version>
+        <branch>9.0.0.0</branch>
+        <version>9.0.0.0-9.0.0.0-423</version>
+        <name>9.0</name>
+        <package_url>
+https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/9.0.0.0-423/sparkl-9.0.0.0-423.zip
+        </package_url>
+        <description>9.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>9.0</min_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
 
     </versions>
     <screenshots>
