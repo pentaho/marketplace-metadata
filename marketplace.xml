@@ -1735,11 +1735,11 @@ A landing tab can optionally be presented, which can be used to any of the prede
           https://ctools.pentaho.com/files/cte/cte-8.0-SNAPSHOT.zip
         </package_url>
         <description>
-          Build for Pentaho 7.x and 8.x
+          Build for Pentaho 7.x and 8.x and 9.0
         </description>
         <build_id>1</build_id>
         <min_parent_version>7.0</min_parent_version>
-        <max_parent_version>8.4.99</max_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
