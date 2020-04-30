@@ -6637,9 +6637,9 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
 	<branch>Trunk</branch>
-	<version>1.5</version>
+	<version>1.5.1</version>
 	<name>PDI 8.2 or later</name>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5-post-PDI-8.2/plugin-machine-intelligence-1.5.zip</package_url>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5.1-post-PDI-8.2/plugin-machine-intelligence-1.5.1.zip</package_url>
       <min_parent_version>8.2</min_parent_version>
       <development_stage>
         <lane>Customer</lane>
@@ -6648,9 +6648,9 @@ any translation issues or suggestions for improvement
       </version>
       <version>
 	<branch>Trunk</branch>
-	<version>1.5</version>
+	<version>1.5.1</version>
 	<name>Pre PDI 8.2</name>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5-pre-PDI-8.2/plugin-machine-intelligence-1.5.zip</package_url>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5.1-pre-PDI-8.2/plugin-machine-intelligence-1.5.1.zip</package_url>
       <min_parent_version>7.0</min_parent_version>
       <max_parent_version>8.1.99</max_parent_version>
       <development_stage>
