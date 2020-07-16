@@ -13216,6 +13216,34 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
           <phase>4</phase>
         </development_stage>
       </version>
+	  <version>
+		<branch>
+			STABLE
+		</branch>
+		<version>
+			3.3
+		</version>
+		<name>
+			Stable 3.3
+		</name>
+		<package_url>
+			https://sourceforge.net/projects/datafor-visualizer/files/V3.3/datafor.zip/download
+		</package_url>
+		<description>
+			Release 3.3
+		</description>
+		<min_parent_version>
+			3.3
+		</min_parent_version>
+		<development_stage>
+			<lane>
+				Community
+			</lane>
+			<phase>
+				4
+			</phase>
+		</development_stage>
+	  </version>	  
     </versions>
     <screenshots>
       <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case1.jpg</screenshot>
