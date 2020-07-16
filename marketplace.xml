@@ -1444,6 +1444,24 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/8
       </version>
 
 
+   <version>
+        <branch>9.0.0.0</branch>
+        <version>9.0.0.0-9.0.0.0-423</version>
+        <name>9.0</name>
+        <package_url>
+https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/9.0.0.0-423/sparkl-9.0.0.0-423.zip
+        </package_url>
+        <description>9.0 Platform Release</description>
+        <build_id/>
+        <min_parent_version>9.0</min_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+
+
 
     </versions>
     <screenshots>
@@ -1717,11 +1735,11 @@ A landing tab can optionally be presented, which can be used to any of the prede
           https://ctools.pentaho.com/files/cte/cte-8.0-SNAPSHOT.zip
         </package_url>
         <description>
-          Build for Pentaho 7.x and 8.x
+          Build for Pentaho 7.x and 8.x and 9.0
         </description>
         <build_id>1</build_id>
         <min_parent_version>7.0</min_parent_version>
-        <max_parent_version>8.4.99</max_parent_version>
+        <max_parent_version>9.0.99</max_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>2</phase>
@@ -6705,9 +6723,9 @@ any translation issues or suggestions for improvement
     <versions>
       <version>
 	<branch>Trunk</branch>
-	<version>1.5</version>
+	<version>1.5.1</version>
 	<name>PDI 8.2 or later</name>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5-post-PDI-8.2/plugin-machine-intelligence-1.5.zip</package_url>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5.1-post-PDI-8.2/plugin-machine-intelligence-1.5.1.zip</package_url>
       <min_parent_version>8.2</min_parent_version>
       <development_stage>
         <lane>Customer</lane>
@@ -6716,9 +6734,9 @@ any translation issues or suggestions for improvement
       </version>
       <version>
 	<branch>Trunk</branch>
-	<version>1.5</version>
+	<version>1.5.1</version>
 	<name>Pre PDI 8.2</name>
-      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5-pre-PDI-8.2/plugin-machine-intelligence-1.5.zip</package_url>
+      <package_url>https://github.com/pentaho-labs/pentaho-machine-intelligence/releases/download/v1.5.1-pre-PDI-8.2/plugin-machine-intelligence-1.5.1.zip</package_url>
       <min_parent_version>7.0</min_parent_version>
       <max_parent_version>8.1.99</max_parent_version>
       <development_stage>
@@ -9834,6 +9852,15 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
     <author_url>http://funpdi.blogspot.com</author_url>
     <documentation_url>https://github.com/mattyb149/pdi-script-extension-points/wiki</documentation_url>
     <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.2</version>
+        <package_url>https://github.com/Therigy/pdi-script-extension-points/releases/download/v1.2.0/pdi-script-extension-points-1.2.zip</package_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
       <version>
         <branch>Stable</branch>
         <version>1.1</version>
@@ -13048,8 +13075,8 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
  <versions>
     <version>
       <branch>Stable</branch>
-      <version>1.0.3</version>
-      <package_url>https://github.com/kleineroscar/ReadExcelHeader/releases/download/v1.0.3/ReadExcelHeader-1.0.3.zip</package_url>
+      <version>1.2.2</version>
+      <package_url>https://github.com/kleineroscar/ReadExcelHeader/releases/download/v1.2.2/ReadExcelHeader-1.2.2.zip</package_url>
       <development_stage>
         <lane>Community</lane>
         <phase>1</phase>
@@ -13175,46 +13202,19 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <license>Free</license>
     <dependencies>mondrian</dependencies>
     <versions>
-      <version>
-        <branch>STABLE</branch>
-        <version>3.21</version>
-        <name>Stable 3.21</name>
-        <package_url>
-         https://sourceforge.net/projects/datafor-visualizer/files/V3.21/datafor.zip/download
-        </package_url>
-        <description>Release 3.21</description>
-        <min_parent_version>3.2</min_parent_version>
-        <development_stage>
-          <lane>Community</lane>
-          <phase>4</phase>
-        </development_stage>
-      </version>
 	  <version>
-		<branch>
-			STABLE
-		</branch>
-		<version>
-			3.3
-		</version>
-		<name>
-			Stable 3.3
-		</name>
+		<branch>STABLE</branch>
+		<build_id>datafor-2020-07-15</build_id>
+		<version>3.3</version>
+		<name>Stable 3.3</name>
 		<package_url>
 			https://sourceforge.net/projects/datafor-visualizer/files/V3.3/datafor.zip/download
 		</package_url>
-		<description>
-			Release 3.3
-		</description>
-		<min_parent_version>
-			3.3
-		</min_parent_version>
+		<description>Release 3.3</description>
+		<min_parent_version>7.0</min_parent_version>
 		<development_stage>
-			<lane>
-				Community
-			</lane>
-			<phase>
-				4
-			</phase>
+			<lane>Community</lane>
+			<phase>4</phase>
 		</development_stage>
 	  </version>	  
     </versions>
@@ -13224,7 +13224,43 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
       <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case3.jpg</screenshot>
     </screenshots>
   </market_entry>
-  
-  
-  
+
+  <market_entry>
+    <id>rocketchat-message-client</id>
+    <type>Step</type>
+    <name>Rocketchat Message Client</name>
+    <category>
+        <name>Enhancements</name>
+        <parent>
+            <name>PDI Plugins</name>
+        </parent>
+    </category>
+
+    <description>Send messages to a rocketchat server. Target channel, sender alias and sender icon are customizable.</description>
+    <documentation_url>https://github.com/Talon24/kettle-rocketchat</documentation_url>
+    <author>Talon24</author>
+    <forum_url>https://github.com/Talon24/kettle-rocketchat</forum_url>
+    <cases_url>https://github.com/Talon24/kettle-rocketchat/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see:
+    http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <support_message>Support by author and/or GitHub community</support_message>
+    <support_organization>none</support_organization>
+    <support_url>https://github.com/Talon24/kettle-rocketchat/issues</support_url>
+    <versions>
+    <version>
+        <branch>Stable</branch>
+        <version>1.0.0</version>
+        <package_url>https://github.com/Talon24/kettle-rocketchat/releases/download/1.0.0/rocketchat-plugin.zip</package_url>
+        <development_stage>
+            <lane>Community</lane>
+            <phase>3</phase>
+        </development_stage>
+    </version>
+    </versions>
+  </market_entry>
+
+
+
 </market>
