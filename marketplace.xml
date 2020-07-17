@@ -13206,6 +13206,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
         <branch>STABLE</branch>
         <version>3.3</version>
         <name>Stable 3.3</name>
+	<build_id>datafor-2020-07-15</build_id>
         <package_url>
          https://sourceforge.net/projects/datafor-visualizer/files/V3.3/datafor.zip/download
         </package_url>
