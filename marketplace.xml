@@ -1487,7 +1487,6 @@ https://public.nexus.pentaho.org/content/groups/omni/org/pentaho/ctools/sparkl/9
     solution repository of Pentaho 5 by keeping the disk-based file
     structure synchronized with the Pentaho internal solution
     repository (JCR).<br/><br/>
-
     This is a pilot release, use at your own risk and report any issues
     / feedback back to <a target="_blank"
     href="http://redmine.webdetails.org/projects/prs">Webdetails
@@ -2526,18 +2525,13 @@ It represents runtimes and detail of the busiest periods of the platform, also a
 		<description>
 		<![CDATA[
 		<b>What is Saiku Chart Plus?</b> <br><br>
-
 		It is an open source project that helps Pentaho BI users to create other types of charts and maps based on Saiku Project, Highcharts and Google Maps.<BR><BR>
-
-
 		<br>
 			<iframe width="560" height="315" src="//www.youtube.com/embed/ovyQ1GQAbeE" frameborder="0" allowfullscreen></iframe>
 		<br>
-
 		<br><br>
 		<b>Requirements</b><br>
 		<font color="red">Uninstall your Saiku version and install Saiku version 3, this is really necessary!</font>
-
 		<br><br>
 		Feel free to <a target='NO_BLANK' href='https://github.com/it4biz/SaikuChartPlus/issues'>create a issue</a>.<br>
 		]]>
@@ -2589,20 +2583,16 @@ It represents runtimes and detail of the busiest periods of the platform, also a
     <description>
       <![CDATA[
                <h3><b>What is Pentaho CE Audit Plugin?</b></h3>
-
 <p>It is an open source project that helps Pentaho BI Admin users to visualize statistics like:</p>
-
 <ul>
 	<li>Who is logging in the BI Portal (Pentaho BI Server)?</li>
 	<li>When are the users using the BI Portal?</li>
 	<li>What is the content with more access?</li>
 	<li>And a lot of others infos about the use of the BI Portal.</li>
 </ul>
-
 <p color="red"> This plug-in will apply automatically an Environment configuration, if you want to know more about it please visit
 the link <a target='NO_BLANK' href='http://infocenter.pentaho.com/help48/index.jsp?topic=%2Fadmin_guide%2Ftask_switching_to_file_based_logging.html'>Pentaho InfoCenter.</a>
 </p>
-
 <p>For more information <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-ce-audit/'>visit our site</a>.</p>
 <p>Feel free to <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-ce-audit/issues'>create a issue</a>.</p>
 ]]>
@@ -2614,11 +2604,8 @@ the link <a target='NO_BLANK' href='http://infocenter.pentaho.com/help48/index.j
     <dependencies>CDF, CDA, CDE</dependencies>
 	<installation_notes>
       <![CDATA[You can run the Pentaho CE Audit Installer as an administrator from the Tools menu. The installer will make some Environment configurations, requiring a reboot in the end.  <br /><br />
-
 Please note that if you upgrade Pentaho CE Audit, you will need to run the Pentaho CE Audit Installer again. <br /><br/>
-
 It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin Screen to get the most updated data.
-
       ]]>
 	</installation_notes>
     <versions>
@@ -2663,7 +2650,6 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
     <description>
       <![CDATA[
                <h3><b>Pentaho Performance Monitoring Plugin</b></h3>
-
 <p>The plugin is an open source project that helps Pentaho BI Administrators visualize performance statistics.</p>
 <p>Examples include:</p>
 <ul>
@@ -2672,14 +2658,11 @@ It is mandatory to click on the "Refresh Button" on the Pentaho CE Audit Admin S
     <li>Measures for which queries take the longest time to execute</li>
     <li>Many other statistics are captures and available as well as the examples above.</li>
 </ul>
-
 <p color="red"> This plug-in will apply automatically an Environment configuration, if you want to know more about it please visit
 the link <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performance-monitoring#learn-more'>Github documentation.</a>
 </p>
-
 <p>For more information <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performance-monitoring/'>visit our site</a>.</p>
 <p>Feel free to <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performance-monitoring/issues'>create a issue</a>.</p>
-
 ]]>
     </description>
     <author>IT4biz</author>
@@ -2689,11 +2672,8 @@ the link <a target='NO_BLANK' href='https://github.com/it4biz/pentaho-performanc
     <dependencies>CDF, CDA, CDE</dependencies>
     <installation_notes>
       <![CDATA[You can run the Pentaho Performance Monitoring Installer as an administrator from the Tools menu. The installer will make some Environment configurations, requiring a reboot in the end.  <br /><br />
-
 Please note that if you upgrade Pentaho Performance Monitoring, you will need to run the Pentaho Performance Monitoring Installer again. <br /><br/>
-
 It is mandatory to click on the "Refresh Button" on the Pentaho Performance Monitoring Admin Screen to get the most updated data.
-
       ]]>
     </installation_notes>
     <versions>
@@ -4261,9 +4241,7 @@ Some <a href="http://bonomma.blogspot.it/2017/01/btable-pre-or-post-installation
                </blockquote>
                <br>
                <iframe width="560" height="315" src="//www.youtube.com/embed/CgdNjdTi31w" frameborder="0" allowfullscreen></iframe>     <br>
-
                </article>
-
                <br><br>
                For more information <a target='NO_BLANK' href='https://github.com/diethardsteiner/bissolTableDataEditor'>visit the Github project site</a>.<br>
                Please report issues and improvement ideas on <a target='NO_BLANK' href='https://github.com/diethardsteiner/bissolTableDataEditor/issues'>GitHub</a>
@@ -4452,13 +4430,10 @@ http://www.apache.org/licenses/LICENSE-2.0</license_text>
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -4566,7 +4541,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Dutch language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -4583,13 +4557,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -4696,7 +4667,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the French language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -4714,13 +4684,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -4842,10 +4809,8 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
           the Tools menu. The installer will then copy the language packs over your
           installation, requiring a server restart in the end. You might also need to clear the browser's cache. <br /><br />
-
           Please note that if you upgrade one of the translated plugins, you will
           need to run the Language Pack Installer again. <br /><br/>
-
           Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
           any translation issues or suggestions for improvement
       ]]>
@@ -4917,7 +4882,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the German language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -4935,13 +4899,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -5047,7 +5008,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Hindi language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -5064,13 +5024,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -5176,7 +5133,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Italian language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -5195,13 +5151,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -5307,7 +5260,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Japanese language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -5325,13 +5277,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -5438,7 +5387,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Korean language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -5456,13 +5404,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -5568,7 +5513,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -5588,13 +5532,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -5699,7 +5640,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Portuguese language (European variant) in Pentaho 5 <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -5720,13 +5660,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -5833,7 +5770,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Thai language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -5851,13 +5787,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -5963,7 +5896,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
       This plugin installs language definitions for the Tamil language in Pentaho <br /><br />
-
       Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
       any translation issues or suggestions for improvement
       ]]>
@@ -5984,10 +5916,8 @@ any translation issues or suggestions for improvement
       installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
       Please note that if you upgrade one of the translated plugins, you will
       need to run the Language Pack Installer again. <br /><br/>
-
       Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
       any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -6045,7 +5975,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Spanish language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -6063,13 +5992,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -6158,7 +6084,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Swedish language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -6176,13 +6101,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -6270,7 +6192,6 @@ any translation issues or suggestions for improvement
     <description>
       <![CDATA[
                This plugin installs language definitions for the Simplified Chinese language in Pentaho <br /><br />
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
       ]]>
@@ -6288,13 +6209,10 @@ any translation issues or suggestions for improvement
       <![CDATA[You can run the Language Pack Installer as an administrator from
                the Tools menu. The installer will then copy the language packs over your
                installation, requiring a server restart in the end.  You might also need to clear the browser's cache. <br /><br />
-
 Please note that if you upgrade one of the translated plugins, you will
 need to run the Language Pack Installer again. <br /><br/>
-
 Report <a href="http://redmine.webdetails.org/projects/lpi">here</a>
 any translation issues or suggestions for improvement
-
       ]]>
     </installation_notes>
     <versions>
@@ -9706,7 +9624,6 @@ With this plugin you can:
 		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
 		<description><![CDATA[This plugin is required for the "ARS Output (BMC Remedy)" step plugin.
 It's not working with other database based plugins.
-
 ** THE AR SYSTEM API JARS ARE NOT INCLUDED, YOU NEED TO **
 ** COPY THE JARS INTO THE DATA-INTEGRATION LIB DIRECTORY. **
 If you use api < 7.5 or running the plugin against a remedy version < 7.5, you need to copy the native libs
@@ -9763,7 +9680,6 @@ in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installati
         </category>
 		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
 		<description><![CDATA[This plugin allow to write to a BMC Remedy AR System server.
-
 ** THIS PLUGIN REQURIES THE AR-SYSTEM DATABASE PLUGIN "ARS Server (BMC Remedy)" **
 ( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
 ]]></description>
@@ -9805,7 +9721,6 @@ in addition and to adjust the PATH/LD_LIBRARY_PATH variables. See the installati
         </category>
 		<documentation_url>https://sourceforge.net/p/arsoutputplugin/wiki/Home/</documentation_url>
 		<description><![CDATA[This plugin allow to read fromo a BMC Remedy AR System server.
-
 ** THIS PLUGIN REQURIES THE AR-SYSTEM DATABASE PLUGIN "ARS Server (BMC Remedy)" **
 ( readme.txt within the plugin path or https://sourceforge.net/p/arsoutputplugin/wiki/Installation/)
 ]]></description>
@@ -11237,17 +11152,13 @@ Capabilities:
     <documentation_url>https://github.com/bennychow/weka-analyzer-viz/raw/master/tutorial/Weka%20Visualizations%20Tutorial.docx</documentation_url>
     <description>
 <![CDATA[
-
 <p>For tutorials and developer guide see: <a href="https://github.com/bennychow/weka-analyzer-viz/raw/master/tutorial/Weka%20Visualizations%20Tutorial.docx">Weka Visualizations Tutorial</a><p>
-
 <p>Includes three easy to use Analyzer visualizations that allow you to run machine learning algorithms in Weka.  The following algorithms are included:</p>
-
 <ul>
 	<li>Decision Tree - Use this classification algorithm to find rules that predict an outcome.</li>
 	<li>Clustering - Find similiar groups of instances and optionally test against a desired outcome.</li>
 	<li>Attribute Selection - Identify which attributes are most predictive for an outcome.</li>
 </ul>
-
 <p><b>This plugin adds visualizations to Analyzer and thus requires Pentaho Enterprise Edition.</b></p>
 ]]>
     </description>
@@ -12156,7 +12067,6 @@ Capabilities:
     </category>
     <description>
 	<![CDATA[
-
   This plugin provides a <a href="https://www.ruby-lang.org/en/">ruby</a> scripting step similar to the javascript and user defined java class steps.
   <br><br>
   A comprehensive set of samples is available in the step dialog.
@@ -12166,12 +12076,9 @@ Capabilities:
   The source code is available at <a href="https://github.com/twineworks/ruby-for-pentaho-kettle">https://github.com/twineworks/ruby-for-pentaho-kettle</a>.
   <hr>
   <h2>Supported versions of PDI</h2>
-
   The plugin is built and <a href="https://travis-ci.org/twineworks/ruby-for-pentaho-kettle">tested</a> against the most recent versions of PDI <strong>5.x</strong>, <strong>6.x</strong> and <strong>7.x</strong>.
-
   <hr>
   <h2>Features at a glance</h2>
-
   <ul>
     <li>rows are represented as hashes, indexed by field name</li>
     <li>automatic conversion between all kettle data types and ruby types</li>
@@ -13183,7 +13090,6 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
 <li>Dashboards/Reports </li>
 <li>Agile BI </li>
 </ul>
-
 <h2>Features:</h2>
 <ul>
 <li>Easy to use: drag-and-drop design, intelligent data panel, WYSIWYG, suitable for business personnel.</li>
@@ -13204,18 +13110,42 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <versions>
       <version>
         <branch>STABLE</branch>
-        <version>3.3</version>
-        <name>Stable 3.3</name>
+        <version>3.21</version>
+        <name>Stable 3.21</name>
         <package_url>
-         https://sourceforge.net/projects/datafor-visualizer/files/V3.3/datafor.zip/download
+         https://sourceforge.net/projects/datafor-visualizer/files/V3.21/datafor.zip/download
         </package_url>
-        <description>Release 3.3</description>
-        <min_parent_version>7.0</min_parent_version>
+        <description>Release 3.21</description>
+        <min_parent_version>3.2</min_parent_version>
         <development_stage>
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
-      </version>	  
+      </version>
+	  <version>
+		<branch>
+			STABLE
+		</branch>
+		<version>
+			3.3
+		</version>
+		<name>
+			Stable 3.3
+		</name>
+		<package_url>
+			https://sourceforge.net/projects/datafor-visualizer/files/V3.3/datafor.zip/download
+		</package_url>
+		<description>
+			Release 3.3
+		</description>
+		<min_parent_version>
+			3.3
+		</min_parent_version>
+		<development_stage>
+			<lane>Community</lane>
+			<phase>4</phase>
+		</development_stage>
+	  </version>	  
     </versions>
     <screenshots>
       <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case1.jpg</screenshot>
