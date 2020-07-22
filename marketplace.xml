@@ -1,3 +1,16 @@
+<!--
+@Author: 美神猎手
+@Date:   2020-07-22T10:34:47+08:00
+@Email:  meishenlieshou@gmail.com
+@Project: Datafor
+@Filename: marketplace.xml
+@Last modified by:   美神猎手
+@Last modified time: 2020-07-22T10:35:23+08:00
+@License: 收费
+@Copyright: 上海数为信息技术有限公司
+-->
+
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <market xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/pentaho/marketplace-metadata/master/marketplace.xsd">
 
@@ -13054,12 +13067,12 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
   <id>read-excel-header</id>
   <type>Step</type>
   <name>Read Excel Header</name>
-  <category> 
+  <category>
     <name>Enhancements</name>
     <parent>
       <name>PDI Plugins</name>
     </parent>
-  </category> 
+  </category>
   <description>This step provides you with the column names and types from a excel file.</description>
   <documentation_url>https://github.com/kleineroscar/ReadExcelHeader</documentation_url>
   <author>Oscar Heimbrecht</author>
@@ -13118,13 +13131,13 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <support_message>Supported by the Pentaho Data Integration developer community.</support_message>
     <support_organization>Pentaho Developer Community</support_organization>
     <support_url>http://kettle.pentaho.com</support_url>
-     <screenshots> 
+     <screenshots>
     <screenshot>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matriculados_por_genero.PNG</screenshot>
     <screenshot>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matriculados_por_genero_ETL.PNG</screenshot>
     <screenshot>https://raw.githubusercontent.com/danielpascual95/CustomStepPDI/master/Imagenes/Matrculados_por_genero_grafica.PNG</screenshot>
 	</screenshots>
   </market_entry>
-  
+
 <market_entry>
     <id>PentahoGoogleSheetsPlugin</id>
 		<type>Step</type>
@@ -13158,9 +13171,9 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
         </development_stage>
       </version>
     </versions>
-  </market_entry>  
-  
-  
+  </market_entry>
+
+
  <market_entry>
     <id>datafor</id>
     <type>Platform</type>
@@ -13203,7 +13216,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <dependencies>mondrian</dependencies>
     <versions>
       <version>
-        <branch>STABLE</branch>
+        <branch>free</branch>
         <version>3.3</version>
         <name>Stable 3.3</name>
 	<build_id>datafor-2020-07-15</build_id>
@@ -13216,7 +13229,7 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
           <lane>Community</lane>
           <phase>4</phase>
         </development_stage>
-      </version>  
+      </version>
     </versions>
     <screenshots>
       <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case1.jpg</screenshot>
