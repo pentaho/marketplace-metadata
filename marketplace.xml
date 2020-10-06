@@ -762,6 +762,28 @@
           <phase>2</phase>
         </development_stage>
       </version>
+
+      <version>
+        <branch>9.1.0.0</branch>
+        <version>9.1.0.0-101</version>
+
+        <name>9.1</name>
+        <description>9.1 Platform Release</description>
+
+        <package_url>
+          https://public.nexus.pentaho.org/repository/omni/org/pentaho/jpivot-plugin/9.1.0.0-101/jpivot-plugin-9.1.0.0-101.zip
+        </package_url>
+
+        <min_parent_version>9.1</min_parent_version>
+        <max_parent_version>9.1.99</max_parent_version>
+
+        <development_stage>
+          <lane>Customer</lane>
+          <phase>2</phase>
+        </development_stage>
+      </version>
+
+
     </versions>
   </market_entry>
 
