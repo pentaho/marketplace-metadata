@@ -2515,7 +2515,7 @@ It represents runtimes and detail of the busiest periods of the platform, also a
         <name>Stable (Community)</name>
         <package_url>http://downloads.meteorite.bi/saiku3/saiku-plugin-p7.1-3.90.zip</package_url>
         <description>3.90 release for the Saiku Plugin.</description>
-        <max_parent_version>8.1</max_parent_version>
+        <max_parent_version>9.9</max_parent_version>
         <min_parent_version>7.0</min_parent_version>
           <development_stage>
           <lane>Community</lane>
