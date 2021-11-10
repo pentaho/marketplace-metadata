@@ -13203,6 +13203,42 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     </versions>
   </market_entry>
 
-
+<market_entry>
+    <id>GetIpPlugin</id>
+    <type>Step</type>
+    <name>PDI Get IP Plugin</name>
+    <category>
+      <name>Utility</name>
+      <parent>
+        <name>PDI Plugins</name>
+      </parent>
+    </category>
+    <description>This plugin allows you to obtain the Public IP of the server where kettle is running</description>
+    <author>Reynaldo Claros</author>
+    <author_url>https://reynaldoclaros.com</author_url>
+    <author_logo>https://avatars.githubusercontent.com/u/17392358?v=4</author_logo>
+    <documentation_url>https://github.com/rclaros/pdi-get-ip-plugin/blob/main/README.md</documentation_url>
+    <cases_url>https://github.com/rclaros/pdi-get-ip-plugin/issues</cases_url>
+    <license_name>Apache License 2.0</license_name>
+    <license_text>For more details see: http://www.apache.org/licenses/LICENSE-2.0.html</license_text>
+    <img>https://raw.githubusercontent.com/rclaros/pdi-get-ip-plugin/main/step-ui.png</img>
+    <support_level>COMMUNITY_SUPPORTED</support_level>
+    <versions>
+      <version>
+        <branch>Stable</branch>
+        <version>1.0.0</version>
+        <name>1.0</name>
+        <package_url>https://github.com/rclaros/pdi-get-ip-plugin/raw/main/releases/pdi-get-ip-plugin-1.0.0.zip</package_url>
+        <samples_url>https://github.com/rclaros/pdi-get-ip-plugin</samples_url>
+        <development_stage>
+          <lane>Community</lane>
+          <phase>3</phase>
+        </development_stage>
+      </version>
+    </versions>
+    <screenshots> 
+     <screenshot>https://raw.githubusercontent.com/rclaros/pdi-get-ip-plugin/main/step-ui.png</screenshot>
+    </screenshots>
+  </market_entry>
 
 </market>
