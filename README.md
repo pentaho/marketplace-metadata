@@ -7,7 +7,7 @@ You can learn more about Pentaho's BA Server Marketplace here:
 http://github.com/pentaho/marketplace
 
 You can learn more about the Kettle Marketplace here:
-http://wiki.pentaho.com/display/EAI/Marketplace
+https://pentaho-community.atlassian.net/wiki/display/EAI/Marketplace
 
 How to register your plugin
 ---------------------------
@@ -140,7 +140,7 @@ The development stage is a project maturity classification with a two-lane appro
 How do I develop a plugin?
 --------------------------
 Link to BA Server Plugin Documentation:
-http://wiki.pentaho.com/display/ServerDoc2x/Developing+Plugins
+https://pentaho-community.atlassian.net/wiki/display/ServerDoc2x/Developing+Plugins
 
 Link to the Pentaho InfoCenter SDK "Extending Pentaho Data Integration"
 http://infocenter.pentaho.com/help/topic/pdi_embed_extend_guide/concept_extending_PDI.html
