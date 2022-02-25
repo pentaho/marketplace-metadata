@@ -11,7 +11,7 @@
     <img>http://www.webdetails.pt/ficheiros/mk.png</img>
     <small_img>http://www.webdetails.pt/ficheiros/mk_plugin.png</small_img>
     <name>Pentaho Marketplace</name>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>Provide Pentaho, Partners, and Community Developers a marketplace for plugins within the BI Server product.</description>
     <author>Pentaho</author>
     <author_url>http://pentaho.com</author_url>
@@ -46,7 +46,7 @@
         <name>Apps</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>
       Pentaho Marketplace allows users to explore and test the plugins
       that are most relevant to them. This means high quality and useful
@@ -90,7 +90,7 @@
         <name>Apps</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/PMOPEN/Pentaho+BI+Server+Marketplace+Plugin</documentation_url>
     <description>
       Pentaho Marketplace allows users to explore and test the plugins
       that are most relevant to them. This means high quality and useful
@@ -6651,7 +6651,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin also contains the GPL MySQL JDBC Driver version 5</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/MySQL</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/MySQL</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -6890,7 +6890,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin also contains the NuoDB JDBC Driver</description>
     <author>NuoDB</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/NuoDB</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/NuoDB</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7093,7 +7093,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the SSH2 Get and SSH2 Put job entries which were removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Job+Entries</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Job+Entries</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7128,7 +7128,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the Aggregate Rows step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7163,7 +7163,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the Get Previous Row Fields step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7198,7 +7198,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the Streaming XML Input step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7233,7 +7233,7 @@ any translation issues or suggestions for improvement
     </category>
     <description>This plugin contains the XML Input step which was removed from PDI in 6.0</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7270,7 +7270,7 @@ any translation issues or suggestions for improvement
       using a COPY FROM STDIN statement through JDBC
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -7310,12 +7310,12 @@ any translation issues or suggestions for improvement
       Please consult the documentation referenced below as well as the linked source code.
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
         <version>4.4</version>
-        <package_url>http://wiki.pentaho.com/download/attachments/23531011/DummyPlugin.zip</package_url>
+        <package_url>https://pentaho-community.atlassian.net/wiki/download/attachments/23531011/DummyPlugin.zip</package_url>
         <source_url>http://source.pentaho.org/svnkettleroot/plugins/DummyPlugin/trunk/</source_url>
         <development_stage>
 <lane>Community</lane>
@@ -7477,7 +7477,7 @@ With this plugin you can:
     </category>
     <description>This plugin allows users to install Kettle plugins from the Pentaho Marketplace.</description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -8509,7 +8509,7 @@ With this plugin you can:
       PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -8550,7 +8550,7 @@ With this plugin you can:
       PDI 5.0.x, and is not compatible with prior versions (4.x, etc.).
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -8698,7 +8698,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Consumer</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Apache+Kafka+Consumer</documentation_url>
     <description>The plug-in allows reading binary messages from Apache Kafka message queue.</description>
     <author>Ruckus Wireless</author>
     <author_url>http://ruckuswireless.com</author_url>
@@ -8735,7 +8735,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Apache+Kafka+Producer</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Apache+Kafka+Producer</documentation_url>
     <description>The plug-in allows sending binary messages over Apache Kafka message queue.</description>
     <author>Ruckus Wireless</author>
     <author_url>http://ruckuswireless.com</author_url>
@@ -8863,7 +8863,7 @@ With this plugin you can:
         <name>PDI Plugins</name>
       </parent>
     </category>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Google+Protocol+Buffers+Decoder</documentation_url>
     <description>The Kettle transformation plug-in allows decoding binary messages encoded using Google Protocol
       Buffers.
     </description>
@@ -8984,7 +8984,7 @@ With this plugin you can:
       result.
       This step detects identical, changed, added and removed rows.
     </description>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Compare+Fields</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Compare+Fields</documentation_url>
     <author>Matt Casters / Pentaho</author>
     <forum_url>forums.pentaho.com/forumdisplay.php?135-Pentaho-Data-Integration-Kettle</forum_url>
     <cases_url>http://jira.pentaho.com/browse/PDI</cases_url>
@@ -9348,7 +9348,7 @@ With this plugin you can:
       Upsert.
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/Teradata+TPT+Insert+Upsert+Bulk+Loader</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Teradata+TPT+Insert+Upsert+Bulk+Loader</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -11094,7 +11094,7 @@ Capabilities:
       PDI 6.0+.
     </description>
     <author>Pentaho</author>
-    <documentation_url>http://wiki.pentaho.com/display/EAI/The+PDI+SDK</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/The+PDI+SDK</documentation_url>
     <versions>
       <version>
         <branch>Stable</branch>
@@ -11840,7 +11840,7 @@ Capabilities:
       This plugin contains the Apache2 Odoo Java API, and is based on the old OpenERP plugin from De Bortoli Wines Pty Limited (Australia).
       Note: you probably also want to copy this plugin to your Pentaho BA server (server/pentaho-server/pentaho-solutions/system/kettle/plugins).
     </description>
-    <documentation_url>http://wiki.pentaho.com/display/EAI</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI</documentation_url>
     <author>West IT Solutions</author>
     <author_url>https://www.west.nl/</author_url>
     <author_logo>https://www.west.nl/pentaho-marketplace/West-logo-small.png</author_logo>
@@ -12969,7 +12969,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     </category>
     <description>This plugin is for Pentaho Data integration (ETL) a.k.a kettle. Loads as: OpenERPInput, OpenERPOutput, OpenERPDelete</description>
     <author>Pentaho</author>
-    <documentation_url>https://wiki.pentaho.com/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
+    <documentation_url>https://pentaho-community.atlassian.net/wiki/display/EAI/Pentaho+Data+Integration+Steps</documentation_url>
     <versions>
       <version>
         <branch>8.2</branch>
