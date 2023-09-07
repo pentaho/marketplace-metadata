@@ -13146,12 +13146,12 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <versions>
 	<version>
 		<branch>STABLE</branch>
-		<version>5.02</version>
-		<name>Stable 5.02</name>
+		<version>5.10</version>
+		<name>Stable 5.10</name>
 		<package_url>
-			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/datafor.5.02.zip/download
+			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/visualizer5.10.zip/download
 		</package_url>
-		<description>Release 5.02</description>
+		<description>Release 5.10</description>
 		<min_parent_version>9.00</min_parent_version>
 		<development_stage>
 			<lane>Community</lane>
