@@ -13108,7 +13108,7 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <type>Platform</type>
     <img>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</img>
     <small_img/>
-    <name>Datafor-visualizer(free version)</name>
+    <name>Datafor-visualizer</name>
     <category>
       <name>Dashboards</name>
       <parent>
@@ -13146,12 +13146,12 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <versions>
 	<version>
 		<branch>STABLE</branch>
-		<version>6.05</version>
-		<name>Stable 6.05</name>
+		<version>6.06</version>
+		<name>Stable 6.06</name>
 		<package_url>
-			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.05.zip/download
+			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.06.zip/download
 		</package_url>
-		<description>Release 6.05</description>
+		<description>Release 6.06</description>
 		<min_parent_version>9.00</min_parent_version>
 		<development_stage>
 			<lane>Community</lane>
