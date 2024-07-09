@@ -13108,50 +13108,46 @@ Uses the MarkLogic Data Movement Java SDK. Works with MarkLogic 9.0 and above on
     <type>Platform</type>
     <img>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</img>
     <small_img/>
-    <name>Datafor-visualizer(free version)</name>
+    <name>Visualizer</name>
     <category>
       <name>Dashboards</name>
       <parent>
         <name>Apps</name>
       </parent>
     </category>
-    <documentation_url>https://github.com/ivylabs/IvyDC/blob/master/README.md</documentation_url>
+    <documentation_url>https://help.datafor.com.cn/docs/en/</documentation_url>
     <description>
       <![CDATA[
 <article>
-<h1>Visualizer usage scenarios:</h1>
-<ul>
-<li>Data visualization and analysis</li>
-<li>Dashboards/Reports </li>
-<li>Agile BI </li>
-</ul>
+<h1>Visualizer is a self-service BI tool that offers intuitive data visualization and analysis, empowering users to explore, analyze, and make informed decisions efficiently.</h1>
 
 <h2>Features:</h2>
 <ul>
-<li>Easy to use: drag-and-drop design, intelligent data panel, WYSIWYG, suitable for business personnel.</li>
-<li>Visualization elements: including Bar chart, Line chart, Area chart, Pie chart, Map etc.</li>
-<li>Style: rich style setting items, including font, color, layout, size.</li>
-<li>Analysis: drill-down, linkage, jump, rotation, slicing, advanced filtering, etc.</li>
+<li>Powerful analytics for various data types.</li>
+<li>Easy-to-use reports and dashboards.</li>
+<li>Self-service analytics for non-tech users.</li>
+<li>Real-time monitoring of business operations.</li>
+<li>Mobile access for data-driven decisions.</li>
 </ul>
 </article>
 <br><br>
 For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>please visit our site</a>.<br>
       ]]>
     </description>
-    <author>Shanghai Datafor</author>
+    <author>Datafor</author>
     <author_url>http://www.datafor.com.cn</author_url>
     <author_logo>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</author_logo>
-    <license>Free</license>
+    <license>Commercial</license>
     <dependencies>mondrian</dependencies>
     <versions>
 	<version>
 		<branch>STABLE</branch>
-		<version>6.05</version>
-		<name>Stable 6.05</name>
+		<version>6.06</version>
+		<name>Stable 6.06</name>
 		<package_url>
-			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.05.zip/download
+			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.06.zip/download
 		</package_url>
-		<description>Release 6.05</description>
+		<description>Release 6.06</description>
 		<min_parent_version>9.00</min_parent_version>
 		<development_stage>
 			<lane>Community</lane>
@@ -13163,6 +13159,8 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
       <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case1.jpg</screenshot>
       <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case2.jpg</screenshot>
       <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case3.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case4.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/case5.jpg</screenshot>
     </screenshots>
   </market_entry>
 
