@@ -13138,17 +13138,16 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <author_url>http://www.datafor.com.cn</author_url>
     <author_logo>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</author_logo>
     <license>Commercial</license>
-    <dependencies>mondrian</dependencies>
     <versions>
 	<version>
 		<branch>STABLE</branch>
-		<version>6.06</version>
-		<name>Stable 6.06</name>
+		<version>6.08.3</version>
+		<name>Stable 6.08.3</name>
 		<package_url>
-			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.06.zip/download
+			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.08.3.zip/download
 		</package_url>
-		<description>Release 6.06</description>
-		<min_parent_version>9.00</min_parent_version>
+		<description>Release 6.08.3</description>
+		<min_parent_version>6.00</min_parent_version>
 		<development_stage>
 			<lane>Community</lane>
 			<phase>4</phase>
@@ -13235,5 +13234,60 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
      <screenshot>https://raw.githubusercontent.com/rclaros/pdi-get-ip-plugin/main/step-ui.png</screenshot>
     </screenshots>
   </market_entry>
+ <market_entry>
+    <id>datafor-modeler</id>
+    <type>Platform</type>
+    <img>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</img>
+    <small_img/>
+    <name>Modeler</name>
+    <category>
+      <name>Analysis</name>
+      <parent>
+	<name>Apps</name>
+      </parent>
+    </category>
+    <documentation_url>https://help.datafor.com.cn/docs/en/</documentation_url>
+    <description>
+      <![CDATA[
+<article>
+<h1>Modeler facilitates users in building Mondrian Schema models through visual modeling.</h1>
 
+<h2>Features:</h2>
+<ul>
+<li>Supports Mondrian 4</li>
+<li>Compatible with star schema, snowflake schema, and multiple fact tables</li>
+<li>Provides support for calculated fields, calculated measures, and cross-fact table calculations</li>
+<li>Enables dimension field formatting and data dictionary integration</li>
+</ul>
+</article>
+<br><br>
+For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>please visit our site</a>.<br>
+      ]]>
+    </description>
+    <author>Datafor</author>
+    <author_url>https://www.datafor.com.cn</author_url>
+    <author_logo>https://github.com/datafor123/visualizer-free/raw/master/resource/logo_small.png</author_logo>
+    <license>Commercial</license>
+    <versions>
+	<version>
+		<branch>STABLE</branch>
+		<version>3.08.1</version>
+		<name>Stable 3.08.1</name>
+		<package_url>
+			https://sourceforge.net/projects/datafor-visualizer/files/Modeler/Modeler-3.08.1.zip/download
+		</package_url>
+		<description>Release 3.08.1</description>
+		<min_parent_version>3.00</min_parent_version>
+		<development_stage>
+			<lane>Community</lane>
+			<phase>4</phase>
+		</development_stage>
+	  </version>
+    </versions>
+    <screenshots>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/modeler1.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/modeler2.jpg</screenshot>
+      <screenshot>https://github.com/datafor123/visualizer-free/raw/master/resource/modeler3.jpg</screenshot>
+    </screenshots>
+  </market_entry>
 </market>
