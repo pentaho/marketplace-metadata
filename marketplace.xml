@@ -13141,12 +13141,12 @@ For more information <a target='NO_BLANK' href='http://www.datafor.com.cn/'>plea
     <versions>
 	<version>
 		<branch>STABLE</branch>
-		<version>6.08.4</version>
-		<name>Stable 6.08.4</name>
+		<version>6.09.1</version>
+		<name>Stable 6.09.1</name>
 		<package_url>
-			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.08.4.zip/download
+			https://sourceforge.net/projects/datafor-visualizer/files/Visualizer/Visualizer-6.09.1.zip/download
 		</package_url>
-		<description>Release 6.08.4</description>
+		<description>Release 6.09.1</description>
 		<min_parent_version>6.00</min_parent_version>
 		<development_stage>
 			<lane>Community</lane>
@@ -13271,13 +13271,13 @@ For more information <a target='NO_BLANK' href='https://www.datafor.com.cn/'>ple
     <versions>
 	<version>
 		<branch>STABLE</branch>
-		<version>3.08.2</version>
-		<name>Stable 3.08.2</name>
+		<version>4.01</version>
+		<name>Stable 4.01</name>
 		<package_url>
-			https://sourceforge.net/projects/datafor-visualizer/files/Modeler/Modeler-3.08.2.zip/download
+			https://sourceforge.net/projects/datafor-visualizer/files/Modeler/Modeler-4.0.1.zip/download
 		</package_url>
-		<description>Release 3.08.2</description>
-		<min_parent_version>3.00</min_parent_version>
+		<description>Release 4.01</description>
+		<min_parent_version>4.00</min_parent_version>
 		<development_stage>
 			<lane>Community</lane>
 			<phase>4</phase>
