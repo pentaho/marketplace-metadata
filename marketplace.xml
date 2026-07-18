@@ -9896,7 +9896,7 @@ Version 1.1 includes Kettle Lifecycle (environmentInit, environmentShutdown) and
       <version>
         <branch>Stable</branch>
         <version>1.2</version>
-        <package_url>https://github.com/Therigy/pdi-script-extension-points/releases/download/v1.2.0/pdi-script-extension-points-1.2.zip</package_url>
+        <package_url>https://github.com/matthewtckr/pdi-script-extension-points/releases/download/v1.2.0/pdi-script-extension-points-1.2.zip</package_url>
         <development_stage>
           <lane>Community</lane>
           <phase>3</phase>
